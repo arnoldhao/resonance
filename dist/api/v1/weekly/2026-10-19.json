@@ -1,0 +1,2663 @@
+{
+  "weekStart": "2026-10-19",
+  "weekEnd": "2026-10-25",
+  "mode": "live",
+  "generatedAt": "2026-10-22T17:25:39.365Z",
+  "asOfDate": "2026-10-23",
+  "status": "provisional",
+  "methodology": {
+    "version": "weekly-1.0",
+    "baseVersion": "1.1",
+    "formula": "周得分 = 同口径有效日得分之和 ÷ 有效天数；有效日未进入计分窗口记 0，缺失日与排除日不进入分母",
+    "rankDepth": 50,
+    "groupWeights": {
+      "tme": 0.4,
+      "netease": 0.3,
+      "apple": 0.2,
+      "qishui": 0.1
+    }
+  },
+  "comparisonSignature": "1.1|97c4a1c82e44|apple,kugou,kuwo,netease,qishui,qq",
+  "coverage": {
+    "observedDays": 1,
+    "expectedDays": 7,
+    "includedDates": [
+      "2026-10-23"
+    ],
+    "missingDates": [
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-24",
+      "2026-10-25"
+    ],
+    "excludedDates": [
+      {
+        "date": "2026-10-22",
+        "reason": "与本周最新日榜的比较口径不同"
+      }
+    ],
+    "latestIncludedDate": "2026-10-23",
+    "comparisonAvailable": false,
+    "sourceCoverage": {
+      "available": 6,
+      "expected": 6,
+      "groups": 4,
+      "groupTotal": 4,
+      "status": "complete"
+    }
+  },
+  "songs": [
+    {
+      "id": "5d47cfe6c7e99d6278ff",
+      "title": "我不难过",
+      "artists": [
+        "孙燕姿"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004VSvF52mQoQp.jpg",
+      "rank": 1,
+      "score": 90.5107,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 90.5107
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "487bb610752a82429d35",
+      "title": "甲乙丙丁 (你我怎么两清)",
+      "artists": [
+        "李佳薇"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M00000446QRA1fTdqA.jpg",
+      "rank": 2,
+      "score": 70.3485,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 70.3485
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "6995accbf8affee8f247",
+      "title": "天龙八部之宿敌",
+      "artists": [
+        "许嵩"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002JzRQD2zjvxG.jpg",
+      "rank": 3,
+      "score": 69.4934,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 69.4934
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "8c0daa3d1077edcbc6c8",
+      "title": "我怀念的",
+      "artists": [
+        "孙燕姿"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000P3l050Olt27.jpg",
+      "rank": 4,
+      "score": 59.3029,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 59.3029
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "1c4e1a4066e20511f7ab",
+      "title": "恋人",
+      "artists": [
+        "李荣浩"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004HaG7p4ZkhXA.jpg",
+      "rank": 5,
+      "score": 55.6767,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 55.6767
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "61c8815b55293dd4a3cd",
+      "title": "雨爱",
+      "artists": [
+        "杨丞琳"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000jcKFG0sQrD0.jpg",
+      "rank": 6,
+      "score": 49.576,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 49.576
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "161752bf9ddec26f6c9c",
+      "title": "开始懂了",
+      "artists": [
+        "孙燕姿"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004KRIQr1oCp2A.jpg",
+      "rank": 7,
+      "score": 44.5941,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 44.5941
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "0547bcb2d1b36134ce08",
+      "title": "情歌",
+      "artists": [
+        "梁静茹"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002E4IXe1ESUij.jpg",
+      "rank": 8,
+      "score": 39.392,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 39.392
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "e1244c31f553568a40f7",
+      "title": "NEON",
+      "artists": [
+        "A2O LITE",
+        "A2O"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001BLmVC0kTjAd.jpg",
+      "rank": 9,
+      "score": 38.9081,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 38.9081
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "6fc75d05e1e3314a888e",
+      "title": "玻璃",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002kIED92uw8L5.jpg",
+      "rank": 10,
+      "score": 35.3231,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 35.3231
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "800b0aab3d68808e892e",
+      "title": "特别的人",
+      "artists": [
+        "方大同"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000GvdTR0qcKh8.jpg",
+      "rank": 11,
+      "score": 32.4862,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 32.4862
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "944510e48666efab2984",
+      "title": "茶汤",
+      "artists": [
+        "郁可唯"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002iWKlh2DcjFL.jpg",
+      "rank": 12,
+      "score": 31.8268,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 31.8268
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "44a84462f6a0527b7c01",
+      "title": "唯一",
+      "artists": [
+        "邓紫棋"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002d6m7k0xCbSv.jpg",
+      "rank": 13,
+      "score": 29.7207,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 29.7207
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "1dc98a7aec2e931714a1",
+      "title": "我听见了，你的痛苦成立",
+      "artists": [
+        "供销社乐队"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M00000303kd94Gqzxu.jpg",
+      "rank": 14,
+      "score": 29.1767,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 29.1767
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "515334ce1bb41836f812",
+      "title": "海屿你",
+      "artists": [
+        "马也_Crabbit"
+      ],
+      "artwork": "http://p2.music.126.net/Enhy6dPn4gpyqrKhVEQvgA==/109951170483249998.jpg",
+      "rank": 15,
+      "score": 28.9413,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 28.9413
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "07d8a07f3549e36b5f56",
+      "title": "失眠",
+      "artists": [
+        "Suki刘舒妤"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002xCeeN4EJ1Ke.jpg",
+      "rank": 16,
+      "score": 28.5274,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 28.5274
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d7fa67c2313158d69dbc",
+      "title": "明知故犯",
+      "artists": [
+        "Max李玄"
+      ],
+      "artwork": "http://p2.music.126.net/H2DFRdwP2y5SuCAn-Tuikw==/109951172568091306.jpg",
+      "rank": 17,
+      "score": 27.9241,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 27.9241
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "7ed27134348dc9221371",
+      "title": "大梦归",
+      "artists": [
+        "周深"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003ZuQ5z05yCAP.jpg",
+      "rank": 18,
+      "score": 26.6326,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 26.6326
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "aa443c23eb5bd46fcb5a",
+      "title": "雨过后的风景",
+      "artists": [
+        "Dizzy Dizzo (蔡诗芸)"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000038xSkp1EcVBf.jpg",
+      "rank": 19,
+      "score": 26.3458,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 26.3458
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "6aea79f7d1177c9fa864",
+      "title": "两 难",
+      "artists": [
+        "加木"
+      ],
+      "artwork": "http://p2.music.126.net/Qvenb5t_hL37b7hRfscjaw==/109951169686160429.jpg",
+      "rank": 20,
+      "score": 25.1057,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 25.1057
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d5d9bee11743d03df2cb",
+      "title": "SUPERSTAR",
+      "artists": [
+        "A2O SOUL",
+        "A2O"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001dHUST1Nfvsd.jpg",
+      "rank": 21,
+      "score": 24.9813,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 24.9813
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "97aec41ebbf0b2a4513f",
+      "title": "宝船",
+      "artists": [
+        "DOUDOU",
+        "燕云十六声"
+      ],
+      "artwork": "http://p2.music.126.net/pdpmj0csBR_nUM7c2xr6pA==/109951174135616642.jpg",
+      "rank": 22,
+      "score": 24.239,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 24.239
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "8a8b8ec8dd5b568bc6a2",
+      "title": "爱错",
+      "artists": [
+        "王力宏"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002ElVxf43rOue.jpg",
+      "rank": 23,
+      "score": 24.1325,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 24.1325
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "c358903ade375e995c99",
+      "title": "幻听",
+      "artists": [
+        "许嵩"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004RbL3b0BDIe2.jpg",
+      "rank": 24,
+      "score": 22.6566,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 22.6566
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "df9b5b3a8c4094be38f9",
+      "title": "99",
+      "artists": [
+        "TizzyT"
+      ],
+      "artwork": "http://p2.music.126.net/D-kiZM7mbHrqdB6X8Yoi8Q==/109951171947326885.jpg",
+      "rank": 25,
+      "score": 22.606,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 22.606
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "9d9937adc8b8a70ec150",
+      "title": "黄昏",
+      "artists": [
+        "周传雄"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001U6x8f2uJhig.jpg",
+      "rank": 26,
+      "score": 21.4556,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 21.4556
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d62c4892c50f75deac88",
+      "title": "你有没有真的爱过我",
+      "artists": [
+        "阿图表妹"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260604/20260604164021847508.jpg",
+      "rank": 27,
+      "score": 21.3304,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 21.3304
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "31cf90737b6ea0015ddf",
+      "title": "罗生门（Follow）",
+      "artists": [
+        "梨冻紧",
+        "Wiz_H张子豪"
+      ],
+      "artwork": "http://p2.music.126.net/yN1ke1xYMJ718FiHaDWtYQ==/109951165076380471.jpg",
+      "rank": 28,
+      "score": 21.0986,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 21.0986
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "86c4b8b6e1c2bcf8d9bd",
+      "title": "晴天",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000MkMni19ClKG.jpg",
+      "rank": 29,
+      "score": 20.4932,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 20.4932
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "4ff25f29b48cc045cfb1",
+      "title": "如果呢",
+      "artists": [
+        "郑润泽"
+      ],
+      "artwork": "http://p2.music.126.net/-xMsNLpquZTmMZlIztTgHg==/109951165953469081.jpg",
+      "rank": 30,
+      "score": 20.389,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 20.389
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "b1c2c5201af051615e85",
+      "title": "偏爱",
+      "artists": [
+        "张芸京"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003ha6C92GRuVE.jpg",
+      "rank": 31,
+      "score": 20.3464,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 20.3464
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "30998d16b8aaf576d32c",
+      "title": "泪海",
+      "artists": [
+        "许茹芸"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Ugmj01giuzO.jpg",
+      "rank": 32,
+      "score": 20.3432,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 20.3432
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "e1cedb00ffcb4c61c550",
+      "title": "岁月如笔写春秋",
+      "artists": [
+        "河南三妹5233"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260528/20260528212904938023.jpg",
+      "rank": 33,
+      "score": 20.0716,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 20.0716
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d8b72587e9a80a4307de",
+      "title": "碎碎念",
+      "artists": [
+        "队长"
+      ],
+      "artwork": "http://p2.music.126.net/RYIrCEYzgeAD85DJ0rgOQA==/109951169256300966.jpg",
+      "rank": 34,
+      "score": 19.7072,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 19.7072
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "4f5f016fde2f2b8fc8db",
+      "title": "山风山风等等我",
+      "artists": [
+        "万海东"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260727/20260727114241535084.jpg",
+      "rank": 35,
+      "score": 19.6441,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 19.6441
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "5a6fe0cc819718c0a385",
+      "title": "Marry",
+      "artists": [
+        "Top Barry",
+        "INDEcompany"
+      ],
+      "artwork": "http://p2.music.126.net/XQgLpatV-LFMdx55WuV8bA==/109951169706853419.jpg",
+      "rank": 36,
+      "score": 18.4226,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 18.4226
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "05db1463ac4d3768c09b",
+      "title": "七里香",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/c1/2d/29c12de6-54b4-f549-9d9f-07d8a04221ea/JAY.jpg/100x111bb.jpg",
+      "rank": 37,
+      "score": 17.9646,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 17.9646
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "949602a93a41b21f6d90",
+      "title": "红色高跟鞋",
+      "artists": [
+        "蔡健雅"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002dOge41xlS8x.jpg",
+      "rank": 38,
+      "score": 17.96,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 17.96
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "69ca9e87a66c2f4d0137",
+      "title": "一半一半",
+      "artists": [
+        "Top Barry",
+        "INDEcompany"
+      ],
+      "artwork": "http://p2.music.126.net/EgbPD3CwVQojZ4OWse4YrA==/109951172511748152.jpg",
+      "rank": 39,
+      "score": 17.8179,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 17.8179
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "b5e63529de97d45b31c6",
+      "title": "牡丹亭",
+      "artists": [
+        "浅影阿"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260812/20260812143453266688.jpg",
+      "rank": 40,
+      "score": 17.5923,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 17.5923
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "cd43953b4f805e05749e",
+      "title": "无奈的思绪",
+      "artists": [
+        "嘉慧"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000cziif0ZeI1w.jpg",
+      "rank": 41,
+      "score": 17.3983,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 17.3983
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "5641582cb246b3774f24",
+      "title": "阴天",
+      "artists": [
+        "莫文蔚"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000hTTJN3oScZr.jpg",
+      "rank": 42,
+      "score": 17.3769,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 17.3769
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "f6f657a1b486aa9826b3",
+      "title": "搁浅",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/c1/2d/29c12de6-54b4-f549-9d9f-07d8a04221ea/JAY.jpg/100x111bb.jpg",
+      "rank": 43,
+      "score": 17.3386,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 17.3386
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "b6349643b480267c39ac",
+      "title": "于是",
+      "artists": [
+        "郑润泽"
+      ],
+      "artwork": "http://p2.music.126.net/PEGvmO3OqgGOkx4m9qxAJA==/109951163478499713.jpg",
+      "rank": 44,
+      "score": 17.2369,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 17.2369
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "a508fedeaf952ca05314",
+      "title": "慢品人间烟火气 (落日微醺版)",
+      "artists": [
+        "涂一乐"
+      ],
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/okCbECEDAKfATqxARqkStWiEvAFVfZCkt8BJUg~tplv-b829550vbb-resize:400:400.png",
+      "rank": 45,
+      "score": 16.9845,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 16.9845
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "5a116a5750ca7bd1b1d1",
+      "title": "演员",
+      "artists": [
+        "薛之谦"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003y8dsH2wBHlo.jpg",
+      "rank": 46,
+      "score": 16.8313,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 16.8313
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "4f18a319bb12d5d55f8e",
+      "title": "忘不掉的你",
+      "artists": [
+        "h3R3"
+      ],
+      "artwork": "http://p2.music.126.net/4BCskpY6Rmm-QReHnY8W6Q==/109951166071009318.jpg",
+      "rank": 47,
+      "score": 16.6787,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 16.6787
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d900f4ad3f8a3d47d930",
+      "title": "人生路漫漫",
+      "artists": [
+        "白小白"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260326/20260326182610525334.jpg",
+      "rank": 48,
+      "score": 16.5067,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 16.5067
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "3d10080f13e00533cb44",
+      "title": "睡前别想太多",
+      "artists": [
+        "李雨霏_晚饭"
+      ],
+      "artwork": "http://p2.music.126.net/CdAZ76__lHkE_HcjXgR_4w==/109951173999807018.jpg",
+      "rank": 49,
+      "score": 16.1423,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 16.1423
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "69153ce9d905230182f6",
+      "title": "红尘误此生",
+      "artists": [
+        "宋晓峰"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260929/20260929115008964404.jpg",
+      "rank": 50,
+      "score": 15.6219,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 15.6219
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "6d2b6173a24f2f398e8e",
+      "title": "茶花开了",
+      "artists": [
+        "王睿卓"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20251125/20251125141603161899.jpg",
+      "rank": 51,
+      "score": 15.5399,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 15.5399
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d264fbccaefdd35dce1a",
+      "title": "出现又离开 (Live)",
+      "artists": [
+        "梁博"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000eQZ1q4g6AsF.jpg",
+      "rank": 52,
+      "score": 15.1999,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 15.1999
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d18cb0bee836ed443cd8",
+      "title": "如愿",
+      "artists": [
+        "王菲"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004Kbn3m2HV9Y3.jpg",
+      "rank": 53,
+      "score": 15.0131,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 15.0131
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "ffe139a059be1c56d4bf",
+      "title": "左转灯 (1000 Times +1)",
+      "artists": [
+        "派伟俊",
+        "mac ova seas"
+      ],
+      "artwork": "http://p2.music.126.net/ODlrxB8b_86bDZTuCXGK1w==/109951172153456358.jpg",
+      "rank": 54,
+      "score": 14.6562,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 14.6562
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "7a179099de5646dd93a9",
+      "title": "明明就",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/83/e6/8183e6c0-7137-7009-347e-326b53cb4a3b/2000x2000pix.jpg/100x100bb.jpg",
+      "rank": 55,
+      "score": 14.5582,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 14.5582
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "5109fed3721a09519c3c",
+      "title": "红",
+      "artists": [
+        "罗言"
+      ],
+      "artwork": "http://p2.music.126.net/G-inyKjA-jO5MuOuV3g7Pg==/109951167027986653.jpg",
+      "rank": 56,
+      "score": 14.1991,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 14.1991
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d311660b0f27ef3fed43",
+      "title": "花海",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/63/9e/1b639e5b-f8ca-a6e1-8612-6396bc9ff0eb/4711448407424.jpg/100x134bb.jpg",
+      "rank": 57,
+      "score": 14.0658,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 14.0658
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "9250c2acb4ce266eb755",
+      "title": "刻在我心底的名字",
+      "artists": [
+        "卢广仲"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004QG0W52P5GUq.jpg",
+      "rank": 58,
+      "score": 13.9891,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 13.9891
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "4a3eddf0605cf5c78d0b",
+      "title": "遇见",
+      "artists": [
+        "孙燕姿"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002ehzTm0TxXC2.jpg",
+      "rank": 59,
+      "score": 13.9535,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 13.9535
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "f15d5d8df34f1cb1c324",
+      "title": "还是会想你",
+      "artists": [
+        "林达浪",
+        "h3R3"
+      ],
+      "artwork": "http://p2.music.126.net/9FhSEQtMhP-JP3_U84YfWQ==/109951165798773745.jpg",
+      "rank": 60,
+      "score": 13.3381,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 13.3381
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "a4fe35e43ba7b8f1f9f8",
+      "title": "十年",
+      "artists": [
+        "陈奕迅"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000GDz8k03UOaI.jpg",
+      "rank": 61,
+      "score": 13.2551,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 13.2551
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "3409ea43824827028d28",
+      "title": "嗜好",
+      "artists": [
+        "颜人中"
+      ],
+      "artwork": "http://p2.music.126.net/J6HaJjtgv-yVVjyUm-h-AA==/109951164373633387.jpg",
+      "rank": 62,
+      "score": 12.9327,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 12.9327
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "9c5f89dfb6e015855e29",
+      "title": "Always Online",
+      "artists": [
+        "林俊杰"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002g6zv02X7SNi.jpg",
+      "rank": 63,
+      "score": 12.8045,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 12.8045
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "bc4ffc87d037ca2b32ce",
+      "title": "海阔天空",
+      "artists": [
+        "BEYOND"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002qcJuX3lO3EZ.jpg",
+      "rank": 64,
+      "score": 12.7214,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 12.7214
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "6cbda955a159382db44e",
+      "title": "一路向北 (Bonus Track)",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
+      "rank": 65,
+      "score": 12.7014,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 12.7014
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "722218f76203709bf50f",
+      "title": "秋风一吹又老一岁 (女版烟嗓)",
+      "artists": [
+        "微醺森林"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260914/20260914131723980989.jpg",
+      "rank": 66,
+      "score": 12.5828,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 12.5828
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "15166c21a1cc9efc13fa",
+      "title": "互删 (我走以后)",
+      "artists": [
+        "江辰"
+      ],
+      "artwork": "http://p1.music.126.net/nfDVr6WopOJax11vq5brPQ==/109951173820334666.jpg",
+      "rank": 67,
+      "score": 12.5433,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 12.5433
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "41abde5987f63e6b9d96",
+      "title": "我好想你 (苏打绿版)",
+      "artists": [
+        "苏打绿"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004QF5kp0jgyba.jpg",
+      "rank": 68,
+      "score": 12.3873,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 12.3873
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "42e486853e2871a39a53",
+      "title": "多远都要在一起",
+      "artists": [
+        "邓紫棋"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003c616O2Zlswm.jpg",
+      "rank": 69,
+      "score": 12.2274,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 12.2274
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "1bdfd9f77b01f459633c",
+      "title": "轻轻",
+      "artists": [
+        "肖战"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001zU1173lcnR3.jpg",
+      "rank": 70,
+      "score": 11.9764,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.9764
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "2a22fc3571f0c5bb4eed",
+      "title": "大漠长明",
+      "artists": [
+        "指南针"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261016/20261016210623114037.jpg",
+      "rank": 71,
+      "score": 11.9764,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.9764
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "bb9b69f82f5a08193ab6",
+      "title": "等你下课 (with 杨瑞代)",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/a5/52/85a55237-6d96-a656-21cf-715b72be15a9/cover.jpg/100x100bb.jpg",
+      "rank": 72,
+      "score": 11.8786,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.8786
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "4900cb785e1d222f3164",
+      "title": "回到你身边",
+      "artists": [
+        "h3R3"
+      ],
+      "artwork": "http://p1.music.126.net/yed2hVZZwFNeSkTynWPaJQ==/109951173491736376.jpg",
+      "rank": 73,
+      "score": 11.8096,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.8096
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "6f164a403f38b8991823",
+      "title": "小半",
+      "artists": [
+        "陈粒"
+      ],
+      "artwork": "http://p1.music.126.net/HQxTggMCB7AHUXN-ZFEtmA==/1371091013186741.jpg",
+      "rank": 74,
+      "score": 11.6562,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.6562
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "5d0399251de98d278f11",
+      "title": "爱在西元前",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/f2/f0/a4f2f0d4-cc80-d1a0-7f20-a0cc842a523c/JAY.jpg/100x115bb.jpg",
+      "rank": 75,
+      "score": 11.4913,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.4913
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "ea0218f4f3f17dcf233a",
+      "title": "颜色",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artwork": "http://p1.music.126.net/NBYS2W-x3p2IVNvHMcylMg==/109951170940524301.jpg",
+      "rank": 76,
+      "score": 11.4641,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.4641
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "9bf2b492e5c0e3e66c28",
+      "title": "江南",
+      "artists": [
+        "林俊杰"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000y5gq7449K9I.jpg",
+      "rank": 77,
+      "score": 11.2107,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.2107
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "f9527b673c87938afc37",
+      "title": "遐想",
+      "artists": [
+        "郑润泽"
+      ],
+      "artwork": "http://p1.music.126.net/Ws93IUrJGR_lK-QEsdKTWw==/109951168408373477.jpg",
+      "rank": 78,
+      "score": 11.1322,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.1322
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "8579ba448da26dc38aac",
+      "title": "稻香",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/63/9e/1b639e5b-f8ca-a6e1-8612-6396bc9ff0eb/4711448407424.jpg/100x134bb.jpg",
+      "rank": 79,
+      "score": 11.1191,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.1191
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "3483a92fa25053c6a48a",
+      "title": "茶花开了，该回家了",
+      "artists": [
+        "王睿卓",
+        "加木"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001KCGcF29Na3i.jpg",
+      "rank": 80,
+      "score": 11.0738,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 11.0738
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "05679513e36571a80e0d",
+      "title": "全息恋人",
+      "artists": [
+        "栾一鸣Floscar"
+      ],
+      "artwork": "http://p1.music.126.net/oxXWRp9IKoKStlYHdx4YkA==/109951173900088235.jpg",
+      "rank": 81,
+      "score": 10.8134,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 10.8134
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "209589ee0ea9ed0a869e",
+      "title": "新·与天齐",
+      "artists": [
+        "指尖笑"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20231225/20231225171734654580.jpg",
+      "rank": 82,
+      "score": 10.7729,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 10.7729
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "97c16152e95dd74ff070",
+      "title": "琵琶曲 (DJ筱轩版)",
+      "artists": [
+        "郑浩",
+        "冰洁"
+      ],
+      "artwork": null,
+      "rank": 83,
+      "score": 10.7729,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 10.7729
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "13a69ec4368d187d8fba",
+      "title": "Nicole Kidman",
+      "artists": [
+        "ADÉLA"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c6/9a/53c69a6a-d1c4-0983-a20c-a67dceae554f/26UMGIM82372.rgb.jpg/100x100bb.jpg",
+      "rank": 84,
+      "score": 10.7615,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 10.7615
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "3f569ffa0f9c22e7cf2d",
+      "title": "爱情转移",
+      "artists": [
+        "陈奕迅"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/cb/d6/27cbd6b4-c991-cd95-49e3-b6019462ff97/00602517338845.rgb.jpg/100x91bb.jpg",
+      "rank": 85,
+      "score": 10.418,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 10.418
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "177446b98cef386eccb1",
+      "title": "青花",
+      "artists": [
+        "周传雄"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Vj7aX0PixwV.jpg",
+      "rank": 86,
+      "score": 10.0471,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 10.0471
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "f4a9a3c45e2b5e22f2df",
+      "title": "分手已经. . . - Inst.",
+      "artists": [
+        "복이"
+      ],
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oAhZ7IEDCDDxAHzNBgNofZCQAqEiRA4PBfwk9t~tplv-b829550vbb-resize:400:400.png",
+      "rank": 87,
+      "score": 10,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 10
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "10418b814c0e5818d75e",
+      "title": "三生三世",
+      "artists": [
+        "张杰"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000011IIJE3XYf9L.jpg",
+      "rank": 88,
+      "score": 9.8217,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.8217
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "5a8888e9ca0323a7d699",
+      "title": "爱我还是他",
+      "artists": [
+        "陶喆"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003ofGzS3C23Ow.jpg",
+      "rank": 89,
+      "score": 9.7708,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.7708
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "1a1a62d49ca17d0d7d6d",
+      "title": "我听人说思念像风一样 (宿命版)",
+      "artists": [
+        "顿珠拉姆"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260915/20260915142351169494.jpg",
+      "rank": 90,
+      "score": 9.7054,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.7054
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "d0fcaedec624b497406f",
+      "title": "半岛铁盒",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/100x113bb.jpg",
+      "rank": 91,
+      "score": 9.4661,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.4661
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "b4361e58e0661faae1fe",
+      "title": "愿与愁",
+      "artists": [
+        "林俊杰"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004ZOIop1doXru.jpg",
+      "rank": 92,
+      "score": 9.397,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.397
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "cede6c0d4a6bf0ada0d2",
+      "title": "爱上",
+      "artists": [
+        "刘宇宁"
+      ],
+      "artwork": null,
+      "rank": 93,
+      "score": 9.3772,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.3772
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "bbb1de5875b984c0c77b",
+      "title": "美人鱼",
+      "artists": [
+        "林俊杰"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000y5gq7449K9I.jpg",
+      "rank": 94,
+      "score": 9.2066,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.2066
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "9f7fea265f04bf1dd969",
+      "title": "夜曲",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
+      "rank": 95,
+      "score": 9.1733,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.1733
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "e54b85b303f0f4a854c2",
+      "title": "不能成情人",
+      "artists": [
+        "丁家怡"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260812/20260812170624758397.jpg",
+      "rank": 96,
+      "score": 9.0618,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 9.0618
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "671d08976b56470bbd3e",
+      "title": "那天下雨了",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/56/90/ce5690ac-67d8-49e7-b047-a01afacfd1d2/4000x4000_fa.jpg/100x100bb.jpg",
+      "rank": 97,
+      "score": 8.8921,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 8.8921
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "7851dff12a00e6311cd2",
+      "title": "你不要那样看着我的眼睛",
+      "artists": [
+        "蔡琴"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003HVu7R0mCMM8.jpg",
+      "rank": 98,
+      "score": 8.7587,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 8.7587
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "e2f8f6aba973e0c4c417",
+      "title": "天地龙鳞",
+      "artists": [
+        "王力宏"
+      ],
+      "artwork": null,
+      "rank": 99,
+      "score": 8.7587,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 8.7587
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    },
+    {
+      "id": "5faa77ba944d776e5964",
+      "title": "Star Crossing Night (feat. GALI)",
+      "artists": [
+        "徐明浩",
+        "GALI"
+      ],
+      "artwork": "http://p1.music.126.net/fsz6GAKO1-khteFArDidjA==/109951171942679749.jpg",
+      "rank": 100,
+      "score": 8.6737,
+      "daysOnChart": 1,
+      "dailyScores": [
+        {
+          "date": "2026-10-23",
+          "score": 8.6737
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-week",
+        "comparisonDate": null
+      }
+    }
+  ]
+}
