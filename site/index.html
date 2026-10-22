@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="共振 RESONANCE：中国音乐平台的每日榜单观察站。追踪平台热歌、发现跨平台共识，用公开透明的方法计算综合热歌榜。">
+  <title>共振 RESONANCE — 听见流行的交集</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="alternate" type="application/atom+xml" title="共振 · 榜单更新" href="/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="共振 · JSON Feed" href="/feed.json">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div class="masthead-wrap">
+    <header class="masthead page-width">
+      <a class="brand" href="#charts" aria-label="共振首页">
+        <svg class="brand-mark" viewBox="0 0 44 44" fill="none" aria-hidden="true"><path d="M5 15v14M12 8v28M19 3v38M26 10v24M33 6v32M40 17v10" stroke="currentColor" stroke-width="3.5"/></svg>
+        <span class="brand-cn">共振</span><span class="brand-en">RESONANCE<span>INDEPENDENT MUSIC INDEX</span></span>
+      </a>
+      <nav class="top-nav" aria-label="主要导航"><a href="#charts" data-nav="charts" aria-current="page">日榜</a><a href="#weekly" data-nav="weekly">综合周榜</a><a href="#method" data-nav="method">计算方法</a><a href="#sources" data-nav="sources">数据源<span class="status-dot" aria-hidden="true"></span></a><a href="#api" data-nav="api">开放 API</a></nav>
+      <div class="edition"><span>中国 · CHINA</span><a href="#subscribe" class="subscribe-nav">订阅更新 ↗</a></div>
+    </header>
+  </div>
+  <main id="main" class="page-width">
+    <section id="charts-view" class="view">
+      <div class="issue-line"><span><span class="live-dot"></span> DAILY CHART OBSERVATORY</span><span id="issue-label">独立计算 · 公开方法</span></div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy"><p class="eyebrow">不止一个平台的声音</p><h1 id="hero-title">听见流行的<span class="accent-word">交集<svg viewBox="0 0 220 26" preserveAspectRatio="none" aria-hidden="true"><path d="M3 18C61 3 141 2 216 11M19 24c62-12 115-11 168-9"/></svg></span>。</h1><p class="hero-description">六个平台的流行，一起观察。<br>从各自热爱，到共同回响。</p><div class="hero-facts"><span><b id="platform-count">—</b> 有效来源</span><span><b id="song-count">—</b> 首上榜歌曲</span><span class="text-link"><a href="#method">我们怎样计算共振指数 <span aria-hidden="true">↗</span></a></span></div></div>
+        <div class="record-art" aria-hidden="true"><div class="orbital-label label-top">MANY SIGNALS.</div><div class="record"><div class="record-grooves"></div><div class="record-label"><span>共 振</span><svg viewBox="0 0 100 30"><path d="M2 15h10l5-8 6 16 7-22 8 28 7-21 7 13 6-6h40" fill="none" stroke="currentColor" stroke-width="2"/></svg><small>SIDE A · EVERY DAY</small><i></i></div></div><div class="orbital-label label-bottom">ONE RESONANCE.</div><div class="record-star">✳</div><div class="record-caption">中国流行音乐 / 每日切片</div></div>
+      </section>
+      <div id="data-notice" class="data-notice" role="status" hidden></div>
+      <section class="daily-section" aria-labelledby="daily-heading">
+        <div class="section-title"><div><span class="section-number">01 /</span><h2 id="daily-heading">今日的共同频率</h2></div><p id="snapshot-time">正在读取榜单…</p></div>
+        <div id="feature-strip" class="feature-strip"></div>
+        <div class="chart-header"><div class="chart-tabs" role="tablist" aria-label="榜单类型"><button id="combined-tab" class="chart-tab active" role="tab" aria-selected="true" aria-controls="chart-panel" data-mode="combined">共振综合榜 <span>TOP 100</span></button><button id="platform-tab" class="chart-tab" role="tab" aria-selected="false" aria-controls="chart-panel" data-mode="platform">平台原榜 <span>ORIGINAL</span></button></div><div class="chart-tools"><label class="date-picker"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3h12v14H4zM4 7h12M7 1v4M13 1v4"/></svg><select id="date-select" aria-label="选择榜单日期"><option value="latest">最新一期</option></select></label><button id="export-button" class="export-button" title="导出当前榜单 CSV">导出 <span aria-hidden="true">↓</span></button></div></div>
+        <div class="filter-row"><div id="platform-filters" class="platform-filters" aria-label="平台筛选"></div><label class="search-box"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search-input" type="search" placeholder="搜索歌曲 / 歌手" autocomplete="off" aria-label="搜索歌曲或歌手"><kbd>/</kbd></label></div>
+        <p id="chart-context" class="chart-context"></p>
+        <div id="chart-panel" role="tabpanel" aria-labelledby="combined-tab"><div class="table-head" aria-hidden="true"><span>排名</span><span>歌曲 / 艺人</span><span>平台名次</span><span>近 7 日</span><span>共振指数</span></div><div id="chart-rows" class="chart-rows" aria-live="polite"><div class="empty-state">正在接收今日的频率…</div></div></div>
+        <div class="chart-bottom"><p id="result-count"></p><button id="show-more" class="outline-button" hidden>展开更多歌曲 <span aria-hidden="true">↓</span></button><a id="download-json" class="text-link" href="./data/latest.json" download>原始 JSON <span aria-hidden="true">↗</span></a></div>
+      </section>
+      <section class="editorial-note"><span class="note-mark">＊</span><div><h2>流行从来不只有一种答案。</h2><p>平台有不同的听众，榜单有不同的规则。我们保留这些差异，也寻找它们相遇的地方。共振指数是一种可解释的观察视角，每一个名次，都能找到它的来处。</p></div><a href="#method" class="round-link" aria-label="了解计算方法">↗</a></section>
+    </section>
+    <section id="weekly-view" class="view article-view" hidden>
+      <div class="issue-line"><span>THE WEEKLY RESONANCE</span><span>MONDAY — SUNDAY / UTC+8</span></div>
+      <div class="article-hero weekly-hero"><div><p class="eyebrow">综合周榜 / WEEKLY INDEX</p><h1>让时间，<br>听出分量。</h1><p>每天的热度，汇成一周的回响。<br>只平均真正观测到的日子，把缺失和变化一并说明。</p></div><div class="weekly-hero-mark" aria-hidden="true"><span>01</span><i>—</i><span>07</span><small>SEVEN DAYS, ONE PERSPECTIVE.</small></div></div>
+      <div id="weekly-content"><div class="empty-state">正在读取每周的音乐切片…</div></div>
+    </section>
+    <section id="method-view" class="view article-view" hidden>
+      <div class="issue-line"><span>THE METHODOLOGY</span><span>透明 · 可复算 · 有边界</span></div>
+      <div class="article-hero"><p class="eyebrow">计算方法 / METHODOLOGY</p><h1>共识，有迹可循。</h1><p>没有全平台的真实播放量，我们就从能看见的名次出发。<br>把规则写清楚，比一个看似精确的数字更重要。</p></div>
+      <div id="method-content"></div>
+    </section>
+    <section id="sources-view" class="view article-view" hidden>
+      <div class="issue-line"><span>THE SOURCE DIRECTORY</span><span>每一次更新都有来源</span></div>
+      <div class="article-hero"><p class="eyebrow">数据源 / SOURCES</p><h1>不同的耳朵，<br>不同的热爱。</h1><p>这里记录采集状态、平台更新周期和原始榜单。<br>每日采集是一份快照，不代表所有平台每天重新发榜。</p></div>
+      <div id="source-content"></div>
+    </section>
+    <section id="api-view" class="view article-view" hidden>
+      <div class="issue-line"><span>THE OPEN DATA INTERFACE</span><span>GET · JSON · API V1</span></div>
+      <div class="article-hero api-hero"><div><p class="eyebrow">开放 API / OPEN DATA</p><h1>给灵感，<br>一个接口。</h1><p>把共振带进你的图表、研究和小项目。<br>公开读取每一期榜单，让观察继续发生。</p></div><div class="api-hero-mark" aria-hidden="true">{<span>↗</span>}</div></div>
+      <div id="api-content"><div class="empty-state">正在读取可用快照…</div></div>
+    </section>
+  </main>
+  <footer class="page-width footer"><div class="footer-brand">共振<span>RESONANCE</span></div><p>听见流行的交集。<span>独立音乐数据观察项目 · 非平台官方榜单</span></p><div class="footer-links"><a href="#weekly">综合周榜</a><a href="#method">方法公开</a><a href="#sources">来源可溯</a><a href="#api">开放 API ↗</a><a href="#subscribe">订阅更新 ↗</a></div><div class="footer-bottom"><span>MADE FOR THE LOVE OF MUSIC.</span><span>只记录榜单与元数据 · 音乐请到原平台收听</span></div></footer>
+  <dialog id="song-dialog" class="song-dialog" aria-labelledby="song-dialog-title"><button id="close-dialog" class="close-dialog" aria-label="关闭歌曲详情">×</button><div id="song-detail"></div></dialog>
+</body>
+</html>

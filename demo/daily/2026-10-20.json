@@ -1,0 +1,5448 @@
+{
+  "schemaVersion": 1,
+  "mode": "demo",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T13:17:00.000Z",
+  "methodology": {
+    "version": "1.0",
+    "formula": "S = 100 × Σ wₚ × [0.9 × exp(−(rₚ − 1) / 25) + 0.1]，未上榜项为 0",
+    "rankDepth": 100,
+    "groupWeights": {
+      "tme": 0.4,
+      "netease": 0.3,
+      "apple": 0.2,
+      "qishui": 0.1
+    },
+    "minimumGroups": 2
+  },
+  "comparisonSignature": "demo-only",
+  "coverage": {
+    "available": 5,
+    "expected": 6,
+    "groups": 3,
+    "groupTotal": 4,
+    "status": "partial",
+    "comparisonAvailable": true
+  },
+  "sources": [
+    {
+      "id": "qq",
+      "name": "QQ 音乐",
+      "chartName": "热歌榜",
+      "group": "tme",
+      "enabled": true,
+      "sourceUrl": "https://y.qq.com/n/ryqq/toplist/26",
+      "frequency": "每日更新",
+      "status": "ok",
+      "message": "设计示例：模拟名次，不代表真实平台榜单",
+      "ingestion": "demo",
+      "fetchedAt": "2026-10-20T13:17:00.000Z",
+      "sourceUpdatedAt": null,
+      "sourcePeriod": null,
+      "count": 36,
+      "weight": 0.1481,
+      "entries": [
+        {
+          "songId": "44a84462f6a0527b7c01",
+          "sourceId": "demo-qq-4",
+          "title": "唯一",
+          "artists": [
+            "邓紫棋"
+          ],
+          "rank": 1,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "800b0aab3d68808e892e",
+          "sourceId": "demo-qq-3",
+          "title": "特别的人",
+          "artists": [
+            "方大同"
+          ],
+          "rank": 2,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "86c4b8b6e1c2bcf8d9bd",
+          "sourceId": "demo-qq-0",
+          "title": "晴天",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 3,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6c69ebda234ce2b791c3",
+          "sourceId": "demo-qq-6",
+          "title": "跳楼机",
+          "artists": [
+            "LBI利比"
+          ],
+          "rank": 4,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8a8b8ec8dd5b568bc6a2",
+          "sourceId": "demo-qq-2",
+          "title": "爱错",
+          "artists": [
+            "王力宏"
+          ],
+          "rank": 5,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "bf228cba22fa10699441",
+          "sourceId": "demo-qq-16",
+          "title": "我记得",
+          "artists": [
+            "赵雷"
+          ],
+          "rank": 6,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d5c030c53083cb10df5f",
+          "sourceId": "demo-qq-11",
+          "title": "如果可以",
+          "artists": [
+            "韦礼安"
+          ],
+          "rank": 7,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1c4e1a4066e20511f7ab",
+          "sourceId": "demo-qq-5",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 8,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "05db1463ac4d3768c09b",
+          "sourceId": "demo-qq-8",
+          "title": "七里香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 9,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "949602a93a41b21f6d90",
+          "sourceId": "demo-qq-10",
+          "title": "红色高跟鞋",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 10,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "99a3452c5d9725ea9d17",
+          "sourceId": "demo-qq-12",
+          "title": "世界赠予我的",
+          "artists": [
+            "王菲"
+          ],
+          "rank": 11,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a95925ccd111b43522ba",
+          "sourceId": "demo-qq-26",
+          "title": "暗号",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 12,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5a0b0c54d8269ae76053",
+          "sourceId": "demo-qq-13",
+          "title": "海阔天空",
+          "artists": [
+            "Beyond"
+          ],
+          "rank": 13,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5eb136a4d9f6210cc870",
+          "sourceId": "demo-qq-21",
+          "title": "不为谁而作的歌",
+          "artists": [
+            "林俊杰"
+          ],
+          "rank": 14,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a01732999e7bfff5c799",
+          "sourceId": "demo-qq-25",
+          "title": "这世界那么多人",
+          "artists": [
+            "莫文蔚"
+          ],
+          "rank": 15,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1eefe964b2e771570839",
+          "sourceId": "demo-qq-9",
+          "title": "慢冷",
+          "artists": [
+            "梁静茹"
+          ],
+          "rank": 16,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8c0daa3d1077edcbc6c8",
+          "sourceId": "demo-qq-1",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 17,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d43f8a282f0362383219",
+          "sourceId": "demo-qq-31",
+          "title": "晚安",
+          "artists": [
+            "颜人中"
+          ],
+          "rank": 18,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8fdd4a55e51b9dadab1e",
+          "sourceId": "demo-qq-17",
+          "title": "达尔文",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 19,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6f164a403f38b8991823",
+          "sourceId": "demo-qq-19",
+          "title": "小半",
+          "artists": [
+            "陈粒"
+          ],
+          "rank": 20,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "517458fa496808f33781",
+          "sourceId": "demo-qq-7",
+          "title": "水星记",
+          "artists": [
+            "郭顶"
+          ],
+          "rank": 21,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "3d417fe76a38d7ae09d1",
+          "sourceId": "demo-qq-32",
+          "title": "我们的明天",
+          "artists": [
+            "鹿晗"
+          ],
+          "rank": 22,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "12a16ae2bf9d7e1fc869",
+          "sourceId": "demo-qq-33",
+          "title": "年少有为",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 23,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "92935db09be5aaf07483",
+          "sourceId": "demo-qq-20",
+          "title": "爱人错过",
+          "artists": [
+            "告五人"
+          ],
+          "rank": 24,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "e013bdb76664a41b1947",
+          "sourceId": "demo-qq-28",
+          "title": "悬溺",
+          "artists": [
+            "葛东琪"
+          ],
+          "rank": 25,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "22a40da0ec97d28fb500",
+          "sourceId": "demo-qq-24",
+          "title": "乌梅子酱",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 26,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a4fe35e43ba7b8f1f9f8",
+          "sourceId": "demo-qq-18",
+          "title": "十年",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 27,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "aebe5c3a922a99089c07",
+          "sourceId": "demo-qq-14",
+          "title": "如果爱忘了",
+          "artists": [
+            "戚薇"
+          ],
+          "rank": 28,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "4a3eddf0605cf5c78d0b",
+          "sourceId": "demo-qq-23",
+          "title": "遇见",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 29,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "64345baefea2ed775ef3",
+          "sourceId": "demo-qq-15",
+          "title": "起风了",
+          "artists": [
+            "买辣椒也用券"
+          ],
+          "rank": 30,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "dcf19a112ac59b826929",
+          "sourceId": "demo-qq-30",
+          "title": "像我这样的人",
+          "artists": [
+            "毛不易"
+          ],
+          "rank": 31,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "7324cfa01f58a0d6fe15",
+          "sourceId": "demo-qq-27",
+          "title": "想见你想见你想见你",
+          "artists": [
+            "八三夭"
+          ],
+          "rank": 32,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fa4778b09e289a75e29f",
+          "sourceId": "demo-qq-29",
+          "title": "大风吹",
+          "artists": [
+            "王赫野"
+          ],
+          "rank": 33,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8579ba448da26dc38aac",
+          "sourceId": "demo-qq-22",
+          "title": "稻香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 34,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1637db17294d398b3b6b",
+          "sourceId": "demo-qq-34",
+          "title": "富士山下",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 35,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fe692d2f0c29a541f554",
+          "sourceId": "demo-qq-35",
+          "title": "平凡之路",
+          "artists": [
+            "朴树"
+          ],
+          "rank": 36,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "album": null,
+          "artwork": null
+        }
+      ],
+      "updatePolicy": "官方说明每日更新；没有核实固定发榜时刻。",
+      "access": "设计示例 · 实际适配器使用官方公开 Web JSON"
+    },
+    {
+      "id": "netease",
+      "name": "网易云音乐",
+      "chartName": "热歌榜",
+      "group": "netease",
+      "enabled": true,
+      "sourceUrl": "https://music.163.com/#/discover/toplist?id=3778678",
+      "frequency": "每日更新",
+      "status": "ok",
+      "message": "设计示例：模拟名次，不代表真实平台榜单",
+      "ingestion": "demo",
+      "fetchedAt": "2026-10-20T13:17:00.000Z",
+      "sourceUpdatedAt": null,
+      "sourcePeriod": null,
+      "count": 36,
+      "weight": 0.3333,
+      "entries": [
+        {
+          "songId": "800b0aab3d68808e892e",
+          "sourceId": "demo-netease-3",
+          "title": "特别的人",
+          "artists": [
+            "方大同"
+          ],
+          "rank": 1,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "99a3452c5d9725ea9d17",
+          "sourceId": "demo-netease-12",
+          "title": "世界赠予我的",
+          "artists": [
+            "王菲"
+          ],
+          "rank": 2,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "aebe5c3a922a99089c07",
+          "sourceId": "demo-netease-14",
+          "title": "如果爱忘了",
+          "artists": [
+            "戚薇"
+          ],
+          "rank": 3,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1c4e1a4066e20511f7ab",
+          "sourceId": "demo-netease-5",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 4,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "44a84462f6a0527b7c01",
+          "sourceId": "demo-netease-4",
+          "title": "唯一",
+          "artists": [
+            "邓紫棋"
+          ],
+          "rank": 5,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "86c4b8b6e1c2bcf8d9bd",
+          "sourceId": "demo-netease-0",
+          "title": "晴天",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 6,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8c0daa3d1077edcbc6c8",
+          "sourceId": "demo-netease-1",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 7,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "517458fa496808f33781",
+          "sourceId": "demo-netease-7",
+          "title": "水星记",
+          "artists": [
+            "郭顶"
+          ],
+          "rank": 8,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a4fe35e43ba7b8f1f9f8",
+          "sourceId": "demo-netease-18",
+          "title": "十年",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 9,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "22a40da0ec97d28fb500",
+          "sourceId": "demo-netease-24",
+          "title": "乌梅子酱",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 10,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d5c030c53083cb10df5f",
+          "sourceId": "demo-netease-11",
+          "title": "如果可以",
+          "artists": [
+            "韦礼安"
+          ],
+          "rank": 11,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "05db1463ac4d3768c09b",
+          "sourceId": "demo-netease-8",
+          "title": "七里香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 12,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "92935db09be5aaf07483",
+          "sourceId": "demo-netease-20",
+          "title": "爱人错过",
+          "artists": [
+            "告五人"
+          ],
+          "rank": 13,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "949602a93a41b21f6d90",
+          "sourceId": "demo-netease-10",
+          "title": "红色高跟鞋",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 14,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "64345baefea2ed775ef3",
+          "sourceId": "demo-netease-15",
+          "title": "起风了",
+          "artists": [
+            "买辣椒也用券"
+          ],
+          "rank": 15,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5a0b0c54d8269ae76053",
+          "sourceId": "demo-netease-13",
+          "title": "海阔天空",
+          "artists": [
+            "Beyond"
+          ],
+          "rank": 16,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8a8b8ec8dd5b568bc6a2",
+          "sourceId": "demo-netease-2",
+          "title": "爱错",
+          "artists": [
+            "王力宏"
+          ],
+          "rank": 17,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1eefe964b2e771570839",
+          "sourceId": "demo-netease-9",
+          "title": "慢冷",
+          "artists": [
+            "梁静茹"
+          ],
+          "rank": 18,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fa4778b09e289a75e29f",
+          "sourceId": "demo-netease-29",
+          "title": "大风吹",
+          "artists": [
+            "王赫野"
+          ],
+          "rank": 19,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6c69ebda234ce2b791c3",
+          "sourceId": "demo-netease-6",
+          "title": "跳楼机",
+          "artists": [
+            "LBI利比"
+          ],
+          "rank": 20,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5eb136a4d9f6210cc870",
+          "sourceId": "demo-netease-21",
+          "title": "不为谁而作的歌",
+          "artists": [
+            "林俊杰"
+          ],
+          "rank": 21,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8fdd4a55e51b9dadab1e",
+          "sourceId": "demo-netease-17",
+          "title": "达尔文",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 22,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "4a3eddf0605cf5c78d0b",
+          "sourceId": "demo-netease-23",
+          "title": "遇见",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 23,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1637db17294d398b3b6b",
+          "sourceId": "demo-netease-34",
+          "title": "富士山下",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 24,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "dcf19a112ac59b826929",
+          "sourceId": "demo-netease-30",
+          "title": "像我这样的人",
+          "artists": [
+            "毛不易"
+          ],
+          "rank": 25,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8579ba448da26dc38aac",
+          "sourceId": "demo-netease-22",
+          "title": "稻香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 26,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6f164a403f38b8991823",
+          "sourceId": "demo-netease-19",
+          "title": "小半",
+          "artists": [
+            "陈粒"
+          ],
+          "rank": 27,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "3d417fe76a38d7ae09d1",
+          "sourceId": "demo-netease-32",
+          "title": "我们的明天",
+          "artists": [
+            "鹿晗"
+          ],
+          "rank": 28,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "bf228cba22fa10699441",
+          "sourceId": "demo-netease-16",
+          "title": "我记得",
+          "artists": [
+            "赵雷"
+          ],
+          "rank": 29,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "7324cfa01f58a0d6fe15",
+          "sourceId": "demo-netease-27",
+          "title": "想见你想见你想见你",
+          "artists": [
+            "八三夭"
+          ],
+          "rank": 30,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "e013bdb76664a41b1947",
+          "sourceId": "demo-netease-28",
+          "title": "悬溺",
+          "artists": [
+            "葛东琪"
+          ],
+          "rank": 31,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fe692d2f0c29a541f554",
+          "sourceId": "demo-netease-35",
+          "title": "平凡之路",
+          "artists": [
+            "朴树"
+          ],
+          "rank": 32,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d43f8a282f0362383219",
+          "sourceId": "demo-netease-31",
+          "title": "晚安",
+          "artists": [
+            "颜人中"
+          ],
+          "rank": 33,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a95925ccd111b43522ba",
+          "sourceId": "demo-netease-26",
+          "title": "暗号",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 34,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a01732999e7bfff5c799",
+          "sourceId": "demo-netease-25",
+          "title": "这世界那么多人",
+          "artists": [
+            "莫文蔚"
+          ],
+          "rank": 35,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "12a16ae2bf9d7e1fc869",
+          "sourceId": "demo-netease-33",
+          "title": "年少有为",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 36,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "album": null,
+          "artwork": null
+        }
+      ],
+      "updatePolicy": "近一周收听窗口、每日更新；没有核实固定发榜时刻。",
+      "access": "设计示例 · 实际适配器使用官方公开歌单 JSON"
+    },
+    {
+      "id": "kugou",
+      "name": "酷狗音乐",
+      "chartName": "TOP500",
+      "group": "tme",
+      "enabled": true,
+      "sourceUrl": "https://m.kugou.com/rank/info/?rankid=8888",
+      "frequency": "每日更新",
+      "status": "ok",
+      "message": "设计示例：模拟名次，不代表真实平台榜单",
+      "ingestion": "demo",
+      "fetchedAt": "2026-10-20T13:17:00.000Z",
+      "sourceUpdatedAt": null,
+      "sourcePeriod": null,
+      "count": 36,
+      "weight": 0.1481,
+      "entries": [
+        {
+          "songId": "800b0aab3d68808e892e",
+          "sourceId": "demo-kugou-3",
+          "title": "特别的人",
+          "artists": [
+            "方大同"
+          ],
+          "rank": 1,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1c4e1a4066e20511f7ab",
+          "sourceId": "demo-kugou-5",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 2,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "44a84462f6a0527b7c01",
+          "sourceId": "demo-kugou-4",
+          "title": "唯一",
+          "artists": [
+            "邓紫棋"
+          ],
+          "rank": 3,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "949602a93a41b21f6d90",
+          "sourceId": "demo-kugou-10",
+          "title": "红色高跟鞋",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 4,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8a8b8ec8dd5b568bc6a2",
+          "sourceId": "demo-kugou-2",
+          "title": "爱错",
+          "artists": [
+            "王力宏"
+          ],
+          "rank": 5,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "517458fa496808f33781",
+          "sourceId": "demo-kugou-7",
+          "title": "水星记",
+          "artists": [
+            "郭顶"
+          ],
+          "rank": 6,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1eefe964b2e771570839",
+          "sourceId": "demo-kugou-9",
+          "title": "慢冷",
+          "artists": [
+            "梁静茹"
+          ],
+          "rank": 7,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "64345baefea2ed775ef3",
+          "sourceId": "demo-kugou-15",
+          "title": "起风了",
+          "artists": [
+            "买辣椒也用券"
+          ],
+          "rank": 8,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8c0daa3d1077edcbc6c8",
+          "sourceId": "demo-kugou-1",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 9,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8579ba448da26dc38aac",
+          "sourceId": "demo-kugou-22",
+          "title": "稻香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 10,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "7324cfa01f58a0d6fe15",
+          "sourceId": "demo-kugou-27",
+          "title": "想见你想见你想见你",
+          "artists": [
+            "八三夭"
+          ],
+          "rank": 11,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "bf228cba22fa10699441",
+          "sourceId": "demo-kugou-16",
+          "title": "我记得",
+          "artists": [
+            "赵雷"
+          ],
+          "rank": 12,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "86c4b8b6e1c2bcf8d9bd",
+          "sourceId": "demo-kugou-0",
+          "title": "晴天",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 13,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d5c030c53083cb10df5f",
+          "sourceId": "demo-kugou-11",
+          "title": "如果可以",
+          "artists": [
+            "韦礼安"
+          ],
+          "rank": 14,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a01732999e7bfff5c799",
+          "sourceId": "demo-kugou-25",
+          "title": "这世界那么多人",
+          "artists": [
+            "莫文蔚"
+          ],
+          "rank": 15,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fa4778b09e289a75e29f",
+          "sourceId": "demo-kugou-29",
+          "title": "大风吹",
+          "artists": [
+            "王赫野"
+          ],
+          "rank": 16,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8fdd4a55e51b9dadab1e",
+          "sourceId": "demo-kugou-17",
+          "title": "达尔文",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 17,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6c69ebda234ce2b791c3",
+          "sourceId": "demo-kugou-6",
+          "title": "跳楼机",
+          "artists": [
+            "LBI利比"
+          ],
+          "rank": 18,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "99a3452c5d9725ea9d17",
+          "sourceId": "demo-kugou-12",
+          "title": "世界赠予我的",
+          "artists": [
+            "王菲"
+          ],
+          "rank": 19,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "4a3eddf0605cf5c78d0b",
+          "sourceId": "demo-kugou-23",
+          "title": "遇见",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 20,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5a0b0c54d8269ae76053",
+          "sourceId": "demo-kugou-13",
+          "title": "海阔天空",
+          "artists": [
+            "Beyond"
+          ],
+          "rank": 21,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "05db1463ac4d3768c09b",
+          "sourceId": "demo-kugou-8",
+          "title": "七里香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 22,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a4fe35e43ba7b8f1f9f8",
+          "sourceId": "demo-kugou-18",
+          "title": "十年",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 23,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1637db17294d398b3b6b",
+          "sourceId": "demo-kugou-34",
+          "title": "富士山下",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 24,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a95925ccd111b43522ba",
+          "sourceId": "demo-kugou-26",
+          "title": "暗号",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 25,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "aebe5c3a922a99089c07",
+          "sourceId": "demo-kugou-14",
+          "title": "如果爱忘了",
+          "artists": [
+            "戚薇"
+          ],
+          "rank": 26,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fe692d2f0c29a541f554",
+          "sourceId": "demo-kugou-35",
+          "title": "平凡之路",
+          "artists": [
+            "朴树"
+          ],
+          "rank": 27,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "e013bdb76664a41b1947",
+          "sourceId": "demo-kugou-28",
+          "title": "悬溺",
+          "artists": [
+            "葛东琪"
+          ],
+          "rank": 28,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "22a40da0ec97d28fb500",
+          "sourceId": "demo-kugou-24",
+          "title": "乌梅子酱",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 29,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d43f8a282f0362383219",
+          "sourceId": "demo-kugou-31",
+          "title": "晚安",
+          "artists": [
+            "颜人中"
+          ],
+          "rank": 30,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5eb136a4d9f6210cc870",
+          "sourceId": "demo-kugou-21",
+          "title": "不为谁而作的歌",
+          "artists": [
+            "林俊杰"
+          ],
+          "rank": 31,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6f164a403f38b8991823",
+          "sourceId": "demo-kugou-19",
+          "title": "小半",
+          "artists": [
+            "陈粒"
+          ],
+          "rank": 32,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "92935db09be5aaf07483",
+          "sourceId": "demo-kugou-20",
+          "title": "爱人错过",
+          "artists": [
+            "告五人"
+          ],
+          "rank": 33,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "3d417fe76a38d7ae09d1",
+          "sourceId": "demo-kugou-32",
+          "title": "我们的明天",
+          "artists": [
+            "鹿晗"
+          ],
+          "rank": 34,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "dcf19a112ac59b826929",
+          "sourceId": "demo-kugou-30",
+          "title": "像我这样的人",
+          "artists": [
+            "毛不易"
+          ],
+          "rank": 35,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "12a16ae2bf9d7e1fc869",
+          "sourceId": "demo-kugou-33",
+          "title": "年少有为",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 36,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "album": null,
+          "artwork": null
+        }
+      ],
+      "updatePolicy": "每日更新；2026-10-22 响应配置显示 10:00，但未明确时区，不作为长期承诺。",
+      "access": "设计示例 · 实际适配器使用官方移动网页 JSON"
+    },
+    {
+      "id": "kuwo",
+      "name": "酷我音乐",
+      "chartName": "酷我热歌榜",
+      "group": "tme",
+      "enabled": true,
+      "sourceUrl": "https://www.kuwo.cn/rankList",
+      "frequency": "更新频率待确认",
+      "status": "ok",
+      "message": "设计示例：模拟名次，不代表真实平台榜单",
+      "ingestion": "demo",
+      "fetchedAt": "2026-10-20T13:17:00.000Z",
+      "sourceUpdatedAt": null,
+      "sourcePeriod": null,
+      "count": 36,
+      "weight": 0.1481,
+      "entries": [
+        {
+          "songId": "949602a93a41b21f6d90",
+          "sourceId": "demo-kuwo-10",
+          "title": "红色高跟鞋",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 1,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "86c4b8b6e1c2bcf8d9bd",
+          "sourceId": "demo-kuwo-0",
+          "title": "晴天",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 2,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "99a3452c5d9725ea9d17",
+          "sourceId": "demo-kuwo-12",
+          "title": "世界赠予我的",
+          "artists": [
+            "王菲"
+          ],
+          "rank": 3,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "517458fa496808f33781",
+          "sourceId": "demo-kuwo-7",
+          "title": "水星记",
+          "artists": [
+            "郭顶"
+          ],
+          "rank": 4,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8fdd4a55e51b9dadab1e",
+          "sourceId": "demo-kuwo-17",
+          "title": "达尔文",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 5,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6c69ebda234ce2b791c3",
+          "sourceId": "demo-kuwo-6",
+          "title": "跳楼机",
+          "artists": [
+            "LBI利比"
+          ],
+          "rank": 6,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "44a84462f6a0527b7c01",
+          "sourceId": "demo-kuwo-4",
+          "title": "唯一",
+          "artists": [
+            "邓紫棋"
+          ],
+          "rank": 7,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8c0daa3d1077edcbc6c8",
+          "sourceId": "demo-kuwo-1",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 8,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "800b0aab3d68808e892e",
+          "sourceId": "demo-kuwo-3",
+          "title": "特别的人",
+          "artists": [
+            "方大同"
+          ],
+          "rank": 9,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1c4e1a4066e20511f7ab",
+          "sourceId": "demo-kuwo-5",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 10,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d5c030c53083cb10df5f",
+          "sourceId": "demo-kuwo-11",
+          "title": "如果可以",
+          "artists": [
+            "韦礼安"
+          ],
+          "rank": 11,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8a8b8ec8dd5b568bc6a2",
+          "sourceId": "demo-kuwo-2",
+          "title": "爱错",
+          "artists": [
+            "王力宏"
+          ],
+          "rank": 12,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1eefe964b2e771570839",
+          "sourceId": "demo-kuwo-9",
+          "title": "慢冷",
+          "artists": [
+            "梁静茹"
+          ],
+          "rank": 13,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "bf228cba22fa10699441",
+          "sourceId": "demo-kuwo-16",
+          "title": "我记得",
+          "artists": [
+            "赵雷"
+          ],
+          "rank": 14,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a95925ccd111b43522ba",
+          "sourceId": "demo-kuwo-26",
+          "title": "暗号",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 15,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "4a3eddf0605cf5c78d0b",
+          "sourceId": "demo-kuwo-23",
+          "title": "遇见",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 16,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6f164a403f38b8991823",
+          "sourceId": "demo-kuwo-19",
+          "title": "小半",
+          "artists": [
+            "陈粒"
+          ],
+          "rank": 17,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "05db1463ac4d3768c09b",
+          "sourceId": "demo-kuwo-8",
+          "title": "七里香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 18,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "aebe5c3a922a99089c07",
+          "sourceId": "demo-kuwo-14",
+          "title": "如果爱忘了",
+          "artists": [
+            "戚薇"
+          ],
+          "rank": 19,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "64345baefea2ed775ef3",
+          "sourceId": "demo-kuwo-15",
+          "title": "起风了",
+          "artists": [
+            "买辣椒也用券"
+          ],
+          "rank": 20,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "e013bdb76664a41b1947",
+          "sourceId": "demo-kuwo-28",
+          "title": "悬溺",
+          "artists": [
+            "葛东琪"
+          ],
+          "rank": 21,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5eb136a4d9f6210cc870",
+          "sourceId": "demo-kuwo-21",
+          "title": "不为谁而作的歌",
+          "artists": [
+            "林俊杰"
+          ],
+          "rank": 22,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5a0b0c54d8269ae76053",
+          "sourceId": "demo-kuwo-13",
+          "title": "海阔天空",
+          "artists": [
+            "Beyond"
+          ],
+          "rank": 23,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "12a16ae2bf9d7e1fc869",
+          "sourceId": "demo-kuwo-33",
+          "title": "年少有为",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 24,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fa4778b09e289a75e29f",
+          "sourceId": "demo-kuwo-29",
+          "title": "大风吹",
+          "artists": [
+            "王赫野"
+          ],
+          "rank": 25,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a01732999e7bfff5c799",
+          "sourceId": "demo-kuwo-25",
+          "title": "这世界那么多人",
+          "artists": [
+            "莫文蔚"
+          ],
+          "rank": 26,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8579ba448da26dc38aac",
+          "sourceId": "demo-kuwo-22",
+          "title": "稻香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 27,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "7324cfa01f58a0d6fe15",
+          "sourceId": "demo-kuwo-27",
+          "title": "想见你想见你想见你",
+          "artists": [
+            "八三夭"
+          ],
+          "rank": 28,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "dcf19a112ac59b826929",
+          "sourceId": "demo-kuwo-30",
+          "title": "像我这样的人",
+          "artists": [
+            "毛不易"
+          ],
+          "rank": 29,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a4fe35e43ba7b8f1f9f8",
+          "sourceId": "demo-kuwo-18",
+          "title": "十年",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 30,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "92935db09be5aaf07483",
+          "sourceId": "demo-kuwo-20",
+          "title": "爱人错过",
+          "artists": [
+            "告五人"
+          ],
+          "rank": 31,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "22a40da0ec97d28fb500",
+          "sourceId": "demo-kuwo-24",
+          "title": "乌梅子酱",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 32,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1637db17294d398b3b6b",
+          "sourceId": "demo-kuwo-34",
+          "title": "富士山下",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 33,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fe692d2f0c29a541f554",
+          "sourceId": "demo-kuwo-35",
+          "title": "平凡之路",
+          "artists": [
+            "朴树"
+          ],
+          "rank": 34,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "3d417fe76a38d7ae09d1",
+          "sourceId": "demo-kuwo-32",
+          "title": "我们的明天",
+          "artists": [
+            "鹿晗"
+          ],
+          "rank": 35,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d43f8a282f0362383219",
+          "sourceId": "demo-kuwo-31",
+          "title": "晚安",
+          "artists": [
+            "颜人中"
+          ],
+          "rank": 36,
+          "url": "https://www.kuwo.cn/rankList",
+          "album": null,
+          "artwork": null
+        }
+      ],
+      "updatePolicy": "公开接口包含榜单日期；固定频率与发榜时刻仍待确认。",
+      "access": "设计示例 · 实际适配器使用官方榜单 JSON"
+    },
+    {
+      "id": "apple",
+      "name": "Apple Music",
+      "chartName": "热门歌曲 · 中国区（RSS）",
+      "group": "apple",
+      "enabled": true,
+      "sourceUrl": "https://rss.marketingtools.apple.com/",
+      "frequency": "未公开固定时点",
+      "status": "ok",
+      "message": "设计示例：模拟名次，不代表真实平台榜单",
+      "ingestion": "demo",
+      "fetchedAt": "2026-10-20T13:17:00.000Z",
+      "sourceUpdatedAt": null,
+      "sourcePeriod": null,
+      "count": 36,
+      "weight": 0.2222,
+      "entries": [
+        {
+          "songId": "1eefe964b2e771570839",
+          "sourceId": "demo-apple-9",
+          "title": "慢冷",
+          "artists": [
+            "梁静茹"
+          ],
+          "rank": 1,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1c4e1a4066e20511f7ab",
+          "sourceId": "demo-apple-5",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 2,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8a8b8ec8dd5b568bc6a2",
+          "sourceId": "demo-apple-2",
+          "title": "爱错",
+          "artists": [
+            "王力宏"
+          ],
+          "rank": 3,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "44a84462f6a0527b7c01",
+          "sourceId": "demo-apple-4",
+          "title": "唯一",
+          "artists": [
+            "邓紫棋"
+          ],
+          "rank": 4,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "949602a93a41b21f6d90",
+          "sourceId": "demo-apple-10",
+          "title": "红色高跟鞋",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 5,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8c0daa3d1077edcbc6c8",
+          "sourceId": "demo-apple-1",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 6,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "92935db09be5aaf07483",
+          "sourceId": "demo-apple-20",
+          "title": "爱人错过",
+          "artists": [
+            "告五人"
+          ],
+          "rank": 7,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "99a3452c5d9725ea9d17",
+          "sourceId": "demo-apple-12",
+          "title": "世界赠予我的",
+          "artists": [
+            "王菲"
+          ],
+          "rank": 8,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6c69ebda234ce2b791c3",
+          "sourceId": "demo-apple-6",
+          "title": "跳楼机",
+          "artists": [
+            "LBI利比"
+          ],
+          "rank": 9,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "aebe5c3a922a99089c07",
+          "sourceId": "demo-apple-14",
+          "title": "如果爱忘了",
+          "artists": [
+            "戚薇"
+          ],
+          "rank": 10,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "22a40da0ec97d28fb500",
+          "sourceId": "demo-apple-24",
+          "title": "乌梅子酱",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 11,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "800b0aab3d68808e892e",
+          "sourceId": "demo-apple-3",
+          "title": "特别的人",
+          "artists": [
+            "方大同"
+          ],
+          "rank": 12,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "86c4b8b6e1c2bcf8d9bd",
+          "sourceId": "demo-apple-0",
+          "title": "晴天",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 13,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5a0b0c54d8269ae76053",
+          "sourceId": "demo-apple-13",
+          "title": "海阔天空",
+          "artists": [
+            "Beyond"
+          ],
+          "rank": 14,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8fdd4a55e51b9dadab1e",
+          "sourceId": "demo-apple-17",
+          "title": "达尔文",
+          "artists": [
+            "蔡健雅"
+          ],
+          "rank": 15,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "dcf19a112ac59b826929",
+          "sourceId": "demo-apple-30",
+          "title": "像我这样的人",
+          "artists": [
+            "毛不易"
+          ],
+          "rank": 16,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "517458fa496808f33781",
+          "sourceId": "demo-apple-7",
+          "title": "水星记",
+          "artists": [
+            "郭顶"
+          ],
+          "rank": 17,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "05db1463ac4d3768c09b",
+          "sourceId": "demo-apple-8",
+          "title": "七里香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 18,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "e013bdb76664a41b1947",
+          "sourceId": "demo-apple-28",
+          "title": "悬溺",
+          "artists": [
+            "葛东琪"
+          ],
+          "rank": 19,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "3d417fe76a38d7ae09d1",
+          "sourceId": "demo-apple-32",
+          "title": "我们的明天",
+          "artists": [
+            "鹿晗"
+          ],
+          "rank": 20,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "bf228cba22fa10699441",
+          "sourceId": "demo-apple-16",
+          "title": "我记得",
+          "artists": [
+            "赵雷"
+          ],
+          "rank": 21,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "7324cfa01f58a0d6fe15",
+          "sourceId": "demo-apple-27",
+          "title": "想见你想见你想见你",
+          "artists": [
+            "八三夭"
+          ],
+          "rank": 22,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a4fe35e43ba7b8f1f9f8",
+          "sourceId": "demo-apple-18",
+          "title": "十年",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 23,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "12a16ae2bf9d7e1fc869",
+          "sourceId": "demo-apple-33",
+          "title": "年少有为",
+          "artists": [
+            "李荣浩"
+          ],
+          "rank": 24,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "64345baefea2ed775ef3",
+          "sourceId": "demo-apple-15",
+          "title": "起风了",
+          "artists": [
+            "买辣椒也用券"
+          ],
+          "rank": 25,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "5eb136a4d9f6210cc870",
+          "sourceId": "demo-apple-21",
+          "title": "不为谁而作的歌",
+          "artists": [
+            "林俊杰"
+          ],
+          "rank": 26,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d5c030c53083cb10df5f",
+          "sourceId": "demo-apple-11",
+          "title": "如果可以",
+          "artists": [
+            "韦礼安"
+          ],
+          "rank": 27,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fa4778b09e289a75e29f",
+          "sourceId": "demo-apple-29",
+          "title": "大风吹",
+          "artists": [
+            "王赫野"
+          ],
+          "rank": 28,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "8579ba448da26dc38aac",
+          "sourceId": "demo-apple-22",
+          "title": "稻香",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 29,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "6f164a403f38b8991823",
+          "sourceId": "demo-apple-19",
+          "title": "小半",
+          "artists": [
+            "陈粒"
+          ],
+          "rank": 30,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a01732999e7bfff5c799",
+          "sourceId": "demo-apple-25",
+          "title": "这世界那么多人",
+          "artists": [
+            "莫文蔚"
+          ],
+          "rank": 31,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "4a3eddf0605cf5c78d0b",
+          "sourceId": "demo-apple-23",
+          "title": "遇见",
+          "artists": [
+            "孙燕姿"
+          ],
+          "rank": 32,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "d43f8a282f0362383219",
+          "sourceId": "demo-apple-31",
+          "title": "晚安",
+          "artists": [
+            "颜人中"
+          ],
+          "rank": 33,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "a95925ccd111b43522ba",
+          "sourceId": "demo-apple-26",
+          "title": "暗号",
+          "artists": [
+            "周杰伦"
+          ],
+          "rank": 34,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "1637db17294d398b3b6b",
+          "sourceId": "demo-apple-34",
+          "title": "富士山下",
+          "artists": [
+            "陈奕迅"
+          ],
+          "rank": 35,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        },
+        {
+          "songId": "fe692d2f0c29a541f554",
+          "sourceId": "demo-apple-35",
+          "title": "平凡之路",
+          "artists": [
+            "朴树"
+          ],
+          "rank": 36,
+          "url": "https://rss.marketingtools.apple.com/",
+          "album": null,
+          "artwork": null
+        }
+      ],
+      "updatePolicy": "中国区 most-played RSS 与每日 Top 100 中国大陆歌单不同，不套用后者的日更承诺。",
+      "access": "设计示例 · RSS 适配器已实现，本机研究请求超时，待真实采集确认"
+    },
+    {
+      "id": "qishui",
+      "name": "汽水音乐",
+      "chartName": "热歌榜",
+      "group": "qishui",
+      "enabled": false,
+      "sourceUrl": "https://www.luna.music/",
+      "frequency": "待官方确认",
+      "status": "disabled",
+      "message": "尚未确认官方公开榜单入口；可显式导入",
+      "ingestion": "demo",
+      "fetchedAt": null,
+      "sourceUpdatedAt": null,
+      "sourcePeriod": null,
+      "count": 0,
+      "weight": 0,
+      "entries": [],
+      "updatePolicy": "官方热歌榜 ID、公开读取入口与更新时间仍待确认。",
+      "access": "显式 JSON 导入"
+    }
+  ],
+  "songs": [
+    {
+      "id": "44a84462f6a0527b7c01",
+      "title": "唯一",
+      "artists": [
+        "邓紫棋"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 1,
+          "score": 100.0,
+          "contribution": 14.8148,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-4"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 5,
+          "score": 86.6929,
+          "contribution": 28.8976,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-4"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 3,
+          "score": 93.0805,
+          "contribution": 13.7897,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-4"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 7,
+          "score": 80.7965,
+          "contribution": 11.9699,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-4"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 4,
+          "score": 89.8228,
+          "contribution": 19.9606,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-4"
+        }
+      ],
+      "score": 89.4326,
+      "rank": 1,
+      "appearances": 5,
+      "previousRank": 6,
+      "delta": 5,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 4,
+          "score": 80.2077
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 8,
+          "score": 78.6288
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 4,
+          "score": 81.8752
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 6,
+          "score": 77.0452
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 1,
+          "score": 89.4326
+        }
+      ]
+    },
+    {
+      "id": "800b0aab3d68808e892e",
+      "title": "特别的人",
+      "artists": [
+        "方大同"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 2,
+          "score": 96.471,
+          "contribution": 14.292,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-3"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 1,
+          "score": 100.0,
+          "contribution": 33.3333,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-3"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 1,
+          "score": 100.0,
+          "contribution": 14.8148,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-3"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 9,
+          "score": 75.3534,
+          "contribution": 11.1635,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-3"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 12,
+          "score": 67.9633,
+          "contribution": 15.103,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-3"
+        }
+      ],
+      "score": 88.7066,
+      "rank": 2,
+      "appearances": 5,
+      "previousRank": 2,
+      "delta": 0,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 8,
+          "score": 77.015
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 3,
+          "score": 83.2719
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 3,
+          "score": 84.1454
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 2,
+          "score": 86.0122
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 2,
+          "score": 88.7066
+        }
+      ]
+    },
+    {
+      "id": "1c4e1a4066e20511f7ab",
+      "title": "恋人",
+      "artists": [
+        "李荣浩"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 8,
+          "score": 78.0205,
+          "contribution": 11.5586,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-5"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 4,
+          "score": 89.8228,
+          "contribution": 29.9409,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-5"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 2,
+          "score": 96.471,
+          "contribution": 14.292,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-5"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 10,
+          "score": 72.7909,
+          "contribution": 10.7838,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-5"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 2,
+          "score": 96.471,
+          "contribution": 21.438,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-5"
+        }
+      ],
+      "score": 88.0134,
+      "rank": 3,
+      "appearances": 5,
+      "previousRank": 5,
+      "delta": 2,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 6,
+          "score": 77.1497
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 9,
+          "score": 74.8001
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 11,
+          "score": 69.8507
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 5,
+          "score": 77.6978
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 3,
+          "score": 88.0134
+        }
+      ]
+    },
+    {
+      "id": "99a3452c5d9725ea9d17",
+      "title": "世界赠予我的",
+      "artists": [
+        "王菲"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 11,
+          "score": 70.3288,
+          "contribution": 10.4191,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-12"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 2,
+          "score": 96.471,
+          "contribution": 32.157,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-12"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 19,
+          "score": 53.8077,
+          "contribution": 7.9715,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-12"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 3,
+          "score": 93.0805,
+          "contribution": 13.7897,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-12"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 8,
+          "score": 78.0205,
+          "contribution": 17.3379,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-12"
+        }
+      ],
+      "score": 81.6752,
+      "rank": 4,
+      "appearances": 5,
+      "previousRank": 10,
+      "delta": 6,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 15,
+          "score": 63.596
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 5,
+          "score": 82.6837
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 12,
+          "score": 65.6869
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 10,
+          "score": 71.142
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 4,
+          "score": 81.6752
+        }
+      ]
+    },
+    {
+      "id": "86c4b8b6e1c2bcf8d9bd",
+      "title": "晴天",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 3,
+          "score": 93.0805,
+          "contribution": 13.7897,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-0"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 6,
+          "score": 83.6858,
+          "contribution": 27.8953,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-0"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 13,
+          "score": 65.6905,
+          "contribution": 9.7319,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-0"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 2,
+          "score": 96.471,
+          "contribution": 14.292,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-0"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 13,
+          "score": 65.6905,
+          "contribution": 14.5979,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-0"
+        }
+      ],
+      "score": 80.3068,
+      "rank": 5,
+      "appearances": 5,
+      "previousRank": 8,
+      "delta": 3,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 1,
+          "score": 82.831
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 2,
+          "score": 86.0171
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 5,
+          "score": 81.6428
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 8,
+          "score": 76.2759
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 5,
+          "score": 80.3068
+        }
+      ]
+    },
+    {
+      "id": "949602a93a41b21f6d90",
+      "title": "红色高跟鞋",
+      "artists": [
+        "蔡健雅"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 10,
+          "score": 72.7909,
+          "contribution": 10.7838,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-10"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 14,
+          "score": 63.5068,
+          "contribution": 21.1689,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-10"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 4,
+          "score": 89.8228,
+          "contribution": 13.3071,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-10"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 1,
+          "score": 100.0,
+          "contribution": 14.8148,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-10"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 5,
+          "score": 86.6929,
+          "contribution": 19.2651,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-10"
+        }
+      ],
+      "score": 79.3398,
+      "rank": 6,
+      "appearances": 5,
+      "previousRank": 17,
+      "delta": 11,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 5,
+          "score": 77.4539
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 11,
+          "score": 69.3388
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 17,
+          "score": 60.7026
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 17,
+          "score": 61.0335
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 6,
+          "score": 79.3398
+        }
+      ]
+    },
+    {
+      "id": "8c0daa3d1077edcbc6c8",
+      "title": "我怀念的",
+      "artists": [
+        "孙燕姿"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 17,
+          "score": 57.4563,
+          "contribution": 8.512,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-1"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 7,
+          "score": 80.7965,
+          "contribution": 26.9322,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-1"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 9,
+          "score": 75.3534,
+          "contribution": 11.1635,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-1"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 8,
+          "score": 78.0205,
+          "contribution": 11.5586,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-1"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 6,
+          "score": 83.6858,
+          "contribution": 18.5968,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-1"
+        }
+      ],
+      "score": 76.7631,
+      "rank": 7,
+      "appearances": 5,
+      "previousRank": 1,
+      "delta": -6,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 7,
+          "score": 77.0659
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 6,
+          "score": 79.7288
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 2,
+          "score": 85.0928
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 1,
+          "score": 86.9107
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 7,
+          "score": 76.7631
+        }
+      ]
+    },
+    {
+      "id": "8a8b8ec8dd5b568bc6a2",
+      "title": "爱错",
+      "artists": [
+        "王力宏"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 5,
+          "score": 86.6929,
+          "contribution": 12.8434,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-2"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 17,
+          "score": 57.4563,
+          "contribution": 19.1521,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-2"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 5,
+          "score": 86.6929,
+          "contribution": 12.8434,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-2"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 12,
+          "score": 67.9633,
+          "contribution": 10.0686,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-2"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 3,
+          "score": 93.0805,
+          "contribution": 20.6845,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-2"
+        }
+      ],
+      "score": 75.5921,
+      "rank": 8,
+      "appearances": 5,
+      "previousRank": 3,
+      "delta": -5,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 2,
+          "score": 81.1021
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 1,
+          "score": 92.1428
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 9,
+          "score": 72.5371
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 3,
+          "score": 84.9722
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 8,
+          "score": 75.5921
+        }
+      ]
+    },
+    {
+      "id": "517458fa496808f33781",
+      "title": "水星记",
+      "artists": [
+        "郭顶"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 21,
+          "score": 50.4396,
+          "contribution": 7.4725,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-7"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 8,
+          "score": 78.0205,
+          "contribution": 26.0068,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-7"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 6,
+          "score": 83.6858,
+          "contribution": 12.3979,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-7"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 4,
+          "score": 89.8228,
+          "contribution": 13.3071,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-7"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 17,
+          "score": 57.4563,
+          "contribution": 12.7681,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-7"
+        }
+      ],
+      "score": 71.9524,
+      "rank": 9,
+      "appearances": 5,
+      "previousRank": 13,
+      "delta": 4,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 10,
+          "score": 75.0455
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 13,
+          "score": 65.8899
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 7,
+          "score": 76.6556
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 13,
+          "score": 64.6756
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 9,
+          "score": 71.9524
+        }
+      ]
+    },
+    {
+      "id": "1eefe964b2e771570839",
+      "title": "慢冷",
+      "artists": [
+        "梁静茹"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 16,
+          "score": 59.393,
+          "contribution": 8.799,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-9"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 18,
+          "score": 55.5955,
+          "contribution": 18.5318,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-9"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 7,
+          "score": 80.7965,
+          "contribution": 11.9699,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-9"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 13,
+          "score": 65.6905,
+          "contribution": 9.7319,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-9"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 1,
+          "score": 100.0,
+          "contribution": 22.2222,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-9"
+        }
+      ],
+      "score": 71.2548,
+      "rank": 10,
+      "appearances": 5,
+      "previousRank": 12,
+      "delta": 2,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 9,
+          "score": 75.5993
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 4,
+          "score": 82.7505
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 18,
+          "score": 58.6627
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 12,
+          "score": 66.4016
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 10,
+          "score": 71.2548
+        }
+      ]
+    },
+    {
+      "id": "6c69ebda234ce2b791c3",
+      "title": "跳楼机",
+      "artists": [
+        "LBI利比"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 4,
+          "score": 89.8228,
+          "contribution": 13.3071,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-6"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 20,
+          "score": 52.09,
+          "contribution": 17.3633,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-6"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 18,
+          "score": 55.5955,
+          "contribution": 8.2364,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-6"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 6,
+          "score": 83.6858,
+          "contribution": 12.3979,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-6"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 9,
+          "score": 75.3534,
+          "contribution": 16.7452,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-6"
+        }
+      ],
+      "score": 68.0499,
+      "rank": 11,
+      "appearances": 5,
+      "previousRank": 4,
+      "delta": -7,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 3,
+          "score": 80.7009
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 10,
+          "score": 71.154
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 1,
+          "score": 88.1092
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 4,
+          "score": 79.4452
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 11,
+          "score": 68.0499
+        }
+      ]
+    },
+    {
+      "id": "aebe5c3a922a99089c07",
+      "title": "如果爱忘了",
+      "artists": [
+        "戚薇"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 28,
+          "score": 40.5636,
+          "contribution": 6.0094,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-14"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 3,
+          "score": 93.0805,
+          "contribution": 31.0268,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-14"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 26,
+          "score": 43.1091,
+          "contribution": 6.3865,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-14"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 19,
+          "score": 53.8077,
+          "contribution": 7.9715,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-14"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 10,
+          "score": 72.7909,
+          "contribution": 16.1757,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-14"
+        }
+      ],
+      "score": 67.57,
+      "rank": 12,
+      "appearances": 5,
+      "previousRank": 15,
+      "delta": 3,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 17,
+          "score": 60.6139
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 15,
+          "score": 59.5932
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 13,
+          "score": 64.6629
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 15,
+          "score": 63.101
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 12,
+          "score": 67.57
+        }
+      ]
+    },
+    {
+      "id": "d5c030c53083cb10df5f",
+      "title": "如果可以",
+      "artists": [
+        "韦礼安"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 7,
+          "score": 80.7965,
+          "contribution": 11.9699,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-11"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 11,
+          "score": 70.3288,
+          "contribution": 23.4429,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-11"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 14,
+          "score": 63.5068,
+          "contribution": 9.4084,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-11"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 11,
+          "score": 70.3288,
+          "contribution": 10.4191,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-11"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 27,
+          "score": 41.8109,
+          "contribution": 9.2913,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-11"
+        }
+      ],
+      "score": 64.5316,
+      "rank": 13,
+      "appearances": 5,
+      "previousRank": 11,
+      "delta": -2,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 23,
+          "score": 48.5584
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 20,
+          "score": 53.0666
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 6,
+          "score": 77.9588
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 11,
+          "score": 66.7887
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 13,
+          "score": 64.5316
+        }
+      ]
+    },
+    {
+      "id": "05db1463ac4d3768c09b",
+      "title": "七里香",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 9,
+          "score": 75.3534,
+          "contribution": 11.1635,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-8"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 12,
+          "score": 67.9633,
+          "contribution": 22.6544,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-8"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 22,
+          "score": 48.8539,
+          "contribution": 7.2376,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-8"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 18,
+          "score": 55.5955,
+          "contribution": 8.2364,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-8"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 18,
+          "score": 55.5955,
+          "contribution": 12.3546,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-8"
+        }
+      ],
+      "score": 61.6465,
+      "rank": 14,
+      "appearances": 5,
+      "previousRank": 9,
+      "delta": -5,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 12,
+          "score": 66.8944
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 12,
+          "score": 67.0576
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 8,
+          "score": 76.6488
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 9,
+          "score": 76.1263
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 14,
+          "score": 61.6465
+        }
+      ]
+    },
+    {
+      "id": "8fdd4a55e51b9dadab1e",
+      "title": "达尔文",
+      "artists": [
+        "蔡健雅"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 19,
+          "score": 53.8077,
+          "contribution": 7.9715,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-17"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 22,
+          "score": 48.8539,
+          "contribution": 16.2846,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-17"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 17,
+          "score": 57.4563,
+          "contribution": 8.512,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-17"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 5,
+          "score": 86.6929,
+          "contribution": 12.8434,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-17"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 15,
+          "score": 61.4088,
+          "contribution": 13.6464,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-17"
+        }
+      ],
+      "score": 59.258,
+      "rank": 15,
+      "appearances": 5,
+      "previousRank": 19,
+      "delta": 4,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 18,
+          "score": 59.281
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 14,
+          "score": 60.275
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 15,
+          "score": 60.9637
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 19,
+          "score": 55.2325
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 15,
+          "score": 59.258
+        }
+      ]
+    },
+    {
+      "id": "5a0b0c54d8269ae76053",
+      "title": "海阔天空",
+      "artists": [
+        "Beyond"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 13,
+          "score": 65.6905,
+          "contribution": 9.7319,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-13"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 16,
+          "score": 59.393,
+          "contribution": 19.7977,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-13"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 21,
+          "score": 50.4396,
+          "contribution": 7.4725,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-13"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 23,
+          "score": 47.3305,
+          "contribution": 7.0119,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-13"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 14,
+          "score": 63.5068,
+          "contribution": 14.1126,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-13"
+        }
+      ],
+      "score": 58.1267,
+      "rank": 16,
+      "appearances": 5,
+      "previousRank": 7,
+      "delta": -9,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 13,
+          "score": 66.2667
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 7,
+          "score": 78.9158
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 20,
+          "score": 52.3804
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 7,
+          "score": 76.785
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 16,
+          "score": 58.1267
+        }
+      ]
+    },
+    {
+      "id": "22a40da0ec97d28fb500",
+      "title": "乌梅子酱",
+      "artists": [
+        "李荣浩"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 26,
+          "score": 43.1091,
+          "contribution": 6.3865,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-24"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 10,
+          "score": 72.7909,
+          "contribution": 24.2636,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-24"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 29,
+          "score": 39.3652,
+          "contribution": 5.8319,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-24"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 32,
+          "score": 36.0446,
+          "contribution": 5.3399,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-24"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 11,
+          "score": 70.3288,
+          "contribution": 15.6286,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-24"
+        }
+      ],
+      "score": 57.4506,
+      "rank": 17,
+      "appearances": 5,
+      "previousRank": 25,
+      "delta": 8,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 26,
+          "score": 46.7935
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 22,
+          "score": 50.9855
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 29,
+          "score": 43.2721
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 25,
+          "score": 48.422
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 17,
+          "score": 57.4506
+        }
+      ]
+    },
+    {
+      "id": "92935db09be5aaf07483",
+      "title": "爱人错过",
+      "artists": [
+        "告五人"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 24,
+          "score": 45.8667,
+          "contribution": 6.7951,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-20"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 13,
+          "score": 65.6905,
+          "contribution": 21.8968,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-20"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 33,
+          "score": 35.0234,
+          "contribution": 5.1886,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-20"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 31,
+          "score": 37.1075,
+          "contribution": 5.4974,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-20"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 7,
+          "score": 80.7965,
+          "contribution": 17.9548,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-20"
+        }
+      ],
+      "score": 57.3327,
+      "rank": 18,
+      "appearances": 5,
+      "previousRank": 18,
+      "delta": 0,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 14,
+          "score": 66.144
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 16,
+          "score": 54.1871
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 22,
+          "score": 51.2254
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 18,
+          "score": 57.2939
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 18,
+          "score": 57.3327
+        }
+      ]
+    },
+    {
+      "id": "bf228cba22fa10699441",
+      "title": "我记得",
+      "artists": [
+        "赵雷"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 6,
+          "score": 83.6858,
+          "contribution": 12.3979,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-16"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 29,
+          "score": 39.3652,
+          "contribution": 13.1217,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-16"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 12,
+          "score": 67.9633,
+          "contribution": 10.0686,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-16"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 14,
+          "score": 63.5068,
+          "contribution": 9.4084,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-16"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 21,
+          "score": 50.4396,
+          "contribution": 11.2088,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-16"
+        }
+      ],
+      "score": 56.2055,
+      "rank": 19,
+      "appearances": 5,
+      "previousRank": 20,
+      "delta": 1,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 11,
+          "score": 69.4121
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 25,
+          "score": 47.3689
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 19,
+          "score": 55.0042
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 20,
+          "score": 54.9722
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 19,
+          "score": 56.2055
+        }
+      ]
+    },
+    {
+      "id": "64345baefea2ed775ef3",
+      "title": "起风了",
+      "artists": [
+        "买辣椒也用券"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 30,
+          "score": 38.2138,
+          "contribution": 5.6613,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-15"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 15,
+          "score": 61.4088,
+          "contribution": 20.4696,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-15"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 8,
+          "score": 78.0205,
+          "contribution": 11.5586,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-15"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 20,
+          "score": 52.09,
+          "contribution": 7.717,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-15"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 25,
+          "score": 44.4604,
+          "contribution": 9.8801,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-15"
+        }
+      ],
+      "score": 55.2866,
+      "rank": 20,
+      "appearances": 5,
+      "previousRank": 14,
+      "delta": -6,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 16,
+          "score": 60.7499
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 19,
+          "score": 53.2016
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 10,
+          "score": 70.8052
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 14,
+          "score": 63.8416
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 20,
+          "score": 55.2866
+        }
+      ]
+    },
+    {
+      "id": "a4fe35e43ba7b8f1f9f8",
+      "title": "十年",
+      "artists": [
+        "陈奕迅"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 27,
+          "score": 41.8109,
+          "contribution": 6.1942,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-18"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 9,
+          "score": 75.3534,
+          "contribution": 25.1178,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-18"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 23,
+          "score": 47.3305,
+          "contribution": 7.0119,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-18"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 30,
+          "score": 38.2138,
+          "contribution": 5.6613,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-18"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 23,
+          "score": 47.3305,
+          "contribution": 10.5179,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-18"
+        }
+      ],
+      "score": 54.5031,
+      "rank": 21,
+      "appearances": 5,
+      "previousRank": 21,
+      "delta": 0,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 24,
+          "score": 47.6945
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 27,
+          "score": 46.615
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 21,
+          "score": 51.6306
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 21,
+          "score": 54.3808
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 21,
+          "score": 54.5031
+        }
+      ]
+    },
+    {
+      "id": "5eb136a4d9f6210cc870",
+      "title": "不为谁而作的歌",
+      "artists": [
+        "林俊杰"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 14,
+          "score": 63.5068,
+          "contribution": 9.4084,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-21"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 21,
+          "score": 50.4396,
+          "contribution": 16.8132,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-21"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 31,
+          "score": 37.1075,
+          "contribution": 5.4974,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-21"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 22,
+          "score": 48.8539,
+          "contribution": 7.2376,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-21"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 26,
+          "score": 43.1091,
+          "contribution": 9.5798,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-21"
+        }
+      ],
+      "score": 48.5365,
+      "rank": 22,
+      "appearances": 5,
+      "previousRank": 23,
+      "delta": 1,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 31,
+          "score": 42.4051
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 18,
+          "score": 53.7193
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 24,
+          "score": 48.6878
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 23,
+          "score": 49.768
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 22,
+          "score": 48.5365
+        }
+      ]
+    },
+    {
+      "id": "fa4778b09e289a75e29f",
+      "title": "大风吹",
+      "artists": [
+        "王赫野"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 33,
+          "score": 35.0234,
+          "contribution": 5.1886,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-29"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 19,
+          "score": 53.8077,
+          "contribution": 17.9359,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-29"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 16,
+          "score": 59.393,
+          "contribution": 8.799,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-29"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 25,
+          "score": 44.4604,
+          "contribution": 6.5867,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-29"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 28,
+          "score": 40.5636,
+          "contribution": 9.0141,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-29"
+        }
+      ],
+      "score": 47.5244,
+      "rank": 23,
+      "appearances": 5,
+      "previousRank": 28,
+      "delta": 5,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 28,
+          "score": 44.9381
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 29,
+          "score": 44.791
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 30,
+          "score": 41.7035
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 28,
+          "score": 43.3034
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 23,
+          "score": 47.5244
+        }
+      ]
+    },
+    {
+      "id": "4a3eddf0605cf5c78d0b",
+      "title": "遇见",
+      "artists": [
+        "孙燕姿"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 29,
+          "score": 39.3652,
+          "contribution": 5.8319,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-23"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 23,
+          "score": 47.3305,
+          "contribution": 15.7768,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-23"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 20,
+          "score": 52.09,
+          "contribution": 7.717,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-23"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 16,
+          "score": 59.393,
+          "contribution": 8.799,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-23"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 32,
+          "score": 36.0446,
+          "contribution": 8.0099,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-23"
+        }
+      ],
+      "score": 46.1346,
+      "rank": 24,
+      "appearances": 5,
+      "previousRank": 29,
+      "delta": 5,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 21,
+          "score": 53.9869
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 21,
+          "score": 51.3179
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 25,
+          "score": 48.2031
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 29,
+          "score": 42.0178
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 24,
+          "score": 46.1346
+        }
+      ]
+    },
+    {
+      "id": "7324cfa01f58a0d6fe15",
+      "title": "想见你想见你想见你",
+      "artists": [
+        "八三夭"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 32,
+          "score": 36.0446,
+          "contribution": 5.3399,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-27"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 30,
+          "score": 38.2138,
+          "contribution": 12.7379,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-27"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 11,
+          "score": 70.3288,
+          "contribution": 10.4191,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-27"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 28,
+          "score": 40.5636,
+          "contribution": 6.0094,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-27"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 22,
+          "score": 48.8539,
+          "contribution": 10.8564,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-27"
+        }
+      ],
+      "score": 45.3628,
+      "rank": 25,
+      "appearances": 5,
+      "previousRank": 22,
+      "delta": -3,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 34,
+          "score": 35.9961
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 31,
+          "score": 40.9734
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 28,
+          "score": 44.8239
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 22,
+          "score": 53.6091
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 25,
+          "score": 45.3628
+        }
+      ]
+    },
+    {
+      "id": "8579ba448da26dc38aac",
+      "title": "稻香",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 34,
+          "score": 34.0422,
+          "contribution": 5.0433,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-22"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 26,
+          "score": 43.1091,
+          "contribution": 14.3697,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-22"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 10,
+          "score": 72.7909,
+          "contribution": 10.7838,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-22"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 27,
+          "score": 41.8109,
+          "contribution": 6.1942,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-22"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 29,
+          "score": 39.3652,
+          "contribution": 8.7478,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-22"
+        }
+      ],
+      "score": 45.1389,
+      "rank": 26,
+      "appearances": 5,
+      "previousRank": 24,
+      "delta": -2,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 19,
+          "score": 59.2456
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 23,
+          "score": 50.9342
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 16,
+          "score": 60.9343
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 24,
+          "score": 48.896
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 26,
+          "score": 45.1389
+        }
+      ]
+    },
+    {
+      "id": "a95925ccd111b43522ba",
+      "title": "暗号",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 12,
+          "score": 67.9633,
+          "contribution": 10.0686,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-26"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 34,
+          "score": 34.0422,
+          "contribution": 11.3474,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-26"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 25,
+          "score": 44.4604,
+          "contribution": 6.5867,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-26"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 15,
+          "score": 61.4088,
+          "contribution": 9.0976,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-26"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 34,
+          "score": 34.0422,
+          "contribution": 7.5649,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-26"
+        }
+      ],
+      "score": 44.6653,
+      "rank": 27,
+      "appearances": 5,
+      "previousRank": 27,
+      "delta": 0,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 25,
+          "score": 46.9561
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 17,
+          "score": 53.8164
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 26,
+          "score": 47.4232
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 27,
+          "score": 44.9015
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 27,
+          "score": 44.6653
+        }
+      ]
+    },
+    {
+      "id": "e013bdb76664a41b1947",
+      "title": "悬溺",
+      "artists": [
+        "葛东琪"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 25,
+          "score": 44.4604,
+          "contribution": 6.5867,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-28"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 31,
+          "score": 37.1075,
+          "contribution": 12.3692,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-28"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 28,
+          "score": 40.5636,
+          "contribution": 6.0094,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-28"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 21,
+          "score": 50.4396,
+          "contribution": 7.4725,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-28"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 19,
+          "score": 53.8077,
+          "contribution": 11.9573,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-28"
+        }
+      ],
+      "score": 44.3951,
+      "rank": 28,
+      "appearances": 5,
+      "previousRank": 32,
+      "delta": 4,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 22,
+          "score": 49.5513
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 35,
+          "score": 38.9903
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 34,
+          "score": 38.8094
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 32,
+          "score": 38.9767
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 28,
+          "score": 44.3951
+        }
+      ]
+    },
+    {
+      "id": "dcf19a112ac59b826929",
+      "title": "像我这样的人",
+      "artists": [
+        "毛不易"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 31,
+          "score": 37.1075,
+          "contribution": 5.4974,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-30"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 25,
+          "score": 44.4604,
+          "contribution": 14.8201,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-30"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 35,
+          "score": 33.0995,
+          "contribution": 4.9036,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-30"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 29,
+          "score": 39.3652,
+          "contribution": 5.8319,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-30"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 16,
+          "score": 59.393,
+          "contribution": 13.1985,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-30"
+        }
+      ],
+      "score": 44.2515,
+      "rank": 29,
+      "appearances": 5,
+      "previousRank": 35,
+      "delta": 6,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 27,
+          "score": 45.8864
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 33,
+          "score": 39.7791
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 33,
+          "score": 39.377
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 35,
+          "score": 38.5002
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 29,
+          "score": 44.2515
+        }
+      ]
+    },
+    {
+      "id": "6f164a403f38b8991823",
+      "title": "小半",
+      "artists": [
+        "陈粒"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 20,
+          "score": 52.09,
+          "contribution": 7.717,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-19"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 27,
+          "score": 41.8109,
+          "contribution": 13.937,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-19"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 32,
+          "score": 36.0446,
+          "contribution": 5.3399,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-19"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 17,
+          "score": 57.4563,
+          "contribution": 8.512,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-19"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 30,
+          "score": 38.2138,
+          "contribution": 8.4919,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-19"
+        }
+      ],
+      "score": 43.9979,
+      "rank": 30,
+      "appearances": 5,
+      "previousRank": 16,
+      "delta": -14,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 20,
+          "score": 54.8812
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 24,
+          "score": 48.7022
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 14,
+          "score": 63.631
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 16,
+          "score": 61.2757
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 30,
+          "score": 43.9979
+        }
+      ]
+    },
+    {
+      "id": "a01732999e7bfff5c799",
+      "title": "这世界那么多人",
+      "artists": [
+        "莫文蔚"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 15,
+          "score": 61.4088,
+          "contribution": 9.0976,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-25"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 35,
+          "score": 33.0995,
+          "contribution": 11.0332,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-25"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 15,
+          "score": 61.4088,
+          "contribution": 9.0976,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-25"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 26,
+          "score": 43.1091,
+          "contribution": 6.3865,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-25"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 31,
+          "score": 37.1075,
+          "contribution": 8.2461,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-25"
+        }
+      ],
+      "score": 43.861,
+      "rank": 31,
+      "appearances": 5,
+      "previousRank": 26,
+      "delta": -5,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 29,
+          "score": 43.8202
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 28,
+          "score": 45.1103
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 23,
+          "score": 49.0324
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 26,
+          "score": 45.6361
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 31,
+          "score": 43.861
+        }
+      ]
+    },
+    {
+      "id": "3d417fe76a38d7ae09d1",
+      "title": "我们的明天",
+      "artists": [
+        "鹿晗"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 22,
+          "score": 48.8539,
+          "contribution": 7.2376,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-32"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 28,
+          "score": 40.5636,
+          "contribution": 13.5212,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-32"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 34,
+          "score": 34.0422,
+          "contribution": 5.0433,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-32"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 35,
+          "score": 33.0995,
+          "contribution": 4.9036,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-32"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 20,
+          "score": 52.09,
+          "contribution": 11.5756,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-32"
+        }
+      ],
+      "score": 42.2813,
+      "rank": 32,
+      "appearances": 5,
+      "previousRank": 30,
+      "delta": -2,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 33,
+          "score": 40.0949
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 26,
+          "score": 47.1697
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 36,
+          "score": 36.249
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 30,
+          "score": 41.0595
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 32,
+          "score": 42.2813
+        }
+      ]
+    },
+    {
+      "id": "1637db17294d398b3b6b",
+      "title": "富士山下",
+      "artists": [
+        "陈奕迅"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 35,
+          "score": 33.0995,
+          "contribution": 4.9036,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-34"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 24,
+          "score": 45.8667,
+          "contribution": 15.2889,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-34"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 24,
+          "score": 45.8667,
+          "contribution": 6.7951,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-34"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 33,
+          "score": 35.0234,
+          "contribution": 5.1886,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-34"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 35,
+          "score": 33.0995,
+          "contribution": 7.3554,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-34"
+        }
+      ],
+      "score": 39.5317,
+      "rank": 33,
+      "appearances": 5,
+      "previousRank": 33,
+      "delta": 0,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 36,
+          "score": 33.3548
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 36,
+          "score": 37.4152
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 31,
+          "score": 40.32
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 33,
+          "score": 38.9713
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 33,
+          "score": 39.5317
+        }
+      ]
+    },
+    {
+      "id": "12a16ae2bf9d7e1fc869",
+      "title": "年少有为",
+      "artists": [
+        "李荣浩"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 23,
+          "score": 47.3305,
+          "contribution": 7.0119,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-33"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 36,
+          "score": 32.1937,
+          "contribution": 10.7312,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-33"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 36,
+          "score": 32.1937,
+          "contribution": 4.7694,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-33"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 24,
+          "score": 45.8667,
+          "contribution": 6.7951,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-33"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 24,
+          "score": 45.8667,
+          "contribution": 10.1926,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-33"
+        }
+      ],
+      "score": 39.5003,
+      "rank": 34,
+      "appearances": 5,
+      "previousRank": 34,
+      "delta": 0,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 32,
+          "score": 42.1613
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 34,
+          "score": 39.7722
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 35,
+          "score": 38.2609
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 34,
+          "score": 38.5666
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 34,
+          "score": 39.5003
+        }
+      ]
+    },
+    {
+      "id": "d43f8a282f0362383219",
+      "title": "晚安",
+      "artists": [
+        "颜人中"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 18,
+          "score": 55.5955,
+          "contribution": 8.2364,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-31"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 33,
+          "score": 35.0234,
+          "contribution": 11.6745,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-31"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 30,
+          "score": 38.2138,
+          "contribution": 5.6613,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-31"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 36,
+          "score": 32.1937,
+          "contribution": 4.7694,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-31"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 33,
+          "score": 35.0234,
+          "contribution": 7.783,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-31"
+        }
+      ],
+      "score": 38.1245,
+      "rank": 35,
+      "appearances": 5,
+      "previousRank": 31,
+      "delta": -4,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 30,
+          "score": 43.1207
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 30,
+          "score": 41.5344
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 27,
+          "score": 45.0798
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 31,
+          "score": 40.7656
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 35,
+          "score": 38.1245
+        }
+      ]
+    },
+    {
+      "id": "fe692d2f0c29a541f554",
+      "title": "平凡之路",
+      "artists": [
+        "朴树"
+      ],
+      "artwork": null,
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 36,
+          "score": 32.1937,
+          "contribution": 4.7694,
+          "url": "https://y.qq.com/n/ryqq/toplist/26",
+          "sourceId": "demo-qq-35"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 32,
+          "score": 36.0446,
+          "contribution": 12.0149,
+          "url": "https://music.163.com/#/discover/toplist?id=3778678",
+          "sourceId": "demo-netease-35"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 27,
+          "score": 41.8109,
+          "contribution": 6.1942,
+          "url": "https://m.kugou.com/rank/info/?rankid=8888",
+          "sourceId": "demo-kugou-35"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 34,
+          "score": 34.0422,
+          "contribution": 5.0433,
+          "url": "https://www.kuwo.cn/rankList",
+          "sourceId": "demo-kuwo-35"
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 36,
+          "score": 32.1937,
+          "contribution": 7.1542,
+          "url": "https://rss.marketingtools.apple.com/",
+          "sourceId": "demo-apple-35"
+        }
+      ],
+      "score": 35.176,
+      "rank": 36,
+      "appearances": 5,
+      "previousRank": 36,
+      "delta": 0,
+      "history": [
+        {
+          "date": "2026-10-16",
+          "rank": 35,
+          "score": 34.9057
+        },
+        {
+          "date": "2026-10-17",
+          "rank": 32,
+          "score": 39.7815
+        },
+        {
+          "date": "2026-10-18",
+          "rank": 32,
+          "score": 39.4314
+        },
+        {
+          "date": "2026-10-19",
+          "rank": 36,
+          "score": 36.6764
+        },
+        {
+          "date": "2026-10-20",
+          "rank": 36,
+          "score": 35.176
+        }
+      ]
+    }
+  ]
+}

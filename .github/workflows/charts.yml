@@ -1,0 +1,146 @@
+name: Collect charts & publish
+
+on:
+  schedule:
+    # UTC -> Asia/Shanghai: 09:17 / 15:17 / 21:17.
+    - cron: '17 1,7,13 * * *'
+  workflow_dispatch:
+    inputs:
+      collect:
+        description: '采集新快照（关闭则只重新生成并提交站点）'
+        type: boolean
+        default: true
+      notify_again:
+        description: '人工补发 WebSub（可关闭采集，等待线上就绪后通知）'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'config/**'
+      - 'docs/**'
+      - 'demo/**'
+      - 'data/**'
+      - 'imports/**'
+      - 'package.json'
+      - 'README.md'
+      - '.gitignore'
+      - '.github/workflows/charts.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resonance-production
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FEED_PRODUCTION: 'true'
+      SITE_URL: ${{ vars.SITE_URL }}
+      WEBSUB_HUB_URL: ${{ vars.WEBSUB_HUB_URL }}
+      PUBLISH_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Validate production address
+        run: node --input-type=module -e 'import { resolveSiteURL } from "./scripts/feeds.mjs"; resolveSiteURL();'
+      - name: Check local contracts
+        run: npm test
+      - name: Collect public chart snapshots
+        id: collect
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.collect)
+        continue-on-error: true
+        run: npm run collect
+      - name: Build production website, API and feeds
+        id: build
+        run: npm run build
+      - name: Preserve collected observations if the build fails
+        if: failure() && steps.build.outcome == 'failure' && steps.collect.outcome != 'skipped'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: preserve music chart observations after build failure"
+            git push origin "HEAD:$PUBLISH_BRANCH"
+          fi
+      - name: Read currently deployed subscription revision
+        id: previous_feed
+        if: env.WEBSUB_HUB_URL != ''
+        continue-on-error: true
+        run: node scripts/notify.mjs capture "$RUNNER_TEMP/resonance-previous-feed.json"
+      - name: Commit snapshots and production site for Cloudflare Pages
+        id: publish_files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git add -f dist/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: publish music charts and static website"
+            git push origin "HEAD:$PUBLISH_BRANCH"
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/upload-artifact@v7
+        with:
+          name: resonance-static-site
+          path: dist/
+          retention-days: 7
+      - name: Wait for published feed and notify WebSub
+        id: notify
+        if: steps.publish_files.outcome == 'success' && steps.previous_feed.outcome == 'success' && env.WEBSUB_HUB_URL != ''
+        continue-on-error: true
+        env:
+          NOTIFY_AGAIN: ${{ github.event_name == 'workflow_dispatch' && inputs.notify_again }}
+        run: |
+          if [ "$NOTIFY_AGAIN" = 'true' ]; then
+            node scripts/notify.mjs publish "$RUNNER_TEMP/resonance-previous-feed.json" --wait --force
+          else
+            node scripts/notify.mjs publish "$RUNNER_TEMP/resonance-previous-feed.json" --wait
+          fi
+      - name: Report collection or notification failure after preserving results
+        if: always() && (steps.collect.outcome == 'failure' || steps.previous_feed.outcome == 'failure' || steps.notify.outcome == 'failure')
+        run: |
+          echo '采集或订阅通知步骤失败。已提交的归档与站点保留；请查看各步骤和 Summary。' >&2
+          exit 1
+      - name: Summarize publishing states
+        if: always()
+        env:
+          COLLECT_OUTCOME: ${{ steps.collect.outcome }}
+          BUILD_OUTCOME: ${{ steps.build.outcome }}
+          PUBLISH_OUTCOME: ${{ steps.publish_files.outcome }}
+          PUBLISH_CHANGED: ${{ steps.publish_files.outputs.changed }}
+          BASELINE_OUTCOME: ${{ steps.previous_feed.outcome }}
+          NOTIFY_OUTCOME: ${{ steps.notify.outcome }}
+        run: |
+          {
+            echo '### 本轮发布状态'
+            echo ''
+            echo "- 采集：${COLLECT_OUTCOME}"
+            echo "- 静态构建：${BUILD_OUTCOME}"
+            echo "- GitHub 数据与 dist 提交：${PUBLISH_OUTCOME}（有变更：${PUBLISH_CHANGED}）"
+            echo '- Cloudflare Pages 通过 Git integration 拉取 dist；最终部署状态请在 Pages 查看。'
+            echo "- 发布前订阅版本读取：${BASELINE_OUTCOME}"
+            echo "- 线上版本核对与 WebSub：${NOTIFY_OUTCOME}"
+            if [ -z "$WEBSUB_HUB_URL" ]; then
+              echo '- 未配置 Hub，不等待 Cloudflare；Atom 与 JSON Feed 可由阅读器定期读取。'
+            fi
+            if [ "$BASELINE_OUTCOME" = 'failure' ]; then
+              echo '- 旧版本读取失败，未猜测旧版本；本轮停止发送 Hub 通知，Git 提交仍独立执行。'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
