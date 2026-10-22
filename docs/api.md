@@ -1,8 +1,8 @@
 # 共振公开 JSON API · v1
 
-网站同域提供只读静态 JSON 接口，无需注册、API Key 或 Cookie。数据与网站使用同一份已发布快照，由 GitHub Actions 采集、计算后随 Cloudflare Pages 一起部署；请求接口不会触发实时采集。
+网站同域提供只读静态 JSON 接口，无需注册、API Key 或 Cookie。数据与网站使用同一份已发布快照，随榜单发布更新；请求接口不会触发实时采集。
 
-所有下列路径均使用 `GET`。成功响应的 Content-Type 为 `application/json`（本地附带 `charset=utf-8`），跨域头为 `Access-Control-Allow-Origin: *`，缓存使用 `public, max-age=0, must-revalidate`。普通跨域 `fetch` 不要携带凭据，也无需自定义请求头。
+所有下列路径均使用 `GET`。`/api/v1/` 成功响应的 Content-Type 为 `application/json`，跨域头为 `Access-Control-Allow-Origin: *`，缓存使用 `public, max-age=0, must-revalidate`。普通跨域 `fetch` 不要携带凭据，也无需自定义请求头。订阅源分别使用 Atom XML 和 JSON Feed 格式。
 
 ## 路由
 
@@ -25,9 +25,9 @@
 
 `{date}` 为北京时间自然日 `YYYY-MM-DD`，必须来自 `dates.json` 的 `dates`。`{id}` 为平台 ID：`qq`、`netease`、`kugou`、`kuwo`、`apple`、`qishui`；以目录的 `platforms` 为准。历史日期只保留当时快照包含的平台。
 
-目录包含 `schemaVersion`、`mode`、`date`、`generatedAt`、`description`、`platforms`、`endpoints`、`subscriptions`。`endpoints` 提供 `latest`、`dates`、`status`、`methodology`、`updates`、`chartByDate`、`platformLatest`、`platformByDate`、`weeklyLatest`、`weeklyIndex`、`weeklyByWeek`；含 `{id}`、`{date}` 或 `{weekStart}` 的值需要先替换参数。`subscriptions` 提供 `atom`、`jsonFeed` 和 `updates` 路径。API 路径为当前站点根路径，不绑定域名；订阅文件中的链接使用部署时配置的 `SITE_URL`。
+目录包含 `schemaVersion`、`mode`、`date`、`generatedAt`、`description`、`platforms`、`endpoints`、`subscriptions`。`endpoints` 提供 `latest`、`dates`、`status`、`methodology`、`updates`、`chartByDate`、`platformLatest`、`platformByDate`、`weeklyLatest`、`weeklyIndex`、`weeklyByWeek`；含 `{id}`、`{date}` 或 `{weekStart}` 的值需要先替换参数。`subscriptions` 提供 `atom`、`jsonFeed` 和 `updates` 路径。API 路径为当前站点根路径，不绑定域名；订阅文件返回规范站点地址的完整链接。
 
-没有服务端搜索、分页或查询参数过滤。客户端先读取榜单，再按自己的需要筛选歌曲、歌手或排名。未知路径、尚未发布的日期和未知平台返回 HTTP 404。先检查 HTTP 状态，再解析 JSON；Cloudflare Pages 的 404 正文可能是网站的 404 HTML 页。
+没有服务端搜索、分页或查询参数过滤。客户端先读取榜单，再按自己的需要筛选歌曲、歌手或排名。未知路径、尚未发布的日期和未知平台返回 HTTP 404。先检查 HTTP 状态，再解析 JSON；404 正文可能是 HTML 页面。
 
 ## 综合榜响应
 
@@ -50,7 +50,7 @@
 
 以上是结构示意。`songs` 按综合排名升序，每首歌的 `platforms` 包含原榜名次、计分贡献和平台链接；`id` 是项目的合并曲目身份，不是平台 ID。`score` 是公式计算的相对热度分数，不是播放量。`previousRank` 和 `delta` 为 `null` 时，不应自动标为新歌；可能是首次采集、来源覆盖变化或前一日不可比。判断跨日可比性请结合 `coverage.comparisonAvailable` 和 `comparisonSignature`。
 
-新采集增加 `songs[].combinedMovement`，明确表示**综合榜相对前一个北京时间自然日的变化**：
+`songs[].combinedMovement` 表示**综合榜相对前一个北京时间自然日的变化**：
 
 ```json
 {
@@ -62,13 +62,13 @@
 }
 ```
 
-这是结构示例，`direction` 为 `up/down/same/new/unknown`。不可比时为 `unknown`，`comparisonDate` 为 `null`；`new` 表示进入本项目综合榜 Top 100，不表示歌曲刚发行。顶层 `previousRank`、`delta` 保留兼容，含义与 `combinedMovement` 相同。此次仅增加元数据，计分公式仍为 1.1，历史文件不会补写未经采集的原榜涨跌或 MV 信息。
+这是结构示例，`direction` 为 `up/down/same/new/unknown`。不可比时为 `unknown`，`comparisonDate` 为 `null`；`new` 表示进入本项目综合榜 Top 100，不表示歌曲刚发行。顶层 `previousRank`、`delta` 含义与 `combinedMovement` 相同。原榜涨跌和 MV 元数据不参与计分，历史快照可能缺少这些字段。
 
 从方法 **1.1** 起，各来源统一仅以前 **50** 名参与计分，原榜采集深度单独保留。`songs[].appearances` 是该曲目出现在所保留原榜中的平台数；`songs[].scoringAppearances` 才是进入前 50 名、实际参与计分的平台数。每项 `songs[].platforms[]` 的 `eligible` 表示是否计分；超过第 50 名的原榜记录仍可显示，但其 `eligible` 为 `false`、`score` 和 `contribution` 均为 `0`。只有至少一个来源产生正分的曲目才会进入综合榜候选，最终综合榜最多输出 100 首。
 
 历史响应保留各自的 `methodology.version` 与 `rankDepth`。方法 1.0 的历史数据可能没有 `eligible`、`scoringAppearances` 等新字段；不要用最新 `methodology.json` 的参数重新解释旧日期的分数。
 
-`mode` 为 `live` 表示真实采集或显式导入的数据；为 `demo` 表示设计示例。首次部署没有真实发布快照时，网站与 API 都明确使用 `demo`。用于统计分析的客户端应主动拒绝 `demo`。
+`mode` 为 `live` 表示真实采集或显式导入的数据；为 `demo` 表示设计示例。没有真实发布快照时，网站与 API 都明确使用 `demo`。用于统计分析的客户端应主动拒绝 `demo`。
 
 `coverage.status` 为 `complete` 表示全部配置平台可用；`partial` 表示部分平台缺失，但仍达到独立来源组门槛；`insufficient` 表示未达到发布门槛，通常只会出现在最近采集状态。`partial` 是覆盖说明，不是 HTTP 请求失败。来源错误、未接入、过期均可造成覆盖不足。不要将成功返回 HTTP 200 等同于所有平台已更新。
 
@@ -104,7 +104,7 @@
 
 ## 原榜涨跌与 MV
 
-新采集的 `entries[]` 带有 `sourceMovement` 和 `mv`。综合榜 `songs[].platforms[]` 同样保留对应平台的这两个对象；它们不参与综合分数计算，也不会替代 `combinedMovement`。
+`entries[]` 的 `sourceMovement` 和 `mv` 分别记录原榜变化和 MV 关联信息。综合榜 `songs[].platforms[]` 同样保留对应平台的这两个对象；它们不参与综合分数计算，也不会替代 `combinedMovement`。
 
 ```json
 {
@@ -129,7 +129,7 @@
 - 汽水的音频 `vid` 不会当成 MV。没有确认的观看地址不拼接，也不会返回音频/视频临时播放地址、签名或令牌。
 - 历史快照可能没有这两个字段，此时应显示“未记录”，不能当作持平或“没有 MV”。
 
-订阅地址和 WebSub 推送方式见 [订阅与发布文档](subscriptions.md)。订阅基于发布内容的修订标识，同日重复采集但内容没有变化时不会产生新通知。
+订阅地址和 WebSub 接入方式见 [订阅文档](subscriptions.md)。订阅基于发布内容的修订标识，同日重复采集但内容没有变化时不会产生新通知。
 
 ## 采集状态与发布快照
 
@@ -143,7 +143,7 @@
 
 ## 请求示例
 
-命令行（将域名替换为自己的 Cloudflare Pages 域名）：
+命令行（将示例域名替换为实际站点域名）：
 
 ```sh
 curl --fail 'https://your-project.pages.dev/api/v1/index.json'
@@ -167,4 +167,4 @@ console.table(topTen.map(({ rank, title, score }) => ({ rank, title, score })));
 
 日期查询应先读取 `dates.json`，选择 `dates` 中的一个日期，再请求对应路径；不要猜测尚未发布的未来日期。
 
-本地执行 `npm run preview` 后可使用相同路径，预览文件位于 `.preview/`，与生产 `dist/` 分开。本地预览对 `/api/*` 的 OPTIONS 请求返回 204 并带跨域头。生产环境由 Cloudflare Pages 原生静态文件服务提供跨域 GET；项目没有 Worker、动态接口、身份会话或写入入口。
+接口仅支持公开读取，不提供写入、身份会话或实时代理。

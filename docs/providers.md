@@ -1,6 +1,6 @@
 # 采集适配器契约
 
-核实截至北京时间 2026-10-23：当日 00:12 已完成六源同轮本地采集，QQ、网易云、酷狗、酷我、Apple RSS 各 100 首，汽水完整 50 首；4/4 独立来源组有效，方法 1.1 发布综合榜 100 首。GitHub Runner 可达性尚未验证，每轮状态以实际记录为准。
+来源核验日期：2026-10-23（北京时间）。适配器保存平台身份、榜期、名次与来源链接，实际覆盖以每次采集状态为准。
 
 公开 Web 接口不是承诺长期稳定的开发者 API；响应变化会使对应来源明确失败，不使用私有 Cookie、不计算防爬签名，也不切换到不明第三方代理。
 
@@ -8,20 +8,20 @@
 
 | ID | 实现 | 数据口径 | 当前证据与限制 |
 | --- | --- | --- | --- |
-| `qq` | 官方 Web JSON，榜单 ID `26` | 热歌榜前 100 | 首次本地采集取得 100 首。官方说明每日更新，固定公布时间未证实。 |
-| `netease` | 官方公开歌单 JSON，ID `3778678` | 热歌榜前 100 | 首次本地采集取得 100 首。官方说明为一周热度统计、每日更新，不沿用旧“每周四更新”资料。 |
-| `kugou` | 官方移动 JSON，ID `8888`，4 页 | TOP500 的前 100 | 首次本地采集取得 100 首。每页 30 首，跨页期次必须一致；一次响应中的 `10:00:00` 是观测配置。 |
-| `kuwo` | 官方榜单 JSON，ID `16` | 酷我热歌榜前 100 | 首次本地采集取得 100 首及榜单日期；固定频率和更新时间尚未确认。 |
-| `apple` | 官方 CN `most-played` RSS | 热门歌曲前 100 | 首次本地采集取得 100 首。**不是** `Top 100：中国大陆` 每日歌单，不套用该歌单的日更承诺。 |
+| `qq` | 官方 Web JSON，榜单 ID `26` | 热歌榜前 100 | 核验取得 100 首。官方说明每日更新，固定公布时间未证实。 |
+| `netease` | 官方公开歌单 JSON，ID `3778678` | 热歌榜前 100 | 核验取得 100 首。官方说明为一周热度统计、每日更新，不沿用旧“每周四更新”资料。 |
+| `kugou` | 官方移动 JSON，ID `8888`，4 页 | TOP500 的前 100 | 核验取得 100 首。每页 30 首，跨页期次必须一致；一次响应中的 `10:00:00` 是观测配置。 |
+| `kuwo` | 官方榜单 JSON，ID `16` | 酷我热歌榜前 100 | 核验取得 100 首及榜单日期；固定频率和更新时间尚未确认。 |
+| `apple` | 官方 CN `most-played` RSS | 热门歌曲前 100 | 核验取得 100 首。**不是** `Top 100：中国大陆` 每日歌单，不套用该歌单的日更承诺。 |
 | `qishui` | 官方 PC charts JSON，ID `7036274230471712007` | 热歌榜完整前 50，周榜 | 定向无凭据读取确认 50 首、`period=weekly`；本次 `release_time` 为 2026-10-22 北京时间 16:00。 |
 
-`enabled: true` 表示工作流会尝试采集。六个来源当前均启用，GitHub Runner 的可达性仍须由实际工作流确认。
+`enabled: true` 表示采集已启用。六个来源均已配置，实际请求结果记录在来源状态中。
 
 采集与归档保留 QQ、网易云、酷狗、酷我、Apple 各前 100 首，以及汽水完整前 50 首；**方法 1.1 对所有来源统一只使用前 50 名计分**。其余来源的第 51–100 名可在原榜查看，贡献为 0，不能把汽水未公布的第 51–100 名当成已知未上榜。汽水的来源完整性门槛为 50 首、新鲜度窗口为 216 小时（周更加两天宽限）；其余五源为 100 首和 48 小时。
 
 ## 官方数据入口
 
-- QQ：[榜单页面](https://y.qq.com/n/ryqq/toplist/26)、[公开 JSON](https://c.y.qq.com/v8/fcg-bin/fcg_v8_toplist_cp.fcg?format=json&topid=26)。顺序取自 `songlist`；本次已核实 `cur_count` 为当前名次、`old_count` 为上期名次。旧版文档中“cur_count 不是排名”的判断已更正。
+- QQ：[榜单页面](https://y.qq.com/n/ryqq/toplist/26)、[公开 JSON](https://c.y.qq.com/v8/fcg-bin/fcg_v8_toplist_cp.fcg?format=json&topid=26)。顺序取自 `songlist`；`cur_count` 为当前名次、`old_count` 为上期名次。
 - 网易云：[榜单页面](https://music.163.com/#/discover/toplist?id=3778678)、[公开 JSON](https://music.163.com/api/playlist/detail?id=3778678)。顺序取自 `result.tracks`，歌曲 `position` 不是榜单排名。
 - 酷狗：[榜单页面](https://m.kugou.com/rank/info/?rankid=8888)、[公开 JSON](https://m.kugou.com/rank/info/?rankid=8888&page=1&json=true)。`info.rank_id_publish_date` 用于跨页期次核对。返回时间无时区，原样保存在 `sourcePeriod`。
 - 酷我：[榜单页面](https://www.kuwo.cn/rankList)、[公开 JSON](https://kbangserver.kuwo.cn/ksong.s?from=pc&fmt=json&alt=json&show_copyright_off=0&pn=0&rn=100&type=bang&data=content&id=16)。`musiclist` 顺序取排名，`pub` 为来源日期。此端点本次无需 Cookie/CSRF；不会对另一个需要 CSRF 的 H5 接口绕过认证。
@@ -100,4 +100,4 @@
 - QQ 保存 `data.vid`；网易云保存 `mvid`；酷我仅取 `mvpayinfo.vid`，不保存或解释其付费/播放权限对象。
 - 酷狗同时检查 `mvdata[].id/hash` 和 `mvhash`，不能因为 `mvhash` 为空就判定没有 MV。不同标识可能指向同一内容或不同编码，不把标识数量宣称为不同 MV 数量。
 - 汽水 `vid`、`preview.vid`、`audition_info.vid` 不是已确认的 MV 关联，均不写入 `mv`；Apple RSS 同样保留 `unknown`。
-- 当前没有在本轮核实各平台 MV 详情页的 URL 规则，因此 `items[].url` 均为 `null`。不拼接猜测链接，不保存播放地址、播放令牌或原始音频对象。
+- 各平台 MV 详情页的 URL 规则未核实，因此 `items[].url` 均为 `null`。不拼接猜测链接，不保存播放地址、播放令牌或原始音频对象。

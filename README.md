@@ -2,165 +2,89 @@
 
 **每天，听见中国的共同频率。**
 
-收集中国音乐平台的热歌榜，留下可追溯的每日快照，计算自己的跨平台综合榜，再用一张轻盈的静态音乐报纸呈现。GitHub Actions 负责采集与归档，Cloudflare Pages 负责展示；没有数据库、服务端或运行时付费 API 依赖。
+共振是一个中国音乐榜单观察项目。它汇集多个音乐平台的公开榜单，保存每日快照，计算跨平台综合日榜与周榜，并提供可追溯的数据、公开 API 和更新订阅。
 
-> 当前页面使用真实采集数据。仓库另带明确标记的设计示例（36 首、7 天），仅在没有真实快照时使用，不会混入真实历史。GitHub Runner 与 Cloudflare 部署尚未验证。
+平台有不同的听众，榜单有不同的规则。共振保留这些差异，也寻找它们相遇的地方。
 
-最近本地采集：**2026-10-23 00:32 北京时间，6/6 平台、4/4 来源组成功**，550 条原榜记录，综合榜 100 首，方法版本 1.1。新快照已保存原榜涨跌字段与 MV 关联信息，其中 300 条平台记录带有 MV 标识。
+## 功能
 
-## 已经做好什么
+- **综合日榜与周榜**：观察跨平台热度，以及歌曲在一周内的持续表现。
+- **平台原榜**：查看各平台名次、榜期、采集时间与来源链接。
+- **历史回看**：按日期或周次浏览，搜索歌曲与艺人，查看得分贡献和历史变化。
+- **独立的涨跌口径**：平台较上期、综合日榜较昨日、综合周榜较上周分别展示。
+- **MV 关联信息**：保留平台提供的 MV 标识；有已确认的官方地址时提供链接。
+- **开放数据**：JSON / CSV 下载、无需认证的跨域 JSON API，以及 Atom / JSON Feed 订阅。
 
-- 综合日榜、综合周榜、独立平台榜、日期／周次回看、搜索和名次变化。
-- 歌曲详情：各平台位置、原榜涨跌、MV 关联标识、得分贡献、历史趋势。平台上期变化与综合榜较昨日变化分开展示。
-- 公开方法论、来源更新时间、最近采集状态、覆盖缺口。
-- JSON/CSV 下载、无需认证且支持跨域的公开 JSON API，保留每轮规范化来源记录以便重新计算。
-- 一套工作流完成采集、构建和归档提交，Cloudflare Pages 自动拉取生产产物发布。
-- Atom / JSON Feed 公开订阅日榜与周榜；配置 WebSub Hub 后，在确认 Cloudflare 已上线本次内容且榜单内容变化时通知订阅方。
-- 六个平台自动采集，汽水使用官方完整 Top 50 周榜；跨平台歌曲合并可通过配置纠正。
+## 数据来源
 
-## 本地打开
+| 平台 | 选用榜单 | 保留原榜深度 |
+| --- | --- | ---: |
+| QQ 音乐 | 热歌榜 | 100 首 |
+| 网易云音乐 | 热歌榜 | 100 首 |
+| 酷狗音乐 | TOP500 | 前 100 首 |
+| 酷我音乐 | 热歌榜 | 100 首 |
+| Apple Music | 中国区 most-played RSS | 100 首 |
+| 汽水音乐 | 官方热歌周榜 | 完整 50 首 |
 
-需要 Node.js 22 或以上。核心采集、计算、构建和页面均零第三方依赖，不需要 `npm install`。
+汽水来源是周榜，每日采样可能记录同一期排名。Apple Music 来源为中国区热门歌曲 RSS，与「Top 100：中国大陆」歌单不同。各平台的统计窗口和更新时间也不完全相同，具体依据见 [数据来源说明](docs/sources.md)。
 
-```sh
-cd /Users/arnold/Projects/resonance
-npm run preview
-```
+页面与 API 均披露实际可用来源、平台期次和采集时间。来源读取失败时记录原因，不用其他榜单替代。
 
-访问 `http://127.0.0.1:4173`。预览命令自动构建到 `.preview/`，不覆盖由 Actions 提交的生产 `dist/`。页面通过 HTTP 读取 JSON，不直接用 `file://` 打开。若预览服务已经运行，使用 `node scripts/build.mjs --preview` 更新预览文件即可。
+## 综合榜如何计算
 
-采集真实数据：
+### 综合日榜
 
-```sh
-npm run collect
-npm run preview
-```
+统一使用各平台前 **50 名**计分，发布有正分的前 **100 首**。原榜中保留的其他名次仍可查询。
 
-其中一个来源失败时，采集命令退出非零并写出诊断。只要有至少 **2 个独立来源组**，仍生成明确标记部分覆盖的综合榜；不足则保留上一期，页面展示本次失败状态。不要因为退出非零就删掉已归档记录。
-
-## 部署到 GitHub Actions + Cloudflare Pages
-
-本项目采用与 [dreamapp-updates](https://github.com/arnoldhao/dreamapp-updates) 相同的 **GitHub Actions 生成并提交 `dist/` → Cloudflare Pages Git integration 自动拉取发布**。完整步骤见 [部署指南](docs/deployment.md)。
-
-1. 把本项目提交到自己的 GitHub 仓库，默认分支使用 `main`。
-2. 仓库 **Settings → Secrets and variables → Actions → Variables** 设置 `SITE_URL` 为实际正式 HTTPS 根地址。`WEBSUB_HUB_URL` 可选，首次上线先留空。
-3. 允许工作流使用 `contents: write` 向默认分支提交。手动运行 **Actions → Collect charts & publish**，勾选 `collect`，关闭 `notify_again`，生成首次生产 `dist/`。
-4. 在已授权 GitHub 的 Cloudflare Pages 中选择此仓库，按下表配置。已有连接直接调整设置即可。
-
-| Cloudflare Pages 设置 | 值 |
-| --- | --- |
-| Production branch | `main` |
-| Framework preset | `None` |
-| Build command | `true` |
-| Build output directory | `dist` |
-| Root directory | 留空 |
-| Build watch paths · Include | `dist/*`，替换默认的 `*` |
-| Preview branch deployments | 关闭，当前产物使用正式域名 |
-
-不需要在 GitHub 配置 Cloudflare API Token、Account ID、项目名、PAT 或 Deploy Hook。`SITE_URL` 是构建 Feed 绝对链接所需的公开地址；它不是认证信息。这里已有的 `.gitignore` 会忽略尚未跟踪的本地 `dist/`，Action 用 `git add -f dist/` 首次纳入生产产物；之后由 Action 更新。首次连接时若 `dist/` 尚未生成，等待 Action 的产物提交后再看部署结果。
-
-发布顺序为：**测试 → 采集 → 构建网站/API/订阅源 → 提交 `data/` 与 `dist/` → Cloudflare 自动拉取发布 → 可选 WebSub 通知**。代码 push 触发重新构建；定时或手动勾选 `collect` 才访问音乐源站。机器人使用 `GITHUB_TOKEN` 提交不会递归触发另一轮 Actions，但 Cloudflare Git integration 会处理该提交。CF 根据新提交触发，并不是等待整个 Action 结束才开始。
-
-启用 Hub 后，在 push 前记录线上订阅版本；push 后仅在需要通知时等待正式网站出现目标 revision，最多 5 分钟、每 15 秒检查一次。确认新版可读才通知 Hub；超时或真实请求错误会明确失败，不发送未上线内容。未配置 Hub 时，Action 提交完成即可结束，最终部署状态在 Cloudflare 查看。Atom 和 JSON Feed 的阅读器轮询订阅始终可用。详情见 [订阅文档](docs/subscriptions.md)。
-
-计划时间为北京时间 **09:17、15:17、21:17**，对应 UTC `01:17、07:17、13:17`。这是采样计划，GitHub 实际执行可能延迟；每日文件保留当天最后一次满足发布门槛的快照，每轮记录另存。[GitHub 调度说明](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) · [Cloudflare Git integration](https://developers.cloudflare.com/pages/configuration/git-integration/)
-
-## 榜单与时间
-
-核实日期：**2026-10-22—23**。证据与响应字段见 [sources.md](docs/sources.md)，适配器约定见 [providers.md](docs/providers.md)。
-
-| 平台 | 选用榜单 | 更新情况 | 接入情况 |
-| --- | --- | --- | --- |
-| QQ 音乐 | 热歌榜 `26` | 官方说明每日更新；时刻未披露 | 已实现公开 JSON 适配器 |
-| 网易云音乐 | 热歌榜 `3778678` | 近一周统计、每日更新；时刻未披露 | 已实现公开 JSON 适配器 |
-| 酷狗音乐 | TOP500 `8888` 的前 100 | 每日更新；本次配置显示 10:00，时区及长期承诺未确认 | 已实现公开 JSON 分页适配器 |
-| 酷我音乐 | 热歌榜 `16` | 可读榜期日期，固定频率和时刻未确认 | 已实现公开 JSON 适配器 |
-| Apple Music | 中国区 `most-played` RSS | 固定时刻未披露；不同于每日 Top 100 歌单 | 已成功采集前 100 首 |
-| 汽水音乐 | 官方热歌榜 `7036274230471712007` | 周榜；本期发布于 2026-10-22 北京时间 16:00，固定时刻未确认 | 无认证公开接口，完整 50 首 |
-
-QQ、网易云、酷狗、酷我与 Apple RSS 已在本机取得各前 100 首。汽水依据用户提供的 music-lib 线索确认官方 PC 榜单接口，详细见 [汽水研究](docs/qishui-research.md)；[来源扩充评估](docs/source-expansion.md)建议咪咕先作为观察候选。公开 Web 端点不是稳定性承诺，覆盖情况以每次采集状态为准。Apple 的 Daily Top 100 中国大陆歌单确实标注日更，本项目不将该声明套到 RSS 上。
-
-## 综合榜怎么计算
-
-完整推导、权重、身份规则见 [methodology.md](docs/methodology.md)。默认权重是产品设计选择，不是市场份额估计：
-
-| 来源组 | 原始权重 | 组内规则 |
-| --- | ---: | --- |
-| 腾讯音乐：QQ / 酷狗 / 酷我 | 40% | 健康平台均分组内权重 |
-| 网易云音乐 | 30% | 独立来源组 |
-| Apple Music 中国区 | 20% | 独立来源组 |
-| 汽水音乐 | 10% | 独立来源组，官方周榜每日采样 |
-
-方法 **1.1** 统一各平台前 **50** 名计分，综合榜发布前 **100**。原榜仍保留其他五个平台各 100 首、汽水完整 50 首。名次 `r ≤ 50` 的基础分为 `0.9 × exp(−(r−1)/25) + 0.1`，其余为 0；最终得分为各平台基础分乘有效权重再乘 100。指数部分重视头部，10% 的入榜底分奖励跨平台共识。独立来源组不足两个时不发综合榜；任何缺源都显示部分覆盖。历史方法 1.0 保留原口径，不跨版本生成昨日涨跌。
-
-该分数不是播放量，也不是全中国听众的代表性抽样。来源集合、公式或歌曲映射变化时，不生成可疑的较昨日涨跌。
-
-## 综合周榜
-
-按北京时间**周一至周日**汇总各日最后一份有效快照，周分数为同口径有效日得分的平均值。每个有效日都从完整来源记录重建全部计分候选，再计算周 Top 100；不会把未进入日榜 Top 100 的曲目提前丢掉。歌曲在一个有效日未进入任何平台计分窗口时，该日计 0 分；缺失日和口径变化而排除的日期不进入分母。
-
-本周始终标为「本周预览」，到下周构建时，7 天齐全才标为「完整周榜」，否则标为「缺日周榜」。完整周指日期齐全，平台覆盖另行显示。只有相邻两周都完整、来源／方法／歌曲身份口径相同，才展示「较上周」涨跌；原榜涨跌、综合日榜涨跌和综合周榜涨跌各自保留。
-
-当前只有 10 月 22、23 日两份真实日榜，且 22 日仍是方法 1.0，不能混入最新 1.1 的周计算。因此当前周是 **1/7 个有效日的预览**。周榜由每日归档在构建时自动生成，不需要额外定时任务；公式、覆盖字段与关闭周的规则见 [周榜文档](docs/weekly.md)。
-
-## 数据与再计算
+平台名次先转换为基础分，再按来源权重求和：
 
 ```text
-scripts/providers.mjs     平台读取适配器和元数据
-scripts/ranking.mjs       身份归一、权重、计分、可比性规则
-scripts/weekly.mjs        从完整日记录重建候选、汇总综合周榜
-scripts/collect.mjs       每轮采集、状态记录、每日归档
-scripts/recompute.mjs     不联网，重算已发布日榜
-scripts/api.mjs           从发布快照生成公开静态 JSON API
-scripts/feeds.mjs         生成 Atom、JSON Feed 与内容修订清单
-scripts/notify.mjs        push 前记录版本、等待线上新版后通知 WebSub
-config/aliases.json      歌手别名和明确的歌曲合并/拆分
-data/runs/日期/时刻.json   每轮规范化来源行 + 当次计算，保留不修改
-data/daily/日期.json       当天最后一次有效快照（衍生榜，可重算）
-data/latest.json          最近一期有效榜
-data/status.json          最近一轮采集状态，即使失败也更新
-data/dates.json           真实日榜日期索引
-imports/日期/平台.json    显式导入的榜单快照
-demo/                    与真实档案隔离的设计示例
-site/                    无框架静态页面
-dist/                    Actions 生成并提交，Cloudflare Pages 直接发布
-.preview/                本地预览生成目录，不提交
+P(r) = 0.9 × exp(−(r−1)/25) + 0.1    （r ≤ 50）
+综合得分 = 100 × Σ 平台有效权重 × P(r)
 ```
 
-修改 `scripts/ranking.mjs` 的算法时同步提升 `methodology.version`；修改歌曲映射后执行：
+来源组权重为：腾讯音乐组 **40%**、网易云音乐 **30%**、Apple Music **20%**、汽水音乐 **10%**。QQ、酷狗、酷我均分腾讯音乐组的有效权重。缺少来源时重新归一化，并标明覆盖缺口；不足两个独立来源组时不发布新综合榜。
 
-```sh
-npm run recompute
-npm run preview
+这些权重是公开的计算规则，不是市场份额估计。歌曲身份合并、并列排序与比较条件见 [日榜方法论](docs/methodology.md)。
+
+### 综合周榜
+
+按北京时间**周一至周日**汇总，每个自然日使用最后一次有效快照。候选从各日完整来源记录重建，不限于当日综合榜已发布的前 100 首。
+
+```text
+周得分 = 同口径有效日得分之和 ÷ 有效天数
 ```
 
-重算只更改已发布的衍生日榜，不重新抓取、不改变 `data/runs/` 的原始观察。新旧映射签名不同，自动避免直接比较不同口径。重算后的数据需提交才能进入部署。
-
-每个日榜 JSON 含规范化来源原榜（100/50 首）、源链接/期次/采集时间、得分贡献和排名；可用于后续分析。站点发布 `data/latest.json`、`data/latest.csv` 和 `data/daily/YYYY-MM-DD.json`，不将全部运行档案打包到站点。不抓取音频和歌词。
+歌曲在有效日未进入计分窗口时记 0 分；缺失日和口径不同而排除的日期不进入分母。本周标记为「周预览」，周结束后区分「完整周榜」与「缺日周榜」，同时披露日期和平台覆盖。只有相邻完整周且计算口径一致，才显示较上周涨跌。详见 [周榜方法论](docs/weekly.md)。
 
 ## 公开 API
 
-网站的「开放 API」页面提供同域地址和可直接复制的调用示例。所有接口为静态 JSON，无需注册或认证，允许跨域 GET：
+接口与网站使用同一份发布数据，提供无需认证、支持跨域读取的静态 JSON。以下路径均相对于站点根地址：
 
-- `/api/v1/index.json`：接口目录与平台列表。
-- `/api/v1/charts/latest.json`：最新综合榜。
-- `/api/v1/charts/YYYY-MM-DD.json`：指定日期综合榜。
-- `/api/v1/weekly/latest.json`：本周综合榜预览。
-- `/api/v1/weekly/index.json`、`/api/v1/weekly/YYYY-MM-DD.json`：周次目录与指定周榜，日期为周一。
-- `/api/v1/platforms/qishui/latest.json`：汽水原榜；平台 ID 可替换为 `qq`、`netease`、`kugou`、`kuwo`、`apple`。
-- `/api/v1/platforms/qishui/YYYY-MM-DD.json`：指定日期的平台原榜。
-- `/api/v1/dates.json`、`/api/v1/status.json`、`/api/v1/methodology.json`：日期、采集状态与计算方法。
+| 路径 | 内容 |
+| --- | --- |
+| `/api/v1/index.json` | 接口目录与平台列表 |
+| `/api/v1/charts/latest.json` | 最新综合日榜 |
+| `/api/v1/charts/{date}.json` | 指定日期的综合日榜 |
+| `/api/v1/weekly/latest.json` | 本周综合榜预览 |
+| `/api/v1/weekly/index.json` | 可查询的周次目录 |
+| `/api/v1/weekly/{weekStart}.json` | 指定周的综合榜 |
+| `/api/v1/platforms/{id}/latest.json` | 平台原榜与元数据 |
+| `/api/v1/status.json` | 最近采集状态与当前发布快照 |
+| `/api/v1/updates.json` | 日榜、周榜的内容修订清单 |
 
-完整字段与错误语义见 [API 文档](docs/api.md)。接口读取不会触发采集，数据随 GitHub Actions 构建一起更新。
-
-新记录的 `sourceMovement` 保存平台原榜相对上期的变化与原字段，`mv` 保存 MV 关联标识，`combinedMovement` 保存综合日榜相对昨日的变化，周榜 `weeklyMovement` 保存综合周榜相对上周的变化。历史缺失字段不补造。MV ID 只代表关联，未知官方链接保留为空，不采集媒体文件或临时播放凭据。
+平台 ID 为 `qq`、`netease`、`kugou`、`kuwo`、`apple`、`qishui`。日期使用 `YYYY-MM-DD`，周次以周一日期标识。完整路由、字段和读取示例见 [API 文档](docs/api.md)。
 
 ## 订阅更新
 
-将 `https://你的域名/feed.xml` 加入支持 Atom 的 RSS 阅读器即可订阅；也提供 `feed.json`（JSON Feed 1.1）与 `/api/v1/updates.json`（机器读取的修订清单）。日榜、周榜均使用稳定的条目 ID，同期修订更新原条目，单纯采集时间变化不触发新内容通知。周预览会随有效日记录修订，周结束后状态会更新。
+将站点的 `/feed.xml` 添加到支持 Atom 的 RSS 阅读器，即可订阅日榜与周榜更新。支持 JSON Feed 的应用可使用 `/feed.json`，程序也可读取 `/api/v1/updates.json` 跟踪修订。
 
-需要主动推送的外部服务可通过已配置的 WebSub Hub 订阅 Atom 地址，Hub 负责订阅验证与投递；项目仍是静态站点，不存订阅者名单。它不是浏览器系统通知或邮件订阅服务。没有 Hub 时，阅读器定期拉取即可。
+每期使用稳定条目 ID，同期内容变化更新原条目。若订阅源声明 WebSub Hub，支持该协议的客户端可通过 Hub 接收更新。详见 [订阅说明](docs/subscriptions.md)。
 
-## 交付边界
+## 阅读数据时
 
-这个目录是完整的本地项目与部署配置，已在本机采集、构建并查看真实数据，尚未为这个项目创建远程仓库或验证其 Cloudflare 发布。远程工作流的可达性和部署结果需在配置账户后确认；真实覆盖情况直接显示在页面、公开 API 和 Actions Summary。
+- 计划采样时间为北京时间 **09:17、15:17、21:17**，实际运行可能延迟；采集时间不等于平台发榜时间。
+- 综合分数是基于公开排名的热度指数，不是播放量，也不代表所有中国听众。
+- 来源覆盖、公式版本或歌曲身份映射改变时，不直接比较前后涨跌。首次记录或不可比较的变化显示为未知，不自动视为新入榜。
+- 数据标记 `live` 表示真实采集或显式导入，`demo` 表示设计示例。覆盖不足和历史缺失会明确标注。
+- MV 标识表示平台有关联记录，不保证可播放。项目只提供榜单与元数据，音乐请到原平台收听。
