@@ -8,7 +8,7 @@ export async function readPublic(url, { referer, format = 'json' } = {}) {
         Accept: format === 'json' ? 'application/json' : 'text/html',
         ...(referer ? { Referer: referer } : {}),
       },
-      signal: AbortSignal.timeout(20_000),
+      signal: AbortSignal.timeout(60_000),
     });
   } catch (error) {
     // Node's generic "fetch failed" discards the useful DNS/TLS/socket cause unless recorded explicitly.
