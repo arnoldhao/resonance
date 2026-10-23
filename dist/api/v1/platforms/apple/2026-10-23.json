@@ -11,8 +11,8 @@
   "updatePolicy": "官方 CN most-played RSS；与 Top 100：中国大陆日更歌单是不同产品，不套用其日更承诺。",
   "access": "官方 RSS · 中国区热门歌曲",
   "providerId": "apple",
-  "fetchedAt": "2026-10-23T06:02:07.652Z",
-  "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
+  "fetchedAt": "2026-10-23T07:39:10.183Z",
+  "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
   "sourcePeriod": null,
   "entries": [
     {
@@ -2318,12 +2318,15 @@
   ],
   "status": "ok",
   "ingestion": "public",
+  "attemptedAt": "2026-10-23T07:39:10.183Z",
+  "collectionError": null,
+  "cacheOrigin": null,
   "message": null,
-  "weight": 0.1176,
+  "weight": 0.1,
   "count": 100,
   "scoringCount": 50,
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T06:02:07.652Z"
+  "generatedAt": "2026-10-23T07:39:10.183Z"
 }

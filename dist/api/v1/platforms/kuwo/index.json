@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T06:02:07.652Z",
+  "generatedAt": "2026-10-23T07:39:10.183Z",
   "providerId": "kuwo",
   "name": "酷我音乐",
   "dates": [
@@ -12,10 +12,14 @@
     {
       "date": "2026-10-23",
       "mode": "live",
-      "sourcePeriod": null,
+      "ingestion": "public",
+      "sourcePeriod": "2026-10-23",
       "sourceUpdatedAt": null,
-      "fetchedAt": "2026-10-23T06:02:07.652Z",
-      "status": "error"
+      "fetchedAt": "2026-10-23T07:39:10.183Z",
+      "attemptedAt": "2026-10-23T07:39:10.183Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
     }
   ]
 }

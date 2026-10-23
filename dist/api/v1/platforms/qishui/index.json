@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T06:02:07.652Z",
+  "generatedAt": "2026-10-23T07:39:10.183Z",
   "providerId": "qishui",
   "name": "汽水音乐",
   "dates": [
@@ -12,10 +12,19 @@
     {
       "date": "2026-10-23",
       "mode": "live",
-      "sourcePeriod": null,
-      "sourceUpdatedAt": null,
-      "fetchedAt": "2026-10-23T06:02:07.652Z",
-      "status": "error"
+      "ingestion": "cache",
+      "sourcePeriod": "weekly",
+      "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
+      "attemptedAt": "2026-10-23T07:39:10.183Z",
+      "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
+      "cacheOrigin": {
+        "date": "2026-10-23",
+        "generatedAt": "2026-10-23T04:25:57.098Z",
+        "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
+        "ingestion": "public"
+      },
+      "status": "stale"
     }
   ]
 }

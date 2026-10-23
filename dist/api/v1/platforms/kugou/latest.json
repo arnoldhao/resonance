@@ -11,7 +11,7 @@
   "updatePolicy": "官方说明为每天更新；一次响应配置出现 10:00，不能视为永久时间承诺。",
   "access": "官方榜单 JSON · 单次完整前 100 首",
   "providerId": "kugou",
-  "fetchedAt": "2026-10-23T06:02:07.652Z",
+  "fetchedAt": "2026-10-23T07:39:10.183Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-23 08:30:01",
   "entries": [
@@ -3495,12 +3495,15 @@
   ],
   "status": "ok",
   "ingestion": "public",
+  "attemptedAt": "2026-10-23T07:39:10.183Z",
+  "collectionError": null,
+  "cacheOrigin": null,
   "message": null,
-  "weight": 0.2353,
+  "weight": 0.2,
   "count": 100,
   "scoringCount": 50,
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T06:02:07.652Z"
+  "generatedAt": "2026-10-23T07:39:10.183Z"
 }

@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T06:02:07.652Z",
+  "generatedAt": "2026-10-23T07:39:10.183Z",
   "methodology": {
-    "version": "1.2",
+    "version": "1.3",
     "formula": "S = 100 × Σ wₚ × [0.9 × exp(−(rₚ − 1) / 25) + 0.1]，仅前 50 名计分，其余为 0",
     "rankDepth": 50,
     "groupWeights": {
@@ -21,6 +21,7 @@
       "apple": 0.1,
       "qishui": 0.1
     },
-    "minimumGroups": 2
+    "minimumGroups": 2,
+    "sourcePolicy": "last-success-within-source-window"
   }
 }
