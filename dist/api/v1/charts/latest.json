@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T07:39:10.183Z",
+  "generatedAt": "2026-10-23T08:31:19.785Z",
   "coverage": {
     "available": 6,
     "fresh": 5,
@@ -50,12 +50,12 @@
       "updatePolicy": "榜单说明为每日更新；未确认固定公布时刻。",
       "access": "官方公开 Web 接口",
       "providerId": "qq",
-      "fetchedAt": "2026-10-23T07:39:10.183Z",
+      "fetchedAt": "2026-10-23T08:31:19.785Z",
       "sourceUpdatedAt": null,
       "sourcePeriod": "2026-10-23",
       "status": "ok",
       "ingestion": "public",
-      "attemptedAt": "2026-10-23T07:39:10.183Z",
+      "attemptedAt": "2026-10-23T08:31:19.785Z",
       "collectionError": null,
       "cacheOrigin": null,
       "message": null,
@@ -76,12 +76,12 @@
       "updatePolicy": "一周内热度统计，当前官方说明为每日更新；未确认固定公布时刻。",
       "access": "官方公开歌单接口",
       "providerId": "netease",
-      "fetchedAt": "2026-10-23T07:39:10.183Z",
+      "fetchedAt": "2026-10-23T08:31:19.785Z",
       "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
       "sourcePeriod": null,
       "status": "ok",
       "ingestion": "public",
-      "attemptedAt": "2026-10-23T07:39:10.183Z",
+      "attemptedAt": "2026-10-23T08:31:19.785Z",
       "collectionError": null,
       "cacheOrigin": null,
       "message": null,
@@ -102,12 +102,12 @@
       "updatePolicy": "官方说明为每天更新；一次响应配置出现 10:00，不能视为永久时间承诺。",
       "access": "官方榜单 JSON · 单次完整前 100 首",
       "providerId": "kugou",
-      "fetchedAt": "2026-10-23T07:39:10.183Z",
+      "fetchedAt": "2026-10-23T08:31:19.785Z",
       "sourceUpdatedAt": null,
       "sourcePeriod": "2026-10-23 08:30:01",
       "status": "ok",
       "ingestion": "public",
-      "attemptedAt": "2026-10-23T07:39:10.183Z",
+      "attemptedAt": "2026-10-23T08:31:19.785Z",
       "collectionError": null,
       "cacheOrigin": null,
       "message": null,
@@ -128,12 +128,12 @@
       "updatePolicy": "公开接口提供榜单日期；未找到固定频率与公布时刻的一手承诺。",
       "access": "官方公开榜单接口",
       "providerId": "kuwo",
-      "fetchedAt": "2026-10-23T07:39:10.183Z",
+      "fetchedAt": "2026-10-23T08:31:19.785Z",
       "sourceUpdatedAt": null,
       "sourcePeriod": "2026-10-23",
       "status": "ok",
       "ingestion": "public",
-      "attemptedAt": "2026-10-23T07:39:10.183Z",
+      "attemptedAt": "2026-10-23T08:31:19.785Z",
       "collectionError": null,
       "cacheOrigin": null,
       "message": null,
@@ -154,15 +154,20 @@
       "updatePolicy": "官方 CN most-played RSS；与 Top 100：中国大陆日更歌单是不同产品，不套用其日更承诺。",
       "access": "官方 RSS · 中国区热门歌曲",
       "providerId": "apple",
+      "status": "stale",
+      "ingestion": "cache",
       "fetchedAt": "2026-10-23T07:39:10.183Z",
       "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
       "sourcePeriod": null,
-      "status": "ok",
-      "ingestion": "public",
-      "attemptedAt": "2026-10-23T07:39:10.183Z",
-      "collectionError": null,
-      "cacheOrigin": null,
-      "message": null,
+      "attemptedAt": "2026-10-23T08:31:19.785Z",
+      "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+      "cacheOrigin": {
+        "date": "2026-10-23",
+        "generatedAt": "2026-10-23T07:39:10.183Z",
+        "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+        "ingestion": "public"
+      },
+      "message": "采集失败，沿用 2026-10-23T07:39:10.183Z 的成功观察（仍在有效窗口内）；Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
       "weight": 0.1,
       "count": 100,
       "scoringCount": 50
@@ -173,28 +178,23 @@
       "chartName": "热歌榜 · 周榜 Top 50",
       "group": "qishui",
       "enabled": true,
-      "sourceUrl": "https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn",
+      "sourceUrl": "https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn&device_platform=web",
       "collectionDepth": 50,
       "maxAgeHours": 216,
       "period": "weekly",
       "frequency": "每周更新",
       "updatePolicy": "官方响应 period=weekly，共 50 首；本次源发布时间为北京时间周四 16:00，固定时刻尚无长期承诺。每日保存周榜快照。",
-      "access": "官方 PC 榜单接口 · 无需 Cookie 或签名",
+      "access": "官方榜单接口 · Web 模式 · 无需 Cookie 或签名",
       "providerId": "qishui",
-      "status": "stale",
-      "ingestion": "cache",
-      "fetchedAt": "2026-10-23T04:25:57.098Z",
+      "fetchedAt": "2026-10-23T08:31:19.785Z",
       "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
       "sourcePeriod": "weekly",
-      "attemptedAt": "2026-10-23T07:39:10.183Z",
-      "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-      "cacheOrigin": {
-        "date": "2026-10-23",
-        "generatedAt": "2026-10-23T04:25:57.098Z",
-        "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-        "ingestion": "public"
-      },
-      "message": "采集失败，沿用 2026-10-23T04:25:57.098Z 的成功观察（仍在有效窗口内）；Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
+      "status": "ok",
+      "ingestion": "public",
+      "attemptedAt": "2026-10-23T08:31:19.785Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "message": null,
       "weight": 0.1,
       "count": 50,
       "scoringCount": 50
@@ -234,11 +234,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -272,11 +272,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -316,11 +316,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -357,11 +357,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -385,15 +385,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -419,20 +424,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 93.2954,
@@ -489,11 +489,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -527,11 +527,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -571,11 +571,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -612,11 +612,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -640,15 +640,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -674,20 +679,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 82.084,
@@ -744,11 +744,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -776,11 +776,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -820,11 +820,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -861,11 +861,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -893,20 +893,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 76.9922,
@@ -963,11 +958,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1001,11 +996,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1045,11 +1040,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1086,11 +1081,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1114,15 +1109,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -1148,20 +1148,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 60.2743,
@@ -1218,11 +1213,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1256,11 +1251,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1300,11 +1295,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1341,11 +1336,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1369,15 +1364,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -1403,20 +1403,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 54.4285,
@@ -1473,11 +1468,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1511,11 +1506,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1555,11 +1550,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1596,11 +1591,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1624,15 +1619,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -1658,20 +1658,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 52.9747,
@@ -1728,11 +1723,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1766,11 +1761,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1810,11 +1805,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1851,11 +1846,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -1879,15 +1874,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -1913,20 +1913,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 49.4453,
@@ -1984,11 +1979,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2028,11 +2023,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2056,15 +2051,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 41.6199,
@@ -2121,11 +2121,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2159,11 +2159,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2203,11 +2203,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2244,11 +2244,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2272,15 +2272,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -2306,20 +2311,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 39.8269,
@@ -2376,11 +2376,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2414,11 +2414,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2458,11 +2458,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2490,20 +2490,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 34.9279,
@@ -2560,11 +2555,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2592,11 +2587,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2636,11 +2631,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2668,20 +2663,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 34.8354,
@@ -2738,11 +2728,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2776,11 +2766,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2804,15 +2794,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -2838,20 +2833,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 34.0947,
@@ -2908,11 +2898,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2946,11 +2936,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -2974,15 +2964,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 34.0889,
@@ -3039,11 +3034,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3077,11 +3072,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3121,11 +3116,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -3184,11 +3179,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3222,11 +3217,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3266,11 +3261,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3298,20 +3293,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 31.9935,
@@ -3368,11 +3358,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3400,11 +3390,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3439,11 +3429,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3471,20 +3461,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 31.1975,
@@ -3541,11 +3526,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3585,11 +3570,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3626,11 +3611,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -3689,11 +3674,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3721,11 +3706,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3765,11 +3750,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3800,11 +3785,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -3828,15 +3813,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -3862,20 +3852,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 29.7645,
@@ -3931,11 +3916,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -3993,11 +3978,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -4056,11 +4041,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4100,11 +4085,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4141,11 +4126,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4169,15 +4154,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -4203,20 +4193,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 26.3005,
@@ -4246,7 +4231,7 @@
       "artists": [
         "TizzyT"
       ],
-      "artwork": "http://p2.music.126.net/D-kiZM7mbHrqdB6X8Yoi8Q==/109951171947326885.jpg",
+      "artwork": "http://p1.music.126.net/D-kiZM7mbHrqdB6X8Yoi8Q==/109951171947326885.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -4272,11 +4257,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -4335,11 +4320,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4379,11 +4364,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4420,11 +4405,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4448,15 +4433,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 25.1175,
@@ -4487,7 +4477,7 @@
         "Top Barry",
         "INDEcompany"
       ],
-      "artwork": "http://p2.music.126.net/XQgLpatV-LFMdx55WuV8bA==/109951169706853419.jpg",
+      "artwork": "http://p1.music.126.net/XQgLpatV-LFMdx55WuV8bA==/109951169706853419.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -4513,11 +4503,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -4577,11 +4567,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4605,15 +4595,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 23.6788,
@@ -4670,11 +4665,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4714,11 +4709,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4755,11 +4750,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -4818,11 +4813,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4862,11 +4857,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4903,11 +4898,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -4931,15 +4926,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 23.4192,
@@ -4969,7 +4969,7 @@
       "artists": [
         "Max李玄"
       ],
-      "artwork": "http://p2.music.126.net/H2DFRdwP2y5SuCAn-Tuikw==/109951172568091306.jpg",
+      "artwork": "http://p1.music.126.net/H2DFRdwP2y5SuCAn-Tuikw==/109951172568091306.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -4995,11 +4995,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -5058,11 +5058,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5096,11 +5096,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5140,11 +5140,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5181,11 +5181,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5213,20 +5213,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 22.5867,
@@ -5283,11 +5278,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5321,11 +5316,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5365,11 +5360,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5397,20 +5392,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 21.8762,
@@ -5467,11 +5457,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5511,11 +5501,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5546,11 +5536,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -5583,7 +5573,7 @@
         "DOUDOU",
         "燕云十六声"
       ],
-      "artwork": "http://p2.music.126.net/pdpmj0csBR_nUM7c2xr6pA==/109951174135616642.jpg",
+      "artwork": "http://p1.music.126.net/pdpmj0csBR_nUM7c2xr6pA==/109951174135616642.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -5609,11 +5599,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -5672,11 +5662,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5710,11 +5700,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5754,11 +5744,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5795,11 +5785,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5827,20 +5817,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 20.8354,
@@ -5897,11 +5882,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5935,11 +5920,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -5979,11 +5964,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -6020,11 +6005,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -6052,20 +6037,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 20.705,
@@ -6128,11 +6108,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -6163,11 +6143,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -6195,20 +6175,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 20.597,
@@ -6239,7 +6214,7 @@
         "梨冻紧",
         "Wiz_H张子豪"
       ],
-      "artwork": "http://p2.music.126.net/yN1ke1xYMJ718FiHaDWtYQ==/109951165076380471.jpg",
+      "artwork": "http://p1.music.126.net/yN1ke1xYMJ718FiHaDWtYQ==/109951165076380471.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -6265,11 +6240,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6301,7 +6276,7 @@
       "artists": [
         "李雨霏_晚饭"
       ],
-      "artwork": "http://p2.music.126.net/CdAZ76__lHkE_HcjXgR_4w==/109951173999807018.jpg",
+      "artwork": "http://p1.music.126.net/CdAZ76__lHkE_HcjXgR_4w==/109951173999807018.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -6327,11 +6302,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6363,7 +6338,7 @@
       "artists": [
         "队长"
       ],
-      "artwork": "http://p2.music.126.net/RYIrCEYzgeAD85DJ0rgOQA==/109951169256300966.jpg",
+      "artwork": "http://p1.music.126.net/RYIrCEYzgeAD85DJ0rgOQA==/109951169256300966.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -6389,11 +6364,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6453,11 +6428,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -6497,11 +6472,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6533,7 +6508,7 @@
       "artists": [
         "罗言"
       ],
-      "artwork": "http://p2.music.126.net/G-inyKjA-jO5MuOuV3g7Pg==/109951167027986653.jpg",
+      "artwork": "http://p1.music.126.net/G-inyKjA-jO5MuOuV3g7Pg==/109951167027986653.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -6559,11 +6534,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6622,11 +6597,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -6654,11 +6629,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6723,11 +6698,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6792,11 +6767,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -6827,11 +6802,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6864,7 +6839,7 @@
         "Top Barry",
         "INDEcompany"
       ],
-      "artwork": "http://p2.music.126.net/EgbPD3CwVQojZ4OWse4YrA==/109951172511748152.jpg",
+      "artwork": "http://p1.music.126.net/EgbPD3CwVQojZ4OWse4YrA==/109951172511748152.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -6890,11 +6865,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -6964,11 +6939,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -7033,11 +7008,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7068,11 +7043,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -7131,11 +7106,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7169,11 +7144,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -7232,11 +7207,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7276,11 +7251,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7317,11 +7292,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -7353,7 +7328,7 @@
       "artists": [
         "江辰"
       ],
-      "artwork": "http://p2.music.126.net/nfDVr6WopOJax11vq5brPQ==/109951173820334666.jpg",
+      "artwork": "http://p1.music.126.net/nfDVr6WopOJax11vq5brPQ==/109951173820334666.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -7379,11 +7354,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -7442,11 +7417,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7486,11 +7461,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7527,11 +7502,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7555,15 +7530,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 15.7691,
@@ -7593,7 +7573,7 @@
       "artists": [
         "郑润泽"
       ],
-      "artwork": "http://p2.music.126.net/PEGvmO3OqgGOkx4m9qxAJA==/109951163478499713.jpg",
+      "artwork": "http://p1.music.126.net/PEGvmO3OqgGOkx4m9qxAJA==/109951163478499713.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -7619,11 +7599,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -7682,11 +7662,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7715,11 +7695,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -7784,11 +7764,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7819,11 +7799,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -7882,11 +7862,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7926,11 +7906,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7967,11 +7947,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -7995,15 +7975,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 15.062,
@@ -8060,11 +8045,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8104,11 +8089,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8132,15 +8117,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 15.0225,
@@ -8198,11 +8188,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8239,11 +8229,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -8302,11 +8292,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8340,11 +8330,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8384,11 +8374,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -8421,7 +8411,7 @@
         "派伟俊",
         "mac ova seas"
       ],
-      "artwork": "http://p2.music.126.net/ODlrxB8b_86bDZTuCXGK1w==/109951172153456358.jpg",
+      "artwork": "http://p1.music.126.net/ODlrxB8b_86bDZTuCXGK1w==/109951172153456358.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -8453,11 +8443,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -8516,11 +8506,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8560,11 +8550,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8601,11 +8591,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8629,15 +8619,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 14.5206,
@@ -8700,11 +8695,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8735,11 +8730,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -8799,11 +8794,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8831,11 +8826,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8875,11 +8870,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -8916,11 +8911,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -8952,7 +8947,7 @@
       "artists": [
         "h3R3"
       ],
-      "artwork": "http://p2.music.126.net/4BCskpY6Rmm-QReHnY8W6Q==/109951166071009318.jpg",
+      "artwork": "http://p1.music.126.net/4BCskpY6Rmm-QReHnY8W6Q==/109951166071009318.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -8978,11 +8973,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9047,11 +9042,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9083,7 +9078,7 @@
       "artists": [
         "加木"
       ],
-      "artwork": "http://p2.music.126.net/Qvenb5t_hL37b7hRfscjaw==/109951169686160429.jpg",
+      "artwork": "http://p1.music.126.net/Qvenb5t_hL37b7hRfscjaw==/109951169686160429.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -9109,11 +9104,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9172,11 +9167,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9246,11 +9241,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -9281,11 +9276,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9317,7 +9312,7 @@
       "artists": [
         "颜人中"
       ],
-      "artwork": "http://p2.music.126.net/J6HaJjtgv-yVVjyUm-h-AA==/109951164373633387.jpg",
+      "artwork": "http://p1.music.126.net/J6HaJjtgv-yVVjyUm-h-AA==/109951164373633387.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -9349,11 +9344,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9418,11 +9413,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9481,11 +9476,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -9519,11 +9514,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -9547,15 +9542,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 12.5772,
@@ -9586,7 +9586,7 @@
         "林达浪",
         "h3R3"
       ],
-      "artwork": "http://p2.music.126.net/9FhSEQtMhP-JP3_U84YfWQ==/109951165798773745.jpg",
+      "artwork": "http://p1.music.126.net/9FhSEQtMhP-JP3_U84YfWQ==/109951165798773745.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -9618,11 +9618,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9687,11 +9687,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -9722,11 +9722,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -9785,11 +9785,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -9826,11 +9826,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -9858,20 +9858,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 12.2757,
@@ -9928,11 +9923,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -9966,11 +9961,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10010,11 +10005,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -10079,11 +10074,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -10142,11 +10137,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10186,11 +10181,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10227,11 +10222,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10255,15 +10250,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 11.8303,
@@ -10293,7 +10293,7 @@
       "artists": [
         "h3R3"
       ],
-      "artwork": "http://p2.music.126.net/yed2hVZZwFNeSkTynWPaJQ==/109951173491736376.jpg",
+      "artwork": "http://p1.music.126.net/yed2hVZZwFNeSkTynWPaJQ==/109951173491736376.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -10319,11 +10319,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -10355,7 +10355,7 @@
       "artists": [
         "陈粒"
       ],
-      "artwork": "http://p1.music.126.net/HQxTggMCB7AHUXN-ZFEtmA==/1371091013186741.jpg",
+      "artwork": "http://p2.music.126.net/HQxTggMCB7AHUXN-ZFEtmA==/1371091013186741.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -10387,11 +10387,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10431,11 +10431,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10459,15 +10459,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         },
         {
           "id": "qishui",
@@ -10493,20 +10498,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 11.6562,
@@ -10563,11 +10563,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10607,11 +10607,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10648,11 +10648,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -10684,7 +10684,7 @@
       "artists": [
         "Gareth.T"
       ],
-      "artwork": "http://p2.music.126.net/NBYS2W-x3p2IVNvHMcylMg==/109951170940524301.jpg",
+      "artwork": "http://p1.music.126.net/NBYS2W-x3p2IVNvHMcylMg==/109951170940524301.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -10716,11 +10716,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -10790,11 +10790,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10831,11 +10831,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -10863,20 +10863,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 11.4384,
@@ -10938,11 +10933,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -11003,11 +10998,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -11035,20 +11030,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 10.9186,
@@ -11112,11 +11102,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -11147,11 +11137,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -11210,11 +11200,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -11254,11 +11244,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -11295,11 +11285,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -11323,15 +11313,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 10.0167,
@@ -11387,20 +11382,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 10,
@@ -11456,11 +11446,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -11519,11 +11509,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -11582,11 +11572,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -11620,11 +11610,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -11683,11 +11673,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -11746,11 +11736,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -11790,11 +11780,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -11848,15 +11838,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 8.9823,
@@ -11913,11 +11908,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -11952,11 +11947,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -12014,20 +12009,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 8.6693,
@@ -12079,15 +12069,20 @@
             "status": "unknown",
             "items": []
           },
-          "status": "ok",
-          "ingestion": "public",
+          "status": "stale",
+          "ingestion": "cache",
           "fetchedAt": "2026-10-23T07:39:10.183Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T07:39:12.000Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": null,
-          "cacheOrigin": null
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": "Network error from rss.marketingtools.apple.com: 23: The operation was aborted due to timeout",
+          "cacheOrigin": {
+            "date": "2026-10-23",
+            "generatedAt": "2026-10-23T07:39:10.183Z",
+            "path": "data/runs/2026-10-23/2026-10-23T07-39-10-183Z.json",
+            "ingestion": "public"
+          }
         }
       ],
       "score": 8.6693,
@@ -12143,11 +12138,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -12205,20 +12200,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 8.3686,
@@ -12276,11 +12266,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -12339,11 +12329,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -12377,11 +12367,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         },
@@ -12409,20 +12399,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 8.3066,
@@ -12453,7 +12438,7 @@
         "徐明浩",
         "GALI"
       ],
-      "artwork": "http://p1.music.126.net/fsz6GAKO1-khteFArDidjA==/109951171942679749.jpg",
+      "artwork": "http://p2.music.126.net/fsz6GAKO1-khteFArDidjA==/109951171942679749.jpg",
       "platforms": [
         {
           "id": "netease",
@@ -12485,11 +12470,11 @@
           },
           "status": "ok",
           "ingestion": "public",
-          "fetchedAt": "2026-10-23T07:39:10.183Z",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
           "collectionError": null,
           "cacheOrigin": null
         }
@@ -12547,20 +12532,15 @@
             "status": "unknown",
             "items": []
           },
-          "status": "stale",
-          "ingestion": "cache",
-          "fetchedAt": "2026-10-23T04:25:57.098Z",
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T08:31:19.785Z",
           "observedDate": "2026-10-23",
           "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
           "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-23T07:39:10.183Z",
-          "collectionError": "Qishui weekly chart must contain its complete Top 50 (declared=30, received=30, release_time=1792656000, status_info={\"log_id\":\"202610231539126B99B77A1C365C09C4C6\",\"now\":1792741152,\"now_ts_ms\":1792741152318})",
-          "cacheOrigin": {
-            "date": "2026-10-23",
-            "generatedAt": "2026-10-23T04:25:57.098Z",
-            "path": "data/runs/2026-10-23/2026-10-23T04-25-57-098Z.json",
-            "ingestion": "public"
-          }
+          "attemptedAt": "2026-10-23T08:31:19.785Z",
+          "collectionError": null,
+          "cacheOrigin": null
         }
       ],
       "score": 8.0797,
