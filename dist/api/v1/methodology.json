@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T08:38:19.289Z",
+  "generatedAt": "2026-10-23T09:07:38.036Z",
   "methodology": {
     "version": "1.3",
     "formula": "S = 100 × Σ wₚ × [0.9 × exp(−(rₚ − 1) / 25) + 0.1]，仅前 50 名计分，其余为 0",
