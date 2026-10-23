@@ -34,6 +34,7 @@ test('Qishui explicitly requests Web mode and records that URL as its source', a
 });
 
 test('Qishui still rejects a region-filtered 30-track response', async t => {
-  t.mock.method(globalThis, 'fetch', async () => Response.json(responseFor(30)));
+  const request = t.mock.method(globalThis, 'fetch', async () => Response.json(responseFor(30)));
   await assert.rejects(collectProvider(provider, { now }), /complete Top 50 \(declared=30, received=30,/);
+  assert.equal(request.mock.callCount(), 1);
 });
