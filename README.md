@@ -1,58 +1,42 @@
-# 共振 · RESONANCE
+<div align="center">
+  <img src="./site/favicon.svg" width="80" alt="共振图标" />
+  <h1>共振 / RESONANCE</h1>
+  <p><strong>听见流行的交集。</strong></p>
+  <p>中国音乐平台的综合日榜与周榜</p>
+  <p>
+    <a href="https://resonance.dreamapp.cc/">在线榜单</a> ·
+    <a href="https://resonance.dreamapp.cc/#method">计算方法</a> ·
+    <a href="https://resonance.dreamapp.cc/#api">开放 API</a> ·
+    <a href="https://resonance.dreamapp.cc/#subscribe">订阅更新</a> ·
+    <a href="https://github.com/arnoldhao/resonance/issues">反馈问题</a>
+  </p>
+</div>
 
-**每天，听见中国的共同频率。**
+## 项目简介
 
-共振收集中国音乐平台的公开榜单，保存每日快照，计算跨平台综合日榜与周榜，并提供平台原榜、历史查询、公开 API 和更新订阅。
+共振汇集 QQ 音乐、网易云音乐、酷狗、酷我、Apple Music 与汽水音乐的公开榜单，从不同平台的流行中寻找共同回响。每日保存快照，提供可追溯的综合日榜、周榜与平台原榜。
 
-## 数据来源
+## 核心能力
 
-| 平台 | 榜单 | 保留深度 |
-| --- | --- | ---: |
-| QQ 音乐 | 热歌榜 | 100 首 |
-| 网易云音乐 | 热歌榜 | 100 首 |
-| 酷狗音乐 | TOP500 | 前 100 首 |
-| 酷我音乐 | 热歌榜 | 100 首 |
-| Apple Music | 中国区 most-played RSS | 100 首 |
-| 汽水音乐 | 官方热歌周榜 | 50 首 |
+- **日榜与周榜**：查看综合排名、共振值及涨跌，发现跨平台热门歌曲。
+- **歌曲与原榜**：浏览封面、艺人和 MV 关联，回到原平台收听。
+- **历史查询**：按日期、平台和关键词查找，下载 JSON 或 CSV。
+- **API 与订阅**：公开读取榜单，通过 Atom / JSON Feed 跟进更新。
 
-计划于北京时间 **09:17、15:17、21:17** 采样。平台榜期、发布时间和采集时间分别保存；汽水周榜可能连续多天保持同一期。Apple RSS 与「Top 100：中国大陆」歌单分别统计。详见[数据来源](docs/sources.md)。
+共振值是根据公开排名计算的热度指数。平台覆盖、历史沿用和不可比较的涨跌会明确标注；音乐请到原平台收听。
 
-## 综合榜
+## 数据与方法
 
-各平台前 **50 名**参与计分，综合榜发布有正分的前 **100 首**：
+[数据来源](docs/sources.md) · [日榜方法](docs/methodology.md) · [周榜方法](docs/weekly.md) · [API 文档](docs/api.md) · [订阅说明](docs/subscriptions.md)
 
-```text
-P(r) = 0.9 × exp(−(r−1)/25) + 0.1
-综合得分 = 100 × Σ 平台有效权重 × P(r)
+## 本地运行
+
+需要 Node.js 22 或更高版本，无需安装依赖：
+
+```sh
+git clone https://github.com/arnoldhao/resonance.git
+cd resonance
+npm run preview
 ```
 
-基础权重：QQ **25%**、酷狗 **20%**、酷我 **5%**、网易云 **30%**、Apple **10%**、汽水 **10%**。网络或临时 HTTP 错误最多额外重试两次，只重新请求失败的平台；数据校验错误直接报告失败。最终采集失败时先查最近一次成功的完整榜单（包括当天较早的采集），在该平台的新鲜度窗口内沿用，并保留原采集时间、榜期与失败原因。网站与 API 明确区分本次取得和沿用的数据。没有有效历史数据的平台才退出本期计分，再按剩余基础权重归一化；至少两个独立来源组才发布。权重是项目的计算规则，不是市场份额。
-
-周榜按北京时间周一至周日，计算同口径有效日分数的平均值，并标注周预览、完整周或缺日周。平台原榜、综合日榜和综合周榜分别显示涨跌；有平台 MV 关联的歌曲显示 MV 标识。
-
-完整规则见[日榜方法](docs/methodology.md)与[周榜方法](docs/weekly.md)。
-
-## API 与订阅
-
-API 公开读取，无需认证，支持跨域：
-
-| 路径 | 内容 |
-| --- | --- |
-| `/api/v1/index.json` | 接口目录 |
-| `/api/v1/charts/latest.json` | 最新综合日榜 |
-| `/api/v1/weekly/latest.json` | 本周综合榜 |
-| `/api/v1/platforms/{id}/latest.json` | 平台原榜 |
-| `/api/v1/platforms/{id}/index.json` | 平台可查日期 |
-| `/api/v1/updates.json` | 内容修订清单 |
-| `/feed.xml` | Atom 订阅 |
-| `/feed.json` | JSON Feed 订阅 |
-
-支持按日期读取历史、下载 JSON / CSV。平台 ID 为 `qq`、`netease`、`kugou`、`kuwo`、`apple`、`qishui`。详见 [API 文档](docs/api.md)与[订阅说明](docs/subscriptions.md)。
-
-综合分数是公开排名的热度指数，不是播放量。覆盖缺口、不可比较的涨跌和未知元数据均明确标注；MV 关联不保证可播放。项目提供榜单和歌曲元数据，收听请前往原平台。
-
-## 网站与视频
-
-网站与「共振音乐排行榜」视频共用森林绿、暖白、宋体标题、黑体阅读信息及数字字体组成的界面语言，具体排版分别服务于列表浏览与音乐画面。设计规则见[界面语言](docs/design-language.md)。
-
-视频 Skill 源码维护在 Lalaso 项目的 `assets/skills/resonance-chart-video/`；本项目负责公开榜单、API 与主站。Skill 冻结已发布的日榜或周榜快照，保留排名、涨跌、来源及沿用状态，逐首核验发行年月，不另算一套综合分数。
+打开 <http://127.0.0.1:4173>。采集与部署见[维护说明](maintenance/deployment.md)。
