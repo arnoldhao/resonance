@@ -16,25 +16,25 @@
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json",
       "title": "共振 · 2026-10-23 综合热歌榜",
-      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.2。\n1. 我不难过 — 孙燕姿 · 93.30 分\n2. 天龙八部之宿敌 — 许嵩 · 82.14 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.99 分\n4. 恋人 — 李荣浩 · 60.40 分\n5. 雨爱 — 杨丞琳 · 54.56 分\n6. 我怀念的 — 孙燕姿 · 52.97 分\n7. 开始懂了 — 孙燕姿 · 49.45 分\n8. NEON — A2O LITE / A2O · 41.62 分\n9. 情歌 — 梁静茹 · 39.83 分\n10. 茶汤 — 郁可唯 · 34.93 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json",
+      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 4/6 平台、3/4 来源组（partial）；方法 1.2。\n1. 我不难过 — 孙燕姿 · 95.92 分\n2. 天龙八部之宿敌 — 许嵩 · 85.70 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.95 分\n4. 恋人 — 李荣浩 · 62.97 分\n5. 雨爱 — 杨丞琳 · 55.53 分\n6. 我怀念的 — 孙燕姿 · 54.99 分\n7. 开始懂了 — 孙燕姿 · 53.81 分\n8. NEON — A2O LITE / A2O · 48.96 分\n9. 玻璃 — Gareth.T · 40.10 分\n10. 幻听 — 许嵩 · 38.32 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json",
       "date_published": "2026-10-23T03:18:23.844Z",
-      "date_modified": "2026-10-23T04:25:57.098Z",
+      "date_modified": "2026-10-23T06:02:07.652Z",
       "tags": [
         "live",
         "daily",
-        "complete"
+        "partial"
       ],
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-23",
-        "revision": "c758c4133d5336d6feb43612144fb9a219a99a2ad75a74baf740531023c6dc14",
+        "revision": "008dc0c38f5d45873834161b7e3da3cd00618ec44724a62d282e737da878ec2b",
         "methodologyVersion": "1.2",
         "coverage": {
-          "available": 6,
+          "available": 4,
           "expected": 6,
-          "groups": 4,
+          "groups": 3,
           "groupTotal": 4,
-          "status": "complete",
+          "status": "partial",
           "comparisonAvailable": false
         },
         "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json"
@@ -44,9 +44,9 @@
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "title": "共振 · 2026-10-19—2026-10-25 本周预览",
-      "content_text": "本周预览：2026-10-19—2026-10-25。\n有效 1/7 天；6 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.0（日榜 1.2）。\n1. 我不难过 — 孙燕姿 · 93.30 分\n2. 天龙八部之宿敌 — 许嵩 · 82.14 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.99 分\n4. 恋人 — 李荣浩 · 60.40 分\n5. 雨爱 — 杨丞琳 · 54.56 分\n6. 我怀念的 — 孙燕姿 · 52.97 分\n7. 开始懂了 — 孙燕姿 · 49.45 分\n8. NEON — A2O LITE / A2O · 41.62 分\n9. 情歌 — 梁静茹 · 39.83 分\n10. 茶汤 — 郁可唯 · 34.93 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
+      "content_text": "本周预览：2026-10-19—2026-10-25。\n有效 1/7 天；6 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.0（日榜 1.2）。\n1. 我不难过 — 孙燕姿 · 95.92 分\n2. 天龙八部之宿敌 — 许嵩 · 85.70 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.95 分\n4. 恋人 — 李荣浩 · 62.97 分\n5. 雨爱 — 杨丞琳 · 55.53 分\n6. 我怀念的 — 孙燕姿 · 54.99 分\n7. 开始懂了 — 孙燕姿 · 53.81 分\n8. NEON — A2O LITE / A2O · 48.96 分\n9. 玻璃 — Gareth.T · 40.10 分\n10. 幻听 — 许嵩 · 38.32 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "date_published": "2026-10-23T03:18:23.844Z",
-      "date_modified": "2026-10-23T04:25:57.098Z",
+      "date_modified": "2026-10-23T06:02:07.652Z",
       "tags": [
         "live",
         "weekly",
@@ -57,7 +57,7 @@
         "weekStart": "2026-10-19",
         "weekEnd": "2026-10-25",
         "status": "provisional",
-        "revision": "570001ecf716037a79b47601d8e9103ba74f37030100b0bfa0d4e65422ca1916",
+        "revision": "9b2df734e13e654fa34590cdeef97bfd4b6532a75c4018ca24eae4e686537862",
         "methodologyVersion": "weekly-1.0",
         "baseMethodologyVersion": "1.2",
         "coverage": {
@@ -78,11 +78,11 @@
           "latestIncludedDate": "2026-10-23",
           "comparisonAvailable": false,
           "sourceCoverage": {
-            "available": 6,
+            "available": 4,
             "expected": 6,
-            "groups": 4,
+            "groups": 3,
             "groupTotal": 4,
-            "status": "complete"
+            "status": "partial"
           }
         },
         "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json"

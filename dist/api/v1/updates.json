@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "revision": "22d400c643118c50f1412e065833577de25024c9f38062f4fb878f1c472f22a5",
-  "updatedAt": "2026-10-23T04:25:57.098Z",
+  "revision": "b678eb798571e8305e242770eb7637eae69b6ca835fbec6fad796141ff85c9e2",
+  "updatedAt": "2026-10-23T06:02:07.652Z",
   "siteUrl": "https://resonance.dreamapp.cc",
   "feedUrl": "https://resonance.dreamapp.cc/feed.xml",
   "jsonFeedUrl": "https://resonance.dreamapp.cc/feed.json",
@@ -14,17 +14,17 @@
       "kind": "daily",
       "date": "2026-10-23",
       "mode": "live",
-      "revision": "c758c4133d5336d6feb43612144fb9a219a99a2ad75a74baf740531023c6dc14",
+      "revision": "008dc0c38f5d45873834161b7e3da3cd00618ec44724a62d282e737da878ec2b",
       "publishedAt": "2026-10-23T03:18:23.844Z",
-      "updatedAt": "2026-10-23T04:25:57.098Z",
+      "updatedAt": "2026-10-23T06:02:07.652Z",
       "title": "共振 · 2026-10-23 综合热歌榜",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json",
       "coverage": {
-        "available": 6,
+        "available": 4,
         "expected": 6,
-        "groups": 4,
+        "groups": 3,
         "groupTotal": 4,
-        "status": "complete",
+        "status": "partial",
         "comparisonAvailable": false
       },
       "methodologyVersion": "1.2",
@@ -36,7 +36,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 93.2954
+          "score": 95.9215
         },
         {
           "rank": 2,
@@ -45,7 +45,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 82.1447
+          "score": 85.7018
         },
         {
           "rank": 3,
@@ -54,7 +54,7 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 76.9922
+          "score": 73.9458
         },
         {
           "rank": 4,
@@ -63,7 +63,7 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 60.3991
+          "score": 62.9655
         },
         {
           "rank": 5,
@@ -72,7 +72,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 54.5583
+          "score": 55.5256
         },
         {
           "rank": 6,
@@ -81,7 +81,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 52.9747
+          "score": 54.993
         },
         {
           "rank": 7,
@@ -90,7 +90,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 49.4453
+          "score": 53.8053
         },
         {
           "rank": 8,
@@ -100,28 +100,28 @@
             "A2O LITE",
             "A2O"
           ],
-          "score": 41.6199
+          "score": 48.9646
         },
         {
           "rank": 9,
-          "id": "0547bcb2d1b36134ce08",
-          "title": "情歌",
+          "id": "6fc75d05e1e3314a888e",
+          "title": "玻璃",
           "artists": [
-            "梁静茹"
+            "Gareth.T"
           ],
-          "score": 39.8269
+          "score": 40.1046
         },
         {
           "rank": 10,
-          "id": "944510e48666efab2984",
-          "title": "茶汤",
+          "id": "c358903ade375e995c99",
+          "title": "幻听",
           "artists": [
-            "郁可唯"
+            "许嵩"
           ],
-          "score": 34.9279
+          "score": 38.3171
         }
       ],
-      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.2。\n1. 我不难过 — 孙燕姿 · 93.30 分\n2. 天龙八部之宿敌 — 许嵩 · 82.14 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.99 分\n4. 恋人 — 李荣浩 · 60.40 分\n5. 雨爱 — 杨丞琳 · 54.56 分\n6. 我怀念的 — 孙燕姿 · 52.97 分\n7. 开始懂了 — 孙燕姿 · 49.45 分\n8. NEON — A2O LITE / A2O · 41.62 分\n9. 情歌 — 梁静茹 · 39.83 分\n10. 茶汤 — 郁可唯 · 34.93 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json"
+      "summary": "已发布的每日综合热歌榜快照。\n覆盖 4/6 平台、3/4 来源组（partial）；方法 1.2。\n1. 我不难过 — 孙燕姿 · 95.92 分\n2. 天龙八部之宿敌 — 许嵩 · 85.70 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.95 分\n4. 恋人 — 李荣浩 · 62.97 分\n5. 雨爱 — 杨丞琳 · 55.53 分\n6. 我怀念的 — 孙燕姿 · 54.99 分\n7. 开始懂了 — 孙燕姿 · 53.81 分\n8. NEON — A2O LITE / A2O · 48.96 分\n9. 玻璃 — Gareth.T · 40.10 分\n10. 幻听 — 许嵩 · 38.32 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live",
@@ -130,9 +130,9 @@
       "weekEnd": "2026-10-25",
       "mode": "live",
       "status": "provisional",
-      "revision": "570001ecf716037a79b47601d8e9103ba74f37030100b0bfa0d4e65422ca1916",
+      "revision": "9b2df734e13e654fa34590cdeef97bfd4b6532a75c4018ca24eae4e686537862",
       "publishedAt": "2026-10-23T03:18:23.844Z",
-      "updatedAt": "2026-10-23T04:25:57.098Z",
+      "updatedAt": "2026-10-23T06:02:07.652Z",
       "title": "共振 · 2026-10-19—2026-10-25 本周预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "coverage": {
@@ -153,11 +153,11 @@
         "latestIncludedDate": "2026-10-23",
         "comparisonAvailable": false,
         "sourceCoverage": {
-          "available": 6,
+          "available": 4,
           "expected": 6,
-          "groups": 4,
+          "groups": 3,
           "groupTotal": 4,
-          "status": "complete"
+          "status": "partial"
         }
       },
       "methodologyVersion": "weekly-1.0",
@@ -170,7 +170,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 93.2954
+          "score": 95.9215
         },
         {
           "rank": 2,
@@ -179,7 +179,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 82.1447
+          "score": 85.7018
         },
         {
           "rank": 3,
@@ -188,7 +188,7 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 76.9922
+          "score": 73.9458
         },
         {
           "rank": 4,
@@ -197,7 +197,7 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 60.3991
+          "score": 62.9655
         },
         {
           "rank": 5,
@@ -206,7 +206,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 54.5583
+          "score": 55.5256
         },
         {
           "rank": 6,
@@ -215,7 +215,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 52.9747
+          "score": 54.993
         },
         {
           "rank": 7,
@@ -224,7 +224,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 49.4453
+          "score": 53.8053
         },
         {
           "rank": 8,
@@ -234,28 +234,28 @@
             "A2O LITE",
             "A2O"
           ],
-          "score": 41.6199
+          "score": 48.9646
         },
         {
           "rank": 9,
-          "id": "0547bcb2d1b36134ce08",
-          "title": "情歌",
+          "id": "6fc75d05e1e3314a888e",
+          "title": "玻璃",
           "artists": [
-            "梁静茹"
+            "Gareth.T"
           ],
-          "score": 39.8269
+          "score": 40.1046
         },
         {
           "rank": 10,
-          "id": "944510e48666efab2984",
-          "title": "茶汤",
+          "id": "c358903ade375e995c99",
+          "title": "幻听",
           "artists": [
-            "郁可唯"
+            "许嵩"
           ],
-          "score": 34.9279
+          "score": 38.3171
         }
       ],
-      "summary": "本周预览：2026-10-19—2026-10-25。\n有效 1/7 天；6 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.0（日榜 1.2）。\n1. 我不难过 — 孙燕姿 · 93.30 分\n2. 天龙八部之宿敌 — 许嵩 · 82.14 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.99 分\n4. 恋人 — 李荣浩 · 60.40 分\n5. 雨爱 — 杨丞琳 · 54.56 分\n6. 我怀念的 — 孙燕姿 · 52.97 分\n7. 开始懂了 — 孙燕姿 · 49.45 分\n8. NEON — A2O LITE / A2O · 41.62 分\n9. 情歌 — 梁静茹 · 39.83 分\n10. 茶汤 — 郁可唯 · 34.93 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json"
+      "summary": "本周预览：2026-10-19—2026-10-25。\n有效 1/7 天；6 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.0（日榜 1.2）。\n1. 我不难过 — 孙燕姿 · 95.92 分\n2. 天龙八部之宿敌 — 许嵩 · 85.70 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.95 分\n4. 恋人 — 李荣浩 · 62.97 分\n5. 雨爱 — 杨丞琳 · 55.53 分\n6. 我怀念的 — 孙燕姿 · 54.99 分\n7. 开始懂了 — 孙燕姿 · 53.81 分\n8. NEON — A2O LITE / A2O · 48.96 分\n9. 玻璃 — Gareth.T · 40.10 分\n10. 幻听 — 许嵩 · 38.32 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json"
     }
   ]
 }

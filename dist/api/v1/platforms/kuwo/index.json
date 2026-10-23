@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T04:25:57.098Z",
+  "generatedAt": "2026-10-23T06:02:07.652Z",
   "providerId": "kuwo",
   "name": "酷我音乐",
   "dates": [
@@ -12,10 +12,9 @@
     {
       "date": "2026-10-23",
       "mode": "live",
-      "ingestion": "public",
-      "sourcePeriod": "2026-10-22",
-      "fetchedAt": "2026-10-23T04:25:57.098Z",
-      "status": "ok"
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T06:02:07.652Z",
+      "status": "error"
     }
   ]
 }
