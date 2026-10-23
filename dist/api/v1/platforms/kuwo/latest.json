@@ -11,6 +11,8 @@
   "updatePolicy": "公开接口提供榜单日期；未找到固定频率与公布时刻的一手承诺。",
   "access": "官方公开榜单接口",
   "providerId": "kuwo",
+  "status": "stale",
+  "ingestion": "cache",
   "fetchedAt": "2026-10-23T08:31:19.785Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-23",
@@ -3228,17 +3230,20 @@
       "songId": "bd4608212cdc5cc26b0d"
     }
   ],
-  "status": "ok",
-  "ingestion": "public",
-  "attemptedAt": "2026-10-23T08:31:19.785Z",
-  "collectionError": null,
-  "cacheOrigin": null,
-  "message": null,
+  "attemptedAt": "2026-10-23T08:38:19.289Z",
+  "collectionError": "Network error from kbangserver.kuwo.cn: ETIMEDOUT: connect ETIMEDOUT 43.144.171.106:443; ENETUNREACH: connect ENETUNREACH 2402:4e00:1206:8d00:6:4f4e:d820:ff06:443 - Local (:::0); ETIMEDOUT: connect ETIMEDOUT 43.144.171.12:443; ENETUNREACH: connect ENETUNREACH 2402:4e00:1206:8d01:6:4f4e:d6a3:dcb6:443 - Local (:::0)",
+  "cacheOrigin": {
+    "date": "2026-10-23",
+    "generatedAt": "2026-10-23T08:31:19.785Z",
+    "path": "data/runs/2026-10-23/2026-10-23T08-31-19-785Z.json",
+    "ingestion": "public"
+  },
+  "message": "采集失败，沿用 2026-10-23T08:31:19.785Z 的成功观察（仍在有效窗口内）；Network error from kbangserver.kuwo.cn: ETIMEDOUT: connect ETIMEDOUT 43.144.171.106:443; ENETUNREACH: connect ENETUNREACH 2402:4e00:1206:8d00:6:4f4e:d820:ff06:443 - Local (:::0); ETIMEDOUT: connect ETIMEDOUT 43.144.171.12:443; ENETUNREACH: connect ENETUNREACH 2402:4e00:1206:8d01:6:4f4e:d6a3:dcb6:443 - Local (:::0)",
   "weight": 0.05,
   "count": 100,
   "scoringCount": 50,
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T08:31:19.785Z"
+  "generatedAt": "2026-10-23T08:38:19.289Z"
 }
