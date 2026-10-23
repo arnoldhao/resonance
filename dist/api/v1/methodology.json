@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T12:37:13.426Z",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T17:52:46.060Z",
   "methodology": {
     "version": "1.3",
     "formula": "S = 100 × Σ wₚ × [0.9 × exp(−(rₚ − 1) / 25) + 0.1]，仅前 50 名计分，其余为 0",
