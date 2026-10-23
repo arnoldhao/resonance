@@ -83,7 +83,7 @@ export async function buildAPI({ dist, dataDirectory, snapshot, status, days, ar
     await output(`platforms/${source.id}/index.json`, {
       ...edition(snapshot), providerId: source.id, name: source.name,
       dates: editions.map(item => item.date),
-      editions: editions.map(item => ({ date: item.date, mode: item.mode, ingestion: item.ingestion, observationType: item.observationType, provenance: item.provenance, sourcePeriod: item.sourcePeriod, fetchedAt: item.fetchedAt, status: item.status })),
+      editions: editions.map(item => ({ date: item.date, mode: item.mode, ingestion: item.ingestion, observationType: item.observationType, provenance: item.provenance, sourcePeriod: item.sourcePeriod, sourceUpdatedAt: item.sourceUpdatedAt, fetchedAt: item.fetchedAt, attemptedAt: item.attemptedAt, collectionError: item.collectionError, cacheOrigin: item.cacheOrigin, status: item.status })),
     });
   }
 }

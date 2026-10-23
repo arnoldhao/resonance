@@ -15,6 +15,8 @@ Repository variables：
 
 计划采集为北京时间 **09:17、15:17、21:17**，仅在默认分支执行，实际触发可能延迟。手动补采使用 **Actions → Collect charts & publish → Run workflow → collect=true**。代码推送仅构建已有数据。
 
+单个平台采集失败后，采集器会在有效期内沿用最近的成功完整记录，并在 Summary、来源状态与 API 保留失败原因和原观察时间。沿用不表示本轮采集成功，Action 仍报告采集失败，便于发现持续故障；可用快照与站点仍按现有流程保存。仅构建已有数据不会给过去的失败快照补上平台，需下一次采集使用新逻辑。
+
 ## Cloudflare Pages
 
 连接同一 GitHub 仓库，开启自动生产部署：

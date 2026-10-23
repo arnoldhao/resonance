@@ -5,7 +5,7 @@ import { resolve } from 'node:path';
 
 const readJSON = async file => JSON.parse(await readFile(file, 'utf8'));
 const digest = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
-const observationFields = new Set(['generatedAt', 'fetchedAt', 'recomputedAt', 'asOfDate']);
+const observationFields = new Set(['generatedAt', 'fetchedAt', 'attemptedAt', 'recomputedAt', 'asOfDate']);
 
 function meaningful(value) {
   if (Array.isArray(value)) return value.map(meaningful);
@@ -64,6 +64,7 @@ function summaryOf(snapshot, jsonUrl) {
   return [
     snapshot.mode === 'demo' ? '设计示例，非真实榜单。' : '已发布的每日综合热歌榜快照。',
     `覆盖 ${coverage.available}/${coverage.expected} 平台、${coverage.groups}/${coverage.groupTotal} 来源组（${coverage.status}）；方法 ${methodology.version}。`,
+    ...(coverage.cached ? [`其中 ${coverage.cached} 个平台沿用有效窗口内的历史观察；来源时间和失败原因保存在 JSON。`] : []),
     ...snapshot.songs.slice(0, 10).map(song => `${song.rank}. ${song.title} — ${song.artists.join(' / ')} · ${song.score.toFixed(2)} 分`),
     `完整 JSON：${jsonUrl}`,
   ].join('\n');
@@ -100,6 +101,7 @@ export async function buildFeed({ dist, dataDirectory, snapshot, weeks = [], sit
     });
   }
   for (const week of weeks.filter(week => week.coverage.observedDays > 0 && week.songs.length).slice(0, 8)) {
+    const cachedDates = week.coverage.cachedDates ?? [];
     const included = await Promise.all(week.coverage.includedDates.map(dayWithTimes));
     const publishedAt = included.map(day => day.publishedAt).sort()[0];
     const times = included.map(day => day.updatedAt);
@@ -127,6 +129,7 @@ export async function buildFeed({ dist, dataDirectory, snapshot, weeks = [], sit
       summary: [
         `${week.mode === 'demo' ? '设计示例，非真实榜单。' : ''}${weeklyLabels[week.status]}：${week.weekStart}—${week.weekEnd}。`,
         `有效 ${week.coverage.observedDays}/${week.coverage.expectedDays} 天；${week.coverage.missingDates.length} 天无日快照（含尚未来到的日期），排除 ${week.coverage.excludedDates.length} 天；方法 ${week.methodology.version}（日榜 ${week.methodology.baseVersion}）。`,
+        ...(cachedDates.length ? [`其中 ${cachedDates.length} 个有效日使用了平台历史观察：${cachedDates.join('、')}。`] : []),
         ...songs.map(song => `${song.rank}. ${song.title} — ${song.artists.join(' / ')} · ${song.score.toFixed(2)} 分`),
         `完整 JSON：${jsonUrl}`,
       ].join('\n'),

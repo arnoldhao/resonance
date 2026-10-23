@@ -1,4 +1,4 @@
-import { effectiveWeights, rankValue } from './ranking.mjs';
+import { effectiveWeights, rankValue, usableSource, sourceObservation } from './ranking.mjs';
 
 const DAY = 86_400_000;
 const round = value => Math.round(value * 10_000) / 10_000;
@@ -11,9 +11,9 @@ function monday(date) {
 }
 
 function rebuildDay(day) {
-  // Both published versions use this curve; future formula versions need an explicit implementation.
-  if (!['1.0', '1.1', '1.2'].includes(day.methodology.version)) return { reason: `未支持的日榜方法版本：${day.methodology.version}` };
-  const sources = day.sources.filter(source => source.status === 'ok');
+  // These published versions use this curve; future formula versions need an explicit implementation.
+  if (!['1.0', '1.1', '1.2', '1.3'].includes(day.methodology.version)) return { reason: `未支持的日榜方法版本：${day.methodology.version}` };
+  const sources = day.sources.filter(usableSource);
   const groups = [...new Set(sources.map(source => source.group))];
   if (groups.length < day.methodology.minimumGroups) return { reason: '有效来源组不足，未满足日榜发布门槛' };
   const weights = effectiveWeights(sources, day.methodology);
@@ -40,13 +40,12 @@ function rebuildDay(day) {
       song.platforms.push({
         id: source.id, name: source.name, rank: entry.rank, sourceId: entry.sourceId,
         url: entry.url, eligible, weight, score, contribution: weight * score,
-        sourceMovement: entry.sourceMovement, mv: entry.mv, observedDate: day.date,
-        sourcePeriod: source.sourcePeriod, sourceUpdatedAt: source.sourceUpdatedAt,
+        sourceMovement: entry.sourceMovement, mv: entry.mv, ...sourceObservation(source, day.date), includedDate: day.date,
       });
       if (!song.artwork && entry.artwork) song.artwork = entry.artwork;
     }
   }
-  return { songs };
+  return { songs, usesCache: sources.some(source => source.status === 'stale') };
 }
 
 /** Derive weekly charts from published daily snapshots. No I/O and no modification of input days. */
@@ -86,9 +85,10 @@ export function buildWeeklyCharts({ days, asOfDate }) {
       }
       const rebuilt = rebuildDay(day);
       if (rebuilt.reason) excludedDates.push({ date: day.date, reason: rebuilt.reason });
-      else included.push({ date: day.date, songs: rebuilt.songs });
+      else included.push({ date: day.date, songs: rebuilt.songs, usesCache: rebuilt.usesCache });
     }
     const includedDates = included.map(day => day.date);
+    const cachedDates = included.filter(day => day.usesCache).map(day => day.date);
     const observedDates = new Set(observed.map(day => day.date));
     const missingDates = Array.from({ length: 7 }, (_, index) => addDays(weekStart, index)).filter(date => !observedDates.has(date));
     const candidates = new Map();
@@ -120,11 +120,11 @@ export function buildWeeklyCharts({ days, asOfDate }) {
         },
       };
     });
-    const sourceCoverage = reference ? Object.fromEntries(['available', 'expected', 'groups', 'groupTotal', 'status'].map(key => [key, reference.coverage[key]])) : null;
+    const sourceCoverage = reference ? Object.fromEntries(['available', 'fresh', 'cached', 'expected', 'groups', 'groupTotal', 'status'].map(key => [key, reference.coverage[key]])) : null;
     weeks.push({
       weekStart, weekEnd, mode, generatedAt, asOfDate, status,
       methodology: {
-        version: 'weekly-1.0', baseVersion: reference?.methodology.version ?? null,
+        version: 'weekly-1.1', baseVersion: reference?.methodology.version ?? null,
         formula: '周得分 = 同口径有效日得分之和 ÷ 有效天数；有效日未进入计分窗口记 0，缺失日与排除日不进入分母',
         rankDepth: reference?.methodology.rankDepth ?? null,
         groupWeights: reference ? { ...reference.methodology.groupWeights } : null,
@@ -132,8 +132,8 @@ export function buildWeeklyCharts({ days, asOfDate }) {
       },
       comparisonSignature,
       coverage: {
-        observedDays: included.length, expectedDays: 7, includedDates, missingDates, excludedDates,
-        latestIncludedDate: includedDates.at(-1) ?? null, comparisonAvailable: Boolean(comparable), sourceCoverage,
+        observedDays: included.length, expectedDays: 7, includedDates, cachedDates, missingDates, excludedDates,
+        latestIncludedDate: includedDates.at(-1) ?? null, comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cachedDates.length || priorWeek.coverage.cachedDates.length)), sourceCoverage,
       },
       songs,
     });

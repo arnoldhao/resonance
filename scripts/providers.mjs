@@ -178,6 +178,7 @@ async function kuwo() {
   const data = await readPublic('https://kbangserver.kuwo.cn/ksong.s?from=pc&fmt=json&alt=json&show_copyright_off=0&pn=0&rn=100&type=bang&data=content&id=16', {
     referer: 'https://www.kuwo.cn/',
   });
+  if (!Array.isArray(data.musiclist)) throw new Error(`Kuwo returned no musiclist (pub=${JSON.stringify(data.pub)}, fields=${Object.keys(data).join(',')})`);
   return {
     sourceUpdatedAt: null,
     sourcePeriod: data.pub,
@@ -221,8 +222,8 @@ async function qishui() {
   // Successful chart responses omit status_code; error responses may include it.
   if (data.status_code !== undefined && data.status_code !== 0) throw new Error(`Qishui returned code ${data.status_code}`);
   const chart = data.chart;
-  if (chart.id !== '7036274230471712007' || chart.period !== 'weekly') throw new Error('Qishui returned a different chart or period');
-  if (chart.count_tracks !== 50 || chart.track_ranks.length !== 50) throw new Error('Qishui weekly chart must contain its complete Top 50');
+  if (chart?.id !== '7036274230471712007' || chart.period !== 'weekly') throw new Error(`Qishui returned a different chart or period (id=${JSON.stringify(chart?.id)}, period=${JSON.stringify(chart?.period)}, status_info=${JSON.stringify(data.status_info)})`);
+  if (chart.count_tracks !== 50 || !Array.isArray(chart.track_ranks) || chart.track_ranks.length !== 50) throw new Error(`Qishui weekly chart must contain its complete Top 50 (declared=${JSON.stringify(chart.count_tracks)}, received=${chart.track_ranks?.length ?? 'missing'}, release_time=${JSON.stringify(chart.release_time)}, status_info=${JSON.stringify(data.status_info)})`);
   return {
     sourceUpdatedAt: new Date(chart.release_time * 1000).toISOString(),
     sourcePeriod: chart.period,

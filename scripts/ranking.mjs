@@ -1,12 +1,13 @@
 import { createHash } from 'node:crypto';
 
 export const methodology = {
-  version: '1.2',
+  version: '1.3',
   formula: 'S = 100 × Σ wₚ × [0.9 × exp(−(rₚ − 1) / 25) + 0.1]，仅前 50 名计分，其余为 0',
   rankDepth: 50,
   groupWeights: { tme: 0.5, netease: 0.3, apple: 0.1, qishui: 0.1 },
   platformWeights: { qq: 0.25, kugou: 0.2, kuwo: 0.05, netease: 0.3, apple: 0.1, qishui: 0.1 },
   minimumGroups: 2,
+  sourcePolicy: 'last-success-within-source-window',
 };
 
 export function chinaDate(date) {
@@ -20,10 +21,34 @@ export function priorDate(date) {
 const normalize = value => value.normalize('NFKC').toLowerCase().replace(/\s+/gu, '').trim();
 const round = value => Math.round(value * 10000) / 10000;
 export const rankValue = rank => 0.9 * Math.exp(-(rank - 1) / 25) + 0.1;
+export const usableSource = source => source.status === 'ok' || source.status === 'stale';
+const periodDateOf = source => /^(\d{4}-\d{2}-\d{2})(?:$| \d{2}:\d{2}:\d{2}$)/.exec(source.sourcePeriod ?? '')?.[1];
+
+// A failed attempt never renews either the observation's age or the source edition's age.
+export function sourceFreshnessIssue(source, provider, asOf) {
+  const limit = provider.maxAgeHours * 3_600_000;
+  const age = Date.parse(asOf) - Date.parse(source.fetchedAt);
+  if (!Number.isFinite(age) || age < 0) return '成功观察时间无效或晚于本次采集';
+  if (age > limit) return '上次成功观察已超过新鲜度窗口';
+  const periodDate = periodDateOf(source);
+  const sourceAge = source.sourceUpdatedAt ? Date.parse(asOf) - Date.parse(source.sourceUpdatedAt) : periodDate ? Date.parse(chinaDate(new Date(asOf))) - Date.parse(periodDate) : null;
+  if (sourceAge !== null && sourceAge > limit) return '源榜单已超过新鲜度窗口';
+  return null;
+}
+
+export function sourceObservation(source, snapshotDate) {
+  return {
+    status: source.status, ingestion: source.ingestion, fetchedAt: source.fetchedAt,
+    observedDate: source.fetchedAt ? chinaDate(new Date(source.fetchedAt)) : source.status === 'ok' ? snapshotDate : null,
+    sourceUpdatedAt: source.sourceUpdatedAt, sourcePeriod: source.sourcePeriod,
+    attemptedAt: source.attemptedAt ?? null, collectionError: source.collectionError ?? null,
+    cacheOrigin: source.cacheOrigin ?? null,
+  };
+}
 
 // Read each edition's unrounded policy so weekly rebuilding also preserves older methods.
 export function effectiveWeights(sources, rule) {
-  const available = sources.filter(source => source.status === 'ok');
+  const available = sources.filter(usableSource);
   if (rule.platformWeights) {
     const total = available.reduce((sum, source) => sum + rule.platformWeights[source.id], 0);
     return Object.fromEntries(available.map(source => [source.id, rule.platformWeights[source.id] / total]));
@@ -53,11 +78,13 @@ export function validateChart(chart, provider, date, { editionDate } = {}) {
   if (chart.sourceUpdatedAt !== null && !Number.isFinite(Date.parse(chart.sourceUpdatedAt))) throw new Error('sourceUpdatedAt 必须为 ISO 时间或 null');
   if (chart.sourceUpdatedAt && Date.parse(chart.sourceUpdatedAt) > Date.parse(chart.fetchedAt) + 300000) throw new Error('源更新时间晚于采集时间');
   // Freshness follows the source's cadence: daily 48 h, weekly 9 days. Unzoned periods use calendar dates.
-  const periodDate = /^(\d{4}-\d{2}-\d{2})(?:$| \d{2}:\d{2}:\d{2}$)/.exec(chart.sourcePeriod ?? '')?.[1];
-  const sourceAge = chart.sourceUpdatedAt ? Date.parse(chart.fetchedAt) - Date.parse(chart.sourceUpdatedAt) : periodDate ? Date.parse(date) - Date.parse(periodDate) : null;
+  const periodDate = periodDateOf(chart);
   if (editionDate) {
     if (periodDate !== editionDate || editionDate > date) throw new Error('返回榜期与请求的历史日期不符');
-  } else if (sourceAge !== null && sourceAge > provider.maxAgeHours * 3600000) throw new Error('源榜单已超过新鲜度窗口，暂停计分');
+  } else {
+    const issue = sourceFreshnessIssue(chart, provider, chart.fetchedAt);
+    if (issue) throw new Error(`${issue}，暂停计分`);
+  }
   if (periodDate && periodDate > date) throw new Error('源榜单期次晚于采集日期');
   const rows = chart.entries.slice(0, provider.collectionDepth);
   const ids = new Set();
@@ -85,7 +112,8 @@ export function validateChart(chart, provider, date, { editionDate } = {}) {
 }
 
 export function buildSnapshot({ date, generatedAt, sources, aliases, previous, history = [], mode = 'live' }) {
-  const available = sources.filter(source => source.status === 'ok');
+  const available = sources.filter(usableSource);
+  const cached = available.filter(source => source.status === 'stale').length;
   const groups = [...new Set(available.map(source => source.group))];
   const weights = effectiveWeights(sources, methodology);
   const signature = `${methodology.version}|${createHash('sha256').update(JSON.stringify(aliases)).digest('hex').slice(0, 12)}|${available.map(s => s.id).sort().join(',')}`;
@@ -93,7 +121,7 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
   const songs = new Map();
   const decoratedSources = sources.map(source => {
     const weight = weights[source.id] ?? 0;
-    const entries = (source.status === 'ok' ? source.entries : []).map(entry => {
+    const entries = (usableSource(source) ? source.entries : []).map(entry => {
       const identity = identify(entry, source.id, aliases);
       let song = songs.get(identity.id);
       if (!song) {
@@ -101,11 +129,11 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
         songs.set(identity.id, song);
       }
       // Different editions of the same recording may occupy multiple source ranks. One source casts one vote.
-      if (source.status === 'ok' && !song.platforms.some(p => p.id === source.id)) {
+      if (!song.platforms.some(p => p.id === source.id)) {
         const eligible = entry.rank <= methodology.rankDepth;
         const value = eligible ? rankValue(entry.rank) : 0;
         song.score += weight * value * 100;
-        song.platforms.push({ id: source.id, name: source.name, rank: entry.rank, eligible, score: round(value * 100), contribution: round(weight * value * 100), url: entry.url, sourceId: entry.sourceId, sourceMovement: entry.sourceMovement, mv: entry.mv });
+        song.platforms.push({ id: source.id, name: source.name, rank: entry.rank, eligible, score: round(value * 100), contribution: round(weight * value * 100), url: entry.url, sourceId: entry.sourceId, sourceMovement: entry.sourceMovement, mv: entry.mv, ...sourceObservation(source, date) });
         if (!song.artwork && entry.artwork) song.artwork = entry.artwork;
       }
       return { ...entry, songId: identity.id };
@@ -129,7 +157,7 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
   }).slice(0, 100) : [];
   return {
     schemaVersion: 1, mode, date, generatedAt, methodology, comparisonSignature: signature,
-    coverage: { available: available.length, expected: sources.length, groups: groups.length, groupTotal: Object.keys(methodology.groupWeights).length, status: groups.length < methodology.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial', comparisonAvailable: Boolean(comparable) },
+    coverage: { available: available.length, fresh: available.length - cached, cached, expected: sources.length, groups: groups.length, groupTotal: Object.keys(methodology.groupWeights).length, status: groups.length < methodology.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial', comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cached || previous.sources.some(source => source.status === 'stale'))) },
     sources: decoratedSources, songs: ranked,
   };
 }
