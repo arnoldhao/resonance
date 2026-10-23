@@ -1,0 +1,2367 @@
+{
+  "id": "netease",
+  "name": "网易云音乐",
+  "chartName": "热歌榜",
+  "group": "netease",
+  "enabled": true,
+  "collectionDepth": 100,
+  "maxAgeHours": 48,
+  "sourceUrl": "https://music.163.com/#/discover/toplist?id=3778678",
+  "frequency": "每日更新",
+  "updatePolicy": "一周内热度统计，当前官方说明为每日更新；未确认固定公布时刻。",
+  "access": "第三方公开存档 · GitHub 固定提交",
+  "schemaVersion": 1,
+  "mode": "live",
+  "providerId": "netease",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-23T04:01:59.338Z",
+  "status": "ok",
+  "ingestion": "backfill",
+  "observationType": "archived-snapshot",
+  "fetchedAt": "2026-10-23T04:01:59.338Z",
+  "sourcePeriod": null,
+  "sourceUpdatedAt": null,
+  "message": "第三方保存的官方热歌榜快照；日期沿用原始记录，原始采集时区未注明。不参与综合榜计分。",
+  "count": 100,
+  "provenance": {
+    "kind": "git",
+    "publisher": "foooorward/music-new-release-radar",
+    "url": "https://github.com/foooorward/music-new-release-radar/blob/b0a5d517b7aec987fcb3b58d732a625fe43b93c8/data/music_radar.db",
+    "revision": "b0a5d517b7aec987fcb3b58d732a625fe43b93c8",
+    "sha256": "df14e6eac135fa8ada5f9df77aa95adfcf6a6c5371f0ba67352112193a47af91",
+    "committedAt": "2026-10-10T11:06:22Z",
+    "observedAt": "2026-10-10 18:28:32",
+    "observedTimeZone": null,
+    "dateBasis": "archive-label",
+    "originalCount": 200,
+    "chartId": "3778678",
+    "identityEvidence": [
+      "https://github.com/foooorward/music-new-release-radar/blob/b0a5d517b7aec987fcb3b58d732a625fe43b93c8/config.json",
+      "https://github.com/foooorward/music-new-release-radar/blob/b0a5d517b7aec987fcb3b58d732a625fe43b93c8/music_radar/sources.py"
+    ]
+  },
+  "entries": [
+    {
+      "sourceId": "287398",
+      "rank": 1,
+      "title": "我不难过",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "未完成",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=287398",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5d47cfe6c7e99d6278ff"
+    },
+    {
+      "sourceId": "1973665667",
+      "rank": 2,
+      "title": "海屿你",
+      "artists": [
+        "马也_Crabbit"
+      ],
+      "album": "海屿你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1973665667",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "515334ce1bb41836f812"
+    },
+    {
+      "sourceId": "3432893870",
+      "rank": 3,
+      "title": "全息恋人",
+      "artists": [
+        "栾一鸣Floscar"
+      ],
+      "album": "全息恋人",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3432893870",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "05679513e36571a80e0d"
+    },
+    {
+      "sourceId": "3399839173",
+      "rank": 4,
+      "title": "甲乙丙丁 (你我怎么两清)",
+      "artists": [
+        "李佳薇"
+      ],
+      "album": "甲乙丙丁",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3399839173",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "487bb610752a82429d35"
+    },
+    {
+      "sourceId": "3342319503",
+      "rank": 5,
+      "title": "明知故犯",
+      "artists": [
+        "Max李玄"
+      ],
+      "album": "失温",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3342319503",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d7fa67c2313158d69dbc"
+    },
+    {
+      "sourceId": "1456890009",
+      "rank": 6,
+      "title": "罗生门（Follow）",
+      "artists": [
+        "梨冻紧",
+        "Wiz_H张子豪"
+      ],
+      "album": "罗生门（Follow）",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1456890009",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "31cf90737b6ea0015ddf"
+    },
+    {
+      "sourceId": "3397415408",
+      "rank": 7,
+      "title": "回到你身边",
+      "artists": [
+        "h3R3"
+      ],
+      "album": "回响",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3397415408",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "4900cb785e1d222f3164"
+    },
+    {
+      "sourceId": "2600493765",
+      "rank": 8,
+      "title": "恋人",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "黑马",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2600493765",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1c4e1a4066e20511f7ab"
+    },
+    {
+      "sourceId": "3436855494",
+      "rank": 9,
+      "title": "自由的你",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "album": "自由的你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3436855494",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1dbbc7782773a0ee6873"
+    },
+    {
+      "sourceId": "316157",
+      "rank": 10,
+      "title": "茶汤",
+      "artists": [
+        "郁可唯"
+      ],
+      "album": "微加幸福",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=316157",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "944510e48666efab2984"
+    },
+    {
+      "sourceId": "2097443876",
+      "rank": 11,
+      "title": "碎碎念",
+      "artists": [
+        "队长"
+      ],
+      "album": "碎碎念",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2097443876",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d8b72587e9a80a4307de"
+    },
+    {
+      "sourceId": "1842728629",
+      "rank": 12,
+      "title": "如果呢",
+      "artists": [
+        "郑润泽"
+      ],
+      "album": "如果呢",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1842728629",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "4ff25f29b48cc045cfb1"
+    },
+    {
+      "sourceId": "3382908505",
+      "rank": 13,
+      "title": "玻璃",
+      "artists": [
+        "Gareth.T"
+      ],
+      "album": "玻璃",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3382908505",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6fc75d05e1e3314a888e"
+    },
+    {
+      "sourceId": "287063",
+      "rank": 14,
+      "title": "我怀念的",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "逆光",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=287063",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8c0daa3d1077edcbc6c8"
+    },
+    {
+      "sourceId": "1391891631",
+      "rank": 15,
+      "title": "嗜好",
+      "artists": [
+        "颜人中"
+      ],
+      "album": "嗜好",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1391891631",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "3409ea43824827028d28"
+    },
+    {
+      "sourceId": "215382",
+      "rank": 16,
+      "title": "雨过后的风景",
+      "artists": [
+        "Dizzy Dizzo (蔡诗芸)"
+      ],
+      "album": "黑色彩虹",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=215382",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "aa443c23eb5bd46fcb5a"
+    },
+    {
+      "sourceId": "2755710644",
+      "rank": 17,
+      "title": "左转灯 (1000 Times +1)",
+      "artists": [
+        "派伟俊",
+        "mac ova seas"
+      ],
+      "album": "左转灯 (1000 Times +1)",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2755710644",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "ffe139a059be1c56d4bf"
+    },
+    {
+      "sourceId": "273114",
+      "rank": 18,
+      "title": "失眠",
+      "artists": [
+        "Suki刘舒妤"
+      ],
+      "album": "Ladies Night",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=273114",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "07d8a07f3549e36b5f56"
+    },
+    {
+      "sourceId": "167655",
+      "rank": 19,
+      "title": "幻听",
+      "artists": [
+        "许嵩"
+      ],
+      "album": "梦游计",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=167655",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c358903ade375e995c99"
+    },
+    {
+      "sourceId": "3333988321",
+      "rank": 20,
+      "title": "一半一半",
+      "artists": [
+        "Top Barry",
+        "INDEcompany"
+      ],
+      "album": "一半一半",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3333988321",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "69ca9e87a66c2f4d0137"
+    },
+    {
+      "sourceId": "1851652156",
+      "rank": 21,
+      "title": "忘不掉的你",
+      "artists": [
+        "h3R3"
+      ],
+      "album": "忘不掉的你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1851652156",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "4f18a319bb12d5d55f8e"
+    },
+    {
+      "sourceId": "1303464858",
+      "rank": 22,
+      "title": "于是",
+      "artists": [
+        "郑润泽"
+      ],
+      "album": "于是",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1303464858",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b6349643b480267c39ac"
+    },
+    {
+      "sourceId": "2163210456",
+      "rank": 23,
+      "title": "两 难",
+      "artists": [
+        "加木"
+      ],
+      "album": "两 难",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2163210456",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6aea79f7d1177c9fa864"
+    },
+    {
+      "sourceId": "1827600686",
+      "rank": 24,
+      "title": "还是会想你",
+      "artists": [
+        "林达浪",
+        "h3R3"
+      ],
+      "album": "还是会想你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1827600686",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f15d5d8df34f1cb1c324"
+    },
+    {
+      "sourceId": "1918576268",
+      "rank": 25,
+      "title": "红",
+      "artists": [
+        "罗言"
+      ],
+      "album": "When the world is came，take it！",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1918576268",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5109fed3721a09519c3c"
+    },
+    {
+      "sourceId": "316100",
+      "rank": 26,
+      "title": "雨爱",
+      "artists": [
+        "杨丞琳"
+      ],
+      "album": "雨爱",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=316100",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "61c8815b55293dd4a3cd"
+    },
+    {
+      "sourceId": "3404238777",
+      "rank": 27,
+      "title": "周旋",
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "album": "太热爱",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3404238777",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "0aefb124460026ba0376"
+    },
+    {
+      "sourceId": "2701139855",
+      "rank": 28,
+      "title": "颜色",
+      "artists": [
+        "Gareth.T"
+      ],
+      "album": "颜色",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2701139855",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "ea0218f4f3f17dcf233a"
+    },
+    {
+      "sourceId": "2740858325",
+      "rank": 29,
+      "title": "Star Crossing Night (feat. GALI)",
+      "artists": [
+        "徐明浩",
+        "GALI"
+      ],
+      "album": "Star Crossing Night (feat. GALI)",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2740858325",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5faa77ba944d776e5964"
+    },
+    {
+      "sourceId": "1472921626",
+      "rank": 30,
+      "title": "刻在我心底的名字",
+      "artists": [
+        "卢广仲"
+      ],
+      "album": "刻在我心底的名字",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1472921626",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9250c2acb4ce266eb755"
+    },
+    {
+      "sourceId": "287719",
+      "rank": 31,
+      "title": "开始懂了",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "我要的幸福",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=287719",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "161752bf9ddec26f6c9c"
+    },
+    {
+      "sourceId": "2018733994",
+      "rank": 32,
+      "title": "遐想",
+      "artists": [
+        "郑润泽"
+      ],
+      "album": "梦游",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2018733994",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f9527b673c87938afc37"
+    },
+    {
+      "sourceId": "479979029",
+      "rank": 33,
+      "title": "Lost",
+      "artists": [
+        "满舒克",
+        "Jony J"
+      ],
+      "album": "Almost Perfect",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=479979029",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "712b655486ba193758dc"
+    },
+    {
+      "sourceId": "2083785152",
+      "rank": 34,
+      "title": "唯一",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "album": "T.I.M.E.",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2083785152",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "44a84462f6a0527b7c01"
+    },
+    {
+      "sourceId": "1363553440",
+      "rank": 35,
+      "title": "出现又离开 (Live)",
+      "artists": [
+        "梁博"
+      ],
+      "album": "我是唱作人 第2期",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1363553440",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d264fbccaefdd35dce1a"
+    },
+    {
+      "sourceId": "3387477661",
+      "rank": 36,
+      "title": "梦哑",
+      "artists": [
+        "任然"
+      ],
+      "album": "梦哑",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3387477661",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9ef9ee42947026cc9b9e"
+    },
+    {
+      "sourceId": "28403111",
+      "rank": 37,
+      "title": "特别的人",
+      "artists": [
+        "方大同"
+      ],
+      "album": "危险世界",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=28403111",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "800b0aab3d68808e892e"
+    },
+    {
+      "sourceId": "3416333610",
+      "rank": 38,
+      "title": "再见太难",
+      "artists": [
+        "利得汇"
+      ],
+      "album": "再见太难",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3416333610",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "de869fdfc50fc1aa995f"
+    },
+    {
+      "sourceId": "1359356908",
+      "rank": 39,
+      "title": "晚安",
+      "artists": [
+        "颜人中"
+      ],
+      "album": "晚安",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1359356908",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d43f8a282f0362383219"
+    },
+    {
+      "sourceId": "2015896805",
+      "rank": 40,
+      "title": "浆果",
+      "artists": [
+        "TINY7"
+      ],
+      "album": "浆果",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2015896805",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d7f144b4dafb406943a2"
+    },
+    {
+      "sourceId": "2041026502",
+      "rank": 41,
+      "title": "愿与愁",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": "愿与愁",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2041026502",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b4361e58e0661faae1fe"
+    },
+    {
+      "sourceId": "30612793",
+      "rank": 42,
+      "title": "多远都要在一起",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "album": "新的心跳",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=30612793",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "42e486853e2871a39a53"
+    },
+    {
+      "sourceId": "421423806",
+      "rank": 43,
+      "title": "小半",
+      "artists": [
+        "陈粒"
+      ],
+      "album": "小梦大半",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=421423806",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6f164a403f38b8991823"
+    },
+    {
+      "sourceId": "1398283847",
+      "rank": 44,
+      "title": "我只能离开",
+      "artists": [
+        "颜人中"
+      ],
+      "album": "初恋那件小事 电视剧原声带",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1398283847",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8158ed4459ec426d3ea8"
+    },
+    {
+      "sourceId": "254059",
+      "rank": 45,
+      "title": "情歌",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": "现在开始我爱你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=254059",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "0547bcb2d1b36134ce08"
+    },
+    {
+      "sourceId": "2652647276",
+      "rank": 46,
+      "title": "我好想你 (苏打绿版)",
+      "artists": [
+        "苏打绿"
+      ],
+      "album": "秋：故事 (苏打绿版)",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2652647276",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "41abde5987f63e6b9d96"
+    },
+    {
+      "sourceId": "3330620554",
+      "rank": 47,
+      "title": "琵琶曲",
+      "artists": [
+        "郑浩Z-Hao",
+        "冰洁"
+      ],
+      "album": "琵琶曲",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3330620554",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8b0ef14bce881be9a89c"
+    },
+    {
+      "sourceId": "1403318151",
+      "rank": 48,
+      "title": "把回忆拼好给你",
+      "artists": [
+        "王贰浪"
+      ],
+      "album": "把回忆拼好给你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1403318151",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "3ce3bb269c6b9ff71515"
+    },
+    {
+      "sourceId": "3425638996",
+      "rank": 49,
+      "title": "互删 (我走以后)",
+      "artists": [
+        "江辰"
+      ],
+      "album": "互删 (我走以后)",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3425638996",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "15166c21a1cc9efc13fa"
+    },
+    {
+      "sourceId": "21178386",
+      "rank": 50,
+      "title": "Whatever Happens",
+      "artists": [
+        "Michael Jackson"
+      ],
+      "album": "Invincible",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=21178386",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1a3559e87d1358d1492c"
+    },
+    {
+      "sourceId": "208902",
+      "rank": 51,
+      "title": "红色高跟鞋",
+      "artists": [
+        "蔡健雅"
+      ],
+      "album": "若你碰到他",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=208902",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "949602a93a41b21f6d90"
+    },
+    {
+      "sourceId": "2161222939",
+      "rank": 52,
+      "title": "沦陷",
+      "artists": [
+        "贾格JuggShots"
+      ],
+      "album": "沦陷",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2161222939",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "915a062dd7ee86991d6a"
+    },
+    {
+      "sourceId": "554322674",
+      "rank": 53,
+      "title": "偷心",
+      "artists": [
+        "SASIOVERLXRD",
+        "连麻Swimming"
+      ],
+      "album": "偷心",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=554322674",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "662adc1784e3680e695e"
+    },
+    {
+      "sourceId": "1400259397",
+      "rank": 54,
+      "title": "有我呢",
+      "artists": [
+        "郭一凡"
+      ],
+      "album": "重返地球",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1400259397",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e403be7f2c3bfea538fa"
+    },
+    {
+      "sourceId": "1927693793",
+      "rank": 55,
+      "title": "再等冬天(Memories)",
+      "artists": [
+        "h3R3"
+      ],
+      "album": "故事商铺·上",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1927693793",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5487345d482aaa600c30"
+    },
+    {
+      "sourceId": "1922888354",
+      "rank": 56,
+      "title": "苦茶子",
+      "artists": [
+        "Starling8",
+        "DRODUMANA",
+        "FIVESTAR"
+      ],
+      "album": "埋汰",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1922888354",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "dddc7279258b0e359fb2"
+    },
+    {
+      "sourceId": "1895330088",
+      "rank": 57,
+      "title": "予你",
+      "artists": [
+        "队长"
+      ],
+      "album": "予你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1895330088",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1ef62801c1db1b2bd1f8"
+    },
+    {
+      "sourceId": "1482867143",
+      "rank": 58,
+      "title": "夏夜最后的烟火",
+      "artists": [
+        "颜人中"
+      ],
+      "album": "夏夜最后的烟火",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1482867143",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "03ebe423861e8e71eed2"
+    },
+    {
+      "sourceId": "167827",
+      "rank": 59,
+      "title": "素颜",
+      "artists": [
+        "许嵩",
+        "何曼婷"
+      ],
+      "album": "素颜",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=167827",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "2919123b63ea95dd8c0f"
+    },
+    {
+      "sourceId": "1394167216",
+      "rank": 60,
+      "title": "知我",
+      "artists": [
+        "国风堂",
+        "哦漏"
+      ],
+      "album": "知我",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1394167216",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c8534ddf8c556b43467b"
+    },
+    {
+      "sourceId": "2741144144",
+      "rank": 61,
+      "title": "99",
+      "artists": [
+        "TizzyT"
+      ],
+      "album": "99",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2741144144",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "df9b5b3a8c4094be38f9"
+    },
+    {
+      "sourceId": "65766",
+      "rank": 62,
+      "title": "富士山下",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": "What's Going On…?",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=65766",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1637db17294d398b3b6b"
+    },
+    {
+      "sourceId": "167691",
+      "rank": 63,
+      "title": "天龙八部之宿敌",
+      "artists": [
+        "许嵩"
+      ],
+      "album": "天龙八部之宿敌",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=167691",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6995accbf8affee8f247"
+    },
+    {
+      "sourceId": "2058139099",
+      "rank": 64,
+      "title": "One Of The Girls",
+      "artists": [
+        "The Weeknd",
+        "JENNIE",
+        "Lily-Rose Depp"
+      ],
+      "album": "The Idol Episode 4 (Music from the HBO Original Series)",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2058139099",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "ca33edb234d01d7ead8e"
+    },
+    {
+      "sourceId": "2648204040",
+      "rank": 65,
+      "title": "锈 (我们两个都拉过勾)",
+      "artists": [
+        "江辰"
+      ],
+      "album": "瘾",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2648204040",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "12e770a1215fee129901"
+    },
+    {
+      "sourceId": "108485",
+      "rank": 66,
+      "title": "Always Online",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": "JJ陆",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=108485",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9c5f89dfb6e015855e29"
+    },
+    {
+      "sourceId": "1406649619",
+      "rank": 67,
+      "title": "有些",
+      "artists": [
+        "颜人中"
+      ],
+      "album": "失眠症候群",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1406649619",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "ddb55b82c9465970323a"
+    },
+    {
+      "sourceId": "4872687",
+      "rank": 68,
+      "title": "同花顺",
+      "artists": [
+        "林倛玉"
+      ],
+      "album": "12蓮花 原著電影原聲帶 (Original Motion Picture Soundtrack)",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=4872687",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "ff0fa78e256f6d64b637"
+    },
+    {
+      "sourceId": "233888",
+      "rank": 69,
+      "title": "爱情讯息",
+      "artists": [
+        "郭静"
+      ],
+      "album": "下一个天亮",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=233888",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b4c72149e5a4a1942ed5"
+    },
+    {
+      "sourceId": "1926623288",
+      "rank": 70,
+      "title": "小胡同",
+      "artists": [
+        "郑润泽"
+      ],
+      "album": "小胡同",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1926623288",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "62ae4f9b34a01733eaef"
+    },
+    {
+      "sourceId": "65800",
+      "rank": 71,
+      "title": "最佳损友",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": "Life Continues…",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=65800",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "a6d0352a195f1557130d"
+    },
+    {
+      "sourceId": "1420706073",
+      "rank": 72,
+      "title": "离开我的依赖",
+      "artists": [
+        "王艳薇"
+      ],
+      "album": "离开我的依赖",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1420706073",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "173ba502e4be135aa5fb"
+    },
+    {
+      "sourceId": "2040015902",
+      "rank": 73,
+      "title": "熄灭",
+      "artists": [
+        "TC"
+      ],
+      "album": "熄灭",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2040015902",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "2e8d36da3dd28e65eaef"
+    },
+    {
+      "sourceId": "1299550532",
+      "rank": 74,
+      "title": "倒数",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "album": "另一个童话",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1299550532",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "27abff4f6450b1a0c540"
+    },
+    {
+      "sourceId": "1410633323",
+      "rank": 75,
+      "title": "到时说爱我",
+      "artists": [
+        "茜拉"
+      ],
+      "album": "心旅",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1410633323",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6bfa95e01da7fe94b788"
+    },
+    {
+      "sourceId": "327721",
+      "rank": 76,
+      "title": "读心术",
+      "artists": [
+        "卓文萱"
+      ],
+      "album": "幸福氧气",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=327721",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f07180b2710551e39966"
+    },
+    {
+      "sourceId": "307594",
+      "rank": 77,
+      "title": "泪海",
+      "artists": [
+        "许茹芸"
+      ],
+      "album": "泪海",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=307594",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "30998d16b8aaf576d32c"
+    },
+    {
+      "sourceId": "2124385868",
+      "rank": 78,
+      "title": "如果爱忘了 (live)",
+      "artists": [
+        "汪苏泷",
+        "单依纯"
+      ],
+      "album": "声生不息·家年华 第12期",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2124385868",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8745dfaca34d2b7533d1"
+    },
+    {
+      "sourceId": "1974443814",
+      "rank": 79,
+      "title": "我记得",
+      "artists": [
+        "赵雷"
+      ],
+      "album": "署前街少年",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1974443814",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "bf228cba22fa10699441"
+    },
+    {
+      "sourceId": "1406083061",
+      "rank": 80,
+      "title": "你",
+      "artists": [
+        "郑润泽"
+      ],
+      "album": "你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1406083061",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "fb2f42ffa782336afda0"
+    },
+    {
+      "sourceId": "2601622789",
+      "rank": 81,
+      "title": "去北极忘记你",
+      "artists": [
+        "Gareth.T"
+      ],
+      "album": "去北极忘记你",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2601622789",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8e8abc009e5ee34ad68d"
+    },
+    {
+      "sourceId": "3369728164",
+      "rank": 82,
+      "title": "静音恋人 (两颗缠绕的心)",
+      "artists": [
+        "礼越"
+      ],
+      "album": "静音恋人",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3369728164",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b20d4d21f840c59ca72c"
+    },
+    {
+      "sourceId": "2608448649",
+      "rank": 83,
+      "title": "走走",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "黑马",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2608448649",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "28d776127df191300bd8"
+    },
+    {
+      "sourceId": "2673175226",
+      "rank": 84,
+      "title": "零距离的思念",
+      "artists": [
+        "TINY7"
+      ],
+      "album": "Chose one me",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2673175226",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "3703de88f69aa8aa1546"
+    },
+    {
+      "sourceId": "26387325",
+      "rank": 85,
+      "title": "拉过勾的",
+      "artists": [
+        "陆虎"
+      ],
+      "album": "花吃泡面男",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=26387325",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f7af49afb083a138126a"
+    },
+    {
+      "sourceId": "3391179506",
+      "rank": 86,
+      "title": "我听见了，你的痛苦成立",
+      "artists": [
+        "供销社乐队"
+      ],
+      "album": "我听见了，你的痛苦成立",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=3391179506",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1dc98a7aec2e931714a1"
+    },
+    {
+      "sourceId": "25648006",
+      "rank": 87,
+      "title": "麦恩莉",
+      "artists": [
+        "方大同"
+      ],
+      "album": "回到未来",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=25648006",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "585aca6334182b43d67c"
+    },
+    {
+      "sourceId": "2071935674",
+      "rank": 88,
+      "title": "我想念",
+      "artists": [
+        "汪苏泷"
+      ],
+      "album": "我想念",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2071935674",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d7597b6f68779bd9ccce"
+    },
+    {
+      "sourceId": "2647831829",
+      "rank": 89,
+      "title": "我爱你但是我要回家",
+      "artists": [
+        "ET",
+        "Happer",
+        "无面小生",
+        "口古口古"
+      ],
+      "album": "我爱你但是我要回家",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2647831829",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c256de60e9d6ede0bd81"
+    },
+    {
+      "sourceId": "27955654",
+      "rank": 90,
+      "title": "其实",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": "意外",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=27955654",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5dd9c87995c8b998dddc"
+    },
+    {
+      "sourceId": "421423808",
+      "rank": 91,
+      "title": "虚拟",
+      "artists": [
+        "陈粒"
+      ],
+      "album": "小梦大半",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=421423808",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "67e332ca725f95339eac"
+    },
+    {
+      "sourceId": "2650815712",
+      "rank": 92,
+      "title": "茶花开了",
+      "artists": [
+        "王睿卓"
+      ],
+      "album": "茶花开了",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2650815712",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6d2b6173a24f2f398e8e"
+    },
+    {
+      "sourceId": "1876179147",
+      "rank": 93,
+      "title": "别怕变老",
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "album": "幸存者的负罪感",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1876179147",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "7e82e15ac3b9d8bbb9c9"
+    },
+    {
+      "sourceId": "1443838552",
+      "rank": 94,
+      "title": "他只是经过",
+      "artists": [
+        "h3R3",
+        "高旭"
+      ],
+      "album": "他只是经过",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1443838552",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "bf44feae74a91693bced"
+    },
+    {
+      "sourceId": "32507038",
+      "rank": 95,
+      "title": "演员",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": "绅士",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=32507038",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5a116a5750ca7bd1b1d1"
+    },
+    {
+      "sourceId": "209397",
+      "rank": 96,
+      "title": "太聪明",
+      "artists": [
+        "陈绮贞"
+      ],
+      "album": "Groupies吉他手",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=209397",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "66763f0406bfd0290606"
+    },
+    {
+      "sourceId": "277382",
+      "rank": 97,
+      "title": "盛夏的果实",
+      "artists": [
+        "莫文蔚"
+      ],
+      "album": "含情莫莫 莫文蔚全精选辑",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=277382",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1e1b44b393f7de24dc18"
+    },
+    {
+      "sourceId": "208891",
+      "rank": 98,
+      "title": "Letting Go",
+      "artists": [
+        "蔡健雅"
+      ],
+      "album": "说到爱",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=208891",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "51f0d6e620b1ae2f7d0b"
+    },
+    {
+      "sourceId": "2166584564",
+      "rank": 99,
+      "title": "小孩",
+      "artists": [
+        "罗森涛"
+      ],
+      "album": "为何离开",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=2166584564",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "201a648d86bcce224512"
+    },
+    {
+      "sourceId": "1379918404",
+      "rank": 100,
+      "title": "time machine (feat. aren park)",
+      "artists": [
+        "mj apanay",
+        "aren park"
+      ],
+      "album": "seen 11:23 pm",
+      "artwork": null,
+      "url": "https://music.163.com/#/song?id=1379918404",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f080d96cf9c5e2c52419"
+    }
+  ]
+}

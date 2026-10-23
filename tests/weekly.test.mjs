@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { buildWeeklyCharts } from '../scripts/weekly.mjs';
+import { methodology } from '../scripts/ranking.mjs';
 
 const plus = (date, count) => new Date(Date.parse(`${date}T00:00:00Z`) + count * 86_400_000).toISOString().slice(0, 10);
 const entry = (id, rank) => ({ songId: id, sourceId: `${id}-${rank}`, title: id, artists: ['演唱者'], artwork: null, rank });
@@ -112,4 +113,25 @@ test('empty current preview and excluded closed week remain explainable', () => 
   assert.equal(closed.coverage.observedDays, 0);
   assert.equal(closed.coverage.excludedDates.length, 1);
   assert.deepEqual(closed.songs, []);
+});
+
+test('v1.2 weekly scores use platform shares and latest observed source metadata', () => {
+  const mv = { status: 'linked', items: [{ id: 'official-video', hash: null, url: null }] };
+  const movement = { direction: 'up', delta: 2, previousRank: 3, period: 'previous-edition', raw: {} };
+  const records = [day('2026-10-19', [], {
+    methodology, comparisonSignature: '1.2|mapping|qq,kuwo,netease',
+    sources: [source('qq', 'tme', [{ ...entry('A', 1), mv, sourceMovement: movement }]), source('kuwo', 'tme', [entry('B', 1)]), source('netease', 'netease', [entry('C', 1)])],
+  }), day('2026-10-20', [], {
+    methodology, comparisonSignature: '1.2|mapping|qq,kuwo,netease',
+    sources: [source('qq', 'tme', [{ ...entry('A', 51), mv: { status: 'none', items: [] }, sourceMovement: { ...movement, direction: 'down', delta: -50, previousRank: 1 } }]), source('kuwo', 'tme', [entry('B', 1)]), source('netease', 'netease', [entry('C', 1)])],
+  })];
+  const chart = buildWeeklyCharts({ days: records, asOfDate: '2026-10-20' })[0];
+  const a = chart.songs.find(song => song.id === 'A');
+  assert.equal(a.score, 20.8333);
+  assert.equal(a.daysOnChart, 1);
+  assert.equal(a.platforms[0].observedDate, '2026-10-20');
+  assert.equal(a.platforms[0].rank, 51);
+  assert.equal(a.platforms[0].mv.status, 'none');
+  assert.equal(a.platforms[0].sourceMovement.delta, -50);
+  assert.deepEqual(chart.methodology.platformWeights, methodology.platformWeights);
 });

@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T04:25:57.098Z",
+  "providerId": "kugou",
+  "name": "酷狗音乐",
+  "dates": [
+    "2026-10-23",
+    "2026-10-22",
+    "2026-10-21",
+    "2026-10-20",
+    "2026-10-19",
+    "2026-10-18",
+    "2026-10-17",
+    "2026-10-16",
+    "2026-10-15",
+    "2026-10-14",
+    "2026-10-13",
+    "2026-10-12",
+    "2026-10-11",
+    "2026-10-10",
+    "2026-10-09",
+    "2026-10-08",
+    "2026-10-07",
+    "2026-10-06",
+    "2026-10-05",
+    "2026-10-04",
+    "2026-10-03",
+    "2026-10-02",
+    "2026-10-01",
+    "2026-09-30",
+    "2026-09-29",
+    "2026-09-28",
+    "2026-09-27",
+    "2026-09-26",
+    "2026-09-25",
+    "2026-09-24",
+    "2026-09-23"
+  ],
+  "editions": [
+    {
+      "date": "2026-10-23",
+      "mode": "live",
+      "ingestion": "public",
+      "sourcePeriod": "2026-10-23 08:30:01",
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-22",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-22 08:30:01",
+      "fetchedAt": "2026-10-23T03:15:57.486Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-21",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-21 08:30:00",
+      "fetchedAt": "2026-10-23T03:15:57.973Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-20",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-20 08:30:00",
+      "fetchedAt": "2026-10-23T03:15:58.327Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-19",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-19 08:30:01",
+      "fetchedAt": "2026-10-23T03:15:58.647Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-18",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-18 08:30:00",
+      "fetchedAt": "2026-10-23T03:15:59.008Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-17",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-17 08:30:01",
+      "fetchedAt": "2026-10-23T03:15:59.334Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-16",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-16 08:30:01",
+      "fetchedAt": "2026-10-23T03:15:59.731Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-15",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-15 08:30:01",
+      "fetchedAt": "2026-10-23T03:16:00.028Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-14",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-14 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:00.431Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-13",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-13 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:00.803Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-12",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-12 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:01.265Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-11",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-11 08:30:01",
+      "fetchedAt": "2026-10-23T03:16:01.686Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-10",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-10 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:02.185Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-09",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-09 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:02.539Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-08",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-08 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:02.881Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-07",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-07 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:03.276Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-06",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-06 08:30:01",
+      "fetchedAt": "2026-10-23T03:16:03.708Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-05",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-05 08:30:01",
+      "fetchedAt": "2026-10-23T03:16:04.096Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-04",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-04 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:04.432Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-03",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-03 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:04.859Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-02",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-02 08:30:01",
+      "fetchedAt": "2026-10-23T04:25:57.887Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-01",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-10-01 08:30:00",
+      "fetchedAt": "2026-10-23T04:25:57.516Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-30",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-09-30 08:30:00",
+      "fetchedAt": "2026-10-23T04:25:57.111Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-29",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-09-29 08:30:01",
+      "fetchedAt": "2026-10-23T03:16:06.487Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-28",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-09-28 08:30:01",
+      "fetchedAt": "2026-10-23T03:16:06.872Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-27",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-09-27 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:07.227Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-26",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-09-26 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:07.551Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-25",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-09-25 08:30:01",
+      "fetchedAt": "2026-10-23T03:16:08.001Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-24",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-09-24 08:30:00",
+      "fetchedAt": "2026-10-23T04:25:56.991Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-23",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "historical-edition",
+      "sourcePeriod": "2026-09-23 08:30:00",
+      "fetchedAt": "2026-10-23T03:16:08.748Z",
+      "status": "ok"
+    }
+  ]
+}

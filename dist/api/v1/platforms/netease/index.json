@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T04:25:57.098Z",
+  "providerId": "netease",
+  "name": "网易云音乐",
+  "dates": [
+    "2026-10-23",
+    "2026-10-10"
+  ],
+  "editions": [
+    {
+      "date": "2026-10-23",
+      "mode": "live",
+      "ingestion": "public",
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-10",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "archived-snapshot",
+      "provenance": {
+        "kind": "git",
+        "publisher": "foooorward/music-new-release-radar",
+        "url": "https://github.com/foooorward/music-new-release-radar/blob/b0a5d517b7aec987fcb3b58d732a625fe43b93c8/data/music_radar.db",
+        "revision": "b0a5d517b7aec987fcb3b58d732a625fe43b93c8",
+        "sha256": "df14e6eac135fa8ada5f9df77aa95adfcf6a6c5371f0ba67352112193a47af91",
+        "committedAt": "2026-10-10T11:06:22Z",
+        "observedAt": "2026-10-10 18:28:32",
+        "observedTimeZone": null,
+        "dateBasis": "archive-label",
+        "originalCount": 200,
+        "chartId": "3778678",
+        "identityEvidence": [
+          "https://github.com/foooorward/music-new-release-radar/blob/b0a5d517b7aec987fcb3b58d732a625fe43b93c8/config.json",
+          "https://github.com/foooorward/music-new-release-radar/blob/b0a5d517b7aec987fcb3b58d732a625fe43b93c8/music_radar/sources.py"
+        ]
+      },
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T04:01:59.338Z",
+      "status": "ok"
+    }
+  ]
+}

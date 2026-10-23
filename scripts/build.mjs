@@ -1,4 +1,4 @@
-import { cp, mkdir, rm, readFile, writeFile } from 'node:fs/promises';
+import { cp, mkdir, rm, readFile, readdir, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -40,7 +40,16 @@ await Promise.all([
   ...weeks.map(week => writeWeekly(week.weekStart, week)),
   ...(weeks.length ? [writeWeekly('latest', weeks[0])] : []),
 ]);
-await buildAPI({ dist, dataDirectory, snapshot, status, days });
+const archives = [];
+const archiveDirectory = resolve(dataDirectory, 'platform-history');
+if (existsSync(archiveDirectory)) {
+  for (const provider of await readdir(archiveDirectory)) {
+    for (const file of (await readdir(resolve(archiveDirectory, provider))).filter(name => /^\d{4}-\d{2}-\d{2}\.json$/.test(name))) {
+      archives.push(JSON.parse(await readFile(resolve(archiveDirectory, provider, file), 'utf8')));
+    }
+  }
+}
+await buildAPI({ dist, dataDirectory, snapshot, status, days, archives });
 await cp(weeklyDirectory, resolve(dist, 'api/v1/weekly'), { recursive: true });
 await buildFeed({ dist, dataDirectory, snapshot, weeks });
 const quote = value => { const text = String(value); return `"${(/^[=+\-@\t\r]/.test(text) ? `'${text}` : text).replaceAll('"', '""')}"`; };

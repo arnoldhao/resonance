@@ -1,3 +1,5 @@
+import { effectiveWeights, rankValue } from './ranking.mjs';
+
 const DAY = 86_400_000;
 const round = value => Math.round(value * 10_000) / 10_000;
 const addDays = (date, count) => new Date(Date.parse(`${date}T00:00:00Z`) + count * DAY).toISOString().slice(0, 10);
@@ -10,19 +12,18 @@ function monday(date) {
 
 function rebuildDay(day) {
   // Both published versions use this curve; future formula versions need an explicit implementation.
-  if (!['1.0', '1.1'].includes(day.methodology.version)) return { reason: `未支持的日榜方法版本：${day.methodology.version}` };
+  if (!['1.0', '1.1', '1.2'].includes(day.methodology.version)) return { reason: `未支持的日榜方法版本：${day.methodology.version}` };
   const sources = day.sources.filter(source => source.status === 'ok');
   const groups = [...new Set(sources.map(source => source.group))];
   if (groups.length < day.methodology.minimumGroups) return { reason: '有效来源组不足，未满足日榜发布门槛' };
-  const groupWeightTotal = groups.reduce((sum, group) => sum + day.methodology.groupWeights[group], 0);
+  const weights = effectiveWeights(sources, day.methodology);
   const labels = new Map(day.songs.map(song => [song.id, song]));
   const songs = new Map();
   for (const source of sources) {
-    const weight = day.methodology.groupWeights[source.group] / groupWeightTotal / sources.filter(other => other.group === source.group).length;
+    const weight = weights[source.id];
     const best = new Map();
     for (const entry of source.entries) {
       if (!entry.songId) throw new Error(`${day.date} ${source.id} ${entry.sourceId} 缺少已保存的 songId，不能重建周榜`);
-      if (entry.rank > day.methodology.rankDepth) continue;
       if (!best.has(entry.songId) || entry.rank < best.get(entry.songId).rank) best.set(entry.songId, entry);
     }
     for (const entry of best.values()) {
@@ -30,10 +31,18 @@ function rebuildDay(day) {
       if (!song) {
         // Published daily songs may supply curated labels, but never scores or the candidate set.
         const label = labels.get(entry.songId) ?? entry;
-        song = { id: entry.songId, title: label.title, artists: [...label.artists], artwork: label.artwork ?? null, score: 0 };
+        song = { id: entry.songId, title: label.title, artists: [...label.artists], artwork: label.artwork ?? null, score: 0, platforms: [] };
         songs.set(song.id, song);
       }
-      song.score += 100 * weight * (0.9 * Math.exp(-(entry.rank - 1) / 25) + 0.1);
+      const eligible = entry.rank <= day.methodology.rankDepth;
+      const score = eligible ? 100 * rankValue(entry.rank) : 0;
+      song.score += weight * score;
+      song.platforms.push({
+        id: source.id, name: source.name, rank: entry.rank, sourceId: entry.sourceId,
+        url: entry.url, eligible, weight, score, contribution: weight * score,
+        sourceMovement: entry.sourceMovement, mv: entry.mv, observedDate: day.date,
+        sourcePeriod: source.sourcePeriod, sourceUpdatedAt: source.sourceUpdatedAt,
+      });
       if (!song.artwork && entry.artwork) song.artwork = entry.artwork;
     }
   }
@@ -86,20 +95,23 @@ export function buildWeeklyCharts({ days, asOfDate }) {
     for (const day of included) {
       for (const song of day.songs.values()) {
         const prior = candidates.get(song.id);
-        candidates.set(song.id, { ...song, total: (prior?.total ?? 0) + song.score, daysOnChart: (prior?.daysOnChart ?? 0) + 1 });
+        const platforms = new Map((prior?.platforms ?? []).map(platform => [platform.id, platform]));
+        for (const platform of song.platforms) platforms.set(platform.id, platform);
+        candidates.set(song.id, { ...song, platforms: [...platforms.values()], total: (prior?.total ?? 0) + song.score, daysOnChart: (prior?.daysOnChart ?? 0) + (song.score > 0 ? 1 : 0) });
       }
     }
     const status = weekEnd >= asOfDate ? 'provisional' : included.length === 7 ? 'complete' : 'incomplete';
     const priorWeek = weeks.at(-1);
     const comparable = status === 'complete' && priorWeek?.status === 'complete' && priorWeek.weekStart === addDays(weekStart, -7) && priorWeek.mode === mode && priorWeek.comparisonSignature === comparisonSignature;
     const previousSongs = new Map((comparable ? priorWeek.songs : []).map(song => [song.id, song]));
-    const songs = [...candidates.values()].sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100).map((song, index) => {
+    const songs = [...candidates.values()].filter(song => song.total > 0).sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100).map((song, index) => {
       const rank = index + 1;
       const previousRank = previousSongs.get(song.id)?.rank ?? null;
       const delta = previousRank === null ? null : previousRank - rank;
       return {
         id: song.id, title: song.title, artists: song.artists, artwork: song.artwork,
         rank, score: round(song.total / included.length), daysOnChart: song.daysOnChart,
+        platforms: song.platforms,
         dailyScores: included.map(day => ({ date: day.date, score: round(day.songs.get(song.id)?.score ?? 0) })),
         previousRank, delta,
         weeklyMovement: {
@@ -116,6 +128,7 @@ export function buildWeeklyCharts({ days, asOfDate }) {
         formula: '周得分 = 同口径有效日得分之和 ÷ 有效天数；有效日未进入计分窗口记 0，缺失日与排除日不进入分母',
         rankDepth: reference?.methodology.rankDepth ?? null,
         groupWeights: reference ? { ...reference.methodology.groupWeights } : null,
+        platformWeights: reference?.methodology.platformWeights ? { ...reference.methodology.platformWeights } : null,
       },
       comparisonSignature,
       coverage: {

@@ -2,15 +2,23 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T16:32:20.723Z",
+  "generatedAt": "2026-10-23T04:25:57.098Z",
   "methodology": {
-    "version": "1.1",
+    "version": "1.2",
     "formula": "S = 100 × Σ wₚ × [0.9 × exp(−(rₚ − 1) / 25) + 0.1]，仅前 50 名计分，其余为 0",
     "rankDepth": 50,
     "groupWeights": {
-      "tme": 0.4,
+      "tme": 0.5,
       "netease": 0.3,
-      "apple": 0.2,
+      "apple": 0.1,
+      "qishui": 0.1
+    },
+    "platformWeights": {
+      "qq": 0.25,
+      "kugou": 0.2,
+      "kuwo": 0.05,
+      "netease": 0.3,
+      "apple": 0.1,
       "qishui": 0.1
     },
     "minimumGroups": 2

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T04:25:57.098Z",
+  "providerId": "apple",
+  "name": "Apple Music",
+  "dates": [
+    "2026-10-23",
+    "2026-10-19",
+    "2026-10-18",
+    "2026-10-12",
+    "2026-10-05",
+    "2026-09-28"
+  ],
+  "editions": [
+    {
+      "date": "2026-10-23",
+      "mode": "live",
+      "ingestion": "public",
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-19",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "archived-snapshot",
+      "provenance": {
+        "kind": "git",
+        "publisher": "rss2401/apple-top-music",
+        "url": "https://github.com/rss2401/apple-top-music/blob/609b830587407c71e9ad11dfbb38ff349537c4ce/rankings/202610/cn_music_top-songs.json",
+        "revision": "609b830587407c71e9ad11dfbb38ff349537c4ce",
+        "sha256": "a2b39b5aaed2721607c42181682f647c26bb9222f83ff0211c2a629e8f9967ff",
+        "observedAt": null,
+        "observedTimeZone": null,
+        "committedAt": "2026-10-19T10:04:12Z",
+        "dateBasis": "rss-updated-at",
+        "rssUpdatedAt": "Mon, 19 Oct 2026 10:03:04 +0000",
+        "feedId": "https://rss.marketingtools.apple.com/api/v2/cn/music/most-played/100/songs.json",
+        "country": "cn",
+        "originalCount": 100,
+        "chartId": "cn/music/most-played",
+        "identityEvidence": [
+          "https://github.com/rss2401/apple-top-music/blob/609b830587407c71e9ad11dfbb38ff349537c4ce/rankings/202610/cn_music_top-songs.json"
+        ]
+      },
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T04:10:52.438Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-18",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "archived-snapshot",
+      "provenance": {
+        "kind": "git",
+        "publisher": "rss2401/apple-top-music",
+        "url": "https://github.com/rss2401/apple-top-music/blob/51e284089e9e3a96a97f6bf8a34de7680d1c931c/rankings/202610/cn_music_top-songs.json",
+        "revision": "51e284089e9e3a96a97f6bf8a34de7680d1c931c",
+        "sha256": "72b2c1fd7d5090e983a4ec491247eb3632c291f35e254471046c91de272a16fc",
+        "observedAt": null,
+        "observedTimeZone": null,
+        "committedAt": "2026-10-18T12:13:48Z",
+        "dateBasis": "rss-updated-at",
+        "rssUpdatedAt": "Sun, 18 Oct 2026 12:12:13 +0000",
+        "feedId": "https://rss.marketingtools.apple.com/api/v2/cn/music/most-played/100/songs.json",
+        "country": "cn",
+        "originalCount": 100,
+        "chartId": "cn/music/most-played",
+        "identityEvidence": [
+          "https://github.com/rss2401/apple-top-music/blob/51e284089e9e3a96a97f6bf8a34de7680d1c931c/rankings/202610/cn_music_top-songs.json"
+        ]
+      },
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T04:10:53.892Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-12",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "archived-snapshot",
+      "provenance": {
+        "kind": "web",
+        "publisher": "Recotop",
+        "url": "https://www.recotop.com/charts/china/2026-10-12/",
+        "sha256": "481178ba4501a0d1b28cb28f5feea245806ca1c2318ae84766a0f0ef130b132e",
+        "observedAt": null,
+        "observedTimeZone": null,
+        "committedAt": null,
+        "publishedDate": "2026-10-12",
+        "dateBasis": "archive-label",
+        "samplingPeriod": "weekly",
+        "originalCount": 100,
+        "chartId": "cn/music/most-played",
+        "identityEvidence": [
+          "https://www.recotop.com/about/"
+        ]
+      },
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T04:10:50.890Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-10-05",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "archived-snapshot",
+      "provenance": {
+        "kind": "web",
+        "publisher": "Recotop",
+        "url": "https://www.recotop.com/charts/china/2026-10-05/",
+        "sha256": "99b907dc43cd7032bf0f190c74ba55ba1195cc45194a6be8f75c0315ae985804",
+        "observedAt": null,
+        "observedTimeZone": null,
+        "committedAt": null,
+        "publishedDate": "2026-10-05",
+        "dateBasis": "archive-label",
+        "samplingPeriod": "weekly",
+        "originalCount": 100,
+        "chartId": "cn/music/most-played",
+        "identityEvidence": [
+          "https://www.recotop.com/about/"
+        ]
+      },
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T04:10:50.888Z",
+      "status": "ok"
+    },
+    {
+      "date": "2026-09-28",
+      "mode": "live",
+      "ingestion": "backfill",
+      "observationType": "archived-snapshot",
+      "provenance": {
+        "kind": "web",
+        "publisher": "Recotop",
+        "url": "https://www.recotop.com/charts/china/2026-09-28/",
+        "sha256": "f0aba318492d9da78bc92416ed914ca861bbcfaada56abc4b2a50a1c7478cb7d",
+        "observedAt": null,
+        "observedTimeZone": null,
+        "committedAt": null,
+        "publishedDate": "2026-09-28",
+        "dateBasis": "archive-label",
+        "samplingPeriod": "weekly",
+        "originalCount": 100,
+        "chartId": "cn/music/most-played",
+        "identityEvidence": [
+          "https://www.recotop.com/about/"
+        ]
+      },
+      "sourcePeriod": null,
+      "fetchedAt": "2026-10-23T04:10:50.857Z",
+      "status": "ok"
+    }
+  ]
+}

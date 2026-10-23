@@ -20,7 +20,7 @@ const chartResponse = snapshot => ({
 const platformResponse = (snapshot, source) => ({ ...source, ...edition(snapshot) });
 
 /** Materialize a read-only API from the same published snapshots used by the website. */
-export async function buildAPI({ dist, dataDirectory, snapshot, status, days }) {
+export async function buildAPI({ dist, dataDirectory, snapshot, status, days, archives = [] }) {
   const output = async (path, value) => {
     const file = resolve(dist, `.${base}/${path}`);
     await mkdir(dirname(file), { recursive: true });
@@ -36,6 +36,7 @@ export async function buildAPI({ dist, dataDirectory, snapshot, status, days }) 
     chartByDate: `${base}/charts/{date}.json`,
     platformLatest: `${base}/platforms/{id}/latest.json`,
     platformByDate: `${base}/platforms/{id}/{date}.json`,
+    platformIndex: `${base}/platforms/{id}/index.json`,
     weeklyLatest: `${base}/weekly/latest.json`,
     weeklyIndex: `${base}/weekly/index.json`,
     weeklyByWeek: `${base}/weekly/{weekStart}.json`,
@@ -50,6 +51,7 @@ export async function buildAPI({ dist, dataDirectory, snapshot, status, days }) 
         ...sourceSummary(source),
         latest: endpoints.platformLatest.replace('{id}', source.id),
         byDate: endpoints.platformByDate.replace('{id}', source.id),
+        index: endpoints.platformIndex.replace('{id}', source.id),
       })),
     }),
     output('charts/latest.json', chartResponse(snapshot)),
@@ -63,11 +65,25 @@ export async function buildAPI({ dist, dataDirectory, snapshot, status, days }) 
     }),
     ...snapshot.sources.map(source => output(`platforms/${source.id}/latest.json`, platformResponse(snapshot, source))),
   ]);
+  const platformEditions = new Map(snapshot.sources.map(source => [source.id, new Map()]));
+  for (const archive of archives) {
+    await output(`platforms/${archive.id}/${archive.date}.json`, archive);
+    platformEditions.get(archive.id).set(archive.date, archive);
+  }
   for (const historical of days) {
     const date = historical.date;
     await Promise.all([
       output(`charts/${date}.json`, chartResponse(historical)),
       ...historical.sources.map(source => output(`platforms/${source.id}/${date}.json`, platformResponse(historical, source))),
     ]);
+    for (const source of historical.sources) platformEditions.get(source.id).set(date, platformResponse(historical, source));
+  }
+  for (const source of snapshot.sources) {
+    const editions = [...platformEditions.get(source.id).values()].sort((a, b) => b.date.localeCompare(a.date));
+    await output(`platforms/${source.id}/index.json`, {
+      ...edition(snapshot), providerId: source.id, name: source.name,
+      dates: editions.map(item => item.date),
+      editions: editions.map(item => ({ date: item.date, mode: item.mode, ingestion: item.ingestion, observationType: item.observationType, provenance: item.provenance, sourcePeriod: item.sourcePeriod, fetchedAt: item.fetchedAt, status: item.status })),
+    });
   }
 }

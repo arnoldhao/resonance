@@ -8,6 +8,7 @@
   "scripts": {
     "test": "node --test",
     "collect": "node scripts/collect.mjs",
+    "backfill": "node scripts/backfill.mjs",
     "recompute": "node scripts/recompute.mjs",
     "build": "node scripts/build.mjs",
     "preview": "node scripts/build.mjs --preview && node scripts/serve.mjs"

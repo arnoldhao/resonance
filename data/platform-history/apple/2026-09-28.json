@@ -1,0 +1,2445 @@
+{
+  "id": "apple",
+  "name": "Apple Music",
+  "chartName": "热门歌曲 · 中国区（RSS）",
+  "group": "apple",
+  "enabled": true,
+  "collectionDepth": 100,
+  "maxAgeHours": 48,
+  "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/cn/music/most-played/100/songs.json",
+  "frequency": "未公开固定时点",
+  "updatePolicy": "官方 CN most-played RSS；与 Top 100：中国大陆日更歌单是不同产品，不套用其日更承诺。",
+  "access": "第三方保存的官方 RSS 周采样",
+  "providerId": "apple",
+  "schemaVersion": 1,
+  "mode": "live",
+  "date": "2026-09-28",
+  "generatedAt": "2026-10-23T04:10:50.857Z",
+  "status": "ok",
+  "ingestion": "backfill",
+  "observationType": "archived-snapshot",
+  "fetchedAt": "2026-10-23T04:10:50.857Z",
+  "sourceUpdatedAt": null,
+  "sourcePeriod": null,
+  "count": 100,
+  "provenance": {
+    "kind": "web",
+    "publisher": "Recotop",
+    "url": "https://www.recotop.com/charts/china/2026-09-28/",
+    "sha256": "f0aba318492d9da78bc92416ed914ca861bbcfaada56abc4b2a50a1c7478cb7d",
+    "observedAt": null,
+    "observedTimeZone": null,
+    "committedAt": null,
+    "publishedDate": "2026-09-28",
+    "dateBasis": "archive-label",
+    "samplingPeriod": "weekly",
+    "originalCount": 100,
+    "chartId": "cn/music/most-played",
+    "identityEvidence": [
+      "https://www.recotop.com/about/"
+    ]
+  },
+  "message": "第三方按周保存的中国区 most-played RSS 快照，日期沿用存档标签；未提供精确采集时刻。这是周采样记录，不是 Apple 官方周榜，不参与综合榜计分。",
+  "entries": [
+    {
+      "sourceId": null,
+      "rank": 1,
+      "title": "我不难过",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/24/fc/1d/24fc1d3e-b37f-968f-3d21-880edc8f8d79/mzi.ybwydvjn.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/255921025/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5d47cfe6c7e99d6278ff"
+    },
+    {
+      "sourceId": null,
+      "rank": 2,
+      "title": "Patient Zero",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6814997425/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "81a461b584e48e6f37f8"
+    },
+    {
+      "sourceId": null,
+      "rank": 3,
+      "title": "七里香",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/c1/2d/29c12de6-54b4-f549-9d9f-07d8a04221ea/JAY.jpg/100x111bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536115195/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "05db1463ac4d3768c09b"
+    },
+    {
+      "sourceId": null,
+      "rank": 4,
+      "title": "晴天",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/45/8a/e4/458ae484-dc8b-5683-ce04-8d2948346462/JAY.jpg/100x109bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/535824738/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "86c4b8b6e1c2bcf8d9bd"
+    },
+    {
+      "sourceId": null,
+      "rank": 5,
+      "title": "搁浅",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/c1/2d/29c12de6-54b4-f549-9d9f-07d8a04221ea/JAY.jpg/100x111bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536115199/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f6f657a1b486aa9826b3"
+    },
+    {
+      "sourceId": null,
+      "rank": 6,
+      "title": "我怀念的",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/8e/7d/398e7d64-1877-03ab-17cb-460943429bc0/825646246939.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/905226305/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8c0daa3d1077edcbc6c8"
+    },
+    {
+      "sourceId": null,
+      "rank": 7,
+      "title": "花海",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/63/9e/1b639e5b-f8ca-a6e1-8612-6396bc9ff0eb/4711448407424.jpg/100x134bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1624001317/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d311660b0f27ef3fed43"
+    },
+    {
+      "sourceId": null,
+      "rank": 8,
+      "title": "爱错",
+      "artists": [
+        "王力宏"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/4a/77/be4a7730-c144-a39e-c7b6-9d26ea0ebff3/1400X1400.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1134344911/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8a8b8ec8dd5b568bc6a2"
+    },
+    {
+      "sourceId": null,
+      "rank": 9,
+      "title": "明明就",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/83/e6/8183e6c0-7137-7009-347e-326b53cb4a3b/2000x2000pix.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/587743637/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "7a179099de5646dd93a9"
+    },
+    {
+      "sourceId": null,
+      "rank": 10,
+      "title": "开始懂了",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/0f/99/a7/mzi.zsimusvk.jpg/100x89bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/298837675/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "161752bf9ddec26f6c9c"
+    },
+    {
+      "sourceId": null,
+      "rank": 11,
+      "title": "情歌",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bf/f0/11/bff01142-f4f0-f9c4-f497-007f43e42783/BD0018-_-_Fall_In_Love_Songs.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1095630246/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "0547bcb2d1b36134ce08"
+    },
+    {
+      "sourceId": null,
+      "rank": 12,
+      "title": "一路向北 (Bonus Track)",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536009753/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6cbda955a159382db44e"
+    },
+    {
+      "sourceId": null,
+      "rank": 13,
+      "title": "爱在西元前",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/f2/f0/a4f2f0d4-cc80-d1a0-7f20-a0cc842a523c/JAY.jpg/100x115bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/535739349/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5d0399251de98d278f11"
+    },
+    {
+      "sourceId": null,
+      "rank": 14,
+      "title": "等你下课 (with 杨瑞代)",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/a5/52/85a55237-6d96-a656-21cf-715b72be15a9/cover.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1336404847/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "bb9b69f82f5a08193ab6"
+    },
+    {
+      "sourceId": null,
+      "rank": 15,
+      "title": "稻香",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/63/9e/1b639e5b-f8ca-a6e1-8612-6396bc9ff0eb/4711448407424.jpg/100x134bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1624001324/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8579ba448da26dc38aac"
+    },
+    {
+      "sourceId": null,
+      "rank": 16,
+      "title": "特别的人",
+      "artists": [
+        "方大同"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/35/d7/2a/35d72a0a-7e0c-fc2d-b2da-4bd030219997/190296501159.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1579903651/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "800b0aab3d68808e892e"
+    },
+    {
+      "sourceId": null,
+      "rank": 17,
+      "title": "Pink Clouding",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6814997428/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "fdec4b6ba552ecc33c89"
+    },
+    {
+      "sourceId": null,
+      "rank": 18,
+      "title": "Babylon",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6814996163/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d9a6636f263f23e7af29"
+    },
+    {
+      "sourceId": null,
+      "rank": 19,
+      "title": "阴天",
+      "artists": [
+        "莫文蔚"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/cc/52/81cc5224-3ace-5e3c-468a-17b4b71da831/dj.aqolbuce.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/200473135/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5641582cb246b3774f24"
+    },
+    {
+      "sourceId": null,
+      "rank": 20,
+      "title": "泪海",
+      "artists": [
+        "许茹芸"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/3a/4c/163a4cf3-5691-6c86-3a56-e5b02720fef6/11UMGIM10513.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1442648689/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "30998d16b8aaf576d32c"
+    },
+    {
+      "sourceId": null,
+      "rank": 21,
+      "title": "夜曲",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536009642/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9f7fea265f04bf1dd969"
+    },
+    {
+      "sourceId": null,
+      "rank": 22,
+      "title": "半岛铁盒",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/100x113bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536162079/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d0fcaedec624b497406f"
+    },
+    {
+      "sourceId": null,
+      "rank": 23,
+      "title": "爱情转移",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/cb/d6/27cbd6b4-c991-cd95-49e3-b6019462ff97/00602517338845.rgb.jpg/100x91bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1443352465/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "3f569ffa0f9c22e7cf2d"
+    },
+    {
+      "sourceId": null,
+      "rank": 24,
+      "title": "Cleveland!",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6814996161/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "0340a9b71dc83e35bef8"
+    },
+    {
+      "sourceId": null,
+      "rank": 25,
+      "title": "甲乙丙丁Strangers",
+      "artists": [
+        "李佳薇"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/e6/a5/b6e6a5ec-a86c-aece-ca1f-ee5ca56b3caf/196874568842.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6785801848/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c73f0f22bc9d13e5583d"
+    },
+    {
+      "sourceId": null,
+      "rank": 26,
+      "title": "爱我还是他",
+      "artists": [
+        "陶喆"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fe/ad/e7/feade7c8-826b-0379-fbf4-e59606db8e4c/825646245406.jpg/100x115bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/905206660/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5a8888e9ca0323a7d699"
+    },
+    {
+      "sourceId": null,
+      "rank": 27,
+      "title": "玻璃",
+      "artists": [
+        "Gareth.T"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/1a/be/1c1abe3a-2eb6-216c-9040-797bb98464d1/827568024145.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6769327013/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6fc75d05e1e3314a888e"
+    },
+    {
+      "sourceId": null,
+      "rank": 28,
+      "title": "发如雪",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536009644/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5dd6817b1effe50d2027"
+    },
+    {
+      "sourceId": null,
+      "rank": 29,
+      "title": "hate that i made you love me",
+      "artists": [
+        "Ariana Grande"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6763656876/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "16a869e82a7ec89a1619"
+    },
+    {
+      "sourceId": null,
+      "rank": 30,
+      "title": "那天下雨了",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/56/90/ce5690ac-67d8-49e7-b047-a01afacfd1d2/4000x4000_fa.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6771326799/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "671d08976b56470bbd3e"
+    },
+    {
+      "sourceId": null,
+      "rank": 31,
+      "title": "告白气球",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/58/28/f4/5828f491-62ab-61b6-25b4-23838e4f1dcf/dj.sxbqzong.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1118757877/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f3de5361714d7b05d57f"
+    },
+    {
+      "sourceId": null,
+      "rank": 32,
+      "title": "雨爱",
+      "artists": [
+        "杨丞琳"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/bc/e0/e5/mzi.mzfgcpgj.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/347295290/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "61c8815b55293dd4a3cd"
+    },
+    {
+      "sourceId": null,
+      "rank": 33,
+      "title": "恋人",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/96/d6/4d96d6ea-0181-fd91-9fa0-6f102bd5c7dc/196872225358.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1752810526/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1c4e1a4066e20511f7ab"
+    },
+    {
+      "sourceId": null,
+      "rank": 34,
+      "title": "多远都要在一起",
+      "artists": [
+        "邓紫棋"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/bb/c7/55bbc782-299e-7f24-bc4a-ae129e6d8030/mzm.rpqttxch.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1053567928/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "42e486853e2871a39a53"
+    },
+    {
+      "sourceId": null,
+      "rank": 35,
+      "title": "简单爱",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/f2/f0/a4f2f0d4-cc80-d1a0-7f20-a0cc842a523c/JAY.jpg/100x115bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/535739351/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "2d3e83b6286a55bc7aae"
+    },
+    {
+      "sourceId": null,
+      "rank": 36,
+      "title": "遇见",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/15/ca/82/mzi.fsgrhyyg.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/280911996/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "4a3eddf0605cf5c78d0b"
+    },
+    {
+      "sourceId": null,
+      "rank": 37,
+      "title": "枫",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536009647/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6e468d40aa9e2af201df"
+    },
+    {
+      "sourceId": null,
+      "rank": 38,
+      "title": "唯一",
+      "artists": [
+        "邓紫棋"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/26/4d/41264d25-c463-6870-0462-4556e91e17e5/196871647434.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1717030438/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "44a84462f6a0527b7c01"
+    },
+    {
+      "sourceId": null,
+      "rank": 39,
+      "title": "说好不哭",
+      "artists": [
+        "周杰伦 & 五月天 阿信"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/89/61/e0/8961e064-110e-e5fc-e531-3719bc4224c0/wont_cry.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1480230401/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9cc17f336e2384c286ce"
+    },
+    {
+      "sourceId": null,
+      "rank": 40,
+      "title": "十年",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/e6/66/56e6661d-e570-782f-fbc8-e7b12e38f1a7/EEG3035V1-_-.jpg/100x114bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/542922095/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "a4fe35e43ba7b8f1f9f8"
+    },
+    {
+      "sourceId": null,
+      "rank": 41,
+      "title": "最佳损友",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a4/fa/86/a4fa86d6-c23a-c37f-1251-00376ff144cd/00602498378830.rgb.jpg/100x99bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1442913348/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "a6d0352a195f1557130d"
+    },
+    {
+      "sourceId": null,
+      "rank": 42,
+      "title": "你就不要想起我",
+      "artists": [
+        "田馥甄"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/12/31/75/123175fd-d416-da11-ea2f-39a5b113c3f8/dj.zyncqluo.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/744963040/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "27a7870e4fc6745739a9"
+    },
+    {
+      "sourceId": null,
+      "rank": 43,
+      "title": "红尘客栈",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/83/e6/8183e6c0-7137-7009-347e-326b53cb4a3b/2000x2000pix.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/587743642/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b399d1f14dbd73d2a91d"
+    },
+    {
+      "sourceId": null,
+      "rank": 44,
+      "title": "关键词",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/d8/71/3dd8711e-41ec-29ee-72b6-0a2a480031d0/4711720281483.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1871400641/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c578a94d6a0a7f4ce1d0"
+    },
+    {
+      "sourceId": null,
+      "rank": 45,
+      "title": "孤独患者",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a1/2c/29/a12c2947-faea-f1c4-24e0-6612fc50ea13/00602488980715.rgb.jpg/100x142bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1443783507/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9651874a04929a16a62e"
+    },
+    {
+      "sourceId": null,
+      "rank": 46,
+      "title": "忽然之间",
+      "artists": [
+        "莫文蔚"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/22/39/eb223900-0182-c49c-6c82-ee342cbd6c22/4710149707703_cover.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1722205331/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "92e822a313a659b1836e"
+    },
+    {
+      "sourceId": null,
+      "rank": 47,
+      "title": "SUN KISS",
+      "artists": [
+        "TUIDE"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/a0/02/f2a00270-a846-b0aa-65b3-91bc94442e10/823375310600_Cover.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6795782855/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "636b16f76d2517ebd50a"
+    },
+    {
+      "sourceId": null,
+      "rank": 48,
+      "title": "你不知道的事",
+      "artists": [
+        "王力宏"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3e/94/01/3e94013b-17f0-09e9-69ce-4ab94e1507da/18_Material_arts.png/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1528146380/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "7acf20182fd5b5f724ea"
+    },
+    {
+      "sourceId": null,
+      "rank": 49,
+      "title": "会呼吸的痛",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c4/6c/9f/c46c9ffa-dffd-37d9-8bd7-129b24f880ba/BD0009-_-_J_ADORE.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1097016179/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "81772ee929ad511e95a5"
+    },
+    {
+      "sourceId": null,
+      "rank": 50,
+      "title": "兰亭序",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/63/9e/1b639e5b-f8ca-a6e1-8612-6396bc9ff0eb/4711448407424.jpg/100x134bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1624001320/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1cedca71f4d8f7b581fd"
+    },
+    {
+      "sourceId": null,
+      "rank": 51,
+      "title": "富士山下",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/44/d3/57/44d35752-0906-6a22-ebc4-32d9553fa0fb/00602517176997.rgb.jpg/100x93bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1443346107/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1637db17294d398b3b6b"
+    },
+    {
+      "sourceId": null,
+      "rank": 52,
+      "title": "The Fate of Ophelia",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1833328840/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5a1b58dd4e81ee952599"
+    },
+    {
+      "sourceId": null,
+      "rank": 53,
+      "title": "可惜没如果",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/5a/1b/575a1bc9-ca86-7549-e873-b55663ba6276/4711508105925.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1788007696/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "35305a9c6b838e4c4af4"
+    },
+    {
+      "sourceId": null,
+      "rank": 54,
+      "title": "说谎",
+      "artists": [
+        "林宥嘉"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/e5/9b/57e59bd6-3564-e4c4-1add-e3dbbf4d8ab1/asset.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/547173705/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "29fd1faada25a4800ddd"
+    },
+    {
+      "sourceId": null,
+      "rank": 55,
+      "title": "江南",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/9b/98/eb/9b98ebae-69b1-8009-678c-65e94124e0a8/dj.cqtiyqmo.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1071753628/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9bf2b492e5c0e3e66c28"
+    },
+    {
+      "sourceId": null,
+      "rank": 56,
+      "title": "爱爱爱",
+      "artists": [
+        "方大同"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/c3/d0/e5/mzi.kdgffvqb.jpg/100x110bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/220365871/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "61736a45d949e38e4581"
+    },
+    {
+      "sourceId": null,
+      "rank": 57,
+      "title": "反方向的钟",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/60/4c/f3/604cf3da-2be3-f55e-9b6d-cf0792d9d870/JAY.jpg/100x114bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/535791118/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "99eb15ea47e90f3b5755"
+    },
+    {
+      "sourceId": null,
+      "rank": 58,
+      "title": "暗号",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/100x113bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536162080/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "a95925ccd111b43522ba"
+    },
+    {
+      "sourceId": null,
+      "rank": 59,
+      "title": "淘汰",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/cb/d6/27cbd6b4-c991-cd95-49e3-b6019462ff97/00602517338845.rgb.jpg/100x91bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1443352455/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b7d70fa2b5a824eeae69"
+    },
+    {
+      "sourceId": null,
+      "rank": 60,
+      "title": "天黑黑",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8a/91/d7/8a91d731-cdb1-01b5-17a9-c88cf66d6e01/5050466855725.jpg/100x90bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/541857036/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "497492be54d23050e871"
+    },
+    {
+      "sourceId": null,
+      "rank": 61,
+      "title": "LEMONADE",
+      "artists": [
+        "aespa"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/00/1d/e6/001de64e-c2f1-fd4b-3604-3d2e16641968/888735955211.png/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1893599773/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e2182f50e6f1626c8b6d"
+    },
+    {
+      "sourceId": null,
+      "rank": 62,
+      "title": "不该 (with 张惠妹)",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/58/28/f4/5828f491-62ab-61b6-25b4-23838e4f1dcf/dj.sxbqzong.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1118757873/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e86f617aa59582b4a902"
+    },
+    {
+      "sourceId": null,
+      "rank": 63,
+      "title": "Beauty and a Beat (feat. Nicki Minaj)",
+      "artists": [
+        "Justin Bieber"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1440650961/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "946ba0a6621bae9a6f1f"
+    },
+    {
+      "sourceId": null,
+      "rank": 64,
+      "title": "说好的幸福呢",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/63/9e/1b639e5b-f8ca-a6e1-8612-6396bc9ff0eb/4711448407424.jpg/100x134bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1624001319/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "06fdf66e8285062d5222"
+    },
+    {
+      "sourceId": null,
+      "rank": 65,
+      "title": "太聪明",
+      "artists": [
+        "陈绮贞"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/a2/21/3ca22123-14d6-57f4-9e52-aa4573a05b07/mzm.clkcarof.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/152197590/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "66763f0406bfd0290606"
+    },
+    {
+      "sourceId": null,
+      "rank": 66,
+      "title": "交换余生",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/dd/ce/8dddceba-2a33-d936-680d-eb7c32aa54c6/190295140731.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1531323101/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "396e8435ed98bb16452d"
+    },
+    {
+      "sourceId": null,
+      "rank": 67,
+      "title": "天天",
+      "artists": [
+        "陶喆"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/77/fc/d077fcf8-6a17-e7ea-6c91-6cf40ad39d81/825646245383.jpg/100x98bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/905206485/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f6ae8b995a6ab6b29e41"
+    },
+    {
+      "sourceId": null,
+      "rank": 68,
+      "title": "好久不见",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/cb/d6/27cbd6b4-c991-cd95-49e3-b6019462ff97/00602517338845.rgb.jpg/100x91bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1443352467/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "39c637f9bbac73050560"
+    },
+    {
+      "sourceId": null,
+      "rank": 69,
+      "title": "葡萄成熟时",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/62/52/5c/62525cbe-f9cd-90ee-820e-db3f75d29c80/00602498308905.rgb.jpg/100x89bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1443375474/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b4c9cf11053b320b9e7a"
+    },
+    {
+      "sourceId": null,
+      "rank": 70,
+      "title": "烟花易冷",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/2d/dd/532dddf0-87d7-b9eb-7d8b-4eb194c84252/asset.jpg/100x133bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536248196/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e52a3f950251fb45a8c7"
+    },
+    {
+      "sourceId": null,
+      "rank": 71,
+      "title": "不为谁而作的歌",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/d8/71/3dd8711e-41ec-29ee-72b6-0a2a480031d0/4711720281483.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1871400637/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5eb136a4d9f6210cc870"
+    },
+    {
+      "sourceId": null,
+      "rank": 72,
+      "title": "大城小爱",
+      "artists": [
+        "王力宏"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f9/82/88/f98288eb-ea32-6c8c-7919-357c31a4b437/1400X1400.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1134353955/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "2daffdc9968a6962c754"
+    },
+    {
+      "sourceId": null,
+      "rank": 73,
+      "title": "FALLEN ANGEL",
+      "artists": [
+        "JENNIE"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/b0/ed/27b0edf5-ec5e-fb16-0193-298a679e7a50/196874698273.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6804046959/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "0bcaf5842793e168bc38"
+    },
+    {
+      "sourceId": null,
+      "rank": 74,
+      "title": "青花瓷",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b8/83/7f/b8837f2a-324a-f6ad-ff5a-0805e9210181/JAY.jpg/100x134bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536030695/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e243a6b6f1ecd8ef4783"
+    },
+    {
+      "sourceId": null,
+      "rank": 75,
+      "title": "new trick",
+      "artists": [
+        "ROSÉ"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/06/3f/48063f55-8c24-92e6-2bbe-ffb3a638420b/075679555984.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/6812894907/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1809503404602e6606a7"
+    },
+    {
+      "sourceId": null,
+      "rank": 76,
+      "title": "麦恩莉",
+      "artists": [
+        "方大同"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/41/8c/91418cce-4b5b-a7a7-cf54-858af87966e3/dj.munrszcb.jpg/100x93bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/577983297/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "585aca6334182b43d67c"
+    },
+    {
+      "sourceId": null,
+      "rank": 77,
+      "title": "勇气",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/55/d7/93/55d793f9-1cbd-51d2-780a-b14b085111d0/4710149701770_cover.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1692291089/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "301be28bf32a05037ce8"
+    },
+    {
+      "sourceId": null,
+      "rank": 78,
+      "title": "飞机场的10:30",
+      "artists": [
+        "陶喆"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/bb/bd/ddbbbda1-9408-72b2-4c0b-943e648be6c1/190295574086.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1416149929/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "797ae53e9117defcf124"
+    },
+    {
+      "sourceId": null,
+      "rank": 79,
+      "title": "开不了口",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/f2/f0/a4f2f0d4-cc80-d1a0-7f20-a0cc842a523c/JAY.jpg/100x115bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/535739353/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8f424aafa2fdef447c2c"
+    },
+    {
+      "sourceId": null,
+      "rank": 80,
+      "title": "修炼爱情",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/86/80/48/86804834-eb90-62a1-2170-cd96f9963cac/4711099729722.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1694849138/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f0666b46e4eb5027ba8e"
+    },
+    {
+      "sourceId": null,
+      "rank": 81,
+      "title": "雨天",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/70/8f/21/mzi.buxkpipq.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/280798617/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "d6bdcaf1e131b821c244"
+    },
+    {
+      "sourceId": null,
+      "rank": 82,
+      "title": "下一个天亮",
+      "artists": [
+        "郭静"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/49/46/054946ac-9e38-f5b0-9778-cbcd4d844687/4717398702336.jpg/100x115bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/535391944/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "624064ca2d176aa7abf0"
+    },
+    {
+      "sourceId": null,
+      "rank": 83,
+      "title": "小半",
+      "artists": [
+        "陈粒"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/af/f8/ab/aff8abed-e8f5-1c4b-67a7-860eceb15c59/cover.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1421693331/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6f164a403f38b8991823"
+    },
+    {
+      "sourceId": null,
+      "rank": 84,
+      "title": "珊瑚海 (feat. 梁心颐)",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536009751/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "2c5973d8e56a4b1e6754"
+    },
+    {
+      "sourceId": null,
+      "rank": 85,
+      "title": "手写的从前",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/db/ff/16dbff09-0750-29b0-07b7-3fa44f8a556e/dj.nzqvfsza.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/944321446/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "27e48b2b0967a4bb8218"
+    },
+    {
+      "sourceId": null,
+      "rank": 86,
+      "title": "慢冷",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/ed/71/41ed7185-f6ca-722c-5ecd-c3b6f9782ff4/6942360842927.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1708358642/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1eefe964b2e771570839"
+    },
+    {
+      "sourceId": null,
+      "rank": 87,
+      "title": "背对背拥抱",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4a/84/a2/4a84a274-3678-533c-c1e1-5fd9216b7f1d/dj.kxuxixwe.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1071517710/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "759347971b57151b546e"
+    },
+    {
+      "sourceId": null,
+      "rank": 88,
+      "title": "匿名的好友",
+      "artists": [
+        "杨丞琳"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/07/51/39/075139cf-7910-68c9-7c91-c6c000718794/mzi.vmzravef.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/352569547/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5e94b65a78dc3a98a63a"
+    },
+    {
+      "sourceId": null,
+      "rank": 89,
+      "title": "你听得到",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/45/8a/e4/458ae484-dc8b-5683-ce04-8d2948346462/JAY.jpg/100x109bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/535824741/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "41ba7bfd5f377cd60065"
+    },
+    {
+      "sourceId": null,
+      "rank": 90,
+      "title": "素颜 (with 何曼婷)",
+      "artists": [
+        "许嵩"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/ba/72/f5ba7258-bf0c-e3c6-1722-e4908d1dd365/ticket.bibixaxe.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/933793690/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6c5c76b89de8778c9f36"
+    },
+    {
+      "sourceId": null,
+      "rank": 91,
+      "title": "连名带姓",
+      "artists": [
+        "张惠妹"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/ea/32/4aea3283-2bcf-c075-ad2d-c48bf6e19dcd/cover.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1834199249/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1a4d64345a067d017971"
+    },
+    {
+      "sourceId": null,
+      "rank": 92,
+      "title": "退后",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6a/a3/8d/6aa38da9-3fc1-427c-59a7-fcd0cf21832d/JAY.jpg/100x134bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536285261/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c09bcca2553f615603b3"
+    },
+    {
+      "sourceId": null,
+      "rank": 93,
+      "title": "半句再见",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/95/e7/86/95e78666-a9d7-c3cc-87cf-0a46d6d8c6aa/00602567574132.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1363418962/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b6ac3f76359e5c6a4df5"
+    },
+    {
+      "sourceId": null,
+      "rank": 94,
+      "title": "不将就 (电影《何以笙箫默》片尾曲)",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/17/4a/4c174aec-80a7-c039-54cd-4be73cb090d3/dj.fagjndon.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1072339996/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "66909e7d2ef3f4123278"
+    },
+    {
+      "sourceId": null,
+      "rank": 95,
+      "title": "颜色",
+      "artists": [
+        "Gareth.T"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/f1/df/b1f1df63-980f-21e4-df18-3b76cba6f263/5021732785671.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1811349432/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "ea0218f4f3f17dcf233a"
+    },
+    {
+      "sourceId": null,
+      "rank": 96,
+      "title": "她说",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/55/6d/4f556da8-f58c-982d-6dd9-3515d33b354f/mzm.awewpcjt.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1071506929/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "75914ef9a55f0bc266f4"
+    },
+    {
+      "sourceId": null,
+      "rank": 97,
+      "title": "After Hours",
+      "artists": [
+        "Abel Tesfaye"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1499378615/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e3288b3c020d8252d6df"
+    },
+    {
+      "sourceId": null,
+      "rank": 98,
+      "title": "其实",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/40/2c/54/402c5424-5c68-a0b7-d56f-90b5d810c1f9/9787798504262.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1788255156/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5dd9c87995c8b998dddc"
+    },
+    {
+      "sourceId": null,
+      "rank": 99,
+      "title": "Always Online",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/e8/4f/99e84f72-3c26-0617-86a7-8e3f250f8c98/fengmain.jpg/100x100bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/1071752119/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9c5f89dfb6e015855e29"
+    },
+    {
+      "sourceId": null,
+      "rank": 100,
+      "title": "蒲公英的约定",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b8/83/7f/b8837f2a-324a-f6ad-ff5a-0805e9210181/JAY.jpg/100x134bb.jpg",
+      "url": null,
+      "archiveUrl": "https://www.recotop.com/song/536030697/",
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "84a8c85cf72ef10d7588"
+    }
+  ]
+}

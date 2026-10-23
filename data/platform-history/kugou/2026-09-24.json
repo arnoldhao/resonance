@@ -1,0 +1,3550 @@
+{
+  "id": "kugou",
+  "name": "酷狗音乐",
+  "chartName": "TOP500",
+  "group": "tme",
+  "enabled": true,
+  "collectionDepth": 100,
+  "maxAgeHours": 48,
+  "sourceUrl": "http://mobilecdn.kugou.com/api/v3/rank/song?version=9108&ranktype=2&plat=0&pagesize=100&area_code=1&page=1&volid=128492&rankid=8888",
+  "frequency": "每日更新",
+  "updatePolicy": "官方说明为每天更新；一次响应配置出现 10:00，不能视为永久时间承诺。",
+  "access": "官方榜单 JSON · 单次完整前 100 首",
+  "sourcePeriod": "2026-09-24 08:30:00",
+  "sourceUpdatedAt": null,
+  "entries": [
+    {
+      "sourceId": "E3DDA5DFCDC44BCF146E2BDC3916779A",
+      "rank": 1,
+      "title": "牡丹亭",
+      "artists": [
+        "浅影阿"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260812/20260812143453266688.jpg",
+      "url": "https://www.kugou.com/song/#hash=E3DDA5DFCDC44BCF146E2BDC3916779A",
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 1,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 1,
+          "last_sort": 1
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17809464",
+            "hash": "0D8FD470491CE4B9A69F374EBA21C6B8",
+            "url": null
+          }
+        ]
+      },
+      "songId": "b5e63529de97d45b31c6"
+    },
+    {
+      "sourceId": "E2948B4513F34F7A4C7767EAD15BC4F8",
+      "rank": 2,
+      "title": "茶汤",
+      "artists": [
+        "郁可唯"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260930/20260930162931567347.jpg",
+      "url": "https://www.kugou.com/song/#hash=E2948B4513F34F7A4C7767EAD15BC4F8",
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 2,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 2,
+          "last_sort": 2
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "3766359",
+            "hash": "EC9FA543665971395B39828762974A88",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "F839921CD2CE1A572C602A0260754AED",
+            "url": null
+          }
+        ]
+      },
+      "songId": "944510e48666efab2984"
+    },
+    {
+      "sourceId": "213D580CA0BDCC28A5FDBA995FFDA106",
+      "rank": 3,
+      "title": "甲乙丙丁 (你我怎么两清)",
+      "artists": [
+        "李佳薇"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260630/20260630202952972321.jpg",
+      "url": "https://www.kugou.com/song/#hash=213D580CA0BDCC28A5FDBA995FFDA106",
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 3,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 3,
+          "last_sort": 3
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17047749",
+            "hash": "F805B3B2936D32F2FB4DA9EA1A67B07F",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "E1F82F5E4BA3F0DC0924A46422DB3C54",
+            "url": null
+          }
+        ]
+      },
+      "songId": "487bb610752a82429d35"
+    },
+    {
+      "sourceId": "3FD7E1EC51122C745C637735C8BDE716",
+      "rank": 4,
+      "title": "我不难过",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250624/20250624174203375937.jpg",
+      "url": "https://www.kugou.com/song/#hash=3FD7E1EC51122C745C637735C8BDE716",
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 4,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 4,
+          "last_sort": 4
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "50492",
+            "hash": "D6C3C0150674831E116D7AC4172C90ED",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "578CF283D47FBF2408CCF1AA735BDF17",
+            "url": null
+          }
+        ]
+      },
+      "songId": "5d47cfe6c7e99d6278ff"
+    },
+    {
+      "sourceId": "FF4D401F6EA2B5A9061A44E20343B66D",
+      "rank": 5,
+      "title": "那页夏天",
+      "artists": [
+        "王俊凯"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260624/20260624101713401233.jpg",
+      "url": "https://www.kugou.com/song/#hash=FF4D401F6EA2B5A9061A44E20343B66D",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 11,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 5,
+          "last_sort": 11
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17857914",
+            "hash": "91C5E39C89B210A8109929EA1F555B9D",
+            "url": null
+          }
+        ]
+      },
+      "songId": "ce2e325bb79c9dccaf7a"
+    },
+    {
+      "sourceId": "FBC174E7C22B9AF471B7B93A61751E1B",
+      "rank": 6,
+      "title": "泪海",
+      "artists": [
+        "许茹芸"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180741827113.jpg",
+      "url": "https://www.kugou.com/song/#hash=FBC174E7C22B9AF471B7B93A61751E1B",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 5,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 6,
+          "last_sort": 5
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "11874874",
+            "hash": "9C21064F8301257F8C9D7B9EC568FB3D",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "7DCEA6B67B30A201035476469440570C",
+            "url": null
+          }
+        ]
+      },
+      "songId": "30998d16b8aaf576d32c"
+    },
+    {
+      "sourceId": "6024903A2603AFB6FBD0453162BDED63",
+      "rank": 7,
+      "title": "秋风一吹又老一岁 (女版烟嗓)",
+      "artists": [
+        "微醺森林"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260914/20260914131723980989.jpg",
+      "url": "https://www.kugou.com/song/#hash=6024903A2603AFB6FBD0453162BDED63",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 6,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 7,
+          "last_sort": 6
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17825984",
+            "hash": "D7532250FA54748BC4A151F5654B736D",
+            "url": null
+          }
+        ]
+      },
+      "songId": "722218f76203709bf50f"
+    },
+    {
+      "sourceId": "9F882DE24A9C98FE3F793B0CECFD3B42",
+      "rank": 8,
+      "title": "红尘误此生",
+      "artists": [
+        "宋晓峰"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260929/20260929115008964404.jpg",
+      "url": "https://www.kugou.com/song/#hash=9F882DE24A9C98FE3F793B0CECFD3B42",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 27,
+        "previousRank": 35,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 8,
+          "last_sort": 35
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17891233",
+            "hash": "DE2AF82B9F516B5CD2B3425A5B284406",
+            "url": null
+          }
+        ]
+      },
+      "songId": "69153ce9d905230182f6"
+    },
+    {
+      "sourceId": "15DE5A6243A25631593B8735A8AF7172",
+      "rank": 9,
+      "title": "麻花情",
+      "artists": [
+        "海来阿木"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260920/20260920151450834543.jpg",
+      "url": "https://www.kugou.com/song/#hash=15DE5A6243A25631593B8735A8AF7172",
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 9,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 9,
+          "last_sort": 9
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17916163",
+            "hash": "E438DBD25714484510F280CD35FEB635",
+            "url": null
+          }
+        ]
+      },
+      "songId": "da6f3a812b892c0064c3"
+    },
+    {
+      "sourceId": "02B553BC8BB80E6948A78DE0CF4ED354",
+      "rank": 10,
+      "title": "如果累了就回故乡 (少年版)",
+      "artists": [
+        "酷酷里",
+        "面妹孔佳奇"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260824/20260824121655550570.jpg",
+      "url": "https://www.kugou.com/song/#hash=02B553BC8BB80E6948A78DE0CF4ED354",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 8,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 10,
+          "last_sort": 8
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17423070",
+            "hash": "E417797C3B8E7351686641F4E87FB48D",
+            "url": null
+          }
+        ]
+      },
+      "songId": "9354bfea51dad5f09abb"
+    },
+    {
+      "sourceId": "FE39668F68770C3FB3BE57A3E86CCC10",
+      "rank": 11,
+      "title": "你有没有真的爱过我",
+      "artists": [
+        "阿图表妹"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260604/20260604164021847508.jpg",
+      "url": "https://www.kugou.com/song/#hash=FE39668F68770C3FB3BE57A3E86CCC10",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 7,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 11,
+          "last_sort": 7
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "15758336",
+            "hash": "0D94287D8E062EAB8424F4E239983D1A",
+            "url": null
+          }
+        ]
+      },
+      "songId": "d62c4892c50f75deac88"
+    },
+    {
+      "sourceId": "CE256D96F1F025D60468D8F0BC9EE64B",
+      "rank": 12,
+      "title": "山风山风等等我",
+      "artists": [
+        "万海东"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260727/20260727114241535084.jpg",
+      "url": "https://www.kugou.com/song/#hash=CE256D96F1F025D60468D8F0BC9EE64B",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 10,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 12,
+          "last_sort": 10
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "16809461",
+            "hash": "8044CBEE4214997FE6C888A7C70B5933",
+            "url": null
+          }
+        ]
+      },
+      "songId": "4f5f016fde2f2b8fc8db"
+    },
+    {
+      "sourceId": "7523CFC6EDE31E4C56B30E5220A06B35",
+      "rank": 13,
+      "title": "No photo of you left to survey (二十岁的某一天英文版)",
+      "artists": [
+        "冬妍DYan"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260923/20260923171131795802.jpg",
+      "url": "https://www.kugou.com/song/#hash=7523CFC6EDE31E4C56B30E5220A06B35",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 12,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 13,
+          "last_sort": 12
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "18213697",
+            "hash": "1B93281DD60DA244ECC7F5D60D090BDB",
+            "url": null
+          }
+        ]
+      },
+      "songId": "e11e60194b291a1fe7db"
+    },
+    {
+      "sourceId": "B4EE7D20EADA2A043636B4E560663F29",
+      "rank": 14,
+      "title": "你不该权衡利弊",
+      "artists": [
+        "李婷雪"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260902/20260902165220427735.jpg",
+      "url": "https://www.kugou.com/song/#hash=B4EE7D20EADA2A043636B4E560663F29",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 13,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 14,
+          "last_sort": 13
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17354751",
+            "hash": "7E83CEE5F4AC4B3E26693CC9AC739A81",
+            "url": null
+          }
+        ]
+      },
+      "songId": "f1fcebb6c60df29e66d9"
+    },
+    {
+      "sourceId": "72DB6DA75FFE23A3A6361BDB8F44D5F4",
+      "rank": 15,
+      "title": "情歌",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121849111761.jpg",
+      "url": "https://www.kugou.com/song/#hash=72DB6DA75FFE23A3A6361BDB8F44D5F4",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 14,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 15,
+          "last_sort": 14
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "708856",
+            "hash": "1DF941BAD723E6107FCF1DF0BB501E5A",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "1E9459D87296B7EBDB135670E31A9C31",
+            "url": null
+          }
+        ]
+      },
+      "songId": "0547bcb2d1b36134ce08"
+    },
+    {
+      "sourceId": "B8CA573A69DB5050C7EE0C1AB79144E5",
+      "rank": 16,
+      "title": "人生路漫漫",
+      "artists": [
+        "白小白"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260326/20260326182610525334.jpg",
+      "url": "https://www.kugou.com/song/#hash=B8CA573A69DB5050C7EE0C1AB79144E5",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 15,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 16,
+          "last_sort": 15
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "14887202",
+            "hash": "5C884762A122078E185C874BE32CCE1C",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "F8C326D90327283F75AA6BB78E6049D1",
+            "url": null
+          }
+        ]
+      },
+      "songId": "d900f4ad3f8a3d47d930"
+    },
+    {
+      "sourceId": "7FBB35DEDD24B54A8F0D895C7F61D04C",
+      "rank": 17,
+      "title": "我的秘密",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250630/20250630182952528308.jpg",
+      "url": "https://www.kugou.com/song/#hash=7FBB35DEDD24B54A8F0D895C7F61D04C",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 22,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 17,
+          "last_sort": 22
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "769727",
+            "hash": "97BBB7E38BBE0B73BE9544BEBB6A671B",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "4C70F4A1E40B316C98FDBEC64BCAE5B4",
+            "url": null
+          }
+        ]
+      },
+      "songId": "a871ad8c7fe6588a2131"
+    },
+    {
+      "sourceId": "5DA11A7E705CEAC07CC2F21488DBA9AD",
+      "rank": 18,
+      "title": "祝福祖国",
+      "artists": [
+        "顿珠拉姆"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260818/20260818173120613351.jpg",
+      "url": "https://www.kugou.com/song/#hash=5DA11A7E705CEAC07CC2F21488DBA9AD",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 11,
+        "previousRank": 29,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 18,
+          "last_sort": 29
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17919719",
+            "hash": "D2F82281C8DD0B57CE20EF6B04DC8E49",
+            "url": null
+          }
+        ]
+      },
+      "songId": "0c2366329952bb6a64d5"
+    },
+    {
+      "sourceId": "99F0F17B7C6F110346411E7AD552156D",
+      "rank": 19,
+      "title": "茶花开了，该回家了",
+      "artists": [
+        "王睿卓",
+        "加木"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260305/20260305152445620499.jpg",
+      "url": "https://www.kugou.com/song/#hash=99F0F17B7C6F110346411E7AD552156D",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 20,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 19,
+          "last_sort": 20
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "14618309",
+            "hash": "D825DD7C8DB8DB2BCD99A2CFCEAC05F4",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "F8441693896BF0E33C089993E3FB08BB",
+            "url": null
+          }
+        ]
+      },
+      "songId": "3483a92fa25053c6a48a"
+    },
+    {
+      "sourceId": "3B07400B147C55F5314DB409E13304D0",
+      "rank": 20,
+      "title": "月亮啊你莫走",
+      "artists": [
+        "黄英"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260920/20260920113941912544.jpg",
+      "url": "https://www.kugou.com/song/#hash=3B07400B147C55F5314DB409E13304D0",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 59,
+        "previousRank": 79,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 20,
+          "last_sort": 79
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17988351",
+            "hash": "6E92F424411C1F59860A7DACE09B2108",
+            "url": null
+          }
+        ]
+      },
+      "songId": "5de3a7f381f4cae90570"
+    },
+    {
+      "sourceId": "1C86CBC64AE9A6C3539A36CAADDF1A59",
+      "rank": 21,
+      "title": "盛夏的果实",
+      "artists": [
+        "莫文蔚"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180820211739.jpg",
+      "url": "https://www.kugou.com/song/#hash=1C86CBC64AE9A6C3539A36CAADDF1A59",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 19,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 21,
+          "last_sort": 19
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "596401",
+            "hash": "06888E113436F9B0F5B85B8303DCE99C",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "7CD6EBAEC179328D6EDB4A1897917697",
+            "url": null
+          }
+        ]
+      },
+      "songId": "1e1b44b393f7de24dc18"
+    },
+    {
+      "sourceId": "D097F9EC5D9A175447E0A120DCEEF3B8",
+      "rank": 22,
+      "title": "慢品人间烟火气 (微醺版)",
+      "artists": [
+        "涂一乐"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260820/20260820180351680189.jpg",
+      "url": "https://www.kugou.com/song/#hash=D097F9EC5D9A175447E0A120DCEEF3B8",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 16,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 22,
+          "last_sort": 16
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17556227",
+            "hash": "D25E9B97CDC67748F8147DFF97D7D164",
+            "url": null
+          }
+        ]
+      },
+      "songId": "5c969d71418cd403fba7"
+    },
+    {
+      "sourceId": "4A544525C1F78DBDF25361DB0E255495",
+      "rank": 24,
+      "title": "偏爱",
+      "artists": [
+        "张芸京"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20221125/20221125063514484979.jpg",
+      "url": "https://www.kugou.com/song/#hash=4A544525C1F78DBDF25361DB0E255495",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 17,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 24,
+          "last_sort": 17
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "677145",
+            "hash": "B114D5899B2E94A0865850D6025B09EC",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "29C407EC156B3D10ACC19DB0B304321C",
+            "url": null
+          }
+        ]
+      },
+      "songId": "b1c2c5201af051615e85"
+    },
+    {
+      "sourceId": "7A4E37A535C66AB760E761DE8322B04D",
+      "rank": 25,
+      "title": "月亮替我望故乡",
+      "artists": [
+        "任夏"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260926/20260926192427285366.jpg",
+      "url": "https://www.kugou.com/song/#hash=7A4E37A535C66AB760E761DE8322B04D",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 49,
+        "previousRank": 74,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 25,
+          "last_sort": 74
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17861016",
+            "hash": "359CE555CD48CF6CCCFD08425017D42F",
+            "url": null
+          }
+        ]
+      },
+      "songId": "b122b97fb9a9ab002a8c"
+    },
+    {
+      "sourceId": "A46200A65547E5A267D10B1F32C6A3B1",
+      "rank": 26,
+      "title": "她",
+      "artists": [
+        "刘宇宁"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260825/20260825143721652550.jpg",
+      "url": "https://www.kugou.com/song/#hash=A46200A65547E5A267D10B1F32C6A3B1",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 18,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 26,
+          "last_sort": 18
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17729246",
+            "hash": "31A410FBE25DD27E8147ACC7FACA72B5",
+            "url": null
+          }
+        ]
+      },
+      "songId": "bd703c5c8ce73ac36832"
+    },
+    {
+      "sourceId": "7DE9A9CD041157F6BF3FE9FFBCF120E3",
+      "rank": 27,
+      "title": "黄昏",
+      "artists": [
+        "周传雄"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20200210/20200210112815395310.jpg",
+      "url": "https://www.kugou.com/song/#hash=7DE9A9CD041157F6BF3FE9FFBCF120E3",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 21,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 27,
+          "last_sort": 21
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "587757",
+            "hash": "2127F754A23CC43AADD1E58B6D1DEB86",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "C318AD9DD77E6E2E225844900D1DAB9A",
+            "url": null
+          }
+        ]
+      },
+      "songId": "9d9937adc8b8a70ec150"
+    },
+    {
+      "sourceId": "9DA7851E2BF83B18C74CBBAB461CEFDD",
+      "rank": 28,
+      "title": "恋人",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20241016/20241016175101115675.jpg",
+      "url": "https://www.kugou.com/song/#hash=9DA7851E2BF83B18C74CBBAB461CEFDD",
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 28,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 28,
+          "last_sort": 28
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "12602115",
+            "hash": "B21CA28AFC6D3FB7B1F9964D330F689F",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "BC8604B4B3F4D712E10E3507D46A1C62",
+            "url": null
+          }
+        ]
+      },
+      "songId": "1c4e1a4066e20511f7ab"
+    },
+    {
+      "sourceId": "F0B01830164E4974A2AC9E85DD446D45",
+      "rank": 29,
+      "title": "樱花草",
+      "artists": [
+        "Sweety"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260610/20260610172641662788.jpg",
+      "url": "https://www.kugou.com/song/#hash=F0B01830164E4974A2AC9E85DD446D45",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 23,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 29,
+          "last_sort": 23
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "10252454",
+            "hash": "C40A3E9D40C4DE2A94F4C65E61139864",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "DB3588DBFBD04D94FEEEC85EA4B0D22C",
+            "url": null
+          }
+        ]
+      },
+      "songId": "fca2238bc463359cc1c4"
+    },
+    {
+      "sourceId": "2592FFA57A2D8B1A16F18D991B7098CD",
+      "rank": 30,
+      "title": "雨爱",
+      "artists": [
+        "杨丞琳"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250716/20250716140851912935.jpg",
+      "url": "https://www.kugou.com/song/#hash=2592FFA57A2D8B1A16F18D991B7098CD",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 24,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 30,
+          "last_sort": 24
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "52800",
+            "hash": "8290FA048A9E145B00F3FCAA97602D92",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "2CAE861A135F4A6EDD8780C13D79FF7D",
+            "url": null
+          }
+        ]
+      },
+      "songId": "61c8815b55293dd4a3cd"
+    },
+    {
+      "sourceId": "93F260998A10F4AD6B46606AF5C8EC72",
+      "rank": 31,
+      "title": "开始懂了",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20211009/20211009184301486005.jpg",
+      "url": "https://www.kugou.com/song/#hash=93F260998A10F4AD6B46606AF5C8EC72",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 25,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 31,
+          "last_sort": 25
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "5950315",
+            "hash": "015EB142F606861120F467D61B441923",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "DA52FDCE0E3B531FE86E3A5B62837906",
+            "url": null
+          }
+        ]
+      },
+      "songId": "161752bf9ddec26f6c9c"
+    },
+    {
+      "sourceId": "007A7A8EAFA3FF9EA51EF6A767AC3497",
+      "rank": 32,
+      "title": "茶花开了",
+      "artists": [
+        "王睿卓"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20251125/20251125141603161899.jpg",
+      "url": "https://www.kugou.com/song/#hash=007A7A8EAFA3FF9EA51EF6A767AC3497",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 31,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 32,
+          "last_sort": 31
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "13104379",
+            "hash": "54E1FB976CE5487BF6B42BB68EB611EF",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "C858AFA9445711581FDAECFA2594F6AD",
+            "url": null
+          }
+        ]
+      },
+      "songId": "6d2b6173a24f2f398e8e"
+    },
+    {
+      "sourceId": "74390D89B6BD2E18CFD7F25968EFD98A",
+      "rank": 33,
+      "title": "落了白",
+      "artists": [
+        "蒋雪儿Snow.J"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20201125/20201125144604372545.jpg",
+      "url": "https://www.kugou.com/song/#hash=74390D89B6BD2E18CFD7F25968EFD98A",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 30,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 33,
+          "last_sort": 30
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "14252887",
+            "hash": "7DBC8BFA89823ACB6C9591AECED40193",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "C233AA8CE51C4B2ACE50A03380BB99A7",
+            "url": null
+          }
+        ]
+      },
+      "songId": "8842a74f0a47fa841930"
+    },
+    {
+      "sourceId": "E3F046EDB5EB76BBA5A44FFA3D8F8C42",
+      "rank": 34,
+      "title": "雨过后的风景",
+      "artists": [
+        "Dizzy Dizzo (蔡诗芸)"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260126/20260126211840542004.jpg",
+      "url": "https://www.kugou.com/song/#hash=E3F046EDB5EB76BBA5A44FFA3D8F8C42",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 26,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 34,
+          "last_sort": 26
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "72908",
+            "hash": "6E00C1EB2AAC60455DAFC7DEBA4A2991",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "ABBC97947545F6B5B73D3BFAC553AB4A",
+            "url": null
+          }
+        ]
+      },
+      "songId": "aa443c23eb5bd46fcb5a"
+    },
+    {
+      "sourceId": "EC476A2009EF5DCAC13EDCD11870DF55",
+      "rank": 35,
+      "title": "失眠",
+      "artists": [
+        "Suki刘舒妤"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260415/20260415190622329436.jpg",
+      "url": "https://www.kugou.com/song/#hash=EC476A2009EF5DCAC13EDCD11870DF55",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 27,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 35,
+          "last_sort": 27
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "14615928",
+            "hash": "4195F8E0482384C3349BED3C02819592",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "B5339C5CB45C65E7309D3282139F2E9A",
+            "url": null
+          }
+        ]
+      },
+      "songId": "07d8a07f3549e36b5f56"
+    },
+    {
+      "sourceId": "1A3CAACB1E361DAF217A2383E9C8E292",
+      "rank": 36,
+      "title": "我怀念的",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20221230/20221230052215394603.jpg",
+      "url": "https://www.kugou.com/song/#hash=1A3CAACB1E361DAF217A2383E9C8E292",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 34,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 36,
+          "last_sort": 34
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "676203",
+            "hash": "9C34C60A4A626CD0FB1904D831AF3819",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "DA007D26943FE155EF5778F6C6E74BE1",
+            "url": null
+          }
+        ]
+      },
+      "songId": "8c0daa3d1077edcbc6c8"
+    },
+    {
+      "sourceId": "A06B033B356BFC974C5245D0195086A5",
+      "rank": 37,
+      "title": "成都",
+      "artists": [
+        "赵雷"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20200620/20200620110640853878.jpg",
+      "url": "https://www.kugou.com/song/#hash=A06B033B356BFC974C5245D0195086A5",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 33,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 37,
+          "last_sort": 33
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "653848",
+            "hash": "0BCC01B2AE64BC8831E6F80432542DCC",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "03A19FABC6DD8511697E0D7871B5FE17",
+            "url": null
+          }
+        ]
+      },
+      "songId": "254f7293fa7bb9c8564e"
+    },
+    {
+      "sourceId": "A1A54A845122AA0473BC649F77808ACB",
+      "rank": 38,
+      "title": "我听人说思念像风一样 (宿命版)",
+      "artists": [
+        "顿珠拉姆"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260915/20260915142351169494.jpg",
+      "url": "https://www.kugou.com/song/#hash=A1A54A845122AA0473BC649F77808ACB",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 44,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 38,
+          "last_sort": 44
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "18076834",
+            "hash": "153B19305F250CEED1619A68C6A284DD",
+            "url": null
+          }
+        ]
+      },
+      "songId": "1a1a62d49ca17d0d7d6d"
+    },
+    {
+      "sourceId": "F7F5EC41DA5B1E30A6F5456966C50D50",
+      "rank": 39,
+      "title": "自己就是自己的光",
+      "artists": [
+        "周深"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260918/20260918181402933556.jpg",
+      "url": "https://www.kugou.com/song/#hash=F7F5EC41DA5B1E30A6F5456966C50D50",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 146,
+        "previousRank": 185,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 39,
+          "last_sort": 185
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17888429",
+            "hash": "B910FB277000B441CA39C345586DBB50",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "3BCFA7AEA5CA1D5944503C1C3AC63BA5",
+            "url": null
+          }
+        ]
+      },
+      "songId": "9c45f4aa83818b2020c8"
+    },
+    {
+      "sourceId": "87311B26EDEE637CA1448E14230BCB68",
+      "rank": 40,
+      "title": "吹吹山顶的风",
+      "artists": [
+        "巴扎黑"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260721/20260721104743915578.png",
+      "url": "https://www.kugou.com/song/#hash=87311B26EDEE637CA1448E14230BCB68",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 36,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 40,
+          "last_sort": 36
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "16589975",
+            "hash": "1F93A31AFC5A4F2D81C435AD894806BA",
+            "url": null
+          }
+        ]
+      },
+      "songId": "4705da219e2aa485dffa"
+    },
+    {
+      "sourceId": "2EEFFF98A4F19D945BBA7C78FB2079C0",
+      "rank": 41,
+      "title": "下完这场雨",
+      "artists": [
+        "后弦"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20200909/20200909111827152354.jpg",
+      "url": "https://www.kugou.com/song/#hash=2EEFFF98A4F19D945BBA7C78FB2079C0",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 42,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 41,
+          "last_sort": 42
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "594991",
+            "hash": "9B47AD4CD4B59D7E1DCDC8F03979F64C",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "8833BE7A37975EBB3555BCA166861EF3",
+            "url": null
+          }
+        ]
+      },
+      "songId": "18c5f745e32ecbf7c6f3"
+    },
+    {
+      "sourceId": "F73630B79647324AB3415C21BFA5BD3D",
+      "rank": 42,
+      "title": "此生不换",
+      "artists": [
+        "青鸟飞鱼"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20200620/20200620075535876793.jpg",
+      "url": "https://www.kugou.com/song/#hash=F73630B79647324AB3415C21BFA5BD3D",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 10,
+        "previousRank": 52,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 42,
+          "last_sort": 52
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "7836225",
+            "hash": "081A759383FAAED491EA72B200BFC84C",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "FCEEED9DB17AFB45EE9F1C05B96CCD4A",
+            "url": null
+          }
+        ]
+      },
+      "songId": "641fbf787c94d87680c9"
+    },
+    {
+      "sourceId": "52ED380B09C692BDF4CE65FD56D918F3",
+      "rank": 43,
+      "title": "等一分钟",
+      "artists": [
+        "徐誉滕"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121755360044.jpg",
+      "url": "https://www.kugou.com/song/#hash=52ED380B09C692BDF4CE65FD56D918F3",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 41,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 43,
+          "last_sort": 41
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "817415",
+            "hash": "9AF04D2A85A750DBF0DA5A7EEFB7D52B",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "A113490122C1AE296FDFC308DF0C44BE",
+            "url": null
+          }
+        ]
+      },
+      "songId": "501efe2aadadeaf382b2"
+    },
+    {
+      "sourceId": "09B46455BAE7C613ABD0DB362A5DDBDE",
+      "rank": 44,
+      "title": "青花",
+      "artists": [
+        "周传雄"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20230602/20230602114302172536.jpg",
+      "url": "https://www.kugou.com/song/#hash=09B46455BAE7C613ABD0DB362A5DDBDE",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -12,
+        "previousRank": 32,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 44,
+          "last_sort": 32
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "596554",
+            "hash": "BF5672D41B6D5A9B270D8314C62B5F47",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "24C21F27DEA60F28639BA63D0863D4DC",
+            "url": null
+          }
+        ]
+      },
+      "songId": "177446b98cef386eccb1"
+    },
+    {
+      "sourceId": "AFAA7ACF75FCF8DAC78C0AF7C40D3E9D",
+      "rank": 45,
+      "title": "再见太难",
+      "artists": [
+        "利得汇"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260828/20260828162102346265.jpg",
+      "url": "https://www.kugou.com/song/#hash=AFAA7ACF75FCF8DAC78C0AF7C40D3E9D",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 39,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 45,
+          "last_sort": 39
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "21098",
+            "hash": "0B4B66FC0811F5E1AA0C4EF8A6015671",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "AA650C52302200D722F1F567C0A5140C",
+            "url": null
+          }
+        ]
+      },
+      "songId": "de869fdfc50fc1aa995f"
+    },
+    {
+      "sourceId": "9365223F903B13D0DAF54B6091AC3E7B",
+      "rank": 46,
+      "title": "坏女孩",
+      "artists": [
+        "徐良",
+        "小凌"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20200620/20200620074915201495.jpg",
+      "url": "https://www.kugou.com/song/#hash=9365223F903B13D0DAF54B6091AC3E7B",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 9,
+        "previousRank": 55,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 46,
+          "last_sort": 55
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "11421607",
+            "hash": "F4C7CD9D6754A9378A15850D13610D53",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "171857161089125C360D14497569A7B0",
+            "url": null
+          }
+        ]
+      },
+      "songId": "23a0fae22e7c30c2b262"
+    },
+    {
+      "sourceId": "5D4C2F9D994E5BECDC9BA0FBC6BD3DD8",
+      "rank": 47,
+      "title": "岁月如笔写春秋",
+      "artists": [
+        "河南三妹5233"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260528/20260528212904938023.jpg",
+      "url": "https://www.kugou.com/song/#hash=5D4C2F9D994E5BECDC9BA0FBC6BD3DD8",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 40,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 47,
+          "last_sort": 40
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "16270947",
+            "hash": "F11A015C1359CDA3E3FD6319E09A686F",
+            "url": null
+          }
+        ]
+      },
+      "songId": "e1cedb00ffcb4c61c550"
+    },
+    {
+      "sourceId": "E4271CB5938F401AA283FBEA49223BF8",
+      "rank": 48,
+      "title": "阴天",
+      "artists": [
+        "莫文蔚"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20230822/20230822173602614845.jpg",
+      "url": "https://www.kugou.com/song/#hash=E4271CB5938F401AA283FBEA49223BF8",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 37,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 48,
+          "last_sort": 37
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "1172325",
+            "hash": "02A288A65A1843D9A786FE94B66F64A2",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "8F13C69797784A7D8E2D5996821BA028",
+            "url": null
+          }
+        ]
+      },
+      "songId": "5641582cb246b3774f24"
+    },
+    {
+      "sourceId": "B3A52A7A958BF0AED0EBFBA2E9A818B7",
+      "rank": 49,
+      "title": "晴天",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20230920/20230920142503632013.jpg",
+      "url": "https://www.kugou.com/song/#hash=B3A52A7A958BF0AED0EBFBA2E9A818B7",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 45,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 49,
+          "last_sort": 45
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "117613",
+            "hash": "92B86DA2E11C3C84DE3A944ED12D97F1",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "AE03041C1FAB725569983CFB832C27D9",
+            "url": null
+          }
+        ]
+      },
+      "songId": "86c4b8b6e1c2bcf8d9bd"
+    },
+    {
+      "sourceId": "DDE279AF8DB58030F87ED111E108D8A8",
+      "rank": 50,
+      "title": "风月吻眉梢",
+      "artists": [
+        "礼越"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260921/20260921114332175517.jpg",
+      "url": "https://www.kugou.com/song/#hash=DDE279AF8DB58030F87ED111E108D8A8",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 12,
+        "previousRank": 62,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 50,
+          "last_sort": 62
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "13629673",
+            "hash": "08CE2EF1B6F36668E20463EC2AA3F8A9",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "9F4B88E0B1969D7EDA87E7822FFDB137",
+            "url": null
+          }
+        ]
+      },
+      "songId": "f44f8026d1dcf89ee4dd"
+    },
+    {
+      "sourceId": "EC1A18BBD6B61CB203E656B91F5CF2D1",
+      "rank": 51,
+      "title": "如愿",
+      "artists": [
+        "王菲"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20210924/20210924225802830393.jpg",
+      "url": "https://www.kugou.com/song/#hash=EC1A18BBD6B61CB203E656B91F5CF2D1",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -13,
+        "previousRank": 38,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 51,
+          "last_sort": 38
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "5092538",
+            "hash": "BEB8AF86F61581A04BA8D1C78C434A5B",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "7A3E002802F5EB4973EC7CB0CACA4FE5",
+            "url": null
+          }
+        ]
+      },
+      "songId": "d18cb0bee836ed443cd8"
+    },
+    {
+      "sourceId": "244A022D6CB3FDE50B24E76402053EB3",
+      "rank": 52,
+      "title": "琵琶曲",
+      "artists": [
+        "郑浩",
+        "冰洁"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260326/20260326181841360691.jpg",
+      "url": "https://www.kugou.com/song/#hash=244A022D6CB3FDE50B24E76402053EB3",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 47,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 52,
+          "last_sort": 47
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "14470285",
+            "hash": "2C8AD98B98C8BC4D8F188C623836AC15",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "DEE20BAFF023705D27460E3F7A06AF9E",
+            "url": null
+          }
+        ]
+      },
+      "songId": "004941b719ad73c508f5"
+    },
+    {
+      "sourceId": "D2E00CC158DB4DA18927AC3B01CC371B",
+      "rank": 53,
+      "title": "认真的雪",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20241205/20241205201419764427.jpg",
+      "url": "https://www.kugou.com/song/#hash=D2E00CC158DB4DA18927AC3B01CC371B",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 58,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 53,
+          "last_sort": 58
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "52534",
+            "hash": "0A71154CD36CACB01606391C949B0343",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "980FB6FEC29BEA92A542FBE368BB3250",
+            "url": null
+          }
+        ]
+      },
+      "songId": "ac71d510893cae37bc9b"
+    },
+    {
+      "sourceId": "44FE8C442EB1F254D15717F1DC03C9BF",
+      "rank": 54,
+      "title": "失控",
+      "artists": [
+        "井迪"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20210106/20210106110202982955.jpg",
+      "url": "https://www.kugou.com/song/#hash=44FE8C442EB1F254D15717F1DC03C9BF",
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 54,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 54,
+          "last_sort": 54
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "11623035",
+            "hash": "942F3FE1E42A517258345BE9754ED52A",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "0FE6F2957EA5F45E396DBD9B5E6C3778",
+            "url": null
+          }
+        ]
+      },
+      "songId": "25710d8dc86db1d0c482"
+    },
+    {
+      "sourceId": "CBFA7DDE592B23322E21E4BDAA9BE9F9",
+      "rank": 55,
+      "title": "最佳损友",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20241206/20241206175512148035.jpg",
+      "url": "https://www.kugou.com/song/#hash=CBFA7DDE592B23322E21E4BDAA9BE9F9",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 50,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 55,
+          "last_sort": 50
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "596458",
+            "hash": "C0A7BDDE266347305DA7FD82B022E4DC",
+            "url": null
+          }
+        ]
+      },
+      "songId": "a6d0352a195f1557130d"
+    },
+    {
+      "sourceId": "097E777171F692855EAE98B6965F9477",
+      "rank": 56,
+      "title": "演员",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250207/20250207161328731643.jpg",
+      "url": "https://www.kugou.com/song/#hash=097E777171F692855EAE98B6965F9477",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 9,
+        "previousRank": 65,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 56,
+          "last_sort": 65
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "180472",
+            "hash": "DEA9ACFE7E6201EB7E384063E700734E",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "4F5DAE4814BFAF9C556ABCD91EBF7FC5",
+            "url": null
+          }
+        ]
+      },
+      "songId": "5a116a5750ca7bd1b1d1"
+    },
+    {
+      "sourceId": "CB22754AB8A0F20FCC015D0A800758CE",
+      "rank": 57,
+      "title": "落日微醺 (晚风中一杯酒)",
+      "artists": [
+        "落日微醺"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260622/20260622170602669767.jpg",
+      "url": "https://www.kugou.com/song/#hash=CB22754AB8A0F20FCC015D0A800758CE",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 7,
+        "previousRank": 64,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 57,
+          "last_sort": 64
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17046187",
+            "hash": "B6AB1C933C51B1CBFAE3780EE9F745D8",
+            "url": null
+          }
+        ]
+      },
+      "songId": "e12f408c7243d07f62e8"
+    },
+    {
+      "sourceId": "A823AE8D84854FD2EB5B8E599D1263FA",
+      "rank": 58,
+      "title": "碎碎念",
+      "artists": [
+        "队长"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20231107/20231107223800767836.jpg",
+      "url": "https://www.kugou.com/song/#hash=A823AE8D84854FD2EB5B8E599D1263FA",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 59,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 58,
+          "last_sort": 59
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "11596658",
+            "hash": "F87A5EEE168C8E723D53F7AA227824C9",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "D53C065D98A9486155CFF4203DB56325",
+            "url": null
+          }
+        ]
+      },
+      "songId": "d8b72587e9a80a4307de"
+    },
+    {
+      "sourceId": "3194D1AA995469BEF8620E96989D6BA8",
+      "rank": 59,
+      "title": "梦哑",
+      "artists": [
+        "任然"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260529/20260529173045488302.jpg",
+      "url": "https://www.kugou.com/song/#hash=3194D1AA995469BEF8620E96989D6BA8",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 57,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 59,
+          "last_sort": 57
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "16548142",
+            "hash": "F836911EDE7DB66A058C0AF0E6EDFFAF",
+            "url": null
+          }
+        ]
+      },
+      "songId": "9ef9ee42947026cc9b9e"
+    },
+    {
+      "sourceId": "44816EF0288A3B1ED2C4A5C5FE6B93B3",
+      "rank": 60,
+      "title": "一直很安静",
+      "artists": [
+        "阿桑"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180751360822.jpg",
+      "url": "https://www.kugou.com/song/#hash=44816EF0288A3B1ED2C4A5C5FE6B93B3",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -17,
+        "previousRank": 43,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 60,
+          "last_sort": 43
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "654540",
+            "hash": "E2D29A98395DDE570CC8F7F7DCCAE553",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "90C815FF67FFA2C1A3104E4FF6C24D3D",
+            "url": null
+          }
+        ]
+      },
+      "songId": "6cdc662fb6e52ef604b3"
+    },
+    {
+      "sourceId": "9F865C787E90E013B2BC847BAAA306AA",
+      "rank": 61,
+      "title": "遇见",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180800375452.jpg",
+      "url": "https://www.kugou.com/song/#hash=9F865C787E90E013B2BC847BAAA306AA",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -15,
+        "previousRank": 46,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 61,
+          "last_sort": 46
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "3792",
+            "hash": "10A9E48E84F122591A727EEA99B45D5F",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "AB604B069CD0F05813D7E46836A20995",
+            "url": null
+          }
+        ]
+      },
+      "songId": "4a3eddf0605cf5c78d0b"
+    },
+    {
+      "sourceId": "9B1B7752DBC24E77980C9F228A1493CC",
+      "rank": 62,
+      "title": "花开在刚刚好",
+      "artists": [
+        "田宝亮"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260902/20260902222323288988.jpg",
+      "url": "https://www.kugou.com/song/#hash=9B1B7752DBC24E77980C9F228A1493CC",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -14,
+        "previousRank": 48,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 62,
+          "last_sort": 48
+        }
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e3e7c1707a6e7fc8d255"
+    },
+    {
+      "sourceId": "1FC3B465CD5ACA8654A64BE5DE4E9A12",
+      "rank": 63,
+      "title": "你往南走 (风往北刮)",
+      "artists": [
+        "南歌"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260907/20260907164548280344.jpg",
+      "url": "https://www.kugou.com/song/#hash=1FC3B465CD5ACA8654A64BE5DE4E9A12",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -12,
+        "previousRank": 51,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 63,
+          "last_sort": 51
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17577003",
+            "hash": "F2EF95E34B4B03EF7651D1DA76C16C06",
+            "url": null
+          }
+        ]
+      },
+      "songId": "cca3c3e7f62b25b4d92d"
+    },
+    {
+      "sourceId": "55FEA1927AC4D460F6EB3B9262AC9981",
+      "rank": 64,
+      "title": "我好想你 (苏打绿版)",
+      "artists": [
+        "苏打绿"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20241015/20241015172611551162.jpg",
+      "url": "https://www.kugou.com/song/#hash=55FEA1927AC4D460F6EB3B9262AC9981",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 66,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 64,
+          "last_sort": 66
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "606477",
+            "hash": "9C6AADD7929A7AD27643BC36AD664BDF",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "14452E241B4F16E6AD2E705B8D6118E1",
+            "url": null
+          }
+        ]
+      },
+      "songId": "41abde5987f63e6b9d96"
+    },
+    {
+      "sourceId": "CDAE8C7E2FAF7F08DC18E78A1D65117B",
+      "rank": 65,
+      "title": "美人鱼",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180752107045.jpg",
+      "url": "https://www.kugou.com/song/#hash=CDAE8C7E2FAF7F08DC18E78A1D65117B",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 16,
+        "previousRank": 81,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 65,
+          "last_sort": 81
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "579265",
+            "hash": "1DB676BAC384186DBB3C60D0D3AC140A",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "05006C003FC8B289982B2DE153D3160C",
+            "url": null
+          }
+        ]
+      },
+      "songId": "bbb1de5875b984c0c77b"
+    },
+    {
+      "sourceId": "B5BA68A039E54847B4E14A46A268991B",
+      "rank": 66,
+      "title": "踏马寻花向自由 (雷鬼版)",
+      "artists": [
+        "超哥"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260610/20260610133425971953.jpg",
+      "url": "https://www.kugou.com/song/#hash=B5BA68A039E54847B4E14A46A268991B",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 71,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 66,
+          "last_sort": 71
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "16266284",
+            "hash": "8261137E941AFBB83F40D048C86A04BE",
+            "url": null
+          }
+        ]
+      },
+      "songId": "458902eae4a6ca76fab0"
+    },
+    {
+      "sourceId": "AFEA9FFE5D7F0EF0874119A363820D33",
+      "rank": 67,
+      "title": "小半",
+      "artists": [
+        "陈粒"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20200620/20200620103339135851.jpg",
+      "url": "https://www.kugou.com/song/#hash=AFEA9FFE5D7F0EF0874119A363820D33",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 61,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 67,
+          "last_sort": 61
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "584130",
+            "hash": "40E7ACED0F692E8CB4896FE25F8365B3",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "7E62F1B84936540428DD45C102F27A2E",
+            "url": null
+          }
+        ]
+      },
+      "songId": "6f164a403f38b8991823"
+    },
+    {
+      "sourceId": "6CCB2559DE8FC8965E98F641C4C33B6A",
+      "rank": 68,
+      "title": "若不是因为你 (深情版)",
+      "artists": [
+        "林栖"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260209/20260209172247328990.jpg",
+      "url": "https://www.kugou.com/song/#hash=6CCB2559DE8FC8965E98F641C4C33B6A",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 70,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 68,
+          "last_sort": 70
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "15824948",
+            "hash": "77C1E45AC2F5BE5B067B5A836A99A68E",
+            "url": null
+          }
+        ]
+      },
+      "songId": "0870c58c6a333cbaede1"
+    },
+    {
+      "sourceId": "D47C45995D6D88F23AB76601702D9C9E",
+      "rank": 69,
+      "title": "回到你身边 (让你知道)",
+      "artists": [
+        "h3R3刘清云"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260702/20260702192011292725.jpg",
+      "url": "https://www.kugou.com/song/#hash=D47C45995D6D88F23AB76601702D9C9E",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 47,
+        "previousRank": 116,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 69,
+          "last_sort": 116
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17038031",
+            "hash": "BC6CAC007B243D298B15C2C2AB6987B3",
+            "url": null
+          }
+        ]
+      },
+      "songId": "54ba869f2ff88633d18e"
+    },
+    {
+      "sourceId": "0E82477B4256D8DC3C620F762606C16A",
+      "rank": 70,
+      "title": "时间能不能走慢点 (青春别散场live大合唱版)",
+      "artists": [
+        "Lee 木子"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260819/20260819142934663152.jpg",
+      "url": "https://www.kugou.com/song/#hash=0E82477B4256D8DC3C620F762606C16A",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -14,
+        "previousRank": 56,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 70,
+          "last_sort": 56
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17718962",
+            "hash": "5DFFE6FC982C49FE954FD36A132458CB",
+            "url": null
+          }
+        ]
+      },
+      "songId": "a95f0c9f22c76fc4513d"
+    },
+    {
+      "sourceId": "5146461A5717B942F4B13125978618E3",
+      "rank": 71,
+      "title": "十年",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20160907/20160907172212861609.jpg",
+      "url": "https://www.kugou.com/song/#hash=5146461A5717B942F4B13125978618E3",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 60,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 71,
+          "last_sort": 60
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "339",
+            "hash": "AFAA7726CFF81EDEA6F461628FA0059B",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "A1FF23D15F76B4410B8EE4CB2020E299",
+            "url": null
+          }
+        ]
+      },
+      "songId": "a4fe35e43ba7b8f1f9f8"
+    },
+    {
+      "sourceId": "F6B3AA5971A01E755A344C2256606418",
+      "rank": 72,
+      "title": "雪下的时候",
+      "artists": [
+        "乔佳旭"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20200117/20200117171714417783.jpg",
+      "url": "https://www.kugou.com/song/#hash=F6B3AA5971A01E755A344C2256606418",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -23,
+        "previousRank": 49,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 72,
+          "last_sort": 49
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "3657131",
+            "hash": "08981ACFAF5995022CDC56326397DFC7",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "DC2AEF7862AA94A18CB75FA7B85A5BF2",
+            "url": null
+          }
+        ]
+      },
+      "songId": "0adc7b2943a5bbdb2da7"
+    },
+    {
+      "sourceId": "0433F1A94FA162B20FB8AE576A951D6B",
+      "rank": 73,
+      "title": "富士山下",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250822/20250822164712115635.jpg",
+      "url": "https://www.kugou.com/song/#hash=0433F1A94FA162B20FB8AE576A951D6B",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 67,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 73,
+          "last_sort": 67
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "952046",
+            "hash": "DE803B65777056008831450625DDD814",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "F1330E70A597DA87CBAD9EDEE043222D",
+            "url": null
+          }
+        ]
+      },
+      "songId": "1637db17294d398b3b6b"
+    },
+    {
+      "sourceId": "37A8F50A9EC3B267C3CC6BEC633D9C4A",
+      "rank": 74,
+      "title": "青花瓷",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20220705/20220705143006989099.jpg",
+      "url": "https://www.kugou.com/song/#hash=37A8F50A9EC3B267C3CC6BEC633D9C4A",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 72,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 74,
+          "last_sort": 72
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "592096",
+            "hash": "DC602A8579C0AC1E2895543FFC2C7DAF",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "DDD65ADD91160AC01B010447D64B4164",
+            "url": null
+          }
+        ]
+      },
+      "songId": "e243a6b6f1ecd8ef4783"
+    },
+    {
+      "sourceId": "FCEDAF78465CD283E1DA72A8DEAC553A",
+      "rank": 75,
+      "title": "大梦归",
+      "artists": [
+        "周深"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260924/20260924211222376575.jpg",
+      "url": "https://www.kugou.com/song/#hash=FCEDAF78465CD283E1DA72A8DEAC553A",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 19,
+        "previousRank": 94,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 75,
+          "last_sort": 94
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17737110",
+            "hash": "D0C52EE759312BB783B36A46EEB259F7",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "BD1AABCBFDD54E1B965DDC1770C0B95E",
+            "url": null
+          }
+        ]
+      },
+      "songId": "7ed27134348dc9221371"
+    },
+    {
+      "sourceId": "1415E6EAB8E8B0538F5FB66526C9EB65",
+      "rank": 76,
+      "title": "逍遥叹",
+      "artists": [
+        "胡歌"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20240408/20240408195306754546.jpg",
+      "url": "https://www.kugou.com/song/#hash=1415E6EAB8E8B0538F5FB66526C9EB65",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 15,
+        "previousRank": 91,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 76,
+          "last_sort": 91
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "42036",
+            "hash": "BD83F6D81EBF5506E645A1CB83A66465",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "5AAD6F5AE13B156E95A405912C54CFEC",
+            "url": null
+          }
+        ]
+      },
+      "songId": "569dff95b40138dcb709"
+    },
+    {
+      "sourceId": "951AB088C5A08F491471A1296DF93707",
+      "rank": 77,
+      "title": "半壶纱",
+      "artists": [
+        "刘珂矣"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20210108/20210108122513746401.jpg",
+      "url": "https://www.kugou.com/song/#hash=951AB088C5A08F491471A1296DF93707",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 69,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 77,
+          "last_sort": 69
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "6636891",
+            "hash": "365759719AB184605D40315A9751A100",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "B42ACE3F62219378CBF8C13B40A61973",
+            "url": null
+          }
+        ]
+      },
+      "songId": "d0e187be04fbcd8ea203"
+    },
+    {
+      "sourceId": "8909E1809908CD8E3BF6CF85D98B93F0",
+      "rank": 78,
+      "title": "稻香",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20241118/20241118160622508429.jpg",
+      "url": "https://www.kugou.com/song/#hash=8909E1809908CD8E3BF6CF85D98B93F0",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 14,
+        "previousRank": 92,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 78,
+          "last_sort": 92
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "592103",
+            "hash": "FA30DAD34632AAFF8AC33BCF24ACC241",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "F816FEB9F4972D57C16503DAE9E36802",
+            "url": null
+          }
+        ]
+      },
+      "songId": "8579ba448da26dc38aac"
+    },
+    {
+      "sourceId": "30C94AE2868E63B1058DA7685E0CDF3B",
+      "rank": 79,
+      "title": "素颜",
+      "artists": [
+        "许嵩",
+        "何曼婷"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250612/20250612110741114025.jpg",
+      "url": "https://www.kugou.com/song/#hash=30C94AE2868E63B1058DA7685E0CDF3B",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -16,
+        "previousRank": 63,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 79,
+          "last_sort": 63
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "757297",
+            "hash": "1EA47CF560240DA5AE9B441BCD24EB57",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "0110ED938397098911B192E72F3FC869",
+            "url": null
+          }
+        ]
+      },
+      "songId": "2919123b63ea95dd8c0f"
+    },
+    {
+      "sourceId": "C4904D4E3BBA872D41D3BDBF597E2B18",
+      "rank": 80,
+      "title": "后来",
+      "artists": [
+        "刘若英"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250101/20250101073202450754.jpg",
+      "url": "https://www.kugou.com/song/#hash=C4904D4E3BBA872D41D3BDBF597E2B18",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -12,
+        "previousRank": 68,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 80,
+          "last_sort": 68
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "652381",
+            "hash": "993F99F43B0D89B9784397CDBC99E211",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "1824B55326E121C918F38F6D7D578C24",
+            "url": null
+          }
+        ]
+      },
+      "songId": "67b2e44c80bb5be0588b"
+    },
+    {
+      "sourceId": "81056FF4FC4F2D0A0E9B38757A60D2F7",
+      "rank": 81,
+      "title": "秋天不回来",
+      "artists": [
+        "王强"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250318/20250318151115619910.jpg",
+      "url": "https://www.kugou.com/song/#hash=81056FF4FC4F2D0A0E9B38757A60D2F7",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 9,
+        "previousRank": 90,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 81,
+          "last_sort": 90
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "3094",
+            "hash": "2437435B00FC3FC076ED0D26FF875EAB",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "FCABCF723851E498DD62E07D7A38BBB8",
+            "url": null
+          }
+        ]
+      },
+      "songId": "537c1d30e4e6edc7a05a"
+    },
+    {
+      "sourceId": "AB05B8F658851282DCB2CBAD548AEB9B",
+      "rank": 82,
+      "title": "唯一",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20240122/20240122143605898824.jpg",
+      "url": "https://www.kugou.com/song/#hash=AB05B8F658851282DCB2CBAD548AEB9B",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 78,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 82,
+          "last_sort": 78
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "11537094",
+            "hash": "4CDC3359A8D45114153D68F26AEF0A9A",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "D7958E601E69FF8A0E169B3D5C5EE625",
+            "url": null
+          }
+        ]
+      },
+      "songId": "44a84462f6a0527b7c01"
+    },
+    {
+      "sourceId": "472FF9D57BCE90288EC88CBE100BCB2A",
+      "rank": 83,
+      "title": "童话",
+      "artists": [
+        "光良"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20241118/20241118143502112425.jpg",
+      "url": "https://www.kugou.com/song/#hash=472FF9D57BCE90288EC88CBE100BCB2A",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 88,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 83,
+          "last_sort": 88
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "8877",
+            "hash": "5DFEA526CAB677CB5C6D72CA6B04ABF3",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "C39EEEF992BBDF8564DEBD5400198408",
+            "url": null
+          }
+        ]
+      },
+      "songId": "47340fa3f9ddef45c397"
+    },
+    {
+      "sourceId": "16C8AB298231370293D16BCF9E5FF9B6",
+      "rank": 84,
+      "title": "夜曲",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121901851911.jpg",
+      "url": "https://www.kugou.com/song/#hash=16C8AB298231370293D16BCF9E5FF9B6",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 12,
+        "previousRank": 96,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 84,
+          "last_sort": 96
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "596344",
+            "hash": "14F783AB3068B2CFB40B64F7A79763C8",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "5FA9DA04AFD3317DCAE55A5D73664596",
+            "url": null
+          }
+        ]
+      },
+      "songId": "9f7fea265f04bf1dd969"
+    },
+    {
+      "sourceId": "A9C377CC1B9931F0CE81907E23E4D588",
+      "rank": 85,
+      "title": "离开我的依赖",
+      "artists": [
+        "王艳薇"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250725/20250725103502185296.jpg",
+      "url": "https://www.kugou.com/song/#hash=A9C377CC1B9931F0CE81907E23E4D588",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -12,
+        "previousRank": 73,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 85,
+          "last_sort": 73
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "2278173",
+            "hash": "61337E5A908D11ABF36E1A101FC3D93A",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "BBF95EEE0CC7E5195C438910F7539E20",
+            "url": null
+          }
+        ]
+      },
+      "songId": "173ba502e4be135aa5fb"
+    },
+    {
+      "sourceId": "9678D4878727F744FD3D19663CAA8AD9",
+      "rank": 86,
+      "title": "多余的解释",
+      "artists": [
+        "许嵩"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260318/20260318044711616290.jpg",
+      "url": "https://www.kugou.com/song/#hash=9678D4878727F744FD3D19663CAA8AD9",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -9,
+        "previousRank": 77,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 86,
+          "last_sort": 77
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "12636381",
+            "hash": "EDCC394E9343C21B7E9A496237B84959",
+            "url": null
+          }
+        ]
+      },
+      "songId": "48dd1e8aca4224551f92"
+    },
+    {
+      "sourceId": "055A804B8A3CCC05240D08F8FF1F7DE8",
+      "rank": 87,
+      "title": "红色高跟鞋",
+      "artists": [
+        "蔡健雅"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20200620/20200620064627514694.jpg",
+      "url": "https://www.kugou.com/song/#hash=055A804B8A3CCC05240D08F8FF1F7DE8",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 76,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 87,
+          "last_sort": 76
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "758573",
+            "hash": "A47449F5A958703234D366809858E67A",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "B93549E258DBD8B1238611ADB503053D",
+            "url": null
+          }
+        ]
+      },
+      "songId": "949602a93a41b21f6d90"
+    },
+    {
+      "sourceId": "478C572FC9E2E15777A41260DEE293A0",
+      "rank": 88,
+      "title": "奢香夫人",
+      "artists": [
+        "凤凰传奇"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20230807/20230807110505191308.jpg",
+      "url": "https://www.kugou.com/song/#hash=478C572FC9E2E15777A41260DEE293A0",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 16,
+        "previousRank": 104,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 88,
+          "last_sort": 104
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "39088",
+            "hash": "41677B82DBDE8CF358178077CFA8D4D5",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "EBE1C7DE18ECA2EB9BAC39507A01D074",
+            "url": null
+          }
+        ]
+      },
+      "songId": "02ff13a9d62cf92b0f4b"
+    },
+    {
+      "sourceId": "2E0BFDC7BA2F759B0208A58CB2C26523",
+      "rank": 89,
+      "title": "讲不出再见",
+      "artists": [
+        "谭咏麟"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121713244765.jpg",
+      "url": "https://www.kugou.com/song/#hash=2E0BFDC7BA2F759B0208A58CB2C26523",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 11,
+        "previousRank": 100,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 89,
+          "last_sort": 100
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "613667",
+            "hash": "3C41CD77846B74CE06A5621D6B455744",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "2CA4FA01D9044F9F1E987CC49A6F1DCA",
+            "url": null
+          }
+        ]
+      },
+      "songId": "846f71fcd5638c62b6fd"
+    },
+    {
+      "sourceId": "B78BA4062528E712B68C42DC6A4D9AAE",
+      "rank": 90,
+      "title": "好想再爱你",
+      "artists": [
+        "潘广益"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250207/20250207161344106383.jpg",
+      "url": "https://www.kugou.com/song/#hash=B78BA4062528E712B68C42DC6A4D9AAE",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 19,
+        "previousRank": 109,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 90,
+          "last_sort": 109
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "163274",
+            "hash": "8468FCCB69D1E7F2DAEEBFA8453BCE7F",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "6F43CCD055BEA641122E5FCB75CA060A",
+            "url": null
+          }
+        ]
+      },
+      "songId": "90af8c0d86209c33702e"
+    },
+    {
+      "sourceId": "B83DBB8E3DD3FCF86BF32690B91547F5",
+      "rank": 91,
+      "title": "江南",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180752107045.jpg",
+      "url": "https://www.kugou.com/song/#hash=B83DBB8E3DD3FCF86BF32690B91547F5",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 16,
+        "previousRank": 107,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 91,
+          "last_sort": 107
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "758538",
+            "hash": "47DA634190F85A76BA07A305FDE8C5AE",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "E476F8682D57A7A845D86547696D5EE3",
+            "url": null
+          }
+        ]
+      },
+      "songId": "9bf2b492e5c0e3e66c28"
+    },
+    {
+      "sourceId": "37A9C74C33A9FAEFF672CFDF4C699581",
+      "rank": 92,
+      "title": "抽离",
+      "artists": [
+        "徐良",
+        "刘丹萌"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250207/20250207161247131083.jpg",
+      "url": "https://www.kugou.com/song/#hash=37A9C74C33A9FAEFF672CFDF4C699581",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 16,
+        "previousRank": 108,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 92,
+          "last_sort": 108
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "567027",
+            "hash": "E89E082C5CF07ADA6AA8772F8AE8D226",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "2B0C8BFDD33056577763B431D39304AD",
+            "url": null
+          }
+        ]
+      },
+      "songId": "66b4a08fbbc95eb03e06"
+    },
+    {
+      "sourceId": "2AEE05C92035800815DE6AFEE285FD0B",
+      "rank": 93,
+      "title": "像我这样爱你的人",
+      "artists": [
+        "落日微醺本薰",
+        "张多金"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260729/20260729185424240711.jpg",
+      "url": "https://www.kugou.com/song/#hash=2AEE05C92035800815DE6AFEE285FD0B",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -18,
+        "previousRank": 75,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 93,
+          "last_sort": 75
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17112186",
+            "hash": "4C6EF586E6EAE1D82005FC49CCBA90AD",
+            "url": null
+          }
+        ]
+      },
+      "songId": "8a7fe691822c150c37dd"
+    },
+    {
+      "sourceId": "DEAB3B0160E9A410CE0AAA9ED8AC602E",
+      "rank": 94,
+      "title": "出现又离开 (Live)",
+      "artists": [
+        "梁博"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250228/20250228160451682948.jpg",
+      "url": "https://www.kugou.com/song/#hash=DEAB3B0160E9A410CE0AAA9ED8AC602E",
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 8,
+        "previousRank": 102,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 94,
+          "last_sort": 102
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "1168460",
+            "hash": "EB3263AA76A8C1770DEB02FFFB2F6424",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "5D226258FAB9AF16ABEEDC8C61E05A99",
+            "url": null
+          }
+        ]
+      },
+      "songId": "d264fbccaefdd35dce1a"
+    },
+    {
+      "sourceId": "8CE80CF10A01F37354D63E49C1B60B60",
+      "rank": 95,
+      "title": "我记得",
+      "artists": [
+        "赵雷"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20240102/20240102130103910385.jpg",
+      "url": "https://www.kugou.com/song/#hash=8CE80CF10A01F37354D63E49C1B60B60",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 87,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 95,
+          "last_sort": 87
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "11691523",
+            "hash": "D81468EB7CDFAF087393A2375894225E",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "44BFB950B27E32E77F0837DDED8DE272",
+            "url": null
+          }
+        ]
+      },
+      "songId": "bf228cba22fa10699441"
+    },
+    {
+      "sourceId": "F17C489C53382E608F9CBB3ED9F6D2AA",
+      "rank": 96,
+      "title": "第57次取消发送",
+      "artists": [
+        "菲菲公主（陆绮菲）"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250506/20250506154942932783.jpg",
+      "url": "https://www.kugou.com/song/#hash=F17C489C53382E608F9CBB3ED9F6D2AA",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -13,
+        "previousRank": 83,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 96,
+          "last_sort": 83
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "13464230",
+            "hash": "EAC7DCFEA40EFFA6094F03062F580C4F",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "E7C3D1BA6C8891054331E40753C8FC79",
+            "url": null
+          }
+        ]
+      },
+      "songId": "58027a030e3b256feea8"
+    },
+    {
+      "sourceId": "8E021794DFD02C48D2C6281A55BCBDC6",
+      "rank": 97,
+      "title": "爱错",
+      "artists": [
+        "王力宏"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121607724523.jpg",
+      "url": "https://www.kugou.com/song/#hash=8E021794DFD02C48D2C6281A55BCBDC6",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -13,
+        "previousRank": 84,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 97,
+          "last_sort": 84
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "1010079",
+            "hash": "EC02FBD3C92684545032936477DBCE5D",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "52474BBDA80C3DB9BBFE7B5EA6E58E33",
+            "url": null
+          }
+        ]
+      },
+      "songId": "8a8b8ec8dd5b568bc6a2"
+    },
+    {
+      "sourceId": "81E5A1C3B9E016D61FE91B809B4A7DC1",
+      "rank": 98,
+      "title": "千千阕歌",
+      "artists": [
+        "陈慧娴"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20241206/20241206175512631404.jpg",
+      "url": "https://www.kugou.com/song/#hash=81E5A1C3B9E016D61FE91B809B4A7DC1",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -9,
+        "previousRank": 89,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 98,
+          "last_sort": 89
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "1144814",
+            "hash": "5BE64156A56AB9E5BD11E09687DCA77F",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "071DF3302061B82F6BDBB0AF51C77294",
+            "url": null
+          }
+        ]
+      },
+      "songId": "b81159b5ff6a2157c0d2"
+    },
+    {
+      "sourceId": "1789AD88CFDD254910125F22494C0E8B",
+      "rank": 99,
+      "title": "野心家",
+      "artists": [
+        "张靓颖"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250911/20250911154151208993.jpg",
+      "url": "https://www.kugou.com/song/#hash=1789AD88CFDD254910125F22494C0E8B",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 97,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 99,
+          "last_sort": 97
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "13875469",
+            "hash": "394DA9FA0B7776C60981EEE6829AECDF",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "8B17B5CA5C9DBC144CFE03048D18CA03",
+            "url": null
+          }
+        ]
+      },
+      "songId": "8b2a7f8836c65463914a"
+    },
+    {
+      "sourceId": "56277D54C5A19FB1852A0EDF75B25514",
+      "rank": 100,
+      "title": "就骗我一次 (KOR Ver.)",
+      "artists": [
+        "沈佳润Nina"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260827/20260827111121509519.jpg",
+      "url": "https://www.kugou.com/song/#hash=56277D54C5A19FB1852A0EDF75B25514",
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -20,
+        "previousRank": 80,
+        "period": "previous-edition",
+        "raw": {
+          "sort": 100,
+          "last_sort": 80
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "17932723",
+            "hash": "81C24CDEC941FEE14D30C36118762284",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "145C51856D1E59F6FAAA6F8AB62F9311",
+            "url": null
+          }
+        ]
+      },
+      "songId": "927de95fc480533eba12"
+    }
+  ],
+  "providerId": "kugou",
+  "fetchedAt": "2026-10-23T04:25:56.991Z",
+  "schemaVersion": 1,
+  "mode": "live",
+  "date": "2026-09-24",
+  "generatedAt": "2026-10-23T04:25:56.991Z",
+  "status": "ok",
+  "ingestion": "backfill",
+  "observationType": "historical-edition",
+  "message": "事后读取的平台历史榜期，不代表当日采集快照；不参与综合榜计分。",
+  "count": 99,
+  "missingRanks": [
+    23
+  ]
+}

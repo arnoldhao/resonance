@@ -1,8 +1,25 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildSnapshot, validateChart } from '../scripts/ranking.mjs';
+import { buildSnapshot, validateChart, effectiveWeights, methodology } from '../scripts/ranking.mjs';
 
 const aliases = { artists: {}, tracks: {} };
+
+test('platform baseline weights distinguish the three Tencent sources', () => {
+  const sources = Object.keys(methodology.platformWeights).map(id => ({ id, status: 'ok' }));
+  const weights = effectiveWeights(sources, methodology);
+  assert.equal(weights.qq, 0.25);
+  assert.equal(weights.kugou, 0.2);
+  assert.equal(weights.kuwo, 0.05);
+  assert.equal(Object.values(weights).reduce((sum, weight) => sum + weight, 0), 1);
+});
+
+test('Kuwo does not inherit unavailable QQ and Kugou shares', () => {
+  const sources = Object.keys(methodology.platformWeights).map(id => ({ id, status: ['qq', 'kugou'].includes(id) ? 'error' : 'ok' }));
+  const weights = effectiveWeights(sources, methodology);
+  assert.ok(Math.abs(weights.kuwo - 0.05 / 0.55) < 1e-12);
+  assert.ok(Math.abs(weights.netease - 0.3 / 0.55) < 1e-12);
+  assert.equal(weights.qq, undefined);
+});
 const makeSources = order => ['netease', 'qishui'].map(id => ({
   id, name: id, group: id, status: 'ok',
   entries: order.map((name, index) => ({

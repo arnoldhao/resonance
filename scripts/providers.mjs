@@ -21,7 +21,7 @@ export const providers = [
     collectionDepth: 100, maxAgeHours: 48,
     sourceUrl: 'https://m.kugou.com/rank/info/?rankid=8888', frequency: '每日更新',
     updatePolicy: '官方说明为每天更新；一次响应配置出现 10:00，不能视为永久时间承诺。',
-    access: '官方移动网页 JSON',
+    access: '官方榜单 JSON · 单次完整前 100 首',
   },
   {
     id: 'kuwo', name: '酷我音乐', chartName: '酷我热歌榜', group: 'tme', enabled: true,
@@ -47,14 +47,14 @@ export const providers = [
   },
 ];
 
-const unknownMovement = raw => ({ direction: 'unknown', delta: null, previousRank: null, period: 'previous-edition', raw });
+export const unknownMovement = raw => ({ direction: 'unknown', delta: null, previousRank: null, period: 'previous-edition', raw });
 const unknownMV = () => ({ status: 'unknown', items: [] });
 const sourceFields = (source, names) => Object.fromEntries(names.filter(name => {
   const value = source[name];
   return value === null || ['string', 'number', 'boolean'].includes(typeof value);
 }).map(name => [name, source[name]]));
 
-function movementFromPrevious(currentRank, previousValue, raw) {
+export function movementFromPrevious(currentRank, previousValue, raw) {
   const previousRank = Number(previousValue);
   // Zero/negative/missing values have no confirmed previous-rank meaning.
   if (!Number.isInteger(currentRank) || currentRank < 1 || !Number.isInteger(previousRank) || previousRank < 1) return unknownMovement(raw);
@@ -86,18 +86,33 @@ function mvIdentifier(value) {
   return id && id !== '0' ? id : null;
 }
 
-function mvFromId(value) {
+export function mvFromId(value) {
   const id = mvIdentifier(value);
   if (id) return { status: 'linked', items: [{ id, hash: null, url: null }] };
   return { status: value === '' || value === 0 || value === '0' ? 'none' : 'unknown', items: [] };
 }
 
-function kugouMV(track) {
+export function kugouMV(track) {
   const items = (track.mvdata ?? []).map(mv => ({ id: mvIdentifier(mv.id), hash: mvIdentifier(mv.hash), url: null })).filter(mv => mv.id || mv.hash);
   const hash = mvIdentifier(track.mvhash);
   if (hash && !items.some(item => item.hash === hash)) items.push({ id: null, hash, url: null });
   if (items.length) return { status: 'linked', items };
   return { status: track.mvhash === '' && Array.isArray(track.mvdata) && track.mvdata.length === 0 ? 'none' : 'unknown', items: [] };
+}
+
+export function parseKugouResponse(text) {
+  return JSON.parse(text.replace(/^<!--KG_TAG_RES_START-->/, '').replace(/<!--KG_TAG_RES_END-->$/, ''));
+}
+
+export function kugouEntries(tracks) {
+  return tracks.map(track => ({
+    sourceId: track.hash, rank: Number(track.sort), title: track.songname,
+    artists: track.authors.map(artist => artist.author_name), album: null,
+    artwork: track.album_sizable_cover ? track.album_sizable_cover.replace('{size}', '400').replace(/^http:/, 'https:') : null,
+    url: `https://www.kugou.com/song/#hash=${track.hash}`,
+    sourceMovement: movementFromPrevious(Number(track.sort), track.last_sort, sourceFields(track, ['sort', 'last_sort'])),
+    mv: kugouMV(track),
+  }));
 }
 
 async function qq() {
@@ -145,30 +160,17 @@ async function netease() {
 }
 
 async function kugou() {
-  // The public mobile endpoint returns 30 rows per page. Four pages cover Top 100.
-  const pages = await Promise.all([1, 2, 3, 4].map(page => readPublic(
-    `https://m.kugou.com/rank/info/?rankid=8888&page=${page}&json=true`,
-    { referer: 'https://m.kugou.com/' },
-  )));
-  const period = pages[0].info.rank_id_publish_date;
-  if (pages.some(page => page.info.rank_id_publish_date !== period)) {
-    throw new Error('Kugou chart changed while reading pages; no mixed-period snapshot was saved');
-  }
+  // Mobile HTML pagination can mix independently cached pages despite identical period labels.
+  const data = parseKugouResponse(await readPublic('http://mobilecdn.kugou.com/api/v3/rank/song?version=9108&plat=0&ranktype=0&area_code=1&rankid=8888&page=1&pagesize=100&with_res_tag=0', { format: 'text', referer: 'https://m.kugou.com/' }));
+  if (data.status !== 1) throw new Error(`Kugou returned status ${data.status}`);
+  const rows = data.data.info;
+  const period = rows[0].rank_id_publish_date;
+  if (!period || rows.some((track, index) => track.rank_id_publish_date !== period || Number(track.sort) !== index + 1)) throw new Error('酷狗单次响应中的榜期或名次不一致');
   return {
     // The source gives an unzoned timestamp. Preserve it without inventing a UTC offset.
     sourceUpdatedAt: null,
     sourcePeriod: period,
-    entries: pages.flatMap(page => page.songs.list).slice(0, 100).map((track, index) => ({
-      sourceId: track.hash,
-      title: track.songname,
-      artists: track.authors.map(artist => artist.author_name),
-      album: null,
-      artwork: track.album_sizable_cover ? track.album_sizable_cover.replace('{size}', '400').replace(/^http:/, 'https:') : null,
-      url: track.song_url,
-      rank: index + 1,
-      sourceMovement: movementFromPrevious(Number(track.sort), track.last_sort, sourceFields(track, ['sort', 'last_sort'])),
-      mv: kugouMV(track),
-    })),
+    entries: kugouEntries(rows.slice(0, 100)),
   };
 }
 

@@ -1,0 +1,34 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtemp, mkdir, writeFile, readFile, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { buildAPI } from '../scripts/api.mjs';
+
+test('platform archives have their own dates and never create a historical composite or replace latest', async t => {
+  const root = await mkdtemp(join(tmpdir(), 'resonance-api-test-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const dataDirectory = join(root, 'data');
+  const dist = join(root, 'dist');
+  await mkdir(dataDirectory);
+  await writeFile(join(dataDirectory, 'dates.json'), JSON.stringify({ dates: ['2026-10-23'] }));
+  const source = { id: 'qq', name: 'QQ 音乐', status: 'ok', ingestion: 'public', entries: [{ title: 'Current' }] };
+  const snapshot = { date: '2026-10-23', generatedAt: '2026-10-23T03:00:00Z', mode: 'live', sources: [source], songs: [], coverage: {}, methodology: {} };
+  const provenance = { publisher: 'Public archive', url: 'https://example.com/snapshot', observedAt: '2026-10-15 18:28:32', observedTimeZone: null, committedAt: '2026-10-15T11:06:22Z' };
+  const old = { ...source, date: '2026-10-15', mode: 'live', ingestion: 'backfill', observationType: 'archived-snapshot', provenance, fetchedAt: snapshot.generatedAt, entries: [{ sourceId: null, url: null, archiveUrl: 'https://example.com/song', title: 'Historical' }] };
+  const collision = { ...old, date: snapshot.date };
+  await buildAPI({ dist, dataDirectory, snapshot, status: { sources: [source] }, days: [snapshot], archives: [old, collision] });
+  const read = async path => JSON.parse(await readFile(join(dist, 'api/v1', path), 'utf8'));
+  assert.deepEqual((await read('platforms/qq/index.json')).dates, ['2026-10-23', '2026-10-15']);
+  assert.equal((await read('platforms/qq/2026-10-15.json')).entries[0].title, 'Historical');
+  assert.equal((await read('platforms/qq/2026-10-15.json')).entries[0].sourceId, null);
+  assert.deepEqual((await read('platforms/qq/2026-10-15.json')).provenance, provenance);
+  const historicalEdition = (await read('platforms/qq/index.json')).editions[1];
+  assert.equal(historicalEdition.observationType, 'archived-snapshot');
+  assert.deepEqual(historicalEdition.provenance, provenance);
+  assert.equal(historicalEdition.fetchedAt, snapshot.generatedAt);
+  assert.equal((await read('platforms/qq/2026-10-23.json')).entries[0].title, 'Current');
+  assert.equal((await read('platforms/qq/latest.json')).date, '2026-10-23');
+  assert.deepEqual((await read('dates.json')).dates, ['2026-10-23']);
+  await assert.rejects(() => read('charts/2026-10-15.json'), { code: 'ENOENT' });
+});

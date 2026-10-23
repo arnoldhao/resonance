@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-23",
-  "generatedAt": "2026-10-22T16:32:20.723Z",
+  "generatedAt": "2026-10-23T04:25:57.098Z",
   "description": "共振公开数据接口：综合热歌日榜与周榜、平台原榜、历史快照与采集状态。静态 JSON，无需认证。",
   "endpoints": {
     "latest": "/api/v1/charts/latest.json",
@@ -13,6 +13,7 @@
     "chartByDate": "/api/v1/charts/{date}.json",
     "platformLatest": "/api/v1/platforms/{id}/latest.json",
     "platformByDate": "/api/v1/platforms/{id}/{date}.json",
+    "platformIndex": "/api/v1/platforms/{id}/index.json",
     "weeklyLatest": "/api/v1/weekly/latest.json",
     "weeklyIndex": "/api/v1/weekly/index.json",
     "weeklyByWeek": "/api/v1/weekly/{weekStart}.json"
@@ -36,17 +37,18 @@
       "updatePolicy": "榜单说明为每日更新；未确认固定公布时刻。",
       "access": "官方公开 Web 接口",
       "providerId": "qq",
-      "fetchedAt": "2026-10-22T16:32:20.723Z",
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
       "sourceUpdatedAt": null,
-      "sourcePeriod": "2026-10-22",
+      "sourcePeriod": "2026-10-23",
       "status": "ok",
       "ingestion": "public",
       "message": null,
-      "weight": 0.1333,
+      "weight": 0.25,
       "count": 100,
       "scoringCount": 50,
       "latest": "/api/v1/platforms/qq/latest.json",
-      "byDate": "/api/v1/platforms/qq/{date}.json"
+      "byDate": "/api/v1/platforms/qq/{date}.json",
+      "index": "/api/v1/platforms/qq/index.json"
     },
     {
       "id": "netease",
@@ -61,8 +63,8 @@
       "updatePolicy": "一周内热度统计，当前官方说明为每日更新；未确认固定公布时刻。",
       "access": "官方公开歌单接口",
       "providerId": "netease",
-      "fetchedAt": "2026-10-22T16:32:20.723Z",
-      "sourceUpdatedAt": "2026-10-22T00:45:03.899Z",
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
+      "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
       "sourcePeriod": null,
       "status": "ok",
       "ingestion": "public",
@@ -71,7 +73,8 @@
       "count": 100,
       "scoringCount": 50,
       "latest": "/api/v1/platforms/netease/latest.json",
-      "byDate": "/api/v1/platforms/netease/{date}.json"
+      "byDate": "/api/v1/platforms/netease/{date}.json",
+      "index": "/api/v1/platforms/netease/index.json"
     },
     {
       "id": "kugou",
@@ -84,19 +87,20 @@
       "sourceUrl": "https://m.kugou.com/rank/info/?rankid=8888",
       "frequency": "每日更新",
       "updatePolicy": "官方说明为每天更新；一次响应配置出现 10:00，不能视为永久时间承诺。",
-      "access": "官方移动网页 JSON",
+      "access": "官方榜单 JSON · 单次完整前 100 首",
       "providerId": "kugou",
-      "fetchedAt": "2026-10-22T16:32:20.723Z",
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
       "sourceUpdatedAt": null,
-      "sourcePeriod": "2026-10-22 08:30:01",
+      "sourcePeriod": "2026-10-23 08:30:01",
       "status": "ok",
       "ingestion": "public",
       "message": null,
-      "weight": 0.1333,
+      "weight": 0.2,
       "count": 100,
       "scoringCount": 50,
       "latest": "/api/v1/platforms/kugou/latest.json",
-      "byDate": "/api/v1/platforms/kugou/{date}.json"
+      "byDate": "/api/v1/platforms/kugou/{date}.json",
+      "index": "/api/v1/platforms/kugou/index.json"
     },
     {
       "id": "kuwo",
@@ -111,17 +115,18 @@
       "updatePolicy": "公开接口提供榜单日期；未找到固定频率与公布时刻的一手承诺。",
       "access": "官方公开榜单接口",
       "providerId": "kuwo",
-      "fetchedAt": "2026-10-22T16:32:20.723Z",
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
       "sourceUpdatedAt": null,
       "sourcePeriod": "2026-10-22",
       "status": "ok",
       "ingestion": "public",
       "message": null,
-      "weight": 0.1333,
+      "weight": 0.05,
       "count": 100,
       "scoringCount": 50,
       "latest": "/api/v1/platforms/kuwo/latest.json",
-      "byDate": "/api/v1/platforms/kuwo/{date}.json"
+      "byDate": "/api/v1/platforms/kuwo/{date}.json",
+      "index": "/api/v1/platforms/kuwo/index.json"
     },
     {
       "id": "apple",
@@ -136,17 +141,18 @@
       "updatePolicy": "官方 CN most-played RSS；与 Top 100：中国大陆日更歌单是不同产品，不套用其日更承诺。",
       "access": "官方 RSS · 中国区热门歌曲",
       "providerId": "apple",
-      "fetchedAt": "2026-10-22T16:32:20.723Z",
-      "sourceUpdatedAt": "2026-10-22T16:32:23.000Z",
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
+      "sourceUpdatedAt": "2026-10-23T04:25:58.000Z",
       "sourcePeriod": null,
       "status": "ok",
       "ingestion": "public",
       "message": null,
-      "weight": 0.2,
+      "weight": 0.1,
       "count": 100,
       "scoringCount": 50,
       "latest": "/api/v1/platforms/apple/latest.json",
-      "byDate": "/api/v1/platforms/apple/{date}.json"
+      "byDate": "/api/v1/platforms/apple/{date}.json",
+      "index": "/api/v1/platforms/apple/index.json"
     },
     {
       "id": "qishui",
@@ -162,7 +168,7 @@
       "updatePolicy": "官方响应 period=weekly，共 50 首；本次源发布时间为北京时间周四 16:00，固定时刻尚无长期承诺。每日保存周榜快照。",
       "access": "官方 PC 榜单接口 · 无需 Cookie 或签名",
       "providerId": "qishui",
-      "fetchedAt": "2026-10-22T16:32:20.723Z",
+      "fetchedAt": "2026-10-23T04:25:57.098Z",
       "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
       "sourcePeriod": "weekly",
       "status": "ok",
@@ -172,7 +178,8 @@
       "count": 50,
       "scoringCount": 50,
       "latest": "/api/v1/platforms/qishui/latest.json",
-      "byDate": "/api/v1/platforms/qishui/{date}.json"
+      "byDate": "/api/v1/platforms/qishui/{date}.json",
+      "index": "/api/v1/platforms/qishui/index.json"
     }
   ]
 }
