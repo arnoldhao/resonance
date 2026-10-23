@@ -176,7 +176,7 @@ function showWeeklySong(id) {
   const week = state.weekly;
   const song = week.songs.find((item) => item.id === id);
   const scores = new Map(song.dailyScores.map((day) => [day.date, day.score]));
-  $('#song-detail').innerHTML = `<div class="detail-top"><p class="detail-kicker">RESONANCE / WEEKLY SONG PROFILE${week.mode === 'demo' ? ' · DEMO' : ''}</p><div class="detail-heading">${cover(song)}<div><h2 id="song-dialog-title">${escapeHTML(song.title)}</h2><p>${escapeHTML(artistName(song))}</p></div></div><div class="detail-stats"><div class="detail-stat"><b>#${song.rank}</b><span>本周综合名次</span></div><div class="detail-stat"><b>${number(song.score, 2)}</b><span>有效日平均分</span></div><div class="detail-stat"><b>${song.daysOnChart} / ${week.coverage.observedDays}</b><span>有得分的有效日</span></div></div><p class="detail-combined-movement">综合周榜较上周 ${weeklyChange(song, false)}</p></div><div class="detail-body"><h3>本周的平台信号与 MV</h3><p class="weekly-detail-note">以下为各平台最近纳入周分的记录，实际观察日期单独标注；沿用不会刷新观察时间。原榜较上期与综合周榜较上周分别展示。</p>${song.platforms.map(platform => `<div class="detail-platform"><span class="platform-name">${platformIcon(platform.id)}${escapeHTML(platform.name)}<small>最近观察 ${platform.observedDate}${platform.eligible ? '' : ' · 当日仅原榜展示'}${platform.includedDate && platform.includedDate !== platform.observedDate ? ` · 最近计入 ${platform.includedDate} 日分` : ''}</small>${cacheDetail(platform)}</span><strong>#${platform.rank}</strong>${sourceLink(platform.url, '去听这首 ↗')}<div class="detail-source-metadata"><span class="source-movement-label">较原榜上期：${sourceChange(platform.sourceMovement, false)}</span><span class="detail-mv">${mvDetails(platform.mv)}</span></div></div>`).join('')}<h3 class="weekly-scores-heading">${week.weekStart} — ${week.weekEnd} · ${weekStatusLabels[week.status]}</h3><p class="weekly-detail-note">以下为综合日分值，不是原平台名次；缺失或排除日不参与平均。</p><div class="weekly-daily-scores">${datesInWeek(week.weekStart).map((date) => { const day = weeklyDayInfo(week, date); const score = scores.get(date); return `<div class="weekly-daily-score ${day.type}"><time>${date}</time><span class="weekly-daily-track">${score === undefined ? `<span>${day.label}</span>` : `<i style="width:${Math.max(0, Math.min(100, score))}%"></i>`}</span><strong>${score === undefined ? '·' : number(score, 2)}</strong></div>`; }).join('')}</div><p class="detail-explanation">纳入 ${week.coverage.observedDays} 个有效日。有效日未出现该歌曲，记 0 分；缺失与排除日没有补成 0。${week.status === 'complete' ? '本周数据完整。' : '当前并非完整周结果，请结合覆盖情况阅读。'}</p></div>`;
+  $('#song-detail').innerHTML = `<div class="detail-top"><p class="detail-kicker">RESONANCE / WEEKLY SONG PROFILE${week.mode === 'demo' ? ' · DEMO' : ''}</p><div class="detail-summary"><div class="detail-heading">${cover(song)}<div><h2 id="song-dialog-title">${escapeHTML(song.title)}</h2><p>${escapeHTML(artistName(song))}</p></div></div><div class="detail-stats"><div class="detail-stat"><b>#${song.rank}</b><span>本周综合名次</span></div><div class="detail-stat"><b>${number(song.score, 2)}</b><span>有效日平均分</span></div><div class="detail-stat"><b>${song.daysOnChart} / ${week.coverage.observedDays}</b><span>有得分的有效日</span></div></div></div><p class="detail-combined-movement">综合周榜较上周 ${weeklyChange(song, false)}</p></div><div class="detail-body"><h3>本周的平台信号与 MV</h3><p class="weekly-detail-note">各平台列出最近纳入周分的记录；观察日期与计入日期分别标注。</p><div class="detail-platform-grid">${song.platforms.map(platform => `<div class="detail-platform"><span class="platform-name">${platformIcon(platform.id)}${escapeHTML(platform.name)}<small>最近观察 ${platform.observedDate}${platform.eligible ? '' : ' · 当日仅原榜展示'}${platform.includedDate && platform.includedDate !== platform.observedDate ? ` · 最近计入 ${platform.includedDate} 日分` : ''}</small>${cacheDetail(platform)}</span><strong>#${platform.rank}</strong>${sourceLink(platform.url, '去听这首 ↗')}<div class="detail-source-metadata"><span class="source-movement-label">较原榜上期：${sourceChange(platform.sourceMovement, false)}</span><span class="detail-mv">${mvDetails(platform.mv)}</span></div></div>`).join('')}</div><h3 class="weekly-scores-heading">${week.weekStart} — ${week.weekEnd} · ${weekStatusLabels[week.status]}</h3><p class="weekly-detail-note">以下为综合日分值，不是原平台名次；缺失或排除日不参与平均。</p><div class="weekly-daily-scores">${datesInWeek(week.weekStart).map((date) => { const day = weeklyDayInfo(week, date); const score = scores.get(date); return `<div class="weekly-daily-score ${day.type}"><time>${date}</time><span class="weekly-daily-track">${score === undefined ? `<span>${day.label}</span>` : `<i style="width:${Math.max(0, Math.min(100, score))}%"></i>`}</span><strong>${score === undefined ? '·' : number(score, 2)}</strong></div>`; }).join('')}</div><p class="detail-explanation">纳入 ${week.coverage.observedDays} 个有效日。有效日未出现该歌曲，记 0 分；缺失与排除日没有补成 0。${week.status === 'complete' ? '本周数据完整。' : '当前并非完整周结果，请结合覆盖情况阅读。'}</p></div>`;
   openSongDialog();
 }
 
@@ -239,7 +239,7 @@ function mvLabel(mv) {
 function mvDetails(mv) {
   const links = mv?.status === 'linked' ? mv.items.filter((item) => item.url).map((item, index) => sourceLink(item.url, `观看 MV${mv.items.length > 1 ? ` ${index + 1}` : ''} ↗`, 'mv-watch-link')).join('') : '';
   const identifiers = mv?.status === 'linked' ? mv.items.map((item) => item.id ? `ID ${item.id}` : item.hash ? `Hash ${item.hash}` : '').filter(Boolean) : [];
-  return `<span class="mv-status ${mv?.status === 'linked' ? 'linked' : ''}">${mvLabel(mv)}</span>${links}${identifiers.length ? `<span class="mv-identifiers">${escapeHTML(identifiers.join(' · '))}</span>` : ''}`;
+  return `<span class="mv-status ${mv?.status === 'linked' ? 'linked' : ''}"${identifiers.length ? ` title="${escapeHTML(identifiers.join(' · '))}"` : ''}>${mvLabel(mv)}</span>${links}`;
 }
 
 function platformBadges(platforms) {
@@ -287,8 +287,8 @@ function renderOverview() {
 }
 
 function renderFilters() {
-  const all = state.mode === 'combined' ? '<button class="platform-filter" data-platform="all">全部平台</button>' : '';
-  $('#platform-filters').innerHTML = all + state.snapshot.sources.map((source) => `<button class="platform-filter" data-platform="${source.id}" title="${escapeHTML(source.name)}${source.status === 'stale' ? ` · ${escapeHTML(cacheDescription(source))}` : ''}">${platformIcon(source.id)}${escapeHTML(shortNames[source.id])}</button>`).join('');
+  const all = state.mode === 'combined' ? '<button class="platform-filter" data-platform="all" aria-label="全部平台"><span class="filter-label-full">全部平台</span><span class="filter-label-compact">全部</span></button>' : '';
+  $('#platform-filters').innerHTML = all + state.snapshot.sources.map((source) => `<button class="platform-filter" data-platform="${source.id}" aria-label="${escapeHTML(source.name)}" title="${escapeHTML(source.name)}${source.status === 'stale' ? ` · ${escapeHTML(cacheDescription(source))}` : ''}">${platformIcon(source.id)}<span class="filter-label-full">${escapeHTML(shortNames[source.id])}</span><span class="filter-label-compact">${escapeHTML(source.id === 'apple' ? 'Apple' : shortNames[source.id].replaceAll(' ', ''))}</span></button>`).join('');
   for (const button of document.querySelectorAll('.platform-filter')) {
     const active = button.dataset.platform === state.platform;
     button.classList.toggle('active', active);
@@ -469,7 +469,35 @@ function showSong(id, entryId) {
   if (state.mode === 'platform' && chartSource().ingestion === 'backfill') { showHistoricalSong(entryId); return; }
   const song = findSong(id, entryId);
   const history = [...song.history].sort((a, b) => a.date.localeCompare(b.date)).slice(-7);
-  $('#song-detail').innerHTML = `<div class="detail-top"><p class="detail-kicker">RESONANCE / SONG PROFILE${state.snapshot.mode === 'demo' ? ' · DEMO' : ''}</p><div class="detail-heading">${cover(song)}<div><h2 id="song-dialog-title">${escapeHTML(song.title)}</h2><p>${escapeHTML(artistName(song))}</p></div></div><div class="detail-stats"><div class="detail-stat"><b>${song.rank === null ? '·' : `#${song.rank}`}</b><span>本期综合名次</span></div><div class="detail-stat"><b>${song.score === null ? '·' : number(song.score)}</b><span>共振值 / 100</span></div><div class="detail-stat"><b>${song.appearances}</b><span>个平台共同上榜</span></div></div>${song.rank === null ? '' : `<p class="detail-combined-movement">综合榜较昨日 ${change(song)}</p>`}</div><div class="detail-body"><h3>每一份信号，都有来处</h3>${song.platforms.map((platform) => { const source = currentSource(platform.id); const eligible = platform.rank <= state.snapshot.methodology.rankDepth; const contribution = platform.contribution ?? (eligible ? 100 * source.weight * (0.9 * Math.exp(-(platform.rank - 1) / 25) + 0.1) : 0); return `<div class="detail-platform"><span class="platform-name">${platformIcon(platform.id)}${escapeHTML(platform.name)}<small>权重 ${number(source.weight * 100, 1)}% · 贡献 ${number(contribution, 2)} 分${eligible ? '' : ' · 仅原榜展示'}</small>${cacheDetail(source)}</span><strong>#${platform.rank}</strong>${sourceLink(platform.url, '去听这首 ↗')}<div class="detail-source-metadata"><span class="source-movement-label">较原榜上期：${sourceChange(platform.sourceMovement, false)}</span><span class="detail-mv">${mvDetails(platform.mv)}</span></div></div>`; }).join('')}<p class="detail-explanation">原榜变化来自平台上期榜单，与综合榜较昨日变化独立。MV 关联不承诺可播放；缺少历史字段时显示未记录。平台单项信号 p(r) = 0.9 × exp(−(r−1)/25) + 0.1。每项信号乘以本期平台权重后求和，再乘 100 得到共振值。未进入某平台前 ${state.snapshot.methodology.rankDepth} 名的贡献为 0。${song.score === null ? '这首歌未进入本期发布的综合榜，仍保留原平台记录。' : ''}<a href="#method" data-close-dialog> 了解完整方法 ↗</a></p><div class="detail-trend"><h3>最近 ${history.length} 期 · 综合名次</h3>${trend(history, true)}${history.length > 1 ? `<div class="detail-trend-labels"><span>${history[0].date}</span><span>越高，名次越靠前</span><span>${history.at(-1).date}</span></div>` : ''}</div></div>`;
+  const platforms = song.platforms.map((platform) => {
+    const source = currentSource(platform.id);
+    const eligible = platform.rank <= state.snapshot.methodology.rankDepth;
+    const contribution = platform.contribution ?? (eligible ? 100 * source.weight * (0.9 * Math.exp(-(platform.rank - 1) / 25) + 0.1) : 0);
+    return `<div class="detail-platform">
+      <span class="platform-name">${platformIcon(platform.id)}${escapeHTML(platform.name)}<small>权重 ${number(source.weight * 100, 1)}% · 贡献 ${number(contribution, 2)} 分${eligible ? '' : ' · 仅原榜展示'}</small>${cacheDetail(source)}</span>
+      <strong>#${platform.rank}</strong>${sourceLink(platform.url, '去听这首 ↗')}
+      <div class="detail-source-metadata"><span class="source-movement-label">较原榜上期：${sourceChange(platform.sourceMovement, false)}</span><span class="detail-mv">${mvDetails(platform.mv)}</span></div>
+    </div>`;
+  }).join('');
+  $('#song-detail').innerHTML = `<div class="detail-top">
+    <p class="detail-kicker">RESONANCE / SONG PROFILE${state.snapshot.mode === 'demo' ? ' · DEMO' : ''}</p>
+    <div class="detail-summary">
+      <div class="detail-heading">${cover(song)}<div><h2 id="song-dialog-title">${escapeHTML(song.title)}</h2><p>${escapeHTML(artistName(song))}</p></div></div>
+      <div class="detail-stats">
+        <div class="detail-stat"><b>${song.rank === null ? '·' : `#${song.rank}`}</b><span>本期综合名次</span></div>
+        <div class="detail-stat"><b>${song.score === null ? '·' : number(song.score)}</b><span>共振值 / 100</span></div>
+        <div class="detail-stat"><b>${song.appearances}</b><span>个平台上榜</span></div>
+      </div>
+    </div>
+    ${song.rank === null ? '' : `<p class="detail-combined-movement">综合榜较昨日 ${change(song)}</p>`}
+  </div><div class="detail-body">
+    <h3>各平台表现与综合贡献</h3>
+    <div class="detail-platform-grid">${platforms}</div>
+    <div class="detail-footer">
+      <p class="detail-explanation">各卡片分值为对综合榜的贡献，仅平台前 ${state.snapshot.methodology.rankDepth} 名计分。原榜涨跌与综合榜涨跌分别计算。${song.score === null ? '这首歌未进入本期综合榜，仍保留原榜记录。' : ''}<a href="#method" data-close-dialog>计算方法 ↗</a></p>
+      <div class="detail-trend"><h3>最近 ${history.length} 期 · 综合名次</h3>${trend(history, true)}${history.length > 1 ? `<div class="detail-trend-labels"><span>${history[0].date}</span><span>${history.at(-1).date}</span></div>` : ''}</div>
+    </div>
+  </div>`;
   openSongDialog();
 }
 
