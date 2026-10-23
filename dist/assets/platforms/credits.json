@@ -1,0 +1,26 @@
+[
+  {
+    "assets": [
+      "qq",
+      "netease",
+      "kugou",
+      "kuwo",
+      "qishui"
+    ],
+    "author": "Proify, Tomakino / LyricProvider",
+    "source": "https://github.com/tomakino/LyricProvider/tree/be4c131f9303966e2bb146c3e7c0665cf69585cb",
+    "license": "Apache-2.0",
+    "adaptation": "Android vector pathData converted to monochrome SVG; adaptive-icon group padding omitted."
+  },
+  {
+    "assets": [
+      "apple"
+    ],
+    "author": "Simple Icons contributors",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/applemusic.svg",
+    "licenseReference": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    "snapshotDate": "2026-10-23",
+    "embeddedSvgSha256": "475eeb3b52e86a17cbd5a8e187b5aaf60ff377ebc244fa4fe42210ec8d086b49",
+    "adaptation": "Original filled brand path retained; white fill for monochrome display; optical size 32px in a 36px slot."
+  }
+]

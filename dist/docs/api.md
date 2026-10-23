@@ -38,10 +38,10 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 顶层字段包括 `schemaVersion`、`mode`、`date`、`generatedAt`、`methodology`、`comparisonSignature`、`coverage`、`sources`、`songs`。
 
 - `mode`：`live` 为实际采集或显式导入，`demo` 为示例。
-- `coverage`：可用平台、独立来源组及覆盖状态；`complete` 为全部来源可用，`partial` 为部分覆盖。
+- `coverage`：可用平台、独立来源组及覆盖状态；`available = fresh + cached`，`fresh/cached` 是本次成功/历史沿用的平台数量。`complete` 为全部来源可计分（可能包含沿用），`partial` 为部分覆盖；`comparisonUsesCache` 标记日榜比较涉及沿用。
 - `sources`：平台元数据、状态和有效权重，不含完整原榜条目。
 - `songs`：按综合排名排序，包含 `id/title/artists/artwork/rank/score/platforms/history/combinedMovement`。
-- `platforms`：对应原榜的 `sourceId/rank/url/eligible/score/contribution/sourceMovement/mv`。
+- `platforms`：对应原榜的 `sourceId/rank/url/eligible/score/contribution/sourceMovement/mv`，以及 `status/ingestion/fetchedAt/observedDate/sourceUpdatedAt/sourcePeriod/attemptedAt/collectionError/cacheOrigin`；观察来源信息随歌曲保留。
 - `appearances` / `scoringAppearances`：原榜出现平台数 / 计分平台数。
 
 `score` 为综合指数，`contribution` 为平台加权贡献。公式和比较条件见[日榜方法](methodology.md)；历史数据按自己的 `methodology` 解释。
@@ -51,16 +51,27 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 周次目录的 `weeks` 包含 `weekStart/weekEnd/status/observedDays`。周榜包含 `coverage`、`songs`、`methodology`，以及：
 
 - `status`：`provisional` 周预览、`complete` 完整周、`incomplete` 缺日周。
-- `coverage.includedDates/missingDates/excludedDates`：有效、缺失和排除日期；`sourceCoverage` 披露来源覆盖。
+- `coverage.includedDates/cachedDates/missingDates/excludedDates`：有效、使用历史沿用、缺失和排除日期；`sourceCoverage` 披露最新日榜来源覆盖，含 `fresh/cached` 数量；`comparisonUsesCache` 标记周榜比较涉及沿用。
 - `songs[].dailyScores/daysOnChart`：有效日分数和获得正分的天数。
 - `songs[].weeklyMovement`：综合周榜相对上周的变化。
-- `songs[].platforms[].observedDate`：该平台元数据最近一次观察日期。
+- `songs[].platforms[].observedDate`：该平台元数据真实观察日期，沿用不刷新；`includedDate` 是最近采用这份观察计算日分的日期。
 
 周榜平台名次是该观察日的名次，周得分是有效日平均分。完整规则见[周榜方法](weekly.md)。
 
 ## 平台原榜与历史
 
 平台响应包含 `id/name/chartName/sourceUrl/status/count/ingestion/entries`。`fetchedAt` 是实际采集时间，`sourceUpdatedAt` 是平台明确给出的更新时间，`sourcePeriod` 是榜期原文。
+
+| 来源状态 | 是否参与已发布日分 | 含义 |
+| --- | --- | --- |
+| `ok` | 是 | 本次成功采集或显式导入完整榜单 |
+| `stale` | 是 | 本次失败，沿用仍在有效窗口内的最近真实成功观察 |
+| `error` | 否 | 本次失败且没有可沿用的完整观察 |
+| `disabled` | 否 | 配置中未启用且没有显式导入 |
+
+`stale` 使用 `ingestion: cache`；`attemptedAt` 是失败尝试时间，`collectionError` 保留失败原因。`cacheOrigin` 为 `{date, generatedAt, path, ingestion}`，指向原始成功观察的日榜或 run，`ingestion` 保留原 `public/import`。原 `fetchedAt/sourceUpdatedAt/sourcePeriod` 不变，不能用 `attemptedAt` 或发布日延长有效期。没有成功观察的 `error` 来源 `fetchedAt` 为 `null`。发布快照中的日期是采用该观察的日榜日期，不一定等于来源观察日期。来源目录摘要同样保留时间、状态和缓存溯源字段；API 不将 `stale` 裁成空榜。
+
+这些字段自日榜方法 v1.3、周榜方法 weekly-1.1 开始提供；旧归档没有 `fresh/cached/cacheOrigin` 时按其原方法解释，不反推当时不存在的沿用状态。
 
 `entries` 按原榜名次排列，包含 `rank/sourceId/songId/title/artists/album/artwork/url/sourceMovement/mv`。`songId` 对应综合榜的 `id`；原榜歌曲不一定进入综合 Top 100。
 

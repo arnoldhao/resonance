@@ -2,11 +2,11 @@
   "weekStart": "2026-10-19",
   "weekEnd": "2026-10-25",
   "mode": "live",
-  "generatedAt": "2026-10-23T06:02:10.765Z",
+  "generatedAt": "2026-10-23T07:35:06.706Z",
   "asOfDate": "2026-10-23",
   "status": "provisional",
   "methodology": {
-    "version": "weekly-1.0",
+    "version": "weekly-1.1",
     "baseVersion": "1.2",
     "formula": "周得分 = 同口径有效日得分之和 ÷ 有效天数；有效日未进入计分窗口记 0，缺失日与排除日不进入分母",
     "rankDepth": 50,
@@ -32,6 +32,7 @@
     "includedDates": [
       "2026-10-23"
     ],
+    "cachedDates": [],
     "missingDates": [
       "2026-10-19",
       "2026-10-20",
@@ -43,6 +44,7 @@
     "excludedDates": [],
     "latestIncludedDate": "2026-10-23",
     "comparisonAvailable": false,
+    "comparisonUsesCache": false,
     "sourceCoverage": {
       "available": 4,
       "expected": 6,
@@ -87,9 +89,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -120,9 +129,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -159,9 +175,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -184,9 +207,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -240,9 +270,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -273,9 +310,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -312,9 +356,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -337,9 +388,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -393,9 +451,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -420,9 +485,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -459,9 +531,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -515,9 +594,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -548,9 +634,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -587,9 +680,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -612,9 +712,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -668,9 +775,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -701,9 +815,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -740,9 +861,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -765,9 +893,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -821,9 +956,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -854,9 +996,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -893,9 +1042,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -918,9 +1074,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -974,9 +1137,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -1007,9 +1177,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -1046,9 +1223,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -1071,9 +1255,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -1128,9 +1319,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -1167,9 +1365,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -1192,9 +1397,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -1248,9 +1460,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -1281,9 +1500,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -1306,9 +1532,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -1362,9 +1595,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -1395,9 +1635,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -1434,9 +1681,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -1490,9 +1744,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -1523,9 +1784,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -1562,9 +1830,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -1587,9 +1862,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -1643,9 +1925,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -1676,9 +1965,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -1701,9 +1997,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -1757,9 +2060,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -1784,9 +2094,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -1823,9 +2140,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -1878,9 +2202,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -1934,9 +2265,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -1967,9 +2305,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -2006,9 +2351,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2061,9 +2413,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2117,9 +2476,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -2156,9 +2522,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2212,9 +2585,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -2239,9 +2619,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -2273,9 +2660,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2328,9 +2722,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2384,9 +2785,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -2411,9 +2819,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -2450,9 +2865,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -2475,9 +2897,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2531,9 +2960,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -2564,9 +3000,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -2603,9 +3046,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2659,9 +3109,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -2698,9 +3155,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -2723,9 +3187,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2779,9 +3250,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2836,9 +3314,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -2861,9 +3346,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2916,9 +3408,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -2972,9 +3471,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -3011,9 +3517,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -3036,9 +3549,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3092,9 +3612,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3148,9 +3675,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3204,9 +3738,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -3243,9 +3784,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3298,9 +3846,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3354,9 +3909,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -3393,9 +3955,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3448,9 +4017,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3505,9 +4081,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -3544,9 +4127,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3600,9 +4190,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -3639,9 +4236,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -3664,9 +4268,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3719,9 +4330,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3775,9 +4393,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -3802,9 +4427,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3864,9 +4496,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3920,9 +4559,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -3976,9 +4622,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -4009,9 +4662,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -4048,9 +4708,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4115,9 +4782,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4171,9 +4845,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -4204,9 +4885,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4260,9 +4948,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -4293,9 +4988,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -4332,9 +5034,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4388,9 +5097,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -4427,9 +5143,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4482,9 +5205,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4538,9 +5268,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -4577,9 +5314,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -4602,9 +5346,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4657,9 +5408,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4713,9 +5471,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -4741,9 +5506,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4803,9 +5575,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4859,9 +5638,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -4898,9 +5684,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -4923,9 +5716,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -4979,9 +5779,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -5018,9 +5825,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -5043,9 +5857,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5100,9 +5921,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5156,9 +5984,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -5189,9 +6024,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -5228,9 +6070,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5290,9 +6139,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5352,9 +6208,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5409,9 +6272,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -5436,9 +6306,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -5475,9 +6352,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5530,9 +6414,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5592,9 +6483,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5648,9 +6546,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -5681,9 +6586,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -5720,9 +6632,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5775,9 +6694,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5831,9 +6757,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5893,9 +6826,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -5949,9 +6889,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -5982,9 +6929,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -6021,9 +6975,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6082,9 +7043,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6144,9 +7112,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6200,9 +7175,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -6239,9 +7221,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -6264,9 +7253,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6320,9 +7316,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -6353,9 +7356,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -6378,9 +7388,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6440,9 +7457,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6496,9 +7520,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -6529,9 +7560,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -6568,9 +7606,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6630,9 +7675,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6685,9 +7737,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6746,9 +7805,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6807,9 +7873,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6869,9 +7942,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -6925,9 +8005,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -6964,9 +8051,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -6989,9 +8083,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7051,9 +8152,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7114,9 +8222,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7169,9 +8284,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7225,9 +8347,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7287,9 +8416,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7343,9 +8479,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "netease",
@@ -7376,9 +8519,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7432,9 +8582,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7488,9 +8645,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -7527,9 +8691,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7580,9 +8751,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7636,9 +8814,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -7670,9 +8855,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7723,9 +8915,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7790,9 +8989,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7845,9 +9051,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7902,9 +9115,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -7964,9 +9184,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8020,9 +9247,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -8059,9 +9293,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -8084,9 +9325,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8139,9 +9387,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -8178,9 +9433,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -8203,9 +9465,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8264,9 +9533,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -8303,9 +9579,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "apple",
@@ -8328,9 +9611,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8389,9 +9679,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8444,9 +9741,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8501,9 +9805,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8557,9 +9868,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -8596,9 +9914,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8651,9 +9976,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         },
         {
           "id": "kugou",
@@ -8690,9 +10022,16 @@
               }
             ]
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": null,
           "sourcePeriod": "2026-10-23 08:30:01",
-          "sourceUpdatedAt": null
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8743,9 +10082,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8796,9 +10142,16 @@
             "status": "unknown",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T06:02:09.000Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [
@@ -8851,9 +10204,16 @@
             "status": "none",
             "items": []
           },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-23T06:02:07.652Z",
           "observedDate": "2026-10-23",
+          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z",
           "sourcePeriod": null,
-          "sourceUpdatedAt": "2026-10-23T00:28:09.282Z"
+          "attemptedAt": null,
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-23"
         }
       ],
       "dailyScores": [

@@ -44,7 +44,7 @@
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "title": "共振 · 2026-10-19—2026-10-25 本周预览",
-      "content_text": "本周预览：2026-10-19—2026-10-25。\n有效 1/7 天；6 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.0（日榜 1.2）。\n1. 我不难过 — 孙燕姿 · 95.92 分\n2. 天龙八部之宿敌 — 许嵩 · 85.70 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.95 分\n4. 恋人 — 李荣浩 · 62.97 分\n5. 雨爱 — 杨丞琳 · 55.53 分\n6. 我怀念的 — 孙燕姿 · 54.99 分\n7. 开始懂了 — 孙燕姿 · 53.81 分\n8. NEON — A2O LITE / A2O · 48.96 分\n9. 玻璃 — Gareth.T · 40.10 分\n10. 幻听 — 许嵩 · 38.32 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
+      "content_text": "本周预览：2026-10-19—2026-10-25。\n有效 1/7 天；6 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.1（日榜 1.2）。\n1. 我不难过 — 孙燕姿 · 95.92 分\n2. 天龙八部之宿敌 — 许嵩 · 85.70 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.95 分\n4. 恋人 — 李荣浩 · 62.97 分\n5. 雨爱 — 杨丞琳 · 55.53 分\n6. 我怀念的 — 孙燕姿 · 54.99 分\n7. 开始懂了 — 孙燕姿 · 53.81 分\n8. NEON — A2O LITE / A2O · 48.96 分\n9. 玻璃 — Gareth.T · 40.10 分\n10. 幻听 — 许嵩 · 38.32 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "date_published": "2026-10-23T03:18:23.844Z",
       "date_modified": "2026-10-23T06:02:07.652Z",
       "tags": [
@@ -57,8 +57,8 @@
         "weekStart": "2026-10-19",
         "weekEnd": "2026-10-25",
         "status": "provisional",
-        "revision": "9b2df734e13e654fa34590cdeef97bfd4b6532a75c4018ca24eae4e686537862",
-        "methodologyVersion": "weekly-1.0",
+        "revision": "897931450986bc79e8dcd1c7d8b0e671da31c96780bbb794dad240bcebf2a7cf",
+        "methodologyVersion": "weekly-1.1",
         "baseMethodologyVersion": "1.2",
         "coverage": {
           "observedDays": 1,
@@ -66,6 +66,7 @@
           "includedDates": [
             "2026-10-23"
           ],
+          "cachedDates": [],
           "missingDates": [
             "2026-10-19",
             "2026-10-20",
@@ -77,6 +78,7 @@
           "excludedDates": [],
           "latestIncludedDate": "2026-10-23",
           "comparisonAvailable": false,
+          "comparisonUsesCache": false,
           "sourceCoverage": {
             "available": 4,
             "expected": 6,
