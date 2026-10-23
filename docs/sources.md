@@ -13,6 +13,8 @@
 
 公开采集请求的单次超时为 **60 秒**，各平台并行采集，不自动重试。超过时限后按下述历史沿用规则处理，采集步骤仍报告失败。
 
+Actions 使用 Node 的 `--network-family-autoselection-attempt-timeout=2000`，给每个候选 IP 的连接尝试留出 2 秒。[Node 22 默认值为 250 毫秒](https://github.com/nodejs/node/blob/v22.x/doc/api/net.md#netgetdefaultautoselectfamilyattempttimeout)，跨境连接可能在单次请求的 60 秒总时限之前因地址尝试超时而失败。这项配置调整连接阶段的等待时间，继续使用现有的 IPv4 / IPv6 地址选择机制。
+
 ## 时间与历史
 
 - `fetchedAt`：实际采集时间。
@@ -45,3 +47,5 @@
 采集器现明确使用 Web 模式，并在来源元数据中记录同一请求地址。GitHub 托管 runner 可继续使用现有工作流；榜单 ID、周榜周期和完整 50 首的检查保持原要求。
 
 [16:31 的 Actions 运行](https://github.com/arnoldhao/resonance/actions/runs/39925215015)中，汽水采集成功，Apple RSS 请求触发原有的 20 秒超时，沿用 15:39 的成功观察。采集步骤耗时约 21 秒，与该超时边界吻合。单次公开请求时限现放宽到 60 秒，为偶发慢响应保留余量；历史沿用、数据完整性和失败判定规则保持原要求。
+
+[16:38 的 Actions 运行](https://github.com/arnoldhao/resonance/actions/runs/39926041873)中，酷我返回两个 IPv4 地址的 `connect ETIMEDOUT`，以及两个 IPv6 地址的 `ENETUNREACH`。整个采集步骤仅耗时约 2 秒，未触及 60 秒请求总时限。这与 Node 默认 250 毫秒的候选地址连接窗口过短、IPv6 无可用路由的情况吻合；据此将 Actions 中的地址连接窗口放宽到 2 秒，效果待后续采集确认。该日志不能单独证明酷我主动限制 GitHub IP。

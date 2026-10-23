@@ -43,6 +43,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
+      # Node's 250 ms per-address deadline can expire on overseas-to-China connections.
+      NODE_OPTIONS: '--network-family-autoselection-attempt-timeout=2000'
       FEED_PRODUCTION: 'true'
       SITE_URL: ${{ vars.SITE_URL }}
       WEBSUB_HUB_URL: ${{ vars.WEBSUB_HUB_URL }}
