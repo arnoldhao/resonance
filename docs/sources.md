@@ -7,7 +7,7 @@
 | 酷狗音乐 | [TOP500](https://www.kugou.com/yy/rank/home/1-8888.html) | `8888` | 100 | 每日 |
 | 酷我音乐 | [热歌榜](https://m.kuwo.cn/newh5app/ranklist) | `16` | 100 | 保存平台返回的日期期次 |
 | Apple Music | [中国区 most-played RSS](https://rss.marketingtools.apple.com/api/v2/cn/music/most-played/100/songs.json) | `cn/music/most-played` | 100 | 以 RSS 时间为准 |
-| 汽水音乐 | [官方热歌周榜](https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn) | `7036274230471712007` | 50 | 每周 |
+| 汽水音乐 | [官方热歌周榜](https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn&device_platform=web) | `7036274230471712007` | 50 | 每周 |
 
 北京时间 **09:17、15:17、21:17** 计划采样，GitHub Actions 实际运行可能延迟。采样时间不等于平台发榜时间；没有确认的固定发榜时刻不作推定。Apple RSS 与「Top 100：中国大陆」歌单是不同产品，汽水每天采样仍保持周榜口径。
 
@@ -35,3 +35,9 @@
 ### 2026-10-23 失败记录
 
 [14:02 的 Actions 运行](https://github.com/arnoldhao/resonance/actions/runs/39909072896)中，酷我记录 `fetch failed`，汽水触发完整 Top 50 检查。原日志未保存网络底层原因或汽水声明/实收数量，无法据此判定平台永久变更。此前 12:25 的同日观察中两平台均完整成功；诊断时同一公开接口再次分别返回 100、50 首。采集器现保留网络原因代码与汽水声明数量、实收数量、源榜期、状态信息，以便下次定位；完整性门槛继续保留。
+
+[15:39 的 Actions 运行](https://github.com/arnoldhao/resonance/actions/runs/39919174890)进一步记录汽水 `declared=30, received=30`。接口在未指定 `device_platform` 的原生客户端模式下，会根据境外访问筛选并重排歌曲。同一榜期在大陆取得 50 首，新加坡出口取得 30 首；两份列表只有 27 首重合，不能将境外列表当作大陆榜的前 30 名。
+
+请求增加 `device_platform=web` 后，同一新加坡出口的响应仍为 `luna-region: SG`，但 `luna-abroad-type` 从 `2` 变为 `0`，声明数量和实际条目均恢复为 50。歌曲 ID、顺序、榜期与大陆响应一致，`check_sum` 均为 `9e6ca8859546fbbd984579bcaaefae35`（`release_time=1792656000`）。取证通过外部读取服务对照网络出口；生产采集直接请求官方接口。
+
+采集器现明确使用 Web 模式，并在来源元数据中记录同一请求地址。GitHub 托管 runner 可继续使用现有工作流；榜单 ID、周榜周期和完整 50 首的检查保持原要求。

@@ -1,5 +1,8 @@
 import { readPublic } from './http.mjs';
 
+// Native mode filters and reorders charts for overseas IPs; Web mode returns the complete chart.
+const qishuiChartURL = 'https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn&device_platform=web';
+
 /** Source metadata is published alongside every edition. Times are never guessed. */
 export const providers = [
   {
@@ -40,10 +43,10 @@ export const providers = [
   },
   {
     id: 'qishui', name: '汽水音乐', chartName: '热歌榜 · 周榜 Top 50', group: 'qishui', enabled: true,
-    sourceUrl: 'https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn',
+    sourceUrl: qishuiChartURL,
     collectionDepth: 50, maxAgeHours: 216, period: 'weekly', frequency: '每周更新',
     updatePolicy: '官方响应 period=weekly，共 50 首；本次源发布时间为北京时间周四 16:00，固定时刻尚无长期承诺。每日保存周榜快照。',
-    access: '官方 PC 榜单接口 · 无需 Cookie 或签名',
+    access: '官方榜单接口 · Web 模式 · 无需 Cookie 或签名',
   },
 ];
 
@@ -218,7 +221,7 @@ async function apple() {
 }
 
 async function qishui() {
-  const data = await readPublic('https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn');
+  const data = await readPublic(qishuiChartURL);
   // Successful chart responses omit status_code; error responses may include it.
   if (data.status_code !== undefined && data.status_code !== 0) throw new Error(`Qishui returned code ${data.status_code}`);
   const chart = data.chart;
