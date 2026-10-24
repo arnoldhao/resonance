@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { buildAPI } from './api.mjs';
 import { buildFeed } from './feeds.mjs';
 import { buildWeeklyCharts, buildMonthlyCharts } from './weekly.mjs';
-import { chinaDate, priorDate, withPlatformMovements, buildMovementChart } from './ranking.mjs';
+import { chinaDate, priorDate, withPlatformMovements, withSongHistory, buildMovementChart } from './ranking.mjs';
 import { buildCadenceReport } from './cadence.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -29,7 +29,8 @@ const { dates } = JSON.parse(await readFile(resolve(dataDirectory, 'dates.json')
 const rawDays = await Promise.all(dates.map(date => readFile(resolve(dataDirectory, 'daily', `${date}.json`), 'utf8').then(JSON.parse)));
 const days = [];
 for (const day of rawDays.sort((a, b) => a.date.localeCompare(b.date))) {
-  days.push(withPlatformMovements(day, days.find(previous => previous.date === priorDate(day.date))));
+  const decorated = withPlatformMovements(day, days.find(previous => previous.date === priorDate(day.date)));
+  days.push(withSongHistory(decorated, days));
 }
 snapshot = days.find(day => day.date === snapshot.date);
 await Promise.all([

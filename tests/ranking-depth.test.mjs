@@ -89,6 +89,35 @@ test('weekly and monthly rebuilding use the saved platform windows and tail curv
   }
 });
 
+test('October 23 remains in weekly, monthly and song history after the October 24 method upgrade', () => {
+  const previousDate = '2026-10-23';
+  const previous = snapshot({
+    date: previousDate, rule: legacyRule,
+    sources: sources().map(source => ({ ...source, collectionDepth: 100, fetchedAt: `${previousDate}T05:00:00.000Z`, sourcePeriod: previousDate, entries: source.entries.slice(0, 100) })),
+  });
+  const savedPrevious = JSON.stringify(previous);
+  const current = snapshot({ previous, history: [previous] });
+  const song = current.songs.find(song => song.title === 'Shared recording');
+  const previousSong = previous.songs.find(candidate => candidate.id === song.id);
+  assert.equal(current.coverage.comparisonAvailable, false);
+  assert.deepEqual(song.history.map(point => [point.date, point.methodologyVersion]), [[previousDate, '1.3'], [date, '1.4']]);
+  assert.equal(song.history[0].score, previousSong.score);
+  for (const build of [buildWeeklyCharts, buildMonthlyCharts]) {
+    const period = build({ days: [previous, current], asOfDate: date })[0];
+    const aggregate = period.songs.find(candidate => candidate.id === song.id);
+    assert.deepEqual(period.coverage.includedDates, [previousDate, date]);
+    assert.equal(period.coverage.observedDays, 2);
+    assert.deepEqual(period.coverage.excludedDates, []);
+    assert.deepEqual(period.methodology.baseVersions, ['1.3', '1.4']);
+    assert.equal(period.coverage.mixedMethods, true);
+    assert.equal(period.comparisonSignature, null);
+    assert.equal(period.coverage.comparisonAvailable, false);
+    assert.deepEqual(aggregate.dailyScores, [{ date: previousDate, score: previousSong.score }, { date, score: song.score }]);
+    assert.ok(Math.abs(aggregate.score - (previousSong.score + song.score) / 2) < 0.0002);
+  }
+  assert.equal(JSON.stringify(previous), savedPrevious);
+});
+
 test('method or scoring-window changes do not fabricate a comparable daily movement', () => {
   const previousDate = '2026-10-23';
   const previous = snapshot({ date: previousDate, rule: legacyRule });

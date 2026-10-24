@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-24",
-  "revision": "a8eb923076beae65bfe08e2e5d67495b4a3c2814fe2325ac5b7d60c9ca9c270f",
+  "revision": "d70e7dd1ede80b033bb8cc1651c0115f3892b396cbe353d2ad5f1b843a5932dd",
   "updatedAt": "2026-10-24T08:56:37.066Z",
   "siteUrl": "https://resonance.dreamapp.cc",
   "feedUrl": "https://resonance.dreamapp.cc/feed.xml",
@@ -14,7 +14,7 @@
       "kind": "daily",
       "date": "2026-10-24",
       "mode": "live",
-      "revision": "0799c97430c8a16f2d2304b6b9383061beb74ef98dd2d2e06c6b944b5554cb02",
+      "revision": "85e83f88a7a695f6a25c8193937269eb199d2afbf1c25e6b153b5230cd934431",
       "publishedAt": "2026-10-23T17:52:46.060Z",
       "updatedAt": "2026-10-24T08:56:37.066Z",
       "title": "共振 · 2026-10-24 综合热歌榜",
@@ -134,15 +134,16 @@
       "monthEnd": "2026-10-31",
       "mode": "live",
       "status": "provisional",
-      "revision": "b2f2e965581d2f21b55d19eae5b4b920570bd5af1e142aa25dd45403de9ef3a8",
-      "publishedAt": "2026-10-23T17:52:46.060Z",
+      "revision": "ea92aa24a55e194437cfa9ebb1959769ac22784a707ebb8c688c837ba743c0bb",
+      "publishedAt": "2026-10-23T03:18:23.844Z",
       "updatedAt": "2026-10-24T08:56:37.066Z",
       "title": "共振 · 2026-10-01—2026-10-31 本月预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
       "coverage": {
-        "observedDays": 1,
+        "observedDays": 2,
         "expectedDays": 31,
         "includedDates": [
+          "2026-10-23",
           "2026-10-24"
         ],
         "cachedDates": [],
@@ -177,13 +178,10 @@
           "2026-10-30",
           "2026-10-31"
         ],
-        "excludedDates": [
-          {
-            "date": "2026-10-23",
-            "reason": "与本月最新日榜的比较口径不同"
-          }
-        ],
+        "excludedDates": [],
         "latestIncludedDate": "2026-10-24",
+        "mixedMethods": true,
+        "mixedSignatures": true,
         "comparisonAvailable": false,
         "comparisonUsesCache": false,
         "sourceCoverage": {
@@ -196,8 +194,12 @@
           "status": "complete"
         }
       },
-      "methodologyVersion": "monthly-1.0",
-      "baseMethodologyVersion": "1.4",
+      "methodologyVersion": "monthly-1.1",
+      "baseMethodologyVersion": null,
+      "baseMethodologyVersions": [
+        "1.3",
+        "1.4"
+      ],
       "topTen": [
         {
           "rank": 1,
@@ -206,7 +208,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 92.481
+          "score": 92.8882
         },
         {
           "rank": 2,
@@ -215,7 +217,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 82.4875
+          "score": 82.3477
         },
         {
           "rank": 3,
@@ -224,25 +226,25 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 76.2097
+          "score": 76.601
         },
         {
           "rank": 4,
-          "id": "8c0daa3d1077edcbc6c8",
-          "title": "我怀念的",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 57.5133
-        },
-        {
-          "rank": 5,
           "id": "1c4e1a4066e20511f7ab",
           "title": "恋人",
           "artists": [
             "李荣浩"
           ],
-          "score": 53.1399
+          "score": 56.7695
+        },
+        {
+          "rank": 5,
+          "id": "8c0daa3d1077edcbc6c8",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 55.244
         },
         {
           "rank": 6,
@@ -251,7 +253,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 52.3586
+          "score": 53.3311
         },
         {
           "rank": 7,
@@ -260,7 +262,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 47.698
+          "score": 48.5717
         },
         {
           "rank": 8,
@@ -269,7 +271,7 @@
           "artists": [
             "梁静茹"
           ],
-          "score": 45.6431
+          "score": 42.735
         },
         {
           "rank": 9,
@@ -279,7 +281,7 @@
             "A2O LITE",
             "A2O"
           ],
-          "score": 39.2195
+          "score": 40.4197
         },
         {
           "rank": 10,
@@ -288,10 +290,10 @@
           "artists": [
             "Suki刘舒妤"
           ],
-          "score": 35.7555
+          "score": 35.2955
         }
       ],
-      "summary": "本月预览：2026-10-01—2026-10-31。\n有效 1/31 天；29 天无日快照（含尚未来到的日期），排除 1 天；方法 monthly-1.0（日榜 1.4）。\n1. 我不难过 — 孙燕姿 · 92.48 分\n2. 天龙八部之宿敌 — 许嵩 · 82.49 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.21 分\n4. 我怀念的 — 孙燕姿 · 57.51 分\n5. 恋人 — 李荣浩 · 53.14 分\n6. 雨爱 — 杨丞琳 · 52.36 分\n7. 开始懂了 — 孙燕姿 · 47.70 分\n8. 情歌 — 梁静茹 · 45.64 分\n9. NEON — A2O LITE / A2O · 39.22 分\n10. 失眠 — Suki刘舒妤 · 35.76 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json"
+      "summary": "本月预览：2026-10-01—2026-10-31。\n有效 2/31 天；29 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.1（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n本期含多种计算口径，保留各日得分，暂不计算跨期涨跌。\n1. 我不难过 — 孙燕姿 · 92.89 分\n2. 天龙八部之宿敌 — 许嵩 · 82.35 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.60 分\n4. 恋人 — 李荣浩 · 56.77 分\n5. 我怀念的 — 孙燕姿 · 55.24 分\n6. 雨爱 — 杨丞琳 · 53.33 分\n7. 开始懂了 — 孙燕姿 · 48.57 分\n8. 情歌 — 梁静茹 · 42.73 分\n9. NEON — A2O LITE / A2O · 40.42 分\n10. 失眠 — Suki刘舒妤 · 35.30 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live",
@@ -300,15 +302,16 @@
       "weekEnd": "2026-10-25",
       "mode": "live",
       "status": "provisional",
-      "revision": "4c204b525fe2f0e722fa3680acec367897115f957c520b5bb9f74ed763ee7ab0",
-      "publishedAt": "2026-10-23T17:52:46.060Z",
+      "revision": "4aae58282aa0455b0808f433aa21542ee012eb876ab46ce79b753cbac9305fd1",
+      "publishedAt": "2026-10-23T03:18:23.844Z",
       "updatedAt": "2026-10-24T08:56:37.066Z",
       "title": "共振 · 2026-10-19—2026-10-25 本周预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "coverage": {
-        "observedDays": 1,
+        "observedDays": 2,
         "expectedDays": 7,
         "includedDates": [
+          "2026-10-23",
           "2026-10-24"
         ],
         "cachedDates": [],
@@ -319,13 +322,10 @@
           "2026-10-22",
           "2026-10-25"
         ],
-        "excludedDates": [
-          {
-            "date": "2026-10-23",
-            "reason": "与本周最新日榜的比较口径不同"
-          }
-        ],
+        "excludedDates": [],
         "latestIncludedDate": "2026-10-24",
+        "mixedMethods": true,
+        "mixedSignatures": true,
         "comparisonAvailable": false,
         "comparisonUsesCache": false,
         "sourceCoverage": {
@@ -338,8 +338,12 @@
           "status": "complete"
         }
       },
-      "methodologyVersion": "weekly-1.1",
-      "baseMethodologyVersion": "1.4",
+      "methodologyVersion": "weekly-1.2",
+      "baseMethodologyVersion": null,
+      "baseMethodologyVersions": [
+        "1.3",
+        "1.4"
+      ],
       "topTen": [
         {
           "rank": 1,
@@ -348,7 +352,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 92.481
+          "score": 92.8882
         },
         {
           "rank": 2,
@@ -357,7 +361,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 82.4875
+          "score": 82.3477
         },
         {
           "rank": 3,
@@ -366,25 +370,25 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 76.2097
+          "score": 76.601
         },
         {
           "rank": 4,
-          "id": "8c0daa3d1077edcbc6c8",
-          "title": "我怀念的",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 57.5133
-        },
-        {
-          "rank": 5,
           "id": "1c4e1a4066e20511f7ab",
           "title": "恋人",
           "artists": [
             "李荣浩"
           ],
-          "score": 53.1399
+          "score": 56.7695
+        },
+        {
+          "rank": 5,
+          "id": "8c0daa3d1077edcbc6c8",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 55.244
         },
         {
           "rank": 6,
@@ -393,7 +397,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 52.3586
+          "score": 53.3311
         },
         {
           "rank": 7,
@@ -402,7 +406,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 47.698
+          "score": 48.5717
         },
         {
           "rank": 8,
@@ -411,7 +415,7 @@
           "artists": [
             "梁静茹"
           ],
-          "score": 45.6431
+          "score": 42.735
         },
         {
           "rank": 9,
@@ -421,7 +425,7 @@
             "A2O LITE",
             "A2O"
           ],
-          "score": 39.2195
+          "score": 40.4197
         },
         {
           "rank": 10,
@@ -430,17 +434,17 @@
           "artists": [
             "Suki刘舒妤"
           ],
-          "score": 35.7555
+          "score": 35.2955
         }
       ],
-      "summary": "本周预览：2026-10-19—2026-10-25。\n有效 1/7 天；5 天无日快照（含尚未来到的日期），排除 1 天；方法 weekly-1.1（日榜 1.4）。\n1. 我不难过 — 孙燕姿 · 92.48 分\n2. 天龙八部之宿敌 — 许嵩 · 82.49 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.21 分\n4. 我怀念的 — 孙燕姿 · 57.51 分\n5. 恋人 — 李荣浩 · 53.14 分\n6. 雨爱 — 杨丞琳 · 52.36 分\n7. 开始懂了 — 孙燕姿 · 47.70 分\n8. 情歌 — 梁静茹 · 45.64 分\n9. NEON — A2O LITE / A2O · 39.22 分\n10. 失眠 — Suki刘舒妤 · 35.76 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json"
+      "summary": "本周预览：2026-10-19—2026-10-25。\n有效 2/7 天；5 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.2（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n本期含多种计算口径，保留各日得分，暂不计算跨期涨跌。\n1. 我不难过 — 孙燕姿 · 92.89 分\n2. 天龙八部之宿敌 — 许嵩 · 82.35 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.60 分\n4. 恋人 — 李荣浩 · 56.77 分\n5. 我怀念的 — 孙燕姿 · 55.24 分\n6. 雨爱 — 杨丞琳 · 53.33 分\n7. 开始懂了 — 孙燕姿 · 48.57 分\n8. 情歌 — 梁静茹 · 42.73 分\n9. NEON — A2O LITE / A2O · 40.42 分\n10. 失眠 — Suki刘舒妤 · 35.30 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json#live",
       "kind": "daily",
       "date": "2026-10-23",
       "mode": "live",
-      "revision": "17332287a3145046165161ce1a492a2cabdd11039e8f198be60fed0e6f52cef8",
+      "revision": "4430ceb1c6204866896f26cd9f1e1b54f8b84be7c802c1dd0a44e389505a9c6c",
       "publishedAt": "2026-10-23T03:18:23.844Z",
       "updatedAt": "2026-10-23T12:37:13.426Z",
       "title": "共振 · 2026-10-23 综合热歌榜",

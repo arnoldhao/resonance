@@ -49,6 +49,7 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 - `songs`：按综合排名排序，包含 `id/title/artists/artwork/rank/score/platforms/history/combinedMovement`。
 - `platforms`：对应原榜的 `sourceId/rank/url/eligible/score/contribution/sourceMovement/mv`，以及 `status/ingestion/fetchedAt/observedDate/sourceUpdatedAt/sourcePeriod/attemptedAt/collectionError/cacheOrigin`；观察来源信息随歌曲保留。
 - `appearances` / `scoringAppearances`：原榜出现平台数 / 计分平台数。
+- `history[]`：保留同一数据模式下的历史名次和得分；`methodologyVersion/comparisonSignature` 标注各点原口径，包含公式升级前日期。页面在口径变化处不连线。
 
 `score` 为综合指数，`contribution` 为平台加权贡献。公式和比较条件见[日榜方法](methodology.md)；历史数据按自己的 `methodology` 解释。
 
@@ -73,11 +74,12 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 
 - `status`：`provisional` 周预览、`complete` 完整周、`incomplete` 缺日周。
 - `coverage.includedDates/cachedDates/missingDates/excludedDates`：有效、使用历史沿用、缺失和排除日期；`sourceCoverage` 披露最新日榜来源覆盖，含 `fresh/cached` 数量；`comparisonUsesCache` 标记周榜比较涉及沿用。
+- `methodology.aggregationPolicy: each-day-original-method`：各有效日保留原公式日分，升级前日期继续参与汇总。`baseVersions` 列出日榜版本，`dailyMethods[]` 披露各日期的 `date/version/comparisonSignature`；混合版本时 `baseVersion` 为 `null`。`coverage.mixedMethods/mixedSignatures` 标记混合版本／签名；各日签名不统一时顶层 `comparisonSignature` 为 `null`。
 - `songs[].dailyScores/daysOnChart`：有效日分数和获得正分的天数。
 - `songs[].weeklyMovement`：综合周榜相对上周的变化。
 - `songs[].platforms[].observedDate`：该平台元数据真实观察日期，沿用不刷新；`includedDate` 是最近采用这份观察计算日分的日期。
 
-周榜平台名次是该观察日的名次，周得分是有效日平均分。完整规则见[周榜方法](weekly.md)。
+周榜平台名次是该观察日的名次，周得分是各有效日按原公式计算后的平均分。日期完整可包含公式切换；只有相邻两周均完整、各周内部口径统一且两周一致时才比较涨跌。完整规则见[周榜方法](weekly.md)。
 
 ## 综合月榜
 
@@ -85,8 +87,8 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 
 - `monthStart/monthEnd`：北京时间自然月首末日；`coverage.expectedDays` 按月份实际天数计算。
 - `status`：`provisional` 本月预览、`complete` 完整月、`incomplete` 已结束但存在缺失或排除日。
-- `score`：同口径有效日分数平均值；有效日未出现歌曲记 0，缺失或排除日不计分母。同一自然日只取最后一期，不平均周榜。
-- `monthlyMovement`：仅相邻两个完整自然月且口径一致时比较，`period: previous-month`，`comparisonDate` 为上月 1 日。
+- `score`：各有效日按当时保存公式计算的分数平均值，公式升级前日期继续纳入；有效日未出现歌曲记 0，缺失或排除日不计分母。同一自然日只取最后一期，不平均周榜。`baseVersions/dailyMethods/mixedMethods/mixedSignatures` 的含义与周榜相同。
+- `monthlyMovement`：仅相邻两个完整自然月、各月内部口径统一且两月一致时比较，`period: previous-month`，`comparisonDate` 为上月 1 日。
 
 完整规则见[月榜方法](monthly.md)。
 

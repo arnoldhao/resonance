@@ -127,6 +127,18 @@ export function buildMovementChart(snapshot) {
   };
 }
 
+// Historical ranks remain visible across method changes; each point carries its original policy.
+export function withSongHistory(snapshot, history) {
+  const days = history.filter(day => day.mode === snapshot.mode && day.date < snapshot.date).sort((a, b) => a.date.localeCompare(b.date)).slice(-13);
+  return { ...snapshot, songs: snapshot.songs.map(song => {
+    const points = days.flatMap(day => {
+      const item = day.songs.find(item => item.id === song.id);
+      return item ? [{ date: day.date, rank: item.rank, score: item.score, methodologyVersion: day.methodology.version, comparisonSignature: day.comparisonSignature }] : [];
+    });
+    return { ...song, history: [...points, { date: snapshot.date, rank: song.rank, score: song.score, methodologyVersion: snapshot.methodology.version, comparisonSignature: snapshot.comparisonSignature }] };
+  }) };
+}
+
 // This is the external input boundary. Reject partial lists instead of treating absent ranks as zero votes.
 export function validateChart(chart, provider, date, { editionDate } = {}) {
   if (chart.providerId !== provider.id) throw new Error('providerId 与配置不符');
@@ -211,15 +223,11 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
       direction: !comparable ? 'unknown' : previousRank === null ? 'new' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
       delta, previousRank, period: 'previous-day', comparisonDate: comparable ? previous.date : null,
     };
-    const songHistory = history.filter(day => day.mode === mode && day.comparisonSignature === signature && day.date < date).map(day => {
-      const item = day.songs.find(s => s.id === song.id);
-      return item ? { date: day.date, rank: item.rank, score: item.score } : null;
-    }).filter(Boolean).sort((a, b) => a.date.localeCompare(b.date)).slice(-13);
-    return { ...song, score: round(song.score), rank: index + 1, previousRank, delta, combinedMovement, appearances: song.platforms.length, scoringAppearances: scoringAppearances(song), history: [...songHistory, { date, rank: index + 1, score: round(song.score) }] };
+    return { ...song, score: round(song.score), rank: index + 1, previousRank, delta, combinedMovement, appearances: song.platforms.length, scoringAppearances: scoringAppearances(song) };
   }).slice(0, rule.displayDepth ?? 100) : [];
-  return withPlatformMovements({
+  return withSongHistory(withPlatformMovements({
     schemaVersion: 1, mode, date, generatedAt, methodology: rule, comparisonSignature: signature,
     coverage: { available: available.length, fresh: available.length - cached, cached, expected: sources.length, groups: groups.length, groupTotal: Object.keys(rule.groupWeights).length, status: groups.length < rule.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial', comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cached || previous.sources.some(source => source.status === 'stale'))) },
     sources: decoratedSources, songs: ranked,
-  }, previous);
+  }, previous), history);
 }

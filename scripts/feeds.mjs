@@ -130,16 +130,19 @@ export async function buildFeed({ dist, dataDirectory, snapshot, weeks = [], mon
     const updatedAt = times.sort().at(-1);
     const jsonUrl = `${siteUrl}/api/v1/${kind}/${monthly ? week.month : start}.json`;
     const songs = topTen(week);
+    const baseVersions = week.methodology.baseVersions ?? [week.methodology.baseVersion];
     entries.push({
       id: entryID(siteUrl, week), kind,
       ...(monthly ? { month: week.month, monthStart: start, monthEnd: end } : { weekStart: start, weekEnd: end }),
       mode: week.mode, status: week.status, revision: revisionOf(week), publishedAt, updatedAt,
       title: `${week.mode === 'demo' ? '【示例】' : ''}共振 · ${start}—${end} ${label}`,
       jsonUrl, coverage: week.coverage, methodologyVersion: week.methodology.version,
-      baseMethodologyVersion: week.methodology.baseVersion, topTen: songs,
+      baseMethodologyVersion: week.methodology.baseVersion, baseMethodologyVersions: baseVersions, topTen: songs,
       summary: [
         `${week.mode === 'demo' ? '设计示例，非真实榜单。' : ''}${label}：${start}—${end}。`,
-        `有效 ${week.coverage.observedDays}/${week.coverage.expectedDays} 天；${week.coverage.missingDates.length} 天无日快照（含尚未来到的日期），排除 ${week.coverage.excludedDates.length} 天；方法 ${week.methodology.version}（日榜 ${week.methodology.baseVersion}）。`,
+        `有效 ${week.coverage.observedDays}/${week.coverage.expectedDays} 天；${week.coverage.missingDates.length} 天无日快照（含尚未来到的日期），排除 ${week.coverage.excludedDates.length} 天；方法 ${week.methodology.version}（日榜 ${baseVersions.join('、')}）。`,
+        ...(week.methodology.aggregationPolicy === 'each-day-original-method' ? ['各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。'] : []),
+        ...(week.coverage.mixedSignatures ? ['本期含多种计算口径，保留各日得分，暂不计算跨期涨跌。'] : []),
         ...(cachedDates.length ? [`其中 ${cachedDates.length} 个有效日使用了平台历史观察：${cachedDates.join('、')}。`] : []),
         ...songs.map(song => `${song.rank}. ${song.title} — ${song.artists.join(' / ')} · ${song.score.toFixed(2)} 分`),
         `完整 JSON：${jsonUrl}`,
@@ -183,7 +186,7 @@ ${entries.map(entry => `  <entry>
       id: entry.id, url: entry.jsonUrl, title: entry.title,
       content_text: entry.summary, date_published: entry.publishedAt, date_modified: entry.updatedAt,
       tags: [entry.mode, entry.kind, entry.status ?? entry.coverage.status],
-      _resonance: { kind: entry.kind, date: entry.date, weekStart: entry.weekStart, weekEnd: entry.weekEnd, month: entry.month, monthStart: entry.monthStart, monthEnd: entry.monthEnd, status: entry.status, revision: entry.revision, methodologyVersion: entry.methodologyVersion, baseMethodologyVersion: entry.baseMethodologyVersion, coverage: entry.coverage, jsonUrl: entry.jsonUrl },
+      _resonance: { kind: entry.kind, date: entry.date, weekStart: entry.weekStart, weekEnd: entry.weekEnd, month: entry.month, monthStart: entry.monthStart, monthEnd: entry.monthEnd, status: entry.status, revision: entry.revision, methodologyVersion: entry.methodologyVersion, baseMethodologyVersion: entry.baseMethodologyVersion, baseMethodologyVersions: entry.baseMethodologyVersions, coverage: entry.coverage, jsonUrl: entry.jsonUrl },
     })),
   };
   await mkdir(resolve(dist, 'api/v1'), { recursive: true });

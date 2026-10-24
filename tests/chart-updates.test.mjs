@@ -98,10 +98,13 @@ test('monthly comparison requires adjacent complete calendar months and identica
   assert.equal(preview.status, 'provisional');
   assert.equal(preview.coverage.comparisonAvailable, false);
   days[31].comparisonSignature = 'different';
-  const excluded = buildMonthlyCharts({ days, asOfDate: '2027-03-01' }).find(chart => chart.month === '2027-02');
-  assert.equal(excluded.status, 'incomplete');
-  assert.equal(excluded.coverage.excludedDates.length, 1);
-  assert.equal(excluded.coverage.comparisonAvailable, false);
+  const mixed = buildMonthlyCharts({ days, asOfDate: '2027-03-01' }).find(chart => chart.month === '2027-02');
+  assert.equal(mixed.status, 'complete');
+  assert.equal(mixed.coverage.observedDays, 28);
+  assert.equal(mixed.coverage.excludedDates.length, 0);
+  assert.equal(mixed.coverage.mixedSignatures, true);
+  assert.equal(mixed.comparisonSignature, null);
+  assert.equal(mixed.coverage.comparisonAvailable, false);
 });
 
 test('cadence ignores refreshed timestamps, counts actual order changes and deduplicates observations', () => {

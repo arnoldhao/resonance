@@ -60,19 +60,22 @@ test('reconstructs candidates missing from the published daily Top 100', () => {
   assert.equal(chart.songs.length, 100);
 });
 
-test('the latest day selects the weekly signature and records exclusions', () => {
+test('historical methods remain in the weekly average with their original daily rules', () => {
   const chart = buildWeeklyCharts({ days: [
     day('2026-10-22', [entry('old', 1)], { comparisonSignature: '1.0|old|a,b', methodology: { version: '1.0', rankDepth: 100, groupWeights: { a: 0.6, b: 0.4 }, minimumGroups: 2 } }),
     day('2026-10-23', [entry('new', 1)]),
   ], asOfDate: '2026-10-23' })[0];
-  assert.equal(chart.methodology.baseVersion, '1.1');
-  assert.equal(chart.comparisonSignature, '1.1|mapping|a,b');
-  assert.deepEqual(chart.coverage.includedDates, ['2026-10-23']);
-  assert.equal(chart.coverage.excludedDates[0].date, '2026-10-22');
-  assert.match(chart.coverage.excludedDates[0].reason, /口径/);
+  assert.equal(chart.methodology.baseVersion, null);
+  assert.deepEqual(chart.methodology.baseVersions, ['1.0', '1.1']);
+  assert.equal(chart.methodology.aggregationPolicy, 'each-day-original-method');
+  assert.equal(chart.comparisonSignature, null);
+  assert.deepEqual(chart.coverage.includedDates, ['2026-10-22', '2026-10-23']);
+  assert.deepEqual(chart.coverage.excludedDates, []);
+  assert.equal(chart.coverage.mixedMethods, true);
+  assert.equal(chart.coverage.mixedSignatures, true);
   assert.ok(!chart.coverage.missingDates.includes('2026-10-22'));
-  assert.equal(chart.songs[0].id, 'new');
-  assert.equal(chart.songs[0].score, 100);
+  assert.equal(chart.songs.find(song => song.id === 'old').score, 50);
+  assert.equal(chart.songs.find(song => song.id === 'new').score, 50);
 });
 
 test('same-date last publication wins and exact group weights ignore rounded source weights', () => {
@@ -97,6 +100,13 @@ test('only adjacent complete weeks with identical signatures compare', () => {
   assert.equal(preview.songs[0].weeklyMovement.direction, 'unknown');
   const changed = days.map(d => d.date >= '2026-10-12' ? { ...d, comparisonSignature: '1.1|different|a,b' } : d);
   assert.equal(select(buildWeeklyCharts({ days: changed, asOfDate: '2026-10-19' }), '2026-10-12').coverage.comparisonAvailable, false);
+  const mixedDays = days.map((day, index) => index % 7 === 0 ? { ...day, comparisonSignature: '1.0|old|a,b' } : day);
+  const mixed = select(buildWeeklyCharts({ days: mixedDays, asOfDate: '2026-10-19' }), '2026-10-12');
+  assert.equal(mixed.status, 'complete');
+  assert.equal(mixed.coverage.observedDays, 7);
+  assert.equal(mixed.coverage.mixedSignatures, true);
+  assert.equal(mixed.comparisonSignature, null);
+  assert.equal(mixed.coverage.comparisonAvailable, false);
   const gap = [...fullWeek('2026-10-05', [entry('A', 1)]), ...fullWeek('2026-10-19', [entry('A', 1)])];
   assert.equal(select(buildWeeklyCharts({ days: gap, asOfDate: '2026-10-26' }), '2026-10-19').coverage.comparisonAvailable, false);
 });

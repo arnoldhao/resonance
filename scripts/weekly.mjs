@@ -81,21 +81,23 @@ function buildPeriodCharts({ days, asOfDate }, monthly) {
     const observed = grouped.get(weekStart);
     const reference = observed.at(-1);
     const mode = reference?.mode ?? chronologicalDays.at(-1)?.mode ?? 'live';
-    const comparisonSignature = reference?.comparisonSignature ?? null;
     const included = [];
     const excludedDates = [];
     for (const day of observed) {
       let reason;
-      if (day.comparisonSignature !== comparisonSignature) reason = `与本${monthly ? '月' : '周'}最新日榜的比较口径不同`;
-      else if (day.mode !== mode) reason = `与本${monthly ? '月' : '周'}最新日榜的数据模式不同`;
+      if (day.mode !== mode) reason = `与本${monthly ? '月' : '周'}最新日榜的数据模式不同`;
       if (reason) {
         excludedDates.push({ date: day.date, reason });
         continue;
       }
       const rebuilt = rebuildDay(day);
       if (rebuilt.reason) excludedDates.push({ date: day.date, reason: rebuilt.reason });
-      else included.push({ date: day.date, songs: rebuilt.songs, usesCache: rebuilt.usesCache });
+      else included.push({ date: day.date, songs: rebuilt.songs, usesCache: rebuilt.usesCache, methodology: day.methodology, comparisonSignature: day.comparisonSignature });
     }
+    const baseVersions = [...new Set(included.map(day => day.methodology.version))];
+    const signatures = [...new Set(included.map(day => day.comparisonSignature))];
+    const comparisonSignature = signatures.length === 1 ? signatures[0] : null;
+    const baseMethodology = baseVersions.length === 1 ? included[0].methodology : null;
     const includedDates = included.map(day => day.date);
     const cachedDates = included.filter(day => day.usesCache).map(day => day.date);
     const observedDates = new Set(observed.map(day => day.date));
@@ -112,7 +114,7 @@ function buildPeriodCharts({ days, asOfDate }, monthly) {
     const status = weekEnd >= asOfDate ? 'provisional' : included.length === expectedDays ? 'complete' : 'incomplete';
     const priorWeek = weeks.at(-1);
     const previousStart = monthly ? nextMonth(weekStart, -1) : addDays(weekStart, -7);
-    const comparable = status === 'complete' && priorWeek?.status === 'complete' && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode && priorWeek.comparisonSignature === comparisonSignature;
+    const comparable = Boolean(comparisonSignature) && status === 'complete' && priorWeek?.status === 'complete' && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode && priorWeek.comparisonSignature === comparisonSignature;
     const previousSongs = new Map((comparable ? priorWeek.songs : []).map(song => [song.id, song]));
     const songs = [...candidates.values()].filter(song => song.total > 0).sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100).map((song, index) => {
       const rank = index + 1;
@@ -135,17 +137,22 @@ function buildPeriodCharts({ days, asOfDate }, monthly) {
       ...(monthly ? { month: weekStart.slice(0, 7), monthStart: weekStart, monthEnd: weekEnd } : { weekStart, weekEnd }),
       mode, generatedAt, asOfDate, status,
       methodology: {
-        version: monthly ? 'monthly-1.0' : 'weekly-1.1', baseVersion: reference?.methodology.version ?? null,
-        formula: `${monthly ? '月' : '周'}得分 = 同口径有效日得分之和 ÷ 有效天数；有效日未进入计分窗口记 0，缺失日与排除日不进入分母`,
-        rankDepth: reference?.methodology.rankDepth ?? null,
-        ...(reference?.methodology.rankPolicy ? { rankPolicy: reference.methodology.rankPolicy, platformRankDepths: { ...reference.methodology.platformRankDepths }, tail: { ...reference.methodology.tail }, displayDepth: reference.methodology.displayDepth } : {}),
-        groupWeights: reference ? { ...reference.methodology.groupWeights } : null,
-        platformWeights: reference?.methodology.platformWeights ? { ...reference.methodology.platformWeights } : null,
+        version: monthly ? 'monthly-1.1' : 'weekly-1.2',
+        baseVersion: baseVersions.length === 1 ? baseVersions[0] : null, baseVersions,
+        aggregationPolicy: 'each-day-original-method',
+        dailyMethods: included.map(day => ({ date: day.date, version: day.methodology.version, comparisonSignature: day.comparisonSignature })),
+        formula: `${monthly ? '月' : '周'}得分 = 各有效日按当日保存公式计算的得分之和 ÷ 有效天数；公式升级不排除历史日期，缺失日与无效日不进入分母`,
+        rankDepth: baseMethodology?.rankDepth ?? null,
+        ...(baseMethodology?.rankPolicy ? { rankPolicy: baseMethodology.rankPolicy, platformRankDepths: { ...baseMethodology.platformRankDepths }, tail: { ...baseMethodology.tail }, displayDepth: baseMethodology.displayDepth } : {}),
+        groupWeights: baseMethodology ? { ...baseMethodology.groupWeights } : null,
+        platformWeights: baseMethodology?.platformWeights ? { ...baseMethodology.platformWeights } : null,
       },
       comparisonSignature,
       coverage: {
         observedDays: included.length, expectedDays, includedDates, cachedDates, missingDates, excludedDates,
-        latestIncludedDate: includedDates.at(-1) ?? null, comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cachedDates.length || priorWeek.coverage.cachedDates.length)), sourceCoverage,
+        latestIncludedDate: includedDates.at(-1) ?? null,
+        mixedMethods: baseVersions.length > 1, mixedSignatures: signatures.length > 1,
+        comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cachedDates.length || priorWeek.coverage.cachedDates.length)), sourceCoverage,
       },
       songs,
     });
