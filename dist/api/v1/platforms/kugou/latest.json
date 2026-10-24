@@ -8,10 +8,10 @@
   "maxAgeHours": 48,
   "sourceUrl": "https://m.kugou.com/rank/info/?rankid=8888",
   "frequency": "每日更新",
-  "updatePolicy": "官方说明为每天更新；一次响应配置出现 10:00，不能视为永久时间承诺。",
+  "updatePolicy": "每日榜期包含源站未注明时区的时刻；榜期时间不等于接口实际可见时间，固定刷新时刻仍待持续观察。",
   "access": "官方榜单 JSON · 单次完整前 100 首",
   "providerId": "kugou",
-  "fetchedAt": "2026-10-24T05:51:52.436Z",
+  "fetchedAt": "2026-10-24T08:30:46.157Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-24 08:30:01",
   "entries": [
@@ -3610,7 +3610,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-24T05:51:52.436Z",
+  "attemptedAt": "2026-10-24T08:30:46.157Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -3620,5 +3620,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T05:51:52.436Z"
+  "generatedAt": "2026-10-24T08:30:46.157Z"
 }

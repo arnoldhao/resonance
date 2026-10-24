@@ -8,12 +8,12 @@
   "maxAgeHours": 48,
   "sourceUrl": "https://www.kuwo.cn/rankList",
   "frequency": "更新频率待确认",
-  "updatePolicy": "公开接口提供榜单日期；未找到固定频率与公布时刻的一手承诺。",
+  "updatePolicy": "公开接口提供榜单日期，但日期变化不保证排名变化；未找到固定频率与公布时刻的一手承诺。",
   "access": "官方公开榜单接口",
   "providerId": "kuwo",
-  "fetchedAt": "2026-10-24T05:51:52.436Z",
+  "fetchedAt": "2026-10-24T08:30:46.157Z",
   "sourceUpdatedAt": null,
-  "sourcePeriod": "2026-10-23",
+  "sourcePeriod": "2026-10-24",
   "entries": [
     {
       "sourceId": "624683929",
@@ -33,7 +33,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -67,7 +67,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -101,7 +101,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -135,7 +135,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -175,7 +175,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -209,7 +209,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -250,7 +250,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -284,7 +284,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -324,7 +324,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -364,7 +364,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -398,7 +398,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -432,7 +432,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -472,7 +472,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -512,7 +512,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -552,7 +552,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -592,7 +592,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -626,7 +626,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -666,7 +666,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -706,7 +706,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -746,7 +746,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -786,7 +786,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -826,7 +826,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -866,7 +866,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -906,7 +906,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -946,7 +946,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -986,7 +986,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1026,7 +1026,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1060,7 +1060,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1094,7 +1094,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1134,7 +1134,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1174,7 +1174,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1214,7 +1214,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1254,7 +1254,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1288,7 +1288,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1328,7 +1328,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1368,7 +1368,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1402,7 +1402,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1442,7 +1442,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1476,7 +1476,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1510,7 +1510,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1551,7 +1551,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1591,7 +1591,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1631,7 +1631,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1671,7 +1671,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1705,7 +1705,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1745,7 +1745,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1785,7 +1785,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1825,7 +1825,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1865,7 +1865,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1905,7 +1905,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1945,7 +1945,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1979,7 +1979,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2013,7 +2013,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2047,7 +2047,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2081,7 +2081,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2121,7 +2121,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2161,7 +2161,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2201,7 +2201,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2241,7 +2241,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2275,7 +2275,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2315,7 +2315,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2355,7 +2355,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2395,7 +2395,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2435,7 +2435,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2475,7 +2475,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2515,7 +2515,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2549,7 +2549,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2589,7 +2589,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2629,7 +2629,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2670,7 +2670,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2704,7 +2704,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2738,7 +2738,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2778,7 +2778,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2813,7 +2813,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2853,7 +2853,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2887,7 +2887,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2927,7 +2927,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2961,7 +2961,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3002,7 +3002,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3042,7 +3042,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3082,7 +3082,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3122,7 +3122,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3163,7 +3163,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3197,7 +3197,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3231,7 +3231,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3271,7 +3271,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3311,7 +3311,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3351,7 +3351,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3391,7 +3391,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3425,7 +3425,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3467,7 +3467,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3501,7 +3501,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3541,7 +3541,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3575,7 +3575,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3610,7 +3610,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3644,7 +3644,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3685,7 +3685,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3725,7 +3725,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3765,7 +3765,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3805,7 +3805,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3830,7 +3830,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-24T05:51:52.436Z",
+  "attemptedAt": "2026-10-24T08:30:46.157Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -3840,5 +3840,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T05:51:52.436Z"
+  "generatedAt": "2026-10-24T08:30:46.157Z"
 }

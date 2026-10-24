@@ -11,7 +11,7 @@
   "updatePolicy": "榜单说明为每日更新；未确认固定公布时刻。",
   "access": "官方公开 Web 接口",
   "providerId": "qq",
-  "fetchedAt": "2026-10-24T05:51:52.436Z",
+  "fetchedAt": "2026-10-24T08:30:46.157Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-24",
   "entries": [
@@ -250,7 +250,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -363,7 +363,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1370,7 +1370,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-23",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T05:51:52.436Z",
+        "currentObservedAt": "2026-10-24T08:30:46.157Z",
         "previousObservedAt": "2026-10-23T12:37:13.426Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2743,7 +2743,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-24T05:51:52.436Z",
+  "attemptedAt": "2026-10-24T08:30:46.157Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -2753,5 +2753,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T05:51:52.436Z"
+  "generatedAt": "2026-10-24T08:30:46.157Z"
 }
