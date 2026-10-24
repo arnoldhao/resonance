@@ -1,7 +1,7 @@
 const $ = (selector) => document.querySelector(selector);
 const shortNames = { qq: 'QQ 音乐', netease: '网易云', kugou: '酷狗', kuwo: '酷我', apple: 'Apple Music', qishui: '汽水' };
 const state = { snapshot: null, latest: null, status: null, dates: [], mode: 'combined', platform: 'all', search: '', limit: 20, request: 0, apiPlatform: null, movement: 'up', cadence: null, platformIndexes: {}, platformSnapshot: null };
-state.periods = Object.fromEntries(['weekly', 'monthly'].map(kind => [kind, { chart: null, index: null, search: '', limit: 20, request: 0 }]));
+state.periods = Object.fromEntries(['weekly', 'monthly'].map(kind => [kind, { chart: null, index: null, mode: 'combined', movement: 'up', search: '', limit: 20, request: 0 }]));
 const escapeHTML = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
 const safeURL = (value) => {
   if (!value) return null;
@@ -84,6 +84,7 @@ async function readJSON(path) {
 }
 
 const periodUnit = kind => kind === 'monthly' ? '月' : '周';
+const movementLabels = { up: '上升', down: '下降', new: '新入榜' };
 const periodStart = chart => chart.monthStart ?? chart.weekStart;
 const periodEnd = chart => chart.monthEnd ?? chart.weekEnd;
 const periodKey = chart => chart.month ?? chart.weekStart;
@@ -126,17 +127,29 @@ function renderPeriodRows(kind) {
   const stateOf = state.periods[kind];
   const chart = stateOf.chart;
   const unit = periodUnit(kind);
+  const movers = stateOf.mode === 'movement';
   const search = stateOf.search.trim().toLocaleLowerCase();
-  const songs = chart.songs.filter(song => !search || `${song.title} ${artistName(song)}`.toLocaleLowerCase().includes(search));
+  let rows = chart.songs;
+  if (movers) rows = (chart.coverage.comparisonAvailable ? rows.filter(song => song[kind === 'monthly' ? 'monthlyMovement' : 'weeklyMovement'].direction === stateOf.movement) : [])
+    .sort((a, b) => Math.abs(b.delta ?? 0) - Math.abs(a.delta ?? 0) || a.rank - b.rank || a.id.localeCompare(b.id))
+    .map((song, index) => ({ ...song, movementRank: index + 1 }));
+  const songs = rows.filter(song => !search || `${song.title} ${artistName(song)}`.toLocaleLowerCase().includes(search));
   const visible = songs.slice(0, stateOf.limit);
-  $(`#${kind}-rows`).innerHTML = visible.length ? visible.map(song => `<button class="chart-row weekly-row" data-period-song="${escapeHTML(song.id)}" data-period="${kind}" aria-label="${unit}榜第 ${song.rank} 名 ${escapeHTML(song.title)}，平均 ${number(song.score, 2)} 分，查看按日得分">
-    <span class="rank-cell"><span class="rank-number">${String(song.rank).padStart(2, '0')}</span>${periodChange(song, chart, kind)}</span>
-    <span class="song-cell">${cover(song)}<span class="song-info"><span class="song-title"><span class="song-title-text">${escapeHTML(song.title)}</span>${mvBadge(song.platforms)}</span><span class="song-artists" style="display:block">${escapeHTML(artistName(song))}</span><span class="weekly-platforms">${platformBadges(song.platforms)}</span><span class="weekly-mobile-days">${song.daysOnChart} / ${chart.coverage.observedDays} 个有效日有得分</span></span></span>
-    <span class="weekly-days-cell"><b>${song.daysOnChart}</b><span> / ${chart.coverage.observedDays} 个有效日</span></span>
+  const noComparison = movers && !chart.coverage.comparisonAvailable;
+  const emptyTitle = search ? '还没找到这首歌。' : noComparison ? `暂无可比较的${unit}涨跌数据。` : movers ? `本${unit}暂无${movementLabels[stateOf.movement]}歌曲。` : `本${unit}还没有可发布的歌曲。`;
+  const emptyReason = search ? '换一个歌名或歌手试试。' : noComparison
+    ? chart.status === 'provisional' ? `本${unit}仍为预览；相邻两个完整${unit}发布后，涨跌会自动展示。`
+      : chart.status === 'incomplete' ? `本${unit}有缺失或排除日期，暂不能计算较上${unit}涨跌。`
+        : `尚无相邻的完整上${unit}榜，数据齐备后自动展示。`
+    : movers ? '可以切换上升、下降、新入榜，或查看其他区间。' : `有效日数据积累后，${unit}榜会逐步形成。`;
+  $(`#${kind}-rows`).innerHTML = visible.length ? visible.map(song => `<button class="chart-row weekly-row" data-period-song="${escapeHTML(song.id)}" data-period="${kind}" aria-label="${unit}${movers ? '涨跌' : ''}榜第 ${movers ? song.movementRank : song.rank} 名 ${escapeHTML(song.title)}，综合第 ${song.rank} 名，平均 ${number(song.score, 2)} 分，查看按日得分">
+    <span class="rank-cell"><span class="rank-number">${String(movers ? song.movementRank : song.rank).padStart(2, '0')}</span>${periodChange(song, chart, kind)}</span>
+    <span class="song-cell">${cover(song)}<span class="song-info"><span class="song-title"><span class="song-title-text">${escapeHTML(song.title)}</span>${mvBadge(song.platforms)}</span><span class="song-artists" style="display:block">${escapeHTML(artistName(song))}</span>${movers ? `<span class="original-row-context">本${unit}综合 #${song.rank} · 上${unit} ${song.previousRank === null ? '未入 Top 100' : `#${song.previousRank}`}</span>` : ''}<span class="weekly-platforms">${platformBadges(song.platforms)}</span><span class="weekly-mobile-days">${song.daysOnChart} / ${chart.coverage.observedDays} 个有效日有得分</span></span></span>
+    <span class="weekly-days-cell">${movers ? `<b>#${song.rank}</b><span> / ${song.previousRank === null ? '新' : `#${song.previousRank}`}</span>` : `<b>${song.daysOnChart}</b><span> / ${chart.coverage.observedDays} 个有效日</span>`}</span>
     <span class="weekly-bars-cell">${periodScoreBars(song, chart)}</span>
     <span class="score-cell"><span class="score-value">${number(song.score, 2)}</span><span class="score-bar"><i style="--score-width:${Math.max(0, Math.min(100, song.score))}%"></i></span></span>
-  </button>`).join('') : `<div class="empty-state"><b>${search ? '还没找到这首歌。' : `本${unit}还没有可发布的歌曲。`}</b>${search ? '换一个歌名或歌手试试。' : `有效日数据积累后，${unit}榜会逐步形成。`}</div>`;
-  $(`#${kind}-result-count`).textContent = `${periodStatus(chart, kind)} · 显示 ${visible.length} / ${songs.length} 首`;
+  </button>`).join('') : `<div class="empty-state"><b>${emptyTitle}</b>${emptyReason}</div>`;
+  $(`#${kind}-result-count`).textContent = `${periodStatus(chart, kind)}${movers ? ` · ${movementLabels[stateOf.movement]}` : ''} · 显示 ${visible.length} / ${songs.length} 首`;
   $(`#${kind}-more`).hidden = stateOf.limit >= songs.length;
   $(`#${kind}-more`).textContent = `再看 ${Math.min(30, songs.length - stateOf.limit)} 首 ↓`;
 }
@@ -145,6 +158,7 @@ function renderPeriod(kind) {
   const stateOf = state.periods[kind];
   const chart = stateOf.chart;
   const unit = periodUnit(kind);
+  const movers = stateOf.mode === 'movement';
   const coverage = chart.coverage;
   const missing = coverage.missingDates.filter(date => date <= chart.asOfDate);
   const future = datesInPeriod(chart).filter(date => date > chart.asOfDate);
@@ -162,12 +176,21 @@ function renderPeriod(kind) {
       <div class="weekly-calendar${kind === 'monthly' ? ' monthly-calendar' : ''}">${datesInPeriod(chart).map(date => { const day = periodDayInfo(chart, date); return `<div class="weekly-calendar-day ${day.type}" title="${escapeHTML(day.reason)}"><span>周${'日一二三四五六'[new Date(`${date}T00:00:00Z`).getUTCDay()]}</span><b>${date.slice(5).replace('-', '.')}</b><small>${day.label}</small></div>`; }).join('')}</div>
       ${missing.length || coverage.excludedDates.length ? `<details class="weekly-exclusions"><summary>查看缺失与排除原因</summary><ul>${missing.map(date => `<li><time>${date}</time><span>未取得日快照，不计入平均分。</span></li>`).join('')}${coverage.excludedDates.map(item => `<li><time>${escapeHTML(item.date)}</time><span>${escapeHTML(item.reason)}</span></li>`).join('')}</ul></details>` : ''}
     </div>
-    <div class="weekly-controls"><label class="weekly-picker">选择${unit}区间<select id="${kind}-select" aria-label="选择综合${unit}榜日期">${index.map(item => `<option value="${periodKey(item)}" ${periodKey(item) === periodKey(chart) ? 'selected' : ''}>${periodStart(item)} — ${periodEnd(item)} · ${periodStatus(item, kind)}</option>`).join('')}</select></label><label class="search-box"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="${kind}-search" type="search" placeholder="搜索本${unit}歌曲 / 歌手" value="${escapeHTML(stateOf.search)}" aria-label="搜索${unit}榜歌曲或歌手" autocomplete="off"></label></div>
-    <p class="chart-context">${unit}分 = 各有效日按当时公式计算的综合得分之和 ÷ 有效天数。有效日未出现的歌曲记 0，缺失日不填充；每个自然日只计最后一份有效快照。涨跌比较相邻两个完整${unit}的已发布名次。${coverage.comparisonUsesCache ? '本期或对照期含历史沿用。' : ''}</p>
-    <div class="table-head weekly-table-head" aria-hidden="true"><span>${unit}排名</span><span>歌曲 / 艺人</span><span>有得分的日数</span><span>本${unit}每日分值</span><span>${unit}均共振值</span></div>
-    <div id="${kind}-rows" class="chart-rows" aria-live="polite"></div><div class="chart-bottom"><p id="${kind}-result-count"></p><button id="${kind}-more" class="outline-button" hidden></button><a class="text-link" href="./data/${kind}/${periodKey(chart)}.json" download>本${unit} JSON ↗</a></div>
+    <div class="chart-header period-chart-header"><div class="chart-tabs" role="tablist" aria-label="${unit}榜类型">${[['combined', '共振综合榜'], ['movement', '共振涨跌榜']].map(([mode, label]) => `<button id="${kind}-${mode}-tab" class="chart-tab${stateOf.mode === mode ? ' active' : ''}" role="tab" aria-selected="${stateOf.mode === mode}" tabindex="${stateOf.mode === mode ? '0' : '-1'}" aria-controls="${kind}-chart-panel" data-period-view="${mode}">${label}</button>`).join('')}</div></div>
+    <div class="weekly-controls"><label class="weekly-picker">选择${unit}区间<select id="${kind}-select" aria-label="选择${unit}榜日期">${index.map(item => `<option value="${periodKey(item)}" ${periodKey(item) === periodKey(chart) ? 'selected' : ''}>${periodStart(item)} — ${periodEnd(item)} · ${periodStatus(item, kind)}</option>`).join('')}</select></label><label class="search-box"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="${kind}-search" type="search" placeholder="搜索本${unit}歌曲 / 歌手" value="${escapeHTML(stateOf.search)}" aria-label="搜索${unit}榜歌曲或歌手" autocomplete="off"></label></div>
+    <div class="movement-controls" aria-label="${unit}榜涨跌方向" ${movers ? '' : 'hidden'}>${Object.entries(movementLabels).map(([direction, label]) => `<button type="button" data-period-movement="${direction}" aria-pressed="${stateOf.movement === direction}">${label}</button>`).join('')}</div>
+    <p class="chart-context">${movers ? `比较本${unit}综合 Top 100 与相邻上${unit}的已发布名次。上升、下降按变化幅度排序，同幅度按本${unit}名次排序，新入榜单列；相邻两个完整${unit}发布后自动展示。` : `${unit}分 = 各有效日按当时公式计算的综合得分之和 ÷ 有效天数。有效日未出现的歌曲记 0，缺失日不填充；每个自然日只计最后一份有效快照。涨跌比较相邻两个完整${unit}的已发布名次。`}${coverage.comparisonUsesCache ? '本期或对照期含历史沿用。' : ''}</p>
+    <div id="${kind}-chart-panel" role="tabpanel" aria-labelledby="${kind}-${stateOf.mode}-tab"><div class="table-head weekly-table-head" aria-hidden="true"><span>${movers ? '幅度排名' : `${unit}排名`}</span><span>歌曲 / 艺人</span><span>${movers ? `本${unit} / 上${unit}名次` : '有得分的日数'}</span><span>本${unit}每日分值</span><span>${unit}均共振值</span></div>
+    <div id="${kind}-rows" class="chart-rows" aria-live="polite"></div></div><div class="chart-bottom"><p id="${kind}-result-count"></p><button id="${kind}-more" class="outline-button" hidden></button><a class="text-link" href="./data/${kind}/${periodKey(chart)}.json" download>本${unit} JSON${movers ? '（含涨跌）' : ''} ↗</a></div>
     <div class="weekly-method-note"><h3>每一天，都有自己的分量。</h3><p>从各日完整来源记录重建候选，不截取每日 Top 100 再平均。历史日分照常参与汇总。${kind === 'monthly' ? '月榜按自然月直接汇总日分，不平均周榜；跨月的一周分属各自月份。' : '周榜按周一至周日统计。'}相邻两个完整${unit}发布后，即可查看较上${unit}涨跌。</p><p class="weekly-formula">${escapeHTML(chart.methodology.formula)}</p><p>方法版本 ${escapeHTML(chart.methodology.version)} · 日榜版本 ${escapeHTML(versions || '尚无有效日')} · 生成于 ${dateTime(chart.generatedAt)} CST · <a href="./docs/${kind}.md" target="_blank" rel="noopener">完整方法 ↗</a></p></div>`;
   renderPeriodRows(kind);
+}
+
+function setPeriodMode(kind, mode) {
+  state.periods[kind].mode = mode;
+  state.periods[kind].limit = 20;
+  renderPeriod(kind);
+  $(`#${kind}-${mode}-tab`).focus();
 }
 
 async function loadPeriod(kind, key) {
@@ -323,12 +346,12 @@ function renderOverview() {
   const newEntries = snapshot.coverage.comparisonAvailable ? songs.filter(song => song.combinedMovement?.direction === 'new') : [];
   const entrant = newEntries[0];
   const entrantFeature = entrant
-    ? `<button class="feature-button" data-song-id="${escapeHTML(entrant.id)}" aria-label="新入榜最高位：${escapeHTML(entrant.title)}，综合第 ${entrant.rank} 名，本期共 ${newEntries.length} 首新入榜"><div class="feature-copy"><p class="feature-eyebrow">新入榜 / NEW ENTRY</p><h3 class="feature-title">${escapeHTML(entrant.title)}</h3><p class="feature-artist">${escapeHTML(artistName(entrant))} · #${entrant.rank}</p></div><span class="feature-badge">${newEntries.length}<small>首新入榜</small></span></button>`
+    ? `<button class="feature-button" data-song-id="${escapeHTML(entrant.id)}" aria-label="新入榜最高位：${escapeHTML(entrant.title)}，综合第 ${entrant.rank} 名，本期共 ${newEntries.length} 首新入榜">${cover(entrant, 'feature-art')}<div class="feature-copy"><p class="feature-eyebrow">新入榜 / NEW ENTRY</p><h3 class="feature-title">${escapeHTML(entrant.title)}</h3><p class="feature-artist">${escapeHTML(artistName(entrant))} · #${entrant.rank}</p></div><span class="feature-badge">${newEntries.length}<small>首新入榜</small></span></button>`
     : `<div class="feature-copy"><p class="feature-eyebrow">新入榜 / NEW ENTRY</p><h3 class="feature-title">${snapshot.coverage.comparisonAvailable ? '本期暂无新入榜' : '等待昨日榜单'}</h3><p class="feature-artist">与昨日综合 Top 100 对比</p></div><span class="feature-badge">${snapshot.coverage.comparisonAvailable ? '0' : '·'}<small>首新入榜</small></span>`;
   const second = greatest || songs.find((song) => song.rank > 1) || leader;
   const secondTitle = greatest ? '上升最快 / BIGGEST CLIMBER' : '共同入耳 / IN THE MIX';
   const secondBadge = greatest ? `↑${greatest.delta}<small>综合榜较昨日</small>` : `${second.appearances}<small>个平台上榜</small>`;
-  $('#feature-strip').innerHTML = `<article class="feature"><button class="feature-button" data-song-id="${escapeHTML(leader.id)}">${cover(leader, 'feature-art')}<div class="feature-copy"><p class="feature-eyebrow">本期第一 / NO. 01</p><h3 class="feature-title">${escapeHTML(leader.title)}</h3><p class="feature-artist">${escapeHTML(artistName(leader))}</p></div><span class="feature-arrow" aria-hidden="true">↗</span></button></article><article class="feature"><button class="feature-button" data-song-id="${escapeHTML(second.id)}"><div class="feature-copy"><p class="feature-eyebrow">${secondTitle}</p><h3 class="feature-title">${escapeHTML(second.title)}</h3><p class="feature-artist">${escapeHTML(artistName(second))}</p></div><span class="feature-badge">${secondBadge}</span></button></article><article class="feature">${entrantFeature}</article>`;
+  $('#feature-strip').innerHTML = `<article class="feature"><button class="feature-button" data-song-id="${escapeHTML(leader.id)}">${cover(leader, 'feature-art')}<div class="feature-copy"><p class="feature-eyebrow">本期第一 / NO. 01</p><h3 class="feature-title">${escapeHTML(leader.title)}</h3><p class="feature-artist">${escapeHTML(artistName(leader))}</p></div><span class="feature-arrow" aria-hidden="true">↗</span></button></article><article class="feature"><button class="feature-button" data-song-id="${escapeHTML(second.id)}">${cover(second, 'feature-art')}<div class="feature-copy"><p class="feature-eyebrow">${secondTitle}</p><h3 class="feature-title">${escapeHTML(second.title)}</h3><p class="feature-artist">${escapeHTML(artistName(second))} · #${second.rank}</p></div><span class="feature-badge">${secondBadge}</span></button></article><article class="feature">${entrantFeature}</article>`;
 }
 
 function renderFilters() {
@@ -357,7 +380,7 @@ function renderChart() {
   $('#feature-strip').hidden = state.mode !== 'combined';
   $('#movement-controls').hidden = !movers;
   for (const button of document.querySelectorAll('[data-movement]')) button.setAttribute('aria-pressed', String(button.dataset.movement === state.movement));
-  for (const tab of document.querySelectorAll('.chart-tab')) {
+  for (const tab of document.querySelectorAll('.chart-tab[data-mode]')) {
     const active = tab.dataset.mode === state.mode;
     tab.classList.toggle('active', active);
     tab.setAttribute('aria-selected', String(active));
@@ -645,9 +668,28 @@ for (const kind of ['weekly', 'monthly']) {
     renderPeriodRows(kind);
   });
   $(`#${kind}-content`).addEventListener('click', event => {
+    const tab = event.target.closest('[data-period-view]');
+    if (tab) {
+      setPeriodMode(kind, tab.dataset.periodView);
+      return;
+    }
+    const movement = event.target.closest('[data-period-movement]');
+    if (movement) {
+      state.periods[kind].movement = movement.dataset.periodMovement;
+      state.periods[kind].limit = 20;
+      renderPeriod(kind);
+      $(`#${kind}-content [data-period-movement="${movement.dataset.periodMovement}"]`).focus();
+      return;
+    }
     if (!event.target.closest(`#${kind}-more`)) return;
     state.periods[kind].limit += 30;
     renderPeriodRows(kind);
+  });
+  $(`#${kind}-content`).addEventListener('keydown', event => {
+    const tab = event.target.closest('[data-period-view]');
+    if (!tab || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+    event.preventDefault();
+    setPeriodMode(kind, tab.dataset.periodView === 'combined' ? 'movement' : 'combined');
   });
 }
 $('#movement-controls').addEventListener('click', event => {
@@ -684,11 +726,11 @@ $('#platform-filters').addEventListener('click', (event) => {
   if (state.mode === 'platform') { renderDatePicker(); void loadPlatform(); }
   else renderChart();
 });
-$('.chart-tabs').addEventListener('click', (event) => {
+$('.daily-section .chart-tabs').addEventListener('click', (event) => {
   const button = event.target.closest('[data-mode]');
   if (button && state.snapshot) setMode(button.dataset.mode);
 });
-$('.chart-tabs').addEventListener('keydown', (event) => {
+$('.daily-section .chart-tabs').addEventListener('keydown', (event) => {
   if (['ArrowLeft', 'ArrowRight'].includes(event.key) && state.snapshot) {
     event.preventDefault();
     const modes = ['combined', 'movement', 'platform'];

@@ -382,6 +382,10 @@ h1,h2,h3,p{margin:0}
 @media(max-width:1150px){.cover.feature-art{width:48px;height:48px}
 }
 @media(max-width:850px){.cover.feature-art{display:none}
+.feature:not(:first-child) .feature-button{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px}
+.feature:not(:first-child) .cover.feature-art{display:flex;width:40px;height:40px;grid-column:1;grid-row:1}
+.feature:not(:first-child) .feature-copy{grid-column:1/-1;grid-row:2}
+.feature:not(:first-child) .feature-badge{grid-column:2;grid-row:1;text-align:right}
 }
 @media(max-width:600px){.feature:first-child .cover.feature-art{display:flex}
 }
@@ -633,6 +637,8 @@ h1,h2,h3,p{margin:0}
 .weekly-exclusions li{display:flex;gap:20px;padding:7px 0;font-size:11px;line-height:1.8;color:var(--muted)}
 .weekly-exclusions time{font-family:var(--number);color:var(--ink);flex-shrink:0}
 .weekly-controls{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:20px 0;border-top:1px solid var(--line);margin-bottom:12px}
+.period-chart-header{margin-top:26px}
+.period-chart-header+.weekly-controls{border-top:0;margin-bottom:0}
 .weekly-picker{display:flex;align-items:center;gap:16px;font-size:12px;min-width:0}
 .weekly-picker select{font:12px var(--number);background:none;color:var(--ink);border:1px solid var(--line);padding:9px;max-width:100%;min-width:0}
 .weekly-table-head,.weekly-row{grid-template-columns:74px minmax(160px,1fr) 130px 150px 100px}
