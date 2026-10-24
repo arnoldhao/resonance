@@ -221,7 +221,8 @@
             "raw": {
               "cur_count": "4",
               "old_count": "3"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -253,7 +254,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 0
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -292,7 +294,8 @@
             "raw": {
               "sort": 3,
               "last_sort": 3
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -329,10 +332,16 @@
           "url": "https://www.kuwo.cn/play_detail/95769",
           "sourceId": "95769",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 18,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -370,10 +379,16 @@
           "url": "https://music.apple.com/cn/album/%E6%88%91%E4%B8%8D%E9%9A%BE%E8%BF%87/578524971?i=578524987",
           "sourceId": "578524987",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 2,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -408,7 +423,8 @@
               "rank_delta": "1",
               "rank_type": "up",
               "track_id": "6705065595320141825"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -476,7 +492,8 @@
             "raw": {
               "cur_count": "2",
               "old_count": "2"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -508,7 +525,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 3
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -547,7 +565,8 @@
             "raw": {
               "sort": 2,
               "last_sort": 2
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -584,10 +603,16 @@
           "url": "https://www.kuwo.cn/play_detail/1090336",
           "sourceId": "1090336",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 34,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -625,10 +650,16 @@
           "url": "https://music.apple.com/cn/album/%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%E4%B9%8B%E5%AE%BF%E6%95%8C/933803600?i=933803606",
           "sourceId": "933803606",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 3,
+            "previousRank": 44,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -663,7 +694,8 @@
               "rank_delta": "0",
               "rank_type": "new",
               "track_id": "6849381964508596226"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -731,7 +763,8 @@
             "raw": {
               "cur_count": "5",
               "old_count": "4"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -763,7 +796,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 6
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -796,7 +830,8 @@
             "raw": {
               "sort": 7,
               "last_sort": 7
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -833,10 +868,16 @@
           "url": "https://www.kuwo.cn/play_detail/611237221",
           "sourceId": "611237221",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 4,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -882,7 +923,8 @@
               "rank_delta": "1",
               "rank_type": "up",
               "track_id": "7657099403009804305"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -950,7 +992,8 @@
             "raw": {
               "cur_count": "7",
               "old_count": "7"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -982,7 +1025,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 16
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1021,7 +1065,8 @@
             "raw": {
               "sort": 45,
               "last_sort": 51
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1058,10 +1103,16 @@
           "url": "https://www.kuwo.cn/play_detail/231323",
           "sourceId": "231323",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 48,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -1099,10 +1150,16 @@
           "url": "https://music.apple.com/cn/album/%E6%88%91%E6%80%80%E5%BF%B5%E7%9A%84/905226289?i=905226305",
           "sourceId": "905226305",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 3,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -1137,7 +1194,8 @@
               "rank_delta": "5",
               "rank_type": "down",
               "track_id": "6705014751795087362"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -1205,7 +1263,8 @@
             "raw": {
               "cur_count": "8",
               "old_count": "6"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -1237,7 +1296,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 8
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1276,7 +1336,8 @@
             "raw": {
               "sort": 40,
               "last_sort": 39
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1313,10 +1374,16 @@
           "url": "https://www.kuwo.cn/play_detail/386305156",
           "sourceId": "386305156",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 42,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -1354,10 +1421,16 @@
           "url": "https://music.apple.com/cn/album/%E6%81%8B%E4%BA%BA/1752810525?i=1752810526",
           "sourceId": "1752810526",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 27,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -1392,7 +1465,8 @@
               "rank_delta": "1",
               "rank_type": "down",
               "track_id": "7436998767289845777"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -1460,7 +1534,8 @@
             "raw": {
               "cur_count": "6",
               "old_count": "5"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -1492,7 +1567,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 27
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1531,7 +1607,8 @@
             "raw": {
               "sort": 25,
               "last_sort": 24
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1568,10 +1645,16 @@
           "url": "https://www.kuwo.cn/play_detail/1035026",
           "sourceId": "1035026",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 14,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -1609,10 +1692,16 @@
           "url": "https://music.apple.com/cn/album/%E9%9B%A8%E7%88%B1/347295255?i=347295290",
           "sourceId": "347295290",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 3,
+            "previousRank": 28,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -1647,7 +1736,8 @@
               "rank_delta": "8",
               "rank_type": "down",
               "track_id": "6696408181523875842"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -1715,7 +1805,8 @@
             "raw": {
               "cur_count": "10",
               "old_count": "8"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -1747,7 +1838,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 32
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1786,7 +1878,8 @@
             "raw": {
               "sort": 33,
               "last_sort": 30
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1823,10 +1916,16 @@
           "url": "https://www.kuwo.cn/play_detail/325842",
           "sourceId": "325842",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 69,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -1864,10 +1963,16 @@
           "url": "https://music.apple.com/cn/album/%E5%BC%80%E5%A7%8B%E6%87%82%E4%BA%86/298837646?i=298837675",
           "sourceId": "298837675",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 7,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -1902,7 +2007,8 @@
               "rank_delta": "12",
               "rank_type": "up",
               "track_id": "6704952949321238529"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -1970,7 +2076,8 @@
             "raw": {
               "cur_count": "11",
               "old_count": "9"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2002,7 +2109,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 50
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2041,7 +2149,8 @@
             "raw": {
               "sort": 36,
               "last_sort": 38
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2078,10 +2187,16 @@
           "url": "https://www.kuwo.cn/play_detail/465829",
           "sourceId": "465829",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 26,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -2119,10 +2234,16 @@
           "url": "https://music.apple.com/cn/album/%E6%83%85%E6%AD%8C/1095630068?i=1095630246",
           "sourceId": "1095630246",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 12,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -2157,7 +2278,8 @@
               "rank_delta": "2",
               "rank_type": "down",
               "track_id": "6990754046848010276"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -2226,7 +2348,8 @@
             "raw": {
               "cur_count": "3",
               "old_count": "1"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2259,7 +2382,8 @@
             "raw": {
               "sort": 41,
               "last_sort": 35
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2296,10 +2420,16 @@
           "url": "https://music.apple.com/cn/album/neon/6820428726?i=6820428730",
           "sourceId": "6820428730",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 1,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -2368,7 +2498,8 @@
             "raw": {
               "cur_count": "28",
               "old_count": "35"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2400,7 +2531,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 18
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2433,7 +2565,8 @@
             "raw": {
               "sort": 48,
               "last_sort": 47
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2478,7 +2611,8 @@
               "rank_delta": "9",
               "rank_type": "down",
               "track_id": "7574231906780137489"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -2546,7 +2680,8 @@
             "raw": {
               "cur_count": "14",
               "old_count": "13"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2578,7 +2713,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 39
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2610,10 +2746,16 @@
           "url": "https://music.apple.com/cn/album/%E7%89%B9%E5%88%AB%E7%9A%84%E4%BA%BA/1579903639?i=1579903651",
           "sourceId": "1579903651",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 13,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -2648,7 +2790,8 @@
               "rank_delta": "19",
               "rank_type": "down",
               "track_id": "6918195036836349953"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -2716,7 +2859,8 @@
             "raw": {
               "cur_count": "41",
               "old_count": "41"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2748,7 +2892,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 9
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2780,10 +2925,16 @@
           "url": "https://music.apple.com/cn/album/%E7%8E%BB%E7%92%83/6769327003?i=6769327013",
           "sourceId": "6769327013",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 20,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -2852,7 +3003,8 @@
             "raw": {
               "cur_count": "94",
               "old_count": "64"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2884,7 +3036,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 24
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2923,7 +3076,8 @@
             "raw": {
               "sort": 15,
               "last_sort": 15
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2968,7 +3122,8 @@
               "rank_delta": "2",
               "rank_type": "down",
               "track_id": "7168861366286190604"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -3036,7 +3191,8 @@
             "raw": {
               "cur_count": "34",
               "old_count": "34"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3068,7 +3224,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 20
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3107,7 +3264,8 @@
             "raw": {
               "sort": 49,
               "last_sort": 48
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3152,7 +3310,8 @@
               "rank_delta": "13",
               "rank_type": "down",
               "track_id": "7634441185327745025"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -3220,7 +3379,8 @@
             "raw": {
               "cur_count": "17",
               "old_count": "15"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3252,7 +3412,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 33
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3291,7 +3452,8 @@
             "raw": {
               "sort": 35,
               "last_sort": 33
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3369,7 +3531,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 1
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3437,7 +3600,8 @@
             "raw": {
               "cur_count": "15",
               "old_count": "10"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3469,7 +3633,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 66
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3502,7 +3667,8 @@
             "raw": {
               "sort": 91,
               "last_sort": 118
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3581,7 +3747,8 @@
             "raw": {
               "cur_count": "22",
               "old_count": "19"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3613,7 +3780,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 38
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3646,7 +3814,8 @@
             "raw": {
               "sort": 100,
               "last_sort": 100
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3683,10 +3852,16 @@
           "url": "https://www.kuwo.cn/play_detail/321260769",
           "sourceId": "321260769",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 36,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -3718,10 +3893,16 @@
           "url": "https://music.apple.com/cn/album/%E5%94%AF%E4%B8%80/1717030435?i=1717030438",
           "sourceId": "1717030438",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 36,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -3756,7 +3937,8 @@
               "rank_delta": "12",
               "rank_type": "down",
               "track_id": "7284443920741058562"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -3823,7 +4005,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 22
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3890,7 +4073,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 4
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3957,7 +4141,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 14
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4025,7 +4210,8 @@
             "raw": {
               "cur_count": "44",
               "old_count": "26"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4058,7 +4244,8 @@
             "raw": {
               "sort": 8,
               "last_sort": 6
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -4095,10 +4282,16 @@
           "url": "https://www.kuwo.cn/play_detail/646859398",
           "sourceId": "646859398",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 17,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -4178,7 +4371,8 @@
             "raw": {
               "cur_count": "1",
               "old_count": "51"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4241,7 +4435,8 @@
             "raw": {
               "cur_count": "36",
               "old_count": "100"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4273,7 +4468,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 120
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4306,7 +4502,8 @@
             "raw": {
               "sort": 6,
               "last_sort": 8
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -4374,7 +4571,8 @@
             "raw": {
               "cur_count": "12",
               "old_count": "11"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4407,7 +4605,8 @@
             "raw": {
               "sort": 68,
               "last_sort": 74
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -4444,10 +4643,16 @@
           "url": "https://www.kuwo.cn/play_detail/102428",
           "sourceId": "102428",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 64,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -4485,10 +4690,16 @@
           "url": "https://music.apple.com/cn/album/%E7%88%B1%E9%94%99/1134344345?i=1134344911",
           "sourceId": "1134344911",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 10,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -4557,7 +4768,8 @@
             "raw": {
               "cur_count": "30",
               "old_count": "24"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4590,7 +4802,8 @@
             "raw": {
               "sort": 34,
               "last_sort": 32
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -4627,10 +4840,16 @@
           "url": "https://www.kuwo.cn/play_detail/499778",
           "sourceId": "499778",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 45,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -4668,10 +4887,16 @@
           "url": "https://music.apple.com/cn/album/%E5%81%8F%E7%88%B1/905211910?i=905212063",
           "sourceId": "905212063",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -6,
+            "previousRank": 84,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -4706,7 +4931,8 @@
               "rank_delta": "4",
               "rank_type": "down",
               "track_id": "7468197025571948560"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -4774,7 +5000,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 10
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4841,7 +5068,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 7
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4908,7 +5136,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 12
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4976,7 +5205,8 @@
             "raw": {
               "cur_count": "29",
               "old_count": "25"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5009,7 +5239,8 @@
             "raw": {
               "sort": 30,
               "last_sort": 28
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5046,10 +5277,16 @@
           "url": "https://www.kuwo.cn/play_detail/320433",
           "sourceId": "320433",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 40,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -5087,10 +5324,16 @@
           "url": "https://music.apple.com/cn/album/%E6%B3%AA%E6%B5%B7/1442676794?i=1442676801",
           "sourceId": "1442676801",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 41,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -5159,7 +5402,8 @@
             "raw": {
               "cur_count": "100",
               "old_count": "57"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5192,7 +5436,8 @@
             "raw": {
               "sort": 1,
               "last_sort": 1
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5229,10 +5474,16 @@
           "url": "https://www.kuwo.cn/play_detail/651621673",
           "sourceId": "651621673",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 38,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -5306,7 +5557,8 @@
             "raw": {
               "cur_count": "72",
               "old_count": "40"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5338,7 +5590,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 42
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5371,7 +5624,8 @@
             "raw": {
               "sort": 23,
               "last_sort": 17
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5411,7 +5665,8 @@
               "rank_delta": "0",
               "rank_type": "new",
               "track_id": "7646998266635094067"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -5479,7 +5734,8 @@
             "raw": {
               "cur_count": "21",
               "old_count": "18"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5511,7 +5767,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 54
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5550,7 +5807,8 @@
             "raw": {
               "sort": 94,
               "last_sort": 98
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5587,10 +5845,16 @@
           "url": "https://www.kuwo.cn/play_detail/450444",
           "sourceId": "450444",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 35,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -5636,7 +5900,8 @@
               "rank_delta": "7",
               "rank_type": "down",
               "track_id": "7068138081588611073"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -5704,7 +5969,8 @@
             "raw": {
               "cur_count": "20",
               "old_count": "20"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5736,7 +6002,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 94
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5775,7 +6042,8 @@
             "raw": {
               "sort": 81,
               "last_sort": 86
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5812,10 +6080,16 @@
           "url": "https://www.kuwo.cn/play_detail/6468891",
           "sourceId": "6468891",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 46,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -5861,7 +6135,8 @@
               "rank_delta": "7",
               "rank_type": "down",
               "track_id": "6778775241108752385"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -5929,7 +6204,8 @@
             "raw": {
               "cur_count": "35",
               "old_count": "46"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5961,7 +6237,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 31
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6035,7 +6312,8 @@
             "raw": {
               "cur_count": "43",
               "old_count": "29"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6068,7 +6346,8 @@
             "raw": {
               "sort": 22,
               "last_sort": 22
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6105,10 +6384,16 @@
           "url": "https://www.kuwo.cn/play_detail/1044318",
           "sourceId": "1044318",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 8,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -6188,7 +6473,8 @@
             "raw": {
               "cur_count": "16",
               "old_count": "12"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6220,7 +6506,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 60
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6259,7 +6546,8 @@
             "raw": {
               "sort": 99,
               "last_sort": 80
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6304,7 +6592,8 @@
               "rank_delta": "9",
               "rank_type": "down",
               "track_id": "6726058369783711745"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -6371,7 +6660,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 2
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6439,7 +6729,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 11
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6508,7 +6799,8 @@
             "raw": {
               "cur_count": "25",
               "old_count": "14"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6534,10 +6826,16 @@
           "url": "https://music.apple.com/cn/album/superstar/6820431727?i=6820431731",
           "sourceId": "6820431731",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 8,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -6599,10 +6897,16 @@
           "url": "https://y.qq.com/n/ryqq/songDetail/0035NK3D30B4V6",
           "sourceId": "0035NK3D30B4V6",
           "sourceMovement": {
-            "direction": "unknown",
+            "direction": "new",
             "delta": null,
             "previousRank": null,
-            "period": "previous-edition",
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "cur_count": "9",
               "old_count": "0"
@@ -6669,7 +6973,8 @@
             "raw": {
               "sort": 14,
               "last_sort": 10
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6701,10 +7006,16 @@
           "url": "https://www.kuwo.cn/play_detail/634967174",
           "sourceId": "634967174",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 44,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -6744,7 +7055,8 @@
               "rank_delta": "0",
               "rank_type": "new",
               "track_id": "7673056148375210001"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -6811,7 +7123,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 23
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6879,7 +7192,8 @@
             "raw": {
               "sort": 4,
               "last_sort": 4
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6953,7 +7267,8 @@
             "raw": {
               "sort": 13,
               "last_sort": 13
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6985,10 +7300,16 @@
           "url": "https://www.kuwo.cn/play_detail/567247828",
           "sourceId": "567247828",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 2,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -7061,7 +7382,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 13
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7129,7 +7451,8 @@
             "raw": {
               "sort": 5,
               "last_sort": 5
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7208,7 +7531,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 15
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7276,7 +7600,8 @@
             "raw": {
               "sort": 10,
               "last_sort": 9
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7308,10 +7633,16 @@
           "url": "https://www.kuwo.cn/play_detail/651031866",
           "sourceId": "651031866",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 27,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -7378,10 +7709,16 @@
           "url": "https://y.qq.com/n/ryqq/songDetail/0016a5YS1wS8EE",
           "sourceId": "0016a5YS1wS8EE",
           "sourceMovement": {
-            "direction": "unknown",
+            "direction": "new",
             "delta": null,
             "previousRank": null,
-            "period": "previous-edition",
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "cur_count": "13",
               "old_count": "0"
@@ -7448,7 +7785,8 @@
             "raw": {
               "cur_count": "37",
               "old_count": "43"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7481,7 +7819,8 @@
             "raw": {
               "sort": 54,
               "last_sort": 57
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7518,10 +7857,16 @@
           "url": "https://www.kuwo.cn/play_detail/228908",
           "sourceId": "228908",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 72,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -7559,10 +7904,16 @@
           "url": "https://music.apple.com/cn/album/%E6%99%B4%E5%A4%A9/535824731?i=535824738",
           "sourceId": "535824738",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 6,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -7630,7 +7981,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 17
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7698,7 +8050,8 @@
             "raw": {
               "cur_count": "53",
               "old_count": "53"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7730,7 +8083,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 35
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7769,7 +8123,8 @@
             "raw": {
               "sort": 42,
               "last_sort": 45
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7848,7 +8203,8 @@
             "raw": {
               "sort": 9,
               "last_sort": 12
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -7915,7 +8271,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 19
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7983,7 +8340,8 @@
             "raw": {
               "cur_count": "26",
               "old_count": "23"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8016,7 +8374,8 @@
             "raw": {
               "sort": 55,
               "last_sort": 53
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8053,10 +8412,16 @@
           "url": "https://www.kuwo.cn/play_detail/296504",
           "sourceId": "296504",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 90,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -8094,10 +8459,16 @@
           "url": "https://music.apple.com/cn/album/%E9%81%87%E8%A7%81/541856819?i=541857030",
           "sourceId": "541857030",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 29,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -8166,7 +8537,8 @@
             "raw": {
               "cur_count": "33",
               "old_count": "31"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8199,7 +8571,8 @@
             "raw": {
               "sort": 90,
               "last_sort": 91
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8236,10 +8609,16 @@
           "url": "https://music.apple.com/cn/album/%E9%98%B4%E5%A4%A9/200469374?i=200473135",
           "sourceId": "200473135",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 17,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -8308,7 +8687,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 21
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8382,7 +8762,8 @@
             "raw": {
               "sort": 24,
               "last_sort": 23
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8414,10 +8795,16 @@
           "url": "https://www.kuwo.cn/play_detail/624683929",
           "sourceId": "624683929",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 1,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -8495,7 +8882,8 @@
             "raw": {
               "sort": 11,
               "last_sort": 180
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -8559,7 +8947,8 @@
             "raw": {
               "cur_count": "18",
               "old_count": "17"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8591,7 +8980,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 59
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8624,7 +9014,8 @@
             "raw": {
               "sort": 51,
               "last_sort": 65
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8661,10 +9052,16 @@
           "url": "https://www.kuwo.cn/play_detail/857052",
           "sourceId": "857052",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 79,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -8744,7 +9141,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 5
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8812,7 +9210,8 @@
             "raw": {
               "sort": 12,
               "last_sort": 14
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8887,7 +9286,8 @@
             "raw": {
               "cur_count": "19",
               "old_count": "16"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8913,10 +9313,16 @@
           "url": "https://www.kuwo.cn/play_detail/41374994",
           "sourceId": "41374994",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 74,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -8996,7 +9402,8 @@
             "raw": {
               "cur_count": "24",
               "old_count": "21"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9029,7 +9436,8 @@
             "raw": {
               "sort": 71,
               "last_sort": 89
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9066,10 +9474,16 @@
           "url": "https://www.kuwo.cn/play_detail/93157",
           "sourceId": "93157",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 30,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9107,10 +9521,16 @@
           "url": "https://music.apple.com/cn/album/%E6%B1%9F%E5%8D%97/1073049123?i=1073049129",
           "sourceId": "1073049129",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 60,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -9179,7 +9599,8 @@
             "raw": {
               "sort": 26,
               "last_sort": 19
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9211,10 +9632,16 @@
           "url": "https://www.kuwo.cn/play_detail/570482802",
           "sourceId": "570482802",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 3,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9288,7 +9715,8 @@
             "raw": {
               "cur_count": "42",
               "old_count": "28"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9321,7 +9749,8 @@
             "raw": {
               "sort": 38,
               "last_sort": 34
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9358,10 +9787,16 @@
           "url": "https://www.kuwo.cn/play_detail/15807836",
           "sourceId": "15807836",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 92,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9441,7 +9876,8 @@
             "raw": {
               "cur_count": "32",
               "old_count": "33"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9473,7 +9909,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 53
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9505,10 +9942,16 @@
           "url": "https://music.apple.com/cn/album/%E5%A4%9A%E8%BF%9C%E9%83%BD%E8%A6%81%E5%9C%A8%E4%B8%80%E8%B5%B7/1053567923?i=1053567928",
           "sourceId": "1053567928",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 30,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -9576,7 +10019,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 25
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9650,7 +10094,8 @@
             "raw": {
               "sort": 20,
               "last_sort": 20
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9682,10 +10127,16 @@
           "url": "https://www.kuwo.cn/play_detail/648455278",
           "sourceId": "648455278",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 28,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9759,7 +10210,8 @@
             "raw": {
               "sort": 29,
               "last_sort": 26
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9796,10 +10248,16 @@
           "url": "https://www.kuwo.cn/play_detail/550221152",
           "sourceId": "550221152",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 5,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9872,7 +10330,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 28
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9940,7 +10399,8 @@
             "raw": {
               "sort": 16,
               "last_sort": 11
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10014,7 +10474,8 @@
             "raw": {
               "cur_count": "23",
               "old_count": "22"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10046,7 +10507,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 62
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10085,7 +10547,8 @@
             "raw": {
               "sort": 79,
               "last_sort": 95
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10163,7 +10626,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 30
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10236,7 +10700,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 43
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10275,7 +10740,8 @@
             "raw": {
               "sort": 78,
               "last_sort": 82
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10312,10 +10778,16 @@
           "url": "https://music.apple.com/cn/album/%E5%B0%8F%E5%8D%8A/1421692907?i=1421693331",
           "sourceId": "1421693331",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 99,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -10350,7 +10822,8 @@
               "rank_delta": "4",
               "rank_type": "down",
               "track_id": "7079108541549643812"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -10418,7 +10891,8 @@
             "raw": {
               "cur_count": "39",
               "old_count": "38"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10451,7 +10925,8 @@
             "raw": {
               "sort": 67,
               "last_sort": 72
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10488,10 +10963,16 @@
           "url": "https://www.kuwo.cn/play_detail/80403",
           "sourceId": "80403",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 49,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -10529,10 +11010,16 @@
           "url": "https://music.apple.com/cn/album/%E5%8D%81%E5%B9%B4/542922079?i=542922095",
           "sourceId": "542922095",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 39,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -10601,7 +11088,8 @@
             "raw": {
               "sort": 17,
               "last_sort": 25
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10675,7 +11163,8 @@
             "raw": {
               "cur_count": "47",
               "old_count": "42"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10701,10 +11190,16 @@
           "url": "https://www.kuwo.cn/play_detail/5886682",
           "sourceId": "5886682",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 22,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -10750,7 +11245,8 @@
               "rank_delta": "14",
               "rank_type": "down",
               "track_id": "6705003948140398594"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -10818,7 +11314,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 26
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10892,7 +11389,8 @@
             "raw": {
               "cur_count": "31",
               "old_count": "36"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10925,7 +11423,8 @@
             "raw": {
               "sort": 93,
               "last_sort": 78
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10962,10 +11461,16 @@
           "url": "https://www.kuwo.cn/play_detail/93151",
           "sourceId": "93151",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 29,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -11003,10 +11508,16 @@
           "url": "https://music.apple.com/cn/album/%E7%BE%8E%E4%BA%BA%E9%B1%BC/1071753622?i=1071753633",
           "sourceId": "1071753633",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 96,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -11075,7 +11586,8 @@
             "raw": {
               "sort": 18,
               "last_sort": 16
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11142,10 +11654,16 @@
           "url": "https://www.kuwo.cn/play_detail/641820680",
           "sourceId": "641820680",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 10,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -11185,7 +11703,8 @@
               "rank_delta": "31",
               "rank_type": "up",
               "track_id": "7679277712545269769"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -11254,7 +11773,8 @@
             "raw": {
               "cur_count": "56",
               "old_count": "37"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -11287,7 +11807,8 @@
             "raw": {
               "sort": 19,
               "last_sort": 18
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11366,7 +11887,8 @@
             "raw": {
               "cur_count": "38",
               "old_count": "27"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -11398,7 +11920,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 47
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11437,7 +11960,8 @@
             "raw": {
               "sort": 52,
               "last_sort": 55
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11474,10 +11998,16 @@
           "url": "https://www.kuwo.cn/play_detail/68279255",
           "sourceId": "68279255",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 63,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -11523,7 +12053,8 @@
               "rank_delta": "10",
               "rank_type": "up",
               "track_id": "7554230847320901683"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -11591,7 +12122,8 @@
             "raw": {
               "cur_count": "27",
               "old_count": "30"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -11658,7 +12190,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 29
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11733,7 +12266,8 @@
             "raw": {
               "sort": 21,
               "last_sort": 21
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11765,10 +12299,16 @@
           "url": "https://www.kuwo.cn/play_detail/636218203",
           "sourceId": "636218203",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 95,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -11843,7 +12383,8 @@
               "rank_delta": "1",
               "rank_type": "up",
               "track_id": "7091589595099301889"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -11911,7 +12452,8 @@
             "raw": {
               "cur_count": "49",
               "old_count": "39"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -11944,7 +12486,8 @@
             "raw": {
               "sort": 61,
               "last_sort": 64
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11981,10 +12524,16 @@
           "url": "https://www.kuwo.cn/play_detail/193290598",
           "sourceId": "193290598",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 6,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -12064,7 +12613,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 37
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12125,10 +12675,16 @@
           "url": "https://music.apple.com/cn/album/%E4%B8%83%E9%87%8C%E9%A6%99/536114662?i=536115195",
           "sourceId": "536115195",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 4,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -12196,7 +12752,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 44
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12265,7 +12822,8 @@
             "raw": {
               "cur_count": "45",
               "old_count": "44"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12297,7 +12855,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 69
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12336,7 +12895,8 @@
             "raw": {
               "sort": 98,
               "last_sort": 102
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12368,10 +12928,16 @@
           "url": "https://music.apple.com/cn/album/%E6%9C%80%E4%BD%B3%E6%8D%9F%E5%8F%8B/1442912707?i=1442913348",
           "sourceId": "1442913348",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 50,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -12440,7 +13006,8 @@
             "raw": {
               "cur_count": "63",
               "old_count": "71"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12472,7 +13039,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 36
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12547,7 +13115,8 @@
               "rank_delta": "0",
               "rank_type": "new",
               "track_id": "7603361141734017062"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -12608,10 +13177,16 @@
           "url": "https://music.apple.com/cn/album/%E6%90%81%E6%B5%85/536114662?i=536115199",
           "sourceId": "536115199",
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 5,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -12681,7 +13256,8 @@
               "rank_delta": "18",
               "rank_type": "up",
               "track_id": "7674273204581697563"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -12750,7 +13326,8 @@
             "raw": {
               "sort": 27,
               "last_sort": 31
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -12813,7 +13390,8 @@
             "raw": {
               "cur_count": "48",
               "old_count": "48"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12845,7 +13423,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 91
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12885,7 +13464,8 @@
               "rank_delta": "16",
               "rank_type": "down",
               "track_id": "6726058972337424385"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",

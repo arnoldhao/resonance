@@ -880,3 +880,20 @@ html:has(.song-dialog[open]){overflow:hidden;overscroll-behavior:none}
 }
 @media(max-width:390px){.platform-filter{font-size:10px}
 }
+
+/* Daily movement views and calendar-month summaries reuse the existing chart layout. */
+.movement-controls{display:flex;gap:8px;margin:2px 0 16px}
+.movement-controls button{padding:7px 14px;border:1px solid var(--line);border-radius:8px;background:none;color:var(--muted);font-size:12px}
+.movement-controls button[aria-pressed=true]{background:#dce7f20b;border-color:#dce7f244;color:var(--accent)}
+.movement-ranks{font:11px var(--number);color:var(--muted)}
+.movement-origin{display:block;font:9px/1.7 var(--sans);color:var(--muted);margin-top:3px}
+.monthly-score-bars{grid-template-columns:repeat(var(--period-days),minmax(0,1fr));gap:2px}
+.monthly-calendar .weekly-calendar-day{padding-top:10px;padding-bottom:10px}
+.monthly-calendar .weekly-calendar-day>b{margin-top:6px;font-size:17px}
+.monthly-calendar .weekly-calendar-day>small{margin-top:5px}
+.source-cadence{border-top:1px solid var(--line);padding-top:10px;margin-top:10px;font-size:11px;line-height:1.9}
+.source-cadence summary{cursor:pointer;color:var(--accent)}
+.source-cadence ul{padding-left:18px;margin:8px 0 0}
+.chart-tab{white-space:nowrap}
+@media(max-width:1000px){.top-nav{gap:17px}.chart-header{flex-wrap:wrap}.chart-tabs{flex-basis:100%}.chart-tools{margin-bottom:12px}}
+@media(max-width:600px){.masthead{height:auto;min-height:74px;flex-wrap:wrap;gap:0;padding-top:16px}.top-nav{order:2;flex-basis:100%;justify-content:space-between;gap:8px}.top-nav a{padding:18px 0}.top-nav a[aria-current=page]:after{bottom:8px}.chart-tabs{gap:16px}.chart-tab{font-size:13px}.monthly-calendar .weekly-calendar-day>b{font-size:13px}}

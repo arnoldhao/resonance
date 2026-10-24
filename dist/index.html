@@ -23,7 +23,7 @@
         <svg class="brand-mark" viewBox="0 0 34 29" fill="none" aria-hidden="true"><path d="M2 18V11M9 24V5M17 28V1M25 24V5M32 18V11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
         <span class="brand-cn">共振</span><span class="brand-en">RESONANCE<span>音乐的共同频率</span></span>
       </a>
-      <nav class="top-nav" aria-label="主要导航"><a href="#charts" data-nav="charts" aria-current="page">日榜</a><a href="#weekly" data-nav="weekly">周榜</a><a href="#method" data-nav="method">计算方法</a><a href="#sources" data-nav="sources">数据源<span class="status-dot" aria-hidden="true"></span></a><a href="#api" data-nav="api">开放 API</a></nav>
+      <nav class="top-nav" aria-label="主要导航"><a href="#charts" data-nav="charts" aria-current="page">日榜</a><a href="#weekly" data-nav="weekly">周榜</a><a href="#monthly" data-nav="monthly">月榜</a><a href="#method" data-nav="method">计算方法</a><a href="#sources" data-nav="sources">数据源<span class="status-dot" aria-hidden="true"></span></a><a href="#api" data-nav="api">开放 API</a></nav>
       <div class="edition"><span>中国 · CHINA</span><a href="#subscribe" class="subscribe-nav">订阅更新 ↗</a></div>
     </header>
   </div>
@@ -38,8 +38,9 @@
       <section class="daily-section" aria-labelledby="daily-heading">
         <div class="section-title"><div><span class="section-number">DAILY /</span><h2 id="daily-heading">共振日榜</h2></div><p id="snapshot-time">正在读取榜单…</p></div>
         <div id="feature-strip" class="feature-strip"></div>
-        <div class="chart-header"><div class="chart-tabs" role="tablist" aria-label="榜单类型"><button id="combined-tab" class="chart-tab active" role="tab" aria-selected="true" aria-controls="chart-panel" data-mode="combined">共振综合榜 <span>TOP 100</span></button><button id="platform-tab" class="chart-tab" role="tab" aria-selected="false" aria-controls="chart-panel" data-mode="platform">平台原榜 <span>ORIGINAL</span></button></div><div class="chart-tools"><label class="date-picker"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3h12v14H4zM4 7h12M7 1v4M13 1v4"/></svg><select id="date-select" aria-label="选择榜单日期"><option value="latest">最新一期</option></select></label><button id="export-button" class="export-button" title="导出当前榜单 CSV">导出 <span aria-hidden="true">↓</span></button></div></div>
+        <div class="chart-header"><div class="chart-tabs" role="tablist" aria-label="榜单类型"><button id="combined-tab" class="chart-tab active" role="tab" aria-selected="true" aria-controls="chart-panel" data-mode="combined">共振综合榜 <span>TOP 100</span></button><button id="movement-tab" class="chart-tab" role="tab" aria-selected="false" aria-controls="chart-panel" data-mode="movement">共振涨跌榜 <span>MOVERS</span></button><button id="platform-tab" class="chart-tab" role="tab" aria-selected="false" aria-controls="chart-panel" data-mode="platform">平台原榜 <span>ORIGINAL</span></button></div><div class="chart-tools"><label class="date-picker"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3h12v14H4zM4 7h12M7 1v4M13 1v4"/></svg><select id="date-select" aria-label="选择榜单日期"><option value="latest">最新一期</option></select></label><button id="export-button" class="export-button" title="导出当前榜单 CSV">导出 <span aria-hidden="true">↓</span></button></div></div>
         <div class="filter-row"><div id="platform-filters" class="platform-filters" aria-label="平台筛选"></div><label class="search-box"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search-input" type="search" placeholder="搜索歌曲 / 歌手" autocomplete="off" aria-label="搜索歌曲或歌手"><kbd>/</kbd></label></div>
+        <div id="movement-controls" class="movement-controls" aria-label="涨跌方向" hidden><button type="button" data-movement="up" aria-pressed="true">上升</button><button type="button" data-movement="down" aria-pressed="false">下降</button><button type="button" data-movement="new" aria-pressed="false">新入榜</button></div>
         <p id="chart-context" class="chart-context"></p>
         <div id="chart-panel" role="tabpanel" aria-labelledby="combined-tab"><div class="table-head" aria-hidden="true"><span>排名</span><span>歌曲 / 艺人</span><span>平台名次</span><span>近 7 日</span><span>共振值</span></div><div id="chart-rows" class="chart-rows" aria-live="polite"><div class="empty-state">正在接收今日的频率…</div></div></div>
         <div class="chart-bottom"><p id="result-count"></p><button id="show-more" class="outline-button" hidden>展开更多歌曲 <span aria-hidden="true">↓</span></button><a id="download-json" class="text-link" href="./data/latest.json" download>原始 JSON <span aria-hidden="true">↗</span></a></div>
@@ -50,6 +51,11 @@
       <div class="issue-line"><span>THE WEEKLY RESONANCE</span><span>MONDAY — SUNDAY / UTC+8</span></div>
       <div class="article-hero weekly-hero"><div><p class="eyebrow">WEEKLY / 共振周榜</p><h1>一周的共同回响。</h1><p>每天的共振值，汇成一周的音乐观察。</p></div></div>
       <div id="weekly-content"><div class="empty-state">正在读取每周的音乐切片…</div></div>
+    </section>
+    <section id="monthly-view" class="view article-view" hidden>
+      <div class="issue-line"><span>THE MONTHLY RESONANCE</span><span>CALENDAR MONTH / UTC+8</span></div>
+      <div class="article-hero weekly-hero"><div><p class="eyebrow">MONTHLY / 共振月榜</p><h1>一个月的共同回响。</h1><p>以自然月为周期，记录流行的持续回声。</p></div></div>
+      <div id="monthly-content"><div class="empty-state">正在读取每月的音乐切片…</div></div>
     </section>
     <section id="method-view" class="view article-view" hidden>
       <div class="issue-line"><span>THE METHODOLOGY</span><span>透明 · 可复算 · 有边界</span></div>
@@ -67,7 +73,7 @@
       <div id="api-content"><div class="empty-state">正在读取可用快照…</div></div>
     </section>
   </main>
-  <footer class="page-width footer"><div class="footer-brand">共振<span>RESONANCE</span></div><p>听见流行的交集。<span>独立音乐数据观察项目 · 非平台官方榜单</span></p><div class="footer-links"><a href="#weekly">综合周榜</a><a href="#method">方法公开</a><a href="#sources">来源可溯</a><a href="#api">开放 API ↗</a><a href="#subscribe">订阅更新 ↗</a></div><div class="footer-bottom"><span>MADE FOR THE LOVE OF MUSIC.</span><span>只记录榜单与元数据 · 音乐请到原平台收听</span></div></footer>
+  <footer class="page-width footer"><div class="footer-brand">共振<span>RESONANCE</span></div><p>听见流行的交集。<span>独立音乐数据观察项目 · 非平台官方榜单</span></p><div class="footer-links"><a href="#weekly">综合周榜</a><a href="#monthly">综合月榜</a><a href="#method">方法公开</a><a href="#sources">来源可溯</a><a href="#api">开放 API ↗</a><a href="#subscribe">订阅更新 ↗</a></div><div class="footer-bottom"><span>MADE FOR THE LOVE OF MUSIC.</span><span>只记录榜单与元数据 · 音乐请到原平台收听</span></div></footer>
   <dialog id="song-dialog" class="song-dialog" aria-labelledby="song-dialog-title"><button id="close-dialog" class="close-dialog" aria-label="关闭歌曲详情">×</button><div id="song-detail"></div></dialog>
 </body>
 </html>

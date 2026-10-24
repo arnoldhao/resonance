@@ -2,7 +2,7 @@
   "weekStart": "2026-10-19",
   "weekEnd": "2026-10-25",
   "mode": "live",
-  "generatedAt": "2026-10-24T05:51:55.741Z",
+  "generatedAt": "2026-10-24T08:30:20.196Z",
   "asOfDate": "2026-10-24",
   "status": "provisional",
   "methodology": {
@@ -85,7 +85,8 @@
             "raw": {
               "cur_count": "4",
               "old_count": "3"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -119,7 +120,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 0
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -160,7 +162,8 @@
             "raw": {
               "sort": 3,
               "last_sort": 3
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -199,10 +202,16 @@
           "score": 55.59552931290306,
           "contribution": 2.779776465645153,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 18,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -242,10 +251,16 @@
           "score": 96.47104952370908,
           "contribution": 9.64710495237091,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 2,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -282,7 +297,8 @@
               "rank_delta": "1",
               "rank_type": "up",
               "track_id": "6705065595320141825"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -349,7 +365,8 @@
             "raw": {
               "cur_count": "2",
               "old_count": "2"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -383,7 +400,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 3
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -424,7 +442,8 @@
             "raw": {
               "sort": 2,
               "last_sort": 2
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -463,10 +482,16 @@
           "score": 34.04217717692653,
           "contribution": 1.7021088588463265,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 34,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -506,10 +531,16 @@
           "score": 28.170686619518985,
           "contribution": 2.8170686619518985,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 3,
+            "previousRank": 44,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -546,7 +577,8 @@
               "rank_delta": "0",
               "rank_type": "new",
               "track_id": "6849381964508596226"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -613,7 +645,8 @@
             "raw": {
               "cur_count": "5",
               "old_count": "4"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -647,7 +680,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 6
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -682,7 +716,8 @@
             "raw": {
               "sort": 7,
               "last_sort": 7
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -721,10 +756,16 @@
           "score": 89.82283930454417,
           "contribution": 4.491141965227209,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 4,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -772,7 +813,8 @@
               "rank_delta": "1",
               "rank_type": "up",
               "track_id": "7657099403009804305"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -839,7 +881,8 @@
             "raw": {
               "cur_count": "8",
               "old_count": "6"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -873,7 +916,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 8
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -914,7 +958,8 @@
             "raw": {
               "sort": 40,
               "last_sort": 39
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -953,10 +998,16 @@
           "score": 27.458203806180272,
           "contribution": 1.3729101903090137,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 42,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -996,10 +1047,16 @@
           "score": 40.56359730804452,
           "contribution": 4.056359730804452,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 27,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -1036,7 +1093,8 @@
               "rank_delta": "1",
               "rank_type": "down",
               "track_id": "7436998767289845777"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -1103,7 +1161,8 @@
             "raw": {
               "cur_count": "7",
               "old_count": "7"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -1137,7 +1196,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 16
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1178,7 +1238,8 @@
             "raw": {
               "sort": 45,
               "last_sort": 51
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1217,10 +1278,16 @@
           "score": 23.73310951811955,
           "contribution": 1.1866554759059775,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 48,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -1260,10 +1327,16 @@
           "score": 93.08047117479722,
           "contribution": 9.308047117479722,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 3,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -1300,7 +1373,8 @@
               "rank_delta": "5",
               "rank_type": "down",
               "track_id": "6705014751795087362"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -1367,7 +1441,8 @@
             "raw": {
               "cur_count": "6",
               "old_count": "5"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -1401,7 +1476,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 27
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1442,7 +1518,8 @@
             "raw": {
               "sort": 25,
               "last_sort": 24
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1481,10 +1558,16 @@
           "score": 63.50684931731748,
           "contribution": 3.1753424658658744,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 14,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -1524,10 +1607,16 @@
           "score": 44.46035973776009,
           "contribution": 4.446035973776009,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 3,
+            "previousRank": 28,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -1564,7 +1653,8 @@
               "rank_delta": "8",
               "rank_type": "down",
               "track_id": "6696408181523875842"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -1631,7 +1721,8 @@
             "raw": {
               "cur_count": "10",
               "old_count": "8"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -1665,7 +1756,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 32
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1706,7 +1798,8 @@
             "raw": {
               "sort": 33,
               "last_sort": 30
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1745,10 +1838,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 69,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -1788,10 +1887,16 @@
           "score": 80.7965074959898,
           "contribution": 8.079650749598981,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 7,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -1828,7 +1933,8 @@
               "rank_delta": "12",
               "rank_type": "up",
               "track_id": "6704952949321238529"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -1895,7 +2001,8 @@
             "raw": {
               "cur_count": "11",
               "old_count": "9"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -1929,7 +2036,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 50
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -1970,7 +2078,8 @@
             "raw": {
               "sort": 36,
               "last_sort": 38
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2009,10 +2118,16 @@
           "score": 43.109149705429815,
           "contribution": 2.1554574852714907,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 26,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -2052,10 +2167,16 @@
           "score": 67.96327789748273,
           "contribution": 6.796327789748273,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 12,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -2092,7 +2213,8 @@
               "rank_delta": "2",
               "rank_type": "down",
               "track_id": "6990754046848010276"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -2160,7 +2282,8 @@
             "raw": {
               "cur_count": "3",
               "old_count": "1"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2195,7 +2318,8 @@
             "raw": {
               "sort": 41,
               "last_sort": 35
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2234,10 +2358,16 @@
           "score": 100,
           "contribution": 10,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 1,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -2305,7 +2435,8 @@
             "raw": {
               "cur_count": "28",
               "old_count": "35"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2339,7 +2470,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 18
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2374,7 +2506,8 @@
             "raw": {
               "sort": 48,
               "last_sort": 47
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2421,7 +2554,8 @@
               "rank_delta": "9",
               "rank_type": "down",
               "track_id": "7574231906780137489"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -2488,7 +2622,8 @@
             "raw": {
               "cur_count": "14",
               "old_count": "13"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2522,7 +2657,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 39
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2556,10 +2692,16 @@
           "score": 65.69050526255268,
           "contribution": 6.569050526255268,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 13,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -2596,7 +2738,8 @@
               "rank_delta": "19",
               "rank_type": "down",
               "track_id": "6918195036836349953"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -2663,7 +2806,8 @@
             "raw": {
               "cur_count": "94",
               "old_count": "64"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2697,7 +2841,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 24
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2738,7 +2883,8 @@
             "raw": {
               "sort": 15,
               "last_sort": 15
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2785,7 +2931,8 @@
               "rank_delta": "2",
               "rank_type": "down",
               "track_id": "7168861366286190604"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -2852,7 +2999,8 @@
             "raw": {
               "cur_count": "41",
               "old_count": "41"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -2886,7 +3034,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 9
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -2920,10 +3069,16 @@
           "score": 52.08997843089184,
           "contribution": 5.208997843089184,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 20,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -2991,7 +3146,8 @@
             "raw": {
               "cur_count": "34",
               "old_count": "34"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3025,7 +3181,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 20
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3066,7 +3223,8 @@
             "raw": {
               "sort": 49,
               "last_sort": 48
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3113,7 +3271,8 @@
               "rank_delta": "13",
               "rank_type": "down",
               "track_id": "7634441185327745025"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -3180,7 +3339,8 @@
             "raw": {
               "cur_count": "17",
               "old_count": "15"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3214,7 +3374,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 33
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3255,7 +3416,8 @@
             "raw": {
               "sort": 35,
               "last_sort": 33
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3332,7 +3494,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 1
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3399,7 +3562,8 @@
             "raw": {
               "cur_count": "22",
               "old_count": "19"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3433,7 +3597,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 38
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3468,7 +3633,8 @@
             "raw": {
               "sort": 100,
               "last_sort": 100
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3507,10 +3673,16 @@
           "score": 32.19372675474458,
           "contribution": 1.6096863377372292,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 36,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -3544,10 +3716,16 @@
           "score": 32.19372675474458,
           "contribution": 3.2193726754744585,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 36,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -3584,7 +3762,8 @@
               "rank_delta": "12",
               "rank_type": "down",
               "track_id": "7284443920741058562"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -3651,7 +3830,8 @@
             "raw": {
               "cur_count": "44",
               "old_count": "26"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3686,7 +3866,8 @@
             "raw": {
               "sort": 8,
               "last_sort": 6
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3725,10 +3906,16 @@
           "score": 57.45631816387438,
           "contribution": 2.872815908193719,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 17,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -3807,7 +3994,8 @@
             "raw": {
               "cur_count": "72",
               "old_count": "40"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3841,7 +4029,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 42
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -3876,7 +4065,8 @@
             "raw": {
               "sort": 23,
               "last_sort": 17
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -3918,7 +4108,8 @@
               "rank_delta": "0",
               "rank_type": "new",
               "track_id": "7646998266635094067"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -3984,7 +4175,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 4
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4051,7 +4243,8 @@
             "raw": {
               "cur_count": "30",
               "old_count": "24"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4086,7 +4279,8 @@
             "raw": {
               "sort": 34,
               "last_sort": 32
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -4125,10 +4319,16 @@
           "score": 25.48403774407455,
           "contribution": 1.2742018872037275,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 45,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -4168,10 +4368,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -6,
+            "previousRank": 84,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -4208,7 +4414,8 @@
               "rank_delta": "4",
               "rank_type": "down",
               "track_id": "7468197025571948560"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -4275,7 +4482,8 @@
             "raw": {
               "cur_count": "12",
               "old_count": "11"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4310,7 +4518,8 @@
             "raw": {
               "sort": 68,
               "last_sort": 74
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -4349,10 +4558,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 64,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -4392,10 +4607,16 @@
           "score": 75.35341333663219,
           "contribution": 7.535341333663219,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 10,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -4462,7 +4683,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 2
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4529,7 +4751,8 @@
             "raw": {
               "cur_count": "15",
               "old_count": "10"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4563,7 +4786,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 66
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4598,7 +4822,8 @@
             "raw": {
               "sort": 91,
               "last_sort": 118
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -4675,7 +4900,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 7
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4742,7 +4968,8 @@
             "raw": {
               "cur_count": "29",
               "old_count": "25"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4777,7 +5004,8 @@
             "raw": {
               "sort": 30,
               "last_sort": 28
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -4816,10 +5044,16 @@
           "score": 28.912246408068825,
           "contribution": 1.4456123204034412,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 40,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -4859,10 +5093,16 @@
           "score": 27.458203806180272,
           "contribution": 2.7458203806180275,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 41,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -4930,7 +5170,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 10
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -4997,7 +5238,8 @@
             "raw": {
               "cur_count": "21",
               "old_count": "18"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5031,7 +5273,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 54
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5072,7 +5315,8 @@
             "raw": {
               "sort": 94,
               "last_sort": 98
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5111,10 +5355,16 @@
           "score": 33.09946992582003,
           "contribution": 1.6549734962910017,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 35,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -5162,7 +5412,8 @@
               "rank_delta": "7",
               "rank_type": "down",
               "track_id": "7068138081588611073"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -5229,7 +5480,8 @@
             "raw": {
               "cur_count": "43",
               "old_count": "29"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5264,7 +5516,8 @@
             "raw": {
               "sort": 22,
               "last_sort": 22
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5303,10 +5556,16 @@
           "score": 78.02053673101528,
           "contribution": 3.9010268365507645,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 8,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -5384,7 +5643,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 14
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5451,7 +5711,8 @@
             "raw": {
               "cur_count": "100",
               "old_count": "57"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5486,7 +5747,8 @@
             "raw": {
               "sort": 1,
               "last_sort": 1
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5525,10 +5787,16 @@
           "score": 30.487391954543146,
           "contribution": 1.5243695977271574,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 38,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -5602,7 +5870,8 @@
             "raw": {
               "cur_count": "25",
               "old_count": "14"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5630,10 +5899,16 @@
           "score": 78.02053673101528,
           "contribution": 7.802053673101529,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 8,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -5700,7 +5975,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 22
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5767,7 +6043,8 @@
             "raw": {
               "cur_count": "20",
               "old_count": "20"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -5801,7 +6078,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 94
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5842,7 +6120,8 @@
             "raw": {
               "sort": 81,
               "last_sort": 86
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -5881,10 +6160,16 @@
           "score": 24.87689993994279,
           "contribution": 1.2438449969971395,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 46,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -5932,7 +6217,8 @@
               "rank_delta": "7",
               "rank_type": "down",
               "track_id": "6778775241108752385"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -5999,7 +6285,8 @@
             "raw": {
               "cur_count": "16",
               "old_count": "12"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6033,7 +6320,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 60
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6074,7 +6362,8 @@
             "raw": {
               "sort": 99,
               "last_sort": 80
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6121,7 +6410,8 @@
               "rank_delta": "9",
               "rank_type": "down",
               "track_id": "6726058369783711745"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -6187,7 +6477,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 12
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6254,7 +6545,8 @@
             "raw": {
               "cur_count": "36",
               "old_count": "100"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6289,7 +6581,8 @@
             "raw": {
               "sort": 6,
               "last_sort": 8
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -6323,7 +6616,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 120
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6390,7 +6684,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 11
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6457,7 +6752,8 @@
             "raw": {
               "sort": 14,
               "last_sort": 10
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6491,10 +6787,16 @@
           "score": 26.11595331203439,
           "contribution": 1.3057976656017196,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 44,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -6536,7 +6838,8 @@
               "rank_delta": "0",
               "rank_type": "new",
               "track_id": "7673056148375210001"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -6603,7 +6906,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 5
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6670,7 +6974,8 @@
             "raw": {
               "cur_count": "35",
               "old_count": "46"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6704,7 +7009,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 31
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6776,7 +7082,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 13
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -6843,7 +7150,8 @@
             "raw": {
               "sort": 4,
               "last_sort": 4
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6916,7 +7224,8 @@
             "raw": {
               "sort": 13,
               "last_sort": 13
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -6950,10 +7259,16 @@
           "score": 96.47104952370908,
           "contribution": 4.823552476185455,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 2,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -7026,7 +7341,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 15
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7093,7 +7409,8 @@
             "raw": {
               "sort": 5,
               "last_sort": 5
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7171,7 +7488,8 @@
             "raw": {
               "sort": 10,
               "last_sort": 9
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7205,10 +7523,16 @@
           "score": 41.81092137629021,
           "contribution": 2.0905460688145108,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 27,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -7280,7 +7604,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 17
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7346,7 +7671,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 23
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7413,7 +7739,8 @@
             "raw": {
               "cur_count": "38",
               "old_count": "27"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7447,7 +7774,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 47
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7488,7 +7816,8 @@
             "raw": {
               "sort": 52,
               "last_sort": 55
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7527,10 +7856,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 63,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -7578,7 +7913,8 @@
               "rank_delta": "10",
               "rank_type": "up",
               "track_id": "7554230847320901683"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -7645,7 +7981,8 @@
             "raw": {
               "cur_count": "37",
               "old_count": "43"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7680,7 +8017,8 @@
             "raw": {
               "sort": 54,
               "last_sort": 57
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7719,10 +8057,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 72,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -7762,10 +8106,16 @@
           "score": 83.68576777701836,
           "contribution": 8.368576777701836,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 6,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -7833,7 +8183,8 @@
             "raw": {
               "cur_count": "26",
               "old_count": "23"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -7868,7 +8219,8 @@
             "raw": {
               "sort": 55,
               "last_sort": 53
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -7907,10 +8259,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 90,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -7950,10 +8308,16 @@
           "score": 38.213756279434484,
           "contribution": 3.8213756279434485,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 29,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -8020,7 +8384,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 19
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8087,7 +8452,8 @@
             "raw": {
               "cur_count": "42",
               "old_count": "28"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8122,7 +8488,8 @@
             "raw": {
               "sort": 38,
               "last_sort": 34
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8161,10 +8528,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 92,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -8243,7 +8616,8 @@
             "raw": {
               "cur_count": "53",
               "old_count": "53"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8277,7 +8651,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 35
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8318,7 +8693,8 @@
             "raw": {
               "sort": 42,
               "last_sort": 45
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8397,7 +8773,8 @@
             "raw": {
               "cur_count": "56",
               "old_count": "37"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8432,7 +8809,8 @@
             "raw": {
               "sort": 19,
               "last_sort": 18
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8510,7 +8888,8 @@
             "raw": {
               "cur_count": "33",
               "old_count": "31"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -8545,7 +8924,8 @@
             "raw": {
               "sort": 90,
               "last_sort": 91
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8584,10 +8964,16 @@
           "score": 57.45631816387438,
           "contribution": 5.745631816387438,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 17,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -8655,7 +9041,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 21
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8728,7 +9115,8 @@
             "raw": {
               "sort": 26,
               "last_sort": 19
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8762,10 +9150,16 @@
           "score": 93.08047117479722,
           "contribution": 4.654023558739861,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 3,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -8838,7 +9232,8 @@
             "raw": {
               "sort": 9,
               "last_sort": 12
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -8905,7 +9300,8 @@
             "raw": {
               "sort": 24,
               "last_sort": 23
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -8939,10 +9335,16 @@
           "score": 100,
           "contribution": 5,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 1,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9016,7 +9418,8 @@
             "raw": {
               "cur_count": "19",
               "old_count": "16"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9044,10 +9447,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 74,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9127,7 +9536,8 @@
             "raw": {
               "cur_count": "18",
               "old_count": "17"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9161,7 +9571,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 59
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9196,7 +9607,8 @@
             "raw": {
               "sort": 51,
               "last_sort": 65
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9235,10 +9647,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 79,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9317,7 +9735,8 @@
             "raw": {
               "cur_count": "24",
               "old_count": "21"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9352,7 +9771,8 @@
             "raw": {
               "sort": 71,
               "last_sort": 89
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9391,10 +9811,16 @@
           "score": 38.213756279434484,
           "contribution": 1.9106878139717243,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 30,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9434,10 +9860,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 60,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -9505,7 +9937,8 @@
             "raw": {
               "sort": 12,
               "last_sort": 14
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9578,7 +10011,8 @@
             "raw": {
               "sort": 16,
               "last_sort": 11
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9650,7 +10084,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 25
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9723,7 +10158,8 @@
             "raw": {
               "cur_count": "32",
               "old_count": "33"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -9757,7 +10193,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 53
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9791,10 +10228,16 @@
           "score": 39.365181516073555,
           "contribution": 3.9365181516073555,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 30,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -9862,7 +10305,8 @@
             "raw": {
               "sort": 29,
               "last_sort": 26
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -9901,10 +10345,16 @@
           "score": 86.69294100695902,
           "contribution": 4.334647050347951,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 5,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -9977,7 +10427,8 @@
             "raw": {
               "cur_count": "1",
               "old_count": "51"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10044,7 +10495,8 @@
             "raw": {
               "sort": 20,
               "last_sort": 20
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10078,10 +10530,16 @@
           "score": 40.56359730804452,
           "contribution": 2.028179865402226,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 28,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -10154,7 +10612,8 @@
             "raw": {
               "cur_count": "23",
               "old_count": "22"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10188,7 +10647,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 62
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10229,7 +10689,8 @@
             "raw": {
               "sort": 79,
               "last_sort": 95
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10307,7 +10768,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 26
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10379,7 +10841,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 28
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10446,7 +10909,8 @@
             "raw": {
               "cur_count": "47",
               "old_count": "42"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10474,10 +10938,16 @@
           "score": 48.85394710861717,
           "contribution": 2.442697355430859,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 22,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -10525,7 +10995,8 @@
               "rank_delta": "14",
               "rank_type": "down",
               "track_id": "6705003948140398594"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -10592,7 +11063,8 @@
             "raw": {
               "cur_count": "39",
               "old_count": "38"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -10627,7 +11099,8 @@
             "raw": {
               "sort": 67,
               "last_sort": 72
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10666,10 +11139,16 @@
           "score": 23.194626591731517,
           "contribution": 1.1597313295865759,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 49,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -10709,10 +11188,16 @@
           "score": 30.487391954543146,
           "contribution": 3.048739195454315,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 39,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -10779,7 +11264,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 43
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10820,7 +11306,8 @@
             "raw": {
               "sort": 78,
               "last_sort": 82
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -10859,10 +11346,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 99,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -10899,7 +11392,8 @@
               "rank_delta": "4",
               "rank_type": "down",
               "track_id": "7079108541549643812"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -10966,7 +11460,8 @@
             "raw": {
               "sort": 18,
               "last_sort": 16
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11038,7 +11533,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 30
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11104,10 +11600,16 @@
           "score": 72.7908693463928,
           "contribution": 3.63954346731964,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 10,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -11149,7 +11651,8 @@
               "rank_delta": "31",
               "rank_type": "up",
               "track_id": "7679277712545269769"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -11215,7 +11718,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 29
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11288,7 +11792,8 @@
             "raw": {
               "cur_count": "49",
               "old_count": "39"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -11323,7 +11828,8 @@
             "raw": {
               "sort": 61,
               "last_sort": 64
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11362,10 +11868,16 @@
           "score": 83.68576777701836,
           "contribution": 4.184288388850918,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 6,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -11444,7 +11956,8 @@
             "raw": {
               "cur_count": "31",
               "old_count": "36"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -11479,7 +11992,8 @@
             "raw": {
               "sort": 93,
               "last_sort": 78
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11518,10 +12032,16 @@
           "score": 39.365181516073555,
           "contribution": 1.9682590758036778,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 29,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -11561,10 +12081,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 96,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -11632,7 +12158,8 @@
             "raw": {
               "cur_count": "86",
               "old_count": "4"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -11667,7 +12194,8 @@
             "raw": {
               "sort": 17,
               "last_sort": 25
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11741,7 +12269,8 @@
             "raw": {
               "sort": 21,
               "last_sort": 21
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -11775,10 +12304,16 @@
           "score": 0,
           "contribution": 0,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 95,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -11851,7 +12386,8 @@
             "raw": {
               "cur_count": "27",
               "old_count": "30"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -11919,7 +12455,8 @@
               "rank_delta": "1",
               "rank_type": "up",
               "track_id": "7091589595099301889"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -11979,10 +12516,16 @@
           "score": 75.35341333663219,
           "contribution": 18.838353334158047,
           "sourceMovement": {
-            "direction": "unknown",
+            "direction": "new",
             "delta": null,
             "previousRank": null,
-            "period": "previous-edition",
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "cur_count": "9",
               "old_count": "0"
@@ -12053,7 +12596,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 37
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12120,7 +12664,8 @@
             "raw": {
               "cur_count": "63",
               "old_count": "71"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12154,7 +12699,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 36
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12220,10 +12766,16 @@
           "score": 89.82283930454417,
           "contribution": 8.982283930454418,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 4,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -12291,7 +12843,8 @@
             "raw": {
               "sort": 59,
               "last_sort": 44
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12330,10 +12883,16 @@
           "score": 67.96327789748273,
           "contribution": 3.3981638948741364,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 12,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {
               "rank_change": "0",
               "trend": "e0",
@@ -12381,7 +12940,8 @@
               "rank_delta": "15",
               "rank_type": "up",
               "track_id": "7441873398400894977"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -12448,7 +13008,8 @@
             "raw": {
               "cur_count": "45",
               "old_count": "44"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12482,7 +13043,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 69
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12516,10 +13078,16 @@
           "score": 23.194626591731517,
           "contribution": 2.3194626591731518,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 50,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -12555,7 +13123,8 @@
             "raw": {
               "sort": 98,
               "last_sort": 102
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12629,7 +13198,8 @@
               "rank_delta": "0",
               "rank_type": "new",
               "track_id": "7603361141734017062"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -12689,10 +13259,16 @@
           "score": 86.69294100695902,
           "contribution": 8.669294100695902,
           "sourceMovement": {
-            "direction": "unknown",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-edition",
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 5,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-23",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-10-24T05:51:52.436Z",
+            "previousObservedAt": "2026-10-23T12:37:13.426Z",
+            "comparisonUsesCache": false,
             "raw": {}
           },
           "mv": {
@@ -12759,7 +13335,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 34
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12827,7 +13404,8 @@
               "rank_delta": "18",
               "rank_type": "up",
               "track_id": "7674273204581697563"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -12894,7 +13472,8 @@
             "raw": {
               "cur_count": "48",
               "old_count": "48"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",
@@ -12928,7 +13507,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 91
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -12970,7 +13550,8 @@
               "rank_delta": "16",
               "rank_type": "down",
               "track_id": "6726058972337424385"
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "unknown",
@@ -13036,7 +13617,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 44
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "linked",
@@ -13108,7 +13690,8 @@
             "period": "previous-edition",
             "raw": {
               "lastRank": 40
-            }
+            },
+            "origin": "official"
           },
           "mv": {
             "status": "none",

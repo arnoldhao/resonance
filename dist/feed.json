@@ -3,7 +3,7 @@
   "title": "共振 · 中国音乐综合热歌榜",
   "home_page_url": "https://resonance.dreamapp.cc/",
   "feed_url": "https://resonance.dreamapp.cc/feed.json",
-  "description": "最近 30 个已发布日期与 8 周汇总；同一期修订保持相同条目 ID，只有内容变化才更新。",
+  "description": "最近 30 个已发布日期、8 周与 6 个月汇总；同一期修订保持相同条目 ID，只有内容变化才更新。",
   "language": "zh-CN",
   "authors": [
     {
@@ -27,7 +27,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-24",
-        "revision": "bda90d356a620e9d33a9eda1587e3102d0f2bd9d33cd8d7b0792fae7ea255ab0",
+        "revision": "aabca6c0453a04cbdcf11e6ee40c23892272d6179fdb1f4325230dd027376009",
         "methodologyVersion": "1.3",
         "coverage": {
           "available": 6,
@@ -41,6 +41,83 @@
           "comparisonUsesCache": false
         },
         "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-24.json"
+      }
+    },
+    {
+      "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json#live",
+      "url": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
+      "title": "共振 · 2026-10-01—2026-10-31 本月预览",
+      "content_text": "本月预览：2026-10-01—2026-10-31。\n有效 2/31 天；29 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.0（日榜 1.3）。\n1. 我不难过 — 孙燕姿 · 92.89 分\n2. 天龙八部之宿敌 — 许嵩 · 82.31 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.60 分\n4. 恋人 — 李荣浩 · 58.80 分\n5. 我怀念的 — 孙燕姿 · 55.24 分\n6. 雨爱 — 杨丞琳 · 53.46 分\n7. 开始懂了 — 孙燕姿 · 48.18 分\n8. 情歌 — 梁静茹 · 42.85 分\n9. NEON — A2O LITE / A2O · 40.26 分\n10. 失眠 — Suki刘舒妤 · 35.21 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
+      "date_published": "2026-10-23T03:18:23.844Z",
+      "date_modified": "2026-10-24T05:51:52.436Z",
+      "tags": [
+        "live",
+        "monthly",
+        "provisional"
+      ],
+      "_resonance": {
+        "kind": "monthly",
+        "month": "2026-10",
+        "monthStart": "2026-10-01",
+        "monthEnd": "2026-10-31",
+        "status": "provisional",
+        "revision": "878b76d915d6ab0693ea6980f3fb4e2ecae7b5cabb9505e2593eeadf20835403",
+        "methodologyVersion": "monthly-1.0",
+        "baseMethodologyVersion": "1.3",
+        "coverage": {
+          "observedDays": 2,
+          "expectedDays": 31,
+          "includedDates": [
+            "2026-10-23",
+            "2026-10-24"
+          ],
+          "cachedDates": [],
+          "missingDates": [
+            "2026-10-01",
+            "2026-10-02",
+            "2026-10-03",
+            "2026-10-04",
+            "2026-10-05",
+            "2026-10-06",
+            "2026-10-07",
+            "2026-10-08",
+            "2026-10-09",
+            "2026-10-10",
+            "2026-10-11",
+            "2026-10-12",
+            "2026-10-13",
+            "2026-10-14",
+            "2026-10-15",
+            "2026-10-16",
+            "2026-10-17",
+            "2026-10-18",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21",
+            "2026-10-22",
+            "2026-10-25",
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29",
+            "2026-10-30",
+            "2026-10-31"
+          ],
+          "excludedDates": [],
+          "latestIncludedDate": "2026-10-24",
+          "comparisonAvailable": false,
+          "comparisonUsesCache": false,
+          "sourceCoverage": {
+            "available": 6,
+            "fresh": 6,
+            "cached": 0,
+            "expected": 6,
+            "groups": 4,
+            "groupTotal": 4,
+            "status": "complete"
+          }
+        },
+        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json"
       }
     },
     {
@@ -60,7 +137,7 @@
         "weekStart": "2026-10-19",
         "weekEnd": "2026-10-25",
         "status": "provisional",
-        "revision": "4bf322ee5cc614aae6e2a835cb54a9080320ffc3f4679cd1e3b4f4a4a106666d",
+        "revision": "7c51216704fe4743b765e11e72172e175b38a8584137d1ec7eb1bbac7044d046",
         "methodologyVersion": "weekly-1.1",
         "baseMethodologyVersion": "1.3",
         "coverage": {
@@ -110,7 +187,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-23",
-        "revision": "fb056848676da9a8caf1880204a0b22f0a2318c131cc377c34d3fa76c822c9df",
+        "revision": "17332287a3145046165161ce1a492a2cabdd11039e8f198be60fed0e6f52cef8",
         "methodologyVersion": "1.3",
         "coverage": {
           "available": 6,
