@@ -53,7 +53,8 @@ export function parseHistoricalKugou(data, date) {
 }
 
 export async function collectHistorical(providerId, { date, now, aliases, kugouPeriod }) {
-  const provider = providers.find(item => item.id === providerId);
+  // Historical backfills retain their verified Top 100 contract; live chart expansion is independent.
+  const provider = { ...providers.find(item => item.id === providerId), collectionDepth: 100 };
   let url;
   let parsed;
   if (providerId === 'qq') {

@@ -40,7 +40,7 @@ const results = await Promise.allSettled(providers.map(async provider => {
   const imported = existsSync(importFile);
   if (!provider.enabled && !imported) return { ...provider, status: 'disabled', message: provider.disabledReason, count: 0, entries: [], fetchedAt: null, sourceUpdatedAt: null, sourcePeriod: null };
   const chart = validateChart(imported ? await readJSON(importFile) : await collectProvider(provider, { now }), provider, date);
-  return { ...provider, providerId: provider.id, fetchedAt: chart.fetchedAt, sourceUpdatedAt: chart.sourceUpdatedAt, sourcePeriod: chart.sourcePeriod, entries: chart.entries, sourceUrl: chart.sourceUrl, chartName: chart.chartName, status: 'ok', ingestion: imported ? 'import' : 'public', attemptedAt: generatedAt, collectionError: null, cacheOrigin: null, message: imported ? '人工导入：保留来源与采集时间' : null };
+  return { ...provider, providerId: provider.id, collectionDepth: chart.entries.length, declaredCount: chart.declaredCount, fetchedAt: chart.fetchedAt, sourceUpdatedAt: chart.sourceUpdatedAt, sourcePeriod: chart.sourcePeriod, entries: chart.entries, sourceUrl: chart.sourceUrl, chartName: chart.chartName, status: 'ok', ingestion: imported ? 'import' : 'public', attemptedAt: generatedAt, collectionError: null, cacheOrigin: null, message: imported ? '人工导入：保留来源与采集时间' : null };
 }));
 const sources = results.map((result, index) => {
   if (result.status === 'fulfilled') return result.value;
@@ -51,6 +51,7 @@ const sources = results.map((result, index) => {
     const { source, origin } = cached;
     return {
       ...provider, providerId: provider.id, status: 'stale', ingestion: 'cache',
+      collectionDepth: source.collectionDepth, declaredCount: source.declaredCount,
       fetchedAt: source.fetchedAt, sourceUpdatedAt: source.sourceUpdatedAt, sourcePeriod: source.sourcePeriod,
       sourceUrl: source.sourceUrl, chartName: source.chartName, entries: source.entries,
       attemptedAt: generatedAt, collectionError, cacheOrigin: origin,

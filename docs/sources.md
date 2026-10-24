@@ -1,15 +1,32 @@
 # 数据来源
 
-| 平台 | 官方榜单 | 榜单 ID | 保留深度 | 更新周期 |
+| 平台 | 官方榜单 | 榜单 ID | 采集与计分深度 | 更新周期 |
 | --- | --- | --- | ---: | --- |
-| QQ 音乐 | [热歌榜](https://y.qq.com/n/ryqq/toplist/26) | `26` | 100 | 每日 |
-| 网易云音乐 | [热歌榜](https://music.163.com/discover/toplist?id=3778678) | `3778678` | 100 | 每日，统计窗口为一周 |
-| 酷狗音乐 | [TOP500](https://www.kugou.com/yy/rank/home/1-8888.html) | `8888` | 100 | 每日 |
-| 酷我音乐 | [热歌榜](https://m.kuwo.cn/newh5app/ranklist) | `16` | 100 | 保存平台返回的日期期次 |
+| QQ 音乐 | [热歌榜](https://y.qq.com/n/ryqq/toplist/26) | `26` | 200 | 每日 |
+| 网易云音乐 | [热歌榜](https://music.163.com/discover/toplist?id=3778678) | `3778678` | 200 | 每日，统计窗口为一周 |
+| 酷狗音乐 | [TOP500](https://www.kugou.com/yy/rank/home/1-8888.html) | `8888` | 200 | 每日 |
+| 酷我音乐 | [热歌榜](https://m.kuwo.cn/newh5app/ranklist) | `16` | 200 | 保存平台返回的日期期次 |
 | Apple Music | [中国区 most-played RSS](https://rss.marketingtools.apple.com/api/v2/cn/music/most-played/100/songs.json) | `cn/music/most-played` | 100 | 以 RSS 时间为准 |
 | 汽水音乐 | [官方热歌周榜](https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn&device_platform=web) | `7036274230471712007` | 50 | 每周 |
 
 北京时间 **09:17、15:17、21:17** 计划采样，GitHub Actions 实际运行可能延迟。采样时间不等于平台发榜时间；没有确认的固定发榜时刻不作推定。Apple RSS 与「Top 100：中国大陆」歌单是不同产品，汽水每天采样仍保持周榜口径。
+
+## 可获取范围与计分窗口
+
+2026-10-24 读取官方公开接口的数量与分页元数据，确认当前可完整返回 QQ **300**、网易云 **200**、酷狗 **500**、酷我 **300** 首；这是对应榜单当前公开范围，不是曲库大小，也不承诺永久上限。Apple 当前已确认可用的营销 RSS 为 **100** 首，汽水官方周榜为 **50** 首；没有据此推定其他榜单或认证接口的上限。
+
+| 平台 | 本轮公开接口证据 | 本项目选择 |
+| --- | --- | --- |
+| QQ | [官方响应](https://c.y.qq.com/v8/fcg-bin/fcg_v8_toplist_cp.fcg?format=json&topid=26) 的 `total_song_num=300`、实收 `songlist=300` | 保存前 200，计分前 200 |
+| 网易云 | [官方响应](https://music.163.com/api/playlist/detail?id=3778678) 的 `trackCount=200`、实收 `tracks=200` | 保存前 200，计分前 200 |
+| 酷狗 | [官方单次榜单接口](http://mobilecdn.kugou.com/api/v3/rank/song?version=9108&plat=0&ranktype=0&area_code=1&rankid=8888&page=1&pagesize=500&with_res_tag=0) 的 `total=500`、实收连续 1—500 且榜期一致；[官网末页](https://www.kugou.com/yy/rank/home/23-8888.html)也提供末段名次 | 单次请求前 200，计分前 200 |
+| 酷我 | [官方接口](https://kbangserver.kuwo.cn/ksong.s?from=pc&fmt=json&alt=json&show_copyright_off=0&pn=0&rn=500&type=bang&data=content&id=16) 的 `num=300`、实收 300；[官方页面](https://m.kuwo.cn/newh5app/ranklist_detail/16)标明共 300 首 | 请求前 200，计分前 200 |
+| Apple | 保持现有中国区 most-played RSS 100 首；扩大至 200 的单次请求返回 HTTP 500，不能据此宣称永久上限 | 保存前 100，计分前 100 |
+| 汽水 | 既有官方 Web 模式周榜明确声明并返回完整 50 首 | 保存前 50，计分前 50 |
+
+四家统一前 200 名，减少计分窗口差异；Apple 与汽水继续披露较短范围。页面原榜列表和综合榜最多展示前 100 名，平台 JSON 保留已采集的完整窗口。第 101—200 名可以给同一首跨平台歌曲提供贡献；四家第 201 名起不计分，即使原站公开了更多名次。
+
+`collectionDepth/count` 是本项目实际保存的范围与数量，`declaredCount` 是源站声明的整张榜单数量，两者可以不同。采集必须达到配置的完整窗口且名次连续，不能把少于 200 首的截断响应冒充四家的新版观察。旧归档保留原深度；历史回填仍使用已确认的前 100 名接口契约，不自动扩充或补作新版综合榜。
 
 ## 更新频率观察
 
@@ -28,7 +45,7 @@
 
 Apple 的[歌单排行榜说明](https://itunespartner.apple.com/music/support/5240-reporting-availability)提到三小时更新，[Apple Music Feed 批量导出](https://developer.apple.com/documentation/applemusicfeed)提到 24 小时刷新；它们均不是本项目使用的营销 RSS，不能把这些间隔套用于当前接口。
 
-构建时从最近 30 个北京时间自然日的真实成功 `data/runs/` 与已发布日快照生成 `/data/cadence.json`、`/api/v1/cadence.json`，不额外访问平台。相同平台和 `fetchedAt` 去重；仅比较按名次排列的 `[rank, sourceId]`，忽略封面、涨跌元数据及时间戳变化。失败、历史沿用、示例与历史回填不构成新观察；不同榜单名称或入口之间不计算排名变化。非 Apple 来源的明确榜期或源更新时间另记为 `editionChanges`，与排名变化分开；Apple RSS 的请求时间不作榜期变化证据。
+构建时从最近 30 个北京时间自然日的真实成功 `data/runs/` 与已发布日快照生成 `/data/cadence.json`、`/api/v1/cadence.json`，不额外访问平台。相同平台和 `fetchedAt` 去重；仅比较按名次排列的 `[rank, sourceId]`，忽略封面、涨跌元数据及时间戳变化。失败、历史沿用、示例与历史回填不构成新观察；榜单名称、入口或实际采集深度不同时跳过跨范围比较，避免把 100 首扩至 200 首当成平台刷新。非 Apple 来源的明确榜期或源更新时间另记为 `editionChanges`，与排名变化分开；Apple RSS 的请求时间不作榜期变化证据。
 
 每次变化只说明内容在上一次观察 `after` 到首次观察到新版 `by` 之间发生变化，不把 `by` 当作发榜时间。`daily[].changes` 只累计两端都在同一自然日的变化区间；`maxDailyChanges >= 2` 表示同日确实观察到多次变化。次数为采样下限，零次或一次不能证明每日只更新一次。数据源页面展示最新观测，与当前选择的历史榜单日期分开。
 

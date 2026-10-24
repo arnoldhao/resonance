@@ -7,28 +7,28 @@ const qishuiChartURL = 'https://api.qishui.com/luna/pc/charts/703627423047171200
 export const providers = [
   {
     id: 'qq', name: 'QQ 音乐', chartName: '热歌榜', group: 'tme', enabled: true,
-    collectionDepth: 100, maxAgeHours: 48,
+    collectionDepth: 200, maxAgeHours: 48,
     sourceUrl: 'https://y.qq.com/n/ryqq/toplist/26', frequency: '每日更新',
     updatePolicy: '榜单说明为每日更新；未确认固定公布时刻。',
     access: '官方公开 Web 接口',
   },
   {
     id: 'netease', name: '网易云音乐', chartName: '热歌榜', group: 'netease', enabled: true,
-    collectionDepth: 100, maxAgeHours: 48,
+    collectionDepth: 200, maxAgeHours: 48,
     sourceUrl: 'https://music.163.com/#/discover/toplist?id=3778678', frequency: '每日更新',
     updatePolicy: '一周内热度统计，当前官方说明为每日更新；未确认固定公布时刻。',
     access: '官方公开歌单接口',
   },
   {
     id: 'kugou', name: '酷狗音乐', chartName: 'TOP500', group: 'tme', enabled: true,
-    collectionDepth: 100, maxAgeHours: 48,
+    collectionDepth: 200, maxAgeHours: 48,
     sourceUrl: 'https://m.kugou.com/rank/info/?rankid=8888', frequency: '每日更新',
     updatePolicy: '每日榜期包含源站未注明时区的时刻；榜期时间不等于接口实际可见时间，固定刷新时刻仍待持续观察。',
-    access: '官方榜单 JSON · 单次完整前 100 首',
+    access: '官方榜单 JSON · 单次完整前 200 首（原榜 500 首）',
   },
   {
     id: 'kuwo', name: '酷我音乐', chartName: '酷我热歌榜', group: 'tme', enabled: true,
-    collectionDepth: 100, maxAgeHours: 48,
+    collectionDepth: 200, maxAgeHours: 48,
     sourceUrl: 'https://www.kuwo.cn/rankList', frequency: '更新频率待确认',
     updatePolicy: '公开接口提供榜单日期，但日期变化不保证排名变化；未找到固定频率与公布时刻的一手承诺。',
     access: '官方公开榜单接口',
@@ -126,7 +126,8 @@ async function qq() {
   return {
     sourceUpdatedAt: null,
     sourcePeriod: data.date,
-    entries: data.songlist.slice(0, 100).map(({ data: track, ...row }, index) => ({
+    declaredCount: Number(data.total_song_num),
+    entries: data.songlist.map(({ data: track, ...row }, index) => ({
       sourceId: String(track.songmid),
       title: track.songname,
       artists: track.singer.map(artist => artist.name),
@@ -148,7 +149,8 @@ async function netease() {
   return {
     sourceUpdatedAt: new Date(data.result.updateTime).toISOString(),
     sourcePeriod: null,
-    entries: data.result.tracks.slice(0, 100).map((track, index) => ({
+    declaredCount: data.result.trackCount,
+    entries: data.result.tracks.map((track, index) => ({
       sourceId: String(track.id),
       title: track.name,
       artists: track.artists.map(artist => artist.name),
@@ -164,7 +166,7 @@ async function netease() {
 
 async function kugou() {
   // Mobile HTML pagination can mix independently cached pages despite identical period labels.
-  const data = parseKugouResponse(await readPublic('http://mobilecdn.kugou.com/api/v3/rank/song?version=9108&plat=0&ranktype=0&area_code=1&rankid=8888&page=1&pagesize=100&with_res_tag=0', { format: 'text', referer: 'https://m.kugou.com/' }));
+  const data = parseKugouResponse(await readPublic('http://mobilecdn.kugou.com/api/v3/rank/song?version=9108&plat=0&ranktype=0&area_code=1&rankid=8888&page=1&pagesize=200&with_res_tag=0', { format: 'text', referer: 'https://m.kugou.com/' }));
   if (data.status !== 1) throw new Error(`Kugou returned status ${data.status}`);
   const rows = data.data.info;
   const period = rows[0].rank_id_publish_date;
@@ -173,19 +175,21 @@ async function kugou() {
     // The source gives an unzoned timestamp. Preserve it without inventing a UTC offset.
     sourceUpdatedAt: null,
     sourcePeriod: period,
-    entries: kugouEntries(rows.slice(0, 100)),
+    declaredCount: data.data.total,
+    entries: kugouEntries(rows),
   };
 }
 
 async function kuwo() {
-  const data = await readPublic('https://kbangserver.kuwo.cn/ksong.s?from=pc&fmt=json&alt=json&show_copyright_off=0&pn=0&rn=100&type=bang&data=content&id=16', {
+  const data = await readPublic('https://kbangserver.kuwo.cn/ksong.s?from=pc&fmt=json&alt=json&show_copyright_off=0&pn=0&rn=200&type=bang&data=content&id=16', {
     referer: 'https://www.kuwo.cn/',
   });
   if (!Array.isArray(data.musiclist)) throw new Error(`Kuwo returned no musiclist (pub=${JSON.stringify(data.pub)}, fields=${Object.keys(data).join(',')})`);
   return {
     sourceUpdatedAt: null,
     sourcePeriod: data.pub,
-    entries: data.musiclist.slice(0, 100).map((track, index) => ({
+    declaredCount: Number(data.num),
+    entries: data.musiclist.map((track, index) => ({
       sourceId: String(track.id),
       title: track.name,
       artists: track.artist.split('&').map(name => name.trim()),
@@ -206,6 +210,7 @@ async function apple() {
   return {
     sourceUpdatedAt: new Date(data.feed.updated).toISOString(),
     sourcePeriod: null,
+    declaredCount: 100,
     entries: data.feed.results.map((track, index) => ({
       sourceId: String(track.id),
       title: track.name,
@@ -230,6 +235,7 @@ async function qishui() {
   return {
     sourceUpdatedAt: new Date(chart.release_time * 1000).toISOString(),
     sourcePeriod: chart.period,
+    declaredCount: chart.count_tracks,
     // The official rank objects contain movement, not an ordinal. Array order is the chart order.
     entries: chart.track_ranks.map(({ track, rank }, index) => {
       const cover = track.album.url_cover;

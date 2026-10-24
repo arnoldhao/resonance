@@ -1,9 +1,13 @@
 import { createHash } from 'node:crypto';
 
 export const methodology = {
-  version: '1.3',
-  formula: 'S = 100 × Σ wₚ × [0.9 × exp(−(rₚ − 1) / 25) + 0.1]，仅前 50 名计分，其余为 0',
-  rankDepth: 50,
+  version: '1.4',
+  formula: 'S = 100 × Σ wₚ × P(rₚ)；r≤50 时 P(r)=0.9×exp(−(r−1)/25)+0.1，r>50 时 P(r)=P(50)×exp(−(r−50)/50)；QQ/网易云/酷狗/酷我前200、Apple前100、汽水前50计分，仅展示前100名',
+  rankDepth: null,
+  rankPolicy: 'platform-top-n',
+  platformRankDepths: { qq: 200, netease: 200, kugou: 200, kuwo: 200, apple: 100, qishui: 50 },
+  displayDepth: 100,
+  tail: { startRank: 50, decayScale: 50 },
   groupWeights: { tme: 0.5, netease: 0.3, apple: 0.1, qishui: 0.1 },
   platformWeights: { qq: 0.25, kugou: 0.2, kuwo: 0.05, netease: 0.3, apple: 0.1, qishui: 0.1 },
   minimumGroups: 2,
@@ -20,7 +24,11 @@ export function priorDate(date) {
 
 const normalize = value => value.normalize('NFKC').toLowerCase().replace(/\s+/gu, '').trim();
 const round = value => Math.round(value * 10000) / 10000;
-export const rankValue = rank => 0.9 * Math.exp(-(rank - 1) / 25) + 0.1;
+export const scoringRank = (rank, rule, providerId) => rank <= (rule.platformRankDepths ? rule.platformRankDepths[providerId] : rule.rankDepth);
+const headValue = rank => 0.9 * Math.exp(-(rank - 1) / 25) + 0.1;
+export const rankValue = (rank, rule = methodology) => rule.tail && rank > rule.tail.startRank
+  ? headValue(rule.tail.startRank) * Math.exp(-(rank - rule.tail.startRank) / rule.tail.decayScale)
+  : headValue(rank);
 export const usableSource = source => source.status === 'ok' || source.status === 'stale';
 const periodDateOf = source => /^(\d{4}-\d{2}-\d{2})(?:$| \d{2}:\d{2}:\d{2}$)/.exec(source.sourcePeriod ?? '')?.[1];
 
@@ -126,6 +134,7 @@ export function validateChart(chart, provider, date, { editionDate } = {}) {
   const requireURL = value => { if (!['https:', 'http:'].includes(new URL(value).protocol)) throw new Error('来源或封面必须使用 HTTP(S) URL'); };
   requireURL(chart.sourceUrl);
   if (!Array.isArray(chart.entries) || !chart.entries.length || (!editionDate && chart.entries.length < provider.collectionDepth)) throw new Error(`榜单不足 ${provider.collectionDepth} 首，拒绝把截断榜单计入综合榜`);
+  if (!editionDate && chart.declaredCount !== undefined && (!Number.isInteger(chart.declaredCount) || chart.declaredCount < provider.collectionDepth)) throw new Error(`源站声明 ${chart.declaredCount} 首，不足所需的前 ${provider.collectionDepth} 名观察范围`);
   if (!chart.fetchedAt || !Number.isFinite(Date.parse(chart.fetchedAt)) || chinaDate(new Date(chart.fetchedAt)) !== date) throw new Error('fetchedAt 必须是本次北京时间日期内的 ISO 时间');
   if (chart.sourceUpdatedAt !== null && !Number.isFinite(Date.parse(chart.sourceUpdatedAt))) throw new Error('sourceUpdatedAt 必须为 ISO 时间或 null');
   if (chart.sourceUpdatedAt && Date.parse(chart.sourceUpdatedAt) > Date.parse(chart.fetchedAt) + 300000) throw new Error('源更新时间晚于采集时间');
@@ -163,12 +172,13 @@ export function validateChart(chart, provider, date, { editionDate } = {}) {
   return { ...chart, entries: rows.map(row => ({ ...row, sourceId: String(row.sourceId) })) };
 }
 
-export function buildSnapshot({ date, generatedAt, sources, aliases, previous, history = [], mode = 'live' }) {
+export function buildSnapshot({ date, generatedAt, sources, aliases, previous, history = [], mode = 'live', rule = methodology }) {
   const available = sources.filter(usableSource);
   const cached = available.filter(source => source.status === 'stale').length;
   const groups = [...new Set(available.map(source => source.group))];
-  const weights = effectiveWeights(sources, methodology);
-  const signature = `${methodology.version}|${createHash('sha256').update(JSON.stringify(aliases)).digest('hex').slice(0, 12)}|${available.map(s => s.id).sort().join(',')}`;
+  const weights = effectiveWeights(sources, rule);
+  const scope = available.map(source => rule.platformRankDepths ? `${source.id}:${rule.platformRankDepths[source.id]}` : source.id).sort().join(',');
+  const signature = `${rule.version}|${createHash('sha256').update(JSON.stringify(aliases)).digest('hex').slice(0, 12)}|${scope}`;
   const comparable = previous?.mode === mode && previous.date === priorDate(date) && previous.comparisonSignature === signature;
   const songs = new Map();
   const decoratedSources = sources.map(source => {
@@ -182,19 +192,19 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
       }
       // Different editions of the same recording may occupy multiple source ranks. One source casts one vote.
       if (!song.platforms.some(p => p.id === source.id)) {
-        const eligible = entry.rank <= methodology.rankDepth;
-        const value = eligible ? rankValue(entry.rank) : 0;
+        const eligible = scoringRank(entry.rank, rule, source.id);
+        const value = eligible ? rankValue(entry.rank, rule) : 0;
         song.score += weight * value * 100;
         song.platforms.push({ id: source.id, name: source.name, rank: entry.rank, eligible, score: round(value * 100), contribution: round(weight * value * 100), url: entry.url, sourceId: entry.sourceId, sourceMovement: entry.sourceMovement, mv: entry.mv, ...sourceObservation(source, date) });
         if (!song.artwork && entry.artwork) song.artwork = entry.artwork;
       }
       return { ...entry, songId: identity.id };
     });
-    return { ...source, entries, weight: round(weight), count: entries.length, scoringCount: entries.filter(entry => entry.rank <= methodology.rankDepth).length };
+    return { ...source, entries, weight: round(weight), count: entries.length, scoringCount: entries.filter(entry => scoringRank(entry.rank, rule, source.id)).length };
   });
   const previousSongs = new Map((comparable ? previous.songs : []).map(song => [song.id, song]));
   const scoringAppearances = song => song.platforms.filter(platform => platform.eligible).length;
-  const ranked = groups.length >= methodology.minimumGroups ? [...songs.values()].filter(s => s.score > 0).sort((a, b) => b.score - a.score || scoringAppearances(b) - scoringAppearances(a) || a.id.localeCompare(b.id)).map((song, index) => {
+  const ranked = groups.length >= rule.minimumGroups ? [...songs.values()].filter(s => s.score > 0).sort((a, b) => b.score - a.score || scoringAppearances(b) - scoringAppearances(a) || a.id.localeCompare(b.id)).map((song, index) => {
     const previousRank = previousSongs.get(song.id)?.rank ?? null;
     const delta = previousRank === null ? null : previousRank - index - 1;
     const combinedMovement = {
@@ -206,10 +216,10 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
       return item ? { date: day.date, rank: item.rank, score: item.score } : null;
     }).filter(Boolean).sort((a, b) => a.date.localeCompare(b.date)).slice(-13);
     return { ...song, score: round(song.score), rank: index + 1, previousRank, delta, combinedMovement, appearances: song.platforms.length, scoringAppearances: scoringAppearances(song), history: [...songHistory, { date, rank: index + 1, score: round(song.score) }] };
-  }).slice(0, 100) : [];
+  }).slice(0, rule.displayDepth ?? 100) : [];
   return withPlatformMovements({
-    schemaVersion: 1, mode, date, generatedAt, methodology, comparisonSignature: signature,
-    coverage: { available: available.length, fresh: available.length - cached, cached, expected: sources.length, groups: groups.length, groupTotal: Object.keys(methodology.groupWeights).length, status: groups.length < methodology.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial', comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cached || previous.sources.some(source => source.status === 'stale'))) },
+    schemaVersion: 1, mode, date, generatedAt, methodology: rule, comparisonSignature: signature,
+    coverage: { available: available.length, fresh: available.length - cached, cached, expected: sources.length, groups: groups.length, groupTotal: Object.keys(rule.groupWeights).length, status: groups.length < rule.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial', comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cached || previous.sources.some(source => source.status === 'stale'))) },
     sources: decoratedSources, songs: ranked,
   }, previous);
 }

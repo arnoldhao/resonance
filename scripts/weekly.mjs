@@ -1,4 +1,4 @@
-import { effectiveWeights, rankValue, usableSource, sourceObservation } from './ranking.mjs';
+import { effectiveWeights, rankValue, scoringRank, usableSource, sourceObservation } from './ranking.mjs';
 
 const DAY = 86_400_000;
 const round = value => Math.round(value * 10_000) / 10_000;
@@ -19,7 +19,7 @@ function nextMonth(date, offset = 1) {
 
 function rebuildDay(day) {
   // These published versions use this curve; future formula versions need an explicit implementation.
-  if (!['1.0', '1.1', '1.2', '1.3'].includes(day.methodology.version)) return { reason: `未支持的日榜方法版本：${day.methodology.version}` };
+  if (!['1.0', '1.1', '1.2', '1.3', '1.4'].includes(day.methodology.version)) return { reason: `未支持的日榜方法版本：${day.methodology.version}` };
   const sources = day.sources.filter(usableSource);
   const groups = [...new Set(sources.map(source => source.group))];
   if (groups.length < day.methodology.minimumGroups) return { reason: '有效来源组不足，未满足日榜发布门槛' };
@@ -41,8 +41,8 @@ function rebuildDay(day) {
         song = { id: entry.songId, title: label.title, artists: [...label.artists], artwork: label.artwork ?? null, score: 0, platforms: [] };
         songs.set(song.id, song);
       }
-      const eligible = entry.rank <= day.methodology.rankDepth;
-      const score = eligible ? 100 * rankValue(entry.rank) : 0;
+      const eligible = scoringRank(entry.rank, day.methodology, source.id);
+      const score = eligible ? 100 * rankValue(entry.rank, day.methodology) : 0;
       song.score += weight * score;
       song.platforms.push({
         id: source.id, name: source.name, rank: entry.rank, sourceId: entry.sourceId,
@@ -138,6 +138,7 @@ function buildPeriodCharts({ days, asOfDate }, monthly) {
         version: monthly ? 'monthly-1.0' : 'weekly-1.1', baseVersion: reference?.methodology.version ?? null,
         formula: `${monthly ? '月' : '周'}得分 = 同口径有效日得分之和 ÷ 有效天数；有效日未进入计分窗口记 0，缺失日与排除日不进入分母`,
         rankDepth: reference?.methodology.rankDepth ?? null,
+        ...(reference?.methodology.rankPolicy ? { rankPolicy: reference.methodology.rankPolicy, platformRankDepths: { ...reference.methodology.platformRankDepths }, tail: { ...reference.methodology.tail }, displayDepth: reference.methodology.displayDepth } : {}),
         groupWeights: reference ? { ...reference.methodology.groupWeights } : null,
         platformWeights: reference?.methodology.platformWeights ? { ...reference.methodology.platformWeights } : null,
       },

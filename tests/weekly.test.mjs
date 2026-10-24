@@ -116,13 +116,14 @@ test('empty current preview and excluded closed week remain explainable', () => 
 });
 
 test('v1.2 weekly scores use platform shares and latest observed source metadata', () => {
+  const legacyMethodology = { version: '1.2', rankDepth: 50, groupWeights: methodology.groupWeights, platformWeights: methodology.platformWeights, minimumGroups: methodology.minimumGroups };
   const mv = { status: 'linked', items: [{ id: 'official-video', hash: null, url: null }] };
   const movement = { direction: 'up', delta: 2, previousRank: 3, period: 'previous-edition', raw: {} };
   const records = [day('2026-10-19', [], {
-    methodology, comparisonSignature: '1.2|mapping|qq,kuwo,netease',
+    methodology: legacyMethodology, comparisonSignature: '1.2|mapping|qq,kuwo,netease',
     sources: [source('qq', 'tme', [{ ...entry('A', 1), mv, sourceMovement: movement }]), source('kuwo', 'tme', [entry('B', 1)]), source('netease', 'netease', [entry('C', 1)])],
   }), day('2026-10-20', [], {
-    methodology, comparisonSignature: '1.2|mapping|qq,kuwo,netease',
+    methodology: legacyMethodology, comparisonSignature: '1.2|mapping|qq,kuwo,netease',
     sources: [source('qq', 'tme', [{ ...entry('A', 51), mv: { status: 'none', items: [] }, sourceMovement: { ...movement, direction: 'down', delta: -50, previousRank: 1 } }]), source('kuwo', 'tme', [entry('B', 1)]), source('netease', 'netease', [entry('C', 1)])],
   })];
   const chart = buildWeeklyCharts({ days: records, asOfDate: '2026-10-20' })[0];

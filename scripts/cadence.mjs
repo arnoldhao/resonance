@@ -16,7 +16,7 @@ export function buildCadenceReport({ snapshots, generatedAt }) {
       if (source.status !== 'ok' || !['public', 'import'].includes(source.ingestion) || !source.fetchedAt || chinaDate(new Date(source.fetchedAt)) < sinceDate) continue;
       observations.get(source.id).set(source.fetchedAt, {
         observedAt: source.fetchedAt, date: chinaDate(new Date(source.fetchedAt)),
-        fingerprint: fingerprint(source), sourcePeriod: source.sourcePeriod,
+        fingerprint: fingerprint(source), depth: source.entries.length, sourcePeriod: source.sourcePeriod,
         sourceUpdatedAt: source.sourceUpdatedAt, sourceUrl: source.sourceUrl, chartName: source.chartName,
         edition: source.id === 'apple' ? null : source.sourceUpdatedAt ?? (source.sourcePeriod === 'weekly' ? null : source.sourcePeriod),
       });
@@ -34,7 +34,7 @@ export function buildCadenceReport({ snapshots, generatedAt }) {
         if (!daily.has(row.date)) daily.set(row.date, { date: row.date, observations: 0, changes: 0, editionChanges: 0 });
         daily.get(row.date).observations++;
         const previous = rows[index - 1];
-        if (!previous || previous.sourceUrl !== row.sourceUrl || previous.chartName !== row.chartName) return;
+        if (!previous || previous.sourceUrl !== row.sourceUrl || previous.chartName !== row.chartName || previous.depth !== row.depth) return;
         if (previous.edition && row.edition && previous.edition !== row.edition) {
           if (previous.date === row.date) daily.get(row.date).editionChanges++;
           editionChanges.push({ after: previous.observedAt, by: row.observedAt, previousEdition: previous.edition, edition: row.edition, rankChanged: previous.fingerprint !== row.fingerprint });

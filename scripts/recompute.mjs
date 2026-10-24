@@ -15,7 +15,7 @@ if (!files.length) throw new Error('还没有真实日榜；请先采集。示�
 const history = [];
 for (const file of files) {
   const source = await readJSON(resolve(directory, file));
-  const snapshot = buildSnapshot({ date: source.date, generatedAt: source.generatedAt, sources: source.sources, aliases, previous: history.find(day => day.date === priorDate(source.date)), history: history.slice(-13) });
+  const snapshot = buildSnapshot({ date: source.date, generatedAt: source.generatedAt, sources: source.sources, aliases, rule: source.methodology, previous: history.find(day => day.date === priorDate(source.date)), history: history.slice(-13) });
   if (revisionOf(snapshot) !== revisionOf(source)) snapshot.recomputedAt = new Date().toISOString();
   else if (source.recomputedAt) snapshot.recomputedAt = source.recomputedAt;
   await writeJSON(resolve(directory, file), snapshot);
