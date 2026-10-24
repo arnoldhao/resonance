@@ -52,6 +52,10 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 
 `score` 为综合指数，`contribution` 为平台加权贡献。公式和比较条件见[日榜方法](methodology.md)；历史数据按自己的 `methodology` 解释。
 
+自 v1.4 起，`methodology.rankPolicy: platform-top-n`、`rankDepth: null`，具体计分深度以 `platformRankDepths` 为准：`qq/netease/kugou/kuwo` 各 200、`apple` 100、`qishui` 50。`displayDepth: 100` 只限制综合榜输出；平台前 101—200 名仍可给综合歌曲贡献分数。`tail: {startRank: 50, decayScale: 50}` 表示第 51 名起从第 50 名分值继续衰减，取消长尾固定 10% 保底。
+
+v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比较签名包含新版分平台计分窗口；跨版本或窗口变化不直接计算涨跌。历史重算保留该期原方法，不将旧 Top 100 观察补作新版 Top 200。
+
 ## 共振涨跌榜
 
 `date/generatedAt/mode/comparisonSignature/coverage` 对应同日综合榜，`comparisonDate` 是可比较的昨日日期，不可比较时为 `null`。
@@ -96,7 +100,7 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 
 ## 平台原榜与历史
 
-平台响应包含 `id/name/chartName/sourceUrl/status/count/ingestion/entries`。`fetchedAt` 是实际采集时间，`sourceUpdatedAt` 是平台返回的更新时间（Apple RSS 响应时间不等于排名刷新时间），`sourcePeriod` 是榜期原文。
+平台响应包含 `id/name/chartName/sourceUrl/status/count/ingestion/entries`。`collectionDepth/count` 为实际保存的窗口深度与条目数，`declaredCount` 为官方声明的整张榜单数量；例如酷狗可以是 `count: 200, declaredCount: 500`。未知的旧记录可能没有 `declaredCount`。`fetchedAt` 是实际采集时间，`sourceUpdatedAt` 是平台返回的更新时间（Apple RSS 响应时间不等于排名刷新时间），`sourcePeriod` 是榜期原文。
 
 | 来源状态 | 是否参与已发布日分 | 含义 |
 | --- | --- | --- |
@@ -110,6 +114,8 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 这些字段自日榜方法 v1.3、周榜方法 weekly-1.1 开始提供；旧归档没有 `fresh/cached/cacheOrigin` 时按其原方法解释，不反推当时不存在的沿用状态。
 
 `entries` 按原榜名次排列，包含 `rank/sourceId/songId/title/artists/album/artwork/url/sourceMovement/mv`。`songId` 对应综合榜的 `id`；原榜歌曲不一定进入综合 Top 100。
+
+平台页面最多列出前 100 名，当前平台 JSON 保存完整指定窗口：四家 200、Apple 100、汽水 50。页面 CSV 导出当前展示范围；平台 JSON 可用于读取第 101—200 名。指定窗口必须完整取得，不以缺失名次代替零票。
 
 官方历史响应存在缺号时保留原名次，`missingRanks` 列出前 100 名中的缺失位置，`count` 为实际保存数；不重排或补写歌曲。
 
