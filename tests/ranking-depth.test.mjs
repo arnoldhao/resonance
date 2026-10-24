@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildSnapshot, validateChart, rankValue, scoringRank, methodology } from '../scripts/ranking.mjs';
+import { buildSnapshot, withCombinedMovements, validateChart, rankValue, scoringRank, methodology } from '../scripts/ranking.mjs';
 import { buildWeeklyCharts, buildMonthlyCharts } from '../scripts/weekly.mjs';
 import { buildCadenceReport } from '../scripts/cadence.mjs';
 
@@ -89,7 +89,7 @@ test('weekly and monthly rebuilding use the saved platform windows and tail curv
   }
 });
 
-test('October 23 remains in weekly, monthly and song history after the October 24 method upgrade', () => {
+test('October 23 remains the daily baseline and participates in periods after collection expands', () => {
   const previousDate = '2026-10-23';
   const previous = snapshot({
     date: previousDate, rule: legacyRule,
@@ -99,7 +99,9 @@ test('October 23 remains in weekly, monthly and song history after the October 2
   const current = snapshot({ previous, history: [previous] });
   const song = current.songs.find(song => song.title === 'Shared recording');
   const previousSong = previous.songs.find(candidate => candidate.id === song.id);
-  assert.equal(current.coverage.comparisonAvailable, false);
+  assert.equal(current.coverage.comparisonAvailable, true);
+  assert.equal(song.previousRank, previousSong.rank);
+  assert.equal(song.delta, previousSong.rank - song.rank);
   assert.deepEqual(song.history.map(point => [point.date, point.methodologyVersion]), [[previousDate, '1.3'], [date, '1.4']]);
   assert.equal(song.history[0].score, previousSong.score);
   for (const build of [buildWeeklyCharts, buildMonthlyCharts]) {
@@ -115,16 +117,23 @@ test('October 23 remains in weekly, monthly and song history after the October 2
     assert.deepEqual(aggregate.dailyScores, [{ date: previousDate, score: previousSong.score }, { date, score: song.score }]);
     assert.ok(Math.abs(aggregate.score - (previousSong.score + song.score) / 2) < 0.0002);
   }
+  const archived = { ...current, coverage: { ...current.coverage, comparisonAvailable: false }, songs: current.songs.map(song => ({ ...song, delta: null, previousRank: null, combinedMovement: { direction: 'unknown' } })) };
+  const restored = withCombinedMovements(archived, previous);
+  assert.equal(restored.coverage.comparisonAvailable, true);
+  assert.equal(restored.songs.find(candidate => candidate.id === song.id).delta, song.delta);
+  assert.deepEqual(restored.songs.map(song => [song.id, song.rank, song.score]), current.songs.map(song => [song.id, song.rank, song.score]));
   assert.equal(JSON.stringify(previous), savedPrevious);
 });
 
-test('method or scoring-window changes do not fabricate a comparable daily movement', () => {
+test('daily movement compares published ranks across collection changes but keeps the adjacent date and mode', () => {
   const previousDate = '2026-10-23';
   const previous = snapshot({ date: previousDate, rule: legacyRule });
-  assert.equal(snapshot({ previous }).coverage.comparisonAvailable, false);
+  assert.equal(snapshot({ previous }).coverage.comparisonAvailable, true);
   const sameRule = snapshot({ date: previousDate });
   const changedRule = { ...methodology, platformRankDepths: { ...methodology.platformRankDepths, qq: 100 } };
-  assert.equal(snapshot({ rule: changedRule, previous: sameRule }).coverage.comparisonAvailable, false);
+  assert.equal(snapshot({ rule: changedRule, previous: sameRule }).coverage.comparisonAvailable, true);
+  assert.equal(snapshot({ previous: { ...previous, mode: 'demo' } }).coverage.comparisonAvailable, false);
+  assert.equal(snapshot({ previous: { ...previous, date: '2026-10-22' } }).coverage.comparisonAvailable, false);
 });
 
 test('cadence does not count an expanded observation window as a platform ranking update', () => {

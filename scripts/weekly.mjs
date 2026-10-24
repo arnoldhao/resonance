@@ -114,7 +114,7 @@ function buildPeriodCharts({ days, asOfDate }, monthly) {
     const status = weekEnd >= asOfDate ? 'provisional' : included.length === expectedDays ? 'complete' : 'incomplete';
     const priorWeek = weeks.at(-1);
     const previousStart = monthly ? nextMonth(weekStart, -1) : addDays(weekStart, -7);
-    const comparable = Boolean(comparisonSignature) && status === 'complete' && priorWeek?.status === 'complete' && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode && priorWeek.comparisonSignature === comparisonSignature;
+    const comparable = status === 'complete' && priorWeek?.status === 'complete' && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode;
     const previousSongs = new Map((comparable ? priorWeek.songs : []).map(song => [song.id, song]));
     const songs = [...candidates.values()].filter(song => song.total > 0).sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100).map((song, index) => {
       const rank = index + 1;

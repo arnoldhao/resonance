@@ -75,6 +75,27 @@ export function identify(entry, providerId, aliases) {
   return { id: override?.id ?? createHash('sha256').update(key).digest('hex').slice(0, 20), title, artists };
 }
 
+// Compare published ranks directly; expanding collection does not reset yesterday's baseline.
+export function withCombinedMovements(snapshot, previous) {
+  const comparable = previous?.mode === snapshot.mode && previous.date === priorDate(snapshot.date);
+  const previousSongs = new Map((comparable ? previous.songs : []).map(song => [song.id, song]));
+  return {
+    ...snapshot,
+    coverage: { ...snapshot.coverage,
+      comparisonAvailable: Boolean(comparable),
+      comparisonUsesCache: Boolean(comparable && [...snapshot.sources, ...previous.sources].some(source => source.status === 'stale')),
+    },
+    songs: snapshot.songs.map(song => {
+      const previousRank = previousSongs.get(song.id)?.rank ?? null;
+      const delta = previousRank === null ? null : previousRank - song.rank;
+      return { ...song, previousRank, delta, combinedMovement: {
+        direction: !comparable ? 'unknown' : previousRank === null ? 'new' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
+        delta, previousRank, period: 'previous-day', comparisonDate: comparable ? previous.date : null,
+      } };
+    }),
+  };
+}
+
 // A platform comparison uses platform track IDs, independently of combined-chart coverage and aliases.
 export function withPlatformMovements(snapshot, previous) {
   const yesterday = previous?.date === priorDate(snapshot.date) && previous.mode === snapshot.mode ? previous : null;
@@ -82,8 +103,8 @@ export function withPlatformMovements(snapshot, previous) {
     const prior = yesterday?.sources.find(item => item.id === source.id);
     const comparable = usableSource(source) && source.fetchedAt && chinaDate(new Date(source.fetchedAt)) === snapshot.date
       && prior && usableSource(prior) && prior.fetchedAt && chinaDate(new Date(prior.fetchedAt)) === yesterday.date
-      && source.chartName === prior.chartName && source.sourceUrl === prior.sourceUrl
-      && source.collectionDepth === prior.collectionDepth && prior.entries.length >= source.collectionDepth;
+      && source.chartName === prior.chartName && source.sourceUrl === prior.sourceUrl;
+    const comparisonDepth = comparable ? Math.min(source.collectionDepth, prior.collectionDepth) : null;
     const previousRanks = new Map((comparable ? prior.entries : []).map(entry => [String(entry.sourceId), entry.rank]));
     const entries = source.entries.map(entry => {
       const movement = entry.sourceMovement;
@@ -96,9 +117,9 @@ export function withPlatformMovements(snapshot, previous) {
       const previousRank = previousRanks.get(String(entry.sourceId)) ?? null;
       const delta = previousRank === null ? null : previousRank - entry.rank;
       return { ...entry, sourceMovement: {
-        direction: previousRank === null ? 'new' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
+        direction: previousRank === null ? entry.rank <= comparisonDepth ? 'new' : 'unknown' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
         delta, previousRank, period: 'previous-day', origin: 'snapshot-comparison',
-        comparisonDate: yesterday.date, comparisonDepth: source.collectionDepth,
+        comparisonDate: yesterday.date, comparisonDepth,
         currentObservedAt: source.fetchedAt, previousObservedAt: prior.fetchedAt,
         comparisonUsesCache: source.status === 'stale' || prior.status === 'stale', raw: official?.raw ?? {},
       } };
@@ -191,7 +212,6 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
   const weights = effectiveWeights(sources, rule);
   const scope = available.map(source => rule.platformRankDepths ? `${source.id}:${rule.platformRankDepths[source.id]}` : source.id).sort().join(',');
   const signature = `${rule.version}|${createHash('sha256').update(JSON.stringify(aliases)).digest('hex').slice(0, 12)}|${scope}`;
-  const comparable = previous?.mode === mode && previous.date === priorDate(date) && previous.comparisonSignature === signature;
   const songs = new Map();
   const decoratedSources = sources.map(source => {
     const weight = weights[source.id] ?? 0;
@@ -214,20 +234,13 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
     });
     return { ...source, entries, weight: round(weight), count: entries.length, scoringCount: entries.filter(entry => scoringRank(entry.rank, rule, source.id)).length };
   });
-  const previousSongs = new Map((comparable ? previous.songs : []).map(song => [song.id, song]));
   const scoringAppearances = song => song.platforms.filter(platform => platform.eligible).length;
   const ranked = groups.length >= rule.minimumGroups ? [...songs.values()].filter(s => s.score > 0).sort((a, b) => b.score - a.score || scoringAppearances(b) - scoringAppearances(a) || a.id.localeCompare(b.id)).map((song, index) => {
-    const previousRank = previousSongs.get(song.id)?.rank ?? null;
-    const delta = previousRank === null ? null : previousRank - index - 1;
-    const combinedMovement = {
-      direction: !comparable ? 'unknown' : previousRank === null ? 'new' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
-      delta, previousRank, period: 'previous-day', comparisonDate: comparable ? previous.date : null,
-    };
-    return { ...song, score: round(song.score), rank: index + 1, previousRank, delta, combinedMovement, appearances: song.platforms.length, scoringAppearances: scoringAppearances(song) };
+    return { ...song, score: round(song.score), rank: index + 1, appearances: song.platforms.length, scoringAppearances: scoringAppearances(song) };
   }).slice(0, rule.displayDepth ?? 100) : [];
-  return withSongHistory(withPlatformMovements({
+  return withSongHistory(withPlatformMovements(withCombinedMovements({
     schemaVersion: 1, mode, date, generatedAt, methodology: rule, comparisonSignature: signature,
-    coverage: { available: available.length, fresh: available.length - cached, cached, expected: sources.length, groups: groups.length, groupTotal: Object.keys(rule.groupWeights).length, status: groups.length < rule.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial', comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cached || previous.sources.some(source => source.status === 'stale'))) },
+    coverage: { available: available.length, fresh: available.length - cached, cached, expected: sources.length, groups: groups.length, groupTotal: Object.keys(rule.groupWeights).length, status: groups.length < rule.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial' },
     sources: decoratedSources, songs: ranked,
-  }, previous), history);
+  }, previous), previous), history);
 }

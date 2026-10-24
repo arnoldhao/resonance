@@ -13,7 +13,7 @@
 
 歌曲的 `rank` 保留今日综合名次，`movementRank` 是该分类中的排序位置，`delta/previousRank/combinedMovement` 沿用综合日榜数据。筛选平台、搜索和导出时保留分类排名。
 
-只有前一自然日存在，且模式、有效平台集合、算法版本与歌曲映射签名一致，才计算涨跌。不可比较时三个列表均为空，`comparisonDate` 为 `null`，页面说明原因。含历史沿用时披露 `coverage.comparisonUsesCache`。
+前一自然日有同一数据模式的已发布日榜即可计算涨跌，直接比较两天的已发布名次。采集范围扩展或计算记录的版本变化不会清空涨跌。没有昨日榜时三个列表均为空，`comparisonDate` 为 `null`。含历史沿用时披露 `coverage.comparisonUsesCache`。
 
 日内榜单会更新，但比较基准始终是昨日最后一期，不与当天上一次采样比较，也不累计多次涨跌。榜期滚动、平台刷新不同步和 Apple RSS 日内变化都可能改变当日综合名次；这不是新增的采样权重。
 

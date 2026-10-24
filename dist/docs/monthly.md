@@ -30,7 +30,7 @@ v1.4 的日分按四家前 200、Apple 前 100、汽水前 50 与连续衰减曲
 
 ## 涨跌与平台信息
 
-仅相邻两个自然月均完整，各月内部比较签名统一，且两月模式与比较签名一致时，才计算 `monthlyMovement`：上月综合名次减本月综合名次。公式切换月仍汇总全部有效日，不直接比较跨月涨跌。`period` 为 `previous-month`，`comparisonDate` 为上月 1 日。可比较但上月 Top 100 无此曲时标为新入榜，其余不可比较情况保持未知。比较涉及来源沿用时，`coverage.comparisonUsesCache` 为 `true`。
+相邻两个自然月均完整、数据模式相同时，直接计算 `monthlyMovement`：上月已发布综合名次减本月名次。采集范围或版本变化不阻止比较；比较签名只保留为计算记录。`period` 为 `previous-month`，`comparisonDate` 为上月 1 日。可比较但上月 Top 100 无此曲时标为新入榜，其余不可比较情况保持未知。比较涉及来源沿用时，`coverage.comparisonUsesCache` 为 `true`。
 
 歌曲平台信息保存本月有效日中该平台最近采用的观察。`observedDate` 是真实观察日期，`includedDate` 是最近计入哪一天日分；平台原榜名次不是月平均名次。`sourceMovement` 继续区分官方较上期数据与共振计算的较昨日快照数据。
 

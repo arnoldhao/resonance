@@ -48,6 +48,20 @@ test('an older reused observation cannot become a yesterday comparison', () => {
   assert.equal(chart.sources[1].entries[0].sourceMovement.delta, 1);
 });
 
+test('platform expansion retains known daily changes without marking the new tail as entrants', () => {
+  const previous = day('2026-10-23', ['A', 'B', 'C']);
+  const input = day('2026-10-24', ['C', 'D', 'E', 'B', 'A', 'F']);
+  const chart = day('2026-10-24', [], { sources: input.sources.map(source => ({ ...source, collectionDepth: 6 })), previous });
+  const entries = chart.sources[0].entries;
+  assert.equal(entries[0].sourceMovement.delta, 2);
+  assert.equal(entries[1].sourceMovement.direction, 'new');
+  assert.equal(entries[3].sourceMovement.delta, -2);
+  assert.equal(entries[4].sourceMovement.delta, -4);
+  assert.equal(entries[4].sourceMovement.comparisonDepth, 3);
+  assert.equal(entries[5].sourceMovement.direction, 'unknown');
+  assert.equal(entries[5].sourceMovement.delta, null);
+});
+
 test('intraday revisions keep yesterday as their comparison baseline', () => {
   const previous = day('2026-10-23', ['A', 'B', 'C']);
   const morning = day('2026-10-24', ['B', 'A', 'C'], { previous });
@@ -83,7 +97,7 @@ test('calendar months respect leap years and use the last snapshot per date with
   assert.equal(month.songs.some(song => song.title === 'A'), false);
 });
 
-test('monthly comparison requires adjacent complete calendar months and identical signatures', () => {
+test('monthly comparison requires adjacent complete calendar months and retains collection changes', () => {
   const days = [];
   for (let index = 0; index < 59; index++) {
     const date = new Date(Date.parse('2027-01-01T00:00:00Z') + index * 86_400_000).toISOString().slice(0, 10);
@@ -104,7 +118,7 @@ test('monthly comparison requires adjacent complete calendar months and identica
   assert.equal(mixed.coverage.excludedDates.length, 0);
   assert.equal(mixed.coverage.mixedSignatures, true);
   assert.equal(mixed.comparisonSignature, null);
-  assert.equal(mixed.coverage.comparisonAvailable, false);
+  assert.equal(mixed.coverage.comparisonAvailable, true);
 });
 
 test('cadence ignores refreshed timestamps, counts actual order changes and deduplicates observations', () => {

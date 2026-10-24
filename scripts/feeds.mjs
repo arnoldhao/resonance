@@ -142,7 +142,6 @@ export async function buildFeed({ dist, dataDirectory, snapshot, weeks = [], mon
         `${week.mode === 'demo' ? '设计示例，非真实榜单。' : ''}${label}：${start}—${end}。`,
         `有效 ${week.coverage.observedDays}/${week.coverage.expectedDays} 天；${week.coverage.missingDates.length} 天无日快照（含尚未来到的日期），排除 ${week.coverage.excludedDates.length} 天；方法 ${week.methodology.version}（日榜 ${baseVersions.join('、')}）。`,
         ...(week.methodology.aggregationPolicy === 'each-day-original-method' ? ['各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。'] : []),
-        ...(week.coverage.mixedSignatures ? ['本期含多种计算口径，保留各日得分，暂不计算跨期涨跌。'] : []),
         ...(cachedDates.length ? [`其中 ${cachedDates.length} 个有效日使用了平台历史观察：${cachedDates.join('、')}。`] : []),
         ...songs.map(song => `${song.rank}. ${song.title} — ${song.artists.join(' / ')} · ${song.score.toFixed(2)} 分`),
         `完整 JSON：${jsonUrl}`,

@@ -49,13 +49,13 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 - `songs`：按综合排名排序，包含 `id/title/artists/artwork/rank/score/platforms/history/combinedMovement`。
 - `platforms`：对应原榜的 `sourceId/rank/url/eligible/score/contribution/sourceMovement/mv`，以及 `status/ingestion/fetchedAt/observedDate/sourceUpdatedAt/sourcePeriod/attemptedAt/collectionError/cacheOrigin`；观察来源信息随歌曲保留。
 - `appearances` / `scoringAppearances`：原榜出现平台数 / 计分平台数。
-- `history[]`：保留同一数据模式下的历史名次和得分；`methodologyVersion/comparisonSignature` 标注各点原口径，包含公式升级前日期。页面在口径变化处不连线。
+- `history[]`：保留同一数据模式下的历史名次和得分；`methodologyVersion/comparisonSignature` 标注各点原口径，包含公式升级前日期。采集范围扩大后仍连续展示历史趋势。
 
 `score` 为综合指数，`contribution` 为平台加权贡献。公式和比较条件见[日榜方法](methodology.md)；历史数据按自己的 `methodology` 解释。
 
 自 v1.4 起，`methodology.rankPolicy: platform-top-n`、`rankDepth: null`，具体计分深度以 `platformRankDepths` 为准：`qq/netease/kugou/kuwo` 各 200、`apple` 100、`qishui` 50。`displayDepth: 100` 只限制综合榜输出；平台前 101—200 名仍可给综合歌曲贡献分数。`tail: {startRank: 50, decayScale: 50}` 表示第 51 名起从第 50 名分值继续衰减，取消长尾固定 10% 保底。
 
-v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比较签名包含新版分平台计分窗口；跨版本或窗口变化不直接计算涨跌。历史重算保留该期原方法，不将旧 Top 100 观察补作新版 Top 200。
+v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比较签名保留分平台计分窗口记录；涨跌直接比较同一数据模式下相邻两天的已发布名次，不因扩采而重置。历史重算保留该期原方法，不将旧 Top 100 观察补作新版 Top 200。
 
 ## 共振涨跌榜
 
@@ -79,7 +79,7 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 - `songs[].weeklyMovement`：综合周榜相对上周的变化。
 - `songs[].platforms[].observedDate`：该平台元数据真实观察日期，沿用不刷新；`includedDate` 是最近采用这份观察计算日分的日期。
 
-周榜平台名次是该观察日的名次，周得分是各有效日按原公式计算后的平均分。日期完整可包含公式切换；只有相邻两周均完整、各周内部口径统一且两周一致时才比较涨跌。完整规则见[周榜方法](weekly.md)。
+周榜平台名次是该观察日的名次，周得分是各有效日按原公式计算后的平均分。日期完整可包含公式切换；相邻两周均完整且数据模式相同时，即比较已发布名次，不因采集范围变化而停止比较。完整规则见[周榜方法](weekly.md)。
 
 ## 综合月榜
 
@@ -88,7 +88,7 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 - `monthStart/monthEnd`：北京时间自然月首末日；`coverage.expectedDays` 按月份实际天数计算。
 - `status`：`provisional` 本月预览、`complete` 完整月、`incomplete` 已结束但存在缺失或排除日。
 - `score`：各有效日按当时保存公式计算的分数平均值，公式升级前日期继续纳入；有效日未出现歌曲记 0，缺失或排除日不计分母。同一自然日只取最后一期，不平均周榜。`baseVersions/dailyMethods/mixedMethods/mixedSignatures` 的含义与周榜相同。
-- `monthlyMovement`：仅相邻两个完整自然月、各月内部口径统一且两月一致时比较，`period: previous-month`，`comparisonDate` 为上月 1 日。
+- `monthlyMovement`：相邻两个完整自然月且数据模式相同时比较，`period: previous-month`，`comparisonDate` 为上月 1 日。
 
 完整规则见[月榜方法](monthly.md)。
 
@@ -135,9 +135,9 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 
 平台官方提供的已确认涨跌优先使用，标为 `origin: official`、`period: previous-edition`，其中持平的 `delta: 0` 也属于有效官方数据。平台上期未必是昨日。
 
-官方变化缺失或为 `unknown` 时，可用昨日最后一期的同平台完整快照计算：`origin: snapshot-comparison`、`period: previous-day`，并保存 `comparisonDate/comparisonDepth/currentObservedAt/previousObservedAt/comparisonUsesCache`。平台榜单名称、入口与采集深度必须一致，双方真实观察日须分别为本日、昨日；前日缓存不作昨日新观察。仅按平台 `sourceId` 匹配，独立于综合榜覆盖与歌曲映射。昨日采集范围无此曲时为 `new`，只表示新入采集范围，不代表平台首次上榜；不估计未知的昨日名次。没有有效昨日观察时保持未知。`raw` 始终保留平台原字段；历史回填不参与此比较。
+官方变化缺失或为 `unknown` 时，可用昨日最后一期的同平台完整快照计算：`origin: snapshot-comparison`、`period: previous-day`，并保存 `comparisonDate/comparisonDepth/currentObservedAt/previousObservedAt/comparisonUsesCache`。平台榜单名称、入口须相同，双方真实观察日须分别为本日、昨日；扩采后昨日已记录的曲目仍能比较，`comparisonDepth` 为两天共有的采集深度；前日缓存不作昨日新观察。仅按平台 `sourceId` 匹配，独立于综合榜覆盖与歌曲映射。昨日采集范围无此曲、且今日进入两天共有的采集范围时为 `new`，只表示新入采集范围；仅出现在新增尾部且昨日名次未知时为 `unknown`，不估计昨日名次。没有有效昨日观察时保持未知。`raw` 始终保留平台原字段；历史回填不参与此比较。
 
-构建站点时可从保存的相邻日快照派生上述平台变化，不重算综合分数、比较签名或改写原始归档。旧归档中的官方变化可能没有 `origin`，按其原保存内容解释。
+构建站点时从保存的相邻日快照补充综合和平台涨跌，不重算综合名次、分数或改写原始归档。旧归档中的官方变化可能没有 `origin`，按其原保存内容解释。
 
 `mv` 格式为 `{status, items: [{id, hash, url}]}`。`status` 为 `linked`（有关联）、`none`（源响应明确无关联）或 `unknown`。未提供的标识和地址为 `null`，关联不保证可播放。
 

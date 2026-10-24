@@ -28,7 +28,7 @@ v1.4 按该日保存的分平台窗口重建：四家 200、Apple 100、汽水 5
 
 ## 涨跌与平台信息
 
-只有相邻两周均为完整周，每周内部的比较签名统一，且两周模式、比较签名相同，才计算 `weeklyMovement`：上周名次减本周名次。公式切换周继续发布汇总，但不直接比较跨周涨跌。可比较但上周无此曲时为新入榜，其余情况为未知。任一比较周含缓存日时 `coverage.comparisonUsesCache` 为 `true`。
+相邻两周均为完整周、数据模式相同时，直接计算 `weeklyMovement`：上周已发布名次减本周名次。采集范围或版本变化不阻止比较；比较签名只保留为计算记录。可比较但上周无此曲时为新入榜，其余情况为未知。任一比较周含缓存日时 `coverage.comparisonUsesCache` 为 `true`。
 
 每首歌的 `platforms` 保留本周有效日中各平台最近采用的名次、原榜涨跌、MV 关联和链接。`observedDate` 是 `fetchedAt` 对应的北京时间真实观察日；`includedDate` 是这份观察最近用于哪一天的日分，两者可能不同。沿用不会将 `observedDate/fetchedAt` 刷新成发布日，`status/ingestion/cacheOrigin/collectionError` 随平台记录保留。这是对应观察的原榜名次，不是周平均名次。
 
