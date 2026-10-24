@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T14:35:21.368Z",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-24T16:35:02.787Z",
   "methodology": {
     "version": "1.4",
     "formula": "S = 100 × Σ wₚ × P(rₚ)；r≤50 时 P(r)=0.9×exp(−(r−1)/25)+0.1，r>50 时 P(r)=P(50)×exp(−(r−50)/50)；QQ/网易云/酷狗/酷我前200、Apple前100、汽水前50计分，仅展示前100名",

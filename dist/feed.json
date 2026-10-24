@@ -13,6 +13,178 @@
   ],
   "items": [
     {
+      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-25.json#live",
+      "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-25.json",
+      "title": "共振 · 2026-10-25 综合热歌榜",
+      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 92.83 分\n2. 天龙八部之宿敌 — 许嵩 · 82.91 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.21 分\n4. 我怀念的 — 孙燕姿 · 57.51 分\n5. 恋人 — 李荣浩 · 53.14 分\n6. 雨爱 — 杨丞琳 · 52.36 分\n7. 开始懂了 — 孙燕姿 · 47.70 分\n8. 情歌 — 梁静茹 · 45.64 分\n9. NEON — A2O LITE / A2O · 38.87 分\n10. 失眠 — Suki刘舒妤 · 35.76 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-25.json",
+      "date_published": "2026-10-24T16:35:02.787Z",
+      "date_modified": "2026-10-24T16:35:02.787Z",
+      "tags": [
+        "live",
+        "daily",
+        "complete"
+      ],
+      "_resonance": {
+        "kind": "daily",
+        "date": "2026-10-25",
+        "revision": "8c40740c0f16e5381448e283cb190b745f2dadd7d85f410df8522e0e2993264d",
+        "methodologyVersion": "1.4",
+        "coverage": {
+          "available": 6,
+          "fresh": 6,
+          "cached": 0,
+          "expected": 6,
+          "groups": 4,
+          "groupTotal": 4,
+          "status": "complete",
+          "comparisonAvailable": true,
+          "comparisonUsesCache": false
+        },
+        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-25.json"
+      }
+    },
+    {
+      "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json#live",
+      "url": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
+      "title": "共振 · 2026-10-01—2026-10-31 本月预览",
+      "content_text": "本月预览：2026-10-01—2026-10-31。\n有效 3/31 天；28 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.1（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 92.99 分\n2. 天龙八部之宿敌 — 许嵩 · 82.67 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.47 分\n4. 我怀念的 — 孙燕姿 · 56.00 分\n5. 恋人 — 李荣浩 · 55.56 分\n6. 雨爱 — 杨丞琳 · 53.01 分\n7. 开始懂了 — 孙燕姿 · 48.28 分\n8. 情歌 — 梁静茹 · 43.70 分\n9. NEON — A2O LITE / A2O · 39.78 分\n10. 失眠 — Suki刘舒妤 · 35.45 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
+      "date_published": "2026-10-23T03:18:23.844Z",
+      "date_modified": "2026-10-24T16:35:02.787Z",
+      "tags": [
+        "live",
+        "monthly",
+        "provisional"
+      ],
+      "_resonance": {
+        "kind": "monthly",
+        "month": "2026-10",
+        "monthStart": "2026-10-01",
+        "monthEnd": "2026-10-31",
+        "status": "provisional",
+        "revision": "0438364624389931cc1b971346f5c9452bdd95a267450bf053b2f1425d9095d1",
+        "methodologyVersion": "monthly-1.1",
+        "baseMethodologyVersion": null,
+        "baseMethodologyVersions": [
+          "1.3",
+          "1.4"
+        ],
+        "coverage": {
+          "observedDays": 3,
+          "expectedDays": 31,
+          "includedDates": [
+            "2026-10-23",
+            "2026-10-24",
+            "2026-10-25"
+          ],
+          "cachedDates": [],
+          "missingDates": [
+            "2026-10-01",
+            "2026-10-02",
+            "2026-10-03",
+            "2026-10-04",
+            "2026-10-05",
+            "2026-10-06",
+            "2026-10-07",
+            "2026-10-08",
+            "2026-10-09",
+            "2026-10-10",
+            "2026-10-11",
+            "2026-10-12",
+            "2026-10-13",
+            "2026-10-14",
+            "2026-10-15",
+            "2026-10-16",
+            "2026-10-17",
+            "2026-10-18",
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21",
+            "2026-10-22",
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28",
+            "2026-10-29",
+            "2026-10-30",
+            "2026-10-31"
+          ],
+          "excludedDates": [],
+          "latestIncludedDate": "2026-10-25",
+          "mixedMethods": true,
+          "mixedSignatures": true,
+          "comparisonAvailable": false,
+          "comparisonUsesCache": false,
+          "sourceCoverage": {
+            "available": 6,
+            "fresh": 6,
+            "cached": 0,
+            "expected": 6,
+            "groups": 4,
+            "groupTotal": 4,
+            "status": "complete"
+          }
+        },
+        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json"
+      }
+    },
+    {
+      "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live",
+      "url": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
+      "title": "共振 · 2026-10-19—2026-10-25 本周预览",
+      "content_text": "本周预览：2026-10-19—2026-10-25。\n有效 3/7 天；4 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.2（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 92.99 分\n2. 天龙八部之宿敌 — 许嵩 · 82.67 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.47 分\n4. 我怀念的 — 孙燕姿 · 56.00 分\n5. 恋人 — 李荣浩 · 55.56 分\n6. 雨爱 — 杨丞琳 · 53.01 分\n7. 开始懂了 — 孙燕姿 · 48.28 分\n8. 情歌 — 梁静茹 · 43.70 分\n9. NEON — A2O LITE / A2O · 39.78 分\n10. 失眠 — Suki刘舒妤 · 35.45 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
+      "date_published": "2026-10-23T03:18:23.844Z",
+      "date_modified": "2026-10-24T16:35:02.787Z",
+      "tags": [
+        "live",
+        "weekly",
+        "provisional"
+      ],
+      "_resonance": {
+        "kind": "weekly",
+        "weekStart": "2026-10-19",
+        "weekEnd": "2026-10-25",
+        "status": "provisional",
+        "revision": "b509ac4d803095c5afe0cf42b76f6feb529430de75e4ea9b78f8646c9ff308b5",
+        "methodologyVersion": "weekly-1.2",
+        "baseMethodologyVersion": null,
+        "baseMethodologyVersions": [
+          "1.3",
+          "1.4"
+        ],
+        "coverage": {
+          "observedDays": 3,
+          "expectedDays": 7,
+          "includedDates": [
+            "2026-10-23",
+            "2026-10-24",
+            "2026-10-25"
+          ],
+          "cachedDates": [],
+          "missingDates": [
+            "2026-10-19",
+            "2026-10-20",
+            "2026-10-21",
+            "2026-10-22"
+          ],
+          "excludedDates": [],
+          "latestIncludedDate": "2026-10-25",
+          "mixedMethods": true,
+          "mixedSignatures": true,
+          "comparisonAvailable": false,
+          "comparisonUsesCache": false,
+          "sourceCoverage": {
+            "available": 6,
+            "fresh": 6,
+            "cached": 0,
+            "expected": 6,
+            "groups": 4,
+            "groupTotal": 4,
+            "status": "complete"
+          }
+        },
+        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json"
+      }
+    },
+    {
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-24.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-24.json",
       "title": "共振 · 2026-10-24 综合热歌榜",
@@ -41,147 +213,6 @@
           "comparisonUsesCache": false
         },
         "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-24.json"
-      }
-    },
-    {
-      "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json#live",
-      "url": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
-      "title": "共振 · 2026-10-01—2026-10-31 本月预览",
-      "content_text": "本月预览：2026-10-01—2026-10-31。\n有效 2/31 天；29 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.1（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 93.06 分\n2. 天龙八部之宿敌 — 许嵩 · 82.56 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.60 分\n4. 恋人 — 李荣浩 · 56.77 分\n5. 我怀念的 — 孙燕姿 · 55.24 分\n6. 雨爱 — 杨丞琳 · 53.33 分\n7. 开始懂了 — 孙燕姿 · 48.57 分\n8. 情歌 — 梁静茹 · 42.73 分\n9. NEON — A2O LITE / A2O · 40.24 分\n10. 失眠 — Suki刘舒妤 · 35.30 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
-      "date_published": "2026-10-23T03:18:23.844Z",
-      "date_modified": "2026-10-24T14:35:21.368Z",
-      "tags": [
-        "live",
-        "monthly",
-        "provisional"
-      ],
-      "_resonance": {
-        "kind": "monthly",
-        "month": "2026-10",
-        "monthStart": "2026-10-01",
-        "monthEnd": "2026-10-31",
-        "status": "provisional",
-        "revision": "87d53f0bdf19dec7960e5f2f7c44869212cc5bb680b8e4a2550794203c7f80eb",
-        "methodologyVersion": "monthly-1.1",
-        "baseMethodologyVersion": null,
-        "baseMethodologyVersions": [
-          "1.3",
-          "1.4"
-        ],
-        "coverage": {
-          "observedDays": 2,
-          "expectedDays": 31,
-          "includedDates": [
-            "2026-10-23",
-            "2026-10-24"
-          ],
-          "cachedDates": [],
-          "missingDates": [
-            "2026-10-01",
-            "2026-10-02",
-            "2026-10-03",
-            "2026-10-04",
-            "2026-10-05",
-            "2026-10-06",
-            "2026-10-07",
-            "2026-10-08",
-            "2026-10-09",
-            "2026-10-10",
-            "2026-10-11",
-            "2026-10-12",
-            "2026-10-13",
-            "2026-10-14",
-            "2026-10-15",
-            "2026-10-16",
-            "2026-10-17",
-            "2026-10-18",
-            "2026-10-19",
-            "2026-10-20",
-            "2026-10-21",
-            "2026-10-22",
-            "2026-10-25",
-            "2026-10-26",
-            "2026-10-27",
-            "2026-10-28",
-            "2026-10-29",
-            "2026-10-30",
-            "2026-10-31"
-          ],
-          "excludedDates": [],
-          "latestIncludedDate": "2026-10-24",
-          "mixedMethods": true,
-          "mixedSignatures": true,
-          "comparisonAvailable": false,
-          "comparisonUsesCache": false,
-          "sourceCoverage": {
-            "available": 6,
-            "fresh": 6,
-            "cached": 0,
-            "expected": 6,
-            "groups": 4,
-            "groupTotal": 4,
-            "status": "complete"
-          }
-        },
-        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json"
-      }
-    },
-    {
-      "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live",
-      "url": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
-      "title": "共振 · 2026-10-19—2026-10-25 本周预览",
-      "content_text": "本周预览：2026-10-19—2026-10-25。\n有效 2/7 天；5 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.2（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 93.06 分\n2. 天龙八部之宿敌 — 许嵩 · 82.56 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.60 分\n4. 恋人 — 李荣浩 · 56.77 分\n5. 我怀念的 — 孙燕姿 · 55.24 分\n6. 雨爱 — 杨丞琳 · 53.33 分\n7. 开始懂了 — 孙燕姿 · 48.57 分\n8. 情歌 — 梁静茹 · 42.73 分\n9. NEON — A2O LITE / A2O · 40.24 分\n10. 失眠 — Suki刘舒妤 · 35.30 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
-      "date_published": "2026-10-23T03:18:23.844Z",
-      "date_modified": "2026-10-24T14:35:21.368Z",
-      "tags": [
-        "live",
-        "weekly",
-        "provisional"
-      ],
-      "_resonance": {
-        "kind": "weekly",
-        "weekStart": "2026-10-19",
-        "weekEnd": "2026-10-25",
-        "status": "provisional",
-        "revision": "beeb0964526fe20872915156533a8f2b7b28960f70f762654dbfebaebd8c161d",
-        "methodologyVersion": "weekly-1.2",
-        "baseMethodologyVersion": null,
-        "baseMethodologyVersions": [
-          "1.3",
-          "1.4"
-        ],
-        "coverage": {
-          "observedDays": 2,
-          "expectedDays": 7,
-          "includedDates": [
-            "2026-10-23",
-            "2026-10-24"
-          ],
-          "cachedDates": [],
-          "missingDates": [
-            "2026-10-19",
-            "2026-10-20",
-            "2026-10-21",
-            "2026-10-22",
-            "2026-10-25"
-          ],
-          "excludedDates": [],
-          "latestIncludedDate": "2026-10-24",
-          "mixedMethods": true,
-          "mixedSignatures": true,
-          "comparisonAvailable": false,
-          "comparisonUsesCache": false,
-          "sourceCoverage": {
-            "available": 6,
-            "fresh": 6,
-            "cached": 0,
-            "expected": 6,
-            "groups": 4,
-            "groupTotal": 4,
-            "status": "complete"
-          }
-        },
-        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json"
       }
     },
     {
