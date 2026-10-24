@@ -23,14 +23,14 @@ export const providers = [
     id: 'kugou', name: '酷狗音乐', chartName: 'TOP500', group: 'tme', enabled: true,
     collectionDepth: 100, maxAgeHours: 48,
     sourceUrl: 'https://m.kugou.com/rank/info/?rankid=8888', frequency: '每日更新',
-    updatePolicy: '官方说明为每天更新；一次响应配置出现 10:00，不能视为永久时间承诺。',
+    updatePolicy: '每日榜期包含源站未注明时区的时刻；榜期时间不等于接口实际可见时间，固定刷新时刻仍待持续观察。',
     access: '官方榜单 JSON · 单次完整前 100 首',
   },
   {
     id: 'kuwo', name: '酷我音乐', chartName: '酷我热歌榜', group: 'tme', enabled: true,
     collectionDepth: 100, maxAgeHours: 48,
     sourceUrl: 'https://www.kuwo.cn/rankList', frequency: '更新频率待确认',
-    updatePolicy: '公开接口提供榜单日期；未找到固定频率与公布时刻的一手承诺。',
+    updatePolicy: '公开接口提供榜单日期，但日期变化不保证排名变化；未找到固定频率与公布时刻的一手承诺。',
     access: '官方公开榜单接口',
   },
   {
@@ -38,7 +38,7 @@ export const providers = [
     collectionDepth: 100, maxAgeHours: 48,
     sourceUrl: 'https://rss.marketingtools.apple.com/api/v2/cn/music/most-played/100/songs.json',
     frequency: '未公开固定时点',
-    updatePolicy: '官方 CN most-played RSS；与 Top 100：中国大陆日更歌单是不同产品，不套用其日更承诺。',
+    updatePolicy: '官方 CN most-played RSS；updated 曾随读取刷新，不能单独作为排名更新时间。实测存在日内多次排名变化；与 Top 100：中国大陆歌单不同，不套用其他产品的刷新承诺。',
     access: '官方 RSS · 中国区热门歌曲',
   },
   {

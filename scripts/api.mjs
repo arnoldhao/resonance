@@ -20,7 +20,7 @@ const chartResponse = snapshot => ({
 const platformResponse = (snapshot, source) => ({ ...source, ...edition(snapshot) });
 
 /** Materialize a read-only API from the same published snapshots used by the website. */
-export async function buildAPI({ dist, dataDirectory, snapshot, status, days, archives = [] }) {
+export async function buildAPI({ dist, dataDirectory, snapshot, status, days, archives = [], cadence }) {
   const output = async (path, value) => {
     const file = resolve(dist, `.${base}/${path}`);
     await mkdir(dirname(file), { recursive: true });
@@ -40,11 +40,17 @@ export async function buildAPI({ dist, dataDirectory, snapshot, status, days, ar
     weeklyLatest: `${base}/weekly/latest.json`,
     weeklyIndex: `${base}/weekly/index.json`,
     weeklyByWeek: `${base}/weekly/{weekStart}.json`,
+    monthlyLatest: `${base}/monthly/latest.json`,
+    monthlyIndex: `${base}/monthly/index.json`,
+    monthlyByMonth: `${base}/monthly/{month}.json`,
+    movementLatest: `${base}/movement/latest.json`,
+    movementByDate: `${base}/movement/{date}.json`,
+    cadence: `${base}/cadence.json`,
   };
   await Promise.all([
     output('index.json', {
       ...edition(snapshot),
-      description: '共振公开数据接口：综合热歌日榜与周榜、平台原榜、历史快照与采集状态。静态 JSON，无需认证。',
+      description: '共振公开数据接口：综合日榜、涨跌榜、周榜、月榜、平台原榜、更新频率观察与采集状态。静态 JSON，无需认证。',
       endpoints,
       subscriptions: { atom: '/feed.xml', jsonFeed: '/feed.json', updates: endpoints.updates },
       platforms: snapshot.sources.map(source => ({
@@ -65,6 +71,7 @@ export async function buildAPI({ dist, dataDirectory, snapshot, status, days, ar
     }),
     ...snapshot.sources.map(source => output(`platforms/${source.id}/latest.json`, platformResponse(snapshot, source))),
   ]);
+  if (cadence) await output('cadence.json', cadence);
   const platformEditions = new Map(snapshot.sources.map(source => [source.id, new Map()]));
   for (const archive of archives) {
     await output(`platforms/${archive.id}/${archive.date}.json`, archive);

@@ -10,6 +10,13 @@ function monday(date) {
   return addDays(date, -((weekday + 6) % 7));
 }
 
+const monthStart = date => `${date.slice(0, 7)}-01`;
+function nextMonth(date, offset = 1) {
+  const value = new Date(`${monthStart(date)}T00:00:00Z`);
+  value.setUTCMonth(value.getUTCMonth() + offset);
+  return value.toISOString().slice(0, 10);
+}
+
 function rebuildDay(day) {
   // These published versions use this curve; future formula versions need an explicit implementation.
   if (!['1.0', '1.1', '1.2', '1.3'].includes(day.methodology.version)) return { reason: `未支持的日榜方法版本：${day.methodology.version}` };
@@ -23,7 +30,7 @@ function rebuildDay(day) {
     const weight = weights[source.id];
     const best = new Map();
     for (const entry of source.entries) {
-      if (!entry.songId) throw new Error(`${day.date} ${source.id} ${entry.sourceId} 缺少已保存的 songId，不能重建周榜`);
+      if (!entry.songId) throw new Error(`${day.date} ${source.id} ${entry.sourceId} 缺少已保存的 songId，不能重建周期榜`);
       if (!best.has(entry.songId) || entry.rank < best.get(entry.songId).rank) best.set(entry.songId, entry);
     }
     for (const entry of best.values()) {
@@ -48,8 +55,9 @@ function rebuildDay(day) {
   return { songs, usesCache: sources.some(source => source.status === 'stale') };
 }
 
-/** Derive weekly charts from published daily snapshots. No I/O and no modification of input days. */
-export function buildWeeklyCharts({ days, asOfDate }) {
+/** Weeks and calendar months use the same daily candidate pool and coverage rules. */
+function buildPeriodCharts({ days, asOfDate }, monthly) {
+  const startOf = monthly ? monthStart : monday;
   const generatedAt = new Date().toISOString();
   const latestByDate = new Map();
   for (const day of days) {
@@ -60,15 +68,16 @@ export function buildWeeklyCharts({ days, asOfDate }) {
   const chronologicalDays = [...latestByDate.values()].sort((a, b) => a.date.localeCompare(b.date));
   const grouped = new Map();
   for (const day of chronologicalDays) {
-    const weekStart = monday(day.date);
+    const weekStart = startOf(day.date);
     if (!grouped.has(weekStart)) grouped.set(weekStart, []);
     grouped.get(weekStart).push(day);
   }
-  const currentWeek = monday(asOfDate);
+  const currentWeek = startOf(asOfDate);
   if (!grouped.has(currentWeek)) grouped.set(currentWeek, []);
   const weeks = [];
   for (const weekStart of [...grouped.keys()].sort()) {
-    const weekEnd = addDays(weekStart, 6);
+    const weekEnd = monthly ? addDays(nextMonth(weekStart), -1) : addDays(weekStart, 6);
+    const expectedDays = monthly ? Number(weekEnd.slice(-2)) : 7;
     const observed = grouped.get(weekStart);
     const reference = observed.at(-1);
     const mode = reference?.mode ?? chronologicalDays.at(-1)?.mode ?? 'live';
@@ -77,8 +86,8 @@ export function buildWeeklyCharts({ days, asOfDate }) {
     const excludedDates = [];
     for (const day of observed) {
       let reason;
-      if (day.comparisonSignature !== comparisonSignature) reason = '与本周最新日榜的比较口径不同';
-      else if (day.mode !== mode) reason = '与本周最新日榜的数据模式不同';
+      if (day.comparisonSignature !== comparisonSignature) reason = `与本${monthly ? '月' : '周'}最新日榜的比较口径不同`;
+      else if (day.mode !== mode) reason = `与本${monthly ? '月' : '周'}最新日榜的数据模式不同`;
       if (reason) {
         excludedDates.push({ date: day.date, reason });
         continue;
@@ -90,7 +99,7 @@ export function buildWeeklyCharts({ days, asOfDate }) {
     const includedDates = included.map(day => day.date);
     const cachedDates = included.filter(day => day.usesCache).map(day => day.date);
     const observedDates = new Set(observed.map(day => day.date));
-    const missingDates = Array.from({ length: 7 }, (_, index) => addDays(weekStart, index)).filter(date => !observedDates.has(date));
+    const missingDates = Array.from({ length: expectedDays }, (_, index) => addDays(weekStart, index)).filter(date => !observedDates.has(date));
     const candidates = new Map();
     for (const day of included) {
       for (const song of day.songs.values()) {
@@ -100,9 +109,10 @@ export function buildWeeklyCharts({ days, asOfDate }) {
         candidates.set(song.id, { ...song, platforms: [...platforms.values()], total: (prior?.total ?? 0) + song.score, daysOnChart: (prior?.daysOnChart ?? 0) + (song.score > 0 ? 1 : 0) });
       }
     }
-    const status = weekEnd >= asOfDate ? 'provisional' : included.length === 7 ? 'complete' : 'incomplete';
+    const status = weekEnd >= asOfDate ? 'provisional' : included.length === expectedDays ? 'complete' : 'incomplete';
     const priorWeek = weeks.at(-1);
-    const comparable = status === 'complete' && priorWeek?.status === 'complete' && priorWeek.weekStart === addDays(weekStart, -7) && priorWeek.mode === mode && priorWeek.comparisonSignature === comparisonSignature;
+    const previousStart = monthly ? nextMonth(weekStart, -1) : addDays(weekStart, -7);
+    const comparable = status === 'complete' && priorWeek?.status === 'complete' && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode && priorWeek.comparisonSignature === comparisonSignature;
     const previousSongs = new Map((comparable ? priorWeek.songs : []).map(song => [song.id, song]));
     const songs = [...candidates.values()].filter(song => song.total > 0).sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100).map((song, index) => {
       const rank = index + 1;
@@ -114,25 +124,26 @@ export function buildWeeklyCharts({ days, asOfDate }) {
         platforms: song.platforms,
         dailyScores: included.map(day => ({ date: day.date, score: round(day.songs.get(song.id)?.score ?? 0) })),
         previousRank, delta,
-        weeklyMovement: {
+        [monthly ? 'monthlyMovement' : 'weeklyMovement']: {
           direction: !comparable ? 'unknown' : previousRank === null ? 'new' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
-          delta, previousRank, period: 'previous-week', comparisonDate: comparable ? priorWeek.weekStart : null,
+          delta, previousRank, period: monthly ? 'previous-month' : 'previous-week', comparisonDate: comparable ? previousStart : null,
         },
       };
     });
     const sourceCoverage = reference ? Object.fromEntries(['available', 'fresh', 'cached', 'expected', 'groups', 'groupTotal', 'status'].map(key => [key, reference.coverage[key]])) : null;
     weeks.push({
-      weekStart, weekEnd, mode, generatedAt, asOfDate, status,
+      ...(monthly ? { month: weekStart.slice(0, 7), monthStart: weekStart, monthEnd: weekEnd } : { weekStart, weekEnd }),
+      mode, generatedAt, asOfDate, status,
       methodology: {
-        version: 'weekly-1.1', baseVersion: reference?.methodology.version ?? null,
-        formula: '周得分 = 同口径有效日得分之和 ÷ 有效天数；有效日未进入计分窗口记 0，缺失日与排除日不进入分母',
+        version: monthly ? 'monthly-1.0' : 'weekly-1.1', baseVersion: reference?.methodology.version ?? null,
+        formula: `${monthly ? '月' : '周'}得分 = 同口径有效日得分之和 ÷ 有效天数；有效日未进入计分窗口记 0，缺失日与排除日不进入分母`,
         rankDepth: reference?.methodology.rankDepth ?? null,
         groupWeights: reference ? { ...reference.methodology.groupWeights } : null,
         platformWeights: reference?.methodology.platformWeights ? { ...reference.methodology.platformWeights } : null,
       },
       comparisonSignature,
       coverage: {
-        observedDays: included.length, expectedDays: 7, includedDates, cachedDates, missingDates, excludedDates,
+        observedDays: included.length, expectedDays, includedDates, cachedDates, missingDates, excludedDates,
         latestIncludedDate: includedDates.at(-1) ?? null, comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cachedDates.length || priorWeek.coverage.cachedDates.length)), sourceCoverage,
       },
       songs,
@@ -140,3 +151,6 @@ export function buildWeeklyCharts({ days, asOfDate }) {
   }
   return weeks.reverse();
 }
+
+export const buildWeeklyCharts = options => buildPeriodCharts(options, false);
+export const buildMonthlyCharts = options => buildPeriodCharts(options, true);

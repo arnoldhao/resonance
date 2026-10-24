@@ -67,6 +67,58 @@ export function identify(entry, providerId, aliases) {
   return { id: override?.id ?? createHash('sha256').update(key).digest('hex').slice(0, 20), title, artists };
 }
 
+// A platform comparison uses platform track IDs, independently of combined-chart coverage and aliases.
+export function withPlatformMovements(snapshot, previous) {
+  const yesterday = previous?.date === priorDate(snapshot.date) && previous.mode === snapshot.mode ? previous : null;
+  const sources = snapshot.sources.map(source => {
+    const prior = yesterday?.sources.find(item => item.id === source.id);
+    const comparable = usableSource(source) && source.fetchedAt && chinaDate(new Date(source.fetchedAt)) === snapshot.date
+      && prior && usableSource(prior) && prior.fetchedAt && chinaDate(new Date(prior.fetchedAt)) === yesterday.date
+      && source.chartName === prior.chartName && source.sourceUrl === prior.sourceUrl
+      && source.collectionDepth === prior.collectionDepth && prior.entries.length >= source.collectionDepth;
+    const previousRanks = new Map((comparable ? prior.entries : []).map(entry => [String(entry.sourceId), entry.rank]));
+    const entries = source.entries.map(entry => {
+      const movement = entry.sourceMovement;
+      // Rebuild our own derived movement when reading an old decorated snapshot or a reused observation.
+      const official = movement?.origin === 'snapshot-comparison'
+        ? { direction: 'unknown', delta: null, previousRank: null, period: 'previous-edition', raw: movement.raw }
+        : movement;
+      if (official && official.direction !== 'unknown') return { ...entry, sourceMovement: { ...official, origin: 'official' } };
+      if (!comparable) return { ...entry, sourceMovement: official };
+      const previousRank = previousRanks.get(String(entry.sourceId)) ?? null;
+      const delta = previousRank === null ? null : previousRank - entry.rank;
+      return { ...entry, sourceMovement: {
+        direction: previousRank === null ? 'new' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
+        delta, previousRank, period: 'previous-day', origin: 'snapshot-comparison',
+        comparisonDate: yesterday.date, comparisonDepth: source.collectionDepth,
+        currentObservedAt: source.fetchedAt, previousObservedAt: prior.fetchedAt,
+        comparisonUsesCache: source.status === 'stale' || prior.status === 'stale', raw: official?.raw ?? {},
+      } };
+    });
+    return { ...source, entries };
+  });
+  const movements = new Map(sources.map(source => [source.id, new Map(source.entries.map(entry => [String(entry.sourceId), entry.sourceMovement]))]));
+  const songs = snapshot.songs.map(song => ({ ...song, platforms: song.platforms.map(platform => ({
+    ...platform, sourceMovement: movements.get(platform.id).get(String(platform.sourceId)),
+  })) }));
+  return { ...snapshot, sources, songs };
+}
+
+export function buildMovementChart(snapshot) {
+  const comparable = snapshot.coverage.comparisonAvailable;
+  const select = direction => (comparable ? snapshot.songs.filter(song => song.combinedMovement?.direction === direction) : [])
+    .sort((a, b) => Math.abs(b.delta ?? 0) - Math.abs(a.delta ?? 0) || a.rank - b.rank || a.id.localeCompare(b.id))
+    .map((song, index) => ({ ...song, movementRank: index + 1 }));
+  return {
+    schemaVersion: 1, mode: snapshot.mode, date: snapshot.date, generatedAt: snapshot.generatedAt,
+    methodology: { version: 'movement-1.0', basis: 'combined-rank', scope: 'current-top-100', formula: '昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；新入榜单列' },
+    comparisonDate: comparable ? priorDate(snapshot.date) : null,
+    comparisonSignature: snapshot.comparisonSignature, coverage: snapshot.coverage,
+    rising: select('up'), falling: select('down'), newEntries: select('new'),
+    unchangedCount: comparable ? snapshot.songs.filter(song => song.combinedMovement?.direction === 'same').length : 0,
+  };
+}
+
 // This is the external input boundary. Reject partial lists instead of treating absent ranks as zero votes.
 export function validateChart(chart, provider, date, { editionDate } = {}) {
   if (chart.providerId !== provider.id) throw new Error('providerId 与配置不符');
@@ -155,9 +207,9 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
     }).filter(Boolean).sort((a, b) => a.date.localeCompare(b.date)).slice(-13);
     return { ...song, score: round(song.score), rank: index + 1, previousRank, delta, combinedMovement, appearances: song.platforms.length, scoringAppearances: scoringAppearances(song), history: [...songHistory, { date, rank: index + 1, score: round(song.score) }] };
   }).slice(0, 100) : [];
-  return {
+  return withPlatformMovements({
     schemaVersion: 1, mode, date, generatedAt, methodology, comparisonSignature: signature,
     coverage: { available: available.length, fresh: available.length - cached, cached, expected: sources.length, groups: groups.length, groupTotal: Object.keys(methodology.groupWeights).length, status: groups.length < methodology.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial', comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cached || previous.sources.some(source => source.status === 'stale'))) },
     sources: decoratedSources, songs: ranked,
-  };
+  }, previous);
 }
