@@ -4,14 +4,15 @@
   "chartName": "热歌榜",
   "group": "tme",
   "enabled": true,
-  "collectionDepth": 100,
+  "collectionDepth": 200,
   "maxAgeHours": 48,
   "sourceUrl": "https://y.qq.com/n/ryqq/toplist/26",
   "frequency": "每日更新",
   "updatePolicy": "榜单说明为每日更新；未确认固定公布时刻。",
   "access": "官方公开 Web 接口",
   "providerId": "qq",
-  "fetchedAt": "2026-10-24T08:30:46.157Z",
+  "declaredCount": 300,
+  "fetchedAt": "2026-10-24T08:56:37.066Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-24",
   "entries": [
@@ -243,16 +244,10 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/0035NK3D30B4V6",
       "rank": 9,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-23",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T08:30:46.157Z",
-        "previousObservedAt": "2026-10-23T12:37:13.426Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {
           "cur_count": "9",
           "old_count": "0"
@@ -356,16 +351,10 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/0016a5YS1wS8EE",
       "rank": 13,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-23",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T08:30:46.157Z",
-        "previousObservedAt": "2026-10-23T12:37:13.426Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {
           "cur_count": "13",
           "old_count": "0"
@@ -1363,16 +1352,10 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/003GtCtX1R9Fmx",
       "rank": 50,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-23",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-24T08:30:46.157Z",
-        "previousObservedAt": "2026-10-23T12:37:13.426Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {
           "cur_count": "50",
           "old_count": "0"
@@ -2739,19 +2722,2724 @@
         "items": []
       },
       "songId": "cd43953b4f805e05749e"
+    },
+    {
+      "sourceId": "002QhULf16tWw1",
+      "title": "无名的人",
+      "artists": [
+        "毛不易"
+      ],
+      "album": "无名的人",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002mPgSG01LLtu.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002QhULf16tWw1",
+      "rank": 101,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 97,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "101",
+          "old_count": "97"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "8e1a853717e7382224df"
+    },
+    {
+      "sourceId": "0037sebg23jTFg",
+      "title": "舍得",
+      "artists": [
+        "王唯旖"
+      ],
+      "album": "舍得",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000015NN8K2RJVPv.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0037sebg23jTFg",
+      "rank": 102,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -12,
+        "previousRank": 90,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "102",
+          "old_count": "90"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "4022278d329f1e91cb96"
+    },
+    {
+      "sourceId": "001QJyJ32zybEe",
+      "title": "句号",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "album": "摩天动物园",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000049MVh824D7bM.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001QJyJ32zybEe",
+      "rank": 103,
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 103,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "103",
+          "old_count": "103"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "2bd005a9dd55b1758ec0"
+    },
+    {
+      "sourceId": "004K6Ne61a1VA8",
+      "title": "会呼吸的痛",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": "崇拜",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002oy2Mp3I8Rgo.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004K6Ne61a1VA8",
+      "rank": 104,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 105,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "104",
+          "old_count": "105"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "81772ee929ad511e95a5"
+    },
+    {
+      "sourceId": "003N2hzR4511Hh",
+      "title": "失控",
+      "artists": [
+        "井迪"
+      ],
+      "album": "失控",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000014Iqfp1PMAbs.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003N2hzR4511Hh",
+      "rank": 105,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -9,
+        "previousRank": 96,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "105",
+          "old_count": "96"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "25710d8dc86db1d0c482"
+    },
+    {
+      "sourceId": "002GnkGs2TknvY",
+      "title": "过渡期",
+      "artists": [
+        "小宇-宋念宇"
+      ],
+      "album": "再一次",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Uw5qE3Wjlo6.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002GnkGs2TknvY",
+      "rank": 106,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 98,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "106",
+          "old_count": "98"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "5a7810805d270051a534"
+    },
+    {
+      "sourceId": "000nNzj03CNUIT",
+      "title": "你要的全拿走",
+      "artists": [
+        "胡彦斌"
+      ],
+      "album": "覅忒好",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001eyHlv2fu50T.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000nNzj03CNUIT",
+      "rank": 107,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 109,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "107",
+          "old_count": "109"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "b50b5fd68acb5763eeb1"
+    },
+    {
+      "sourceId": "003upMMS1zgYzc",
+      "title": "我知道",
+      "artists": [
+        "BY2"
+      ],
+      "album": "Twins",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001P410a0Iq4K0.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003upMMS1zgYzc",
+      "rank": 108,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 104,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "108",
+          "old_count": "104"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "8d91a1ca37e5aa3f1351"
+    },
+    {
+      "sourceId": "0027oMO61wWi55",
+      "title": "发如雪",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "十一月的萧邦",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000024bjiL2aocxT.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0027oMO61wWi55",
+      "rank": 109,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 108,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "109",
+          "old_count": "108"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "5dd6817b1effe50d2027"
+    },
+    {
+      "sourceId": "000hwIui3xVub9",
+      "title": "下一个天亮",
+      "artists": [
+        "郭静"
+      ],
+      "album": "下一个天亮",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003PKZMI1Wyx1A.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000hwIui3xVub9",
+      "rank": 110,
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 110,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "110",
+          "old_count": "110"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "624064ca2d176aa7abf0"
+    },
+    {
+      "sourceId": "003zPqcA21yTZW",
+      "title": "FIRESTARTER",
+      "artists": [
+        "K/DA",
+        "英雄联盟",
+        "i-dle (아이들)",
+        "Mimi Webb"
+      ],
+      "album": "FIRESTARTER",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002jC1Kw0TVcxG.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003zPqcA21yTZW",
+      "rank": 111,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -34,
+        "previousRank": 77,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "111",
+          "old_count": "77"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "fd325288fdd53f1f353e"
+    },
+    {
+      "sourceId": "000GDzSZ0yAEB9",
+      "title": "IF YOU",
+      "artists": [
+        "BIGBANG (빅뱅)"
+      ],
+      "album": "MADE SERIES 《D》",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001xpUdt2jEjWu.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000GDzSZ0yAEB9",
+      "rank": 112,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 111,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "112",
+          "old_count": "111"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "2e7f68a872f0d1a6726e"
+    },
+    {
+      "sourceId": "002kADrZ01iC2L",
+      "title": "那些你很冒险的梦",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": "学不会",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002PQCmo2azasb.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002kADrZ01iC2L",
+      "rank": 113,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 118,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "113",
+          "old_count": "118"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "060f939691718f03835b"
+    },
+    {
+      "sourceId": "000Md1wq0vnwzE",
+      "title": "体面",
+      "artists": [
+        "于文文"
+      ],
+      "album": "体面",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001qYTzY2oyDyZ.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000Md1wq0vnwzE",
+      "rank": 114,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 107,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "114",
+          "old_count": "107"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "b4d7ea07fb5b82840d38"
+    },
+    {
+      "sourceId": "0029dqHX0nuawd",
+      "title": "淘汰",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": "认了吧",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003yQidc3s7P65.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0029dqHX0nuawd",
+      "rank": 115,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 116,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "115",
+          "old_count": "116"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "b7d70fa2b5a824eeae69"
+    },
+    {
+      "sourceId": "000HTbQv2OHqYi",
+      "title": "指纹",
+      "artists": [
+        "杜宣达"
+      ],
+      "album": "指纹",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004SjWnA1NcK5d.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000HTbQv2OHqYi",
+      "rank": 116,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 113,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "116",
+          "old_count": "113"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "7071aa5c81a14a34d98e"
+    },
+    {
+      "sourceId": "002mN1ff03mQO8",
+      "title": "爱，请问怎么走",
+      "artists": [
+        "A-Lin"
+      ],
+      "album": "爱，请问怎么走",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001TuWBG0TOW2P.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002mN1ff03mQO8",
+      "rank": 117,
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 117,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "117",
+          "old_count": "117"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "7ac1b79225d8bc657b80"
+    },
+    {
+      "sourceId": "001e2FJz3QXaf0",
+      "title": "街角的晚风",
+      "artists": [
+        "陈小春"
+      ],
+      "album": "街角的晚风",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000028jKt80PGmlB.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001e2FJz3QXaf0",
+      "rank": 118,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 30,
+        "previousRank": 148,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "118",
+          "old_count": "148"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "48349bd063b346adedc2"
+    },
+    {
+      "sourceId": "001Bbywq2gicae",
+      "title": "搁浅",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "七里香",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003DFRzD192KKD.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Bbywq2gicae",
+      "rank": 119,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 125,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "119",
+          "old_count": "125"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "f6f657a1b486aa9826b3"
+    },
+    {
+      "sourceId": "001xXUin4eaeA4",
+      "title": "老男孩",
+      "artists": [
+        "筷子兄弟"
+      ],
+      "album": "父亲",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000anHZA2CuwxK.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001xXUin4eaeA4",
+      "rank": 120,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 123,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "120",
+          "old_count": "123"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "fbc1f07c6eb663ee5083"
+    },
+    {
+      "sourceId": "003xv4w313tZHV",
+      "title": "红尘客栈",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "十二新作",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003Ow85E3pnoqi.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003xv4w313tZHV",
+      "rank": 121,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 10,
+        "previousRank": 131,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "121",
+          "old_count": "131"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "b399d1f14dbd73d2a91d"
+    },
+    {
+      "sourceId": "003mRf8u26lMMY",
+      "title": "恶作剧",
+      "artists": [
+        "王蓝茵"
+      ],
+      "album": "恶作剧之吻 电视剧原声带",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000031ftBk2foLzq.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003mRf8u26lMMY",
+      "rank": 122,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 127,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "122",
+          "old_count": "127"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "d51d818ebdd69c28a25f"
+    },
+    {
+      "sourceId": "001zMQr71F1Qo8",
+      "title": "夜曲",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "十一月的萧邦",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000024bjiL2aocxT.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001zMQr71F1Qo8",
+      "rank": 123,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 122,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "123",
+          "old_count": "122"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "9f7fea265f04bf1dd969"
+    },
+    {
+      "sourceId": "004XJHyS3QhnMs",
+      "title": "如果爱忘了 (Live)",
+      "artists": [
+        "汪苏泷",
+        "单依纯"
+      ],
+      "album": "声生不息·家年华 第12期",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001rd1S93gcWUF.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004XJHyS3QhnMs",
+      "rank": 124,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 119,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "124",
+          "old_count": "119"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "8745dfaca34d2b7533d1"
+    },
+    {
+      "sourceId": "002ev1QN1mwSYJ",
+      "title": "同花顺",
+      "artists": [
+        "林倛玉"
+      ],
+      "album": "12莲花 原著电影原声带 (Original Motion Picture Soundtrack)",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004789lA4cH3Kq.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002ev1QN1mwSYJ",
+      "rank": 125,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 120,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "125",
+          "old_count": "120"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "ff0fa78e256f6d64b637"
+    },
+    {
+      "sourceId": "002sFa2u0fZe0d",
+      "title": "不死鸟",
+      "artists": [
+        "霍尊"
+      ],
+      "album": "归一",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000lLXAK298Xui.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002sFa2u0fZe0d",
+      "rank": 126,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 11,
+        "previousRank": 137,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "126",
+          "old_count": "137"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "ef684a7c6f33860415b1"
+    },
+    {
+      "sourceId": "001IVHSw06Rmqf",
+      "title": "猜不透",
+      "artists": [
+        "丁当"
+      ],
+      "album": "我爱上的",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002gXa161vlDIk.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001IVHSw06Rmqf",
+      "rank": 127,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 11,
+        "previousRank": 138,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "127",
+          "old_count": "138"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "2f94e6cd49deb138f452"
+    },
+    {
+      "sourceId": "0005QhzT3McVui",
+      "title": "琵琶曲",
+      "artists": [
+        "郑浩",
+        "冰洁"
+      ],
+      "album": "琵琶曲",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002PmUzc12N5S7.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0005QhzT3McVui",
+      "rank": 128,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -13,
+        "previousRank": 115,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "128",
+          "old_count": "115"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "004941b719ad73c508f5"
+    },
+    {
+      "sourceId": "00128N3r2SYKMF",
+      "title": "兰亭序",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "魔杰座",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Neh8l0uciQZ.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/00128N3r2SYKMF",
+      "rank": 129,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 134,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "129",
+          "old_count": "134"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "1cedca71f4d8f7b581fd"
+    },
+    {
+      "sourceId": "0029eQ0Z1Cxptl",
+      "title": "一直很安静",
+      "artists": [
+        "阿桑"
+      ],
+      "album": "仙剑奇侠传 电视剧原声带",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002fNZDg1LHT3o.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0029eQ0Z1Cxptl",
+      "rank": 130,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -16,
+        "previousRank": 114,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "130",
+          "old_count": "114"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "6cdc662fb6e52ef604b3"
+    },
+    {
+      "sourceId": "004PLeSn23iQKZ",
+      "title": "等你的季节",
+      "artists": [
+        "刘诗诗"
+      ],
+      "album": "步步惊心 主题曲原声带EP",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000yHulX2v0QhZ.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004PLeSn23iQKZ",
+      "rank": 131,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -30,
+        "previousRank": 101,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "131",
+          "old_count": "101"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "558272d629e90c3e681f"
+    },
+    {
+      "sourceId": "004KaogL1rk4jT",
+      "title": "新·与天齐",
+      "artists": [
+        "指尖笑"
+      ],
+      "album": "与天齐",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002PwVL14fG66d.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004KaogL1rk4jT",
+      "rank": 132,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 18,
+        "previousRank": 150,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "132",
+          "old_count": "150"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "209589ee0ea9ed0a869e"
+    },
+    {
+      "sourceId": "003TfjUa27r7aJ",
+      "title": "风月吻眉梢",
+      "artists": [
+        "礼越"
+      ],
+      "album": "风月吻眉梢",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001NXQwE1ywPDV.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003TfjUa27r7aJ",
+      "rank": 133,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -21,
+        "previousRank": 112,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "133",
+          "old_count": "112"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "f44f8026d1dcf89ee4dd"
+    },
+    {
+      "sourceId": "000bDqin1gYB66",
+      "title": "我想念",
+      "artists": [
+        "汪苏泷"
+      ],
+      "album": "我想念",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001PSxRj3szxIV.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000bDqin1gYB66",
+      "rank": 134,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 18,
+        "previousRank": 152,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "134",
+          "old_count": "152"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "d7597b6f68779bd9ccce"
+    },
+    {
+      "sourceId": "0016znix01HNzO",
+      "title": "碎碎念",
+      "artists": [
+        "队长"
+      ],
+      "album": "碎碎念",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000DTFwk0oV4YR.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0016znix01HNzO",
+      "rank": 135,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 14,
+        "previousRank": 149,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "135",
+          "old_count": "149"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "d8b72587e9a80a4307de"
+    },
+    {
+      "sourceId": "000T1Ws32MWrUj",
+      "title": "平凡之路",
+      "artists": [
+        "朴树"
+      ],
+      "album": "猎户星座",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002aRnZM0garaC.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000T1Ws32MWrUj",
+      "rank": 136,
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 136,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "136",
+          "old_count": "136"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "fe692d2f0c29a541f554"
+    },
+    {
+      "sourceId": "0013aGOv4ZNeXI",
+      "title": "那时雨",
+      "artists": [
+        "徐良"
+      ],
+      "album": "那时雨",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002JsVIJ31j7qR.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0013aGOv4ZNeXI",
+      "rank": 137,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 135,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "137",
+          "old_count": "135"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "2ef7cfcce6b8cb6f8e03"
+    },
+    {
+      "sourceId": "000qXLmI47rb6L",
+      "title": "冻结",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": "乐行者",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002vlOfM1X5TQ0.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000qXLmI47rb6L",
+      "rank": 138,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 133,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "138",
+          "old_count": "133"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "364650bb42972e488825"
+    },
+    {
+      "sourceId": "001aAgOE1RvXKg",
+      "title": "几分之几",
+      "artists": [
+        "卢广仲"
+      ],
+      "album": "几分之几",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002lsrMk3W1ORB.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001aAgOE1RvXKg",
+      "rank": 139,
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "139",
+          "old_count": "0"
+        }
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "598de15e397efd86dad4"
+    },
+    {
+      "sourceId": "004Z8Ihr0JIu5s",
+      "title": "七里香",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "七里香",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003DFRzD192KKD.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004Z8Ihr0JIu5s",
+      "rank": 140,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 7,
+        "previousRank": 147,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "140",
+          "old_count": "147"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "05db1463ac4d3768c09b"
+    },
+    {
+      "sourceId": "001pHzdz29aG1Z",
+      "title": "雨天",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "My Story 2006 新歌+精选",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000VMnoi2Lgt44.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001pHzdz29aG1Z",
+      "rank": 141,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 144,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "141",
+          "old_count": "144"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "d6bdcaf1e131b821c244"
+    },
+    {
+      "sourceId": "000CbUE00I998M",
+      "title": "天黑黑",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "孙燕姿同名专辑",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002UZ9ob4Ecg0S.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000CbUE00I998M",
+      "rank": 142,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -14,
+        "previousRank": 128,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "142",
+          "old_count": "128"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "497492be54d23050e871"
+    },
+    {
+      "sourceId": "002qU5aY3Qu24y",
+      "title": "青花瓷",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "我很忙",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002eFUFm2XYZ7z.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002qU5aY3Qu24y",
+      "rank": 143,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 141,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "143",
+          "old_count": "141"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "e243a6b6f1ecd8ef4783"
+    },
+    {
+      "sourceId": "004aupsp1RFXAN",
+      "title": "童话",
+      "artists": [
+        "光良"
+      ],
+      "album": "童话",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002AaUF60cnS3w.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004aupsp1RFXAN",
+      "rank": 144,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -15,
+        "previousRank": 129,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "144",
+          "old_count": "129"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "47340fa3f9ddef45c397"
+    },
+    {
+      "sourceId": "004gZy7l1GYJ1Q",
+      "title": "后会无期",
+      "artists": [
+        "徐良",
+        "汪苏泷"
+      ],
+      "album": "不良少年",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002apRhZ4Bq99d.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004gZy7l1GYJ1Q",
+      "rank": 145,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 142,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "145",
+          "old_count": "142"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "c06d8f123ef429a1d538"
+    },
+    {
+      "sourceId": "00041h1u3kgquE",
+      "title": "天下",
+      "artists": [
+        "张杰"
+      ],
+      "album": "听！我们的歌",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000pVkCf3KsUQ9.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/00041h1u3kgquE",
+      "rank": 146,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 14,
+        "previousRank": 160,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "146",
+          "old_count": "160"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "61b3a2073424cb33c89f"
+    },
+    {
+      "sourceId": "003XT6Ef4H6X66",
+      "title": "在你的身边",
+      "artists": [
+        "盛哲"
+      ],
+      "album": "在你的身边",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004FKCj71O4Hhz.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003XT6Ef4H6X66",
+      "rank": 147,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -17,
+        "previousRank": 130,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "147",
+          "old_count": "130"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "a3264c997d4c42811ec1"
+    },
+    {
+      "sourceId": "000rbvem3t8eDE",
+      "title": "一个人想着一个人",
+      "artists": [
+        "曾沛慈"
+      ],
+      "album": "终极一班2 电视剧原声带",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003wP0m32WRVql.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000rbvem3t8eDE",
+      "rank": 148,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 11,
+        "previousRank": 159,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "148",
+          "old_count": "159"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "2f1ade9facb5d40fe651"
+    },
+    {
+      "sourceId": "001NmPTG1fVsUw",
+      "title": "夜空中最亮的星",
+      "artists": [
+        "逃跑计划"
+      ],
+      "album": "世界",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000wr4zc1gls3e.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001NmPTG1fVsUw",
+      "rank": 149,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 145,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "149",
+          "old_count": "145"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "f57644e86ae49fec76e4"
+    },
+    {
+      "sourceId": "002FRBul05dgjC",
+      "title": "模特",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "模特",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004AhJHV3slLjN.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002FRBul05dgjC",
+      "rank": 150,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 143,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "150",
+          "old_count": "143"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "e4fc94d1be8bbaa56200"
+    },
+    {
+      "sourceId": "001hs89m3C5p3g",
+      "title": "小半",
+      "artists": [
+        "陈粒"
+      ],
+      "album": "小梦大半",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004fAhFe0fdHYF.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001hs89m3C5p3g",
+      "rank": 151,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 14,
+        "previousRank": 165,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "151",
+          "old_count": "165"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "6f164a403f38b8991823"
+    },
+    {
+      "sourceId": "003aAYrm3GE0Ac",
+      "title": "稻香",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "魔杰座",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Neh8l0uciQZ.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003aAYrm3GE0Ac",
+      "rank": 152,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 9,
+        "previousRank": 161,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "152",
+          "old_count": "161"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "8579ba448da26dc38aac"
+    },
+    {
+      "sourceId": "001fTFGe0LqzdT",
+      "title": "无人之岛",
+      "artists": [
+        "任然"
+      ],
+      "album": "没有发生的爱情",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002lMPc30c4rOO.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001fTFGe0LqzdT",
+      "rank": 153,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 13,
+        "previousRank": 166,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "153",
+          "old_count": "166"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "be3ffa0ce67425d335ce"
+    },
+    {
+      "sourceId": "0042xeq137FRKW",
+      "title": "感谢你曾来过",
+      "artists": [
+        "Ayo97",
+        "周思涵"
+      ],
+      "album": "卧龙与酒",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000a933P3Ipjln.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0042xeq137FRKW",
+      "rank": 154,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -30,
+        "previousRank": 124,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "154",
+          "old_count": "124"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "f16f89486c11bb10f0a9"
+    },
+    {
+      "sourceId": "004DXFlC0nsTCZ",
+      "title": "年少有为",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "耳朵",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004QnEHc3zjC7J.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004DXFlC0nsTCZ",
+      "rank": 155,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -16,
+        "previousRank": 139,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "155",
+          "old_count": "139"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "12a16ae2bf9d7e1fc869"
+    },
+    {
+      "sourceId": "004Eiwhc3TSX8E",
+      "title": "明天过后",
+      "artists": [
+        "张杰"
+      ],
+      "album": "听！我们的歌",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000pVkCf3KsUQ9.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004Eiwhc3TSX8E",
+      "rank": 156,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 153,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "156",
+          "old_count": "153"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "f3a196bb99baebf1dd90"
+    },
+    {
+      "sourceId": "001VHwGU4JxReN",
+      "title": "遗失的心跳",
+      "artists": [
+        "萧亚轩"
+      ],
+      "album": "萧亚轩 (我爱我) 心跳100 (影音庆功版)",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000BR3b52Rd506.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001VHwGU4JxReN",
+      "rank": 157,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 156,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "157",
+          "old_count": "156"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "4f9f361eaa5f3ff8e00b"
+    },
+    {
+      "sourceId": "003KtYhg4frNXC",
+      "title": "枫",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "十一月的萧邦",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000024bjiL2aocxT.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003KtYhg4frNXC",
+      "rank": 158,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 162,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "158",
+          "old_count": "162"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "6e468d40aa9e2af201df"
+    },
+    {
+      "sourceId": "002G0sJY2wThyx",
+      "title": "喜欢你",
+      "artists": [
+        "G.E.M.邓紫棋"
+      ],
+      "album": "喜欢你",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000cFPKx3ZGzks.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002G0sJY2wThyx",
+      "rank": 159,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -13,
+        "previousRank": 146,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "159",
+          "old_count": "146"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "8666c6402f8735c5c596"
+    },
+    {
+      "sourceId": "004GK4aP4TGbbG",
+      "title": "Love Story",
+      "artists": [
+        "Taylor Swift"
+      ],
+      "album": "Fearless (Platinum Edition)",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Q1XUj3HBAzw.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004GK4aP4TGbbG",
+      "rank": 160,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 154,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "160",
+          "old_count": "154"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "5dfeddc87a2772843c43"
+    },
+    {
+      "sourceId": "001z3G5r2M3KZj",
+      "title": "太聪明",
+      "artists": [
+        "陈绮贞"
+      ],
+      "album": "Groupies 吉他手",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000zebjW3TlPWh.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001z3G5r2M3KZj",
+      "rank": 161,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 17,
+        "previousRank": 178,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "161",
+          "old_count": "178"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "66763f0406bfd0290606"
+    },
+    {
+      "sourceId": "000uTF4U00xS1z",
+      "title": "有些",
+      "artists": [
+        "颜人中"
+      ],
+      "album": "失眠症候群",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002eL6lK2JEV1D.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000uTF4U00xS1z",
+      "rank": 162,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 155,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "162",
+          "old_count": "155"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "ddb55b82c9465970323a"
+    },
+    {
+      "sourceId": "002ZGist4UyZoU",
+      "title": "Beauty And A Beat",
+      "artists": [
+        "Justin Bieber",
+        "Nicki Minaj"
+      ],
+      "album": "Believe (Deluxe Edition)",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002XddZv4cGsXb.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002ZGist4UyZoU",
+      "rank": 163,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 9,
+        "previousRank": 172,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "163",
+          "old_count": "172"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "70dd966cdd63e3d26e31"
+    },
+    {
+      "sourceId": "001kbGUi3hwzq5",
+      "title": "左转灯 (1000 Times +1)",
+      "artists": [
+        "派伟俊",
+        "mac ova seas"
+      ],
+      "album": "左转灯 (1000 Times +1)",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000n0i2n1DRGK9.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001kbGUi3hwzq5",
+      "rank": 164,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 21,
+        "previousRank": 185,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "164",
+          "old_count": "185"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "ffe139a059be1c56d4bf"
+    },
+    {
+      "sourceId": "004N3sjT22yYiQ",
+      "title": "冷夜",
+      "artists": [
+        "陈默之"
+      ],
+      "album": "冷夜",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003ILMG04IvA9R.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004N3sjT22yYiQ",
+      "rank": 165,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -25,
+        "previousRank": 140,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "165",
+          "old_count": "140"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "3bcecde49ab93b3052cc"
+    },
+    {
+      "sourceId": "004dMQZu0DPfjO",
+      "title": "野心家",
+      "artists": [
+        "张靓颖"
+      ],
+      "album": "灼灼韶华 影视原声带",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003TmXW52e0F4P.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004dMQZu0DPfjO",
+      "rank": 166,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 171,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "166",
+          "old_count": "171"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "8b2a7f8836c65463914a"
+    },
+    {
+      "sourceId": "0026G2Lq3Cl7ig",
+      "title": "不潮不用花钱",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": "JJ陆",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002g6zv02X7SNi.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0026G2Lq3Cl7ig",
+      "rank": 167,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 173,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "167",
+          "old_count": "173"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "b0e8aa038a5e500eab04"
+    },
+    {
+      "sourceId": "004IM0wx49gYJq",
+      "title": "倒带",
+      "artists": [
+        "蔡依林"
+      ],
+      "album": "城堡",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000022ANm11dQfRY.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004IM0wx49gYJq",
+      "rank": 168,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 167,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "168",
+          "old_count": "167"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "e4726ab654bef61af66d"
+    },
+    {
+      "sourceId": "003CMXGI2yRUDo",
+      "title": "玫瑰花的葬礼",
+      "artists": [
+        "许嵩"
+      ],
+      "album": "许嵩早期单曲集",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001jmC6x1RMfh0.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003CMXGI2yRUDo",
+      "rank": 169,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 175,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "169",
+          "old_count": "175"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "eaaa883408630061dea9"
+    },
+    {
+      "sourceId": "003elgGQ3c1uQN",
+      "title": "天若有情",
+      "artists": [
+        "A-Lin"
+      ],
+      "album": "天若有情",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003lH16N2uNuxx.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003elgGQ3c1uQN",
+      "rank": 170,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 164,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "170",
+          "old_count": "164"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "287e839eb548f03e695b"
+    },
+    {
+      "sourceId": "003cI52o4daJJL",
+      "title": "花海",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": "魔杰座",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Neh8l0uciQZ.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003cI52o4daJJL",
+      "rank": 171,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 10,
+        "previousRank": 181,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "171",
+          "old_count": "181"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "d311660b0f27ef3fed43"
+    },
+    {
+      "sourceId": "003ecXAE1LUOsT",
+      "title": "无情画",
+      "artists": [
+        "王唯旖"
+      ],
+      "album": "无情画",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000036fYXJ0tcx1e.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003ecXAE1LUOsT",
+      "rank": 172,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -21,
+        "previousRank": 151,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "172",
+          "old_count": "151"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "69629fe3cfbb3e31b445"
+    },
+    {
+      "sourceId": "001zgoLn3UZwoX",
+      "title": "小幸运",
+      "artists": [
+        "田馥甄"
+      ],
+      "album": "我的少女时代 电影原声带",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000040aH1l3ykBRh.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001zgoLn3UZwoX",
+      "rank": 173,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 177,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "173",
+          "old_count": "177"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "56b4aac1bda78582192b"
+    },
+    {
+      "sourceId": "000a2bMl33mXkU",
+      "title": "悬溺",
+      "artists": [
+        "葛东琪"
+      ],
+      "album": "第二街区",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002ZAHJs3IIZN7.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000a2bMl33mXkU",
+      "rank": 174,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 179,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "174",
+          "old_count": "179"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "e013bdb76664a41b1947"
+    },
+    {
+      "sourceId": "0011nEwm2XPayS",
+      "title": "红豆",
+      "artists": [
+        "王菲"
+      ],
+      "album": "唱游",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001gn7g54ZEIKb.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0011nEwm2XPayS",
+      "rank": 175,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 169,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "175",
+          "old_count": "169"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "3cc191ffb3899152f802"
+    },
+    {
+      "sourceId": "003v4UL61IYlTY",
+      "title": "暧昧",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": "渡 The Crossing",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001L7UIu3GXVtT.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003v4UL61IYlTY",
+      "rank": 176,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -13,
+        "previousRank": 163,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "176",
+          "old_count": "163"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "bcf704834042aff11783"
+    },
+    {
+      "sourceId": "000sU9jC3bN2dY",
+      "title": "老街",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "小黄",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001LP8hk0a6pOp.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000sU9jC3bN2dY",
+      "rank": 177,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -19,
+        "previousRank": 158,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "177",
+          "old_count": "158"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "be8a5db0677abfd3bd94"
+    },
+    {
+      "sourceId": "004FITZG2U6rAF",
+      "title": "普通朋友",
+      "artists": [
+        "陶喆"
+      ],
+      "album": "I'm OK",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002PjDkE14OUkV.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004FITZG2U6rAF",
+      "rank": 178,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 10,
+        "previousRank": 188,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "178",
+          "old_count": "188"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "2b9f8e15d7d8cd30579c"
+    },
+    {
+      "sourceId": "000aKw3L1eVeys",
+      "title": "我们的明天",
+      "artists": [
+        "鹿晗"
+      ],
+      "album": "重返20岁 电影原声带",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000YgAKk1pRwSr.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000aKw3L1eVeys",
+      "rank": 179,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 176,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "179",
+          "old_count": "176"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "3d417fe76a38d7ae09d1"
+    },
+    {
+      "sourceId": "0033qH7G0B1UER",
+      "title": "Baby",
+      "artists": [
+        "Justin Bieber",
+        "Ludacris"
+      ],
+      "album": "Baby",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002TfnxG2yN1na.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0033qH7G0B1UER",
+      "rank": 180,
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "180",
+          "old_count": "0"
+        }
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "a0be831ffae4e5caf1a2"
+    },
+    {
+      "sourceId": "000W95Fk3lAVxV",
+      "title": "说谎",
+      "artists": [
+        "林宥嘉"
+      ],
+      "album": "感官/世界",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004YodY33zsWTT.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000W95Fk3lAVxV",
+      "rank": 181,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 170,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "181",
+          "old_count": "170"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "29fd1faada25a4800ddd"
+    },
+    {
+      "sourceId": "000aEPJX2vEBJ7",
+      "title": "Tarantino",
+      "artists": [
+        "LISA (리사)"
+      ],
+      "album": "PRESS PLAY (Explicit)",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003naNgb1PTIYW.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000aEPJX2vEBJ7",
+      "rank": 182,
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "182",
+          "old_count": "0"
+        }
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "812b1c1a172e5a7833d6"
+    },
+    {
+      "sourceId": "001Yyla31Dr60y",
+      "title": "给我一个理由忘记",
+      "artists": [
+        "A-Lin"
+      ],
+      "album": "寂寞不痛",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000Nlo922ahOEE.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Yyla31Dr60y",
+      "rank": 183,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -51,
+        "previousRank": 132,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "183",
+          "old_count": "132"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "2c2fe5a5101b8f12a6e0"
+    },
+    {
+      "sourceId": "004dADLe4ec8RG",
+      "title": "意外",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": "意外",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000QgFcm0v8WaF.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004dADLe4ec8RG",
+      "rank": 184,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 182,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "184",
+          "old_count": "182"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "76b8965b285f00214607"
+    },
+    {
+      "sourceId": "001hwLQi3sUBnL",
+      "title": "九张机",
+      "artists": [
+        "叶炫清"
+      ],
+      "album": "九张机",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003lBCl74Fspmo.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001hwLQi3sUBnL",
+      "rank": 185,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 186,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "185",
+          "old_count": "186"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "b7105b91ee805e68bdd2"
+    },
+    {
+      "sourceId": "003Gg0kg2QfhvO",
+      "title": "带我走",
+      "artists": [
+        "杨丞琳"
+      ],
+      "album": "半熟宣言",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000ftQTW2WwRhv.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/003Gg0kg2QfhvO",
+      "rank": 186,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 187,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "186",
+          "old_count": "187"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "df980b820dedd19773b3"
+    },
+    {
+      "sourceId": "0029Zemv0kR1ur",
+      "title": "葡萄成熟时",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": "U 87",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003J6fvc0bVJon.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0029Zemv0kR1ur",
+      "rank": 187,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 190,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "187",
+          "old_count": "190"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "b4c9cf11053b320b9e7a"
+    },
+    {
+      "sourceId": "004CU50m2JjBjr",
+      "title": "单车",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": "Shall We Dance? Shall We Talk!",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004S8YQr3UmEbG.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004CU50m2JjBjr",
+      "rank": 188,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 192,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "188",
+          "old_count": "192"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "0efd837aea248e89451a"
+    },
+    {
+      "sourceId": "000XJvlv11ltfF",
+      "title": "你瞒我瞒",
+      "artists": [
+        "陈柏宇"
+      ],
+      "album": "Close Up",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001dQbq01b2bra.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/000XJvlv11ltfF",
+      "rank": 189,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -9,
+        "previousRank": 180,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "189",
+          "old_count": "180"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "47bf4c2c7ae9e93d320d"
+    },
+    {
+      "sourceId": "001TXSYu1Gwuwv",
+      "title": "刚刚好",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": "初学者",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000dcZ9I1nzO62.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001TXSYu1Gwuwv",
+      "rank": 190,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 183,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "190",
+          "old_count": "183"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "e89978db67a996f61a13"
+    },
+    {
+      "sourceId": "002CtuAm1i0pI3",
+      "title": "他不懂",
+      "artists": [
+        "张杰"
+      ],
+      "album": "听！我们的歌",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000pVkCf3KsUQ9.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/002CtuAm1i0pI3",
+      "rank": 191,
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 191,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "191",
+          "old_count": "191"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "32df557d3285d29dec70"
+    },
+    {
+      "sourceId": "004MvQot3V0O8P",
+      "title": "戒烟",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "戒烟",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003EenCA2q0MWF.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004MvQot3V0O8P",
+      "rank": 192,
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "192",
+          "old_count": "0"
+        }
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "bba9c5a8e8f6712876b1"
+    },
+    {
+      "sourceId": "001Cnurq0Oe2cM",
+      "title": "一程山路",
+      "artists": [
+        "毛不易"
+      ],
+      "album": "小王",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001OFJ154OfZuW.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Cnurq0Oe2cM",
+      "rank": 193,
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "193",
+          "old_count": "0"
+        }
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "7cc93abc6296401c988f"
+    },
+    {
+      "sourceId": "004X4tBC4ez4FP",
+      "title": "Whatever Happens",
+      "artists": [
+        "Michael Jackson",
+        "Carlos Santana"
+      ],
+      "album": "Invincible",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003fmcI10dzkHT.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004X4tBC4ez4FP",
+      "rank": 194,
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "194",
+          "old_count": "0"
+        }
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "92ba99b1946c4959f05d"
+    },
+    {
+      "sourceId": "004O1DHG4MjYOi",
+      "title": "大城小爱",
+      "artists": [
+        "王力宏"
+      ],
+      "album": "盖世英雄",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001a0Dts37jw2M.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004O1DHG4MjYOi",
+      "rank": 195,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 194,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "195",
+          "old_count": "194"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "2daffdc9968a6962c754"
+    },
+    {
+      "sourceId": "004W7UED0x3pqD",
+      "title": "就是爱你",
+      "artists": [
+        "陶喆"
+      ],
+      "album": "太平盛世",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003ofGzS3C23Ow.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004W7UED0x3pqD",
+      "rank": 196,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 199,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "196",
+          "old_count": "199"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "123fc649dd686d62771d"
+    },
+    {
+      "sourceId": "004Fje0Q19EyEv",
+      "title": "TAKE ME",
+      "artists": [
+        "G-DRAGON (权志龙)"
+      ],
+      "album": "Übermensch",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001kVKT30DtaCA.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/004Fje0Q19EyEv",
+      "rank": 197,
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 197,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "197",
+          "old_count": "197"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "d1f031b72dc71f6acb86"
+    },
+    {
+      "sourceId": "001zX06o4BBaJf",
+      "title": "慢冷",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": "我好吗？－太阳如常升起",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000iGQ4Z2jQXI2.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001zX06o4BBaJf",
+      "rank": 198,
+      "sourceMovement": {
+        "direction": "unknown",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "198",
+          "old_count": "0"
+        }
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "1eefe964b2e771570839"
+    },
+    {
+      "sourceId": "0044Qzv02BfUt3",
+      "title": "落了白",
+      "artists": [
+        "蒋雪儿Snow.J"
+      ],
+      "album": "落了白",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001vZDq92ImKof.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/0044Qzv02BfUt3",
+      "rank": 199,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 196,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "199",
+          "old_count": "196"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "8842a74f0a47fa841930"
+    },
+    {
+      "sourceId": "001bdYk41BCfRi",
+      "title": "有点甜",
+      "artists": [
+        "汪苏泷",
+        "BY2"
+      ],
+      "album": "万有引力",
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001HUiKw0QsiUb.jpg",
+      "url": "https://y.qq.com/n/ryqq/songDetail/001bdYk41BCfRi",
+      "rank": 200,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 193,
+        "period": "previous-edition",
+        "raw": {
+          "cur_count": "200",
+          "old_count": "193"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "none",
+        "items": []
+      },
+      "songId": "cb0dd9ebc699b5a4c2c1"
     }
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-24T08:30:46.157Z",
+  "attemptedAt": "2026-10-24T08:56:37.066Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
   "weight": 0.25,
-  "count": 100,
-  "scoringCount": 50,
+  "count": 200,
+  "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T08:30:46.157Z"
+  "generatedAt": "2026-10-24T08:56:37.066Z"
 }

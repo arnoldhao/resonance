@@ -2,11 +2,25 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T08:30:46.157Z",
+  "generatedAt": "2026-10-24T08:56:37.066Z",
   "methodology": {
-    "version": "1.3",
-    "formula": "S = 100 × Σ wₚ × [0.9 × exp(−(rₚ − 1) / 25) + 0.1]，仅前 50 名计分，其余为 0",
-    "rankDepth": 50,
+    "version": "1.4",
+    "formula": "S = 100 × Σ wₚ × P(rₚ)；r≤50 时 P(r)=0.9×exp(−(r−1)/25)+0.1，r>50 时 P(r)=P(50)×exp(−(r−50)/50)；QQ/网易云/酷狗/酷我前200、Apple前100、汽水前50计分，仅展示前100名",
+    "rankDepth": null,
+    "rankPolicy": "platform-top-n",
+    "platformRankDepths": {
+      "qq": 200,
+      "netease": 200,
+      "kugou": 200,
+      "kuwo": 200,
+      "apple": 100,
+      "qishui": 50
+    },
+    "displayDepth": 100,
+    "tail": {
+      "startRank": 50,
+      "decayScale": 50
+    },
     "groupWeights": {
       "tme": 0.5,
       "netease": 0.3,
