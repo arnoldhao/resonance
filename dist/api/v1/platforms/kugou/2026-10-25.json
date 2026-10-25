@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-25T02:10:22.866Z",
+  "fetchedAt": "2026-10-25T06:06:51.991Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-25 08:30:00",
   "entries": [
@@ -7225,21 +7225,15 @@
         "origin": "official"
       },
       "mv": {
-        "status": "linked",
-        "items": [
-          {
-            "id": "17984270",
-            "hash": "82826B27086CB3A1E31B294AD4C1E2A6",
-            "url": null
-          }
-        ]
+        "status": "unknown",
+        "items": []
       },
       "songId": "e9faed218da830f6fb5f"
     }
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-25T02:10:22.866Z",
+  "attemptedAt": "2026-10-25T06:06:51.991Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7249,5 +7243,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T02:10:22.866Z"
+  "generatedAt": "2026-10-25T06:06:51.991Z"
 }
