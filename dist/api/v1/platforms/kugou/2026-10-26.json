@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-26T06:11:56.675Z",
+  "fetchedAt": "2026-10-26T14:15:14.227Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-26 08:30:01",
   "entries": [
@@ -3480,8 +3480,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "457626",
-            "hash": "AA107481493E8296F31CA717CE63372E",
+            "id": "15925447",
+            "hash": "D73C936701DF3D32B7DD089C5E623CCC",
             "url": null
           }
         ]
@@ -7283,7 +7283,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-26T06:11:56.675Z",
+  "attemptedAt": "2026-10-26T14:15:14.227Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7293,5 +7293,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T06:11:56.675Z"
+  "generatedAt": "2026-10-26T14:15:14.227Z"
 }
