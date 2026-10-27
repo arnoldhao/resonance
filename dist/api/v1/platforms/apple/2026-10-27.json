@@ -12,8 +12,8 @@
   "access": "官方 RSS · 中国区热门歌曲",
   "providerId": "apple",
   "declaredCount": 100,
-  "fetchedAt": "2026-10-27T06:15:43.097Z",
-  "sourceUpdatedAt": "2026-10-27T06:16:19.000Z",
+  "fetchedAt": "2026-10-27T13:11:46.784Z",
+  "sourceUpdatedAt": "2026-10-27T13:11:49.000Z",
   "sourcePeriod": null,
   "entries": [
     {
@@ -34,7 +34,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -63,7 +63,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -92,7 +92,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -121,7 +121,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -150,7 +150,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -179,7 +179,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -208,7 +208,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -237,7 +237,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -249,35 +249,6 @@
       "songId": "161752bf9ddec26f6c9c"
     },
     {
-      "sourceId": "587743637",
-      "title": "明明就",
-      "artists": [
-        "周杰伦"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/83/e6/8183e6c0-7137-7009-347e-326b53cb4a3b/2000x2000pix.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E6%98%8E%E6%98%8E%E5%B0%B1/587743633?i=587743637",
-      "rank": 9,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 8,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "7a179099de5646dd93a9"
-    },
-    {
       "sourceId": "6820431731",
       "title": "SUPERSTAR",
       "artists": [
@@ -286,16 +257,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/55/19/915519e2-38ea-5202-5c9d-377fe8494ded/888272190397_Cover.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/superstar/6820431727?i=6820431731",
-      "rank": 10,
+      "rank": 9,
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
+        "delta": 5,
         "previousRank": 14,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -305,6 +276,35 @@
         "items": []
       },
       "songId": "d5d9bee11743d03df2cb"
+    },
+    {
+      "sourceId": "587743637",
+      "title": "明明就",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/83/e6/8183e6c0-7137-7009-347e-326b53cb4a3b/2000x2000pix.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E6%98%8E%E6%98%8E%E5%B0%B1/587743633?i=587743637",
+      "rank": 10,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 8,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "7a179099de5646dd93a9"
     },
     {
       "sourceId": "1624001317",
@@ -324,7 +324,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -353,7 +353,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -382,7 +382,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -411,7 +411,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -440,7 +440,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -469,7 +469,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -498,7 +498,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -527,7 +527,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -556,7 +556,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -585,7 +585,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -614,7 +614,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -643,7 +643,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -655,35 +655,6 @@
       "songId": "5a8888e9ca0323a7d699"
     },
     {
-      "sourceId": "536162079",
-      "title": "半岛铁盒",
-      "artists": [
-        "周杰伦"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/100x113bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E5%8D%8A%E5%B2%9B%E9%93%81%E7%9B%92/536161722?i=536162079",
-      "rank": 23,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -3,
-        "previousRank": 20,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "d0fcaedec624b497406f"
-    },
-    {
       "sourceId": "536009644",
       "title": "发如雪",
       "artists": [
@@ -692,16 +663,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%8F%91%E5%A6%82%E9%9B%AA/536009641?i=536009644",
-      "rank": 24,
+      "rank": 23,
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 24,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -713,24 +684,24 @@
       "songId": "5dd6817b1effe50d2027"
     },
     {
-      "sourceId": "536009642",
-      "title": "夜曲",
+      "sourceId": "536162079",
+      "title": "半岛铁盒",
       "artists": [
         "周杰伦"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E5%A4%9C%E6%9B%B2/536009641?i=536009642",
-      "rank": 25,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/100x113bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E5%8D%8A%E5%B2%9B%E9%93%81%E7%9B%92/536161722?i=536162079",
+      "rank": 24,
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
-        "previousRank": 25,
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 20,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -739,7 +710,7 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "9f7fea265f04bf1dd969"
+      "songId": "d0fcaedec624b497406f"
     },
     {
       "sourceId": "1615102901",
@@ -750,16 +721,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/e7/44/7de744cb-490f-9f29-3fc7-4afdd5253f49/20UMGIM21167.rgb.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/after-hours/1615102584?i=1615102901",
-      "rank": 26,
+      "rank": 25,
       "sourceMovement": {
         "direction": "up",
-        "delta": 16,
+        "delta": 17,
         "previousRank": 42,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -769,6 +740,35 @@
         "items": []
       },
       "songId": "e3288b3c020d8252d6df"
+    },
+    {
+      "sourceId": "536009642",
+      "title": "夜曲",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/35/ad/9e35ad1e-749e-75b6-0539-1e80cea1817b/JAY11.jpg/100x109bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E5%A4%9C%E6%9B%B2/536009641?i=536009642",
+      "rank": 26,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 25,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9f7fea265f04bf1dd969"
     },
     {
       "sourceId": "6807192825",
@@ -788,7 +788,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -800,35 +800,6 @@
       "songId": "13a69ec4368d187d8fba"
     },
     {
-      "sourceId": "347295290",
-      "title": "雨爱",
-      "artists": [
-        "杨丞琳"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/bc/e0/e5/mzi.mzfgcpgj.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E9%9B%A8%E7%88%B1/347295255?i=347295290",
-      "rank": 28,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 26,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "61c8815b55293dd4a3cd"
-    },
-    {
       "sourceId": "6771326799",
       "title": "那天下雨了",
       "artists": [
@@ -837,16 +808,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/56/90/ce5690ac-67d8-49e7-b047-a01afacfd1d2/4000x4000_fa.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E9%82%A3%E5%A4%A9%E4%B8%8B%E9%9B%A8%E4%BA%86/6771326786?i=6771326799",
-      "rank": 29,
+      "rank": 28,
       "sourceMovement": {
         "direction": "up",
-        "delta": 5,
+        "delta": 6,
         "previousRank": 34,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -856,6 +827,35 @@
         "items": []
       },
       "songId": "671d08976b56470bbd3e"
+    },
+    {
+      "sourceId": "347295290",
+      "title": "雨爱",
+      "artists": [
+        "杨丞琳"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/bc/e0/e5/mzi.mzfgcpgj.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E9%9B%A8%E7%88%B1/347295255?i=347295290",
+      "rank": 29,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 26,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "61c8815b55293dd4a3cd"
     },
     {
       "sourceId": "1480230401",
@@ -875,7 +875,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -904,7 +904,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -916,35 +916,6 @@
       "songId": "6995accbf8affee8f247"
     },
     {
-      "sourceId": "1118757877",
-      "title": "告白气球",
-      "artists": [
-        "周杰伦"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/58/28/f4/5828f491-62ab-61b6-25b4-23838e4f1dcf/dj.sxbqzong.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E5%91%8A%E7%99%BD%E6%B0%94%E7%90%83/1118757859?i=1118757877",
-      "rank": 32,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 30,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "f3de5361714d7b05d57f"
-    },
-    {
       "sourceId": "536248196",
       "title": "烟花易冷",
       "artists": [
@@ -953,16 +924,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/2d/dd/532dddf0-87d7-b9eb-7d8b-4eb194c84252/asset.jpg/100x133bb.jpg",
       "url": "https://music.apple.com/cn/album/%E7%83%9F%E8%8A%B1%E6%98%93%E5%86%B7/536247746?i=536248196",
-      "rank": 33,
+      "rank": 32,
       "sourceMovement": {
         "direction": "down",
-        "delta": -2,
+        "delta": -1,
         "previousRank": 31,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -974,35 +945,6 @@
       "songId": "e52a3f950251fb45a8c7"
     },
     {
-      "sourceId": "1053567928",
-      "title": "多远都要在一起",
-      "artists": [
-        "邓紫棋"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/bb/c7/55bbc782-299e-7f24-bc4a-ae129e6d8030/mzm.rpqttxch.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E5%A4%9A%E8%BF%9C%E9%83%BD%E8%A6%81%E5%9C%A8%E4%B8%80%E8%B5%B7/1053567923?i=1053567928",
-      "rank": 34,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 32,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "42e486853e2871a39a53"
-    },
-    {
       "sourceId": "541857030",
       "title": "遇见",
       "artists": [
@@ -1011,16 +953,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8a/91/d7/8a91d731-cdb1-01b5-17a9-c88cf66d6e01/5050466855725.jpg/100x90bb.jpg",
       "url": "https://music.apple.com/cn/album/%E9%81%87%E8%A7%81/541856819?i=541857030",
-      "rank": 35,
+      "rank": 33,
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
+        "direction": "same",
+        "delta": 0,
         "previousRank": 33,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1040,16 +982,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3d/32/7f/3d327fc3-271d-e4a1-a956-52fdb93c2d62/24UMGIM13979.rgb.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/one-of-the-girls/1729918970?i=1729919822",
-      "rank": 36,
+      "rank": 34,
       "sourceMovement": {
         "direction": "up",
-        "delta": 8,
+        "delta": 10,
         "previousRank": 44,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1059,6 +1001,64 @@
         "items": []
       },
       "songId": "d17089747bc602016c2f"
+    },
+    {
+      "sourceId": "1118757877",
+      "title": "告白气球",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/58/28/f4/5828f491-62ab-61b6-25b4-23838e4f1dcf/dj.sxbqzong.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E5%91%8A%E7%99%BD%E6%B0%94%E7%90%83/1118757859?i=1118757877",
+      "rank": 35,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 30,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "f3de5361714d7b05d57f"
+    },
+    {
+      "sourceId": "1053567928",
+      "title": "多远都要在一起",
+      "artists": [
+        "邓紫棋"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/bb/c7/55bbc782-299e-7f24-bc4a-ae129e6d8030/mzm.rpqttxch.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E5%A4%9A%E8%BF%9C%E9%83%BD%E8%A6%81%E5%9C%A8%E4%B8%80%E8%B5%B7/1053567923?i=1053567928",
+      "rank": 36,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 32,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "42e486853e2871a39a53"
     },
     {
       "sourceId": "536009647",
@@ -1078,7 +1078,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1107,7 +1107,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1136,7 +1136,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1165,7 +1165,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1177,6 +1177,35 @@
       "songId": "44a84462f6a0527b7c01"
     },
     {
+      "sourceId": "1528146380",
+      "title": "你不知道的事",
+      "artists": [
+        "王力宏"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3e/94/01/3e94013b-17f0-09e9-69ce-4ab94e1507da/18_Material_arts.png/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B/1528146376?i=1528146380",
+      "rank": 41,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 40,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "7acf20182fd5b5f724ea"
+    },
+    {
       "sourceId": "542922095",
       "title": "十年",
       "artists": [
@@ -1185,16 +1214,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/e6/66/56e6661d-e570-782f-fbc8-e7b12e38f1a7/EEG3035V1-_-.jpg/100x114bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%8D%81%E5%B9%B4/542922079?i=542922095",
-      "rank": 41,
+      "rank": 42,
       "sourceMovement": {
         "direction": "down",
-        "delta": -2,
+        "delta": -3,
         "previousRank": 39,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1214,16 +1243,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/e6/a5/b6e6a5ec-a86c-aece-ca1f-ee5ca56b3caf/196874568842.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E7%94%B2%E4%B9%99%E4%B8%99%E4%B8%81strangers/6785801843?i=6785801848",
-      "rank": 42,
+      "rank": 43,
       "sourceMovement": {
-        "direction": "up",
-        "delta": 1,
+        "direction": "same",
+        "delta": 0,
         "previousRank": 43,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1233,35 +1262,6 @@
         "items": []
       },
       "songId": "c73f0f22bc9d13e5583d"
-    },
-    {
-      "sourceId": "1528146380",
-      "title": "你不知道的事",
-      "artists": [
-        "王力宏"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3e/94/01/3e94013b-17f0-09e9-69ce-4ab94e1507da/18_Material_arts.png/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B/1528146376?i=1528146380",
-      "rank": 43,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -3,
-        "previousRank": 40,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "7acf20182fd5b5f724ea"
     },
     {
       "sourceId": "1443783507",
@@ -1281,7 +1281,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1310,7 +1310,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1322,35 +1322,6 @@
       "songId": "0cef6fb462d16168cb69"
     },
     {
-      "sourceId": "6822497774",
-      "title": "Housewife",
-      "artists": [
-        "Tate McRae"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/housewife/6822497770?i=6822497774",
-      "rank": 46,
-      "sourceMovement": {
-        "direction": "up",
-        "delta": 11,
-        "previousRank": 57,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "d38ee53b324da8399a9c"
-    },
-    {
       "sourceId": "6807315057",
       "title": "Moonride",
       "artists": [
@@ -1359,16 +1330,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/81/dc/2881dcb9-7d24-dad1-7a03-cb3c3e23193b/888735956782.png/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/moonride/6807315056?i=6807315057",
-      "rank": 47,
+      "rank": 46,
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
+        "delta": 3,
         "previousRank": 49,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1380,24 +1351,24 @@
       "songId": "675c33ab3cb1d5737d02"
     },
     {
-      "sourceId": "744963040",
-      "title": "你就不要想起我",
+      "sourceId": "6822497774",
+      "title": "Housewife",
       "artists": [
-        "田馥甄"
+        "Tate McRae"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/12/31/75/123175fd-d416-da11-ea2f-39a5b113c3f8/dj.zyncqluo.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E4%BD%A0%E5%B0%B1%E4%B8%8D%E8%A6%81%E6%83%B3%E8%B5%B7%E6%88%91/744962939?i=744963040",
-      "rank": 48,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/housewife/6822497770?i=6822497774",
+      "rank": 47,
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 46,
+        "direction": "up",
+        "delta": 10,
+        "previousRank": 57,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1406,7 +1377,7 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "27a7870e4fc6745739a9"
+      "songId": "d38ee53b324da8399a9c"
     },
     {
       "sourceId": "1550878097",
@@ -1417,16 +1388,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/ab/3c/4bab3c0d-ea9a-ad8e-4229-b1e73cad0283/21UMGIM06668.rgb.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/starboy-feat-daft-punk/1550877895?i=1550878097",
-      "rank": 49,
+      "rank": 48,
       "sourceMovement": {
         "direction": "up",
-        "delta": 22,
+        "delta": 23,
         "previousRank": 71,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1436,6 +1407,35 @@
         "items": []
       },
       "songId": "181646e89c388567b9e6"
+    },
+    {
+      "sourceId": "744963040",
+      "title": "你就不要想起我",
+      "artists": [
+        "田馥甄"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/12/31/75/123175fd-d416-da11-ea2f-39a5b113c3f8/dj.zyncqluo.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E4%BD%A0%E5%B0%B1%E4%B8%8D%E8%A6%81%E6%83%B3%E8%B5%B7%E6%88%91/744962939?i=744963040",
+      "rank": 49,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 46,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "27a7870e4fc6745739a9"
     },
     {
       "sourceId": "1871400641",
@@ -1455,7 +1455,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1467,64 +1467,6 @@
       "songId": "c578a94d6a0a7f4ce1d0"
     },
     {
-      "sourceId": "1442913348",
-      "title": "最佳损友",
-      "artists": [
-        "陈奕迅"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a4/fa/86/a4fa86d6-c23a-c37f-1251-00376ff144cd/00602498378830.rgb.jpg/100x99bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E6%9C%80%E4%BD%B3%E6%8D%9F%E5%8F%8B/1442912707?i=1442913348",
-      "rank": 51,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -3,
-        "previousRank": 48,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "a6d0352a195f1557130d"
-    },
-    {
-      "sourceId": "547173705",
-      "title": "说谎",
-      "artists": [
-        "林宥嘉"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/e5/9b/57e59bd6-3564-e4c4-1add-e3dbbf4d8ab1/asset.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E8%AF%B4%E8%B0%8E/547158777?i=547173705",
-      "rank": 52,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 51,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "29fd1faada25a4800ddd"
-    },
-    {
       "sourceId": "200476335",
       "title": "忽然之间",
       "artists": [
@@ -1533,7 +1475,7 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/cc/52/81cc5224-3ace-5e3c-468a-17b4b71da831/dj.aqolbuce.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%BF%BD%E7%84%B6%E4%B9%8B%E9%97%B4/200469374?i=200476335",
-      "rank": 53,
+      "rank": 51,
       "sourceMovement": {
         "direction": "new",
         "delta": null,
@@ -1542,7 +1484,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1554,24 +1496,24 @@
       "songId": "92e822a313a659b1836e"
     },
     {
-      "sourceId": "587743642",
-      "title": "红尘客栈",
+      "sourceId": "1752810526",
+      "title": "恋人",
       "artists": [
-        "周杰伦"
+        "李荣浩"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/83/e6/8183e6c0-7137-7009-347e-326b53cb4a3b/2000x2000pix.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E7%BA%A2%E5%B0%98%E5%AE%A2%E6%A0%88/587743633?i=587743642",
-      "rank": 54,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/96/d6/4d96d6ea-0181-fd91-9fa0-6f102bd5c7dc/196872225358.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E6%81%8B%E4%BA%BA/1752810525?i=1752810526",
+      "rank": 52,
       "sourceMovement": {
-        "direction": "down",
-        "delta": -9,
-        "previousRank": 45,
+        "direction": "up",
+        "delta": 23,
+        "previousRank": 75,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1580,7 +1522,36 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "b399d1f14dbd73d2a91d"
+      "songId": "1c4e1a4066e20511f7ab"
+    },
+    {
+      "sourceId": "547173705",
+      "title": "说谎",
+      "artists": [
+        "林宥嘉"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/e5/9b/57e59bd6-3564-e4c4-1add-e3dbbf4d8ab1/asset.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E8%AF%B4%E8%B0%8E/547158777?i=547173705",
+      "rank": 53,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 51,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "29fd1faada25a4800ddd"
     },
     {
       "sourceId": "541857036",
@@ -1591,16 +1562,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8a/91/d7/8a91d731-cdb1-01b5-17a9-c88cf66d6e01/5050466855725.jpg/100x90bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%A4%A9%E9%BB%91%E9%BB%91/541856819?i=541857036",
-      "rank": 55,
+      "rank": 54,
       "sourceMovement": {
         "direction": "down",
-        "delta": -2,
+        "delta": -1,
         "previousRank": 53,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1612,24 +1583,24 @@
       "songId": "497492be54d23050e871"
     },
     {
-      "sourceId": "1752810526",
-      "title": "恋人",
+      "sourceId": "1442913348",
+      "title": "最佳损友",
       "artists": [
-        "李荣浩"
+        "陈奕迅"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/96/d6/4d96d6ea-0181-fd91-9fa0-6f102bd5c7dc/196872225358.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E6%81%8B%E4%BA%BA/1752810525?i=1752810526",
-      "rank": 56,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a4/fa/86/a4fa86d6-c23a-c37f-1251-00376ff144cd/00602498378830.rgb.jpg/100x99bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E6%9C%80%E4%BD%B3%E6%8D%9F%E5%8F%8B/1442912707?i=1442913348",
+      "rank": 55,
       "sourceMovement": {
-        "direction": "up",
-        "delta": 19,
-        "previousRank": 75,
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 48,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1638,7 +1609,36 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "1c4e1a4066e20511f7ab"
+      "songId": "a6d0352a195f1557130d"
+    },
+    {
+      "sourceId": "587743642",
+      "title": "红尘客栈",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/83/e6/8183e6c0-7137-7009-347e-326b53cb4a3b/2000x2000pix.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E7%BA%A2%E5%B0%98%E5%AE%A2%E6%A0%88/587743633?i=587743642",
+      "rank": 56,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 45,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b399d1f14dbd73d2a91d"
     },
     {
       "sourceId": "1118757873",
@@ -1658,7 +1658,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1687,7 +1687,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1699,35 +1699,6 @@
       "songId": "81772ee929ad511e95a5"
     },
     {
-      "sourceId": "1443352455",
-      "title": "淘汰",
-      "artists": [
-        "陈奕迅"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/cb/d6/27cbd6b4-c991-cd95-49e3-b6019462ff97/00602517338845.rgb.jpg/100x91bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E6%B7%98%E6%B1%B0/1443352354?i=1443352455",
-      "rank": 59,
-      "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
-        "previousRank": 59,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "b7d70fa2b5a824eeae69"
-    },
-    {
       "sourceId": "152197590",
       "title": "太聪明",
       "artists": [
@@ -1736,16 +1707,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/a2/21/3ca22123-14d6-57f4-9e52-aa4573a05b07/mzm.clkcarof.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%A4%AA%E8%81%AA%E6%98%8E/152197399?i=152197590",
-      "rank": 60,
+      "rank": 59,
       "sourceMovement": {
         "direction": "down",
-        "delta": -10,
+        "delta": -9,
         "previousRank": 50,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1765,16 +1736,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/5a/1b/575a1bc9-ca86-7549-e873-b55663ba6276/4711508105925.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C/1788007687?i=1788007696",
-      "rank": 61,
+      "rank": 60,
       "sourceMovement": {
         "direction": "down",
-        "delta": -6,
+        "delta": -5,
         "previousRank": 55,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1786,24 +1757,24 @@
       "songId": "35305a9c6b838e4c4af4"
     },
     {
-      "sourceId": "536162080",
-      "title": "暗号",
+      "sourceId": "1443352455",
+      "title": "淘汰",
       "artists": [
-        "周杰伦"
+        "陈奕迅"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/100x113bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E6%9A%97%E5%8F%B7/536161722?i=536162080",
-      "rank": 62,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/cb/d6/27cbd6b4-c991-cd95-49e3-b6019462ff97/00602517338845.rgb.jpg/100x91bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E6%B7%98%E6%B1%B0/1443352354?i=1443352455",
+      "rank": 61,
       "sourceMovement": {
         "direction": "down",
-        "delta": -4,
-        "previousRank": 58,
+        "delta": -2,
+        "previousRank": 59,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1812,7 +1783,7 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "a95925ccd111b43522ba"
+      "songId": "b7d70fa2b5a824eeae69"
     },
     {
       "sourceId": "1443352467",
@@ -1823,16 +1794,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/cb/d6/27cbd6b4-c991-cd95-49e3-b6019462ff97/00602517338845.rgb.jpg/100x91bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/1443352354?i=1443352467",
-      "rank": 63,
+      "rank": 62,
       "sourceMovement": {
         "direction": "up",
-        "delta": 5,
+        "delta": 6,
         "previousRank": 68,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1842,6 +1813,35 @@
         "items": []
       },
       "songId": "39c637f9bbac73050560"
+    },
+    {
+      "sourceId": "1505683988",
+      "title": "Blinding Lights",
+      "artists": [
+        "Abel Tesfaye"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/e1/67/03e167d6-ee05-eb32-55e9-c5040f55a8bf/20UMGIM21166.rgb.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/blinding-lights/1505683705?i=1505683988",
+      "rank": 63,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 24,
+        "previousRank": 87,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "66deeab342e60c3ab83d"
     },
     {
       "sourceId": "747590718",
@@ -1861,7 +1861,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1873,35 +1873,6 @@
       "songId": "61736a45d949e38e4581"
     },
     {
-      "sourceId": "1505683988",
-      "title": "Blinding Lights",
-      "artists": [
-        "Abel Tesfaye"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/e1/67/03e167d6-ee05-eb32-55e9-c5040f55a8bf/20UMGIM21166.rgb.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/blinding-lights/1505683705?i=1505683988",
-      "rank": 65,
-      "sourceMovement": {
-        "direction": "up",
-        "delta": 22,
-        "previousRank": 87,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "66deeab342e60c3ab83d"
-    },
-    {
       "sourceId": "905206485",
       "title": "天天",
       "artists": [
@@ -1910,16 +1881,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/77/fc/d077fcf8-6a17-e7ea-6c91-6cf40ad39d81/825646245383.jpg/100x98bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%A4%A9%E5%A4%A9/905206471?i=905206485",
-      "rank": 66,
+      "rank": 65,
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
+        "delta": 5,
         "previousRank": 70,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1929,6 +1900,35 @@
         "items": []
       },
       "songId": "f6ae8b995a6ab6b29e41"
+    },
+    {
+      "sourceId": "536162080",
+      "title": "暗号",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/c8/a1/96c8a1d8-8077-b8a7-8600-80b2abf1fe20/JAY.jpg/100x113bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E6%9A%97%E5%8F%B7/536161722?i=536162080",
+      "rank": 66,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 58,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "a95925ccd111b43522ba"
     },
     {
       "sourceId": "1073049129",
@@ -1948,7 +1948,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -1977,7 +1977,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2006,7 +2006,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2035,7 +2035,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2047,35 +2047,6 @@
       "songId": "1cedca71f4d8f7b581fd"
     },
     {
-      "sourceId": "1624001319",
-      "title": "说好的幸福呢",
-      "artists": [
-        "周杰伦"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/63/9e/1b639e5b-f8ca-a6e1-8612-6396bc9ff0eb/4711448407424.jpg/100x134bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E8%AF%B4%E5%A5%BD%E7%9A%84%E5%B9%B8%E7%A6%8F%E5%91%A2/1624000713?i=1624001319",
-      "rank": 71,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 66,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "06fdf66e8285062d5222"
-    },
-    {
       "sourceId": "6782894402",
       "title": "hate that i made you love me",
       "artists": [
@@ -2084,16 +2055,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/83/7e/bd837ed0-ec1d-30a7-98fe-ad5352e73eed/26UMGIM72032.rgb.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/hate-that-i-made-you-love-me/6782894401?i=6782894402",
-      "rank": 72,
+      "rank": 71,
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 72,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2103,6 +2074,35 @@
         "items": []
       },
       "songId": "16a869e82a7ec89a1619"
+    },
+    {
+      "sourceId": "1624001319",
+      "title": "说好的幸福呢",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1b/63/9e/1b639e5b-f8ca-a6e1-8612-6396bc9ff0eb/4711448407424.jpg/100x134bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E8%AF%B4%E5%A5%BD%E7%9A%84%E5%B9%B8%E7%A6%8F%E5%91%A2/1624000713?i=1624001319",
+      "rank": 72,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 66,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "06fdf66e8285062d5222"
     },
     {
       "sourceId": "1440650961",
@@ -2122,7 +2122,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2151,7 +2151,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2180,7 +2180,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2209,7 +2209,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2221,6 +2221,64 @@
       "songId": "2daffdc9968a6962c754"
     },
     {
+      "sourceId": "1416149929",
+      "title": "飞机场的10:30",
+      "artists": [
+        "陶喆"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/bb/bd/ddbbbda1-9408-72b2-4c0b-943e648be6c1/190295574086.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E9%A3%9E%E6%9C%BA%E5%9C%BA%E7%9A%8410-30/1416149926?i=1416149929",
+      "rank": 77,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 79,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "797ae53e9117defcf124"
+    },
+    {
+      "sourceId": "1531323101",
+      "title": "交换余生",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/dd/ce/8dddceba-2a33-d936-680d-eb7c32aa54c6/190295140731.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E4%BA%A4%E6%8D%A2%E4%BD%99%E7%94%9F/1531323100?i=1531323101",
+      "rank": 78,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 80,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "396e8435ed98bb16452d"
+    },
+    {
       "sourceId": "536248201",
       "title": "我落泪 . 情绪零碎",
       "artists": [
@@ -2229,16 +2287,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/2d/dd/532dddf0-87d7-b9eb-7d8b-4eb194c84252/asset.jpg/100x133bb.jpg",
       "url": "https://music.apple.com/cn/album/%E6%88%91%E8%90%BD%E6%B3%AA-%E6%83%85%E7%BB%AA%E9%9B%B6%E7%A2%8E/536247746?i=536248201",
-      "rank": 77,
+      "rank": 79,
       "sourceMovement": {
         "direction": "down",
-        "delta": -4,
+        "delta": -6,
         "previousRank": 73,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2258,16 +2316,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/62/6d/e8626d8e-0c01-29c6-533a-1fc090095133/196874803912.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E8%87%AA%E7%94%B1%E7%9A%84%E4%BD%A0/6815092481?i=6815092483",
-      "rank": 78,
+      "rank": 80,
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
+        "delta": 1,
         "previousRank": 81,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2279,82 +2337,24 @@
       "songId": "1dbbc7782773a0ee6873"
     },
     {
-      "sourceId": "1531323101",
-      "title": "交换余生",
+      "sourceId": "1708358642",
+      "title": "慢冷",
       "artists": [
-        "林俊杰"
+        "梁静茹"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/dd/ce/8dddceba-2a33-d936-680d-eb7c32aa54c6/190295140731.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E4%BA%A4%E6%8D%A2%E4%BD%99%E7%94%9F/1531323100?i=1531323101",
-      "rank": 79,
-      "sourceMovement": {
-        "direction": "up",
-        "delta": 1,
-        "previousRank": 80,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "396e8435ed98bb16452d"
-    },
-    {
-      "sourceId": "1416149929",
-      "title": "飞机场的10:30",
-      "artists": [
-        "陶喆"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/bb/bd/ddbbbda1-9408-72b2-4c0b-943e648be6c1/190295574086.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E9%A3%9E%E6%9C%BA%E5%9C%BA%E7%9A%8410-30/1416149926?i=1416149929",
-      "rank": 80,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 79,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "797ae53e9117defcf124"
-    },
-    {
-      "sourceId": "1072339996",
-      "title": "不将就 (电影《何以笙箫默》片尾曲)",
-      "artists": [
-        "李荣浩"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/17/4a/4c174aec-80a7-c039-54cd-4be73cb090d3/dj.fagjndon.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E4%B8%8D%E5%B0%86%E5%B0%B1-%E7%94%B5%E5%BD%B1-%E4%BD%95%E4%BB%A5%E7%AC%99%E7%AE%AB%E9%BB%98-%E7%89%87%E5%B0%BE%E6%9B%B2/1072339647?i=1072339996",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/ed/71/41ed7185-f6ca-722c-5ecd-c3b6f9782ff4/6942360842927.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E6%85%A2%E5%86%B7/1708358632?i=1708358642",
       "rank": 81,
       "sourceMovement": {
-        "direction": "down",
-        "delta": -14,
-        "previousRank": 67,
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 85,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2363,7 +2363,7 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "66909e7d2ef3f4123278"
+      "songId": "1eefe964b2e771570839"
     },
     {
       "sourceId": "280798617",
@@ -2383,7 +2383,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2395,35 +2395,6 @@
       "songId": "d6bdcaf1e131b821c244"
     },
     {
-      "sourceId": "1708358642",
-      "title": "慢冷",
-      "artists": [
-        "梁静茹"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/ed/71/41ed7185-f6ca-722c-5ecd-c3b6f9782ff4/6942360842927.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E6%85%A2%E5%86%B7/1708358632?i=1708358642",
-      "rank": 83,
-      "sourceMovement": {
-        "direction": "up",
-        "delta": 2,
-        "previousRank": 85,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "1eefe964b2e771570839"
-    },
-    {
       "sourceId": "577983297",
       "title": "麦恩莉",
       "artists": [
@@ -2432,16 +2403,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/41/8c/91418cce-4b5b-a7a7-cf54-858af87966e3/dj.munrszcb.jpg/100x93bb.jpg",
       "url": "https://music.apple.com/cn/album/%E9%BA%A6%E6%81%A9%E8%8E%89/577983280?i=577983297",
-      "rank": 84,
+      "rank": 83,
       "sourceMovement": {
         "direction": "down",
-        "delta": -7,
+        "delta": -6,
         "previousRank": 77,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2453,24 +2424,24 @@
       "songId": "585aca6334182b43d67c"
     },
     {
-      "sourceId": "1614388265",
-      "title": "勇气",
+      "sourceId": "1072339996",
+      "title": "不将就 (电影《何以笙箫默》片尾曲)",
       "artists": [
-        "梁静茹"
+        "李荣浩"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/60/e2/30/60e23058-254c-411a-1be3-fdd6a039ca4d/dj.eobhzzks.png/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E5%8B%87%E6%B0%94/1614388261?i=1614388265",
-      "rank": 85,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/17/4a/4c174aec-80a7-c039-54cd-4be73cb090d3/dj.fagjndon.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E4%B8%8D%E5%B0%86%E5%B0%B1-%E7%94%B5%E5%BD%B1-%E4%BD%95%E4%BB%A5%E7%AC%99%E7%AE%AB%E9%BB%98-%E7%89%87%E5%B0%BE%E6%9B%B2/1072339647?i=1072339996",
+      "rank": 84,
       "sourceMovement": {
         "direction": "down",
-        "delta": -2,
-        "previousRank": 83,
+        "delta": -17,
+        "previousRank": 67,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2479,7 +2450,7 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "301be28bf32a05037ce8"
+      "songId": "66909e7d2ef3f4123278"
     },
     {
       "sourceId": "352569547",
@@ -2490,16 +2461,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/07/51/39/075139cf-7910-68c9-7c91-c6c000718794/mzi.vmzravef.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%8C%BF%E5%90%8D%E7%9A%84%E5%A5%BD%E5%8F%8B/352569300?i=352569547",
-      "rank": 86,
+      "rank": 85,
       "sourceMovement": {
         "direction": "up",
-        "delta": 7,
+        "delta": 8,
         "previousRank": 93,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2509,6 +2480,35 @@
         "items": []
       },
       "songId": "5e94b65a78dc3a98a63a"
+    },
+    {
+      "sourceId": "1614388265",
+      "title": "勇气",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/60/e2/30/60e23058-254c-411a-1be3-fdd6a039ca4d/dj.eobhzzks.png/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E5%8B%87%E6%B0%94/1614388261?i=1614388265",
+      "rank": 86,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 83,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "301be28bf32a05037ce8"
     },
     {
       "sourceId": "536009751",
@@ -2528,7 +2528,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2540,93 +2540,6 @@
       "songId": "2c5973d8e56a4b1e6754"
     },
     {
-      "sourceId": "1834199249",
-      "title": "连名带姓",
-      "artists": [
-        "张惠妹"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/ea/32/4aea3283-2bcf-c075-ad2d-c48bf6e19dcd/cover.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E8%BF%9E%E5%90%8D%E5%B8%A6%E5%A7%93/1834198554?i=1834199249",
-      "rank": 88,
-      "sourceMovement": {
-        "direction": "up",
-        "delta": 8,
-        "previousRank": 96,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "1a4d64345a067d017971"
-    },
-    {
-      "sourceId": "1787929825",
-      "title": "演员",
-      "artists": [
-        "薛之谦"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/1e/51/ba1e5106-db66-af4a-f704-cb0bfd2b3063/9787798506518.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E6%BC%94%E5%91%98/1787929823?i=1787929825",
-      "rank": 89,
-      "sourceMovement": {
-        "direction": "up",
-        "delta": 9,
-        "previousRank": 98,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "5a116a5750ca7bd1b1d1"
-    },
-    {
-      "sourceId": "535391944",
-      "title": "下一个天亮",
-      "artists": [
-        "郭静"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/49/46/054946ac-9e38-f5b0-9778-cbcd4d844687/4717398702336.jpg/100x115bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%A4%A9%E4%BA%AE/535391943?i=535391944",
-      "rank": 90,
-      "sourceMovement": {
-        "direction": "up",
-        "delta": 1,
-        "previousRank": 91,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "624064ca2d176aa7abf0"
-    },
-    {
       "sourceId": "1694849138",
       "title": "修炼爱情",
       "artists": [
@@ -2635,16 +2548,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/86/80/48/86804834-eb90-62a1-2170-cd96f9963cac/4711099729722.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E4%BF%AE%E7%82%BC%E7%88%B1%E6%83%85/1694849133?i=1694849138",
-      "rank": 91,
+      "rank": 88,
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
+        "delta": 6,
         "previousRank": 94,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2656,35 +2569,6 @@
       "songId": "f0666b46e4eb5027ba8e"
     },
     {
-      "sourceId": "536030695",
-      "title": "青花瓷",
-      "artists": [
-        "周杰伦"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b8/83/7f/b8837f2a-324a-f6ad-ff5a-0805e9210181/JAY.jpg/100x134bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E9%9D%92%E8%8A%B1%E7%93%B7/536030690?i=536030695",
-      "rank": 92,
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -8,
-        "previousRank": 84,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "e243a6b6f1ecd8ef4783"
-    },
-    {
       "sourceId": "933793690",
       "title": "素颜 (with 何曼婷)",
       "artists": [
@@ -2693,16 +2577,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/ba/72/f5ba7258-bf0c-e3c6-1722-e4908d1dd365/ticket.bibixaxe.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E7%B4%A0%E9%A2%9C-with-%E4%BD%95%E6%9B%BC%E5%A9%B7/933793684?i=933793690",
-      "rank": 93,
+      "rank": 89,
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
+        "direction": "same",
+        "delta": 0,
         "previousRank": 89,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2722,16 +2606,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/95/e7/86/95e78666-a9d7-c3cc-87cf-0a46d6d8c6aa/00602567574132.rgb.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%8D%8A%E5%8F%A5%E5%86%8D%E8%A7%81/1363418961?i=1363418962",
-      "rank": 94,
+      "rank": 90,
       "sourceMovement": {
         "direction": "up",
-        "delta": 1,
+        "delta": 5,
         "previousRank": 95,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2743,6 +2627,35 @@
       "songId": "b6ac3f76359e5c6a4df5"
     },
     {
+      "sourceId": "1834199249",
+      "title": "连名带姓",
+      "artists": [
+        "张惠妹"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/ea/32/4aea3283-2bcf-c075-ad2d-c48bf6e19dcd/cover.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E8%BF%9E%E5%90%8D%E5%B8%A6%E5%A7%93/1834198554?i=1834199249",
+      "rank": 91,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 96,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1a4d64345a067d017971"
+    },
+    {
       "sourceId": "944321446",
       "title": "手写的从前",
       "artists": [
@@ -2751,16 +2664,16 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/db/ff/16dbff09-0750-29b0-07b7-3fa44f8a556e/dj.nzqvfsza.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E6%89%8B%E5%86%99%E7%9A%84%E4%BB%8E%E5%89%8D/944321428?i=944321446",
-      "rank": 95,
+      "rank": 92,
       "sourceMovement": {
         "direction": "down",
-        "delta": -7,
+        "delta": -4,
         "previousRank": 88,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2772,24 +2685,24 @@
       "songId": "27e48b2b0967a4bb8218"
     },
     {
-      "sourceId": "536285261",
-      "title": "退后",
+      "sourceId": "1787929825",
+      "title": "演员",
       "artists": [
-        "周杰伦"
+        "薛之谦"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6a/a3/8d/6aa38da9-3fc1-427c-59a7-fcd0cf21832d/JAY.jpg/100x134bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E9%80%80%E5%90%8E/536285027?i=536285261",
-      "rank": 96,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/1e/51/ba1e5106-db66-af4a-f704-cb0bfd2b3063/9787798506518.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E6%BC%94%E5%91%98/1787929823?i=1787929825",
+      "rank": 93,
       "sourceMovement": {
-        "direction": "down",
-        "delta": -6,
-        "previousRank": 90,
+        "direction": "up",
+        "delta": 5,
+        "previousRank": 98,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2798,7 +2711,94 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "c09bcca2553f615603b3"
+      "songId": "5a116a5750ca7bd1b1d1"
+    },
+    {
+      "sourceId": "535391944",
+      "title": "下一个天亮",
+      "artists": [
+        "郭静"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/49/46/054946ac-9e38-f5b0-9778-cbcd4d844687/4717398702336.jpg/100x115bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%A4%A9%E4%BA%AE/535391943?i=535391944",
+      "rank": 94,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 91,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "624064ca2d176aa7abf0"
+    },
+    {
+      "sourceId": "536030695",
+      "title": "青花瓷",
+      "artists": [
+        "周杰伦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b8/83/7f/b8837f2a-324a-f6ad-ff5a-0805e9210181/JAY.jpg/100x134bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E9%9D%92%E8%8A%B1%E7%93%B7/536030690?i=536030695",
+      "rank": 95,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 84,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e243a6b6f1ecd8ef4783"
+    },
+    {
+      "sourceId": "1787929908",
+      "title": "我好像在哪见过你",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/09/04/b009043f-f576-54ce-5b1f-d7896d6933c0/9555150772273.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E6%88%91%E5%A5%BD%E5%83%8F%E5%9C%A8%E5%93%AA%E8%A7%81%E8%BF%87%E4%BD%A0/1787929894?i=1787929908",
+      "rank": 96,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "7940601b57e83658b527"
     },
     {
       "sourceId": "1071517710",
@@ -2818,7 +2818,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2830,53 +2830,24 @@
       "songId": "759347971b57151b546e"
     },
     {
-      "sourceId": "905212063",
-      "title": "偏爱",
-      "artists": [
-        "张芸京"
-      ],
-      "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cd/5a/e6/cd5ae6de-cf19-6759-f841-3141421b3c4d/825646246038.jpg/100x100bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E5%81%8F%E7%88%B1/905211910?i=905212063",
-      "rank": 98,
-      "sourceMovement": {
-        "direction": "up",
-        "delta": 2,
-        "previousRank": 100,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-10-26",
-        "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
-        "previousObservedAt": "2026-10-26T06:11:56.675Z",
-        "comparisonUsesCache": true,
-        "raw": {}
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "b1c2c5201af051615e85"
-    },
-    {
-      "sourceId": "535824741",
-      "title": "你听得到",
+      "sourceId": "536285261",
+      "title": "退后",
       "artists": [
         "周杰伦"
       ],
       "album": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/45/8a/e4/458ae484-dc8b-5683-ce04-8d2948346462/JAY.jpg/100x109bb.jpg",
-      "url": "https://music.apple.com/cn/album/%E4%BD%A0%E5%90%AC%E5%BE%97%E5%88%B0/535824731?i=535824741",
-      "rank": 99,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6a/a3/8d/6aa38da9-3fc1-427c-59a7-fcd0cf21832d/JAY.jpg/100x134bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E9%80%80%E5%90%8E/536285027?i=536285261",
+      "rank": 98,
       "sourceMovement": {
         "direction": "down",
-        "delta": -7,
-        "previousRank": 92,
+        "delta": -8,
+        "previousRank": 90,
         "period": "previous-day",
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2885,7 +2856,7 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "41ba7bfd5f377cd60065"
+      "songId": "c09bcca2553f615603b3"
     },
     {
       "sourceId": "1071506929",
@@ -2896,7 +2867,7 @@
       "album": null,
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/55/6d/4f556da8-f58c-982d-6dd9-3515d33b354f/mzm.awewpcjt.jpg/100x100bb.jpg",
       "url": "https://music.apple.com/cn/album/%E5%A5%B9%E8%AF%B4/1071506928?i=1071506929",
-      "rank": 100,
+      "rank": 99,
       "sourceMovement": {
         "direction": "new",
         "delta": null,
@@ -2905,7 +2876,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 100,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T06:11:56.675Z",
         "comparisonUsesCache": true,
         "raw": {}
@@ -2915,11 +2886,40 @@
         "items": []
       },
       "songId": "75914ef9a55f0bc266f4"
+    },
+    {
+      "sourceId": "1791923800",
+      "title": "世界赠予我的",
+      "artists": [
+        "王菲"
+      ],
+      "album": null,
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/74/0b/75740b1c-8ecb-cae5-2f29-1d192376044e/704537426011.jpg/100x100bb.jpg",
+      "url": "https://music.apple.com/cn/album/%E4%B8%96%E7%95%8C%E8%B5%A0%E4%BA%88%E6%88%91%E7%9A%84/1791923799?i=1791923800",
+      "rank": 100,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-26",
+        "comparisonDepth": 100,
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
+        "previousObservedAt": "2026-10-26T06:11:56.675Z",
+        "comparisonUsesCache": true,
+        "raw": {}
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "99a3452c5d9725ea9d17"
     }
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-27T06:15:43.097Z",
+  "attemptedAt": "2026-10-27T13:11:46.784Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -2929,5 +2929,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T06:15:43.097Z"
+  "generatedAt": "2026-10-27T13:11:46.784Z"
 }

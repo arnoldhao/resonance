@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-27T06:15:43.097Z",
+  "fetchedAt": "2026-10-27T13:11:46.784Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-27 08:30:00",
   "entries": [
@@ -203,7 +203,7 @@
         "指南针"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261016/20261016210623114037.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261027/20261027144743758731.jpg",
       "url": "https://www.kugou.com/song/#hash=087D253C1DBA4241AA5BFBED1E59F9BE",
       "sourceMovement": {
         "direction": "down",
@@ -1154,7 +1154,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T14:15:14.227Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5294,7 +5294,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T14:15:14.227Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -6644,7 +6644,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-26",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-27T06:15:43.097Z",
+        "currentObservedAt": "2026-10-27T13:11:46.784Z",
         "previousObservedAt": "2026-10-26T14:15:14.227Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7166,7 +7166,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-27T06:15:43.097Z",
+  "attemptedAt": "2026-10-27T13:11:46.784Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7176,5 +7176,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T06:15:43.097Z"
+  "generatedAt": "2026-10-27T13:11:46.784Z"
 }
