@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T13:11:46.784Z",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-27T18:41:46.781Z",
   "providerId": "qishui",
   "name": "汽水音乐",
   "dates": [
+    "2026-10-28",
     "2026-10-27",
     "2026-10-26",
     "2026-10-25",
@@ -13,6 +14,18 @@
     "2026-10-23"
   ],
   "editions": [
+    {
+      "date": "2026-10-28",
+      "mode": "live",
+      "ingestion": "public",
+      "sourcePeriod": "weekly",
+      "sourceUpdatedAt": "2026-10-22T08:00:00.000Z",
+      "fetchedAt": "2026-10-27T18:41:46.781Z",
+      "attemptedAt": "2026-10-27T18:41:46.781Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
+    },
     {
       "date": "2026-10-27",
       "mode": "live",
