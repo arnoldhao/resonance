@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-28T06:51:19.858Z",
+  "fetchedAt": "2026-10-28T14:00:09.910Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-28 08:30:01",
   "entries": [
@@ -6518,8 +6518,19 @@
         "origin": "official"
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "18367827",
+            "hash": "B9CD8BE2384D74F6D6793B0F4C60E1F1",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "5BCAC3D4BB9FBD74B937BECBBC4B172F",
+            "url": null
+          }
+        ]
       },
       "songId": "fd76bf2f3947044341df"
     },
@@ -7115,7 +7126,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-27",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-28T06:51:19.858Z",
+        "currentObservedAt": "2026-10-28T14:00:09.910Z",
         "previousObservedAt": "2026-10-27T13:11:46.784Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7143,7 +7154,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-28T06:51:19.858Z",
+  "attemptedAt": "2026-10-28T14:00:09.910Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7153,5 +7164,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T06:51:19.858Z"
+  "generatedAt": "2026-10-28T14:00:09.910Z"
 }
