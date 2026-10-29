@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-29T04:10:15.572Z",
+  "fetchedAt": "2026-10-29T07:03:29.683Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-29 08:30:00",
   "entries": [
@@ -1448,7 +1448,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T04:10:15.572Z",
+        "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3139,7 +3139,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T04:10:15.572Z",
+        "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -4990,7 +4990,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T04:10:15.572Z",
+        "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5207,7 +5207,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T04:10:15.572Z",
+        "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5386,7 +5386,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T04:10:15.572Z",
+        "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -6006,14 +6006,8 @@
         "origin": "official"
       },
       "mv": {
-        "status": "linked",
-        "items": [
-          {
-            "id": "17984270",
-            "hash": "82826B27086CB3A1E31B294AD4C1E2A6",
-            "url": null
-          }
-        ]
+        "status": "unknown",
+        "items": []
       },
       "songId": "e9faed218da830f6fb5f"
     },
@@ -7033,7 +7027,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T04:10:15.572Z",
+        "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7094,7 +7088,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-29T04:10:15.572Z",
+  "attemptedAt": "2026-10-29T07:03:29.683Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7104,5 +7098,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T04:10:15.572Z"
+  "generatedAt": "2026-10-29T07:03:29.683Z"
 }
