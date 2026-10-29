@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T14:00:09.910Z",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T04:10:15.572Z",
   "providerId": "qq",
   "name": "QQ 音乐",
   "dates": [
+    "2026-10-29",
     "2026-10-28",
     "2026-10-27",
     "2026-10-26",
@@ -44,6 +45,18 @@
     "2026-09-23"
   ],
   "editions": [
+    {
+      "date": "2026-10-29",
+      "mode": "live",
+      "ingestion": "public",
+      "sourcePeriod": "2026-10-29",
+      "sourceUpdatedAt": null,
+      "fetchedAt": "2026-10-29T04:10:15.572Z",
+      "attemptedAt": "2026-10-29T04:10:15.572Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
+    },
     {
       "date": "2026-10-28",
       "mode": "live",
