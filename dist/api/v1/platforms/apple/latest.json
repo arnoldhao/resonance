@@ -11,6 +11,8 @@
   "updatePolicy": "官方 CN most-played RSS；updated 曾随读取刷新，不能单独作为排名更新时间。实测存在日内多次排名变化；与 Top 100：中国大陆歌单不同，不套用其他产品的刷新承诺。",
   "access": "官方 RSS · 中国区热门歌曲",
   "providerId": "apple",
+  "status": "stale",
+  "ingestion": "cache",
   "declaredCount": 100,
   "fetchedAt": "2026-10-29T07:03:29.683Z",
   "sourceUpdatedAt": "2026-10-29T07:03:32.000Z",
@@ -36,7 +38,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -65,7 +67,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -94,7 +96,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -123,7 +125,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -152,7 +154,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -181,7 +183,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -210,7 +212,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -239,7 +241,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -268,7 +270,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -297,7 +299,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -326,7 +328,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -355,7 +357,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -384,7 +386,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -413,7 +415,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -442,7 +444,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -471,7 +473,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -500,7 +502,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -529,7 +531,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -558,7 +560,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -587,7 +589,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -616,7 +618,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -645,7 +647,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -674,7 +676,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -703,7 +705,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -732,7 +734,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -761,7 +763,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -790,7 +792,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -819,7 +821,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -848,7 +850,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -877,7 +879,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -906,7 +908,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -935,7 +937,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -964,7 +966,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -993,7 +995,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1022,7 +1024,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1051,7 +1053,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1080,7 +1082,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1109,7 +1111,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1138,7 +1140,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1167,7 +1169,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1196,7 +1198,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1225,7 +1227,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1254,7 +1256,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1283,7 +1285,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1312,7 +1314,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1341,7 +1343,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1370,7 +1372,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1399,7 +1401,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1428,7 +1430,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1457,7 +1459,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1486,7 +1488,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1515,7 +1517,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1544,7 +1546,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1573,7 +1575,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1602,7 +1604,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1631,7 +1633,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1660,7 +1662,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1689,7 +1691,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1718,7 +1720,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1747,7 +1749,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1776,7 +1778,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1805,7 +1807,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1834,7 +1836,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1863,7 +1865,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1892,7 +1894,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1921,7 +1923,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1950,7 +1952,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -1979,7 +1981,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2008,7 +2010,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2037,7 +2039,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2066,7 +2068,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2095,7 +2097,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2124,7 +2126,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2153,7 +2155,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2182,7 +2184,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2211,7 +2213,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2240,7 +2242,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2269,7 +2271,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2298,7 +2300,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2327,7 +2329,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2356,7 +2358,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2385,7 +2387,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2414,7 +2416,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2443,7 +2445,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2472,7 +2474,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2501,7 +2503,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2530,7 +2532,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2559,7 +2561,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2588,7 +2590,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2617,7 +2619,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2646,7 +2648,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2675,7 +2677,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2704,7 +2706,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2733,7 +2735,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2762,7 +2764,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2791,7 +2793,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2820,7 +2822,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2849,7 +2851,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2878,7 +2880,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2907,7 +2909,7 @@
         "comparisonDepth": 100,
         "currentObservedAt": "2026-10-29T07:03:29.683Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
-        "comparisonUsesCache": false,
+        "comparisonUsesCache": true,
         "raw": {}
       },
       "mv": {
@@ -2917,17 +2919,20 @@
       "songId": "6c5c76b89de8778c9f36"
     }
   ],
-  "status": "ok",
-  "ingestion": "public",
-  "attemptedAt": "2026-10-29T07:03:29.683Z",
-  "collectionError": null,
-  "cacheOrigin": null,
-  "message": null,
+  "attemptedAt": "2026-10-29T14:17:03.840Z",
+  "collectionError": "HTTP 504 from rss.marketingtools.apple.com",
+  "cacheOrigin": {
+    "date": "2026-10-29",
+    "generatedAt": "2026-10-29T07:03:29.683Z",
+    "path": "data/runs/2026-10-29/2026-10-29T07-03-29-683Z.json",
+    "ingestion": "public"
+  },
+  "message": "采集失败，沿用 2026-10-29T07:03:29.683Z 的成功观察（仍在有效窗口内）；HTTP 504 from rss.marketingtools.apple.com",
   "weight": 0.1,
   "count": 100,
   "scoringCount": 100,
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T07:03:29.683Z"
+  "generatedAt": "2026-10-29T14:17:03.840Z"
 }

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-29",
-  "revision": "afd648e628bb433a7aceddbbc3b26b066a401e37d0127f32d5fba46c2a31f4a4",
-  "updatedAt": "2026-10-29T07:03:29.683Z",
+  "revision": "1bc8ebb69aa64117cbd1622d96aa9d509d2d79a2059a61bbc9a8fe5f1e13a8bf",
+  "updatedAt": "2026-10-29T14:17:03.840Z",
   "siteUrl": "https://resonance.dreamapp.cc",
   "feedUrl": "https://resonance.dreamapp.cc/feed.xml",
   "jsonFeedUrl": "https://resonance.dreamapp.cc/feed.json",
@@ -14,21 +14,21 @@
       "kind": "daily",
       "date": "2026-10-29",
       "mode": "live",
-      "revision": "a3a701c4cc8441431a8a3ecb1cf6671f94625f0f483c1c596b475f00c28595ec",
+      "revision": "6f82c4cb16318ff0d1b29847f9fef0d29ceb8c0f07c62ccb3907493d37a7a9c4",
       "publishedAt": "2026-10-29T04:10:15.572Z",
-      "updatedAt": "2026-10-29T07:03:29.683Z",
+      "updatedAt": "2026-10-29T14:17:03.840Z",
       "title": "共振 · 2026-10-29 综合热歌榜",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json",
       "coverage": {
         "available": 6,
-        "fresh": 6,
-        "cached": 0,
+        "fresh": 5,
+        "cached": 1,
         "expected": 6,
         "groups": 4,
         "groupTotal": 4,
         "status": "complete",
         "comparisonAvailable": true,
-        "comparisonUsesCache": false
+        "comparisonUsesCache": true
       },
       "methodologyVersion": "1.4",
       "topTen": [
@@ -39,7 +39,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 90.9996
+          "score": 91.3254
         },
         {
           "rank": 2,
@@ -48,7 +48,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 82.5713
+          "score": 84.6831
         },
         {
           "rank": 3,
@@ -57,10 +57,19 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 74.3018
+          "score": 72.7343
         },
         {
           "rank": 4,
+          "id": "7940601b57e83658b527",
+          "title": "我好像在哪见过你",
+          "artists": [
+            "薛之谦"
+          ],
+          "score": 69.9003
+        },
+        {
+          "rank": 5,
           "id": "7407243b4cef78bd77c6",
           "title": "季候风",
           "artists": [
@@ -69,61 +78,52 @@
           "score": 66.8412
         },
         {
-          "rank": 5,
-          "id": "7940601b57e83658b527",
-          "title": "我好像在哪见过你",
-          "artists": [
-            "薛之谦"
-          ],
-          "score": 65.7192
-        },
-        {
           "rank": 6,
-          "id": "8c0daa3d1077edcbc6c8",
-          "title": "我怀念的",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 54.4299
-        },
-        {
-          "rank": 7,
           "id": "1c4e1a4066e20511f7ab",
           "title": "恋人",
           "artists": [
             "李荣浩"
           ],
-          "score": 54.15
+          "score": 54.9101
+        },
+        {
+          "rank": 7,
+          "id": "8c0daa3d1077edcbc6c8",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 54.119
         },
         {
           "rank": 8,
+          "id": "cea514c84596f8d5cb19",
+          "title": "时过境迁",
+          "artists": [
+            "苏艺馨Chency"
+          ],
+          "score": 45.6192
+        },
+        {
+          "rank": 9,
           "id": "61c8815b55293dd4a3cd",
           "title": "雨爱",
           "artists": [
             "杨丞琳"
           ],
-          "score": 43.7894
+          "score": 43.6695
         },
         {
-          "rank": 9,
+          "rank": 10,
           "id": "161752bf9ddec26f6c9c",
           "title": "开始懂了",
           "artists": [
             "孙燕姿"
           ],
           "score": 43.4242
-        },
-        {
-          "rank": 10,
-          "id": "0547bcb2d1b36134ce08",
-          "title": "情歌",
-          "artists": [
-            "梁静茹"
-          ],
-          "score": 42.606
         }
       ],
-      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.00 分\n2. 天龙八部之宿敌 — 许嵩 · 82.57 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 74.30 分\n4. 季候风 — 王菲 · 66.84 分\n5. 我好像在哪见过你 — 薛之谦 · 65.72 分\n6. 我怀念的 — 孙燕姿 · 54.43 分\n7. 恋人 — 李荣浩 · 54.15 分\n8. 雨爱 — 杨丞琳 · 43.79 分\n9. 开始懂了 — 孙燕姿 · 43.42 分\n10. 情歌 — 梁静茹 · 42.61 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json"
+      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n其中 1 个平台沿用有效窗口内的历史观察；来源时间和失败原因保存在 JSON。\n1. 我不难过 — 孙燕姿 · 91.33 分\n2. 天龙八部之宿敌 — 许嵩 · 84.68 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 72.73 分\n4. 我好像在哪见过你 — 薛之谦 · 69.90 分\n5. 季候风 — 王菲 · 66.84 分\n6. 恋人 — 李荣浩 · 54.91 分\n7. 我怀念的 — 孙燕姿 · 54.12 分\n8. 时过境迁 — 苏艺馨Chency · 45.62 分\n9. 雨爱 — 杨丞琳 · 43.67 分\n10. 开始懂了 — 孙燕姿 · 43.42 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json#live",
@@ -133,9 +133,9 @@
       "monthEnd": "2026-10-31",
       "mode": "live",
       "status": "provisional",
-      "revision": "4b61328b629490befb2391d4948c5fbfdaea54ae1d7f239a25454eb377d6a913",
+      "revision": "a9e746e1e0b642930c51ccd07bf0d6ba585bb311614b6ea1cca7d6b2f0cd5928",
       "publishedAt": "2026-10-23T03:18:23.844Z",
-      "updatedAt": "2026-10-29T07:03:29.683Z",
+      "updatedAt": "2026-10-29T14:17:03.840Z",
       "title": "共振 · 2026-10-01—2026-10-31 本月预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
       "coverage": {
@@ -151,7 +151,8 @@
           "2026-10-29"
         ],
         "cachedDates": [
-          "2026-10-26"
+          "2026-10-26",
+          "2026-10-29"
         ],
         "missingDates": [
           "2026-10-01",
@@ -187,8 +188,8 @@
         "comparisonUsesCache": false,
         "sourceCoverage": {
           "available": 6,
-          "fresh": 6,
-          "cached": 0,
+          "fresh": 5,
+          "cached": 1,
           "expected": 6,
           "groups": 4,
           "groupTotal": 4,
@@ -209,7 +210,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 92.9272
+          "score": 92.9738
         },
         {
           "rank": 2,
@@ -218,7 +219,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 83.6836
+          "score": 83.9853
         },
         {
           "rank": 3,
@@ -227,7 +228,7 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 76.0313
+          "score": 75.8074
         },
         {
           "rank": 4,
@@ -236,7 +237,7 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 55.4257
+          "score": 55.5343
         },
         {
           "rank": 5,
@@ -245,7 +246,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 55.326
+          "score": 55.2816
         },
         {
           "rank": 6,
@@ -254,7 +255,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 50.5783
+          "score": 50.5612
         },
         {
           "rank": 7,
@@ -272,7 +273,7 @@
           "artists": [
             "梁静茹"
           ],
-          "score": 44.1043
+          "score": 44
         },
         {
           "rank": 9,
@@ -291,10 +292,10 @@
           "artists": [
             "Suki刘舒妤"
           ],
-          "score": 35.7633
+          "score": 35.667
         }
       ],
-      "summary": "本月预览：2026-10-01—2026-10-31。\n有效 7/31 天；24 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.1（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-10-26。\n1. 我不难过 — 孙燕姿 · 92.93 分\n2. 天龙八部之宿敌 — 许嵩 · 83.68 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.03 分\n4. 恋人 — 李荣浩 · 55.43 分\n5. 我怀念的 — 孙燕姿 · 55.33 分\n6. 雨爱 — 杨丞琳 · 50.58 分\n7. 开始懂了 — 孙燕姿 · 44.95 分\n8. 情歌 — 梁静茹 · 44.10 分\n9. NEON — A2O LITE / A2O · 37.54 分\n10. 失眠 — Suki刘舒妤 · 35.76 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json"
+      "summary": "本月预览：2026-10-01—2026-10-31。\n有效 7/31 天；24 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.1（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 2 个有效日使用了平台历史观察：2026-10-26、2026-10-29。\n1. 我不难过 — 孙燕姿 · 92.97 分\n2. 天龙八部之宿敌 — 许嵩 · 83.99 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 75.81 分\n4. 恋人 — 李荣浩 · 55.53 分\n5. 我怀念的 — 孙燕姿 · 55.28 分\n6. 雨爱 — 杨丞琳 · 50.56 分\n7. 开始懂了 — 孙燕姿 · 44.95 分\n8. 情歌 — 梁静茹 · 44.00 分\n9. NEON — A2O LITE / A2O · 37.54 分\n10. 失眠 — Suki刘舒妤 · 35.67 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json#live",
@@ -303,9 +304,9 @@
       "weekEnd": "2026-11-01",
       "mode": "live",
       "status": "provisional",
-      "revision": "3473ee79387e7fe25f04024fce72f2475d58162d485ba30da1706c45589db9a2",
+      "revision": "2c89678b2a3df775711450f5264ebc1324b69acf396d65831c3d45c67bf451df",
       "publishedAt": "2026-10-25T17:03:37.304Z",
-      "updatedAt": "2026-10-29T07:03:29.683Z",
+      "updatedAt": "2026-10-29T14:17:03.840Z",
       "title": "共振 · 2026-10-26—2026-11-01 本周预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json",
       "coverage": {
@@ -318,7 +319,8 @@
           "2026-10-29"
         ],
         "cachedDates": [
-          "2026-10-26"
+          "2026-10-26",
+          "2026-10-29"
         ],
         "missingDates": [
           "2026-10-30",
@@ -333,8 +335,8 @@
         "comparisonUsesCache": false,
         "sourceCoverage": {
           "available": 6,
-          "fresh": 6,
-          "cached": 0,
+          "fresh": 5,
+          "cached": 1,
           "expected": 6,
           "groups": 4,
           "groupTotal": 4,
@@ -354,7 +356,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 92.4664
+          "score": 92.5478
         },
         {
           "rank": 2,
@@ -363,7 +365,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 83.9707
+          "score": 84.4986
         },
         {
           "rank": 3,
@@ -372,7 +374,7 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 75.0641
+          "score": 74.6722
         },
         {
           "rank": 4,
@@ -381,7 +383,7 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 54.8853
+          "score": 55.0753
         },
         {
           "rank": 5,
@@ -390,7 +392,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 54.8371
+          "score": 54.7594
         },
         {
           "rank": 6,
@@ -408,7 +410,7 @@
           "artists": [
             "薛之谦"
           ],
-          "score": 48.122
+          "score": 49.1673
         },
         {
           "rank": 8,
@@ -417,7 +419,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 47.9518
+          "score": 47.9218
         },
         {
           "rank": 9,
@@ -426,7 +428,7 @@
           "artists": [
             "梁静茹"
           ],
-          "score": 44.0369
+          "score": 43.8543
         },
         {
           "rank": 10,
@@ -438,7 +440,7 @@
           "score": 43.5499
         }
       ],
-      "summary": "本周预览：2026-10-26—2026-11-01。\n有效 4/7 天；3 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.2（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-10-26。\n1. 我不难过 — 孙燕姿 · 92.47 分\n2. 天龙八部之宿敌 — 许嵩 · 83.97 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 75.06 分\n4. 恋人 — 李荣浩 · 54.89 分\n5. 我怀念的 — 孙燕姿 · 54.84 分\n6. 季候风 — 王菲 · 50.70 分\n7. 我好像在哪见过你 — 薛之谦 · 48.12 分\n8. 雨爱 — 杨丞琳 · 47.95 分\n9. 情歌 — 梁静茹 · 44.04 分\n10. 开始懂了 — 孙燕姿 · 43.55 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json"
+      "summary": "本周预览：2026-10-26—2026-11-01。\n有效 4/7 天；3 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.2（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 2 个有效日使用了平台历史观察：2026-10-26、2026-10-29。\n1. 我不难过 — 孙燕姿 · 92.55 分\n2. 天龙八部之宿敌 — 许嵩 · 84.50 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 74.67 分\n4. 恋人 — 李荣浩 · 55.08 分\n5. 我怀念的 — 孙燕姿 · 54.76 分\n6. 季候风 — 王菲 · 50.70 分\n7. 我好像在哪见过你 — 薛之谦 · 49.17 分\n8. 雨爱 — 杨丞琳 · 47.92 分\n9. 情歌 — 梁静茹 · 43.85 分\n10. 开始懂了 — 孙燕姿 · 43.55 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-28.json#live",

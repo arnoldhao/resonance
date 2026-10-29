@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-29T07:03:29.683Z",
+  "fetchedAt": "2026-10-29T14:17:03.840Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-29 08:30:00",
   "entries": [
@@ -1448,7 +1448,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T07:03:29.683Z",
+        "currentObservedAt": "2026-10-29T14:17:03.840Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3139,7 +3139,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T07:03:29.683Z",
+        "currentObservedAt": "2026-10-29T14:17:03.840Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3318,7 +3318,7 @@
       "songId": "e11e60194b291a1fe7db"
     },
     {
-      "sourceId": "7C353B672AC945A3FE56022000A239FE",
+      "sourceId": "FFB654A7E6FD5E2877797D2B8E064518",
       "rank": 96,
       "title": "我是真的爱上你",
       "artists": [
@@ -3326,7 +3326,7 @@
       ],
       "album": null,
       "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121929422914.jpg",
-      "url": "https://www.kugou.com/song/#hash=7C353B672AC945A3FE56022000A239FE",
+      "url": "https://www.kugou.com/song/#hash=FFB654A7E6FD5E2877797D2B8E064518",
       "sourceMovement": {
         "direction": "down",
         "delta": -9,
@@ -4990,7 +4990,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T07:03:29.683Z",
+        "currentObservedAt": "2026-10-29T14:17:03.840Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5207,7 +5207,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T07:03:29.683Z",
+        "currentObservedAt": "2026-10-29T14:17:03.840Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5386,7 +5386,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T07:03:29.683Z",
+        "currentObservedAt": "2026-10-29T14:17:03.840Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7027,7 +7027,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-28",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-29T07:03:29.683Z",
+        "currentObservedAt": "2026-10-29T14:17:03.840Z",
         "previousObservedAt": "2026-10-28T14:00:09.910Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7088,7 +7088,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-29T07:03:29.683Z",
+  "attemptedAt": "2026-10-29T14:17:03.840Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7098,5 +7098,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T07:03:29.683Z"
+  "generatedAt": "2026-10-29T14:17:03.840Z"
 }
