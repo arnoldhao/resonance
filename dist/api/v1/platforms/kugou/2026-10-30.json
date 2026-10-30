@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-30T07:05:08.481Z",
+  "fetchedAt": "2026-10-30T14:06:50.126Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-30 08:30:01",
   "entries": [
@@ -321,8 +321,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "18413731",
+            "hash": "7FAC3E5E4FB9DBE0B63C095A9C2A800F",
+            "url": null
+          }
+        ]
       },
       "songId": "8cfd91d96cfdbcdcdbee"
     },
@@ -344,7 +350,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T07:05:08.481Z",
+        "currentObservedAt": "2026-10-30T14:06:50.126Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -4774,7 +4780,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T07:05:08.481Z",
+        "currentObservedAt": "2026-10-30T14:06:50.126Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5863,7 +5869,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T07:05:08.481Z",
+        "currentObservedAt": "2026-10-30T14:06:50.126Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7041,7 +7047,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-30T07:05:08.481Z",
+  "attemptedAt": "2026-10-30T14:06:50.126Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7051,5 +7057,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T07:05:08.481Z"
+  "generatedAt": "2026-10-30T14:06:50.126Z"
 }
