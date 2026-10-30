@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-30T04:42:30.887Z",
+  "fetchedAt": "2026-10-30T07:05:08.481Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-30 08:30:01",
   "entries": [
@@ -274,7 +274,7 @@
         "迟嘉良"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261026/20261026193054387821.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261030/20261030145628375304.jpg",
       "url": "https://www.kugou.com/song/#hash=27EF9606EC564F439147158B641983D9",
       "sourceMovement": {
         "direction": "up",
@@ -344,7 +344,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T04:42:30.887Z",
+        "currentObservedAt": "2026-10-30T07:05:08.481Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2002,12 +2002,12 @@
         "items": [
           {
             "id": "18408914",
-            "hash": "1297D622D36F0603D48388FCC40B30B5",
+            "hash": "DD51AC7E667D46350EE011C60C9A17A2",
             "url": null
           },
           {
             "id": null,
-            "hash": "C6E47458214C164C1FD077F91949F353",
+            "hash": "E9E1961061D2768AE1B1BF29D7ECDB00",
             "url": null
           }
         ]
@@ -4774,7 +4774,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T04:42:30.887Z",
+        "currentObservedAt": "2026-10-30T07:05:08.481Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5863,7 +5863,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T04:42:30.887Z",
+        "currentObservedAt": "2026-10-30T07:05:08.481Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7041,7 +7041,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-30T04:42:30.887Z",
+  "attemptedAt": "2026-10-30T07:05:08.481Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7051,5 +7051,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T04:42:30.887Z"
+  "generatedAt": "2026-10-30T07:05:08.481Z"
 }
