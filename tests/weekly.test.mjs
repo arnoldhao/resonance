@@ -94,7 +94,7 @@ test('adjacent complete weeks compare published ranks even when collection chang
   const days = [...fullWeek('2026-10-05', [entry('A', 1), entry('B', 2)]), ...fullWeek('2026-10-12', [entry('B', 1), entry('A', 2)])];
   const chart = select(buildWeeklyCharts({ days, asOfDate: '2026-10-19' }), '2026-10-12');
   assert.equal(chart.coverage.comparisonAvailable, true);
-  assert.deepEqual(chart.songs[0].weeklyMovement, { direction: 'up', delta: 1, previousRank: 2, period: 'previous-week', comparisonDate: '2026-10-05' });
+  assert.deepEqual(chart.songs[0].weeklyMovement, { direction: 'up', delta: 1, previousRank: 2, firstEntryDate: '2026-10-05', period: 'previous-week', comparisonDate: '2026-10-05' });
   const preview = select(buildWeeklyCharts({ days, asOfDate: '2026-10-18' }), '2026-10-12');
   assert.equal(preview.coverage.comparisonAvailable, false);
   assert.equal(preview.songs[0].weeklyMovement.direction, 'unknown');

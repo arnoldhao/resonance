@@ -34,7 +34,7 @@ test('platform movement remains independent of the combined daily movement', () 
   const previous = buildSnapshot({ date: '2026-10-22', generatedAt: '2026-10-22T08:00:00Z', sources: makeSources(['A', 'B']), aliases });
   const current = buildSnapshot({ date: '2026-10-23', generatedAt: '2026-10-23T08:00:00Z', sources: makeSources(['B', 'A']), aliases, previous });
   const song = current.songs.find(song => song.title === 'A');
-  assert.deepEqual(song.combinedMovement, { direction: 'down', delta: -1, previousRank: 1, period: 'previous-day', comparisonDate: '2026-10-22' });
+  assert.deepEqual(song.combinedMovement, { direction: 'down', delta: -1, previousRank: 1, firstEntryDate: '2026-10-22', period: 'previous-day', comparisonDate: '2026-10-22' });
   assert.equal(song.platforms[0].sourceMovement.delta, 10);
   assert.equal(song.platforms[0].mv.items[0].id, 'video-id');
   assert.equal(current.sources[0].entries[1].sourceMovement.raw.rank_type, 'up');

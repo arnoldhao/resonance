@@ -1,4 +1,4 @@
-import { effectiveWeights, rankValue, scoringRank, usableSource, sourceObservation } from './ranking.mjs';
+import { effectiveWeights, rankValue, scoringRank, usableSource, sourceObservation, entryHistoryFor, recordChartEntries } from './ranking.mjs';
 
 const DAY = 86_400_000;
 const round = value => Math.round(value * 10_000) / 10_000;
@@ -56,7 +56,7 @@ function rebuildDay(day) {
 }
 
 /** Weeks and calendar months use the same daily candidate pool and coverage rules. */
-function buildPeriodCharts({ days, asOfDate }, monthly) {
+function buildPeriodCharts({ days, asOfDate, entryHistory = { charts: {} } }, monthly) {
   const startOf = monthly ? monthStart : monday;
   const generatedAt = new Date().toISOString();
   const latestByDate = new Map();
@@ -116,10 +116,15 @@ function buildPeriodCharts({ days, asOfDate }, monthly) {
     const previousStart = monthly ? nextMonth(weekStart, -1) : addDays(weekStart, -7);
     const comparable = status === 'complete' && priorWeek?.status === 'complete' && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode;
     const previousSongs = new Map((comparable ? priorWeek.songs : []).map(song => [song.id, song]));
-    const songs = [...candidates.values()].filter(song => song.total > 0).sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100).map((song, index) => {
+    const ranked = [...candidates.values()].filter(song => song.total > 0).sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100);
+    const chartHistory = entryHistoryFor(entryHistory, mode, monthly ? 'monthly' : 'weekly');
+    // A preview's transient Top 100 does not count as an entry in a finished period chart.
+    if (status !== 'provisional') recordChartEntries(chartHistory, weekStart, ranked);
+    const songs = ranked.map((song, index) => {
       const rank = index + 1;
       const previousRank = previousSongs.get(song.id)?.rank ?? null;
       const delta = previousRank === null ? null : previousRank - rank;
+      const firstEntryDate = chartHistory.firstSeen[song.id] ?? null;
       return {
         id: song.id, title: song.title, artists: song.artists, artwork: song.artwork,
         rank, score: round(song.total / included.length), daysOnChart: song.daysOnChart,
@@ -127,17 +132,17 @@ function buildPeriodCharts({ days, asOfDate }, monthly) {
         dailyScores: included.map(day => ({ date: day.date, score: round(day.songs.get(song.id)?.score ?? 0) })),
         previousRank, delta,
         [monthly ? 'monthlyMovement' : 'weeklyMovement']: {
-          direction: !comparable ? 'unknown' : previousRank === null ? 'new' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
-          delta, previousRank, period: monthly ? 'previous-month' : 'previous-week', comparisonDate: comparable ? previousStart : null,
+          direction: !comparable ? 'unknown' : previousRank === null ? (firstEntryDate < weekStart ? 'reentry' : 'new') : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
+          delta, previousRank, firstEntryDate, period: monthly ? 'previous-month' : 'previous-week', comparisonDate: comparable ? previousStart : null,
         },
       };
     });
     const sourceCoverage = reference ? Object.fromEntries(['available', 'fresh', 'cached', 'expected', 'groups', 'groupTotal', 'status'].map(key => [key, reference.coverage[key]])) : null;
     weeks.push({
       ...(monthly ? { month: weekStart.slice(0, 7), monthStart: weekStart, monthEnd: weekEnd } : { weekStart, weekEnd }),
-      mode, generatedAt, asOfDate, status,
+      mode, generatedAt, asOfDate, status, entryHistoryStart: chartHistory.since,
       methodology: {
-        version: monthly ? 'monthly-1.1' : 'weekly-1.2',
+        version: monthly ? 'monthly-1.2' : 'weekly-1.3',
         baseVersion: baseVersions.length === 1 ? baseVersions[0] : null, baseVersions,
         aggregationPolicy: 'each-day-original-method',
         dailyMethods: included.map(day => ({ date: day.date, version: day.methodology.version, comparisonSignature: day.comparisonSignature })),

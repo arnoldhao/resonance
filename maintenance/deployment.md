@@ -38,3 +38,5 @@ Repository variables：
 需要 Node.js 22 或以上。`npm run collect` 采集，`npm run preview` 本地预览，`npm run build` 构建生产文件。预览使用 `.preview/`，生产使用 `dist/`。
 
 `npm run backfill -- --days 30` 回填今天之前 30 天的 QQ、酷狗原榜；可用 `--end YYYY-MM-DD` 指定截止日。数据保存在 `data/platform-history/`，提交后由 Actions 构建平台历史 API。
+
+`data/entry-history.json` 为首次入榜／重返榜单的增量索引，随 `data/` 一并提交。日常采集只读取索引与既有近期快照；缺少索引或别名配置变化时自动从已发布日榜和达到发布门槛的采样记录初始化。正常构建补齐已结束的周／月榜索引，预览构建不写入；`npm run recompute` 重建日榜时同步维护索引。

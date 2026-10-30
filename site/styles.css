@@ -92,7 +92,7 @@ h1,h2,h3,p{margin:0}
 .rank-change{font:10px var(--number);min-width:19px;display:flex;align-items:center;justify-content:center}
 .rank-change.up{color:var(--positive)}
 .rank-change.down{color:#e4b8a8}
-.rank-change.new{color:var(--accent);font-size:10px;letter-spacing:-.3px}
+.rank-change.new,.rank-change.reentry{color:var(--accent);font-size:10px;letter-spacing:-.3px}
 .rank-change.same{color:var(--muted)}
 .song-cell{display:flex;align-items:center;gap:14px;min-width:0}
 .cover{width:47px;height:47px;flex-shrink:0;position:relative;overflow:hidden;background:var(--cover-bg,var(--muted));display:flex;align-items:center;justify-content:center}
@@ -318,7 +318,7 @@ h1,h2,h3,p{margin:0}
 .rank-cell{gap:5px}
 .rank-number{font-size:20px;min-width:25px;letter-spacing:-1.5px}
 .rank-change{font-size:10px;min-width:12px}
-.rank-change.new{font-size:10px;writing-mode:vertical-rl;letter-spacing:.3px}
+.rank-change.new,.rank-change.reentry{font-size:10px;writing-mode:vertical-rl;letter-spacing:.3px}
 .song-cell{gap:10px}
 .cover{width:40px;height:40px}
 .cover span{font-size:15px}
@@ -538,7 +538,7 @@ h1,h2,h3,p{margin:0}
 .source-movement{font:11px/1.6 var(--number)}
 .source-movement.up{color:var(--positive)}
 .source-movement.down{color:#e4b8a8}
-.source-movement.new{color:var(--accent)}
+.source-movement.new,.source-movement.reentry{color:var(--accent)}
 .source-movement.same,.source-movement.unknown,.rank-change.unknown{color:var(--muted)}
 .song-mv-badge{display:inline-flex;align-items:center;gap:3px;flex-shrink:0;border:1px solid #dce7f22d;border-radius:4px;color:var(--muted);font:10px/1.1 var(--number);padding:3px 4px;vertical-align:2px;margin-left:7px;letter-spacing:.3px;white-space:nowrap}
 .song-mv-badge svg{width:8px;height:8px;fill:currentColor}
@@ -714,7 +714,7 @@ h1,h2,h3,p{margin:0}
 .weekly-table-head>span:nth-child(3),.weekly-row>.weekly-days-cell{display:none}
 .weekly-mobile-days{display:block}
 .weekly-row .rank-change{font-size:9px}
-.weekly-row .rank-change.new{font-size:9px}
+.weekly-row .rank-change.new,.weekly-row .rank-change.reentry{font-size:9px}
 .weekly-exclusions li{gap:12px;font-size:10px}
 .weekly-exclusions time{font-size:10px}
 .weekly-method-note{margin-top:20px}
@@ -888,7 +888,7 @@ html:has(.song-dialog[open]){overflow:hidden;overscroll-behavior:none}
 }
 
 /* Daily movement views and calendar-month summaries reuse the existing chart layout. */
-.movement-controls{display:flex;gap:8px;margin:2px 0 16px}
+.movement-controls{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 16px}
 .movement-controls button{padding:7px 14px;border:1px solid var(--line);border-radius:8px;background:none;color:var(--muted);font-size:12px}
 .movement-controls button[aria-pressed=true]{background:#dce7f20b;border-color:#dce7f244;color:var(--accent)}
 .movement-ranks{font:11px var(--number);color:var(--muted)}

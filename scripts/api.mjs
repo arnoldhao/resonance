@@ -14,6 +14,7 @@ const chartResponse = snapshot => ({
   coverage: snapshot.coverage,
   methodology: snapshot.methodology,
   comparisonSignature: snapshot.comparisonSignature,
+  entryHistoryStart: snapshot.entryHistoryStart,
   sources: snapshot.sources.map(sourceSummary),
   songs: snapshot.songs,
 });

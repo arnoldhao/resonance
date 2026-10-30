@@ -3,7 +3,8 @@ import { existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { providers, collectProvider } from './providers.mjs';
-import { chinaDate, priorDate, validateChart, buildSnapshot, sourceFreshnessIssue } from './ranking.mjs';
+import { chinaDate, priorDate, validateChart, buildSnapshot, sourceFreshnessIssue, entryHistoryFor } from './ranking.mjs';
+import { loadEntryHistory, saveEntryHistory } from './entry-history.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const readJSON = async path => JSON.parse(await readFile(path, 'utf8'));
@@ -15,6 +16,7 @@ const aliases = await readJSON(resolve(root, 'config/aliases.json'));
 const importDirectory = resolve(root, 'imports', date);
 const dailyDirectory = resolve(root, 'data/daily');
 await mkdir(dailyDirectory, { recursive: true });
+const entryIndex = await loadEntryHistory(resolve(root, 'data'), aliases);
 const dailyFiles = (await readdir(dailyDirectory)).filter(name => /^\d{4}-\d{2}-\d{2}\.json$/.test(name) && name.slice(0, 10) <= date).sort().slice(-14);
 const dailyObservations = await Promise.all(dailyFiles.map(async name => ({ snapshot: await readJSON(resolve(dailyDirectory, name)), path: `data/daily/${name}` })));
 const history = dailyObservations.map(item => item.snapshot).filter(day => day.date < date).slice(-13);
@@ -66,7 +68,7 @@ const sources = results.map((result, index) => {
   };
 });
 const previous = history.find(day => day.date === priorDate(date));
-const snapshot = buildSnapshot({ date, generatedAt, sources, aliases, previous, history });
+const snapshot = buildSnapshot({ date, generatedAt, sources, aliases, previous, history, entryHistory: entryHistoryFor(entryIndex, 'live', 'daily') });
 const runId = generatedAt.replace(/[:.]/g, '-');
 await writeJSON(resolve(root, `data/runs/${date}/${runId}.json`), snapshot);
 const published = snapshot.coverage.status !== 'insufficient';
@@ -75,6 +77,7 @@ await writeJSON(resolve(root, 'data/status.json'), status);
 if (published) {
   await writeJSON(resolve(dailyDirectory, `${date}.json`), snapshot);
   await writeJSON(resolve(root, 'data/latest.json'), snapshot);
+  await saveEntryHistory(resolve(root, 'data'), entryIndex);
   const dates = (await readdir(dailyDirectory)).filter(name => /^\d{4}-\d{2}-\d{2}\.json$/.test(name)).map(name => name.slice(0, 10)).sort().reverse();
   await writeJSON(resolve(root, 'data/dates.json'), { dates });
 }

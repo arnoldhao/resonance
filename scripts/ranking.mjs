@@ -75,12 +75,28 @@ export function identify(entry, providerId, aliases) {
   return { id: override?.id ?? createHash('sha256').update(key).digest('hex').slice(0, 20), title, artists };
 }
 
-// Compare published ranks directly; expanding collection does not reset yesterday's baseline.
-export function withCombinedMovements(snapshot, previous) {
+export function entryHistoryFor(index, mode, period) {
+  return index.charts[`${mode}:${period}`] ??= { since: null, firstSeen: {} };
+}
+
+export function recordChartEntries(history, date, songs) {
+  if (!songs.length) return;
+  if (history.since === null || date < history.since) history.since = date;
+  for (const song of songs) {
+    const first = history.firstSeen[song.id];
+    if (!first || date < first) history.firstSeen[song.id] = date;
+  }
+}
+
+// Compare published ranks directly; the persistent index remembers entries beyond the trend window.
+export function withCombinedMovements(snapshot, previous, entryHistory = { since: null, firstSeen: {} }) {
   const comparable = previous?.mode === snapshot.mode && previous.date === priorDate(snapshot.date);
   const previousSongs = new Map((comparable ? previous.songs : []).map(song => [song.id, song]));
+  if (comparable) recordChartEntries(entryHistory, previous.date, previous.songs);
+  recordChartEntries(entryHistory, snapshot.date, snapshot.songs);
   return {
     ...snapshot,
+    entryHistoryStart: entryHistory.since,
     coverage: { ...snapshot.coverage,
       comparisonAvailable: Boolean(comparable),
       comparisonUsesCache: Boolean(comparable && [...snapshot.sources, ...previous.sources].some(source => source.status === 'stale')),
@@ -88,9 +104,10 @@ export function withCombinedMovements(snapshot, previous) {
     songs: snapshot.songs.map(song => {
       const previousRank = previousSongs.get(song.id)?.rank ?? null;
       const delta = previousRank === null ? null : previousRank - song.rank;
+      const firstEntryDate = entryHistory.firstSeen[song.id];
       return { ...song, previousRank, delta, combinedMovement: {
-        direction: !comparable ? 'unknown' : previousRank === null ? 'new' : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
-        delta, previousRank, period: 'previous-day', comparisonDate: comparable ? previous.date : null,
+        direction: !comparable ? 'unknown' : previousRank === null ? (firstEntryDate < snapshot.date ? 'reentry' : 'new') : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
+        delta, previousRank, firstEntryDate, period: 'previous-day', comparisonDate: comparable ? previous.date : null,
       } };
     }),
   };
@@ -140,10 +157,11 @@ export function buildMovementChart(snapshot) {
     .map((song, index) => ({ ...song, movementRank: index + 1 }));
   return {
     schemaVersion: 1, mode: snapshot.mode, date: snapshot.date, generatedAt: snapshot.generatedAt,
-    methodology: { version: 'movement-1.0', basis: 'combined-rank', scope: 'current-top-100', formula: '昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；新入榜单列' },
+    methodology: { version: 'movement-1.1', basis: 'combined-rank', scope: 'current-top-100', formula: '昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；首次入榜与重返榜单分别单列' },
+    entryHistoryStart: snapshot.entryHistoryStart,
     comparisonDate: comparable ? priorDate(snapshot.date) : null,
     comparisonSignature: snapshot.comparisonSignature, coverage: snapshot.coverage,
-    rising: select('up'), falling: select('down'), newEntries: select('new'),
+    rising: select('up'), falling: select('down'), newEntries: select('new'), reentries: select('reentry'),
     unchangedCount: comparable ? snapshot.songs.filter(song => song.combinedMovement?.direction === 'same').length : 0,
   };
 }
@@ -205,7 +223,7 @@ export function validateChart(chart, provider, date, { editionDate } = {}) {
   return { ...chart, entries: rows.map(row => ({ ...row, sourceId: String(row.sourceId) })) };
 }
 
-export function buildSnapshot({ date, generatedAt, sources, aliases, previous, history = [], mode = 'live', rule = methodology }) {
+export function buildSnapshot({ date, generatedAt, sources, aliases, previous, history = [], entryHistory, mode = 'live', rule = methodology }) {
   const available = sources.filter(usableSource);
   const cached = available.filter(source => source.status === 'stale').length;
   const groups = [...new Set(available.map(source => source.group))];
@@ -242,5 +260,5 @@ export function buildSnapshot({ date, generatedAt, sources, aliases, previous, h
     schemaVersion: 1, mode, date, generatedAt, methodology: rule, comparisonSignature: signature,
     coverage: { available: available.length, fresh: available.length - cached, cached, expected: sources.length, groups: groups.length, groupTotal: Object.keys(rule.groupWeights).length, status: groups.length < rule.minimumGroups ? 'insufficient' : available.length === sources.length ? 'complete' : 'partial' },
     sources: decoratedSources, songs: ranked,
-  }, previous), previous), history);
+  }, previous, entryHistory), previous), history);
 }
