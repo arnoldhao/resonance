@@ -96,8 +96,9 @@ test('adjacent complete weeks compare published ranks even when collection chang
   assert.equal(chart.coverage.comparisonAvailable, true);
   assert.deepEqual(chart.songs[0].weeklyMovement, { direction: 'up', delta: 1, previousRank: 2, firstEntryDate: '2026-10-05', period: 'previous-week', comparisonDate: '2026-10-05' });
   const preview = select(buildWeeklyCharts({ days, asOfDate: '2026-10-18' }), '2026-10-12');
-  assert.equal(preview.coverage.comparisonAvailable, false);
-  assert.equal(preview.songs[0].weeklyMovement.direction, 'unknown');
+  assert.equal(preview.status, 'provisional');
+  assert.equal(preview.coverage.comparisonAvailable, true);
+  assert.equal(preview.songs[0].weeklyMovement.direction, 'up');
   const changed = days.map(d => d.date >= '2026-10-12' ? { ...d, comparisonSignature: '1.1|different|a,b' } : d);
   assert.equal(select(buildWeeklyCharts({ days: changed, asOfDate: '2026-10-19' }), '2026-10-12').coverage.comparisonAvailable, true);
   const mixedDays = days.map((day, index) => index % 7 === 0 ? { ...day, comparisonSignature: '1.0|old|a,b' } : day);
@@ -109,6 +110,28 @@ test('adjacent complete weeks compare published ranks even when collection chang
   assert.equal(mixed.coverage.comparisonAvailable, true);
   const gap = [...fullWeek('2026-10-05', [entry('A', 1)]), ...fullWeek('2026-10-19', [entry('A', 1)])];
   assert.equal(select(buildWeeklyCharts({ days: gap, asOfDate: '2026-10-26' }), '2026-10-19').coverage.comparisonAvailable, false);
+});
+
+test('the startup week remains a baseline for previews and incomplete finished weeks', () => {
+  const days = [
+    ...Array.from({ length: 3 }, (_, i) => day(plus('2026-10-23', i), [entry('A', 1), entry('B', 2)])),
+    day('2026-10-26', [entry('B', 1), entry('A', 2), entry('N', 3)]),
+  ];
+  for (const asOfDate of ['2026-10-26', '2026-11-02']) {
+    const chart = select(buildWeeklyCharts({ days, asOfDate }), '2026-10-26');
+    assert.equal(chart.status, asOfDate === '2026-10-26' ? 'provisional' : 'incomplete');
+    assert.equal(chart.coverage.comparisonAvailable, true);
+    assert.equal(chart.coverage.comparisonUsesIncomplete, true);
+    assert.deepEqual(chart.coverage.comparisonBaseline, { periodStart: '2026-10-19', status: 'incomplete', observedDays: 3, expectedDays: 7 });
+    assert.equal(chart.songs[0].weeklyMovement.previousRank, 2);
+    assert.equal(chart.songs[0].weeklyMovement.delta, 1);
+    assert.equal(chart.songs[0].weeklyMovement.comparisonDate, '2026-10-19');
+    assert.equal(chart.songs.find(song => song.id === 'N').weeklyMovement.direction, 'new');
+  }
+  const emptyBaseline = [day('2026-10-23', [], { sources: [source('a', 'a', [entry('A', 1)])] }), days.at(-1)];
+  const chart = select(buildWeeklyCharts({ days: emptyBaseline, asOfDate: '2026-10-26' }), '2026-10-26');
+  assert.equal(chart.coverage.comparisonAvailable, false);
+  assert.equal(chart.coverage.comparisonBaseline, null);
 });
 
 test('empty current preview and excluded closed week remain explainable', () => {

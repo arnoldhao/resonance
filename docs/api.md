@@ -82,7 +82,7 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 - 周涨跌页面按 `weeklyMovement.direction` 分上升、下降、首次入榜、重返榜单，再按变化幅度排序；页面的 `movementRank` 为分类排名，`rank` 始终为本周综合名次。下载仍使用当期周榜 JSON，包含全部歌曲及涨跌字段。
 - `songs[].platforms[].observedDate`：该平台元数据真实观察日期，沿用不刷新；`includedDate` 是最近采用这份观察计算日分的日期。
 
-周榜平台名次是该观察日的名次，周得分是各有效日按原公式计算后的平均分。日期完整可包含公式切换；相邻两周均完整且数据模式相同时，即比较已发布名次，不因采集范围变化而停止比较。完整规则见[周榜方法](weekly.md)。
+周榜平台名次是该观察日的名次，周得分是各有效日按原公式计算后的平均分。日期完整可包含公式切换；本周已有歌曲、相邻上周有同一数据模式的有效榜单时，即比较本周当前名次与上周已有名次；预览、缺日和采集范围变化不阻止比较。完整规则见[周榜方法](weekly.md)。
 
 ## 综合月榜
 
@@ -91,10 +91,10 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 - `monthStart/monthEnd`：北京时间自然月首末日；`coverage.expectedDays` 按月份实际天数计算。
 - `status`：`provisional` 本月预览、`complete` 完整月、`incomplete` 已结束但存在缺失或排除日。
 - `score`：各有效日按当时保存公式计算的分数平均值，公式升级前日期继续纳入；有效日未出现歌曲记 0，缺失或排除日不计分母。同一自然日只取最后一期，不平均周榜。`baseVersions/dailyMethods/mixedMethods/mixedSignatures` 的含义与周榜相同。
-- `monthlyMovement`：相邻两个完整自然月且数据模式相同时比较，`period: previous-month`，`comparisonDate` 为上月 1 日。
+- `monthlyMovement`：本月已有歌曲、相邻上月有同一数据模式的有效榜单时比较，预览与缺日月份也参与，`period: previous-month`，`comparisonDate` 为上月 1 日。
 - 月涨跌页面按 `monthlyMovement.direction` 分类、按变化幅度排序，保留本月与上月综合名次；下载当月 JSON 即可读取完整涨跌字段。周／月页面在 `coverage.comparisonAvailable` 为 `false` 时显示原因，后续为 `true` 时自动展示。
 
-完整规则见[月榜方法](monthly.md)。
+周／月榜的 `coverage.comparisonBaseline` 为 `{periodStart, status, observedDays, expectedDays}`，保留实际采用的上期基准；不可比较时为 `null`。`comparisonUsesIncomplete` 标记本期或上期未覆盖完整周期。两期缺日仍按已有榜单计算，预览中首次与重返的标记随名次更新，预览不写入历史入榜索引。完整规则见[月榜方法](monthly.md)。
 
 ## 更新频率观察
 

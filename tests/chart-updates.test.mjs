@@ -97,7 +97,7 @@ test('calendar months respect leap years and use the last snapshot per date with
   assert.equal(month.songs.some(song => song.title === 'A'), false);
 });
 
-test('monthly comparison requires adjacent complete calendar months and retains collection changes', () => {
+test('monthly comparison uses adjacent calendar months, including previews, and retains collection changes', () => {
   const days = [];
   for (let index = 0; index < 59; index++) {
     const date = new Date(Date.parse('2027-01-01T00:00:00Z') + index * 86_400_000).toISOString().slice(0, 10);
@@ -110,7 +110,8 @@ test('monthly comparison requires adjacent complete calendar months and retains 
   assert.equal(closed.songs[0].monthlyMovement.comparisonDate, '2027-01-01');
   const preview = buildMonthlyCharts({ days, asOfDate: '2027-02-28' })[0];
   assert.equal(preview.status, 'provisional');
-  assert.equal(preview.coverage.comparisonAvailable, false);
+  assert.equal(preview.coverage.comparisonAvailable, true);
+  assert.equal(preview.songs[0].monthlyMovement.delta, 1);
   days[31].comparisonSignature = 'different';
   const mixed = buildMonthlyCharts({ days, asOfDate: '2027-03-01' }).find(chart => chart.month === '2027-02');
   assert.equal(mixed.status, 'complete');
@@ -119,6 +120,25 @@ test('monthly comparison requires adjacent complete calendar months and retains 
   assert.equal(mixed.coverage.mixedSignatures, true);
   assert.equal(mixed.comparisonSignature, null);
   assert.equal(mixed.coverage.comparisonAvailable, true);
+});
+
+test('November uses the partial startup October as soon as November has a daily chart', () => {
+  const days = [
+    ...Array.from({ length: 9 }, (_, i) => day(`2026-10-${23 + i}`, ['A', 'B', 'C'])),
+    day('2026-11-01', ['B', 'A', 'C']),
+  ];
+  for (const asOfDate of ['2026-11-01', '2026-12-01']) {
+    const chart = buildMonthlyCharts({ days, asOfDate }).find(chart => chart.month === '2026-11');
+    assert.equal(chart.status, asOfDate === '2026-11-01' ? 'provisional' : 'incomplete');
+    assert.equal(chart.coverage.comparisonAvailable, true);
+    assert.equal(chart.coverage.comparisonUsesIncomplete, true);
+    assert.deepEqual(chart.coverage.comparisonBaseline, { periodStart: '2026-10-01', status: 'incomplete', observedDays: 9, expectedDays: 31 });
+    assert.equal(chart.songs[0].monthlyMovement.previousRank, 2);
+    assert.equal(chart.songs[0].monthlyMovement.delta, 1);
+    assert.equal(chart.songs[0].monthlyMovement.comparisonDate, '2026-10-01');
+  }
+  const noOctober = buildMonthlyCharts({ days: days.slice(-1), asOfDate: '2026-11-01' }).find(chart => chart.month === '2026-11');
+  assert.equal(noOctober.coverage.comparisonAvailable, false);
 });
 
 test('cadence ignores refreshed timestamps, counts actual order changes and deduplicates observations', () => {

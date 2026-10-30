@@ -114,9 +114,10 @@ function buildPeriodCharts({ days, asOfDate, entryHistory = { charts: {} } }, mo
     const status = weekEnd >= asOfDate ? 'provisional' : included.length === expectedDays ? 'complete' : 'incomplete';
     const priorWeek = weeks.at(-1);
     const previousStart = monthly ? nextMonth(weekStart, -1) : addDays(weekStart, -7);
-    const comparable = status === 'complete' && priorWeek?.status === 'complete' && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode;
-    const previousSongs = new Map((comparable ? priorWeek.songs : []).map(song => [song.id, song]));
     const ranked = [...candidates.values()].filter(song => song.total > 0).sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100);
+    const comparable = ranked.length > 0 && priorWeek?.songs.length > 0 && priorWeek.status !== 'provisional'
+      && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode;
+    const previousSongs = new Map((comparable ? priorWeek.songs : []).map(song => [song.id, song]));
     const chartHistory = entryHistoryFor(entryHistory, mode, monthly ? 'monthly' : 'weekly');
     // A preview's transient Top 100 does not count as an entry in a finished period chart.
     if (status !== 'provisional') recordChartEntries(chartHistory, weekStart, ranked);
@@ -132,7 +133,7 @@ function buildPeriodCharts({ days, asOfDate, entryHistory = { charts: {} } }, mo
         dailyScores: included.map(day => ({ date: day.date, score: round(day.songs.get(song.id)?.score ?? 0) })),
         previousRank, delta,
         [monthly ? 'monthlyMovement' : 'weeklyMovement']: {
-          direction: !comparable ? 'unknown' : previousRank === null ? (firstEntryDate < weekStart ? 'reentry' : 'new') : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
+          direction: !comparable ? 'unknown' : previousRank === null ? (firstEntryDate !== null && firstEntryDate < weekStart ? 'reentry' : 'new') : delta > 0 ? 'up' : delta < 0 ? 'down' : 'same',
           delta, previousRank, firstEntryDate, period: monthly ? 'previous-month' : 'previous-week', comparisonDate: comparable ? previousStart : null,
         },
       };
@@ -142,7 +143,7 @@ function buildPeriodCharts({ days, asOfDate, entryHistory = { charts: {} } }, mo
       ...(monthly ? { month: weekStart.slice(0, 7), monthStart: weekStart, monthEnd: weekEnd } : { weekStart, weekEnd }),
       mode, generatedAt, asOfDate, status, entryHistoryStart: chartHistory.since,
       methodology: {
-        version: monthly ? 'monthly-1.2' : 'weekly-1.3',
+        version: monthly ? 'monthly-1.3' : 'weekly-1.4',
         baseVersion: baseVersions.length === 1 ? baseVersions[0] : null, baseVersions,
         aggregationPolicy: 'each-day-original-method',
         dailyMethods: included.map(day => ({ date: day.date, version: day.methodology.version, comparisonSignature: day.comparisonSignature })),
@@ -157,7 +158,10 @@ function buildPeriodCharts({ days, asOfDate, entryHistory = { charts: {} } }, mo
         observedDays: included.length, expectedDays, includedDates, cachedDates, missingDates, excludedDates,
         latestIncludedDate: includedDates.at(-1) ?? null,
         mixedMethods: baseVersions.length > 1, mixedSignatures: signatures.length > 1,
-        comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cachedDates.length || priorWeek.coverage.cachedDates.length)), sourceCoverage,
+        comparisonAvailable: Boolean(comparable), comparisonUsesCache: Boolean(comparable && (cachedDates.length || priorWeek.coverage.cachedDates.length)),
+        comparisonUsesIncomplete: Boolean(comparable && (included.length < expectedDays || priorWeek.coverage.observedDays < priorWeek.coverage.expectedDays)),
+        comparisonBaseline: comparable ? { periodStart: previousStart, status: priorWeek.status, observedDays: priorWeek.coverage.observedDays, expectedDays: priorWeek.coverage.expectedDays } : null,
+        sourceCoverage,
       },
       songs,
     });
