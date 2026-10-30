@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-10-30T04:10:35.762Z",
+  "fetchedAt": "2026-10-30T04:25:44.436Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-10-30 08:30:01",
   "entries": [
@@ -344,7 +344,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T04:10:35.762Z",
+        "currentObservedAt": "2026-10-30T04:25:44.436Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2001,8 +2001,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "18000652",
-            "hash": "7D26B7C1AC1E7046CE1CC675327CAFA7",
+            "id": "18408914",
+            "hash": "989AE63D05227BFA26D46AD49AEAA5C2",
             "url": null
           },
           {
@@ -3371,8 +3371,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "18299758",
-            "hash": "1906BAA25CAE917156C7F6B1CAA60351",
+            "id": "18301616",
+            "hash": "0F24BE1FB10DD17D42EDD9516EF1DA3E",
             "url": null
           }
         ]
@@ -4774,7 +4774,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T04:10:35.762Z",
+        "currentObservedAt": "2026-10-30T04:25:44.436Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5863,7 +5863,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-10-30T04:10:35.762Z",
+        "currentObservedAt": "2026-10-30T04:25:44.436Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7041,7 +7041,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-30T04:10:35.762Z",
+  "attemptedAt": "2026-10-30T04:25:44.436Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7051,5 +7051,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T04:10:35.762Z"
+  "generatedAt": "2026-10-30T04:25:44.436Z"
 }
