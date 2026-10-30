@@ -2,11 +2,12 @@
   "weekStart": "2026-10-26",
   "weekEnd": "2026-11-01",
   "mode": "live",
-  "generatedAt": "2026-10-30T04:42:35.315Z",
+  "generatedAt": "2026-10-30T05:30:08.885Z",
   "asOfDate": "2026-10-30",
   "status": "provisional",
+  "entryHistoryStart": "2026-10-19",
   "methodology": {
-    "version": "weekly-1.2",
+    "version": "weekly-1.4",
     "baseVersion": "1.4",
     "baseVersions": [
       "1.4"
@@ -92,8 +93,15 @@
     "latestIncludedDate": "2026-10-30",
     "mixedMethods": false,
     "mixedSignatures": true,
-    "comparisonAvailable": false,
-    "comparisonUsesCache": false,
+    "comparisonAvailable": true,
+    "comparisonUsesCache": true,
+    "comparisonUsesIncomplete": true,
+    "comparisonBaseline": {
+      "periodStart": "2026-10-19",
+      "status": "incomplete",
+      "observedDays": 3,
+      "expectedDays": 7
+    },
     "sourceCoverage": {
       "available": 6,
       "fresh": 6,
@@ -387,14 +395,15 @@
           "score": 91.8838
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 1,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 1,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -679,14 +688,15 @@
           "score": 85.9411
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 2,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 2,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -927,14 +937,15 @@
           "score": 73.3932
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 3,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 3,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -1219,14 +1230,15 @@
           "score": 55.5129
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 4,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 4,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -1511,14 +1523,15 @@
           "score": 55.369
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 5,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 5,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -1769,11 +1782,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -2061,11 +2075,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -2350,14 +2365,15 @@
           "score": 44.0534
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 6,
+      "delta": -2,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 6,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -2647,14 +2663,15 @@
           "score": 42.8585
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 7,
+      "delta": -2,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 7,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -2835,14 +2852,15 @@
           "score": 61.1531
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 34,
+      "delta": 24,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 24,
+        "previousRank": 34,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -3127,14 +3145,15 @@
           "score": 39.8113
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 8,
+      "delta": -3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 8,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -3342,14 +3361,15 @@
           "score": 32.9601
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 9,
+      "delta": -3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 9,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -3590,14 +3610,15 @@
           "score": 32.3491
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 10,
+      "delta": -3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 10,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -3844,14 +3865,15 @@
           "score": 35.7325
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 13,
+      "delta": -1,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 13,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -4136,14 +4158,15 @@
           "score": 36.2658
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 21,
+      "delta": 6,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 21,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -4342,14 +4365,15 @@
           "score": 33.3544
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 14,
+      "delta": -2,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 14,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -4639,14 +4663,15 @@
           "score": 32.3705
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 11,
+      "delta": -6,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 11,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -4844,14 +4869,15 @@
           "score": 28.2187
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 15,
+      "delta": -3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 15,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -5092,14 +5118,15 @@
           "score": 25.3218
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 12,
+      "delta": -7,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 12,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -5171,14 +5198,15 @@
           "score": 28.9413
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 16,
+      "delta": -4,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 16,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -5339,14 +5367,15 @@
           "score": 31.0762
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 37,
+      "delta": 16,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 16,
+        "previousRank": 37,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -5501,14 +5530,15 @@
           "score": 26.0723
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 26,
+      "delta": 4,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 26,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -5755,14 +5785,15 @@
           "score": 25.7798
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 18,
+      "delta": -5,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 18,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -6035,14 +6066,15 @@
           "score": 27.7009
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 17,
+      "delta": -7,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 17,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -6289,14 +6321,15 @@
           "score": 25.3327
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 20,
+      "delta": -5,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 20,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -6368,14 +6401,15 @@
           "score": 27.9241
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 29,
+      "delta": 3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 29,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -6582,14 +6616,15 @@
           "score": 24.3112
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 19,
+      "delta": -8,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 19,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -6752,14 +6787,15 @@
           "score": 22.8654
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 32,
+      "delta": 4,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 32,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -6832,14 +6868,15 @@
           "score": 21.0986
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 30,
+      "delta": 1,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 30,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -6911,14 +6948,15 @@
           "score": 22.606
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 27,
+      "delta": -3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 27,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -7032,14 +7070,15 @@
           "score": 20.7258
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 22,
+      "delta": -9,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -9,
+        "previousRank": 22,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -7111,14 +7150,15 @@
           "score": 17.8179
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 56,
+      "delta": 24,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 24,
+        "previousRank": 56,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -7361,14 +7401,15 @@
           "score": 20.4068
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 33,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 33,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -7537,14 +7578,15 @@
           "score": 20.7706
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 23,
+      "delta": -11,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 23,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -7731,14 +7773,15 @@
           "score": 26.1989
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 25,
+      "delta": -10,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -10,
+        "previousRank": 25,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -8028,14 +8071,15 @@
           "score": 20.1046
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 24,
+      "delta": -12,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -12,
+        "previousRank": 24,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -8196,14 +8240,15 @@
           "score": 18.6905
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 40,
+      "delta": 3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 40,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -8358,14 +8403,15 @@
           "score": 17.4789
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 44,
+      "delta": 6,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 44,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -8613,14 +8659,15 @@
           "score": 20.0802
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 31,
+      "delta": -8,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 31,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -8693,14 +8740,15 @@
           "score": 19.7072
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 53,
+      "delta": 13,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 13,
+        "previousRank": 53,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -8781,11 +8829,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -8905,14 +8954,15 @@
           "score": 17.9014
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 46,
+      "delta": 4,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 46,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -9159,14 +9209,15 @@
           "score": 18.5113
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 39,
+      "delta": -4,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 39,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -9373,14 +9424,15 @@
           "score": 16.065
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 36,
+      "delta": -8,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 36,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -9549,14 +9601,15 @@
           "score": 16.0401
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 35,
+      "delta": -10,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -10,
+        "previousRank": 35,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -9629,14 +9682,15 @@
           "score": 7.4631
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 28,
+      "delta": -18,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -18,
+        "previousRank": 28,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -9884,14 +9938,15 @@
           "score": 17.0745
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 47,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 47,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -10013,14 +10068,15 @@
           "score": 16.8817
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 50,
+      "delta": 2,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 50,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -10092,14 +10148,15 @@
           "score": 12.5433
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 41,
+      "delta": -8,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 41,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -10246,11 +10303,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -10535,14 +10593,15 @@
           "score": 16.6114
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 82,
+      "delta": 31,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 31,
+        "previousRank": 82,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -10621,14 +10680,15 @@
           "score": 12.1691
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 75,
+      "delta": 23,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 23,
+        "previousRank": 75,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -10822,14 +10882,15 @@
           "score": 15.3239
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 68,
+      "delta": 15,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 15,
+        "previousRank": 68,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -10988,14 +11049,15 @@
           "score": 14.2981
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 42,
+      "delta": -12,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -12,
+        "previousRank": 42,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -11205,14 +11267,15 @@
           "score": 15.105
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 52,
+      "delta": -3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 52,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -11419,14 +11482,15 @@
           "score": 15.5623
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 49,
+      "delta": -7,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 49,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -11674,14 +11738,15 @@
           "score": 14.9878
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 55,
+      "delta": -2,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 55,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -11928,14 +11993,15 @@
           "score": 14.9146
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 78,
+      "delta": 20,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 20,
+        "previousRank": 78,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -12007,14 +12073,15 @@
           "score": 8.6737
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 38,
+      "delta": -21,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -21,
+        "previousRank": 38,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -12086,14 +12153,15 @@
           "score": 15.1319
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 59,
+      "delta": -1,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 59,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -12171,14 +12239,15 @@
           "score": 11.8096
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 51,
+      "delta": -10,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -10,
+        "previousRank": 51,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -12300,14 +12369,15 @@
           "score": 14.1201
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 48,
+      "delta": -14,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -14,
+        "previousRank": 48,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -12520,11 +12590,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -12686,14 +12757,15 @@
           "score": 14.5763
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 72,
+      "delta": 8,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 8,
+        "previousRank": 72,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -12765,14 +12837,15 @@
           "score": 25.1057
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 61,
+      "delta": -4,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 61,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -12887,14 +12960,15 @@
           "score": 11.4913
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 65,
+      "delta": -1,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 65,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -13006,11 +13080,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -13082,14 +13157,15 @@
           "score": 16.1423
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 43,
+      "delta": -25,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -25,
+        "previousRank": 43,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -13259,14 +13335,15 @@
           "score": 13.9222
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 63,
+      "delta": -6,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 63,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -13380,14 +13457,15 @@
           "score": 13.455
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 85,
+      "delta": 15,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 15,
+        "previousRank": 85,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -13551,11 +13629,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -13628,14 +13707,15 @@
           "score": 12.2818
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 66,
+      "delta": -6,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 66,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -13848,11 +13928,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -14051,14 +14132,15 @@
           "score": 12.5308
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 57,
+      "delta": -17,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -17,
+        "previousRank": 57,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -14256,14 +14338,15 @@
           "score": 12.6597
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 62,
+      "delta": -13,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -13,
+        "previousRank": 62,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -14391,11 +14474,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -14517,14 +14601,15 @@
           "score": 12.6898
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 54,
+      "delta": -23,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -23,
+        "previousRank": 54,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -14693,14 +14778,15 @@
           "score": 12.401
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 76,
+      "delta": -2,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 76,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -14779,14 +14865,15 @@
           "score": 11.8786
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 79,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 79,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -14947,11 +15034,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -15027,11 +15115,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -15238,14 +15327,15 @@
           "score": 11.64
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 71,
+      "delta": -11,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 71,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -15320,11 +15410,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -15397,14 +15488,15 @@
           "score": 0
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 73,
+      "delta": -11,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 73,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -15482,14 +15574,15 @@
           "score": 9.9298
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 69,
+      "delta": -16,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -16,
+        "previousRank": 69,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -15650,11 +15743,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -15860,14 +15954,15 @@
           "score": 9.2835
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 84,
+      "delta": -3,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 84,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -15949,11 +16044,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -16163,14 +16259,15 @@
           "score": 9.4009
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 64,
+      "delta": -25,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -25,
+        "previousRank": 64,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -16293,14 +16390,15 @@
           "score": 11.0484
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 92,
+      "delta": 2,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 92,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -16414,14 +16512,15 @@
           "score": 11.536
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 93,
+      "delta": 2,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 93,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -16627,14 +16726,15 @@
           "score": 10.7188
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 77,
+      "delta": -15,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -15,
+        "previousRank": 77,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -16716,11 +16816,12 @@
       "previousRank": null,
       "delta": null,
       "weeklyMovement": {
-        "direction": "unknown",
+        "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -16842,14 +16943,15 @@
           "score": 9.4625
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 67,
+      "delta": -27,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -27,
+        "previousRank": 67,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -17060,14 +17162,15 @@
           "score": 10.3657
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 89,
+      "delta": -6,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -6,
+        "previousRank": 89,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -17236,14 +17339,15 @@
           "score": 9.7501
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 70,
+      "delta": -26,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -26,
+        "previousRank": 70,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -17365,14 +17469,15 @@
           "score": 9.7333
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 80,
+      "delta": -17,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -17,
+        "previousRank": 80,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -17445,14 +17550,15 @@
           "score": 18.4226
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 60,
+      "delta": -38,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -38,
+        "previousRank": 60,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -17616,14 +17722,15 @@
           "score": 8.1345
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 83,
+      "delta": -16,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -16,
+        "previousRank": 83,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     },
     {
@@ -17782,14 +17889,15 @@
           "score": 11.9611
         }
       ],
-      "previousRank": null,
-      "delta": null,
+      "previousRank": 86,
+      "delta": -14,
       "weeklyMovement": {
-        "direction": "unknown",
-        "delta": null,
-        "previousRank": null,
+        "direction": "down",
+        "delta": -14,
+        "previousRank": 86,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
-        "comparisonDate": null
+        "comparisonDate": "2026-10-19"
       }
     }
   ]

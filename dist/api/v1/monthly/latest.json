@@ -3,11 +3,12 @@
   "monthStart": "2026-10-01",
   "monthEnd": "2026-10-31",
   "mode": "live",
-  "generatedAt": "2026-10-30T04:42:35.915Z",
+  "generatedAt": "2026-10-30T05:30:09.495Z",
   "asOfDate": "2026-10-30",
   "status": "provisional",
+  "entryHistoryStart": null,
   "methodology": {
-    "version": "monthly-1.1",
+    "version": "monthly-1.3",
     "baseVersion": null,
     "baseVersions": [
       "1.3",
@@ -109,6 +110,8 @@
     "mixedSignatures": true,
     "comparisonAvailable": false,
     "comparisonUsesCache": false,
+    "comparisonUsesIncomplete": false,
+    "comparisonBaseline": null,
     "sourceCoverage": {
       "available": 6,
       "fresh": 6,
@@ -420,6 +423,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -724,6 +728,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -984,6 +989,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -1288,6 +1294,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -1592,6 +1599,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -1896,6 +1904,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -2205,6 +2214,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -2509,6 +2519,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -2736,6 +2747,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -2996,6 +3008,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -3196,6 +3209,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -3505,6 +3519,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -3809,6 +3824,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -4075,6 +4091,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -4293,6 +4310,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -4560,6 +4578,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -4820,6 +4839,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -5124,6 +5144,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -5341,6 +5362,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -5432,6 +5454,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -5698,6 +5721,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -5990,6 +6014,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -6164,6 +6189,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -6430,6 +6456,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -6656,6 +6683,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -6836,6 +6864,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -6927,6 +6956,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -7060,6 +7090,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -7248,6 +7279,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -7339,6 +7371,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -7521,6 +7554,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -7613,6 +7647,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -7819,6 +7854,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -8128,6 +8164,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -8390,6 +8427,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -8657,6 +8695,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -8837,6 +8876,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -8928,6 +8968,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -9020,6 +9061,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -9194,6 +9236,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -9460,6 +9503,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -9648,6 +9692,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -9874,6 +9919,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -10013,6 +10059,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -10105,6 +10152,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -10196,6 +10244,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -10463,6 +10512,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -10641,6 +10691,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -10782,6 +10833,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -10873,6 +10925,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -11099,6 +11152,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -11328,6 +11382,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -11595,6 +11650,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -11736,6 +11792,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -11827,6 +11884,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -11924,6 +11982,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -12137,6 +12196,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -12228,6 +12288,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -12326,6 +12387,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -12630,6 +12692,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -12721,6 +12784,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -12855,6 +12919,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -13121,6 +13186,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -13339,6 +13405,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -13520,6 +13587,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -13661,6 +13729,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -13758,6 +13827,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -13947,6 +14017,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -14039,6 +14110,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -14294,6 +14366,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -14425,6 +14498,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -14651,6 +14725,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -14748,6 +14823,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -14936,6 +15012,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -15028,6 +15105,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -15161,6 +15239,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -15428,6 +15507,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -15526,6 +15606,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -15618,6 +15699,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -15759,6 +15841,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -15899,6 +15982,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -16128,6 +16212,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -16316,6 +16401,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -16541,6 +16627,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -16766,6 +16853,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -16907,6 +16995,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -17049,6 +17138,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -17193,6 +17283,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -17284,6 +17375,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -17447,6 +17539,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -17630,6 +17723,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -17763,6 +17857,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -17993,6 +18088,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -18171,6 +18267,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -18348,6 +18445,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -18528,6 +18626,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -18757,6 +18856,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -18934,6 +19034,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -19067,6 +19168,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }
@@ -19244,6 +19346,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": null,
         "period": "previous-month",
         "comparisonDate": null
       }

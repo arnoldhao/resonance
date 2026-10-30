@@ -41,7 +41,7 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 
 ## 综合日榜
 
-顶层字段包括 `schemaVersion`、`mode`、`date`、`generatedAt`、`methodology`、`comparisonSignature`、`coverage`、`sources`、`songs`。
+顶层字段包括 `schemaVersion`、`mode`、`date`、`generatedAt`、`methodology`、`comparisonSignature`、`entryHistoryStart`、`coverage`、`sources`、`songs`。
 
 - `mode`：`live` 为实际采集或显式导入，`demo` 为示例。
 - `coverage`：可用平台、独立来源组及覆盖状态；`available = fresh + cached`，`fresh/cached` 是本次成功/历史沿用的平台数量。`complete` 为全部来源可计分（可能包含沿用），`partial` 为部分覆盖；`comparisonUsesCache` 标记日榜比较涉及沿用。
@@ -49,6 +49,7 @@ console.table(chart.songs.map(({ rank, title, score }) => ({ rank, title, score 
 - `songs`：按综合排名排序，包含 `id/title/artists/artwork/rank/score/platforms/history/combinedMovement`。
 - `platforms`：对应原榜的 `sourceId/rank/url/eligible/score/contribution/sourceMovement/mv`，以及 `status/ingestion/fetchedAt/observedDate/sourceUpdatedAt/sourcePeriod/attemptedAt/collectionError/cacheOrigin`；观察来源信息随歌曲保留。
 - `appearances` / `scoringAppearances`：原榜出现平台数 / 计分平台数。
+- `entryHistoryStart`：本榜历史记录的起始日期；首次入榜只针对该记录范围。
 - `history[]`：保留同一数据模式下的历史名次和得分；`methodologyVersion/comparisonSignature` 标注各点原口径，包含公式升级前日期。采集范围扩大后仍连续展示历史趋势。
 
 `score` 为综合指数，`contribution` 为平台加权贡献。公式和比较条件见[日榜方法](methodology.md)；历史数据按自己的 `methodology` 解释。
@@ -62,7 +63,8 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 `date/generatedAt/mode/comparisonSignature/coverage` 对应同日综合榜，`comparisonDate` 是可比较的昨日日期，不可比较时为 `null`。
 
 - `rising/falling`：今日综合 Top 100 中上升、下降的歌曲，按 `abs(delta)` 降序，同幅度按今日综合名次升序。
-- `newEntries`：今日 Top 100 新入榜，按今日综合名次排列，`delta/previousRank` 为 `null`。
+- `newEntries`：本榜记录以来首次进入 Top 100 的歌曲，按今日综合名次排列。
+- `reentries`：较昨日重新进入 Top 100、且更早曾入榜的歌曲，按今日综合名次排列；两类的 `delta/previousRank` 均为 `null`。
 - `unchangedCount`：持平歌曲数。
 - 每首歌保留综合榜的 `rank/score/combinedMovement`，`movementRank` 单独表示所属分类的排序位置。
 
@@ -77,10 +79,10 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 - `methodology.aggregationPolicy: each-day-original-method`：各有效日保留原公式日分，升级前日期继续参与汇总。`baseVersions` 列出日榜版本，`dailyMethods[]` 披露各日期的 `date/version/comparisonSignature`；混合版本时 `baseVersion` 为 `null`。`coverage.mixedMethods/mixedSignatures` 标记混合版本／签名；各日签名不统一时顶层 `comparisonSignature` 为 `null`。
 - `songs[].dailyScores/daysOnChart`：有效日分数和获得正分的天数。
 - `songs[].weeklyMovement`：综合周榜相对上周的变化。
-- 周涨跌页面按 `weeklyMovement.direction` 分上升、下降、新入榜，再按变化幅度排序；页面的 `movementRank` 为分类排名，`rank` 始终为本周综合名次。下载仍使用当期周榜 JSON，包含全部歌曲及涨跌字段。
+- 周涨跌页面按 `weeklyMovement.direction` 分上升、下降、首次入榜、重返榜单，再按变化幅度排序；页面的 `movementRank` 为分类排名，`rank` 始终为本周综合名次。下载仍使用当期周榜 JSON，包含全部歌曲及涨跌字段。
 - `songs[].platforms[].observedDate`：该平台元数据真实观察日期，沿用不刷新；`includedDate` 是最近采用这份观察计算日分的日期。
 
-周榜平台名次是该观察日的名次，周得分是各有效日按原公式计算后的平均分。日期完整可包含公式切换；相邻两周均完整且数据模式相同时，即比较已发布名次，不因采集范围变化而停止比较。完整规则见[周榜方法](weekly.md)。
+周榜平台名次是该观察日的名次，周得分是各有效日按原公式计算后的平均分。日期完整可包含公式切换；本周已有歌曲、相邻上周有同一数据模式的有效榜单时，即比较本周当前名次与上周已有名次；预览、缺日和采集范围变化不阻止比较。完整规则见[周榜方法](weekly.md)。
 
 ## 综合月榜
 
@@ -89,10 +91,10 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 - `monthStart/monthEnd`：北京时间自然月首末日；`coverage.expectedDays` 按月份实际天数计算。
 - `status`：`provisional` 本月预览、`complete` 完整月、`incomplete` 已结束但存在缺失或排除日。
 - `score`：各有效日按当时保存公式计算的分数平均值，公式升级前日期继续纳入；有效日未出现歌曲记 0，缺失或排除日不计分母。同一自然日只取最后一期，不平均周榜。`baseVersions/dailyMethods/mixedMethods/mixedSignatures` 的含义与周榜相同。
-- `monthlyMovement`：相邻两个完整自然月且数据模式相同时比较，`period: previous-month`，`comparisonDate` 为上月 1 日。
+- `monthlyMovement`：本月已有歌曲、相邻上月有同一数据模式的有效榜单时比较，预览与缺日月份也参与，`period: previous-month`，`comparisonDate` 为上月 1 日。
 - 月涨跌页面按 `monthlyMovement.direction` 分类、按变化幅度排序，保留本月与上月综合名次；下载当月 JSON 即可读取完整涨跌字段。周／月页面在 `coverage.comparisonAvailable` 为 `false` 时显示原因，后续为 `true` 时自动展示。
 
-完整规则见[月榜方法](monthly.md)。
+周／月榜的 `coverage.comparisonBaseline` 为 `{periodStart, status, observedDays, expectedDays}`，保留实际采用的上期基准；不可比较时为 `null`。`comparisonUsesIncomplete` 标记本期或上期未覆盖完整周期。两期缺日仍按已有榜单计算，预览中首次与重返的标记随名次更新，预览不写入历史入榜索引。完整规则见[月榜方法](monthly.md)。
 
 ## 更新频率观察
 
@@ -133,13 +135,13 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 
 ## 涨跌与 MV
 
-`combinedMovement`、`weeklyMovement`、`monthlyMovement` 分别表示综合日榜、周榜、月榜涨跌；平台变化使用 `sourceMovement`。变化对象使用 `direction: up/down/same/new/unknown`，`delta` 正数上升、负数下降，未知或新入榜时为 `null`。`previousRank` 为可确认的前期名次。
+`combinedMovement`、`weeklyMovement`、`monthlyMovement` 分别表示综合日榜、周榜、月榜涨跌；平台变化使用 `sourceMovement`。综合榜变化对象使用 `direction: up/down/same/new/reentry/unknown`：`new` 为本榜记录以来首次入榜，`reentry` 为上期缺席后重返；`firstEntryDate` 为该歌曲首次进入对应日／周／月榜的日期，周月预览中尚未正式入榜的为 `null`。`entryHistoryStart` 为该榜记录的起点。`delta` 正数上升、负数下降，首次、重返或未知时为 `null`；`previousRank` 为可确认的前期名次。平台 `sourceMovement` 继续使用 `up/down/same/new/unknown`，不根据综合榜索引改写平台的新上榜含义。
 
 平台官方提供的已确认涨跌优先使用，标为 `origin: official`、`period: previous-edition`，其中持平的 `delta: 0` 也属于有效官方数据。平台上期未必是昨日。
 
 官方变化缺失或为 `unknown` 时，可用昨日最后一期的同平台完整快照计算：`origin: snapshot-comparison`、`period: previous-day`，并保存 `comparisonDate/comparisonDepth/currentObservedAt/previousObservedAt/comparisonUsesCache`。平台榜单名称、入口须相同，双方真实观察日须分别为本日、昨日；扩采后昨日已记录的曲目仍能比较，`comparisonDepth` 为两天共有的采集深度；前日缓存不作昨日新观察。仅按平台 `sourceId` 匹配，独立于综合榜覆盖与歌曲映射。昨日采集范围无此曲、且今日进入两天共有的采集范围时为 `new`，只表示新入采集范围；仅出现在新增尾部且昨日名次未知时为 `unknown`，不估计昨日名次。没有有效昨日观察时保持未知。`raw` 始终保留平台原字段；历史回填不参与此比较。
 
-构建站点时从保存的相邻日快照补充综合和平台涨跌，不重算综合名次、分数或改写原始归档。旧归档中的官方变化可能没有 `origin`，按其原保存内容解释。
+构建站点时从保存的相邻日快照补充综合和平台涨跌，不重算综合名次、分数或改写原始日快照；增量上榜索引单独保存。旧归档中的官方变化可能没有 `origin`，按其原保存内容解释。
 
 `mv` 格式为 `{status, items: [{id, hash, url}]}`。`status` 为 `linked`（有关联）、`none`（源响应明确无关联）或 `unknown`。未提供的标识和地址为 `null`，关联不保证可播放。
 

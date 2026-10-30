@@ -27,7 +27,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-30",
-        "revision": "340e7f778d3862ce7c065a73285dda4952675d08041332662a522e6a4ffc6f7d",
+        "revision": "d897ecdb16ec3e012b4807fcd70b4b6902a00ab942b723c3c5a98d5622023c5b",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -47,7 +47,7 @@
       "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
       "title": "共振 · 2026-10-01—2026-10-31 本月预览",
-      "content_text": "本月预览：2026-10-01—2026-10-31。\n有效 8/31 天；23 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.1（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-10-26。\n1. 我不难过 — 孙燕姿 · 92.84 分\n2. 天龙八部之宿敌 — 许嵩 · 84.21 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 75.51 分\n4. 恋人 — 李荣浩 · 55.55 分\n5. 我怀念的 — 孙燕姿 · 55.29 分\n6. 雨爱 — 杨丞琳 · 49.72 分\n7. 开始懂了 — 孙燕姿 · 44.72 分\n8. 情歌 — 梁静茹 · 43.43 分\n9. NEON — A2O LITE / A2O · 36.96 分\n10. 失眠 — Suki刘舒妤 · 35.25 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
+      "content_text": "本月预览：2026-10-01—2026-10-31。\n有效 8/31 天；23 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-10-26。\n1. 我不难过 — 孙燕姿 · 92.84 分\n2. 天龙八部之宿敌 — 许嵩 · 84.21 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 75.51 分\n4. 恋人 — 李荣浩 · 55.55 分\n5. 我怀念的 — 孙燕姿 · 55.29 分\n6. 雨爱 — 杨丞琳 · 49.72 分\n7. 开始懂了 — 孙燕姿 · 44.72 分\n8. 情歌 — 梁静茹 · 43.43 分\n9. NEON — A2O LITE / A2O · 36.96 分\n10. 失眠 — Suki刘舒妤 · 35.25 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
       "date_published": "2026-10-23T03:18:23.844Z",
       "date_modified": "2026-10-30T04:42:30.887Z",
       "tags": [
@@ -61,8 +61,8 @@
         "monthStart": "2026-10-01",
         "monthEnd": "2026-10-31",
         "status": "provisional",
-        "revision": "dba284389e54f4ccfd69f3545c9f5ad5e77180c3089008e61333c6bc670b7705",
-        "methodologyVersion": "monthly-1.1",
+        "revision": "ed9784114804fa5d125daa89e6116164bebe4f61806a1038bb3184cf4ba9dd48",
+        "methodologyVersion": "monthly-1.3",
         "baseMethodologyVersion": null,
         "baseMethodologyVersions": [
           "1.3",
@@ -115,6 +115,8 @@
           "mixedSignatures": true,
           "comparisonAvailable": false,
           "comparisonUsesCache": false,
+          "comparisonUsesIncomplete": false,
+          "comparisonBaseline": null,
           "sourceCoverage": {
             "available": 6,
             "fresh": 6,
@@ -132,7 +134,7 @@
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json",
       "title": "共振 · 2026-10-26—2026-11-01 本周预览",
-      "content_text": "本周预览：2026-10-26—2026-11-01。\n有效 5/7 天；2 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.2（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-10-26。\n1. 我不难过 — 孙燕姿 · 92.42 分\n2. 天龙八部之宿敌 — 许嵩 · 84.75 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 74.42 分\n4. 恋人 — 李荣浩 · 55.19 分\n5. 我怀念的 — 孙燕姿 · 54.88 分\n6. 季候风 — 王菲 · 53.02 分\n7. 我好像在哪见过你 — 薛之谦 · 53.02 分\n8. 雨爱 — 杨丞琳 · 47.10 分\n9. 开始懂了 — 孙燕姿 · 43.47 分\n10. 时过境迁 — 苏艺馨Chency · 43.05 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json",
+      "content_text": "本周预览：2026-10-26—2026-11-01。\n有效 5/7 天；2 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-10-26。\n1. 我不难过 — 孙燕姿 · 92.42 分\n2. 天龙八部之宿敌 — 许嵩 · 84.75 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 74.42 分\n4. 恋人 — 李荣浩 · 55.19 分\n5. 我怀念的 — 孙燕姿 · 54.88 分\n6. 季候风 — 王菲 · 53.02 分\n7. 我好像在哪见过你 — 薛之谦 · 53.02 分\n8. 雨爱 — 杨丞琳 · 47.10 分\n9. 开始懂了 — 孙燕姿 · 43.47 分\n10. 时过境迁 — 苏艺馨Chency · 43.05 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json",
       "date_published": "2026-10-25T17:03:37.304Z",
       "date_modified": "2026-10-30T04:42:30.887Z",
       "tags": [
@@ -145,8 +147,8 @@
         "weekStart": "2026-10-26",
         "weekEnd": "2026-11-01",
         "status": "provisional",
-        "revision": "743e95b7b0ebd7f2c04eef732310f0a1e6f26894e0e1320cd28b498747b57aad",
-        "methodologyVersion": "weekly-1.2",
+        "revision": "f0335d84f61e0c70f0082f7e7229823ecca24e9f563f496a682c5e519ea31d04",
+        "methodologyVersion": "weekly-1.4",
         "baseMethodologyVersion": "1.4",
         "baseMethodologyVersions": [
           "1.4"
@@ -172,8 +174,15 @@
           "latestIncludedDate": "2026-10-30",
           "mixedMethods": false,
           "mixedSignatures": true,
-          "comparisonAvailable": false,
-          "comparisonUsesCache": false,
+          "comparisonAvailable": true,
+          "comparisonUsesCache": true,
+          "comparisonUsesIncomplete": true,
+          "comparisonBaseline": {
+            "periodStart": "2026-10-19",
+            "status": "incomplete",
+            "observedDays": 3,
+            "expectedDays": 7
+          },
           "sourceCoverage": {
             "available": 6,
             "fresh": 6,
@@ -202,7 +211,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-29",
-        "revision": "9a9293b05c904b270a32781f6cb24037d2798118d7d1b65c1839cd47ddc64622",
+        "revision": "632c22e204defc55e8e4ed6f175f5d29f605223531bd34ad69da6f4759df4ca7",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -233,7 +242,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-28",
-        "revision": "97ae8917cf82a92f2b9a39088a1e5dc3e7cc7a255e0ef10bcbe1c8c7d8fe0f20",
+        "revision": "700c5cf868768b37d52a13c742028fd99c3719abdaff670877e9b6dfb08ee751",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -264,7 +273,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-27",
-        "revision": "e83dbee674718c9fc33b83fe13586ae2e3fd9a7be6e70b7d5360851ae10efeba",
+        "revision": "19633feb7d2a8337d2a6fd5c7e73b4b9705d50e530bcb3e24c915001890968b4",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -295,7 +304,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-26",
-        "revision": "f4d3c7b7f19570b16d6fe6dd048dbb422a20961cdd61fe7447c666a8d32af535",
+        "revision": "b6f42d271fb94e9b38846d505fe7152084b0cb4500006bcafaeb5ae39c769752",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -315,7 +324,7 @@
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "title": "共振 · 2026-10-19—2026-10-25 缺日周榜",
-      "content_text": "缺日周榜：2026-10-19—2026-10-25。\n有效 3/7 天；4 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.2（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 93.54 分\n2. 天龙八部之宿敌 — 许嵩 · 83.30 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 77.32 分\n4. 恋人 — 李荣浩 · 56.15 分\n5. 我怀念的 — 孙燕姿 · 55.98 分\n6. 雨爱 — 杨丞琳 · 54.08 分\n7. 开始懂了 — 孙燕姿 · 46.81 分\n8. 情歌 — 梁静茹 · 44.19 分\n9. NEON — A2O LITE / A2O · 39.61 分\n10. 失眠 — Suki刘舒妤 · 36.73 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
+      "content_text": "缺日周榜：2026-10-19—2026-10-25。\n有效 3/7 天；4 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 93.54 分\n2. 天龙八部之宿敌 — 许嵩 · 83.30 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 77.32 分\n4. 恋人 — 李荣浩 · 56.15 分\n5. 我怀念的 — 孙燕姿 · 55.98 分\n6. 雨爱 — 杨丞琳 · 54.08 分\n7. 开始懂了 — 孙燕姿 · 46.81 分\n8. 情歌 — 梁静茹 · 44.19 分\n9. NEON — A2O LITE / A2O · 39.61 分\n10. 失眠 — Suki刘舒妤 · 36.73 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "date_published": "2026-10-23T03:18:23.844Z",
       "date_modified": "2026-10-25T16:00:00.000Z",
       "tags": [
@@ -328,8 +337,8 @@
         "weekStart": "2026-10-19",
         "weekEnd": "2026-10-25",
         "status": "incomplete",
-        "revision": "89534a82850db36c14fdd79eebc693e0a8d5cca1428a7e9b627893a59ad0f3f3",
-        "methodologyVersion": "weekly-1.2",
+        "revision": "4510d806e74666851832a1f3d56eeadbb50b0fdb17f4dfde9105de43f0ae9627",
+        "methodologyVersion": "weekly-1.4",
         "baseMethodologyVersion": null,
         "baseMethodologyVersions": [
           "1.3",
@@ -356,6 +365,8 @@
           "mixedSignatures": true,
           "comparisonAvailable": false,
           "comparisonUsesCache": false,
+          "comparisonUsesIncomplete": false,
+          "comparisonBaseline": null,
           "sourceCoverage": {
             "available": 6,
             "fresh": 6,
@@ -384,7 +395,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-25",
-        "revision": "9372802fc0644f59f9dc324be6a32fa0f7e2da934786c336acac93caaf476990",
+        "revision": "d625245802ba49a2344eba490d7dc7b52342d772a3435c96fb6084775acb99e9",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -415,7 +426,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-24",
-        "revision": "bfc937d40df376f81f1c27df8b51b65f6f003b504bf3323ab05f7a98dd56e0c2",
+        "revision": "d3639e990dc97d40906c07795060228d85f3534ef083528956a55e863eaff96a",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -446,7 +457,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-23",
-        "revision": "4430ceb1c6204866896f26cd9f1e1b54f8b84be7c802c1dd0a44e389505a9c6c",
+        "revision": "fea1394d2538fc37e9be80bbe7ceeb547371e0a485b98cedb8009d7d8bdb8f35",
         "methodologyVersion": "1.3",
         "coverage": {
           "available": 6,

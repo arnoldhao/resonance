@@ -4,11 +4,12 @@
   "date": "2026-10-29",
   "generatedAt": "2026-10-29T15:05:40.528Z",
   "methodology": {
-    "version": "movement-1.0",
+    "version": "movement-1.1",
     "basis": "combined-rank",
     "scope": "current-top-100",
-    "formula": "昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；新入榜单列"
+    "formula": "昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；首次入榜与重返榜单分别单列"
   },
+  "entryHistoryStart": "2026-10-23",
   "comparisonDate": "2026-10-28",
   "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
   "coverage": {
@@ -184,6 +185,7 @@
         "direction": "up",
         "delta": 29,
         "previousRank": 55,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -374,6 +376,7 @@
         "direction": "up",
         "delta": 23,
         "previousRank": 93,
+        "firstEntryDate": "2026-10-28",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -532,6 +535,7 @@
         "direction": "up",
         "delta": 20,
         "previousRank": 57,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -640,6 +644,7 @@
         "direction": "up",
         "delta": 20,
         "previousRank": 72,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -830,6 +835,7 @@
         "direction": "up",
         "delta": 18,
         "previousRank": 98,
+        "firstEntryDate": "2026-10-25",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -917,6 +923,7 @@
         "direction": "up",
         "delta": 14,
         "previousRank": 69,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -1025,6 +1032,7 @@
         "direction": "up",
         "delta": 12,
         "previousRank": 33,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -1303,6 +1311,7 @@
         "direction": "up",
         "delta": 10,
         "previousRank": 46,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -1412,6 +1421,7 @@
         "direction": "up",
         "delta": 10,
         "previousRank": 51,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -1613,6 +1623,7 @@
         "direction": "up",
         "delta": 10,
         "previousRank": 82,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -1727,6 +1738,7 @@
         "direction": "up",
         "delta": 9,
         "previousRank": 32,
+        "firstEntryDate": "2026-10-25",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -1814,6 +1826,7 @@
         "direction": "up",
         "delta": 9,
         "previousRank": 47,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -1990,6 +2003,7 @@
         "direction": "up",
         "delta": 8,
         "previousRank": 40,
+        "firstEntryDate": "2026-10-27",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -2071,6 +2085,7 @@
         "direction": "up",
         "delta": 8,
         "previousRank": 41,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -2264,6 +2279,7 @@
         "direction": "up",
         "delta": 8,
         "previousRank": 71,
+        "firstEntryDate": "2026-10-27",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -2345,6 +2361,7 @@
         "direction": "up",
         "delta": 8,
         "previousRank": 100,
+        "firstEntryDate": "2026-10-25",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -2504,6 +2521,7 @@
         "direction": "up",
         "delta": 7,
         "previousRank": 50,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -2728,6 +2746,7 @@
         "direction": "up",
         "delta": 7,
         "previousRank": 60,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -3004,6 +3023,7 @@
         "direction": "up",
         "delta": 7,
         "previousRank": 61,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -3241,6 +3261,7 @@
         "direction": "up",
         "delta": 7,
         "previousRank": 64,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -3394,6 +3415,7 @@
         "direction": "up",
         "delta": 7,
         "previousRank": 92,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -3566,6 +3588,7 @@
         "direction": "up",
         "delta": 6,
         "previousRank": 24,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -3806,6 +3829,7 @@
         "direction": "up",
         "delta": 5,
         "previousRank": 65,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -3954,6 +3978,7 @@
         "direction": "up",
         "delta": 5,
         "previousRank": 73,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -4068,6 +4093,7 @@
         "direction": "up",
         "delta": 5,
         "previousRank": 84,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -4343,6 +4369,7 @@
         "direction": "up",
         "delta": 4,
         "previousRank": 28,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -4574,6 +4601,7 @@
         "direction": "up",
         "delta": 4,
         "previousRank": 62,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -4682,6 +4710,7 @@
         "direction": "up",
         "delta": 4,
         "previousRank": 88,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -4893,6 +4922,7 @@
         "direction": "up",
         "delta": 3,
         "previousRank": 11,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -5122,6 +5152,7 @@
         "direction": "up",
         "delta": 3,
         "previousRank": 16,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -5397,6 +5428,7 @@
         "direction": "up",
         "delta": 3,
         "previousRank": 18,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -5696,6 +5728,7 @@
         "direction": "up",
         "delta": 3,
         "previousRank": 25,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -5844,6 +5877,7 @@
         "direction": "up",
         "delta": 3,
         "previousRank": 37,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -6084,6 +6118,7 @@
         "direction": "up",
         "delta": 3,
         "previousRank": 67,
+        "firstEntryDate": "2026-10-27",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -6171,6 +6206,7 @@
         "direction": "up",
         "delta": 3,
         "previousRank": 97,
+        "firstEntryDate": "2026-10-25",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -6394,6 +6430,7 @@
         "direction": "up",
         "delta": 2,
         "previousRank": 58,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -6710,6 +6747,7 @@
         "direction": "up",
         "delta": 1,
         "previousRank": 17,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -6947,6 +6985,7 @@
         "direction": "up",
         "delta": 1,
         "previousRank": 30,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -7142,6 +7181,7 @@
         "direction": "up",
         "delta": 1,
         "previousRank": 31,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -7343,6 +7383,7 @@
         "direction": "up",
         "delta": 1,
         "previousRank": 48,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -7583,6 +7624,7 @@
         "direction": "up",
         "delta": 1,
         "previousRank": 49,
+        "firstEntryDate": "2026-10-27",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -7711,6 +7753,7 @@
         "direction": "up",
         "delta": 1,
         "previousRank": 52,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -7868,6 +7911,7 @@
         "direction": "up",
         "delta": 1,
         "previousRank": 75,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -7979,6 +8023,7 @@
         "direction": "down",
         "delta": -39,
         "previousRank": 23,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -8087,6 +8132,7 @@
         "direction": "down",
         "delta": -30,
         "previousRank": 29,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -8246,6 +8292,7 @@
         "direction": "down",
         "delta": -22,
         "previousRank": 68,
+        "firstEntryDate": "2026-10-25",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -8419,6 +8466,7 @@
         "direction": "down",
         "delta": -17,
         "previousRank": 14,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -8534,6 +8582,7 @@
         "direction": "down",
         "delta": -17,
         "previousRank": 27,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -8649,6 +8698,7 @@
         "direction": "down",
         "delta": -14,
         "previousRank": 63,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -8843,6 +8893,7 @@
         "direction": "down",
         "delta": -13,
         "previousRank": 56,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -9034,6 +9085,7 @@
         "direction": "down",
         "delta": -12,
         "previousRank": 54,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -9143,6 +9195,7 @@
         "direction": "down",
         "delta": -11,
         "previousRank": 77,
+        "firstEntryDate": "2026-10-26",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -9236,6 +9289,7 @@
         "direction": "down",
         "delta": -10,
         "previousRank": 86,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -9465,6 +9519,7 @@
         "direction": "down",
         "delta": -8,
         "previousRank": 81,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -9705,6 +9760,7 @@
         "direction": "down",
         "delta": -7,
         "previousRank": 38,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -9862,6 +9918,7 @@
         "direction": "down",
         "delta": -7,
         "previousRank": 79,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -10004,6 +10061,7 @@
         "direction": "down",
         "delta": -7,
         "previousRank": 80,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -10280,6 +10338,7 @@
         "direction": "down",
         "delta": -6,
         "previousRank": 43,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -10556,6 +10615,7 @@
         "direction": "down",
         "delta": -6,
         "previousRank": 44,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -10757,6 +10817,7 @@
         "direction": "down",
         "delta": -6,
         "previousRank": 91,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -10858,6 +10919,7 @@
         "direction": "down",
         "delta": -5,
         "previousRank": 22,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -11086,6 +11148,7 @@
         "direction": "down",
         "delta": -4,
         "previousRank": 21,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -11240,6 +11303,7 @@
         "direction": "down",
         "delta": -4,
         "previousRank": 36,
+        "firstEntryDate": "2026-10-28",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -11442,6 +11506,7 @@
         "direction": "down",
         "delta": -4,
         "previousRank": 78,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -11598,6 +11663,7 @@
         "direction": "down",
         "delta": -4,
         "previousRank": 89,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -11833,6 +11899,7 @@
         "direction": "down",
         "delta": -3,
         "previousRank": 39,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -11942,6 +12009,7 @@
         "direction": "down",
         "delta": -3,
         "previousRank": 70,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -12253,6 +12321,7 @@
         "direction": "down",
         "delta": -2,
         "previousRank": 8,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -12522,6 +12591,7 @@
         "direction": "down",
         "delta": -2,
         "previousRank": 15,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -12752,6 +12822,7 @@
         "direction": "down",
         "delta": -2,
         "previousRank": 26,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -13027,6 +13098,7 @@
         "direction": "down",
         "delta": -2,
         "previousRank": 59,
+        "firstEntryDate": "2026-10-24",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -13331,6 +13403,7 @@
         "direction": "down",
         "delta": -1,
         "previousRank": 10,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -13569,6 +13642,7 @@
         "direction": "down",
         "delta": -1,
         "previousRank": 13,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -13723,6 +13797,7 @@
         "direction": "down",
         "delta": -1,
         "previousRank": 45,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -13879,6 +13954,7 @@
         "direction": "down",
         "delta": -1,
         "previousRank": 66,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -13994,6 +14070,7 @@
         "direction": "down",
         "delta": -1,
         "previousRank": 74,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -14238,6 +14315,7 @@
         "direction": "down",
         "delta": -1,
         "previousRank": 90,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -14383,6 +14461,7 @@
         "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-29",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -14396,95 +14475,6 @@
         }
       ],
       "movementRank": 1
-    },
-    {
-      "id": "a5a3c3d77e26110cefdb",
-      "title": "You Are All I Need",
-      "artists": [
-        "FLY COAST",
-        "二宮愛 (にのみや あい)"
-      ],
-      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000B8U3p19UV0b.jpg",
-      "platforms": [
-        {
-          "id": "qq",
-          "name": "QQ 音乐",
-          "rank": 16,
-          "eligible": true,
-          "score": 59.393,
-          "contribution": 14.8483,
-          "url": "https://y.qq.com/n/ryqq/songDetail/002dG09F2B9jlJ",
-          "sourceId": "002dG09F2B9jlJ",
-          "sourceMovement": {
-            "direction": "up",
-            "delta": 12,
-            "previousRank": 28,
-            "period": "previous-edition",
-            "raw": {
-              "cur_count": "16",
-              "old_count": "28"
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-10-29T15:05:40.528Z",
-          "observedDate": "2026-10-29",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-10-29",
-          "attemptedAt": "2026-10-29T15:05:40.528Z",
-          "collectionError": null,
-          "cacheOrigin": null
-        }
-      ],
-      "score": 14.8483,
-      "rank": 65,
-      "appearances": 1,
-      "scoringAppearances": 1,
-      "previousRank": null,
-      "delta": null,
-      "combinedMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
-        "period": "previous-day",
-        "comparisonDate": "2026-10-28"
-      },
-      "history": [
-        {
-          "date": "2026-10-25",
-          "rank": 99,
-          "score": 10.4527,
-          "methodologyVersion": "1.4",
-          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
-        },
-        {
-          "date": "2026-10-26",
-          "rank": 79,
-          "score": 13.0225,
-          "methodologyVersion": "1.4",
-          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 76,
-          "score": 13.0225,
-          "methodologyVersion": "1.4",
-          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 65,
-          "score": 14.8483,
-          "methodologyVersion": "1.4",
-          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
-        }
-      ],
-      "movementRank": 2
     },
     {
       "id": "c8590de076dfcdc423d4",
@@ -14539,6 +14529,7 @@
         "direction": "new",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-29",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -14551,7 +14542,236 @@
           "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
         }
       ],
+      "movementRank": 2
+    },
+    {
+      "id": "c294739656a716742b00",
+      "title": "若你看见花开",
+      "artists": [
+        "杨小壮"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20260929/20260929171610499467.jpg",
+      "platforms": [
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 16,
+          "eligible": true,
+          "score": 59.393,
+          "contribution": 11.8786,
+          "url": "https://www.kugou.com/song/#hash=032B8E2183C3CC4CB8C66328991CEC2D",
+          "sourceId": "032B8E2183C3CC4CB8C66328991CEC2D",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 10,
+            "previousRank": 26,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 16,
+              "last_sort": 26
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-29T15:05:40.528Z",
+          "observedDate": "2026-10-29",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-10-29 08:30:00",
+          "attemptedAt": "2026-10-29T15:05:40.528Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 11.8786,
+      "rank": 81,
+      "appearances": 1,
+      "scoringAppearances": 1,
+      "previousRank": null,
+      "delta": null,
+      "combinedMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "firstEntryDate": "2026-10-29",
+        "period": "previous-day",
+        "comparisonDate": "2026-10-28"
+      },
+      "history": [
+        {
+          "date": "2026-10-29",
+          "rank": 81,
+          "score": 11.8786,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
       "movementRank": 3
+    },
+    {
+      "id": "83d3b01d5a81de1217a6",
+      "title": "异乡的夜",
+      "artists": [
+        "欣晚柠"
+      ],
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oAACAq3BUHoEt0FZkVIA9DCNyegfYA8WAGyIgD~tplv-b829550vbb-resize:400:400.png",
+      "platforms": [
+        {
+          "id": "qishui",
+          "name": "汽水音乐",
+          "rank": 1,
+          "eligible": true,
+          "score": 100,
+          "contribution": 10,
+          "url": "https://www.qishui.com/track/7695376967742769187",
+          "sourceId": "7695376967742769187",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 7,
+            "previousRank": 8,
+            "period": "previous-edition",
+            "raw": {
+              "rank_delta": "7",
+              "rank_type": "up",
+              "track_id": "7695376967742769187"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-29T15:05:40.528Z",
+          "observedDate": "2026-10-29",
+          "sourceUpdatedAt": "2026-10-29T08:00:00.000Z",
+          "sourcePeriod": "weekly",
+          "attemptedAt": "2026-10-29T15:05:40.528Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 10,
+      "rank": 98,
+      "appearances": 1,
+      "scoringAppearances": 1,
+      "previousRank": null,
+      "delta": null,
+      "combinedMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "firstEntryDate": "2026-10-29",
+        "period": "previous-day",
+        "comparisonDate": "2026-10-28"
+      },
+      "history": [
+        {
+          "date": "2026-10-29",
+          "rank": 98,
+          "score": 10,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 4
+    }
+  ],
+  "reentries": [
+    {
+      "id": "a5a3c3d77e26110cefdb",
+      "title": "You Are All I Need",
+      "artists": [
+        "FLY COAST",
+        "二宮愛 (にのみや あい)"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000B8U3p19UV0b.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 16,
+          "eligible": true,
+          "score": 59.393,
+          "contribution": 14.8483,
+          "url": "https://y.qq.com/n/ryqq/songDetail/002dG09F2B9jlJ",
+          "sourceId": "002dG09F2B9jlJ",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 12,
+            "previousRank": 28,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "16",
+              "old_count": "28"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-29T15:05:40.528Z",
+          "observedDate": "2026-10-29",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-10-29",
+          "attemptedAt": "2026-10-29T15:05:40.528Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 14.8483,
+      "rank": 65,
+      "appearances": 1,
+      "scoringAppearances": 1,
+      "previousRank": null,
+      "delta": null,
+      "combinedMovement": {
+        "direction": "reentry",
+        "delta": null,
+        "previousRank": null,
+        "firstEntryDate": "2026-10-25",
+        "period": "previous-day",
+        "comparisonDate": "2026-10-28"
+      },
+      "history": [
+        {
+          "date": "2026-10-25",
+          "rank": 99,
+          "score": 10.4527,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-26",
+          "rank": 79,
+          "score": 13.0225,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 76,
+          "score": 13.0225,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 65,
+          "score": 14.8483,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 1
     },
     {
       "id": "a508fedeaf952ca05314",
@@ -14690,9 +14910,10 @@
       "previousRank": null,
       "delta": null,
       "combinedMovement": {
-        "direction": "new",
+        "direction": "reentry",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -14733,142 +14954,7 @@
           "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
         }
       ],
-      "movementRank": 4
-    },
-    {
-      "id": "c294739656a716742b00",
-      "title": "若你看见花开",
-      "artists": [
-        "杨小壮"
-      ],
-      "artwork": "https://imge.kugou.com/stdmusic/400/20260929/20260929171610499467.jpg",
-      "platforms": [
-        {
-          "id": "kugou",
-          "name": "酷狗音乐",
-          "rank": 16,
-          "eligible": true,
-          "score": 59.393,
-          "contribution": 11.8786,
-          "url": "https://www.kugou.com/song/#hash=032B8E2183C3CC4CB8C66328991CEC2D",
-          "sourceId": "032B8E2183C3CC4CB8C66328991CEC2D",
-          "sourceMovement": {
-            "direction": "up",
-            "delta": 10,
-            "previousRank": 26,
-            "period": "previous-edition",
-            "raw": {
-              "sort": 16,
-              "last_sort": 26
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "unknown",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-10-29T15:05:40.528Z",
-          "observedDate": "2026-10-29",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-10-29 08:30:00",
-          "attemptedAt": "2026-10-29T15:05:40.528Z",
-          "collectionError": null,
-          "cacheOrigin": null
-        }
-      ],
-      "score": 11.8786,
-      "rank": 81,
-      "appearances": 1,
-      "scoringAppearances": 1,
-      "previousRank": null,
-      "delta": null,
-      "combinedMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
-        "period": "previous-day",
-        "comparisonDate": "2026-10-28"
-      },
-      "history": [
-        {
-          "date": "2026-10-29",
-          "rank": 81,
-          "score": 11.8786,
-          "methodologyVersion": "1.4",
-          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
-        }
-      ],
-      "movementRank": 5
-    },
-    {
-      "id": "83d3b01d5a81de1217a6",
-      "title": "异乡的夜",
-      "artists": [
-        "欣晚柠"
-      ],
-      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oAACAq3BUHoEt0FZkVIA9DCNyegfYA8WAGyIgD~tplv-b829550vbb-resize:400:400.png",
-      "platforms": [
-        {
-          "id": "qishui",
-          "name": "汽水音乐",
-          "rank": 1,
-          "eligible": true,
-          "score": 100,
-          "contribution": 10,
-          "url": "https://www.qishui.com/track/7695376967742769187",
-          "sourceId": "7695376967742769187",
-          "sourceMovement": {
-            "direction": "up",
-            "delta": 7,
-            "previousRank": 8,
-            "period": "previous-edition",
-            "raw": {
-              "rank_delta": "7",
-              "rank_type": "up",
-              "track_id": "7695376967742769187"
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "unknown",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-10-29T15:05:40.528Z",
-          "observedDate": "2026-10-29",
-          "sourceUpdatedAt": "2026-10-29T08:00:00.000Z",
-          "sourcePeriod": "weekly",
-          "attemptedAt": "2026-10-29T15:05:40.528Z",
-          "collectionError": null,
-          "cacheOrigin": null
-        }
-      ],
-      "score": 10,
-      "rank": 98,
-      "appearances": 1,
-      "scoringAppearances": 1,
-      "previousRank": null,
-      "delta": null,
-      "combinedMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
-        "period": "previous-day",
-        "comparisonDate": "2026-10-28"
-      },
-      "history": [
-        {
-          "date": "2026-10-29",
-          "rank": 98,
-          "score": 10,
-          "methodologyVersion": "1.4",
-          "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
-        }
-      ],
-      "movementRank": 6
+      "movementRank": 2
     },
     {
       "id": "05db1463ac4d3768c09b",
@@ -15003,9 +15089,10 @@
       "previousRank": null,
       "delta": null,
       "combinedMovement": {
-        "direction": "new",
+        "direction": "reentry",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-23",
         "period": "previous-day",
         "comparisonDate": "2026-10-28"
       },
@@ -15046,7 +15133,7 @@
           "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
         }
       ],
-      "movementRank": 7
+      "movementRank": 3
     }
   ],
   "unchangedCount": 16

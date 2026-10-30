@@ -4,11 +4,12 @@
   "date": "2026-10-23",
   "generatedAt": "2026-10-23T12:37:13.426Z",
   "methodology": {
-    "version": "movement-1.0",
+    "version": "movement-1.1",
     "basis": "combined-rank",
     "scope": "current-top-100",
-    "formula": "昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；新入榜单列"
+    "formula": "昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；首次入榜与重返榜单分别单列"
   },
+  "entryHistoryStart": "2026-10-23",
   "comparisonDate": null,
   "comparisonSignature": "1.3|97c4a1c82e44|apple,kugou,kuwo,netease,qishui,qq",
   "coverage": {
@@ -25,5 +26,6 @@
   "rising": [],
   "falling": [],
   "newEntries": [],
+  "reentries": [],
   "unchangedCount": 0
 }

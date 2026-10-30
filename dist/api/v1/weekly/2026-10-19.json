@@ -2,11 +2,12 @@
   "weekStart": "2026-10-19",
   "weekEnd": "2026-10-25",
   "mode": "live",
-  "generatedAt": "2026-10-30T04:42:35.315Z",
+  "generatedAt": "2026-10-30T05:30:08.885Z",
   "asOfDate": "2026-10-30",
   "status": "incomplete",
+  "entryHistoryStart": "2026-10-19",
   "methodology": {
-    "version": "weekly-1.2",
+    "version": "weekly-1.4",
     "baseVersion": null,
     "baseVersions": [
       "1.3",
@@ -57,6 +58,8 @@
     "mixedSignatures": true,
     "comparisonAvailable": false,
     "comparisonUsesCache": false,
+    "comparisonUsesIncomplete": false,
+    "comparisonBaseline": null,
     "sourceCoverage": {
       "available": 6,
       "fresh": 6,
@@ -348,6 +351,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -632,6 +636,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -872,6 +877,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -1156,6 +1162,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -1440,6 +1447,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -1724,6 +1732,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -2008,6 +2017,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -2292,6 +2302,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -2499,6 +2510,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -2739,6 +2751,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -3023,6 +3036,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -3263,6 +3277,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -3472,6 +3487,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -3623,6 +3639,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -3820,6 +3837,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -3891,6 +3909,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -4163,6 +4182,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -4409,6 +4429,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -4615,6 +4636,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -4861,6 +4883,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -5145,6 +5168,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -5216,6 +5240,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -5384,6 +5409,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -5671,6 +5697,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -5857,6 +5884,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -6011,6 +6039,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -6082,6 +6111,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -6154,6 +6184,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -6225,6 +6256,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -6297,6 +6329,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -6544,6 +6577,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -6706,6 +6740,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -6910,6 +6945,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -7053,6 +7089,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -7221,6 +7258,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -7427,6 +7465,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -7587,6 +7626,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -7658,6 +7698,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -7904,6 +7945,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -8064,6 +8106,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -8135,6 +8178,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -8293,6 +8337,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -8364,6 +8409,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -8518,6 +8564,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -8629,6 +8676,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -8748,6 +8796,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -8995,6 +9044,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -9116,6 +9166,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -9322,6 +9373,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -9400,6 +9452,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -9477,6 +9530,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -9686,6 +9740,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -9758,6 +9813,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -9879,6 +9935,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -10126,6 +10183,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -10197,6 +10255,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -10395,6 +10454,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -10515,6 +10575,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -10586,6 +10647,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -10658,6 +10720,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -10729,6 +10792,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -10964,6 +11028,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -11133,6 +11198,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -11380,6 +11446,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -11494,6 +11561,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -11566,6 +11634,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -11687,6 +11756,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -11880,6 +11950,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -11957,6 +12028,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -12125,6 +12197,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -12331,6 +12404,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -12445,6 +12519,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -12517,6 +12592,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -12638,6 +12714,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -12716,6 +12793,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -12884,6 +12962,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -13089,6 +13168,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -13335,6 +13415,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -13413,6 +13494,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -13534,6 +13616,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -13660,6 +13743,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -13906,6 +13990,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -14069,6 +14154,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -14274,6 +14360,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -14387,6 +14474,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -14503,6 +14591,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -14660,6 +14749,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -14731,6 +14821,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -14900,6 +14991,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -14978,6 +15070,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -15184,6 +15277,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -15306,6 +15400,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -15383,6 +15478,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -15456,6 +15552,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -15532,6 +15629,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -15688,6 +15786,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -15848,6 +15947,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -16052,6 +16152,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -16212,6 +16313,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
@@ -16284,6 +16386,7 @@
         "direction": "unknown",
         "delta": null,
         "previousRank": null,
+        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": null
       }
