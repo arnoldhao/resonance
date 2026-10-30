@@ -13,7 +13,7 @@
   "access": "官方榜单接口 · Web 模式 · 无需 Cookie 或签名",
   "providerId": "qishui",
   "declaredCount": 50,
-  "fetchedAt": "2026-10-30T04:25:44.436Z",
+  "fetchedAt": "2026-10-30T04:42:30.887Z",
   "sourceUpdatedAt": "2026-10-29T08:00:00.000Z",
   "sourcePeriod": "weekly",
   "entries": [
@@ -715,7 +715,7 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "3c6bd944f696cb9e2f11"
+      "songId": "58027a030e3b256feea8"
     },
     {
       "sourceId": "7646428893030615092",
@@ -799,7 +799,7 @@
         "status": "unknown",
         "items": []
       },
-      "songId": "152ada7e8bce86742279"
+      "songId": "242bbd13f219e539ff86"
     },
     {
       "sourceId": "6696408181523875842",
@@ -875,7 +875,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-10-30T04:25:44.436Z",
+        "currentObservedAt": "2026-10-30T04:42:30.887Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1328,7 +1328,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-29",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-10-30T04:25:44.436Z",
+        "currentObservedAt": "2026-10-30T04:42:30.887Z",
         "previousObservedAt": "2026-10-29T15:05:40.528Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1430,7 +1430,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-30T04:25:44.436Z",
+  "attemptedAt": "2026-10-30T04:42:30.887Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -1440,5 +1440,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T04:25:44.436Z"
+  "generatedAt": "2026-10-30T04:42:30.887Z"
 }
