@@ -1,0 +1,1444 @@
+{
+  "id": "qishui",
+  "name": "汽水音乐",
+  "chartName": "热歌榜 · 周榜 Top 50",
+  "group": "qishui",
+  "enabled": true,
+  "sourceUrl": "https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn&device_platform=web",
+  "collectionDepth": 50,
+  "maxAgeHours": 216,
+  "period": "weekly",
+  "frequency": "每周更新",
+  "updatePolicy": "官方响应 period=weekly，共 50 首；本次源发布时间为北京时间周四 16:00，固定时刻尚无长期承诺。每日保存周榜快照。",
+  "access": "官方榜单接口 · Web 模式 · 无需 Cookie 或签名",
+  "providerId": "qishui",
+  "declaredCount": 50,
+  "fetchedAt": "2026-10-31T04:30:45.810Z",
+  "sourceUpdatedAt": "2026-10-29T08:00:00.000Z",
+  "sourcePeriod": "weekly",
+  "entries": [
+    {
+      "sourceId": "7695376967742769187",
+      "title": "异乡的夜",
+      "artists": [
+        "欣晚柠"
+      ],
+      "album": "异乡的夜",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oAACAq3BUHoEt0FZkVIA9DCNyegfYA8WAGyIgD~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7695376967742769187",
+      "rank": 1,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 7,
+        "previousRank": 8,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "7",
+          "rank_type": "up",
+          "track_id": "7695376967742769187"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "83d3b01d5a81de1217a6"
+    },
+    {
+      "sourceId": "6849381964508596226",
+      "title": "天龙八部之宿敌",
+      "artists": [
+        "许嵩"
+      ],
+      "album": "天龙八部之宿敌",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ocAKAfQcBAA1iAcW88iym8EXHAoEPVLwxks4SB~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6849381964508596226",
+      "rank": 2,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 7,
+        "previousRank": 9,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "7",
+          "rank_type": "up",
+          "track_id": "6849381964508596226"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6995accbf8affee8f247"
+    },
+    {
+      "sourceId": "6705065595320141825",
+      "title": "我不难过",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "未完成",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/a50cf40bb89e410798f39ce09457459b~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6705065595320141825",
+      "rank": 3,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 4,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "up",
+          "track_id": "6705065595320141825"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5d47cfe6c7e99d6278ff"
+    },
+    {
+      "sourceId": "7168861366286190604",
+      "title": "茶汤",
+      "artists": [
+        "郁可唯"
+      ],
+      "album": "微加幸福",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/194b865cfd2f409685f3f7753d89012f~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7168861366286190604",
+      "rank": 4,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 3,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "down",
+          "track_id": "7168861366286190604"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "944510e48666efab2984"
+    },
+    {
+      "sourceId": "7696154553955141642",
+      "title": "过季短袖",
+      "artists": [
+        "黄明昊Justin"
+      ],
+      "album": "过季短袖",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ocKV1ihYAtKUWAYBEcaiWBYxEA0A7pWDtAvrX~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7696154553955141642",
+      "rank": 5,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "new",
+          "track_id": "7696154553955141642"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9134d651c0775324ad5d"
+    },
+    {
+      "sourceId": "7676054928352036902",
+      "title": "如果累了就回故乡",
+      "artists": [
+        "烟雨微醺"
+      ],
+      "album": "如果累了就回故乡",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oYnjoJGrQLF3QfCDwAIaAWaABnaKezgbVteIAM~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7676054928352036902",
+      "rank": 6,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 12,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "6",
+          "rank_type": "up",
+          "track_id": "7676054928352036902"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "741aac65451faa31e56e"
+    },
+    {
+      "sourceId": "7657099403009804305",
+      "title": "甲乙丙丁（你我怎么两清）",
+      "artists": [
+        "李佳薇"
+      ],
+      "album": "甲乙丙丁",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ooCIQI9HgCthBy3VZFfu3qDBfAQHMEtntAVvAG~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7657099403009804305",
+      "rank": 7,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 2,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "5",
+          "rank_type": "down",
+          "track_id": "7657099403009804305"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "487bb610752a82429d35"
+    },
+    {
+      "sourceId": "7468197025571948560",
+      "title": "偏爱",
+      "artists": [
+        "张芸京"
+      ],
+      "album": "仙剑奇侠传三 电视原声带",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/okeP2pzFaqGSRIeI3uLubIA5DkACIACfL0AgJF~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7468197025571948560",
+      "rank": 8,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 6,
+        "previousRank": 14,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "6",
+          "rank_type": "up",
+          "track_id": "7468197025571948560"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b1c2c5201af051615e85"
+    },
+    {
+      "sourceId": "7674273204581697563",
+      "title": "你不该权衡利弊",
+      "artists": [
+        "晚风微醺"
+      ],
+      "album": "晚风微醺",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ogFCKAJqgCU5AWsAEiuICZgBNxAfEseAtW3gED~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7674273204581697563",
+      "rank": 9,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 6,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "3",
+          "rank_type": "down",
+          "track_id": "7674273204581697563"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "237508c7cf83c8d7ceb3"
+    },
+    {
+      "sourceId": "7674873487907670054",
+      "title": "你不该权衡利弊",
+      "artists": [
+        "Popsicle"
+      ],
+      "album": "温柔歌",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEXF0tBpItZCDJA4ff6OAIHJqPA5DDHqYAEgCA~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7674873487907670054",
+      "rank": 10,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -3,
+        "previousRank": 7,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "3",
+          "rank_type": "down",
+          "track_id": "7674873487907670054"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "4473674b80df06c6a2ef"
+    },
+    {
+      "sourceId": "6778775241108752385",
+      "title": "演员",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": "初学者",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/3c35a27d9d6b4dd69afc59c6100f578b~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6778775241108752385",
+      "rank": 11,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 13,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "2",
+          "rank_type": "up",
+          "track_id": "6778775241108752385"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5a116a5750ca7bd1b1d1"
+    },
+    {
+      "sourceId": "7068138081588611073",
+      "title": "红色高跟鞋",
+      "artists": [
+        "蔡健雅"
+      ],
+      "album": "若你碰到他",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/cda9177d3fa042aaac2be342e708c3ab~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7068138081588611073",
+      "rank": 12,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 11,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "down",
+          "track_id": "7068138081588611073"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "949602a93a41b21f6d90"
+    },
+    {
+      "sourceId": "7168991636456736779",
+      "title": "好走不见",
+      "artists": [
+        "曹格"
+      ],
+      "album": "曹小格 / Super Junior",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/6d19ab454fd84d1ca070cd792f0405c0~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7168991636456736779",
+      "rank": 13,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 16,
+        "previousRank": 29,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "16",
+          "rank_type": "up",
+          "track_id": "7168991636456736779"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "45439470ba155cbc47b9"
+    },
+    {
+      "sourceId": "7168856635396327463",
+      "title": "盛夏的果实",
+      "artists": [
+        "莫文蔚"
+      ],
+      "album": "Karen More… No.1 新曲+精选全纪录20首",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ff4da037f6c24e1a94a373ade5f4ead8~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7168856635396327463",
+      "rank": 14,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 17,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "3",
+          "rank_type": "up",
+          "track_id": "7168856635396327463"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1e1b44b393f7de24dc18"
+    },
+    {
+      "sourceId": "7436998767289845777",
+      "title": "恋人",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "黑马",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o8rdW2ZBiz24zIA2AAkAb2AEBcgPAziYUYEC3~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7436998767289845777",
+      "rank": 15,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 19,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "4",
+          "rank_type": "up",
+          "track_id": "7436998767289845777"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1c4e1a4066e20511f7ab"
+    },
+    {
+      "sourceId": "7646998266635094067",
+      "title": "我听见了，你的痛苦成立",
+      "artists": [
+        "供销社乐队"
+      ],
+      "album": "我听见了，你的痛苦成立",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oQAA5IA9fpqCw33mA1EHBFHtZAbDcgmDQIfArO~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7646998266635094067",
+      "rank": 16,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 9,
+        "previousRank": 25,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "9",
+          "rank_type": "up",
+          "track_id": "7646998266635094067"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1dc98a7aec2e931714a1"
+    },
+    {
+      "sourceId": "7428116489662482433",
+      "title": "Other",
+      "artists": [
+        "Felek Alise"
+      ],
+      "album": "Other",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEffODIoxADSAdFBIEAaCIarCgFEzKZEJAOdfA~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7428116489662482433",
+      "rank": 17,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 15,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "2",
+          "rank_type": "down",
+          "track_id": "7428116489662482433"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "5b069eb95bbfb2e0ea4e"
+    },
+    {
+      "sourceId": "7679277712545269769",
+      "title": "慢品人间烟火气（落日微醺版）",
+      "artists": [
+        "涂一乐"
+      ],
+      "album": "慢品人间烟火气（落日微醺版）",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/okCbECEDAKfATqxARqkStWiEvAFVfZCkt8BJUg~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7679277712545269769",
+      "rank": 18,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 10,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "8",
+          "rank_type": "down",
+          "track_id": "7679277712545269769"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "a508fedeaf952ca05314"
+    },
+    {
+      "sourceId": "6726058369783711745",
+      "title": "Always Online",
+      "artists": [
+        "林俊杰"
+      ],
+      "album": "JJ陆",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/61ba48258e0646f4a96f89abdfa44e01~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6726058369783711745",
+      "rank": 19,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 22,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "3",
+          "rank_type": "up",
+          "track_id": "6726058369783711745"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "9c5f89dfb6e015855e29"
+    },
+    {
+      "sourceId": "6990754046848010276",
+      "title": "情歌",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": "别再为他流泪",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/b5de2b44981e45e1bcb83c7303930925~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6990754046848010276",
+      "rank": 20,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 16,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "4",
+          "rank_type": "down",
+          "track_id": "6990754046848010276"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "0547bcb2d1b36134ce08"
+    },
+    {
+      "sourceId": "7697463061359872026",
+      "title": "三生三世",
+      "artists": [
+        "秋言秋"
+      ],
+      "album": "三生三世",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o0NiyrfCgqffQCBZQAweAfBv23tfMSRA9fMZiAf~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7697463061359872026",
+      "rank": 21,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "new",
+          "track_id": "7697463061359872026"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "fbc1a9e3077c134a6c0b"
+    },
+    {
+      "sourceId": "7574231906780137489",
+      "title": "失眠",
+      "artists": [
+        "Suki刘舒妤"
+      ],
+      "album": "Ladies' Night",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/owIt6FpvRBApBJDfIf9uAQAgELJAAHgvbAPCZ9~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7574231906780137489",
+      "rank": 22,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 18,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "4",
+          "rank_type": "down",
+          "track_id": "7574231906780137489"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "07d8a07f3549e36b5f56"
+    },
+    {
+      "sourceId": "6705014751795087362",
+      "title": "我怀念的",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "逆光",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEWqmAQBpB10XZCiiAAeiCEAtBV7fOWgiZEXA6~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6705014751795087362",
+      "rank": 23,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 21,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "2",
+          "rank_type": "down",
+          "track_id": "6705014751795087362"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "8c0daa3d1077edcbc6c8"
+    },
+    {
+      "sourceId": "7169644136629274663",
+      "title": "心墙",
+      "artists": [
+        "郭静"
+      ],
+      "album": "在树上唱歌",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/e737f9f7ff9d48139eb5273a5dab26c0~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7169644136629274663",
+      "rank": 24,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 20,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "4",
+          "rank_type": "down",
+          "track_id": "7169644136629274663"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "1c1823ade108062c8f4d"
+    },
+    {
+      "sourceId": "7491130229642283025",
+      "title": "第57次取消发送",
+      "artists": [
+        "陆绮菲（菲菲公主）"
+      ],
+      "album": "第57次取消发送",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ogXAAilvD19ziAByEX5Ks1KBwi5WobA01Ff6EA~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7491130229642283025",
+      "rank": 25,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 24,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "down",
+          "track_id": "7491130229642283025"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "58027a030e3b256feea8"
+    },
+    {
+      "sourceId": "7646428893030615092",
+      "title": "相见欢 林花谢了春红",
+      "artists": [
+        "苏子建"
+      ],
+      "album": "相见欢 林花谢了春红",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o4DDOACAEAgAEKFgqbpCKlZfnSyZBmtHdEAdeR~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7646428893030615092",
+      "rank": 26,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 23,
+        "previousRank": 49,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "23",
+          "rank_type": "up",
+          "track_id": "7646428893030615092"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "e417c393d6efd5285093"
+    },
+    {
+      "sourceId": "6778775242320906241",
+      "title": "我好像在哪见过你",
+      "artists": [
+        "薛之谦"
+      ],
+      "album": "初学者",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/3c35a27d9d6b4dd69afc59c6100f578b~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6778775242320906241",
+      "rank": 27,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 29,
+        "previousRank": 56,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "29",
+          "rank_type": "up",
+          "track_id": "6778775242320906241"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "7940601b57e83658b527"
+    },
+    {
+      "sourceId": "7128288774983550977",
+      "title": "慢冷",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "2022中国好声音 第1期",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/d2ab79ec0cd9430ca9e15f79b8110a06~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7128288774983550977",
+      "rank": 28,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 27,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "down",
+          "track_id": "7128288774983550977"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "242bbd13f219e539ff86"
+    },
+    {
+      "sourceId": "6696408181523875842",
+      "title": "雨爱",
+      "artists": [
+        "杨丞琳"
+      ],
+      "album": "雨爱",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/5083047f32164ca0b11466d14b5b80f4~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6696408181523875842",
+      "rank": 29,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 28,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "down",
+          "track_id": "6696408181523875842"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "61c8815b55293dd4a3cd"
+    },
+    {
+      "sourceId": "7634441185327745025",
+      "title": "雨过后的风景",
+      "artists": [
+        "Dizzy Dizzo (蔡诗芸)"
+      ],
+      "album": "雨过后的风景",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o8TfQ4AmA1MRjPGXGAAL4zeyQeHHnjIFyAfxNK~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7634441185327745025",
+      "rank": 30,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 32,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "2",
+          "rank_type": "up",
+          "track_id": "7634441185327745025"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "aa443c23eb5bd46fcb5a"
+    },
+    {
+      "sourceId": "6704952949321238529",
+      "title": "开始懂了",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "我要的幸福",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/743a9b2331d241dfac96fea5ff76dcc6~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6704952949321238529",
+      "rank": 31,
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 31,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-30",
+        "comparisonDepth": 50,
+        "currentObservedAt": "2026-10-31T04:30:45.810Z",
+        "previousObservedAt": "2026-10-30T14:06:50.126Z",
+        "comparisonUsesCache": false,
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "equal",
+          "track_id": "6704952949321238529"
+        }
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "161752bf9ddec26f6c9c"
+    },
+    {
+      "sourceId": "7688548940955781161",
+      "title": "时过境迁",
+      "artists": [
+        "苏艺馨Chency"
+      ],
+      "album": "时过境迁",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oUqADOmk6BWI0CFZkApIBfpAAsthgnfFdXiDEG~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7688548940955781161",
+      "rank": 32,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "new",
+          "track_id": "7688548940955781161"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "cea514c84596f8d5cb19"
+    },
+    {
+      "sourceId": "7696087740308736038",
+      "title": "你不懂我多累（越深情越狼狈）",
+      "artists": [
+        "今夜微醺"
+      ],
+      "album": "你不懂我多累（越深情越狼狈）",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEGgOBqFwmAEWiE1DZifgAQnMAXAEXEFsABzWA~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7696087740308736038",
+      "rank": 33,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "new",
+          "track_id": "7696087740308736038"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c278eceb7e7ff06afccb"
+    },
+    {
+      "sourceId": "7667410090051553343",
+      "title": "山风山风等等我(烟嗓版)",
+      "artists": [
+        "周羽杰"
+      ],
+      "album": "山风山风等等我(烟嗓版)",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o4Z6N4BxEiBAEQANIAihAIWAAxBdfs6o1cGBQM~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7667410090051553343",
+      "rank": 34,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -8,
+        "previousRank": 26,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "8",
+          "rank_type": "down",
+          "track_id": "7667410090051553343"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6710e00e70fc0a287c40"
+    },
+    {
+      "sourceId": "7079108541549643812",
+      "title": "小半",
+      "artists": [
+        "陈粒"
+      ],
+      "album": "小梦大半",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/5af8c2f145914646b1ee21cbb98a38c9~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7079108541549643812",
+      "rank": 35,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 30,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "5",
+          "rank_type": "down",
+          "track_id": "7079108541549643812"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6f164a403f38b8991823"
+    },
+    {
+      "sourceId": "7673056148375210001",
+      "title": "牡丹亭",
+      "artists": [
+        "浅影阿"
+      ],
+      "album": "牡丹亭",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/owLgAAfpeKIDGdJAIBZFDmWFAl4eITIA1veAIG~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7673056148375210001",
+      "rank": 36,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -13,
+        "previousRank": 23,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "13",
+          "rank_type": "down",
+          "track_id": "7673056148375210001"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b5e63529de97d45b31c6"
+    },
+    {
+      "sourceId": "7665565974487353395",
+      "title": "留什么给你(烟嗓女版)",
+      "artists": [
+        "陈一雯"
+      ],
+      "album": "留什么给你(烟嗓女版)",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ogfqxVZBtpDYQh8EAoFFwEAXAeAhEgB2aBANKC~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7665565974487353395",
+      "rank": 37,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 40,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "3",
+          "rank_type": "up",
+          "track_id": "7665565974487353395"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "996019f1668a7f4755bd"
+    },
+    {
+      "sourceId": "6705003948140398594",
+      "title": "海阔天空",
+      "artists": [
+        "Beyond"
+      ],
+      "album": "华纳我爱经典系列 Beyond",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/a9ef1dc07b634fffac4e7874540750ba~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6705003948140398594",
+      "rank": 38,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 39,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "up",
+          "track_id": "6705003948140398594"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "bc4ffc87d037ca2b32ce"
+    },
+    {
+      "sourceId": "7694680562044962858",
+      "title": "你怎么舍得 让我的泪流成海",
+      "artists": [
+        "晚叙微醺"
+      ],
+      "album": "晚叙微醺",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o0zvkATmrsAiP8AAAWAFjJDMBaEdEwIgMA3iQ~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7694680562044962858",
+      "rank": 39,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "new",
+          "track_id": "7694680562044962858"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "b1677985279473995319"
+    },
+    {
+      "sourceId": "7554592201637693467",
+      "title": "雪下的时候",
+      "artists": [
+        "乔佳旭"
+      ],
+      "album": "雪下的时候",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o4EiU3E8WiO4wlQHAVAdhII5DSBPS4AaXNrvA~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7554592201637693467",
+      "rank": 40,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 2,
+        "previousRank": 42,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "2",
+          "rank_type": "up",
+          "track_id": "7554592201637693467"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "0adc7b2943a5bbdb2da7"
+    },
+    {
+      "sourceId": "6849428442203555842",
+      "title": "幻听",
+      "artists": [
+        "许嵩"
+      ],
+      "album": "梦游计",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o4jaDqGUEAQvCi2BAY6W1AYiAlZoomE8DEPAr~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6849428442203555842",
+      "rank": 41,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "new",
+          "track_id": "6849428442203555842"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c358903ade375e995c99"
+    },
+    {
+      "sourceId": "7284443920741058562",
+      "title": "唯一",
+      "artists": [
+        "G.E.M. 邓紫棋"
+      ],
+      "album": "T.I.M.E.",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o4iBEAhpSrzAsuw0SjAqfyVANAoAAyEWKNEWvk~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7284443920741058562",
+      "rank": 42,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 4,
+        "previousRank": 46,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "4",
+          "rank_type": "up",
+          "track_id": "7284443920741058562"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "44a84462f6a0527b7c01"
+    },
+    {
+      "sourceId": "6738435351683041282",
+      "title": "我好想你",
+      "artists": [
+        "苏打绿"
+      ],
+      "album": "秋：故事",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/okQY4zCLfZKmyLveHgLGQAAaglDeFHcAuQAFIU~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6738435351683041282",
+      "rank": 43,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -7,
+        "previousRank": 36,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "7",
+          "rank_type": "down",
+          "track_id": "6738435351683041282"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "da69bf2301913ae757be"
+    },
+    {
+      "sourceId": "7290271623008815105",
+      "title": "Pillows",
+      "artists": [
+        "The meaninglessness of existence, and therefore freedom"
+      ],
+      "album": "Conclusiveness",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/owBAsftddl0rz7WAstZAntWIwohhAAAEcyxBEO~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7290271623008815105",
+      "rank": 44,
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "new",
+          "track_id": "7290271623008815105"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "cb48f2b0d9e2c2e0f733"
+    },
+    {
+      "sourceId": "7441873398400894977",
+      "title": "茶花开了",
+      "artists": [
+        "王睿卓"
+      ],
+      "album": "茶花开了",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ogttTRABaFSDCBQAHneAZkgAiEEofBiDEG2IDx~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7441873398400894977",
+      "rank": 45,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 41,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "4",
+          "rank_type": "down",
+          "track_id": "7441873398400894977"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "6d2b6173a24f2f398e8e"
+    },
+    {
+      "sourceId": "7255195662504740866",
+      "title": "瞬",
+      "artists": [
+        "郑润泽"
+      ],
+      "album": "瞬",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oUfEjA8yVBBhAgYAhMU9CsoAoLvtENHAWdywEz~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7255195662504740866",
+      "rank": 46,
+      "sourceMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 45,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "down",
+          "track_id": "7255195662504740866"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "c45f0eb625b5fd56513e"
+    },
+    {
+      "sourceId": "6918195036836349953",
+      "title": "特别的人",
+      "artists": [
+        "方大同"
+      ],
+      "album": "危险世界",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/9bb38f2a52444ac3b1bf50a155ff8256~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6918195036836349953",
+      "rank": 47,
+      "sourceMovement": {
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 47,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-10-30",
+        "comparisonDepth": 50,
+        "currentObservedAt": "2026-10-31T04:30:45.810Z",
+        "previousObservedAt": "2026-10-30T14:06:50.126Z",
+        "comparisonUsesCache": false,
+        "raw": {
+          "rank_delta": "0",
+          "rank_type": "equal",
+          "track_id": "6918195036836349953"
+        }
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "800b0aab3d68808e892e"
+    },
+    {
+      "sourceId": "6920323667041732609",
+      "title": "遗失的心跳",
+      "artists": [
+        "萧亚轩"
+      ],
+      "album": "Super Girl 爱 无畏 新歌＋精选",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o8iAPAsWEABPoEB3A0AwqqPhoAiK6iuBe6Iga6~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6920323667041732609",
+      "rank": 48,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 8,
+        "previousRank": 56,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "8",
+          "rank_type": "up",
+          "track_id": "6920323667041732609"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "4f9f361eaa5f3ff8e00b"
+    },
+    {
+      "sourceId": "7025566199207430145",
+      "title": "指纹",
+      "artists": [
+        "杜宣达"
+      ],
+      "album": "指纹",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oQGIgI2WAFOFD0nDzFfMbLDC7AvwQEaIdAKeAe~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7025566199207430145",
+      "rank": 49,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 50,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "up",
+          "track_id": "7025566199207430145"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "7071aa5c81a14a34d98e"
+    },
+    {
+      "sourceId": "6704980467805849601",
+      "title": "戒烟",
+      "artists": [
+        "李荣浩"
+      ],
+      "album": "戒烟",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/47f2b2624c0a47098ac8670327c25703~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/6704980467805849601",
+      "rank": 50,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 51,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "up",
+          "track_id": "6704980467805849601"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "bba9c5a8e8f6712876b1"
+    }
+  ],
+  "status": "ok",
+  "ingestion": "public",
+  "attemptedAt": "2026-10-31T04:30:45.810Z",
+  "collectionError": null,
+  "cacheOrigin": null,
+  "message": null,
+  "weight": 0.1,
+  "count": 50,
+  "scoringCount": 50,
+  "schemaVersion": 1,
+  "mode": "live",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T04:30:45.810Z"
+}
