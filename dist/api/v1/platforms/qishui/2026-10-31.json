@@ -13,7 +13,7 @@
   "access": "官方榜单接口 · Web 模式 · 无需 Cookie 或签名",
   "providerId": "qishui",
   "declaredCount": 50,
-  "fetchedAt": "2026-10-31T04:30:45.810Z",
+  "fetchedAt": "2026-10-31T06:59:10.749Z",
   "sourceUpdatedAt": "2026-10-29T08:00:00.000Z",
   "sourcePeriod": "weekly",
   "entries": [
@@ -875,7 +875,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-30",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-10-31T04:30:45.810Z",
+        "currentObservedAt": "2026-10-31T06:59:10.749Z",
         "previousObservedAt": "2026-10-30T14:06:50.126Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1328,7 +1328,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-10-30",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-10-31T04:30:45.810Z",
+        "currentObservedAt": "2026-10-31T06:59:10.749Z",
         "previousObservedAt": "2026-10-30T14:06:50.126Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1430,7 +1430,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-10-31T04:30:45.810Z",
+  "attemptedAt": "2026-10-31T06:59:10.749Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -1440,5 +1440,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T04:30:45.810Z"
+  "generatedAt": "2026-10-31T06:59:10.749Z"
 }
