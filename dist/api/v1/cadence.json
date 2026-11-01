@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T13:38:41.685Z",
-  "sinceDate": "2026-10-02",
+  "generatedAt": "2026-11-01T04:10:25.244Z",
+  "sinceDate": "2026-10-03",
   "timeZone": "Asia/Shanghai",
   "policy": "仅比较真实成功观察中的歌曲 ID 与名次；变化发生于两次观察之间，不将采集时间或 RSS 时间推定为固定发榜时间。",
   "sources": [
@@ -10,14 +10,14 @@
       "name": "QQ 音乐",
       "frequency": "每日更新",
       "updatePolicy": "榜单说明为每日更新；未确认固定公布时刻。",
-      "observations": 44,
+      "observations": 45,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-10-31T13:38:33.682Z",
+      "latestObservedAt": "2026-11-01T04:10:16.591Z",
       "latestContentChange": {
-        "after": "2026-10-30T14:06:50.126Z",
-        "by": "2026-10-31T04:30:45.810Z",
-        "previousPeriod": "2026-10-30",
-        "sourcePeriod": "2026-10-31",
+        "after": "2026-10-31T13:38:33.682Z",
+        "by": "2026-11-01T04:10:16.591Z",
+        "previousPeriod": "2026-10-31",
+        "sourcePeriod": "2026-11-01",
         "sourceUpdatedAt": null
       },
       "changes": [
@@ -82,6 +82,13 @@
           "by": "2026-10-31T04:30:45.810Z",
           "previousPeriod": "2026-10-30",
           "sourcePeriod": "2026-10-31",
+          "sourceUpdatedAt": null
+        },
+        {
+          "after": "2026-10-31T13:38:33.682Z",
+          "by": "2026-11-01T04:10:16.591Z",
+          "previousPeriod": "2026-10-31",
+          "sourcePeriod": "2026-11-01",
           "sourceUpdatedAt": null
         }
       ],
@@ -148,6 +155,13 @@
           "previousEdition": "2026-10-30",
           "edition": "2026-10-31",
           "rankChanged": true
+        },
+        {
+          "after": "2026-10-31T13:38:33.682Z",
+          "by": "2026-11-01T04:10:16.591Z",
+          "previousEdition": "2026-10-31",
+          "edition": "2026-11-01",
+          "rankChanged": true
         }
       ],
       "daily": [
@@ -204,6 +218,12 @@
           "observations": 3,
           "changes": 0,
           "editionChanges": 0
+        },
+        {
+          "date": "2026-11-01",
+          "observations": 1,
+          "changes": 0,
+          "editionChanges": 0
         }
       ],
       "maxDailyChanges": 1,
@@ -214,15 +234,15 @@
       "name": "网易云音乐",
       "frequency": "每日更新",
       "updatePolicy": "一周内热度统计，当前官方说明为每日更新；未确认固定公布时刻。",
-      "observations": 44,
+      "observations": 45,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-10-31T13:38:33.682Z",
+      "latestObservedAt": "2026-11-01T04:10:16.591Z",
       "latestContentChange": {
-        "after": "2026-10-30T14:06:50.126Z",
-        "by": "2026-10-31T04:30:45.810Z",
+        "after": "2026-10-31T13:38:33.682Z",
+        "by": "2026-11-01T04:10:16.591Z",
         "previousPeriod": null,
         "sourcePeriod": null,
-        "sourceUpdatedAt": "2026-10-31T00:58:29.631Z"
+        "sourceUpdatedAt": "2026-11-01T02:13:55.293Z"
       },
       "changes": [
         {
@@ -280,6 +300,13 @@
           "previousPeriod": null,
           "sourcePeriod": null,
           "sourceUpdatedAt": "2026-10-31T00:58:29.631Z"
+        },
+        {
+          "after": "2026-10-31T13:38:33.682Z",
+          "by": "2026-11-01T04:10:16.591Z",
+          "previousPeriod": null,
+          "sourcePeriod": null,
+          "sourceUpdatedAt": "2026-11-01T02:13:55.293Z"
         }
       ],
       "editionChanges": [
@@ -338,6 +365,13 @@
           "previousEdition": "2026-10-30T00:11:21.052Z",
           "edition": "2026-10-31T00:58:29.631Z",
           "rankChanged": true
+        },
+        {
+          "after": "2026-10-31T13:38:33.682Z",
+          "by": "2026-11-01T04:10:16.591Z",
+          "previousEdition": "2026-10-31T00:58:29.631Z",
+          "edition": "2026-11-01T02:13:55.293Z",
+          "rankChanged": true
         }
       ],
       "daily": [
@@ -394,6 +428,12 @@
           "observations": 3,
           "changes": 0,
           "editionChanges": 0
+        },
+        {
+          "date": "2026-11-01",
+          "observations": 1,
+          "changes": 0,
+          "editionChanges": 0
         }
       ],
       "maxDailyChanges": 1,
@@ -404,14 +444,14 @@
       "name": "酷狗音乐",
       "frequency": "每日更新",
       "updatePolicy": "每日榜期包含源站未注明时区的时刻；榜期时间不等于接口实际可见时间，固定刷新时刻仍待持续观察。",
-      "observations": 44,
+      "observations": 45,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-10-31T13:38:33.682Z",
+      "latestObservedAt": "2026-11-01T04:10:16.591Z",
       "latestContentChange": {
-        "after": "2026-10-30T14:06:50.126Z",
-        "by": "2026-10-31T04:30:45.810Z",
-        "previousPeriod": "2026-10-30 08:30:01",
-        "sourcePeriod": "2026-10-31 08:30:01",
+        "after": "2026-10-31T13:38:33.682Z",
+        "by": "2026-11-01T04:10:16.591Z",
+        "previousPeriod": "2026-10-31 08:30:01",
+        "sourcePeriod": "2026-11-01 08:30:00",
         "sourceUpdatedAt": null
       },
       "changes": [
@@ -477,6 +517,13 @@
           "previousPeriod": "2026-10-30 08:30:01",
           "sourcePeriod": "2026-10-31 08:30:01",
           "sourceUpdatedAt": null
+        },
+        {
+          "after": "2026-10-31T13:38:33.682Z",
+          "by": "2026-11-01T04:10:16.591Z",
+          "previousPeriod": "2026-10-31 08:30:01",
+          "sourcePeriod": "2026-11-01 08:30:00",
+          "sourceUpdatedAt": null
         }
       ],
       "editionChanges": [
@@ -535,6 +582,13 @@
           "previousEdition": "2026-10-30 08:30:01",
           "edition": "2026-10-31 08:30:01",
           "rankChanged": true
+        },
+        {
+          "after": "2026-10-31T13:38:33.682Z",
+          "by": "2026-11-01T04:10:16.591Z",
+          "previousEdition": "2026-10-31 08:30:01",
+          "edition": "2026-11-01 08:30:00",
+          "rankChanged": true
         }
       ],
       "daily": [
@@ -591,6 +645,12 @@
           "observations": 3,
           "changes": 0,
           "editionChanges": 0
+        },
+        {
+          "date": "2026-11-01",
+          "observations": 1,
+          "changes": 0,
+          "editionChanges": 0
         }
       ],
       "maxDailyChanges": 1,
@@ -601,9 +661,9 @@
       "name": "酷我音乐",
       "frequency": "更新频率待确认",
       "updatePolicy": "公开接口提供榜单日期，但日期变化不保证排名变化；未找到固定频率与公布时刻的一手承诺。",
-      "observations": 42,
+      "observations": 43,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-10-31T13:38:33.682Z",
+      "latestObservedAt": "2026-11-01T04:10:16.591Z",
       "latestContentChange": {
         "after": "2026-10-30T14:06:50.126Z",
         "by": "2026-10-31T04:30:45.810Z",
@@ -760,6 +820,12 @@
           "observations": 3,
           "changes": 0,
           "editionChanges": 0
+        },
+        {
+          "date": "2026-11-01",
+          "observations": 1,
+          "changes": 0,
+          "editionChanges": 0
         }
       ],
       "maxDailyChanges": 1,
@@ -770,15 +836,15 @@
       "name": "Apple Music",
       "frequency": "未公开固定时点",
       "updatePolicy": "官方 CN most-played RSS；updated 曾随读取刷新，不能单独作为排名更新时间。实测存在日内多次排名变化；与 Top 100：中国大陆歌单不同，不套用其他产品的刷新承诺。",
-      "observations": 40,
+      "observations": 41,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-10-31T13:38:33.682Z",
+      "latestObservedAt": "2026-11-01T04:10:16.591Z",
       "latestContentChange": {
-        "after": "2026-10-31T06:59:10.749Z",
-        "by": "2026-10-31T13:38:33.682Z",
+        "after": "2026-10-31T13:38:33.682Z",
+        "by": "2026-11-01T04:10:16.591Z",
         "previousPeriod": null,
         "sourcePeriod": null,
-        "sourceUpdatedAt": "2026-10-31T13:38:35.000Z"
+        "sourceUpdatedAt": "2026-11-01T04:10:19.000Z"
       },
       "changes": [
         {
@@ -990,6 +1056,13 @@
           "previousPeriod": null,
           "sourcePeriod": null,
           "sourceUpdatedAt": "2026-10-31T13:38:35.000Z"
+        },
+        {
+          "after": "2026-10-31T13:38:33.682Z",
+          "by": "2026-11-01T04:10:16.591Z",
+          "previousPeriod": null,
+          "sourcePeriod": null,
+          "sourceUpdatedAt": "2026-11-01T04:10:19.000Z"
         }
       ],
       "editionChanges": [],
@@ -1047,6 +1120,12 @@
           "observations": 3,
           "changes": 2,
           "editionChanges": 0
+        },
+        {
+          "date": "2026-11-01",
+          "observations": 1,
+          "changes": 0,
+          "editionChanges": 0
         }
       ],
       "maxDailyChanges": 5,
@@ -1057,9 +1136,9 @@
       "name": "汽水音乐",
       "frequency": "每周更新",
       "updatePolicy": "官方响应 period=weekly，共 50 首；本次源发布时间为北京时间周四 16:00，固定时刻尚无长期承诺。每日保存周榜快照。",
-      "observations": 42,
+      "observations": 43,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-10-31T13:38:33.682Z",
+      "latestObservedAt": "2026-11-01T04:10:16.591Z",
       "latestContentChange": {
         "after": "2026-10-29T07:03:29.683Z",
         "by": "2026-10-29T14:17:03.840Z",
@@ -1137,6 +1216,12 @@
         {
           "date": "2026-10-31",
           "observations": 3,
+          "changes": 0,
+          "editionChanges": 0
+        },
+        {
+          "date": "2026-11-01",
+          "observations": 1,
           "changes": 0,
           "editionChanges": 0
         }
