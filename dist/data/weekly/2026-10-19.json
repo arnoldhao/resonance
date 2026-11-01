@@ -2,10 +2,64 @@
   "weekStart": "2026-10-19",
   "weekEnd": "2026-10-25",
   "mode": "live",
-  "generatedAt": "2026-11-01T07:30:59.753Z",
+  "generatedAt": "2026-11-01T09:15:40.668Z",
   "asOfDate": "2026-11-01",
   "status": "incomplete",
   "entryHistoryStart": "2026-10-19",
+  "rankTrend": {
+    "basis": "daily",
+    "points": [
+      {
+        "label": "一",
+        "date": "2026-10-19",
+        "status": "missing",
+        "observedDays": 0,
+        "expectedDays": 1
+      },
+      {
+        "label": "二",
+        "date": "2026-10-20",
+        "status": "missing",
+        "observedDays": 0,
+        "expectedDays": 1
+      },
+      {
+        "label": "三",
+        "date": "2026-10-21",
+        "status": "missing",
+        "observedDays": 0,
+        "expectedDays": 1
+      },
+      {
+        "label": "四",
+        "date": "2026-10-22",
+        "status": "missing",
+        "observedDays": 0,
+        "expectedDays": 1
+      },
+      {
+        "label": "五",
+        "date": "2026-10-23",
+        "status": "complete",
+        "observedDays": 1,
+        "expectedDays": 1
+      },
+      {
+        "label": "六",
+        "date": "2026-10-24",
+        "status": "complete",
+        "observedDays": 1,
+        "expectedDays": 1
+      },
+      {
+        "label": "日",
+        "date": "2026-10-25",
+        "status": "complete",
+        "observedDays": 1,
+        "expectedDays": 1
+      }
+    ]
+  },
   "methodology": {
     "version": "weekly-1.4",
     "baseVersion": null,
@@ -81,6 +135,43 @@
       "rank": 1,
       "score": 93.5417,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 1,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 1,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 1,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -366,6 +457,43 @@
       "rank": 2,
       "score": 83.301,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 2,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 2,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 2,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -651,6 +779,43 @@
       "rank": 3,
       "score": 77.321,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 3,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 3,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 3,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -892,6 +1057,43 @@
       "rank": 4,
       "score": 56.1463,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 4,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 5,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 6,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -1177,6 +1379,43 @@
       "rank": 5,
       "score": 55.9778,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 6,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 4,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 4,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -1462,6 +1701,43 @@
       "rank": 6,
       "score": 54.0803,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 5,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 6,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 5,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -1747,6 +2023,43 @@
       "rank": 7,
       "score": 46.8115,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 7,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 7,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 8,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2032,6 +2345,43 @@
       "rank": 8,
       "score": 44.1941,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 9,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 8,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 7,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2318,6 +2668,43 @@
       "rank": 9,
       "score": 39.6053,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 8,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 9,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 11,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2525,6 +2912,43 @@
       "rank": 10,
       "score": 36.7332,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 11,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 10,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 10,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2766,6 +3190,43 @@
       "rank": 11,
       "score": 36.5063,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 12,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 11,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 9,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3051,6 +3512,43 @@
       "rank": 12,
       "score": 34.9211,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 10,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 12,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 14,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3292,6 +3790,43 @@
       "rank": 13,
       "score": 33.753,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 14,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 15,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 12,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3502,6 +4037,43 @@
       "rank": 14,
       "score": 32.9012,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 13,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 13,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 15,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3654,6 +4226,43 @@
       "rank": 15,
       "score": 31.9968,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 15,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 14,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 16,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3852,6 +4461,43 @@
       "rank": 16,
       "score": 28.9413,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 19,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 19,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 19,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -3924,6 +4570,43 @@
       "rank": 17,
       "score": 28.9304,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 18,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 17,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 22,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4197,6 +4880,43 @@
       "rank": 18,
       "score": 28.9115,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 29,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 18,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 13,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4444,6 +5164,43 @@
       "rank": 19,
       "score": 27.0204,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 24,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 20,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 21,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4651,6 +5408,43 @@
       "rank": 20,
       "score": 26.9072,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 30,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 21,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 17,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4898,6 +5692,43 @@
       "rank": 21,
       "score": 25.9175,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 33,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 24,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 18,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -5183,6 +6014,43 @@
       "rank": 22,
       "score": 25.4182,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 22,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 25,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 27,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -5255,6 +6123,43 @@
       "rank": 23,
       "score": 25.3654,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 17,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 28,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 37,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -5424,6 +6329,43 @@
       "rank": 24,
       "score": 25.1591,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 21,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 30,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 28,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -5712,6 +6654,43 @@
       "rank": 25,
       "score": 24.6642,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 16,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 27,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 52,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -5899,6 +6878,43 @@
       "rank": 26,
       "score": 24.5072,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 41,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 16,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 25,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6054,6 +7070,43 @@
       "rank": 27,
       "score": 23.4124,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 20,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 43,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 32,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -6127,6 +7180,43 @@
       "rank": 28,
       "score": 22.637,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 32,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 34,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 30,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -6199,6 +7289,43 @@
       "rank": 29,
       "score": 22.6165,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 28,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 35,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 33,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -6272,6 +7399,43 @@
       "rank": 30,
       "score": 22.4551,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 36,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 47,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 20,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -6344,6 +7508,43 @@
       "rank": 31,
       "score": 22.3783,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 27,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 33,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 39,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6592,6 +7793,43 @@
       "rank": 32,
       "score": 22.1165,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 31,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 32,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 34,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6756,6 +7994,43 @@
       "rank": 33,
       "score": 21.9301,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 61,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 31,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 23,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6960,6 +8235,43 @@
       "rank": 34,
       "score": 21.9198,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 52,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 23,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 31,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -7104,6 +8416,43 @@
       "rank": 35,
       "score": 21.0357,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 26,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 41,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 42,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -7273,6 +8622,43 @@
       "rank": 36,
       "score": 20.0923,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 54,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 38,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 29,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -7480,6 +8866,43 @@
       "rank": 37,
       "score": 19.9309,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 57,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 40,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 26,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -7641,6 +9064,43 @@
       "rank": 38,
       "score": 19.7874,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 37,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 37,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 51,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -7713,6 +9173,43 @@
       "rank": 39,
       "score": 19.776,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 34,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 36,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 57,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -7960,6 +9457,43 @@
       "rank": 40,
       "score": 19.4785,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 47,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 39,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 38,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -8121,6 +9655,43 @@
       "rank": 41,
       "score": 19.4219,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 62,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 22,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 61,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -8193,6 +9764,43 @@
       "rank": 42,
       "score": 19.0849,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 35,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 49,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 50,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -8352,6 +9960,43 @@
       "rank": 43,
       "score": 18.9555,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 40,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 26,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 77,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -8424,6 +10069,43 @@
       "rank": 44,
       "score": 18.9302,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 38,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 46,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 44,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -8580,6 +10262,43 @@
       "rank": 45,
       "score": 18.8272,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 25,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 53,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 67,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -8691,6 +10410,43 @@
       "rank": 46,
       "score": 18.4144,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 45,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 50,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 41,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -8811,6 +10567,43 @@
       "rank": 47,
       "score": 18.341,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 59,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 44,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 35,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -9059,6 +10852,43 @@
       "rank": 48,
       "score": 17.6762,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 43,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 55,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 55,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -9181,6 +11011,43 @@
       "rank": 49,
       "score": 17.673,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 50,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 45,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 49,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -9388,6 +11255,43 @@
       "rank": 50,
       "score": 17.5554,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 42,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 54,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 56,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -9467,6 +11371,43 @@
       "rank": 51,
       "score": 16.9904,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 67,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 79,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 24,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -9545,6 +11486,43 @@
       "rank": 52,
       "score": 16.9046,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 73,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 42,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 47,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -9756,6 +11734,43 @@
       "rank": 53,
       "score": 16.7289,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 44,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 56,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 65,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -9828,6 +11843,43 @@
       "rank": 54,
       "score": 16.4977,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 46,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 58,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 63,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -9950,6 +12002,43 @@
       "rank": 55,
       "score": 16.4835,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 69,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 52,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 45,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -10198,6 +12287,43 @@
       "rank": 56,
       "score": 16.4451,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 51,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 70,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 43,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -10270,6 +12396,43 @@
       "rank": 57,
       "score": 16.2224,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 55,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 57,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 58,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -10470,6 +12633,43 @@
       "rank": 58,
       "score": 16.1245,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 39,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 62,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 76,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -10590,6 +12790,43 @@
       "rank": 59,
       "score": 15.8257,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 49,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 60,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 66,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -10663,6 +12900,43 @@
       "rank": 60,
       "score": 15.5668,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 23,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 74,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -10735,6 +13009,43 @@
       "rank": 61,
       "score": 15.0385,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 64,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 51,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 81,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -10807,6 +13118,43 @@
       "rank": 62,
       "score": 14.6409,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 77,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 61,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 59,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -11044,6 +13392,43 @@
       "rank": 63,
       "score": 14.5921,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 56,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 71,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 69,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -11213,6 +13598,43 @@
       "rank": 64,
       "score": 14.4798,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 84,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 64,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 48,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -11461,6 +13883,43 @@
       "rank": 65,
       "score": 14.471,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 68,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 68,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 62,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -11576,6 +14035,43 @@
       "rank": 66,
       "score": 14.4072,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 65,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 66,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 68,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -11649,6 +14145,43 @@
       "rank": 67,
       "score": 14.2709,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 60,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 72,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 70,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -11771,6 +14304,43 @@
       "rank": 68,
       "score": 13.9252,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 93,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 65,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 53,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -11965,6 +14535,43 @@
       "rank": 69,
       "score": 13.7881,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 81,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 86,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 46,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -12043,6 +14650,43 @@
       "rank": 70,
       "score": 13.6031,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 48,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 76,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 100,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12212,6 +14856,43 @@
       "rank": 71,
       "score": 13.5157,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 76,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 67,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 72,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12420,6 +15101,43 @@
       "rank": 72,
       "score": 13.4162,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 58,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 69,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 96,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -12534,6 +15252,43 @@
       "rank": 73,
       "score": 13.2533,
       "daysOnChart": 2,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 48,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 36,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12607,6 +15362,43 @@
       "rank": 74,
       "score": 13.1476,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 53,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 77,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 97,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -12730,6 +15522,43 @@
       "rank": 75,
       "score": 12.5891,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 70,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 91,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 75,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -12808,6 +15637,43 @@
       "rank": 76,
       "score": 12.5789,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 78,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 75,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 82,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12977,6 +15843,43 @@
       "rank": 77,
       "score": 12.5753,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 72,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 81,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 80,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -13183,6 +16086,43 @@
       "rank": 78,
       "score": 12.512,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 63,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 60,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -13430,6 +16370,43 @@
       "rank": 79,
       "score": 12.4785,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 63,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 85,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 89,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -13509,6 +16486,43 @@
       "rank": 80,
       "score": 12.3362,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 71,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 82,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 85,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -13631,6 +16645,43 @@
       "rank": 81,
       "score": 12.1678,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 66,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 83,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 90,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -13758,6 +16809,43 @@
       "rank": 82,
       "score": 11.6839,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 99,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 80,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 71,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -14005,6 +17093,43 @@
       "rank": 83,
       "score": 11.5674,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 87,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 93,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 73,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -14169,6 +17294,43 @@
       "rank": 84,
       "score": 11.3553,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 87,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 54,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -14375,6 +17537,43 @@
       "rank": 85,
       "score": 11.3167,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 88,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 78,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 88,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -14489,6 +17688,43 @@
       "rank": 86,
       "score": 10.9186,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 82,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 96,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 94,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kuwo",
@@ -14606,6 +17842,43 @@
       "rank": 87,
       "score": 10.5598,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 95,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 95,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 86,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "apple",
@@ -14764,6 +18037,43 @@
       "rank": 88,
       "score": 10.5413,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 75,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 84,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -14836,6 +18146,43 @@
       "rank": 89,
       "score": 10.4818,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 80,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -15006,6 +18353,43 @@
       "rank": 90,
       "score": 10.4533,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 74,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 94,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -15085,6 +18469,43 @@
       "rank": 91,
       "score": 10.3107,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 91,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 97,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 91,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "apple",
@@ -15293,6 +18714,43 @@
       "rank": 92,
       "score": 10.188,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 83,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 98,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -15415,6 +18873,43 @@
       "rank": 93,
       "score": 10.1168,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 79,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -15493,6 +18988,43 @@
       "rank": 94,
       "score": 10,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 85,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "qishui",
@@ -15571,6 +19103,43 @@
       "rank": 95,
       "score": 9.89,
       "daysOnChart": 2,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 73,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 64,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -15644,6 +19213,43 @@
       "rank": 96,
       "score": 9.8044,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 89,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -15801,6 +19407,43 @@
       "rank": 97,
       "score": 9.783,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": 90,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 100,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -15963,6 +19606,43 @@
       "rank": 98,
       "score": 9.6488,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": 78,
+          "status": "ranked"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -16167,6 +19847,43 @@
       "rank": 99,
       "score": 9.3182,
       "daysOnChart": 3,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 88,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -16328,6 +20045,43 @@
       "rank": 100,
       "score": 9.1492,
       "daysOnChart": 2,
+      "rankTrend": [
+        {
+          "date": "2026-10-19",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-20",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-21",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-22",
+          "rank": null,
+          "status": "missing"
+        },
+        {
+          "date": "2026-10-23",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-24",
+          "rank": 29,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-25",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",

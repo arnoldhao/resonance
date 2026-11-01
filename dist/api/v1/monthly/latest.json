@@ -3,10 +3,50 @@
   "monthStart": "2026-11-01",
   "monthEnd": "2026-11-30",
   "mode": "live",
-  "generatedAt": "2026-11-01T07:31:00.202Z",
+  "generatedAt": "2026-11-01T09:15:40.983Z",
   "asOfDate": "2026-11-01",
   "status": "provisional",
   "entryHistoryStart": "2026-10-01",
+  "rankTrend": {
+    "basis": "month-to-date",
+    "points": [
+      {
+        "label": "一",
+        "date": "2026-11-07",
+        "status": "pending",
+        "observedDays": 1,
+        "expectedDays": 7
+      },
+      {
+        "label": "二",
+        "date": "2026-11-14",
+        "status": "pending",
+        "observedDays": 1,
+        "expectedDays": 14
+      },
+      {
+        "label": "三",
+        "date": "2026-11-21",
+        "status": "pending",
+        "observedDays": 1,
+        "expectedDays": 21
+      },
+      {
+        "label": "四",
+        "date": "2026-11-28",
+        "status": "pending",
+        "observedDays": 1,
+        "expectedDays": 28
+      },
+      {
+        "label": "五",
+        "date": "2026-11-30",
+        "status": "pending",
+        "observedDays": 1,
+        "expectedDays": 30
+      }
+    ]
+  },
   "methodology": {
     "version": "monthly-1.3",
     "baseVersion": "1.4",
@@ -125,6 +165,33 @@
       "rank": 1,
       "score": 91.38,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -402,6 +469,33 @@
       "rank": 2,
       "score": 87.2809,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -679,6 +773,33 @@
       "rank": 3,
       "score": 71.9191,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -912,6 +1033,33 @@
       "rank": 4,
       "score": 62.7415,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -1189,6 +1337,33 @@
       "rank": 5,
       "score": 54.7537,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -1466,6 +1641,33 @@
       "rank": 6,
       "score": 54.153,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -1743,6 +1945,33 @@
       "rank": 7,
       "score": 49.1161,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2020,6 +2249,33 @@
       "rank": 8,
       "score": 46.9899,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2196,6 +2452,33 @@
       "rank": 9,
       "score": 45.4244,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2382,6 +2665,33 @@
       "rank": 10,
       "score": 43.3494,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2659,6 +2969,33 @@
       "rank": 11,
       "score": 41.8041,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -2898,6 +3235,33 @@
       "rank": 12,
       "score": 38.361,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3131,6 +3495,33 @@
       "rank": 13,
       "score": 37.7064,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3408,6 +3799,33 @@
       "rank": 14,
       "score": 36.2552,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3690,6 +4108,33 @@
       "rank": 15,
       "score": 34.0676,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -3881,6 +4326,33 @@
       "rank": 16,
       "score": 34.026,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4164,6 +4636,33 @@
       "rank": 17,
       "score": 32.8663,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4314,6 +4813,33 @@
       "rank": 18,
       "score": 32.2686,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4553,6 +5079,33 @@
       "rank": 19,
       "score": 30.8875,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4752,6 +5305,33 @@
       "rank": 20,
       "score": 30.653,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -4942,6 +5522,33 @@
       "rank": 21,
       "score": 30,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -5006,6 +5613,33 @@
       "rank": 22,
       "score": 29.9816,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -5159,6 +5793,33 @@
       "rank": 23,
       "score": 28.2426,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -5398,6 +6059,33 @@
       "rank": 24,
       "score": 27.9241,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -5463,6 +6151,33 @@
       "rank": 25,
       "score": 27.5549,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -5563,6 +6278,33 @@
       "rank": 26,
       "score": 26.9267,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -5754,6 +6496,33 @@
       "rank": 27,
       "score": 26.0079,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -5818,6 +6587,33 @@
       "rank": 28,
       "score": 25.9229,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6083,6 +6879,33 @@
       "rank": 29,
       "score": 25.1057,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -6147,6 +6970,33 @@
       "rank": 30,
       "score": 23.4062,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -6212,6 +7062,33 @@
       "rank": 31,
       "score": 22.9165,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6446,6 +7323,33 @@
       "rank": 32,
       "score": 22.6642,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6645,6 +7549,33 @@
       "rank": 33,
       "score": 22.522,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6787,6 +7718,33 @@
       "rank": 34,
       "score": 21.8584,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -6937,6 +7895,33 @@
       "rank": 35,
       "score": 21.8373,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -7001,6 +7986,33 @@
       "rank": 36,
       "score": 21.311,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -7241,6 +8253,33 @@
       "rank": 37,
       "score": 20.8579,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -7432,6 +8471,33 @@
       "rank": 38,
       "score": 20.6504,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -7551,6 +8617,33 @@
       "rank": 39,
       "score": 20.389,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -7615,6 +8708,33 @@
       "rank": 40,
       "score": 20.1536,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -7768,6 +8888,33 @@
       "rank": 41,
       "score": 20.0794,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -7874,6 +9021,33 @@
       "rank": 42,
       "score": 19.7406,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -8073,6 +9247,33 @@
       "rank": 43,
       "score": 19.6673,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -8185,6 +9386,33 @@
       "rank": 44,
       "score": 19.2143,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -8332,6 +9560,33 @@
       "rank": 45,
       "score": 19.0521,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -8402,6 +9657,33 @@
       "rank": 46,
       "score": 18.8211,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -8549,6 +9831,33 @@
       "rank": 47,
       "score": 18.6161,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -8622,6 +9931,33 @@
       "rank": 48,
       "score": 18.4226,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -8686,6 +10022,33 @@
       "rank": 49,
       "score": 17.6978,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -8884,6 +10247,33 @@
       "rank": 50,
       "score": 16.9322,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -9063,6 +10453,33 @@
       "rank": 51,
       "score": 16.7606,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -9303,6 +10720,33 @@
       "rank": 52,
       "score": 16.662,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -9490,6 +10934,33 @@
       "rank": 53,
       "score": 16.66,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -9643,6 +11114,33 @@
       "rank": 54,
       "score": 16.3137,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -9883,6 +11381,33 @@
       "rank": 55,
       "score": 16.1423,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -9947,6 +11472,33 @@
       "rank": 56,
       "score": 15.7046,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -10141,6 +11693,33 @@
       "rank": 57,
       "score": 15.627,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -10206,6 +11785,33 @@
       "rank": 58,
       "score": 15.5779,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -10359,6 +11965,33 @@
       "rank": 59,
       "score": 15.2106,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -10599,6 +12232,33 @@
       "rank": 60,
       "score": 15.1319,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -10669,6 +12329,33 @@
       "rank": 61,
       "score": 15.0927,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -10830,6 +12517,33 @@
       "rank": 62,
       "score": 14.6423,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -11028,6 +12742,33 @@
       "rank": 63,
       "score": 14.5582,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -11093,6 +12834,33 @@
       "rank": 64,
       "score": 14.4842,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -11333,6 +13101,33 @@
       "rank": 65,
       "score": 14.4494,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -11523,6 +13318,33 @@
       "rank": 66,
       "score": 14.3701,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -11684,6 +13506,33 @@
       "rank": 67,
       "score": 14.1991,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -11754,6 +13603,33 @@
       "rank": 68,
       "score": 14.1794,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -11868,6 +13744,33 @@
       "rank": 69,
       "score": 14.0178,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12070,6 +13973,33 @@
       "rank": 70,
       "score": 13.9442,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12228,6 +14158,33 @@
       "rank": 71,
       "score": 13.9263,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12430,6 +14387,33 @@
       "rank": 72,
       "score": 13.76,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -12500,6 +14484,33 @@
       "rank": 73,
       "score": 13.7156,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -12614,6 +14625,33 @@
       "rank": 74,
       "score": 13.42,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12813,6 +14851,33 @@
       "rank": 75,
       "score": 13.367,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -12966,6 +15031,33 @@
       "rank": 76,
       "score": 13.2599,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -13117,6 +15209,33 @@
       "rank": 77,
       "score": 13.2244,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -13273,6 +15392,33 @@
       "rank": 78,
       "score": 13.2055,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -13386,6 +15532,33 @@
       "rank": 79,
       "score": 12.9952,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -13583,6 +15756,33 @@
       "rank": 80,
       "score": 12.8234,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -13697,6 +15897,33 @@
       "rank": 81,
       "score": 12.2869,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -13803,6 +16030,33 @@
       "rank": 82,
       "score": 11.8786,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -13874,6 +16128,33 @@
       "rank": 83,
       "score": 11.7613,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -14076,6 +16357,33 @@
       "rank": 84,
       "score": 11.6185,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -14267,6 +16575,33 @@
       "rank": 85,
       "score": 11.4641,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -14331,6 +16666,33 @@
       "rank": 86,
       "score": 11.396,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -14533,6 +16895,33 @@
       "rank": 87,
       "score": 11.2823,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -14647,6 +17036,33 @@
       "rank": 88,
       "score": 11.1937,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -14845,6 +17261,33 @@
       "rank": 89,
       "score": 10.9859,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -15044,6 +17487,33 @@
       "rank": 90,
       "score": 10.4133,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -15150,6 +17620,33 @@
       "rank": 91,
       "score": 10.3682,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -15288,6 +17785,33 @@
       "rank": 92,
       "score": 10.2557,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -15391,6 +17915,33 @@
       "rank": 93,
       "score": 10.255,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -15543,6 +18094,33 @@
       "rank": 94,
       "score": 10.2127,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
@@ -15614,6 +18192,33 @@
       "rank": 95,
       "score": 10.1965,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -15761,6 +18366,33 @@
       "rank": 96,
       "score": 10.1628,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -15917,6 +18549,33 @@
       "rank": 97,
       "score": 10.0029,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qq",
@@ -16023,6 +18682,33 @@
       "rank": 98,
       "score": 10,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "qishui",
@@ -16089,6 +18775,33 @@
       "rank": 99,
       "score": 9.9765,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "kugou",
@@ -16251,6 +18964,33 @@
       "rank": 100,
       "score": 9.9298,
       "daysOnChart": 1,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
       "platforms": [
         {
           "id": "netease",
