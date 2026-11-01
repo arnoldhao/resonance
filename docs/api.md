@@ -96,6 +96,12 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 
 周／月榜的 `coverage.comparisonBaseline` 为 `{periodStart, status, observedDays, expectedDays}`，保留实际采用的上期基准；不可比较时为 `null`。`comparisonUsesIncomplete` 标记本期或上期未覆盖完整周期。两期缺日仍按已有榜单计算，预览中首次与重返的标记随名次更新，预览不写入历史入榜索引。完整规则见[月榜方法](monthly.md)。
 
+## 周／月排名走势
+
+周／月JSON新增顶层 `rankTrend: {basis, points}`，周榜basis为daily，点为一至日；月榜basis为month-to-date，点为7、14、21、28日及月末，日期去重。每点有label/date/status/observedDays/expectedDays，status为complete、incomplete、missing、pending。每首歌曲新增同序rankTrend[]，含date/rank/status：ranked时rank为真实Top100名次，outside-top100表示未入该节点Top100，missing和pending分别表示无有效数据与未来节点，后三者rank为null。
+
+周榜复用逐日已发布综合名次；月榜按本月截至节点的完整有效日候选计算累计排名，不以最终Top100或已舍入dailyScores倒推。字段为同份周期快照的附加呈现，原有最终排名、得分、历史与涨跌规则不变。
+
 ## 更新频率观察
 
 `/cadence.json` 包含 `generatedAt/sinceDate/timeZone/policy/sources`，从近 30 个北京时间自然日的真实成功观察计算，不包含缓存、示例或历史回填。

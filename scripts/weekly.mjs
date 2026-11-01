@@ -17,6 +17,42 @@ function nextMonth(date, offset = 1) {
   return value.toISOString().slice(0, 10);
 }
 
+const periodOrder = (a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id);
+
+// Month checkpoints are cumulative, including the short final 1–3 days. Rank
+// every daily candidate before truncating, exactly as for the final month chart.
+function periodTrend(included, latestByDate, start, end, asOfDate, monthly) {
+  const lastDay = Number(end.slice(-2));
+  const dates = monthly
+    ? [...new Set([7, 14, 21, 28, lastDay])].map(day => `${start.slice(0, 8)}${String(day).padStart(2, '0')}`)
+    : Array.from({length: 7}, (_, index) => addDays(start, index));
+  const labels = monthly ? ['一', '二', '三', '四', '五'] : ['一', '二', '三', '四', '五', '六', '日'];
+  const windows = dates.map((date, index) => {
+    const window = included.filter(day => monthly ? day.date <= date : day.date === date);
+    const expectedDays = monthly ? Number(date.slice(-2)) : 1;
+    const status = date > asOfDate ? 'pending' : !window.length ? 'missing' : window.length === expectedDays ? 'complete' : 'incomplete';
+    let ranked = [];
+    if (status !== 'pending' && window.length) {
+      if (monthly) {
+        const candidates = new Map();
+        for (const day of window) for (const song of day.songs.values()) {
+          const prior = candidates.get(song.id);
+          candidates.set(song.id, {id: song.id, total: (prior?.total ?? 0) + song.score,
+            daysOnChart: (prior?.daysOnChart ?? 0) + (song.score > 0 ? 1 : 0)});
+        }
+        ranked = [...candidates.values()].filter(song => song.total > 0).sort(periodOrder).slice(0, 100).map((song, i) => ({id: song.id, rank: i + 1}));
+      } else ranked = latestByDate.get(date).songs;
+    }
+    return {point: {label: labels[index], date, status, observedDays: window.length, expectedDays},
+      ranks: new Map(ranked.map(song => [song.id, song.rank]))};
+  });
+  return {
+    summary: {basis: monthly ? 'month-to-date' : 'daily', points: windows.map(window => window.point)},
+    forSong: id => windows.map(({point, ranks}) => ({date: point.date, rank: ranks.get(id) ?? null,
+      status: point.status === 'pending' || point.status === 'missing' ? point.status : ranks.has(id) ? 'ranked' : 'outside-top100'})),
+  };
+}
+
 function rebuildDay(day) {
   // These published versions use this curve; future formula versions need an explicit implementation.
   if (!['1.0', '1.1', '1.2', '1.3', '1.4'].includes(day.methodology.version)) return { reason: `未支持的日榜方法版本：${day.methodology.version}` };
@@ -114,7 +150,8 @@ function buildPeriodCharts({ days, asOfDate, entryHistory = { charts: {} } }, mo
     const status = weekEnd >= asOfDate ? 'provisional' : included.length === expectedDays ? 'complete' : 'incomplete';
     const priorWeek = weeks.at(-1);
     const previousStart = monthly ? nextMonth(weekStart, -1) : addDays(weekStart, -7);
-    const ranked = [...candidates.values()].filter(song => song.total > 0).sort((a, b) => b.total - a.total || b.daysOnChart - a.daysOnChart || a.id.localeCompare(b.id)).slice(0, 100);
+    const ranked = [...candidates.values()].filter(song => song.total > 0).sort(periodOrder).slice(0, 100);
+    const trend = periodTrend(included, latestByDate, weekStart, weekEnd, asOfDate, monthly);
     const comparable = ranked.length > 0 && priorWeek?.songs.length > 0 && priorWeek.status !== 'provisional'
       && priorWeek[monthly ? 'monthStart' : 'weekStart'] === previousStart && priorWeek.mode === mode;
     const previousSongs = new Map((comparable ? priorWeek.songs : []).map(song => [song.id, song]));
@@ -129,6 +166,7 @@ function buildPeriodCharts({ days, asOfDate, entryHistory = { charts: {} } }, mo
       return {
         id: song.id, title: song.title, artists: song.artists, artwork: song.artwork,
         rank, score: round(song.total / included.length), daysOnChart: song.daysOnChart,
+        rankTrend: trend.forSong(song.id),
         platforms: song.platforms,
         dailyScores: included.map(day => ({ date: day.date, score: round(day.songs.get(song.id)?.score ?? 0) })),
         previousRank, delta,
@@ -142,6 +180,7 @@ function buildPeriodCharts({ days, asOfDate, entryHistory = { charts: {} } }, mo
     weeks.push({
       ...(monthly ? { month: weekStart.slice(0, 7), monthStart: weekStart, monthEnd: weekEnd } : { weekStart, weekEnd }),
       mode, generatedAt, asOfDate, status, entryHistoryStart: chartHistory.since,
+      rankTrend: trend.summary,
       methodology: {
         version: monthly ? 'monthly-1.3' : 'weekly-1.4',
         baseVersion: baseVersions.length === 1 ? baseVersions[0] : null, baseVersions,

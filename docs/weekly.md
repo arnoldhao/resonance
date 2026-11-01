@@ -26,6 +26,12 @@ v1.4 按该日保存的分平台窗口重建：四家 200、Apple 100、汽水 5
 
 `coverage` 披露有效天数、纳入日期、缺失日期、排除原因及来源覆盖。`observedDays` 是有效日分天数，不是独立新采集天数。`cachedDates` 列出使用过沿用来源的有效日；这些是发布日分的日期，不是新增的独立平台观察。日期完整不代表所有平台齐全或每日重新成功采集。`asOfDate` 为构建时的北京时间日期，`latestIncludedDate` 为最新有效记录日期。
 
+## 视频排名走势
+
+快照另附 `rankTrend: {basis: 'daily', points: [...]}`，七个点依次为周一至周日，包含 `label/date/status/observedDays/expectedDays`。每首歌曲的同名 `rankTrend[]` 按相同顺序给出 `date/rank/status`，使用各日最后有效已发布综合日榜的原名次，不使用平台名次或周平均名次。点状态为 `complete/incomplete/missing/pending`；歌曲点状态为 `ranked/outside-top100/missing/pending`，未进Top100、缺日及未来不混同，不补101。原始覆盖与计分不变。
+
+周日当天仍为 `provisional`，次周一北京时间零点后重新构建才成为已结束周期。现有计划的首轮构建在09:17之后，实际以API状态与发布时间为准。
+
 ## 涨跌与平台信息
 
 `coverage.comparisonBaseline` 披露上周的 `periodStart/status/observedDays/expectedDays`；`comparisonUsesIncomplete` 表示本周或上周未覆盖完整周期。保留原有缺失日期、覆盖提示及预览状态，缺失日继续不进入平均分的分母。

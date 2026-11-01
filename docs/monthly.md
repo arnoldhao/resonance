@@ -28,6 +28,12 @@ v1.4 的日分按四家前 200、Apple 前 100、汽水前 50 与连续衰减曲
 
 `coverage` 披露有效天数、纳入日期、使用沿用来源的日期、缺失日期与排除原因。`missingDates` 包含尚未来到的日期，结合 `asOfDate` 阅读。日期齐全不表示平台全部齐全，也不表示每天都有全平台新观察；平台覆盖另见 `sourceCoverage`。
 
+## 月内累计排名走势
+
+快照另附 `rankTrend: {basis: 'month-to-date', points: [...]}`。节点为每月7、14、21、28日及月末，日期去重，28天二月为四点，其他月份五点；标签为一至四／五。每点包含 `label/date/status/observedDays/expectedDays`，表示从月初累计到该节点的覆盖，未到节点为 `pending`，零有效日为 `missing`，覆盖齐全为 `complete`，部分缺日为 `incomplete`。
+
+每首歌曲同序的 `rankTrend[]` 包含 `date/rank/status`，状态为 `ranked/outside-top100/missing/pending`。各节点复用本月有效日的完整未舍入候选分数，按同一周期排序规则先排全部候选、再截取Top100，不只重排最终月榜歌曲。最后节点与最终月榜一致；月底1–3天进入累计结果，不单独作为短周比较，不跨月、不平均周榜、不改最终月分和涨跌。整个周期没有有效日或节点尚未来到时不输出虚构名次。
+
 ## 涨跌与平台信息
 
 `coverage.comparisonBaseline` 披露上月的 `periodStart/status/observedDays/expectedDays`；`comparisonUsesIncomplete` 表示本月或上月未覆盖完整周期。保留原有缺失日期、覆盖提示及预览状态，缺失日继续不进入平均分的分母。
