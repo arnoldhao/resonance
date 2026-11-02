@@ -2,7 +2,7 @@
   "weekStart": "2026-10-26",
   "weekEnd": "2026-11-01",
   "mode": "live",
-  "generatedAt": "2026-11-02T07:40:26.587Z",
+  "generatedAt": "2026-11-02T08:27:35.027Z",
   "asOfDate": "2026-11-02",
   "status": "complete",
   "entryHistoryStart": "2026-10-19",
@@ -71,22 +71,22 @@
       {
         "date": "2026-10-26",
         "version": "1.4",
-        "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-27",
         "version": "1.4",
-        "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-28",
         "version": "1.4",
-        "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-29",
         "version": "1.4",
-        "comparisonSignature": "1.4|97c4a1c82e44|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-30",
@@ -135,7 +135,7 @@
       "qishui": 0.1
     }
   },
-  "comparisonSignature": null,
+  "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
   "coverage": {
     "observedDays": 7,
     "expectedDays": 7,
@@ -155,7 +155,7 @@
     "excludedDates": [],
     "latestIncludedDate": "2026-11-01",
     "mixedMethods": false,
-    "mixedSignatures": true,
+    "mixedSignatures": false,
     "comparisonAvailable": true,
     "comparisonUsesCache": true,
     "comparisonUsesIncomplete": true,
@@ -5764,7 +5764,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 24,
+          "rank": 25,
           "status": "ranked"
         },
         {
@@ -6412,7 +6412,7 @@
         },
         {
           "date": "2026-10-29",
-          "rank": 28,
+          "rank": 29,
           "status": "ranked"
         },
         {
@@ -7028,7 +7028,7 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 26,
+          "rank": 27,
           "status": "ranked"
         },
         {
@@ -7311,19 +7311,181 @@
       }
     },
     {
+      "id": "5ea994720e99b56cb8ef",
+      "title": "You Are All I Need",
+      "artists": [
+        "FLY COAST",
+        "二宮愛"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000B8U3p19UV0b.jpg",
+      "rank": 25,
+      "score": 26.0654,
+      "daysOnChart": 7,
+      "rankTrend": [
+        {
+          "date": "2026-10-26",
+          "rank": 61,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 26,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 38,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 27,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 14,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 17,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 25,
+          "status": "ranked"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 13,
+          "sourceId": "002dG09F2B9jlJ",
+          "url": "https://y.qq.com/n/ryqq/songDetail/002dG09F2B9jlJ",
+          "eligible": true,
+          "weight": 0.25,
+          "score": 65.69050526255268,
+          "contribution": 16.42262631563817,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -3,
+            "previousRank": 10,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "13",
+              "old_count": "10"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 31,
+          "sourceId": "27562048",
+          "url": "https://music.163.com/#/song?id=27562048",
+          "eligible": true,
+          "weight": 0.3,
+          "score": 37.107479072098194,
+          "contribution": 11.132243721629457,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -8,
+            "previousRank": 23,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 22
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": "2026-11-01T02:13:55.293Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        }
+      ],
+      "dailyScores": [
+        {
+          "date": "2026-10-26",
+          "score": 15.68
+        },
+        {
+          "date": "2026-10-27",
+          "score": 25.9552
+        },
+        {
+          "date": "2026-10-28",
+          "score": 20.3536
+        },
+        {
+          "date": "2026-10-29",
+          "score": 25.6616
+        },
+        {
+          "date": "2026-10-30",
+          "score": 34.8553
+        },
+        {
+          "date": "2026-10-31",
+          "score": 32.3969
+        },
+        {
+          "date": "2026-11-01",
+          "score": 27.5549
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "firstEntryDate": "2026-10-26",
+        "period": "previous-week",
+        "comparisonDate": "2026-10-19"
+      }
+    },
+    {
       "id": "7851dff12a00e6311cd2",
       "title": "你不要那样看着我的眼睛",
       "artists": [
         "蔡琴"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003HVu7R0mCMM8.jpg",
-      "rank": 25,
+      "rank": 26,
       "score": 25.717,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 26,
+          "rank": 27,
           "status": "ranked"
         },
         {
@@ -7338,7 +7500,7 @@
         },
         {
           "date": "2026-10-29",
-          "rank": 31,
+          "rank": 32,
           "status": "ranked"
         },
         {
@@ -7508,10 +7670,10 @@
         }
       ],
       "previousRank": 26,
-      "delta": 1,
+      "delta": 0,
       "weeklyMovement": {
-        "direction": "up",
-        "delta": 1,
+        "direction": "same",
+        "delta": 0,
         "previousRank": 26,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -7525,7 +7687,7 @@
         "Max李玄"
       ],
       "artwork": "http://p1.music.126.net/H2DFRdwP2y5SuCAn-Tuikw==/109951172568091306.jpg",
-      "rank": 26,
+      "rank": 27,
       "score": 24.1391,
       "daysOnChart": 7,
       "rankTrend": [
@@ -7536,12 +7698,12 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 28,
+          "rank": 29,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 33,
+          "rank": 34,
           "status": "ranked"
         },
         {
@@ -7632,12 +7794,12 @@
           "score": 21.8373
         }
       ],
-      "previousRank": 29,
+      "previousRank": 30,
       "delta": 3,
       "weeklyMovement": {
         "direction": "up",
         "delta": 3,
-        "previousRank": 29,
+        "previousRank": 30,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -7650,18 +7812,18 @@
         "王力宏"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002ElVxf43rOue.jpg",
-      "rank": 27,
+      "rank": 28,
       "score": 23.8118,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 25,
+          "rank": 26,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 29,
+          "rank": 30,
           "status": "ranked"
         },
         {
@@ -7671,7 +7833,7 @@
         },
         {
           "date": "2026-10-29",
-          "rank": 29,
+          "rank": 30,
           "status": "ranked"
         },
         {
@@ -7893,10 +8055,10 @@
         }
       ],
       "previousRank": 19,
-      "delta": -8,
+      "delta": -9,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -8,
+        "delta": -9,
         "previousRank": 19,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -7910,7 +8072,7 @@
         "郑润泽"
       ],
       "artwork": "http://p1.music.126.net/-xMsNLpquZTmMZlIztTgHg==/109951165953469081.jpg",
-      "rank": 28,
+      "rank": 29,
       "score": 23.1292,
       "daysOnChart": 7,
       "rankTrend": [
@@ -7926,12 +8088,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 47,
+          "rank": 48,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 38,
+          "rank": 40,
           "status": "ranked"
         },
         {
@@ -8018,10 +8180,10 @@
         }
       ],
       "previousRank": 27,
-      "delta": -1,
+      "delta": -2,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -1,
+        "delta": -2,
         "previousRank": 27,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -8036,7 +8198,7 @@
         "Wiz_H张子豪"
       ],
       "artwork": "http://p1.music.126.net/yN1ke1xYMJ718FiHaDWtYQ==/109951165076380471.jpg",
-      "rank": 29,
+      "rank": 30,
       "score": 22.7992,
       "daysOnChart": 7,
       "rankTrend": [
@@ -8047,17 +8209,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 32,
+          "rank": 35,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 41,
+          "rank": 42,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 33,
+          "rank": 34,
           "status": "ranked"
         },
         {
@@ -8143,12 +8305,12 @@
           "score": 26.0079
         }
       ],
-      "previousRank": 30,
+      "previousRank": 31,
       "delta": 1,
       "weeklyMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 30,
+        "previousRank": 31,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -8161,28 +8323,28 @@
         "嘉慧"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20261012/20261012102801547404.jpg",
-      "rank": 30,
+      "rank": 31,
       "score": 22.3434,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 36,
+          "rank": 37,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 30,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-28",
           "rank": 31,
           "status": "ranked"
         },
         {
+          "date": "2026-10-28",
+          "rank": 32,
+          "status": "ranked"
+        },
+        {
           "date": "2026-10-29",
-          "rank": 30,
+          "rank": 31,
           "status": "ranked"
         },
         {
@@ -8359,179 +8521,12 @@
           "score": 20.6504
         }
       ],
-      "previousRank": 32,
+      "previousRank": 33,
       "delta": 2,
       "weeklyMovement": {
         "direction": "up",
         "delta": 2,
-        "previousRank": 32,
-        "firstEntryDate": "2026-10-19",
-        "period": "previous-week",
-        "comparisonDate": "2026-10-19"
-      }
-    },
-    {
-      "id": "df9b5b3a8c4094be38f9",
-      "title": "99",
-      "artists": [
-        "TizzyT"
-      ],
-      "artwork": "http://p1.music.126.net/D-kiZM7mbHrqdB6X8Yoi8Q==/109951171947326885.jpg",
-      "rank": 31,
-      "score": 21.6498,
-      "daysOnChart": 7,
-      "rankTrend": [
-        {
-          "date": "2026-10-26",
-          "rank": 28,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 33,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 37,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 34,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 36,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-31",
-          "rank": 37,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-11-01",
-          "rank": 41,
-          "status": "ranked"
-        }
-      ],
-      "platforms": [
-        {
-          "id": "netease",
-          "name": "网易云音乐",
-          "rank": 13,
-          "sourceId": "2741144144",
-          "url": "https://music.163.com/#/song?id=2741144144",
-          "eligible": true,
-          "weight": 0.3,
-          "score": 65.69050526255268,
-          "contribution": 19.707151578765803,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -2,
-            "previousRank": 11,
-            "period": "previous-edition",
-            "raw": {
-              "lastRank": 10
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": "2026-11-01T02:13:55.293Z",
-          "sourcePeriod": null,
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        },
-        {
-          "id": "kugou",
-          "name": "酷狗音乐",
-          "rank": 175,
-          "sourceId": "705B2F19F68DAB45592AC917E3E11350",
-          "url": "https://www.kugou.com/song/#hash=705B2F19F68DAB45592AC917E3E11350",
-          "eligible": true,
-          "weight": 0.2,
-          "score": 1.8614626821111564,
-          "contribution": 0.3722925364222313,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -3,
-            "previousRank": 172,
-            "period": "previous-edition",
-            "raw": {
-              "sort": 175,
-              "last_sort": 172
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "linked",
-            "items": [
-              {
-                "id": "16280330",
-                "hash": "4FCE2854C2CF0775996209089D987D83",
-                "url": null
-              }
-            ]
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-11-01 08:30:00",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        }
-      ],
-      "dailyScores": [
-        {
-          "date": "2026-10-26",
-          "score": 26.0079
-        },
-        {
-          "date": "2026-10-27",
-          "score": 21.5355
-        },
-        {
-          "date": "2026-10-28",
-          "score": 20.3088
-        },
-        {
-          "date": "2026-10-29",
-          "score": 21.3974
-        },
-        {
-          "date": "2026-10-30",
-          "score": 20.7258
-        },
-        {
-          "date": "2026-10-31",
-          "score": 21.494
-        },
-        {
-          "date": "2026-11-01",
-          "score": 20.0794
-        }
-      ],
-      "previousRank": 22,
-      "delta": -9,
-      "weeklyMovement": {
-        "direction": "down",
-        "delta": -9,
-        "previousRank": 22,
+        "previousRank": 33,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -8546,12 +8541,12 @@
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000035f8nw11cjkf.jpg",
       "rank": 32,
-      "score": 21.4839,
+      "score": 22.0318,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 27,
+          "rank": 24,
           "status": "ranked"
         },
         {
@@ -8561,7 +8556,7 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 39,
+          "rank": 37,
           "status": "ranked"
         },
         {
@@ -8795,19 +8790,19 @@
       "dailyScores": [
         {
           "date": "2026-10-26",
-          "score": 26.2873
+          "score": 27.3268
         },
         {
           "date": "2026-10-27",
-          "score": 20.7979
+          "score": 21.8375
         },
         {
           "date": "2026-10-28",
-          "score": 19.7269
+          "score": 20.6489
         },
         {
           "date": "2026-10-29",
-          "score": 19.2494
+          "score": 20.0837
         },
         {
           "date": "2026-10-30",
@@ -8822,12 +8817,179 @@
           "score": 22.9165
         }
       ],
-      "previousRank": 33,
-      "delta": 1,
+      "previousRank": 28,
+      "delta": -4,
       "weeklyMovement": {
-        "direction": "up",
-        "delta": 1,
-        "previousRank": 33,
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 28,
+        "firstEntryDate": "2026-10-19",
+        "period": "previous-week",
+        "comparisonDate": "2026-10-19"
+      }
+    },
+    {
+      "id": "df9b5b3a8c4094be38f9",
+      "title": "99",
+      "artists": [
+        "TizzyT"
+      ],
+      "artwork": "http://p1.music.126.net/D-kiZM7mbHrqdB6X8Yoi8Q==/109951171947326885.jpg",
+      "rank": 33,
+      "score": 21.6498,
+      "daysOnChart": 7,
+      "rankTrend": [
+        {
+          "date": "2026-10-26",
+          "rank": 28,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 36,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 39,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 36,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 36,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 37,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 41,
+          "status": "ranked"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 13,
+          "sourceId": "2741144144",
+          "url": "https://music.163.com/#/song?id=2741144144",
+          "eligible": true,
+          "weight": 0.3,
+          "score": 65.69050526255268,
+          "contribution": 19.707151578765803,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -2,
+            "previousRank": 11,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 10
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": "2026-11-01T02:13:55.293Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 175,
+          "sourceId": "705B2F19F68DAB45592AC917E3E11350",
+          "url": "https://www.kugou.com/song/#hash=705B2F19F68DAB45592AC917E3E11350",
+          "eligible": true,
+          "weight": 0.2,
+          "score": 1.8614626821111564,
+          "contribution": 0.3722925364222313,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -3,
+            "previousRank": 172,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 175,
+              "last_sort": 172
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "16280330",
+                "hash": "4FCE2854C2CF0775996209089D987D83",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01 08:30:00",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        }
+      ],
+      "dailyScores": [
+        {
+          "date": "2026-10-26",
+          "score": 26.0079
+        },
+        {
+          "date": "2026-10-27",
+          "score": 21.5355
+        },
+        {
+          "date": "2026-10-28",
+          "score": 20.3088
+        },
+        {
+          "date": "2026-10-29",
+          "score": 21.3974
+        },
+        {
+          "date": "2026-10-30",
+          "score": 20.7258
+        },
+        {
+          "date": "2026-10-31",
+          "score": 21.494
+        },
+        {
+          "date": "2026-11-01",
+          "score": 20.0794
+        }
+      ],
+      "previousRank": 22,
+      "delta": -11,
+      "weeklyMovement": {
+        "direction": "down",
+        "delta": -11,
+        "previousRank": 22,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -8840,18 +9002,18 @@
         "郑润泽"
       ],
       "artwork": "http://p1.music.126.net/PEGvmO3OqgGOkx4m9qxAJA==/109951163478499713.jpg",
-      "rank": 33,
+      "rank": 34,
       "score": 20.4612,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 40,
+          "rank": 41,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 56,
+          "rank": 57,
           "status": "ranked"
         },
         {
@@ -8861,7 +9023,7 @@
         },
         {
           "date": "2026-10-29",
-          "rank": 27,
+          "rank": 28,
           "status": "ranked"
         },
         {
@@ -8948,10 +9110,10 @@
         }
       ],
       "previousRank": 56,
-      "delta": 23,
+      "delta": 22,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 23,
+        "delta": 22,
         "previousRank": 56,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -8965,23 +9127,23 @@
         "供销社乐队"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M00000303kd94Gqzxu.jpg",
-      "rank": 34,
+      "rank": 35,
       "score": 20.4512,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 64,
+          "rank": 65,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 46,
+          "rank": 47,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 55,
+          "rank": 56,
           "status": "ranked"
         },
         {
@@ -9188,10 +9350,10 @@
         }
       ],
       "previousRank": 25,
-      "delta": -9,
+      "delta": -10,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -9,
+        "delta": -10,
         "previousRank": 25,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -9205,28 +9367,28 @@
         "周深"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003ZuQ5z05yCAP.jpg",
-      "rank": 35,
+      "rank": 36,
       "score": 19.8929,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 39,
+          "rank": 40,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 31,
+          "rank": 32,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 35,
+          "rank": 36,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 35,
+          "rank": 37,
           "status": "ranked"
         },
         {
@@ -9410,10 +9572,10 @@
         }
       ],
       "previousRank": 23,
-      "delta": -12,
+      "delta": -13,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -12,
+        "delta": -13,
         "previousRank": 23,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -9427,7 +9589,7 @@
         "卢广仲"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004QG0W52P5GUq.jpg",
-      "rank": 36,
+      "rank": 37,
       "score": 19.7051,
       "daysOnChart": 7,
       "rankTrend": [
@@ -9438,17 +9600,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 38,
+          "rank": 40,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 57,
+          "rank": 58,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 37,
+          "rank": 39,
           "status": "ranked"
         },
         {
@@ -9624,10 +9786,10 @@
         }
       ],
       "previousRank": 40,
-      "delta": 4,
+      "delta": 3,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 4,
+        "delta": 3,
         "previousRank": 40,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -9641,7 +9803,7 @@
         "张芸京"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003ha6C92GRuVE.jpg",
-      "rank": 37,
+      "rank": 38,
       "score": 19.5719,
       "daysOnChart": 7,
       "rankTrend": [
@@ -9652,17 +9814,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 44,
+          "rank": 45,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 46,
+          "rank": 47,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 36,
+          "rank": 38,
           "status": "ranked"
         },
         {
@@ -9967,10 +10129,10 @@
         }
       ],
       "previousRank": 24,
-      "delta": -13,
+      "delta": -14,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -13,
+        "delta": -14,
         "previousRank": 24,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -9984,28 +10146,28 @@
         "许茹芸"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Ugmj01giuzO.jpg",
-      "rank": 38,
+      "rank": 39,
       "score": 19.5433,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 42,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 39,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-28",
           "rank": 43,
           "status": "ranked"
         },
         {
+          "date": "2026-10-27",
+          "rank": 41,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 44,
+          "status": "ranked"
+        },
+        {
           "date": "2026-10-29",
-          "rank": 49,
+          "rank": 50,
           "status": "ranked"
         },
         {
@@ -10267,12 +10429,12 @@
           "score": 21.311
         }
       ],
-      "previousRank": 31,
+      "previousRank": 32,
       "delta": -7,
       "weeklyMovement": {
         "direction": "down",
         "delta": -7,
-        "previousRank": 31,
+        "previousRank": 32,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -10285,7 +10447,7 @@
         "队长"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000DTFwk0oV4YR.jpg",
-      "rank": 39,
+      "rank": 40,
       "score": 19.2222,
       "daysOnChart": 7,
       "rankTrend": [
@@ -10296,17 +10458,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 35,
+          "rank": 37,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 50,
+          "rank": 51,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 43,
+          "rank": 44,
           "status": "ranked"
         },
         {
@@ -10476,10 +10638,10 @@
         }
       ],
       "previousRank": 44,
-      "delta": 5,
+      "delta": 4,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 5,
+        "delta": 4,
         "previousRank": 44,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -10493,7 +10655,7 @@
         "连麻Swimming"
       ],
       "artwork": "http://p1.music.126.net/Eafh2qRUgw2IXXOVD4B9LQ==/109951174139932904.jpg",
-      "rank": 40,
+      "rank": 41,
       "score": 18.9104,
       "daysOnChart": 7,
       "rankTrend": [
@@ -10504,12 +10666,12 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 49,
+          "rank": 50,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 32,
+          "rank": 33,
           "status": "ranked"
         },
         {
@@ -10618,168 +10780,6 @@
       }
     },
     {
-      "id": "5ea994720e99b56cb8ef",
-      "title": "You Are All I Need",
-      "artists": [
-        "FLY COAST",
-        "二宮愛"
-      ],
-      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000B8U3p19UV0b.jpg",
-      "rank": 41,
-      "score": 18.7748,
-      "daysOnChart": 7,
-      "rankTrend": [
-        {
-          "date": "2026-10-26",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 77,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 100,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 92,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 14,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-31",
-          "rank": 17,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-11-01",
-          "rank": 25,
-          "status": "ranked"
-        }
-      ],
-      "platforms": [
-        {
-          "id": "netease",
-          "name": "网易云音乐",
-          "rank": 31,
-          "sourceId": "27562048",
-          "url": "https://music.163.com/#/song?id=27562048",
-          "eligible": true,
-          "weight": 0.3,
-          "score": 37.107479072098194,
-          "contribution": 11.132243721629457,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -8,
-            "previousRank": 23,
-            "period": "previous-edition",
-            "raw": {
-              "lastRank": 22
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": "2026-11-01T02:13:55.293Z",
-          "sourcePeriod": null,
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        },
-        {
-          "id": "qq",
-          "name": "QQ 音乐",
-          "rank": 13,
-          "sourceId": "002dG09F2B9jlJ",
-          "url": "https://y.qq.com/n/ryqq/songDetail/002dG09F2B9jlJ",
-          "eligible": true,
-          "weight": 0.25,
-          "score": 65.69050526255268,
-          "contribution": 16.42262631563817,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -3,
-            "previousRank": 10,
-            "period": "previous-edition",
-            "raw": {
-              "cur_count": "13",
-              "old_count": "10"
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-11-01",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        }
-      ],
-      "dailyScores": [
-        {
-          "date": "2026-10-26",
-          "score": 2.6575
-        },
-        {
-          "date": "2026-10-27",
-          "score": 12.9327
-        },
-        {
-          "date": "2026-10-28",
-          "score": 10.2127
-        },
-        {
-          "date": "2026-10-29",
-          "score": 10.8134
-        },
-        {
-          "date": "2026-10-30",
-          "score": 34.8553
-        },
-        {
-          "date": "2026-10-31",
-          "score": 32.3969
-        },
-        {
-          "date": "2026-11-01",
-          "score": 27.5549
-        }
-      ],
-      "previousRank": null,
-      "delta": null,
-      "weeklyMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
-        "firstEntryDate": "2026-10-26",
-        "period": "previous-week",
-        "comparisonDate": "2026-10-19"
-      }
-    },
-    {
       "id": "8cfd91d96cfdbcdcdbee",
       "title": "隔岸 (女版)",
       "artists": [
@@ -10802,12 +10802,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 40,
+          "rank": 41,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 32,
+          "rank": 33,
           "status": "ranked"
         },
         {
@@ -10995,22 +10995,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 43,
+          "rank": 44,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 42,
+          "rank": 43,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 45,
+          "rank": 46,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 46,
+          "rank": 47,
           "status": "ranked"
         },
         {
@@ -11169,22 +11169,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 47,
+          "rank": 48,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 40,
+          "rank": 42,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 51,
+          "rank": 53,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 41,
+          "rank": 43,
           "status": "ranked"
         },
         {
@@ -11299,17 +11299,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 27,
+          "rank": 28,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 72,
+          "rank": 74,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 52,
+          "rank": 53,
           "status": "ranked"
         },
         {
@@ -11424,17 +11424,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 50,
+          "rank": 51,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 58,
+          "rank": 59,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 56,
+          "rank": 57,
           "status": "ranked"
         },
         {
@@ -11679,22 +11679,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 67,
+          "rank": 68,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 70,
+          "rank": 72,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 76,
+          "rank": 78,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 76,
+          "rank": 77,
           "status": "ranked"
         },
         {
@@ -11814,12 +11814,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 93,
+          "rank": 96,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 70,
+          "rank": 71,
           "status": "ranked"
         },
         {
@@ -12069,17 +12069,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 43,
+          "rank": 44,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 38,
+          "rank": 40,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 45,
+          "rank": 46,
           "status": "ranked"
         },
         {
@@ -12364,22 +12364,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 38,
+          "rank": 39,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 52,
+          "rank": 53,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 61,
+          "rank": 62,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 54,
+          "rank": 55,
           "status": "ranked"
         },
         {
@@ -12665,22 +12665,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 41,
+          "rank": 42,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 58,
+          "rank": 59,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 48,
+          "rank": 49,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 47,
+          "rank": 48,
           "status": "ranked"
         },
         {
@@ -12887,22 +12887,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 44,
+          "rank": 45,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 59,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-28",
           "rank": 60,
           "status": "ranked"
         },
         {
+          "date": "2026-10-28",
+          "rank": 61,
+          "status": "ranked"
+        },
+        {
           "date": "2026-10-29",
-          "rank": 53,
+          "rank": 54,
           "status": "ranked"
         },
         {
@@ -13134,22 +13134,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 70,
+          "rank": 71,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 48,
+          "rank": 49,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 44,
+          "rank": 45,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 50,
+          "rank": 51,
           "status": "ranked"
         },
         {
@@ -13448,12 +13448,12 @@
           "score": 16.3137
         }
       ],
-      "previousRank": 82,
-      "delta": 29,
+      "previousRank": 83,
+      "delta": 30,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 29,
-        "previousRank": 82,
+        "delta": 30,
+        "previousRank": 83,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -13477,17 +13477,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 51,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-28",
           "rank": 52,
           "status": "ranked"
         },
         {
+          "date": "2026-10-28",
+          "rank": 54,
+          "status": "ranked"
+        },
+        {
           "date": "2026-10-29",
-          "rank": 51,
+          "rank": 52,
           "status": "ranked"
         },
         {
@@ -13647,22 +13647,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 48,
+          "rank": 49,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 63,
+          "rank": 64,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 62,
+          "rank": 63,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 58,
+          "rank": 59,
           "status": "ranked"
         },
         {
@@ -13949,7 +13949,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 72,
+          "rank": 73,
           "status": "ranked"
         },
         {
@@ -13964,7 +13964,7 @@
         },
         {
           "date": "2026-10-29",
-          "rank": 44,
+          "rank": 45,
           "status": "ranked"
         },
         {
@@ -14056,12 +14056,12 @@
           "score": 15.1319
         }
       ],
-      "previousRank": 75,
-      "delta": 19,
+      "previousRank": 76,
+      "delta": 20,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 19,
-        "previousRank": 75,
+        "delta": 20,
+        "previousRank": 76,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -14085,17 +14085,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 54,
+          "rank": 55,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 59,
+          "rank": 60,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 61,
+          "rank": 62,
           "status": "ranked"
         },
         {
@@ -14356,12 +14356,12 @@
           "score": 15.2106
         }
       ],
-      "previousRank": 78,
-      "delta": 21,
+      "previousRank": 79,
+      "delta": 22,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 21,
-        "previousRank": 78,
+        "delta": 22,
+        "previousRank": 79,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -14380,22 +14380,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 65,
+          "rank": 66,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 67,
+          "rank": 68,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 69,
+          "rank": 71,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 55,
+          "rank": 56,
           "status": "ranked"
         },
         {
@@ -14505,22 +14505,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 46,
+          "rank": 47,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 53,
+          "rank": 54,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 65,
+          "rank": 66,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 60,
+          "rank": 61,
           "status": "ranked"
         },
         {
@@ -14773,12 +14773,12 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 47,
+          "rank": 48,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 54,
+          "rank": 55,
           "status": "ranked"
         },
         {
@@ -14985,17 +14985,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 57,
+          "rank": 58,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 64,
+          "rank": 65,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 57,
+          "rank": 58,
           "status": "ranked"
         },
         {
@@ -15246,17 +15246,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 60,
+          "rank": 61,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 56,
+          "rank": 57,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 69,
+          "rank": 70,
           "status": "ranked"
         },
         {
@@ -15431,12 +15431,12 @@
           "score": 16.66
         }
       ],
-      "previousRank": 72,
-      "delta": 10,
+      "previousRank": 73,
+      "delta": 11,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 10,
-        "previousRank": 72,
+        "delta": 11,
+        "previousRank": 73,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -15460,17 +15460,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 66,
+          "rank": 67,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 49,
+          "rank": 50,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 48,
+          "rank": 49,
           "status": "ranked"
         },
         {
@@ -15723,17 +15723,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 64,
+          "rank": 65,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 66,
+          "rank": 68,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 67,
+          "rank": 68,
           "status": "ranked"
         },
         {
@@ -15898,17 +15898,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 73,
+          "rank": 75,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 84,
+          "rank": 86,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 79,
+          "rank": 80,
           "status": "ranked"
         },
         {
@@ -16024,7 +16024,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 80,
+          "rank": 81,
           "status": "ranked"
         },
         {
@@ -16034,12 +16034,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 88,
+          "rank": 90,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 84,
+          "rank": 85,
           "status": "ranked"
         },
         {
@@ -16149,7 +16149,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 81,
+          "rank": 82,
           "status": "ranked"
         },
         {
@@ -16159,12 +16159,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 98,
-          "status": "ranked"
+          "rank": null,
+          "status": "outside-top100"
         },
         {
           "date": "2026-10-29",
-          "rank": 80,
+          "rank": 81,
           "status": "ranked"
         },
         {
@@ -16365,17 +16365,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 55,
+          "rank": 56,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 63,
+          "rank": 64,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 77,
+          "rank": 78,
           "status": "ranked"
         },
         {
@@ -16539,7 +16539,7 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 36,
+          "rank": 38,
           "status": "ranked"
         },
         {
@@ -16549,7 +16549,7 @@
         },
         {
           "date": "2026-10-29",
-          "rank": 62,
+          "rank": 63,
           "status": "ranked"
         },
         {
@@ -16635,12 +16635,12 @@
           "score": 3.3784
         }
       ],
-      "previousRank": 28,
-      "delta": -41,
+      "previousRank": 29,
+      "delta": -40,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -41,
-        "previousRank": 28,
+        "delta": -40,
+        "previousRank": 29,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -16660,22 +16660,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 73,
+          "rank": 74,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 68,
+          "rank": 70,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 75,
+          "rank": 77,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 74,
+          "rank": 75,
           "status": "ranked"
         },
         {
@@ -16887,17 +16887,17 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 65,
+          "rank": 66,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 71,
+          "rank": 73,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 63,
+          "rank": 64,
           "status": "ranked"
         },
         {
@@ -17106,12 +17106,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 83,
+          "rank": 85,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 83,
+          "rank": 84,
           "status": "ranked"
         },
         {
@@ -17347,22 +17347,22 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 76,
+          "rank": 78,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 74,
+          "rank": 76,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 73,
+          "rank": 75,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 68,
+          "rank": 69,
           "status": "ranked"
         },
         {
@@ -17490,12 +17490,12 @@
           "score": 12.2869
         }
       ],
-      "previousRank": 85,
-      "delta": 12,
+      "previousRank": 86,
+      "delta": 13,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 12,
-        "previousRank": 85,
+        "delta": 13,
+        "previousRank": 86,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -17524,12 +17524,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 67,
+          "rank": 69,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 64,
+          "rank": 65,
           "status": "ranked"
         },
         {
@@ -17772,27 +17772,27 @@
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003fmcI10dzkHT.jpg",
       "rank": 75,
-      "score": 12.8263,
+      "score": 12.9197,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 83,
+          "rank": 75,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 61,
+          "rank": 62,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 68,
+          "rank": 70,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 90,
+          "rank": 91,
           "status": "ranked"
         },
         {
@@ -17812,6 +17812,47 @@
         }
       ],
       "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 184,
+          "sourceId": "004X4tBC4ez4FP",
+          "url": "https://y.qq.com/n/ryqq/songDetail/004X4tBC4ez4FP",
+          "eligible": true,
+          "weight": 0.25,
+          "score": 1.5548243280211786,
+          "contribution": 0.38870608200529466,
+          "sourceMovement": {
+            "direction": "new",
+            "delta": null,
+            "previousRank": null,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-10-31",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-01T07:30:30.182Z",
+            "previousObservedAt": "2026-10-31T13:38:33.682Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "cur_count": "184",
+              "old_count": "0"
+            }
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
         {
           "id": "netease",
           "name": "网易云音乐",
@@ -17899,53 +17940,12 @@
           "collectionError": null,
           "cacheOrigin": null,
           "includedDate": "2026-11-01"
-        },
-        {
-          "id": "qq",
-          "name": "QQ 音乐",
-          "rank": 184,
-          "sourceId": "004X4tBC4ez4FP",
-          "url": "https://y.qq.com/n/ryqq/songDetail/004X4tBC4ez4FP",
-          "eligible": true,
-          "weight": 0.25,
-          "score": 1.5548243280211786,
-          "contribution": 0.38870608200529466,
-          "sourceMovement": {
-            "direction": "new",
-            "delta": null,
-            "previousRank": null,
-            "period": "previous-day",
-            "origin": "snapshot-comparison",
-            "comparisonDate": "2026-10-31",
-            "comparisonDepth": 200,
-            "currentObservedAt": "2026-11-01T07:30:30.182Z",
-            "previousObservedAt": "2026-10-31T13:38:33.682Z",
-            "comparisonUsesCache": false,
-            "raw": {
-              "cur_count": "184",
-              "old_count": "0"
-            }
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-11-01",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
         }
       ],
       "dailyScores": [
         {
           "date": "2026-10-26",
-          "score": 12.7228
+          "score": 13.3766
         },
         {
           "date": "2026-10-27",
@@ -17984,24 +17984,405 @@
       }
     },
     {
+      "id": "c44d55ea7157e8656dc2",
+      "title": "过渡期",
+      "artists": [
+        "小宇-宋念宇"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Uw5qE3Wjlo6.jpg",
+      "rank": 76,
+      "score": 12.8614,
+      "daysOnChart": 7,
+      "rankTrend": [
+        {
+          "date": "2026-10-26",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-27",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 31,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 35,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 38,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 97,
+          "sourceId": "002GnkGs2TknvY",
+          "url": "https://y.qq.com/n/ryqq/songDetail/002GnkGs2TknvY",
+          "eligible": true,
+          "weight": 0.25,
+          "score": 8.858368158661863,
+          "contribution": 2.2145920396654657,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -46,
+            "previousRank": 51,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "97",
+              "old_count": "51"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 77,
+          "sourceId": "1A3EAA7023BC5205E34F4351F09A3D0A",
+          "url": "https://www.kugou.com/song/#hash=1A3EAA7023BC5205E34F4351F09A3D0A",
+          "eligible": true,
+          "weight": 0.2,
+          "score": 13.21513239989079,
+          "contribution": 2.643026479978158,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -17,
+            "previousRank": 60,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 77,
+              "last_sort": 60
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "78234",
+                "hash": "F67A9BCD826025316A4A7A8532F5BC92",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "B9D420587EE62A0A29D37F91A8AA2D22",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01 08:30:00",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 133,
+          "sourceId": "25780143",
+          "url": "https://music.163.com/#/song?id=25780143",
+          "eligible": true,
+          "weight": 0.3,
+          "score": 4.311830685352641,
+          "contribution": 1.2935492056057922,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -19,
+            "previousRank": 114,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 113
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "10868007",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-30T14:06:50.126Z",
+          "observedDate": "2026-10-30",
+          "sourceUpdatedAt": "2026-10-30T00:11:21.052Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-10-30T14:06:50.126Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-30"
+        }
+      ],
+      "dailyScores": [
+        {
+          "date": "2026-10-26",
+          "score": 0.8147
+        },
+        {
+          "date": "2026-10-27",
+          "score": 10.1495
+        },
+        {
+          "date": "2026-10-28",
+          "score": 22.9137
+        },
+        {
+          "date": "2026-10-29",
+          "score": 21.6103
+        },
+        {
+          "date": "2026-10-30",
+          "score": 20.4135
+        },
+        {
+          "date": "2026-10-31",
+          "score": 9.2704
+        },
+        {
+          "date": "2026-11-01",
+          "score": 4.8576
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "firstEntryDate": "2026-10-26",
+        "period": "previous-week",
+        "comparisonDate": "2026-10-19"
+      }
+    },
+    {
+      "id": "4900cb785e1d222f3164",
+      "title": "回到你身边",
+      "artists": [
+        "h3R3"
+      ],
+      "artwork": "http://p2.music.126.net/yed2hVZZwFNeSkTynWPaJQ==/109951173491736376.jpg",
+      "rank": 77,
+      "score": 12.7902,
+      "daysOnChart": 7,
+      "rankTrend": [
+        {
+          "date": "2026-10-26",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 69,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 67,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 67,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 73,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 79,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 90,
+          "status": "ranked"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 48,
+          "sourceId": "3397415408",
+          "url": "https://music.163.com/#/song?id=3397415408",
+          "eligible": true,
+          "weight": 0.3,
+          "score": 23.73310951811955,
+          "contribution": 7.119932855435866,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -9,
+            "previousRank": 39,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 38
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": "2026-11-01T02:13:55.293Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 66,
+          "sourceId": "D47C45995D6D88F23AB76601702D9C9E",
+          "url": "https://www.kugou.com/song/#hash=D47C45995D6D88F23AB76601702D9C9E",
+          "eligible": true,
+          "weight": 0.2,
+          "score": 16.467068975135284,
+          "contribution": 3.293413795027057,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -3,
+            "previousRank": 63,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 66,
+              "last_sort": 63
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "17038031",
+                "hash": "BC6CAC007B243D298B15C2C2AB6987B3",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01 08:30:00",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        }
+      ],
+      "dailyScores": [
+        {
+          "date": "2026-10-26",
+          "score": 10.3961
+        },
+        {
+          "date": "2026-10-27",
+          "score": 14.1936
+        },
+        {
+          "date": "2026-10-28",
+          "score": 14.1284
+        },
+        {
+          "date": "2026-10-29",
+          "score": 14.4939
+        },
+        {
+          "date": "2026-10-30",
+          "score": 13.5038
+        },
+        {
+          "date": "2026-10-31",
+          "score": 12.4023
+        },
+        {
+          "date": "2026-11-01",
+          "score": 10.4133
+        }
+      ],
+      "previousRank": 75,
+      "delta": -2,
+      "weeklyMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 75,
+        "firstEntryDate": "2026-10-19",
+        "period": "previous-week",
+        "comparisonDate": "2026-10-19"
+      }
+    },
+    {
       "id": "3d10080f13e00533cb44",
       "title": "睡前别想太多",
       "artists": [
         "李雨霏_晚饭"
       ],
       "artwork": "http://p2.music.126.net/CdAZ76__lHkE_HcjXgR_4w==/109951173999807018.jpg",
-      "rank": 76,
+      "rank": 78,
       "score": 12.7633,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 75,
+          "rank": 77,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 62,
+          "rank": 63,
           "status": "ranked"
         },
         {
@@ -18011,7 +18392,7 @@
         },
         {
           "date": "2026-10-29",
-          "rank": 59,
+          "rank": 60,
           "status": "ranked"
         },
         {
@@ -18098,10 +18479,10 @@
         }
       ],
       "previousRank": 38,
-      "delta": -38,
+      "delta": -40,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -38,
+        "delta": -40,
         "previousRank": 38,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -18115,28 +18496,28 @@
         "莫文蔚"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000hTTJN3oScZr.jpg",
-      "rank": 77,
+      "rank": 79,
       "score": 12.5592,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 61,
+          "rank": 62,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 71,
+          "rank": 73,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 81,
+          "rank": 83,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 89,
+          "rank": 90,
           "status": "ranked"
         },
         {
@@ -18350,10 +18731,10 @@
         }
       ],
       "previousRank": 57,
-      "delta": -20,
+      "delta": -22,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -20,
+        "delta": -22,
         "previousRank": 57,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -18367,28 +18748,28 @@
         "心煜"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20261016/20261016113551500561.jpg",
-      "rank": 78,
+      "rank": 80,
       "score": 12.5234,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 68,
+          "rank": 69,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 72,
+          "rank": 74,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 70,
+          "rank": 72,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 73,
+          "rank": 74,
           "status": "ranked"
         },
         {
@@ -18476,10 +18857,10 @@
         }
       ],
       "previousRank": 66,
-      "delta": -12,
+      "delta": -14,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -12,
+        "delta": -14,
         "previousRank": 66,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -18493,13 +18874,13 @@
         "宋晓峰"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20260929/20260929115008964404.jpg",
-      "rank": 79,
+      "rank": 81,
       "score": 12.5195,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 66,
+          "rank": 67,
           "status": "ranked"
         },
         {
@@ -18509,12 +18890,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 80,
+          "rank": 82,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 87,
+          "rank": 88,
           "status": "ranked"
         },
         {
@@ -18651,10 +19032,10 @@
         }
       ],
       "previousRank": 54,
-      "delta": -25,
+      "delta": -27,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -25,
+        "delta": -27,
         "previousRank": 54,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -18668,7 +19049,7 @@
         "邓紫棋"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Cy8kL400ft2.jpg",
-      "rank": 80,
+      "rank": 82,
       "score": 12.4872,
       "daysOnChart": 7,
       "rankTrend": [
@@ -18902,12 +19283,12 @@
           "score": 20.8579
         }
       ],
-      "previousRank": 96,
-      "delta": 16,
+      "previousRank": 97,
+      "delta": 15,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 16,
-        "previousRank": 96,
+        "delta": 15,
+        "previousRank": 97,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -18920,13 +19301,13 @@
         "郑润泽"
       ],
       "artwork": "http://p1.music.126.net/Ws93IUrJGR_lK-QEsdKTWw==/109951168408373477.jpg",
-      "rank": 81,
+      "rank": 83,
       "score": 12.2668,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 45,
+          "rank": 46,
           "status": "ranked"
         },
         {
@@ -18936,7 +19317,7 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 86,
+          "rank": 88,
           "status": "ranked"
         },
         {
@@ -19034,10 +19415,10 @@
         }
       ],
       "previousRank": 69,
-      "delta": -12,
+      "delta": -14,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -12,
+        "delta": -14,
         "previousRank": 69,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -19051,13 +19432,13 @@
         "陈奕迅"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000GDz8k03UOaI.jpg",
-      "rank": 82,
+      "rank": 84,
       "score": 12.1203,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 71,
+          "rank": 72,
           "status": "ranked"
         },
         {
@@ -19067,12 +19448,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 78,
+          "rank": 80,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 82,
+          "rank": 83,
           "status": "ranked"
         },
         {
@@ -19293,12 +19674,12 @@
           "score": 10.9859
         }
       ],
-      "previousRank": 71,
-      "delta": -11,
+      "previousRank": 72,
+      "delta": -12,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -11,
-        "previousRank": 71,
+        "delta": -12,
+        "previousRank": 72,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -19311,28 +19692,28 @@
         "顿珠拉姆"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20260915/20260915142351169494.jpg",
-      "rank": 83,
+      "rank": 85,
       "score": 12.0571,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 87,
+          "rank": 88,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 75,
+          "rank": 77,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 74,
+          "rank": 76,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 75,
+          "rank": 76,
           "status": "ranked"
         },
         {
@@ -19425,12 +19806,12 @@
           "score": 9.7708
         }
       ],
-      "previousRank": 79,
-      "delta": -4,
+      "previousRank": 80,
+      "delta": -5,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -4,
-        "previousRank": 79,
+        "delta": -5,
+        "previousRank": 80,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -19443,28 +19824,28 @@
         "王菲"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004Kbn3m2HV9Y3.jpg",
-      "rank": 84,
+      "rank": 86,
       "score": 12.0252,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 88,
+          "rank": 89,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 69,
+          "rank": 71,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 82,
+          "rank": 84,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 72,
+          "rank": 73,
           "status": "ranked"
         },
         {
@@ -19647,12 +20028,12 @@
           "score": 9.171
         }
       ],
-      "previousRank": 76,
-      "delta": -8,
+      "previousRank": 77,
+      "delta": -9,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -8,
-        "previousRank": 76,
+        "delta": -9,
+        "previousRank": 77,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -19665,13 +20046,13 @@
         "林俊杰"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000y5gq7449K9I.jpg",
-      "rank": 85,
+      "rank": 87,
       "score": 12.0023,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 63,
+          "rank": 64,
           "status": "ranked"
         },
         {
@@ -19681,7 +20062,7 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 96,
+          "rank": 100,
           "status": "ranked"
         },
         {
@@ -19949,10 +20330,10 @@
         }
       ],
       "previousRank": 64,
-      "delta": -21,
+      "delta": -23,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -21,
+        "delta": -23,
         "previousRank": 64,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -19966,7 +20347,7 @@
         "郭静"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003EHcB24J8t9Z.jpg",
-      "rank": 86,
+      "rank": 88,
       "score": 12.0001,
       "daysOnChart": 7,
       "rankTrend": [
@@ -19982,7 +20363,7 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 87,
+          "rank": 89,
           "status": "ranked"
         },
         {
@@ -20207,12 +20588,12 @@
           "score": 14.6423
         }
       ],
-      "previousRank": 84,
-      "delta": -2,
+      "previousRank": 85,
+      "delta": -3,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -2,
-        "previousRank": 84,
+        "delta": -3,
+        "previousRank": 85,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -20225,7 +20606,7 @@
         "王贰浪"
       ],
       "artwork": "http://p1.music.126.net/CBx2K_jEN3SNWwYztagPPw==/109951164485969446.jpg",
-      "rank": 87,
+      "rank": 89,
       "score": 11.4223,
       "daysOnChart": 7,
       "rankTrend": [
@@ -20236,12 +20617,12 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 45,
+          "rank": 46,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 42,
+          "rank": 43,
           "status": "ranked"
         },
         {
@@ -20350,7 +20731,7 @@
         "Gareth.T"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004JCDGM3t28q8.jpg",
-      "rank": 88,
+      "rank": 90,
       "score": 11.1173,
       "daysOnChart": 7,
       "rankTrend": [
@@ -20366,12 +20747,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 92,
+          "rank": 95,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 85,
+          "rank": 86,
           "status": "ranked"
         },
         {
@@ -20499,12 +20880,12 @@
           "score": 10.0029
         }
       ],
-      "previousRank": 93,
-      "delta": 5,
+      "previousRank": 94,
+      "delta": 4,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 5,
-        "previousRank": 93,
+        "delta": 4,
+        "previousRank": 94,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -20517,13 +20898,13 @@
         "BEYOND"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002qcJuX3lO3EZ.jpg",
-      "rank": 89,
+      "rank": 91,
       "score": 11.1103,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 78,
+          "rank": 80,
           "status": "ranked"
         },
         {
@@ -20533,7 +20914,7 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 95,
+          "rank": 98,
           "status": "ranked"
         },
         {
@@ -20758,12 +21139,12 @@
           "score": 11.1937
         }
       ],
-      "previousRank": 77,
-      "delta": -12,
+      "previousRank": 78,
+      "delta": -13,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -12,
-        "previousRank": 77,
+        "delta": -13,
+        "previousRank": 78,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -20777,7 +21158,7 @@
         "面妹孔佳奇"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20260824/20260824121655550570.jpg",
-      "rank": 90,
+      "rank": 92,
       "score": 11.0788,
       "daysOnChart": 7,
       "rankTrend": [
@@ -20793,12 +21174,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 79,
+          "rank": 81,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 86,
+          "rank": 87,
           "status": "ranked"
         },
         {
@@ -20934,13 +21315,228 @@
           "score": 9.6141
         }
       ],
-      "previousRank": 92,
-      "delta": 2,
+      "previousRank": 93,
+      "delta": 1,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 92,
+        "delta": 1,
+        "previousRank": 93,
         "firstEntryDate": "2026-10-19",
+        "period": "previous-week",
+        "comparisonDate": "2026-10-19"
+      }
+    },
+    {
+      "id": "a5b67731bf5bb37f615c",
+      "title": "Call your name (Gv)",
+      "artists": [
+        "澤野弘之",
+        "R!N/Gemie"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000GHr773SppMX.jpg",
+      "rank": 93,
+      "score": 11.0575,
+      "daysOnChart": 7,
+      "rankTrend": [
+        {
+          "date": "2026-10-26",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-27",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 99,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 98,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 68,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 76,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 58,
+          "status": "ranked"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 69,
+          "sourceId": "002IsYoV4f9a3g",
+          "url": "https://y.qq.com/n/ryqq/songDetail/002IsYoV4f9a3g",
+          "eligible": true,
+          "weight": 0.25,
+          "score": 15.50810153286793,
+          "contribution": 3.8770253832169823,
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 69,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "69",
+              "old_count": "69"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 19,
+          "sourceId": "57EA72A1563336E7F07307898E680FDC",
+          "url": "https://www.kugou.com/song/#hash=57EA72A1563336E7F07307898E680FDC",
+          "eligible": true,
+          "weight": 0.2,
+          "score": 53.80770303639745,
+          "contribution": 10.76154060727949,
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 8,
+            "previousRank": 27,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 19,
+              "last_sort": 27
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "16548580",
+                "hash": "09F717F6EC77A606183B2628E411F46C",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "11B26A80EF3EBD3292C4DDE3474DD1B5",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01 08:30:00",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 149,
+          "sourceId": "1381723556",
+          "url": "https://music.163.com/#/song?id=1381723556",
+          "eligible": true,
+          "weight": 0.3,
+          "score": 3.1310317001936134,
+          "contribution": 0.9393095100580839,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -4,
+            "previousRank": 145,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 144
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "10880378",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": "2026-11-01T02:13:55.293Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        }
+      ],
+      "dailyScores": [
+        {
+          "date": "2026-10-26",
+          "score": 4.0991
+        },
+        {
+          "date": "2026-10-27",
+          "score": 9.6402
+        },
+        {
+          "date": "2026-10-28",
+          "score": 10.6086
+        },
+        {
+          "date": "2026-10-29",
+          "score": 10.0203
+        },
+        {
+          "date": "2026-10-30",
+          "score": 14.2
+        },
+        {
+          "date": "2026-10-31",
+          "score": 13.2568
+        },
+        {
+          "date": "2026-11-01",
+          "score": 15.5779
+        }
+      ],
+      "previousRank": null,
+      "delta": null,
+      "weeklyMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "firstEntryDate": "2026-10-26",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
       }
@@ -20953,7 +21549,7 @@
         "INDEcompany"
       ],
       "artwork": "http://p2.music.126.net/XQgLpatV-LFMdx55WuV8bA==/109951169706853419.jpg",
-      "rank": 91,
+      "rank": 94,
       "score": 10.8636,
       "daysOnChart": 7,
       "rankTrend": [
@@ -21061,10 +21657,10 @@
         }
       ],
       "previousRank": 60,
-      "delta": -31,
+      "delta": -34,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -31,
+        "delta": -34,
         "previousRank": 60,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -21078,7 +21674,7 @@
         "郭顶"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003sMyYb4HZAAz.jpg",
-      "rank": 92,
+      "rank": 95,
       "score": 10.8364,
       "daysOnChart": 7,
       "rankTrend": [
@@ -21277,12 +21873,12 @@
           "score": 13.2244
         }
       ],
-      "previousRank": 83,
-      "delta": -9,
+      "previousRank": 84,
+      "delta": -11,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -9,
-        "previousRank": 83,
+        "delta": -11,
+        "previousRank": 84,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -21295,13 +21891,13 @@
         "石满仓"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20261010/20261010181033924024.jpg",
-      "rank": 93,
+      "rank": 96,
       "score": 10.7367,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 95,
+          "rank": 96,
           "status": "ranked"
         },
         {
@@ -21311,12 +21907,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 77,
+          "rank": 79,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 88,
+          "rank": 89,
           "status": "ranked"
         },
         {
@@ -21427,13 +22023,13 @@
         "万海东"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20260727/20260727114241535084.jpg",
-      "rank": 94,
+      "rank": 97,
       "score": 10.4544,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 74,
+          "rank": 76,
           "status": "ranked"
         },
         {
@@ -21443,12 +22039,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 99,
-          "status": "ranked"
+          "rank": null,
+          "status": "outside-top100"
         },
         {
           "date": "2026-10-29",
-          "rank": 99,
+          "rank": 100,
           "status": "ranked"
         },
         {
@@ -21585,10 +22181,10 @@
         }
       ],
       "previousRank": 67,
-      "delta": -27,
+      "delta": -30,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -27,
+        "delta": -30,
         "previousRank": 67,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
@@ -21602,7 +22198,7 @@
         "王睿卓"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20251125/20251125141603161899.jpg",
-      "rank": 95,
+      "rank": 98,
       "score": 10.4335,
       "daysOnChart": 7,
       "rankTrend": [
@@ -21618,12 +22214,12 @@
         },
         {
           "date": "2026-10-28",
-          "rank": 90,
+          "rank": 92,
           "status": "ranked"
         },
         {
           "date": "2026-10-29",
-          "rank": 91,
+          "rank": 92,
           "status": "ranked"
         },
         {
@@ -21848,12 +22444,185 @@
           "score": 9.9765
         }
       ],
-      "previousRank": 89,
-      "delta": -6,
+      "previousRank": 90,
+      "delta": -8,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -6,
-        "previousRank": 89,
+        "delta": -8,
+        "previousRank": 90,
+        "firstEntryDate": "2026-10-19",
+        "period": "previous-week",
+        "comparisonDate": "2026-10-19"
+      }
+    },
+    {
+      "id": "e630864892baa78e0250",
+      "title": "DESERVE",
+      "artists": [
+        "BABYMONSTER (베이비몬스터)"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003QFzz937ZzY3.jpg",
+      "rank": 99,
+      "score": 10.4239,
+      "daysOnChart": 7,
+      "rankTrend": [
+        {
+          "date": "2026-10-26",
+          "rank": 36,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-27",
+          "rank": 33,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 52,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": null,
+          "status": "outside-top100"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": null,
+          "status": "outside-top100"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 148,
+          "sourceId": "0035NK3D30B4V6",
+          "url": "https://y.qq.com/n/ryqq/songDetail/0035NK3D30B4V6",
+          "eligible": true,
+          "weight": 0.25,
+          "score": 3.194282736203776,
+          "contribution": 0.798570684050944,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -16,
+            "previousRank": 132,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "148",
+              "old_count": "132"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-01T07:30:30.182Z",
+          "observedDate": "2026-11-01",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-01",
+          "attemptedAt": "2026-11-01T07:30:30.182Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-01"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 189,
+          "sourceId": "753E5E0CDF7ED6AC1AA76FA06FAFCD54",
+          "url": "https://www.kugou.com/song/#hash=753E5E0CDF7ED6AC1AA76FA06FAFCD54",
+          "eligible": true,
+          "weight": 0.2,
+          "score": 1.4068632304661797,
+          "contribution": 0.2813726460932359,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -108,
+            "previousRank": 81,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 189,
+              "last_sort": 81
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "18266784",
+                "hash": "01AAAF68FB9FE5CB16938A728787A524",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "8F2F639301C53FB73D256F0A108A6952",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-10-28T14:00:09.910Z",
+          "observedDate": "2026-10-28",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-10-28 08:30:01",
+          "attemptedAt": "2026-10-28T14:00:09.910Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-10-28"
+        }
+      ],
+      "dailyScores": [
+        {
+          "date": "2026-10-26",
+          "score": 21.5251
+        },
+        {
+          "date": "2026-10-27",
+          "score": 21.945
+        },
+        {
+          "date": "2026-10-28",
+          "score": 17.2722
+        },
+        {
+          "date": "2026-10-29",
+          "score": 7.6218
+        },
+        {
+          "date": "2026-10-30",
+          "score": 2.7049
+        },
+        {
+          "date": "2026-10-31",
+          "score": 1.0997
+        },
+        {
+          "date": "2026-11-01",
+          "score": 0.7986
+        }
+      ],
+      "previousRank": 70,
+      "delta": -29,
+      "weeklyMovement": {
+        "direction": "down",
+        "delta": -29,
+        "previousRank": 70,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -21866,23 +22635,23 @@
         "RIIZE (라이즈)"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003LQ1uy0nnYl6.jpg",
-      "rank": 96,
+      "rank": 100,
       "score": 10.4039,
       "daysOnChart": 7,
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 37,
+          "rank": 38,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 37,
+          "rank": 39,
           "status": "ranked"
         },
         {
           "date": "2026-10-28",
-          "rank": 94,
+          "rank": 97,
           "status": "ranked"
         },
         {
@@ -21981,819 +22750,6 @@
         "delta": null,
         "previousRank": null,
         "firstEntryDate": "2026-10-26",
-        "period": "previous-week",
-        "comparisonDate": "2026-10-19"
-      }
-    },
-    {
-      "id": "4900cb785e1d222f3164",
-      "title": "回到你身边",
-      "artists": [
-        "h3R3"
-      ],
-      "artwork": "http://p2.music.126.net/yed2hVZZwFNeSkTynWPaJQ==/109951173491736376.jpg",
-      "rank": 97,
-      "score": 10.275,
-      "daysOnChart": 7,
-      "rankTrend": [
-        {
-          "date": "2026-10-26",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-27",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-28",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-29",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 73,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-31",
-          "rank": 79,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-11-01",
-          "rank": 90,
-          "status": "ranked"
-        }
-      ],
-      "platforms": [
-        {
-          "id": "netease",
-          "name": "网易云音乐",
-          "rank": 48,
-          "sourceId": "3397415408",
-          "url": "https://music.163.com/#/song?id=3397415408",
-          "eligible": true,
-          "weight": 0.3,
-          "score": 23.73310951811955,
-          "contribution": 7.119932855435866,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -9,
-            "previousRank": 39,
-            "period": "previous-edition",
-            "raw": {
-              "lastRank": 38
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": "2026-11-01T02:13:55.293Z",
-          "sourcePeriod": null,
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        },
-        {
-          "id": "kugou",
-          "name": "酷狗音乐",
-          "rank": 66,
-          "sourceId": "D47C45995D6D88F23AB76601702D9C9E",
-          "url": "https://www.kugou.com/song/#hash=D47C45995D6D88F23AB76601702D9C9E",
-          "eligible": true,
-          "weight": 0.2,
-          "score": 16.467068975135284,
-          "contribution": 3.293413795027057,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -3,
-            "previousRank": 63,
-            "period": "previous-edition",
-            "raw": {
-              "sort": 66,
-              "last_sort": 63
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "linked",
-            "items": [
-              {
-                "id": "17038031",
-                "hash": "BC6CAC007B243D298B15C2C2AB6987B3",
-                "url": null
-              }
-            ]
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-11-01 08:30:00",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        }
-      ],
-      "dailyScores": [
-        {
-          "date": "2026-10-26",
-          "score": 7.6452
-        },
-        {
-          "date": "2026-10-27",
-          "score": 9.6581
-        },
-        {
-          "date": "2026-10-28",
-          "score": 8.9052
-        },
-        {
-          "date": "2026-10-29",
-          "score": 9.397
-        },
-        {
-          "date": "2026-10-30",
-          "score": 13.5038
-        },
-        {
-          "date": "2026-10-31",
-          "score": 12.4023
-        },
-        {
-          "date": "2026-11-01",
-          "score": 10.4133
-        }
-      ],
-      "previousRank": 88,
-      "delta": -9,
-      "weeklyMovement": {
-        "direction": "down",
-        "delta": -9,
-        "previousRank": 88,
-        "firstEntryDate": "2026-10-19",
-        "period": "previous-week",
-        "comparisonDate": "2026-10-19"
-      }
-    },
-    {
-      "id": "05db1463ac4d3768c09b",
-      "title": "七里香",
-      "artists": [
-        "周杰伦"
-      ],
-      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003DFRzD192KKD.jpg",
-      "rank": 98,
-      "score": 9.9951,
-      "daysOnChart": 7,
-      "rankTrend": [
-        {
-          "date": "2026-10-26",
-          "rank": 96,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-27",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-28",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 100,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 98,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-31",
-          "rank": 98,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-11-01",
-          "rank": 93,
-          "status": "ranked"
-        }
-      ],
-      "platforms": [
-        {
-          "id": "qq",
-          "name": "QQ 音乐",
-          "rank": 129,
-          "sourceId": "004Z8Ihr0JIu5s",
-          "url": "https://y.qq.com/n/ryqq/songDetail/004Z8Ihr0JIu5s",
-          "eligible": true,
-          "weight": 0.25,
-          "score": 4.67095041944657,
-          "contribution": 1.1677376048616426,
-          "sourceMovement": {
-            "direction": "up",
-            "delta": 11,
-            "previousRank": 140,
-            "period": "previous-edition",
-            "raw": {
-              "cur_count": "129",
-              "old_count": "140"
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-11-01",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        },
-        {
-          "id": "kugou",
-          "name": "酷狗音乐",
-          "rank": 154,
-          "sourceId": "9218D81686C6AC681BC7CA621958AD6D",
-          "url": "https://www.kugou.com/song/#hash=9218D81686C6AC681BC7CA621958AD6D",
-          "eligible": true,
-          "weight": 0.2,
-          "score": 2.8330746393919295,
-          "contribution": 0.566614927878386,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -8,
-            "previousRank": 146,
-            "period": "previous-edition",
-            "raw": {
-              "sort": 154,
-              "last_sort": 146
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "linked",
-            "items": [
-              {
-                "id": "756969",
-                "hash": "7CB836E50F102FDC450569985D2629D8",
-                "url": null
-              },
-              {
-                "id": null,
-                "hash": "ED8C9E98225D95DCC5A923154AE5926F",
-                "url": null
-              }
-            ]
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-10-26T14:15:14.227Z",
-          "observedDate": "2026-10-26",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-10-26 08:30:01",
-          "attemptedAt": "2026-10-26T14:15:14.227Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-10-26"
-        },
-        {
-          "id": "kuwo",
-          "name": "酷我音乐",
-          "rank": 169,
-          "sourceId": "94237",
-          "url": "https://www.kuwo.cn/play_detail/94237",
-          "eligible": true,
-          "weight": 0.05,
-          "score": 2.098793313412829,
-          "contribution": 0.10493966567064146,
-          "sourceMovement": {
-            "direction": "same",
-            "delta": 0,
-            "previousRank": 169,
-            "period": "previous-day",
-            "origin": "snapshot-comparison",
-            "comparisonDate": "2026-10-31",
-            "comparisonDepth": 200,
-            "currentObservedAt": "2026-11-01T07:30:30.182Z",
-            "previousObservedAt": "2026-10-31T13:38:33.682Z",
-            "comparisonUsesCache": false,
-            "raw": {
-              "rank_change": "23",
-              "trend": "u0",
-              "isnew": "0",
-              "highest_rank": "98"
-            }
-          },
-          "mv": {
-            "status": "linked",
-            "items": [
-              {
-                "id": "7884575",
-                "hash": null,
-                "url": null
-              }
-            ]
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-10-31",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        },
-        {
-          "id": "apple",
-          "name": "Apple Music",
-          "rank": 4,
-          "sourceId": "536115195",
-          "url": "https://music.apple.com/cn/album/%E4%B8%83%E9%87%8C%E9%A6%99/536114662?i=536115195",
-          "eligible": true,
-          "weight": 0.1,
-          "score": 89.82283930454417,
-          "contribution": 8.982283930454418,
-          "sourceMovement": {
-            "direction": "same",
-            "delta": 0,
-            "previousRank": 4,
-            "period": "previous-day",
-            "origin": "snapshot-comparison",
-            "comparisonDate": "2026-10-31",
-            "comparisonDepth": 100,
-            "currentObservedAt": "2026-11-01T07:30:30.182Z",
-            "previousObservedAt": "2026-10-31T13:38:33.682Z",
-            "comparisonUsesCache": false,
-            "raw": {}
-          },
-          "mv": {
-            "status": "unknown",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": "2026-11-01T07:30:58.000Z",
-          "sourcePeriod": null,
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        }
-      ],
-      "dailyScores": [
-        {
-          "date": "2026-10-26",
-          "score": 10.7248
-        },
-        {
-          "date": "2026-10-27",
-          "score": 9.5159
-        },
-        {
-          "date": "2026-10-28",
-          "score": 9.7678
-        },
-        {
-          "date": "2026-10-29",
-          "score": 9.7818
-        },
-        {
-          "date": "2026-10-30",
-          "score": 9.8965
-        },
-        {
-          "date": "2026-10-31",
-          "score": 10.0244
-        },
-        {
-          "date": "2026-11-01",
-          "score": 10.255
-        }
-      ],
-      "previousRank": 91,
-      "delta": -7,
-      "weeklyMovement": {
-        "direction": "down",
-        "delta": -7,
-        "previousRank": 91,
-        "firstEntryDate": "2026-10-19",
-        "period": "previous-week",
-        "comparisonDate": "2026-10-19"
-      }
-    },
-    {
-      "id": "f6f657a1b486aa9826b3",
-      "title": "搁浅",
-      "artists": [
-        "周杰伦"
-      ],
-      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003DFRzD192KKD.jpg",
-      "rank": 99,
-      "score": 9.9717,
-      "daysOnChart": 7,
-      "rankTrend": [
-        {
-          "date": "2026-10-26",
-          "rank": 91,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-27",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-28",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-29",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-30",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-10-31",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-11-01",
-          "rank": 92,
-          "status": "ranked"
-        }
-      ],
-      "platforms": [
-        {
-          "id": "qq",
-          "name": "QQ 音乐",
-          "rank": 105,
-          "sourceId": "001Bbywq2gicae",
-          "url": "https://y.qq.com/n/ryqq/songDetail/001Bbywq2gicae",
-          "eligible": true,
-          "weight": 0.25,
-          "score": 7.548603406779758,
-          "contribution": 1.8871508516949396,
-          "sourceMovement": {
-            "direction": "up",
-            "delta": 24,
-            "previousRank": 129,
-            "period": "previous-edition",
-            "raw": {
-              "cur_count": "105",
-              "old_count": "129"
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-11-01",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        },
-        {
-          "id": "kugou",
-          "name": "酷狗音乐",
-          "rank": 198,
-          "sourceId": "8141FAA45AAD5BCFF5FF9873B89709E3",
-          "url": "https://www.kugou.com/song/#hash=8141FAA45AAD5BCFF5FF9873B89709E3",
-          "eligible": true,
-          "weight": 0.2,
-          "score": 1.1751109479382307,
-          "contribution": 0.23502218958764615,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -92,
-            "previousRank": 106,
-            "period": "previous-edition",
-            "raw": {
-              "sort": 198,
-              "last_sort": 106
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "linked",
-            "items": [
-              {
-                "id": "756760",
-                "hash": "004C5BD7B7B322330821A12812C0B907",
-                "url": null
-              },
-              {
-                "id": null,
-                "hash": "3779EF8A791C2183901515C37310F25D",
-                "url": null
-              }
-            ]
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-10-27T13:11:46.784Z",
-          "observedDate": "2026-10-27",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-10-27 08:30:00",
-          "attemptedAt": "2026-10-27T13:11:46.784Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-10-27"
-        },
-        {
-          "id": "apple",
-          "name": "Apple Music",
-          "rank": 6,
-          "sourceId": "536115199",
-          "url": "https://music.apple.com/cn/album/%E6%90%81%E6%B5%85/536114662?i=536115199",
-          "eligible": true,
-          "weight": 0.1,
-          "score": 83.68576777701836,
-          "contribution": 8.368576777701836,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -1,
-            "previousRank": 5,
-            "period": "previous-day",
-            "origin": "snapshot-comparison",
-            "comparisonDate": "2026-10-31",
-            "comparisonDepth": 100,
-            "currentObservedAt": "2026-11-01T07:30:30.182Z",
-            "previousObservedAt": "2026-10-31T13:38:33.682Z",
-            "comparisonUsesCache": false,
-            "raw": {}
-          },
-          "mv": {
-            "status": "unknown",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": "2026-11-01T07:30:58.000Z",
-          "sourcePeriod": null,
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        }
-      ],
-      "dailyScores": [
-        {
-          "date": "2026-10-26",
-          "score": 11.7254
-        },
-        {
-          "date": "2026-10-27",
-          "score": 9.7255
-        },
-        {
-          "date": "2026-10-28",
-          "score": 9.3838
-        },
-        {
-          "date": "2026-10-29",
-          "score": 9.3838
-        },
-        {
-          "date": "2026-10-30",
-          "score": 9.4905
-        },
-        {
-          "date": "2026-10-31",
-          "score": 9.837
-        },
-        {
-          "date": "2026-11-01",
-          "score": 10.2557
-        }
-      ],
-      "previousRank": 87,
-      "delta": -12,
-      "weeklyMovement": {
-        "direction": "down",
-        "delta": -12,
-        "previousRank": 87,
-        "firstEntryDate": "2026-10-19",
-        "period": "previous-week",
-        "comparisonDate": "2026-10-19"
-      }
-    },
-    {
-      "id": "722218f76203709bf50f",
-      "title": "秋风一吹又老一岁 (女版烟嗓)",
-      "artists": [
-        "微醺森林"
-      ],
-      "artwork": "https://imge.kugou.com/stdmusic/400/20260914/20260914131723980989.jpg",
-      "rank": 100,
-      "score": 9.9551,
-      "daysOnChart": 7,
-      "rankTrend": [
-        {
-          "date": "2026-10-26",
-          "rank": 99,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-27",
-          "rank": 100,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-28",
-          "rank": 89,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-29",
-          "rank": 93,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-30",
-          "rank": 100,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-10-31",
-          "rank": null,
-          "status": "outside-top100"
-        },
-        {
-          "date": "2026-11-01",
-          "rank": null,
-          "status": "outside-top100"
-        }
-      ],
-      "platforms": [
-        {
-          "id": "kugou",
-          "name": "酷狗音乐",
-          "rank": 42,
-          "sourceId": "6024903A2603AFB6FBD0453162BDED63",
-          "url": "https://www.kugou.com/song/#hash=6024903A2603AFB6FBD0453162BDED63",
-          "eligible": true,
-          "weight": 0.2,
-          "score": 27.458203806180272,
-          "contribution": 5.491640761236055,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -9,
-            "previousRank": 33,
-            "period": "previous-edition",
-            "raw": {
-              "sort": 42,
-              "last_sort": 33
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "linked",
-            "items": [
-              {
-                "id": "17825984",
-                "hash": "D7532250FA54748BC4A151F5654B736D",
-                "url": null
-              }
-            ]
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-11-01 08:30:00",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        },
-        {
-          "id": "kuwo",
-          "name": "酷我音乐",
-          "rank": 23,
-          "sourceId": "648455278",
-          "url": "https://www.kuwo.cn/play_detail/648455278",
-          "eligible": true,
-          "weight": 0.05,
-          "score": 47.33046205134232,
-          "contribution": 2.366523102567116,
-          "sourceMovement": {
-            "direction": "same",
-            "delta": 0,
-            "previousRank": 23,
-            "period": "previous-day",
-            "origin": "snapshot-comparison",
-            "comparisonDate": "2026-10-31",
-            "comparisonDepth": 200,
-            "currentObservedAt": "2026-11-01T07:30:30.182Z",
-            "previousObservedAt": "2026-10-31T13:38:33.682Z",
-            "comparisonUsesCache": false,
-            "raw": {
-              "rank_change": "4",
-              "trend": "u0",
-              "isnew": "0",
-              "highest_rank": "19"
-            }
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-01T07:30:30.182Z",
-          "observedDate": "2026-11-01",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-10-31",
-          "attemptedAt": "2026-11-01T07:30:30.182Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-01"
-        }
-      ],
-      "dailyScores": [
-        {
-          "date": "2026-10-26",
-          "score": 10.65
-        },
-        {
-          "date": "2026-10-27",
-          "score": 10.2176
-        },
-        {
-          "date": "2026-10-28",
-          "score": 11.0526
-        },
-        {
-          "date": "2026-10-29",
-          "score": 10.8031
-        },
-        {
-          "date": "2026-10-30",
-          "score": 9.7333
-        },
-        {
-          "date": "2026-10-31",
-          "score": 9.3712
-        },
-        {
-          "date": "2026-11-01",
-          "score": 7.8582
-        }
-      ],
-      "previousRank": 80,
-      "delta": -20,
-      "weeklyMovement": {
-        "direction": "down",
-        "delta": -20,
-        "previousRank": 80,
-        "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
       }
