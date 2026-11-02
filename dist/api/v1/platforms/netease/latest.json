@@ -12,7 +12,7 @@
   "access": "官方公开歌单接口",
   "providerId": "netease",
   "declaredCount": 200,
-  "fetchedAt": "2026-11-02T08:27:02.910Z",
+  "fetchedAt": "2026-11-02T22:19:19.878Z",
   "sourceUpdatedAt": "2026-11-02T00:30:19.377Z",
   "sourcePeriod": null,
   "entries": [
@@ -27,15 +27,15 @@
       "url": "https://music.163.com/#/song?id=3456047164",
       "rank": 1,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 1,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -110,7 +110,7 @@
         "许嵩"
       ],
       "album": "天龙八部之宿敌",
-      "artwork": "http://p1.music.126.net/Ezo6K3rPFowvnkDtxf-w6Q==/109951172321459335.jpg",
+      "artwork": "http://p2.music.126.net/Ezo6K3rPFowvnkDtxf-w6Q==/109951172321459335.jpg",
       "url": "https://music.163.com/#/song?id=167691",
       "rank": 4,
       "sourceMovement": {
@@ -142,7 +142,7 @@
         "李佳薇"
       ],
       "album": "甲乙丙丁",
-      "artwork": "http://p1.music.126.net/H9iDvukTit_jx-fmhhvXUQ==/109951173482378749.jpg",
+      "artwork": "http://p2.music.126.net/H9iDvukTit_jx-fmhhvXUQ==/109951173482378749.jpg",
       "url": "https://music.163.com/#/song?id=3399839173",
       "rank": 5,
       "sourceMovement": {
@@ -169,7 +169,7 @@
         "Wiz_H张子豪"
       ],
       "album": "罗生门（Follow）",
-      "artwork": "http://p1.music.126.net/yN1ke1xYMJ718FiHaDWtYQ==/109951165076380471.jpg",
+      "artwork": "http://p2.music.126.net/yN1ke1xYMJ718FiHaDWtYQ==/109951165076380471.jpg",
       "url": "https://music.163.com/#/song?id=1456890009",
       "rank": 6,
       "sourceMovement": {
@@ -1013,7 +1013,7 @@
         "Gareth.T"
       ],
       "album": "颜色",
-      "artwork": "http://p1.music.126.net/NBYS2W-x3p2IVNvHMcylMg==/109951170940524301.jpg",
+      "artwork": "http://p2.music.126.net/NBYS2W-x3p2IVNvHMcylMg==/109951170940524301.jpg",
       "url": "https://music.163.com/#/song?id=2701139855",
       "rank": 35,
       "sourceMovement": {
@@ -1045,7 +1045,7 @@
         "王贰浪"
       ],
       "album": "把回忆拼好给你",
-      "artwork": "http://p1.music.126.net/CBx2K_jEN3SNWwYztagPPw==/109951164485969446.jpg",
+      "artwork": "http://p2.music.126.net/CBx2K_jEN3SNWwYztagPPw==/109951164485969446.jpg",
       "url": "https://music.163.com/#/song?id=1403318151",
       "rank": 36,
       "sourceMovement": {
@@ -1072,7 +1072,7 @@
         "Demxntia"
       ],
       "album": "无 意",
-      "artwork": "http://p1.music.126.net/ucdEaYKU_dL0U2ae-wSRCQ==/109951174184824841.jpg",
+      "artwork": "http://p2.music.126.net/ucdEaYKU_dL0U2ae-wSRCQ==/109951174184824841.jpg",
       "url": "https://music.163.com/#/song?id=3448738711",
       "rank": 37,
       "sourceMovement": {
@@ -2137,7 +2137,7 @@
         "可楼"
       ],
       "album": "隔岸（女版）",
-      "artwork": "http://p1.music.126.net/M1zvPh7xCdHqSUWer_yNvQ==/109951174076384529.jpg",
+      "artwork": "http://p2.music.126.net/M1zvPh7xCdHqSUWer_yNvQ==/109951174076384529.jpg",
       "url": "https://music.163.com/#/song?id=3445520471",
       "rank": 74,
       "sourceMovement": {
@@ -2163,7 +2163,7 @@
         "G.E.M.邓紫棋"
       ],
       "album": "新的心跳",
-      "artwork": "http://p1.music.126.net/kVwk6b8Qdya8oDyGDcyAVA==/1364493930777368.jpg",
+      "artwork": "http://p2.music.126.net/kVwk6b8Qdya8oDyGDcyAVA==/1364493930777368.jpg",
       "url": "https://music.163.com/#/song?id=30612793",
       "rank": 75,
       "sourceMovement": {
@@ -2195,7 +2195,7 @@
         "陈奕迅"
       ],
       "album": "What's Going On…?",
-      "artwork": "http://p1.music.126.net/oSMs7RzJFx0TgWCqRC8XjA==/109951171844247587.jpg",
+      "artwork": "http://p2.music.126.net/oSMs7RzJFx0TgWCqRC8XjA==/109951171844247587.jpg",
       "url": "https://music.163.com/#/song?id=65766",
       "rank": 76,
       "sourceMovement": {
@@ -2227,7 +2227,7 @@
         "郭静"
       ],
       "album": "下一个天亮",
-      "artwork": "http://p1.music.126.net/-ccXZvLLbvLQc99YEbylUA==/109951171316025348.jpg",
+      "artwork": "http://p2.music.126.net/-ccXZvLLbvLQc99YEbylUA==/109951171316025348.jpg",
       "url": "https://music.163.com/#/song?id=233888",
       "rank": 77,
       "sourceMovement": {
@@ -2260,7 +2260,7 @@
         "单依纯"
       ],
       "album": "声生不息·家年华 第12期",
-      "artwork": "http://p1.music.126.net/3nL__2mV7k65XMoUw6Gu-g==/109951169721390560.jpg",
+      "artwork": "http://p2.music.126.net/3nL__2mV7k65XMoUw6Gu-g==/109951169721390560.jpg",
       "url": "https://music.163.com/#/song?id=2124385868",
       "rank": 78,
       "sourceMovement": {
@@ -2292,7 +2292,7 @@
         "陈奕迅"
       ],
       "album": "Life Continues…",
-      "artwork": "http://p1.music.126.net/3mi073axgjg-g-79ObwwEQ==/109951171836582062.jpg",
+      "artwork": "http://p2.music.126.net/3mi073axgjg-g-79ObwwEQ==/109951171836582062.jpg",
       "url": "https://music.163.com/#/song?id=65800",
       "rank": 79,
       "sourceMovement": {
@@ -2324,7 +2324,7 @@
         "薛之谦"
       ],
       "album": "意外",
-      "artwork": "http://p1.music.126.net/ywVjRpbu9KpcBQh9KJz2HA==/109951164499974026.jpg",
+      "artwork": "http://p2.music.126.net/ywVjRpbu9KpcBQh9KJz2HA==/109951164499974026.jpg",
       "url": "https://music.163.com/#/song?id=27955654",
       "rank": 80,
       "sourceMovement": {
@@ -2356,7 +2356,7 @@
         "方大同"
       ],
       "album": "回到未来",
-      "artwork": "http://p1.music.126.net/8I4zvpNSsj--wGNg-mE2kw==/109951168870428045.jpg",
+      "artwork": "http://p2.music.126.net/8I4zvpNSsj--wGNg-mE2kw==/109951168870428045.jpg",
       "url": "https://music.163.com/#/song?id=25648006",
       "rank": 81,
       "sourceMovement": {
@@ -2382,7 +2382,7 @@
         "供销社乐队"
       ],
       "album": "我听见了，你的痛苦成立",
-      "artwork": "http://p1.music.126.net/djCHbIWOv0FCYiumpNEBZQ==/109951173349720959.jpg",
+      "artwork": "http://p2.music.126.net/djCHbIWOv0FCYiumpNEBZQ==/109951173349720959.jpg",
       "url": "https://music.163.com/#/song?id=3391179506",
       "rank": 82,
       "sourceMovement": {
@@ -2408,7 +2408,7 @@
         "TC"
       ],
       "album": "熄灭",
-      "artwork": "http://p1.music.126.net/sNOy5UAdfk_OYumV4qF-0g==/109951168551205771.jpg",
+      "artwork": "http://p2.music.126.net/sNOy5UAdfk_OYumV4qF-0g==/109951168551205771.jpg",
       "url": "https://music.163.com/#/song?id=2040015902",
       "rank": 83,
       "sourceMovement": {
@@ -2705,7 +2705,7 @@
         "栾一鸣Floscar"
       ],
       "album": "全息恋人",
-      "artwork": "http://p2.music.126.net/oxXWRp9IKoKStlYHdx4YkA==/109951173900088235.jpg",
+      "artwork": "http://p1.music.126.net/oxXWRp9IKoKStlYHdx4YkA==/109951173900088235.jpg",
       "url": "https://music.163.com/#/song?id=3432893870",
       "rank": 93,
       "sourceMovement": {
@@ -2732,7 +2732,7 @@
         "燕云十六声"
       ],
       "album": "宝船",
-      "artwork": "http://p2.music.126.net/pdpmj0csBR_nUM7c2xr6pA==/109951174135616642.jpg",
+      "artwork": "http://p1.music.126.net/pdpmj0csBR_nUM7c2xr6pA==/109951174135616642.jpg",
       "url": "https://music.163.com/#/song?id=3451003254",
       "rank": 94,
       "sourceMovement": {
@@ -2758,7 +2758,7 @@
         "陈绮贞"
       ],
       "album": "Groupies吉他手",
-      "artwork": "http://p2.music.126.net/Mvv6oyi8XjVfAIk0Lg76aA==/109951165876268707.jpg",
+      "artwork": "http://p1.music.126.net/Mvv6oyi8XjVfAIk0Lg76aA==/109951165876268707.jpg",
       "url": "https://music.163.com/#/song?id=209397",
       "rank": 95,
       "sourceMovement": {
@@ -2790,7 +2790,7 @@
         "林倛玉"
       ],
       "album": "12蓮花 原著電影原聲帶 (Original Motion Picture Soundtrack)",
-      "artwork": "http://p2.music.126.net/qiHFF-c4a4ULDyUjWjo4MQ==/109951164606137385.jpg",
+      "artwork": "http://p1.music.126.net/qiHFF-c4a4ULDyUjWjo4MQ==/109951164606137385.jpg",
       "url": "https://music.163.com/#/song?id=4872687",
       "rank": 96,
       "sourceMovement": {
@@ -2816,7 +2816,7 @@
         "陈奕迅"
       ],
       "album": "？",
-      "artwork": "http://p2.music.126.net/Po0tJTtv4aBaYozWlnojHg==/18546562139313276.jpg",
+      "artwork": "http://p1.music.126.net/Po0tJTtv4aBaYozWlnojHg==/18546562139313276.jpg",
       "url": "https://music.163.com/#/song?id=64093",
       "rank": 97,
       "sourceMovement": {
@@ -2842,7 +2842,7 @@
         "陈壹千"
       ],
       "album": "心似烟火",
-      "artwork": "http://p2.music.126.net/pE_xbRjFKTza8i7CKfmDuQ==/109951164447654929.jpg",
+      "artwork": "http://p1.music.126.net/pE_xbRjFKTza8i7CKfmDuQ==/109951164447654929.jpg",
       "url": "https://music.163.com/#/song?id=1399112638",
       "rank": 98,
       "sourceMovement": {
@@ -2868,7 +2868,7 @@
         "王艳薇"
       ],
       "album": "离开我的依赖",
-      "artwork": "http://p2.music.126.net/btYBbFLd5mf9w0lDpfNs6w==/109951171506809884.jpg",
+      "artwork": "http://p1.music.126.net/btYBbFLd5mf9w0lDpfNs6w==/109951171506809884.jpg",
       "url": "https://music.163.com/#/song?id=1420706073",
       "rank": 99,
       "sourceMovement": {
@@ -2900,7 +2900,7 @@
         "茜拉"
       ],
       "album": "心旅",
-      "artwork": "http://p2.music.126.net/do_mrR_Ci6xWJSC5d3w5cA==/109951172210703717.jpg",
+      "artwork": "http://p1.music.126.net/do_mrR_Ci6xWJSC5d3w5cA==/109951172210703717.jpg",
       "url": "https://music.163.com/#/song?id=1410633323",
       "rank": 100,
       "sourceMovement": {
@@ -2926,7 +2926,7 @@
         "罗森涛"
       ],
       "album": "为何离开",
-      "artwork": "http://p2.music.126.net/5zAv9nKlwj80OearK5Vrjw==/109951169686963932.jpg",
+      "artwork": "http://p1.music.126.net/5zAv9nKlwj80OearK5Vrjw==/109951169686963932.jpg",
       "url": "https://music.163.com/#/song?id=2166584564",
       "rank": 101,
       "sourceMovement": {
@@ -2952,7 +2952,7 @@
         "TINY7"
       ],
       "album": "Chose one me",
-      "artwork": "http://p2.music.126.net/ClYJh1zEl6o6-9hWxhPiJw==/109951170464257454.jpg",
+      "artwork": "http://p1.music.126.net/ClYJh1zEl6o6-9hWxhPiJw==/109951170464257454.jpg",
       "url": "https://music.163.com/#/song?id=2673175226",
       "rank": 102,
       "sourceMovement": {
@@ -2984,19 +2984,19 @@
         "Nzwin 黄跃成"
       ],
       "album": "茉茉",
-      "artwork": "http://p2.music.126.net/x9H0NVxO5ha9wWCOvW1-eQ==/109951174106566868.jpg",
+      "artwork": "http://p1.music.126.net/x9H0NVxO5ha9wWCOvW1-eQ==/109951174106566868.jpg",
       "url": "https://music.163.com/#/song?id=3448039922",
       "rank": 103,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 103,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -3013,7 +3013,7 @@
         "苏艺馨Chency"
       ],
       "album": "时过境迁",
-      "artwork": "http://p2.music.126.net/K-S4YvG0xldrpZM0TQ7EVA==/109951174097879359.jpg",
+      "artwork": "http://p1.music.126.net/K-S4YvG0xldrpZM0TQ7EVA==/109951174097879359.jpg",
       "url": "https://music.163.com/#/song?id=3447077863",
       "rank": 104,
       "sourceMovement": {
@@ -3042,7 +3042,7 @@
         "口古口古"
       ],
       "album": "我爱你但是我要回家",
-      "artwork": "http://p2.music.126.net/ZdzIq1kbNd78QuN6Kq5qCQ==/109951173840991959.jpg",
+      "artwork": "http://p1.music.126.net/ZdzIq1kbNd78QuN6Kq5qCQ==/109951173840991959.jpg",
       "url": "https://music.163.com/#/song?id=2647831829",
       "rank": 105,
       "sourceMovement": {
@@ -3069,7 +3069,7 @@
         "哦漏"
       ],
       "album": "知我",
-      "artwork": "http://p2.music.126.net/_etyUh1ofScyTMFArsJXWg==/109951164415301539.jpg",
+      "artwork": "http://p1.music.126.net/_etyUh1ofScyTMFArsJXWg==/109951164415301539.jpg",
       "url": "https://music.163.com/#/song?id=1394167216",
       "rank": 106,
       "sourceMovement": {
@@ -3095,7 +3095,7 @@
         "胡彦斌"
       ],
       "album": "覅忒好",
-      "artwork": "http://p2.music.126.net/mASak-Tv2UwVlqY6Czm4xg==/109951173981297286.jpg",
+      "artwork": "http://p1.music.126.net/mASak-Tv2UwVlqY6Czm4xg==/109951173981297286.jpg",
       "url": "https://music.163.com/#/song?id=529668356",
       "rank": 107,
       "sourceMovement": {
@@ -3128,7 +3128,7 @@
         "高旭"
       ],
       "album": "他只是经过",
-      "artwork": "http://p2.music.126.net/wUog39IHoJb76pL0AVCFNQ==/109951165348116023.jpg",
+      "artwork": "http://p1.music.126.net/wUog39IHoJb76pL0AVCFNQ==/109951165348116023.jpg",
       "url": "https://music.163.com/#/song?id=1443838552",
       "rank": 108,
       "sourceMovement": {
@@ -3154,7 +3154,7 @@
         "李荣浩"
       ],
       "album": "2022中国好声音 第1期",
-      "artwork": "http://p2.music.126.net/jElhQmMdFiVFtFPvWtVbFw==/109951167749864067.jpg",
+      "artwork": "http://p1.music.126.net/jElhQmMdFiVFtFPvWtVbFw==/109951167749864067.jpg",
       "url": "https://music.163.com/#/song?id=1969822728",
       "rank": 109,
       "sourceMovement": {
@@ -3186,7 +3186,7 @@
         "张紫豪"
       ],
       "album": "可不可以",
-      "artwork": "http://p2.music.126.net/YrXPz3GhSfjvfisAoXU-xw==/109951173218494707.jpg",
+      "artwork": "http://p1.music.126.net/YrXPz3GhSfjvfisAoXU-xw==/109951173218494707.jpg",
       "url": "https://music.163.com/#/song?id=553755659",
       "rank": 110,
       "sourceMovement": {
@@ -3212,7 +3212,7 @@
         "G.E.M.邓紫棋"
       ],
       "album": "自由的你",
-      "artwork": "http://p2.music.126.net/qu42OhTbF0WNUU0vokhHhA==/109951174189215515.jpg",
+      "artwork": "http://p1.music.126.net/qu42OhTbF0WNUU0vokhHhA==/109951174189215515.jpg",
       "url": "https://music.163.com/#/song?id=3436855494",
       "rank": 111,
       "sourceMovement": {
@@ -4128,15 +4128,15 @@
       "url": "https://music.163.com/#/song?id=2058139099",
       "rank": 143,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 143,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -4185,7 +4185,7 @@
         "Reynard Silva"
       ],
       "album": "Reynard Silva",
-      "artwork": "http://p1.music.126.net/JyPsd_g00M-4mqXLLtHncw==/5984641790343690.jpg",
+      "artwork": "http://p2.music.126.net/JyPsd_g00M-4mqXLLtHncw==/5984641790343690.jpg",
       "url": "https://music.163.com/#/song?id=28718313",
       "rank": 145,
       "sourceMovement": {
@@ -4212,7 +4212,7 @@
         "mac ova seas"
       ],
       "album": "nightfall EP",
-      "artwork": "http://p1.music.126.net/_jRndEytHJkJbSkoOUQ49g==/109951169859352741.jpg",
+      "artwork": "http://p2.music.126.net/_jRndEytHJkJbSkoOUQ49g==/109951169859352741.jpg",
       "url": "https://music.163.com/#/song?id=2122615322",
       "rank": 146,
       "sourceMovement": {
@@ -4238,7 +4238,7 @@
         "林俊杰"
       ],
       "album": "第二天堂",
-      "artwork": "http://p1.music.126.net/Gk4t93WwafRZtt9nTS77Iw==/109951171891430447.jpg",
+      "artwork": "http://p2.music.126.net/Gk4t93WwafRZtt9nTS77Iw==/109951171891430447.jpg",
       "url": "https://music.163.com/#/song?id=108914",
       "rank": 147,
       "sourceMovement": {
@@ -4271,7 +4271,7 @@
         "艾热 AIR"
       ],
       "album": "幸存者的负罪感",
-      "artwork": "http://p1.music.126.net/yWV3b1I7vwMv53NL-QwBqw==/109951170141514361.jpg",
+      "artwork": "http://p2.music.126.net/yWV3b1I7vwMv53NL-QwBqw==/109951170141514361.jpg",
       "url": "https://music.163.com/#/song?id=1876179147",
       "rank": 148,
       "sourceMovement": {
@@ -4297,7 +4297,7 @@
         "TC"
       ],
       "album": "Leave Me Alone",
-      "artwork": "http://p1.music.126.net/ut3ej8hjxACnIzanHch1AQ==/109951165562501951.jpg",
+      "artwork": "http://p2.music.126.net/ut3ej8hjxACnIzanHch1AQ==/109951165562501951.jpg",
       "url": "https://music.163.com/#/song?id=1806634682",
       "rank": 149,
       "sourceMovement": {
@@ -4323,7 +4323,7 @@
         "Lunak"
       ],
       "album": "Cherry Candy",
-      "artwork": "http://p1.music.126.net/geIUgfHRN9iWEIo-uWSTSQ==/109951174140300294.jpg",
+      "artwork": "http://p2.music.126.net/geIUgfHRN9iWEIo-uWSTSQ==/109951174140300294.jpg",
       "url": "https://music.163.com/#/song?id=3451570714",
       "rank": 150,
       "sourceMovement": {
@@ -4349,7 +4349,7 @@
         "金润吉"
       ],
       "album": "慢慢离开你",
-      "artwork": "http://p1.music.126.net/mmlWL5zMvScknPj8nRj9kA==/109951170088065162.jpg",
+      "artwork": "http://p2.music.126.net/mmlWL5zMvScknPj8nRj9kA==/109951170088065162.jpg",
       "url": "https://music.163.com/#/song?id=2640844059",
       "rank": 151,
       "sourceMovement": {
@@ -4376,7 +4376,7 @@
         "МОТ"
       ],
       "album": "Баллада",
-      "artwork": "http://p1.music.126.net/UJL7oXb60n_oxwZJO5zgxA==/109951173864749298.jpg",
+      "artwork": "http://p2.music.126.net/UJL7oXb60n_oxwZJO5zgxA==/109951173864749298.jpg",
       "url": "https://music.163.com/#/song?id=2145353565",
       "rank": 152,
       "sourceMovement": {
@@ -4402,7 +4402,7 @@
         "陶喆"
       ],
       "album": "太平盛世",
-      "artwork": "http://p1.music.126.net/ZR6QuByWgej9-aRhZjLqHw==/109951163803188844.jpg",
+      "artwork": "http://p2.music.126.net/ZR6QuByWgej9-aRhZjLqHw==/109951163803188844.jpg",
       "url": "https://music.163.com/#/song?id=150432",
       "rank": 153,
       "sourceMovement": {
@@ -4434,7 +4434,7 @@
         "莫文蔚"
       ],
       "album": "含情莫莫 莫文蔚全精选辑",
-      "artwork": "http://p1.music.126.net/JdGvPPatuA7w9AfJL8yuJg==/109951173924598886.jpg",
+      "artwork": "http://p2.music.126.net/JdGvPPatuA7w9AfJL8yuJg==/109951173924598886.jpg",
       "url": "https://music.163.com/#/song?id=277382",
       "rank": 154,
       "sourceMovement": {
@@ -4467,7 +4467,7 @@
         "R!N/Gemie"
       ],
       "album": "「進撃の巨人」Season3 オリジナルサウンドトラック",
-      "artwork": "http://p1.music.126.net/tUVBHTRiO2fSvvgIcMhuGA==/109951164317563085.jpg",
+      "artwork": "http://p2.music.126.net/tUVBHTRiO2fSvvgIcMhuGA==/109951164317563085.jpg",
       "url": "https://music.163.com/#/song?id=1381723556",
       "rank": 155,
       "sourceMovement": {
@@ -4631,15 +4631,15 @@
       "url": "https://music.163.com/#/song?id=2608448649",
       "rank": 160,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 160,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -4925,15 +4925,15 @@
       "url": "https://music.163.com/#/song?id=548556869",
       "rank": 170,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 170,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5111,15 +5111,15 @@
       "url": "https://music.163.com/#/song?id=3394851493",
       "rank": 176,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 176,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5163,7 +5163,7 @@
         "Maikon Flocka Flame"
       ],
       "album": "Small Town Kid",
-      "artwork": "http://p2.music.126.net/Vm34iFy0wr9ZCdTLc83pag==/109951164865285593.jpg",
+      "artwork": "http://p1.music.126.net/Vm34iFy0wr9ZCdTLc83pag==/109951164865285593.jpg",
       "url": "https://music.163.com/#/song?id=1437030961",
       "rank": 178,
       "sourceMovement": {
@@ -5189,7 +5189,7 @@
         "G.E.M.邓紫棋"
       ],
       "album": "摩天动物园",
-      "artwork": "http://p2.music.126.net/KTo5oSxH3CPA5PBTeFKDyA==/109951164581432409.jpg",
+      "artwork": "http://p1.music.126.net/KTo5oSxH3CPA5PBTeFKDyA==/109951164581432409.jpg",
       "url": "https://music.163.com/#/song?id=1405283464",
       "rank": 179,
       "sourceMovement": {
@@ -5221,19 +5221,19 @@
         "家家"
       ],
       "album": "为你的寂寞唱歌",
-      "artwork": "http://p2.music.126.net/sf5h4QpYty8fKiLrpwJKqw==/109951168144061436.jpg",
+      "artwork": "http://p1.music.126.net/sf5h4QpYty8fKiLrpwJKqw==/109951168144061436.jpg",
       "url": "https://music.163.com/#/song?id=2005492223",
       "rank": 180,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 180,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5256,7 +5256,7 @@
         "The Weeknd"
       ],
       "album": "After Hours",
-      "artwork": "http://p2.music.126.net/6y1HjgK7Emg3MjsC5IoRoQ==/109951173691743917.jpg",
+      "artwork": "http://p1.music.126.net/6y1HjgK7Emg3MjsC5IoRoQ==/109951173691743917.jpg",
       "url": "https://music.163.com/#/song?id=1424460203",
       "rank": 181,
       "sourceMovement": {
@@ -5288,7 +5288,7 @@
         "Whitney Houston"
       ],
       "album": "I Look To You",
-      "artwork": "http://p2.music.126.net/0rCqvshmixfyHpQYxd1LsQ==/109951165987301859.jpg",
+      "artwork": "http://p1.music.126.net/0rCqvshmixfyHpQYxd1LsQ==/109951165987301859.jpg",
       "url": "https://music.163.com/#/song?id=19827042",
       "rank": 182,
       "sourceMovement": {
@@ -5314,19 +5314,19 @@
         "告五人"
       ],
       "album": "运气来得若有似无",
-      "artwork": "http://p2.music.126.net/5URIeP6GjMFg_hKhGloNTA==/109951165585701063.jpg",
+      "artwork": "http://p1.music.126.net/5URIeP6GjMFg_hKhGloNTA==/109951165585701063.jpg",
       "url": "https://music.163.com/#/song?id=1807799505",
       "rank": 183,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 183,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5349,7 +5349,7 @@
         "周公"
       ],
       "album": "不说",
-      "artwork": "http://p2.music.126.net/4mN_bQBA73s7i6uQxIFAbA==/109951169297707016.jpg",
+      "artwork": "http://p1.music.126.net/4mN_bQBA73s7i6uQxIFAbA==/109951169297707016.jpg",
       "url": "https://music.163.com/#/song?id=1436117704",
       "rank": 184,
       "sourceMovement": {
@@ -5375,19 +5375,19 @@
         "徐良"
       ],
       "album": "情话",
-      "artwork": "http://p2.music.126.net/Eiq_XiRNqiXJEwmFzLTtow==/109951172050975516.jpg",
+      "artwork": "http://p1.music.126.net/Eiq_XiRNqiXJEwmFzLTtow==/109951172050975516.jpg",
       "url": "https://music.163.com/#/song?id=27965209",
       "rank": 185,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 185,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5404,7 +5404,7 @@
         "孙盛希"
       ],
       "album": "|希。O2 | 初雪限定",
-      "artwork": "http://p2.music.126.net/1QT6pMrufe1LjwVOgDJ81w==/109951163176818589.jpg",
+      "artwork": "http://p1.music.126.net/1QT6pMrufe1LjwVOgDJ81w==/109951163176818589.jpg",
       "url": "https://music.163.com/#/song?id=543798652",
       "rank": 186,
       "sourceMovement": {
@@ -5436,19 +5436,19 @@
         "梁博"
       ],
       "album": "我是唱作人 第4期",
-      "artwork": "http://p2.music.126.net/GLiLYkBs9Gq7TXOkMz1g0w==/109951164137683554.jpg",
+      "artwork": "http://p1.music.126.net/GLiLYkBs9Gq7TXOkMz1g0w==/109951164137683554.jpg",
       "url": "https://music.163.com/#/song?id=1370880017",
       "rank": 187,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 187,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5527,15 +5527,15 @@
       "url": "https://music.163.com/#/song?id=86369",
       "rank": 190,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 190,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5681,15 +5681,15 @@
       "url": "https://music.163.com/#/song?id=2040912570",
       "rank": 195,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 195,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5827,15 +5827,15 @@
       "url": "https://music.163.com/#/song?id=3413127704",
       "rank": 200,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 200,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-01",
+        "comparisonDate": "2026-11-02",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-02T08:27:02.910Z",
-        "previousObservedAt": "2026-11-01T07:30:30.182Z",
+        "currentObservedAt": "2026-11-02T22:19:19.878Z",
+        "previousObservedAt": "2026-11-02T08:27:02.910Z",
         "comparisonUsesCache": false,
         "raw": {}
       },
@@ -5848,15 +5848,15 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-02T08:27:02.910Z",
+  "attemptedAt": "2026-11-02T22:19:19.878Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
-  "weight": 0.3,
+  "weight": 0.3158,
   "count": 200,
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-02",
-  "generatedAt": "2026-11-02T08:27:02.910Z"
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-02T22:19:19.878Z"
 }

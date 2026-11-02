@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-02",
-  "generatedAt": "2026-11-02T08:27:02.910Z",
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-02T22:19:19.878Z",
   "providerId": "kuwo",
   "name": "酷我音乐",
   "dates": [
+    "2026-11-03",
     "2026-11-02",
     "2026-11-01",
     "2026-10-31",
@@ -19,6 +20,18 @@
     "2026-10-23"
   ],
   "editions": [
+    {
+      "date": "2026-11-03",
+      "mode": "live",
+      "ingestion": null,
+      "sourcePeriod": null,
+      "sourceUpdatedAt": null,
+      "fetchedAt": null,
+      "attemptedAt": "2026-11-02T22:19:19.878Z",
+      "collectionError": "源榜单已超过新鲜度窗口，暂停计分",
+      "cacheOrigin": null,
+      "status": "error"
+    },
     {
       "date": "2026-11-02",
       "mode": "live",

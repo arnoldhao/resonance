@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T08:33:52.091Z",
-  "sinceDate": "2026-10-04",
+  "generatedAt": "2026-11-02T22:19:25.506Z",
+  "sinceDate": "2026-10-05",
   "timeZone": "Asia/Shanghai",
   "policy": "仅比较真实成功观察中的歌曲 ID 与名次；变化发生于两次观察之间，不将采集时间或 RSS 时间推定为固定发榜时间。",
   "sources": [
@@ -10,9 +10,9 @@
       "name": "QQ 音乐",
       "frequency": "每日更新",
       "updatePolicy": "榜单说明为每日更新；未确认固定公布时刻。",
-      "observations": 52,
+      "observations": 53,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-11-02T08:27:02.910Z",
+      "latestObservedAt": "2026-11-02T22:19:19.878Z",
       "latestContentChange": {
         "after": "2026-11-01T18:25:20.731Z",
         "by": "2026-11-02T04:10:18.305Z",
@@ -244,6 +244,12 @@
           "observations": 6,
           "changes": 1,
           "editionChanges": 1
+        },
+        {
+          "date": "2026-11-03",
+          "observations": 1,
+          "changes": 0,
+          "editionChanges": 0
         }
       ],
       "maxDailyChanges": 1,
@@ -254,9 +260,9 @@
       "name": "网易云音乐",
       "frequency": "每日更新",
       "updatePolicy": "一周内热度统计，当前官方说明为每日更新；未确认固定公布时刻。",
-      "observations": 52,
+      "observations": 53,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-11-02T08:27:02.910Z",
+      "latestObservedAt": "2026-11-02T22:19:19.878Z",
       "latestContentChange": {
         "after": "2026-11-01T18:25:20.731Z",
         "by": "2026-11-02T04:10:18.305Z",
@@ -474,6 +480,12 @@
           "observations": 6,
           "changes": 1,
           "editionChanges": 1
+        },
+        {
+          "date": "2026-11-03",
+          "observations": 1,
+          "changes": 0,
+          "editionChanges": 0
         }
       ],
       "maxDailyChanges": 1,
@@ -902,15 +914,15 @@
       "name": "Apple Music",
       "frequency": "未公开固定时点",
       "updatePolicy": "官方 CN most-played RSS；updated 曾随读取刷新，不能单独作为排名更新时间。实测存在日内多次排名变化；与 Top 100：中国大陆歌单不同，不套用其他产品的刷新承诺。",
-      "observations": 48,
+      "observations": 49,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-11-02T08:27:02.910Z",
+      "latestObservedAt": "2026-11-02T22:19:19.878Z",
       "latestContentChange": {
-        "after": "2026-11-02T04:10:18.305Z",
-        "by": "2026-11-02T07:40:20.993Z",
+        "after": "2026-11-02T08:27:02.910Z",
+        "by": "2026-11-02T22:19:19.878Z",
         "previousPeriod": null,
         "sourcePeriod": null,
-        "sourceUpdatedAt": "2026-11-02T07:40:23.000Z"
+        "sourceUpdatedAt": "2026-11-02T22:19:21.000Z"
       },
       "changes": [
         {
@@ -1157,6 +1169,13 @@
           "previousPeriod": null,
           "sourcePeriod": null,
           "sourceUpdatedAt": "2026-11-02T07:40:23.000Z"
+        },
+        {
+          "after": "2026-11-02T08:27:02.910Z",
+          "by": "2026-11-02T22:19:19.878Z",
+          "previousPeriod": null,
+          "sourcePeriod": null,
+          "sourceUpdatedAt": "2026-11-02T22:19:21.000Z"
         }
       ],
       "editionChanges": [],
@@ -1226,6 +1245,12 @@
           "observations": 6,
           "changes": 2,
           "editionChanges": 0
+        },
+        {
+          "date": "2026-11-03",
+          "observations": 1,
+          "changes": 0,
+          "editionChanges": 0
         }
       ],
       "maxDailyChanges": 5,
@@ -1236,9 +1261,9 @@
       "name": "汽水音乐",
       "frequency": "每周更新",
       "updatePolicy": "官方响应 period=weekly，共 50 首；本次源发布时间为北京时间周四 16:00，固定时刻尚无长期承诺。每日保存周榜快照。",
-      "observations": 50,
+      "observations": 51,
       "firstObservedAt": "2026-10-23T03:18:23.844Z",
-      "latestObservedAt": "2026-11-02T08:27:02.910Z",
+      "latestObservedAt": "2026-11-02T22:19:19.878Z",
       "latestContentChange": {
         "after": "2026-10-29T07:03:29.683Z",
         "by": "2026-10-29T14:17:03.840Z",
@@ -1328,6 +1353,12 @@
         {
           "date": "2026-11-02",
           "observations": 6,
+          "changes": 0,
+          "editionChanges": 0
+        },
+        {
+          "date": "2026-11-03",
+          "observations": 1,
           "changes": 0,
           "editionChanges": 0
         }
