@@ -2,7 +2,7 @@
   "weekStart": "2026-10-26",
   "weekEnd": "2026-11-01",
   "mode": "live",
-  "generatedAt": "2026-11-02T08:27:35.027Z",
+  "generatedAt": "2026-11-02T08:33:50.983Z",
   "asOfDate": "2026-11-02",
   "status": "complete",
   "entryHistoryStart": "2026-10-19",
@@ -71,37 +71,37 @@
       {
         "date": "2026-10-26",
         "version": "1.4",
-        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|7bedc74445be|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-27",
         "version": "1.4",
-        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|7bedc74445be|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-28",
         "version": "1.4",
-        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|7bedc74445be|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-29",
         "version": "1.4",
-        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|7bedc74445be|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-30",
         "version": "1.4",
-        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|7bedc74445be|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-10-31",
         "version": "1.4",
-        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|7bedc74445be|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-01",
         "version": "1.4",
-        "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|7bedc74445be|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       }
     ],
     "formula": "周得分 = 各有效日按当日保存公式计算的得分之和 ÷ 有效天数；公式升级不排除历史日期，缺失日与无效日不进入分母",
@@ -135,7 +135,7 @@
       "qishui": 0.1
     }
   },
-  "comparisonSignature": "1.4|a48a20754cd1|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
+  "comparisonSignature": "1.4|7bedc74445be|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
   "coverage": {
     "observedDays": 7,
     "expectedDays": 7,
@@ -1517,12 +1517,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 6,
+          "rank": 7,
           "status": "ranked"
         },
         {
           "date": "2026-10-31",
-          "rank": 6,
+          "rank": 7,
           "status": "ranked"
         },
         {
@@ -1855,12 +1855,12 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 7,
+          "rank": 8,
           "status": "ranked"
         },
         {
           "date": "2026-10-31",
-          "rank": 5,
+          "rank": 6,
           "status": "ranked"
         },
         {
@@ -2168,7 +2168,7 @@
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Oen8n3cKClG.jpg",
       "rank": 7,
-      "score": 50.4729,
+      "score": 53.7263,
       "daysOnChart": 7,
       "rankTrend": [
         {
@@ -2193,17 +2193,17 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 8,
+          "rank": 5,
           "status": "ranked"
         },
         {
           "date": "2026-10-31",
-          "rank": 7,
+          "rank": 5,
           "status": "ranked"
         },
         {
           "date": "2026-11-01",
-          "rank": 9,
+          "rank": 7,
           "status": "ranked"
         }
       ],
@@ -2247,17 +2247,17 @@
         {
           "id": "apple",
           "name": "Apple Music",
-          "rank": 51,
-          "sourceId": "6827490663",
-          "url": "https://music.apple.com/cn/album/%E5%AD%A3%E5%80%99%E9%A3%8E/6827490658?i=6827490663",
+          "rank": 3,
+          "sourceId": "1444208936",
+          "url": "https://music.apple.com/cn/album/%E5%AD%A3%E5%80%99%E9%A3%8E/1444208582?i=1444208936",
           "eligible": true,
           "weight": 0.1,
-          "score": 22.228218091047903,
-          "contribution": 2.2228218091047904,
+          "score": 93.08047117479722,
+          "contribution": 9.308047117479722,
           "sourceMovement": {
-            "direction": "up",
-            "delta": 3,
-            "previousRank": 54,
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 3,
             "period": "previous-day",
             "origin": "snapshot-comparison",
             "comparisonDate": "2026-10-31",
@@ -2434,15 +2434,15 @@
         },
         {
           "date": "2026-10-30",
-          "score": 53.835
+          "score": 62.3088
         },
         {
           "date": "2026-10-31",
-          "score": 51.2388
+          "score": 58.4535
         },
         {
           "date": "2026-11-01",
-          "score": 45.4244
+          "score": 52.5096
         }
       ],
       "previousRank": null,
@@ -2499,7 +2499,7 @@
         },
         {
           "date": "2026-11-01",
-          "rank": 7,
+          "rank": 8,
           "status": "ranked"
         }
       ],
@@ -2827,7 +2827,7 @@
         },
         {
           "date": "2026-10-30",
-          "rank": 5,
+          "rank": 6,
           "status": "ranked"
         },
         {
@@ -2837,7 +2837,7 @@
         },
         {
           "date": "2026-11-01",
-          "rank": 8,
+          "rank": 9,
           "status": "ranked"
         }
       ],
@@ -9109,12 +9109,12 @@
           "score": 20.389
         }
       ],
-      "previousRank": 56,
-      "delta": 22,
+      "previousRank": 57,
+      "delta": 23,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 22,
-        "previousRank": 56,
+        "delta": 23,
+        "previousRank": 57,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -11270,12 +11270,12 @@
           "score": 15.627
         }
       ],
-      "previousRank": 53,
-      "delta": 9,
+      "previousRank": 54,
+      "delta": 10,
       "weeklyMovement": {
         "direction": "up",
-        "delta": 9,
-        "previousRank": 53,
+        "delta": 10,
+        "previousRank": 54,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -13924,12 +13924,12 @@
           "score": 15.7046
         }
       ],
-      "previousRank": 55,
-      "delta": 0,
+      "previousRank": 56,
+      "delta": 1,
       "weeklyMovement": {
-        "direction": "same",
-        "delta": 0,
-        "previousRank": 55,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 56,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -14744,12 +14744,12 @@
           "score": 13.9263
         }
       ],
-      "previousRank": 52,
-      "delta": -7,
+      "previousRank": 53,
+      "delta": -6,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -7,
-        "previousRank": 52,
+        "delta": -6,
+        "previousRank": 53,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -15241,7 +15241,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 85,
+          "rank": 86,
           "status": "ranked"
         },
         {
@@ -16000,12 +16000,12 @@
           "score": 13.76
         }
       ],
-      "previousRank": 51,
-      "delta": -14,
+      "previousRank": 52,
+      "delta": -13,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -14,
-        "previousRank": 51,
+        "delta": -13,
+        "previousRank": 52,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -16024,7 +16024,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 81,
+          "rank": 82,
           "status": "ranked"
         },
         {
@@ -16149,7 +16149,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 82,
+          "rank": 83,
           "status": "ranked"
         },
         {
@@ -16660,7 +16660,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 74,
+          "rank": 75,
           "status": "ranked"
         },
         {
@@ -17347,7 +17347,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 78,
+          "rank": 79,
           "status": "ranked"
         },
         {
@@ -17777,7 +17777,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 75,
+          "rank": 76,
           "status": "ranked"
         },
         {
@@ -18377,7 +18377,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 77,
+          "rank": 78,
           "status": "ranked"
         },
         {
@@ -18730,12 +18730,12 @@
           "score": 11.6185
         }
       ],
-      "previousRank": 57,
-      "delta": -22,
+      "previousRank": 58,
+      "delta": -21,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -22,
-        "previousRank": 57,
+        "delta": -21,
+        "previousRank": 58,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -19031,12 +19031,12 @@
           "score": 11.2823
         }
       ],
-      "previousRank": 54,
-      "delta": -27,
+      "previousRank": 55,
+      "delta": -26,
       "weeklyMovement": {
         "direction": "down",
-        "delta": -27,
-        "previousRank": 54,
+        "delta": -26,
+        "previousRank": 55,
         "firstEntryDate": "2026-10-19",
         "period": "previous-week",
         "comparisonDate": "2026-10-19"
@@ -19312,7 +19312,7 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 94,
+          "rank": 95,
           "status": "ranked"
         },
         {
@@ -20904,12 +20904,12 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 80,
+          "rank": 81,
           "status": "ranked"
         },
         {
           "date": "2026-10-27",
-          "rank": 95,
+          "rank": 96,
           "status": "ranked"
         },
         {
@@ -21680,7 +21680,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 84,
+          "rank": 85,
           "status": "ranked"
         },
         {
@@ -22029,7 +22029,7 @@
       "rankTrend": [
         {
           "date": "2026-10-26",
-          "rank": 76,
+          "rank": 77,
           "status": "ranked"
         },
         {
@@ -22209,7 +22209,7 @@
         },
         {
           "date": "2026-10-27",
-          "rank": 96,
+          "rank": 97,
           "status": "ranked"
         },
         {
