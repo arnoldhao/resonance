@@ -1,5 +1,6 @@
 import { cp, mkdir, rm, readFile, readdir, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildAPI } from './api.mjs';
@@ -19,6 +20,14 @@ await mkdir(dist, { recursive: true });
 await cp(resolve(root, 'site'), dist, { recursive: true });
 const real = existsSync(resolve(root, 'data/latest.json'));
 const dataDirectory = resolve(root, real ? 'data' : 'demo');
+const aliases = JSON.parse(await readFile(resolve(root, 'config/aliases.json'), 'utf8'));
+const { dates } = JSON.parse(await readFile(resolve(dataDirectory, 'dates.json'), 'utf8'));
+let rawDays = await Promise.all(dates.map(date => readFile(resolve(dataDirectory, 'daily', `${date}.json`), 'utf8').then(JSON.parse)));
+const aliasesSignature = createHash('sha256').update(JSON.stringify(aliases)).digest('hex').slice(0, 12);
+if (real && !preview && rawDays.some(day => day.comparisonSignature.split('|')[1] !== aliasesSignature)) {
+  await import('./recompute.mjs');
+  rawDays = await Promise.all(dates.map(date => readFile(resolve(dataDirectory, 'daily', `${date}.json`), 'utf8').then(JSON.parse)));
+}
 await mkdir(resolve(dist, 'data'), { recursive: true });
 for (const item of ['latest.json', 'dates.json', 'daily']) await cp(resolve(dataDirectory, item), resolve(dist, 'data', item), { recursive: true });
 const statusDirectory = existsSync(resolve(root, 'data/status.json')) ? 'data' : 'demo';
@@ -26,9 +35,6 @@ await cp(resolve(root, statusDirectory, 'status.json'), resolve(dist, 'data/stat
 await cp(resolve(root, 'docs'), resolve(dist, 'docs'), { recursive: true });
 let snapshot = JSON.parse(await readFile(resolve(dataDirectory, 'latest.json'), 'utf8'));
 const status = { ...JSON.parse(await readFile(resolve(root, statusDirectory, 'status.json'), 'utf8')), mode: statusDirectory === 'data' ? 'live' : 'demo' };
-const { dates } = JSON.parse(await readFile(resolve(dataDirectory, 'dates.json'), 'utf8'));
-const rawDays = await Promise.all(dates.map(date => readFile(resolve(dataDirectory, 'daily', `${date}.json`), 'utf8').then(JSON.parse)));
-const aliases = JSON.parse(await readFile(resolve(root, 'config/aliases.json'), 'utf8'));
 const entryIndex = await loadEntryHistory(dataDirectory, aliases, rawDays);
 const days = [];
 for (const day of rawDays.sort((a, b) => a.date.localeCompare(b.date))) {
