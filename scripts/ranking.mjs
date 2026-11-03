@@ -38,6 +38,8 @@ export function sourceFreshnessIssue(source, provider, asOf) {
   const age = Date.parse(asOf) - Date.parse(source.fetchedAt);
   if (!Number.isFinite(age) || age < 0) return '成功观察时间无效或晚于本次采集';
   if (age > limit) return '上次成功观察已超过新鲜度窗口';
+  // Kuwo's unchanged official edition remains eligible after a successful current read.
+  if (provider.sourceEditionExpires === false) return null;
   const periodDate = periodDateOf(source);
   const sourceAge = source.sourceUpdatedAt ? Date.parse(asOf) - Date.parse(source.sourceUpdatedAt) : periodDate ? Date.parse(chinaDate(new Date(asOf))) - Date.parse(periodDate) : null;
   if (sourceAge !== null && sourceAge > limit) return '源榜单已超过新鲜度窗口';
@@ -189,13 +191,14 @@ export function validateChart(chart, provider, date, { editionDate } = {}) {
   if (!chart.fetchedAt || !Number.isFinite(Date.parse(chart.fetchedAt)) || chinaDate(new Date(chart.fetchedAt)) !== date) throw new Error('fetchedAt 必须是本次北京时间日期内的 ISO 时间');
   if (chart.sourceUpdatedAt !== null && !Number.isFinite(Date.parse(chart.sourceUpdatedAt))) throw new Error('sourceUpdatedAt 必须为 ISO 时间或 null');
   if (chart.sourceUpdatedAt && Date.parse(chart.sourceUpdatedAt) > Date.parse(chart.fetchedAt) + 300000) throw new Error('源更新时间晚于采集时间');
-  // Freshness follows the source's cadence: daily 48 h, weekly 9 days. Unzoned periods use calendar dates.
+  // Observation age always expires; edition age follows the provider's policy.
+  // Unzoned periods use calendar dates.
   const periodDate = periodDateOf(chart);
   if (editionDate) {
     if (periodDate !== editionDate || editionDate > date) throw new Error('返回榜期与请求的历史日期不符');
   } else {
     const issue = sourceFreshnessIssue(chart, provider, chart.fetchedAt);
-    if (issue) throw new Error(`${issue}，暂停计分`);
+    if (issue) throw new Error(`${issue}，暂停计分（榜期：${chart.sourcePeriod ?? '未知'}；源更新时间：${chart.sourceUpdatedAt ?? '未知'}；本次读取：${chart.fetchedAt}；有效窗口：${provider.maxAgeHours} 小时）`);
   }
   if (periodDate && periodDate > date) throw new Error('源榜单期次晚于采集日期');
   const rows = chart.entries.slice(0, provider.collectionDepth);

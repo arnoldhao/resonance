@@ -28,9 +28,9 @@ export const providers = [
   },
   {
     id: 'kuwo', name: '酷我音乐', chartName: '酷我热歌榜', group: 'tme', enabled: true,
-    collectionDepth: 200, maxAgeHours: 48,
-    sourceUrl: 'https://www.kuwo.cn/rankList', frequency: '更新频率待确认',
-    updatePolicy: '公开接口提供榜单日期，但日期变化不保证排名变化；未找到固定频率与公布时刻的一手承诺。',
+    collectionDepth: 200, maxAgeHours: 48, sourceEditionExpires: false,
+    sourceUrl: 'https://www.kuwo.cn/rankList', frequency: '每日更新（官网说明）',
+    updatePolicy: '官网热歌榜说明为每日更新，未公开固定公布时刻；官方未更新时保留原榜期继续计分，不因榜期较旧排除。',
     access: '官方公开榜单接口',
   },
   {
@@ -170,13 +170,19 @@ async function kugou() {
   if (data.status !== 1) throw new Error(`Kugou returned status ${data.status}`);
   const rows = data.data.info;
   const period = rows[0].rank_id_publish_date;
-  if (!period || rows.some((track, index) => track.rank_id_publish_date !== period || Number(track.sort) !== index + 1)) throw new Error('酷狗单次响应中的榜期或名次不一致');
+  if (!period || rows.some(track => track.rank_id_publish_date !== period)) throw new Error('酷狗单次响应中的榜期不一致');
+  if (rows.some((track, index) => !Number.isInteger(Number(track.sort)) || Number(track.sort) < 1 || (index > 0 && Number(track.sort) <= Number(rows[index - 1].sort)))) throw new Error('酷狗单次响应中的原始名次无效或乱序');
   return {
     // The source gives an unzoned timestamp. Preserve it without inventing a UTC offset.
     sourceUpdatedAt: null,
     sourcePeriod: period,
     declaredCount: data.data.total,
-    entries: kugouEntries(rows),
+    // Live pages number the current list consecutively; legacy sort can retain gaps.
+    // Historical editions still use their original source ranks in kugouEntries().
+    entries: kugouEntries(rows).map((entry, index) => ({
+      ...entry, rank: index + 1,
+      sourceMovement: entry.rank === index + 1 ? entry.sourceMovement : unknownMovement(entry.sourceMovement.raw),
+    })),
   };
 }
 
