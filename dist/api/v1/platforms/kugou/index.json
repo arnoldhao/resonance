@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T04:38:00.005Z",
+  "generatedAt": "2026-11-03T04:52:40.717Z",
   "providerId": "kugou",
   "name": "酷狗音乐",
   "dates": [
@@ -53,19 +53,14 @@
     {
       "date": "2026-11-03",
       "mode": "live",
-      "ingestion": "cache",
-      "sourcePeriod": "2026-11-02 08:30:01",
+      "ingestion": "public",
+      "sourcePeriod": "2026-11-03 08:30:00",
       "sourceUpdatedAt": null,
-      "fetchedAt": "2026-11-02T08:27:02.910Z",
-      "attemptedAt": "2026-11-03T04:38:00.005Z",
-      "collectionError": "酷狗单次响应中的榜期或名次不一致",
-      "cacheOrigin": {
-        "date": "2026-11-02",
-        "generatedAt": "2026-11-02T08:27:02.910Z",
-        "path": "data/runs/2026-11-02/2026-11-02T08-27-02-910Z.json",
-        "ingestion": "public"
-      },
-      "status": "stale"
+      "fetchedAt": "2026-11-03T04:52:40.717Z",
+      "attemptedAt": "2026-11-03T04:52:40.717Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
     },
     {
       "date": "2026-11-02",
