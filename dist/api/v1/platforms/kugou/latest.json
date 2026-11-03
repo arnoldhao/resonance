@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-03T07:54:35.657Z",
+  "fetchedAt": "2026-11-03T20:06:29.618Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-03 08:30:00",
   "entries": [
@@ -68,8 +68,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "18421152",
-            "hash": "10355268E2C4A527B3099C04456A4153",
+            "id": "18447159",
+            "hash": "3B107C2D5101E1E61311C5CE287129E6",
             "url": null
           }
         ]
@@ -269,7 +269,7 @@
         "可楼"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261008/20261008184321138603.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261103/20261103163906385526.jpg",
       "url": "https://www.kugou.com/song/#hash=9ECFE2D7D2E817288EB4A58AE4265ED8",
       "sourceMovement": {
         "direction": "up",
@@ -579,41 +579,8 @@
       "songId": "a5b67731bf5bb37f615c"
     },
     {
-      "sourceId": "087D253C1DBA4241AA5BFBED1E59F9BE",
-      "rank": 17,
-      "title": "大漠长明",
-      "artists": [
-        "指南针"
-      ],
-      "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261027/20261027144743758731.jpg",
-      "url": "https://www.kugou.com/song/#hash=087D253C1DBA4241AA5BFBED1E59F9BE",
-      "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 15,
-        "period": "previous-edition",
-        "raw": {
-          "sort": 17,
-          "last_sort": 15
-        },
-        "origin": "official"
-      },
-      "mv": {
-        "status": "linked",
-        "items": [
-          {
-            "id": "18243260",
-            "hash": "D8512AB3A25D462B2AF5FE29320E46FC",
-            "url": null
-          }
-        ]
-      },
-      "songId": "2a22fc3571f0c5bb4eed"
-    },
-    {
       "sourceId": "FCEDAF78465CD283E1DA72A8DEAC553A",
-      "rank": 18,
+      "rank": 17,
       "title": "大梦归",
       "artists": [
         "周深"
@@ -622,15 +589,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260924/20260924211222376575.jpg",
       "url": "https://www.kugou.com/song/#hash=FCEDAF78465CD283E1DA72A8DEAC553A",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 18,
-        "period": "previous-edition",
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 18,
           "last_sort": 18
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -651,7 +623,7 @@
     },
     {
       "sourceId": "55FEA1927AC4D460F6EB3B9262AC9981",
-      "rank": 19,
+      "rank": 18,
       "title": "我好想你 (苏打绿版)",
       "artists": [
         "苏打绿"
@@ -660,15 +632,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241015/20241015172611551162.jpg",
       "url": "https://www.kugou.com/song/#hash=55FEA1927AC4D460F6EB3B9262AC9981",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 19,
-        "period": "previous-edition",
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 19,
           "last_sort": 19
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -689,7 +666,7 @@
     },
     {
       "sourceId": "B21F4348B9BF2D34E29A5128349875FD",
-      "rank": 20,
+      "rank": 19,
       "title": "你不要那样看着我的眼睛",
       "artists": [
         "蔡琴"
@@ -698,15 +675,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20210114/20210114031020119572.jpg",
       "url": "https://www.kugou.com/song/#hash=B21F4348B9BF2D34E29A5128349875FD",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 20,
-        "period": "previous-edition",
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 20,
           "last_sort": 20
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -727,7 +709,7 @@
     },
     {
       "sourceId": "E2948B4513F34F7A4C7767EAD15BC4F8",
-      "rank": 21,
+      "rank": 20,
       "title": "茶汤",
       "artists": [
         "郁可唯"
@@ -736,15 +718,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260930/20260930162931567347.jpg",
       "url": "https://www.kugou.com/song/#hash=E2948B4513F34F7A4C7767EAD15BC4F8",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 21,
-        "period": "previous-edition",
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 21,
           "last_sort": 21
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -765,7 +752,7 @@
     },
     {
       "sourceId": "E3DDA5DFCDC44BCF146E2BDC3916779A",
-      "rank": 22,
+      "rank": 21,
       "title": "牡丹亭",
       "artists": [
         "浅影阿"
@@ -775,14 +762,19 @@
       "url": "https://www.kugou.com/song/#hash=E3DDA5DFCDC44BCF146E2BDC3916779A",
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
-        "previousRank": 25,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 22,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 22,
           "last_sort": 25
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -798,7 +790,7 @@
     },
     {
       "sourceId": "FBC174E7C22B9AF471B7B93A61751E1B",
-      "rank": 23,
+      "rank": 22,
       "title": "泪海",
       "artists": [
         "许茹芸"
@@ -809,13 +801,18 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 24,
-        "period": "previous-edition",
+        "previousRank": 23,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 23,
           "last_sort": 24
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -836,7 +833,7 @@
     },
     {
       "sourceId": "24F5E7555646965CD7D1A924452B3300",
-      "rank": 24,
+      "rank": 23,
       "title": "幻听",
       "artists": [
         "许嵩"
@@ -845,15 +842,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241205/20241205192440492368.jpg",
       "url": "https://www.kugou.com/song/#hash=24F5E7555646965CD7D1A924452B3300",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 22,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 24,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 24,
           "last_sort": 22
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -874,7 +876,7 @@
     },
     {
       "sourceId": "4BD20B3128CD16D408E9CF82E41386D3",
-      "rank": 25,
+      "rank": 24,
       "title": "我听人说思念像风一样 (宿命版)",
       "artists": [
         "顿珠拉姆"
@@ -884,14 +886,19 @@
       "url": "https://www.kugou.com/song/#hash=4BD20B3128CD16D408E9CF82E41386D3",
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 27,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 25,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 25,
           "last_sort": 27
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -907,7 +914,7 @@
     },
     {
       "sourceId": "FE39668F68770C3FB3BE57A3E86CCC10",
-      "rank": 26,
+      "rank": 25,
       "title": "你有没有真的爱过我",
       "artists": [
         "阿图表妹"
@@ -917,14 +924,19 @@
       "url": "https://www.kugou.com/song/#hash=FE39668F68770C3FB3BE57A3E86CCC10",
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 28,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 26,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 26,
           "last_sort": 28
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -940,7 +952,7 @@
     },
     {
       "sourceId": "C0E4D361A67DE916D8A5990C0EF34479",
-      "rank": 27,
+      "rank": 26,
       "title": "Whatever Happens",
       "artists": [
         "Michael Jackson"
@@ -949,15 +961,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20200927/20200927170857990444.jpg",
       "url": "https://www.kugou.com/song/#hash=C0E4D361A67DE916D8A5990C0EF34479",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 26,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 27,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 27,
           "last_sort": 26
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -978,7 +995,7 @@
     },
     {
       "sourceId": "A13273016FC831407487BF77D7BBA3FB",
-      "rank": 28,
+      "rank": 27,
       "title": "隔岸",
       "artists": [
         "姚六一"
@@ -989,13 +1006,18 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 29,
-        "period": "previous-edition",
+        "previousRank": 28,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 28,
           "last_sort": 29
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1011,7 +1033,7 @@
     },
     {
       "sourceId": "C8B6898AB9052512C547B092BF86E652",
-      "rank": 29,
+      "rank": 28,
       "title": "为你而来",
       "artists": [
         "萧泽x.z"
@@ -1021,14 +1043,19 @@
       "url": "https://www.kugou.com/song/#hash=C8B6898AB9052512C547B092BF86E652",
       "sourceMovement": {
         "direction": "up",
-        "delta": 7,
-        "previousRank": 36,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 29,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 29,
           "last_sort": 36
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "unknown",
@@ -1038,7 +1065,7 @@
     },
     {
       "sourceId": "F5DE44C0ACAA2722783A7E71C6A32839",
-      "rank": 30,
+      "rank": 29,
       "title": "秋风慢慢吹",
       "artists": [
         "乌兰Ulan"
@@ -1049,13 +1076,18 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 31,
-        "period": "previous-edition",
+        "previousRank": 30,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 30,
           "last_sort": 31
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1071,7 +1103,7 @@
     },
     {
       "sourceId": "2592FFA57A2D8B1A16F18D991B7098CD",
-      "rank": 31,
+      "rank": 30,
       "title": "雨爱",
       "artists": [
         "杨丞琳"
@@ -1080,15 +1112,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250716/20250716140851912935.jpg",
       "url": "https://www.kugou.com/song/#hash=2592FFA57A2D8B1A16F18D991B7098CD",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 30,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 31,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 31,
           "last_sort": 30
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1109,7 +1146,7 @@
     },
     {
       "sourceId": "FBE0D895B585AFAD693FE42529311608",
-      "rank": 32,
+      "rank": 31,
       "title": "연애의 조건 (恋爱的条件)",
       "artists": [
         "BESTie"
@@ -1119,26 +1156,31 @@
       "url": "https://www.kugou.com/song/#hash=FBE0D895B585AFAD693FE42529311608",
       "sourceMovement": {
         "direction": "up",
-        "delta": 86,
-        "previousRank": 118,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 32,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 32,
           "last_sort": 118
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
         "items": [
           {
             "id": "107330",
-            "hash": "BA7B56F6B6612DFF751A9B370C40D667",
+            "hash": "6AD5BA66C504C8A93C9F4300CE860DCF",
             "url": null
           },
           {
             "id": null,
-            "hash": "4C7D0C4685145586413564064C84D0A5",
+            "hash": "FC90ED6DA63445D1D5CAF592E22767C6",
             "url": null
           }
         ]
@@ -1147,7 +1189,7 @@
     },
     {
       "sourceId": "72DB6DA75FFE23A3A6361BDB8F44D5F4",
-      "rank": 33,
+      "rank": 32,
       "title": "情歌",
       "artists": [
         "梁静茹"
@@ -1158,13 +1200,18 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 34,
-        "period": "previous-edition",
+        "previousRank": 33,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 33,
           "last_sort": 34
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1185,7 +1232,7 @@
     },
     {
       "sourceId": "02B553BC8BB80E6948A78DE0CF4ED354",
-      "rank": 34,
+      "rank": 33,
       "title": "如果累了就回故乡 (少年版)",
       "artists": [
         "酷酷里",
@@ -1197,13 +1244,18 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 35,
-        "period": "previous-edition",
+        "previousRank": 34,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 34,
           "last_sort": 35
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1219,7 +1271,7 @@
     },
     {
       "sourceId": "9F882DE24A9C98FE3F793B0CECFD3B42",
-      "rank": 35,
+      "rank": 34,
       "title": "红尘误此生",
       "artists": [
         "宋晓峰"
@@ -1228,15 +1280,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260929/20260929115008964404.jpg",
       "url": "https://www.kugou.com/song/#hash=9F882DE24A9C98FE3F793B0CECFD3B42",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -3,
-        "previousRank": 32,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 35,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 35,
           "last_sort": 32
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1252,7 +1309,7 @@
     },
     {
       "sourceId": "8DC7602F5EF4090C1BAC5BE525F3823A",
-      "rank": 36,
+      "rank": 35,
       "title": "多少真心败给无奈",
       "artists": [
         "米拓果果"
@@ -1261,15 +1318,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261030/20261030110930563558.jpg",
       "url": "https://www.kugou.com/song/#hash=8DC7602F5EF4090C1BAC5BE525F3823A",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -13,
-        "previousRank": 23,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 36,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 36,
           "last_sort": 23
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1285,7 +1347,7 @@
     },
     {
       "sourceId": "A3B5853F24C871E8DCFE8ABF98179A83",
-      "rank": 37,
+      "rank": 36,
       "title": "折月亮",
       "artists": [
         "刘宇宁"
@@ -1294,15 +1356,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261030/20261030175611639934.jpg",
       "url": "https://www.kugou.com/song/#hash=A3B5853F24C871E8DCFE8ABF98179A83",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 37,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 37,
@@ -1317,7 +1379,7 @@
     },
     {
       "sourceId": "EC476A2009EF5DCAC13EDCD11870DF55",
-      "rank": 38,
+      "rank": 37,
       "title": "失眠",
       "artists": [
         "Suki刘舒妤"
@@ -1328,13 +1390,18 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 39,
-        "period": "previous-edition",
+        "previousRank": 38,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 38,
           "last_sort": 39
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1355,7 +1422,7 @@
     },
     {
       "sourceId": "7DE9A9CD041157F6BF3FE9FFBCF120E3",
-      "rank": 39,
+      "rank": 38,
       "title": "黄昏",
       "artists": [
         "周传雄"
@@ -1365,14 +1432,19 @@
       "url": "https://www.kugou.com/song/#hash=7DE9A9CD041157F6BF3FE9FFBCF120E3",
       "sourceMovement": {
         "direction": "up",
-        "delta": 7,
-        "previousRank": 46,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 39,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 39,
           "last_sort": 46
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1393,7 +1465,7 @@
     },
     {
       "sourceId": "F0B01830164E4974A2AC9E85DD446D45",
-      "rank": 40,
+      "rank": 39,
       "title": "樱花草",
       "artists": [
         "Sweety"
@@ -1403,14 +1475,19 @@
       "url": "https://www.kugou.com/song/#hash=F0B01830164E4974A2AC9E85DD446D45",
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
-        "previousRank": 43,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 40,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 40,
           "last_sort": 43
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1431,7 +1508,7 @@
     },
     {
       "sourceId": "F7F2C18DC775BE0038DE4EBB000EEFF0",
-      "rank": 41,
+      "rank": 40,
       "title": "Cherry Candy",
       "artists": [
         "Lunak"
@@ -1441,14 +1518,19 @@
       "url": "https://www.kugou.com/song/#hash=F7F2C18DC775BE0038DE4EBB000EEFF0",
       "sourceMovement": {
         "direction": "up",
-        "delta": 13,
-        "previousRank": 54,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 41,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 41,
           "last_sort": 54
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "unknown",
@@ -1458,7 +1540,7 @@
     },
     {
       "sourceId": "7CF9E31DEB6A3AEF0B196D9D6818D236",
-      "rank": 42,
+      "rank": 41,
       "title": "Moonride",
       "artists": [
         "Hearts2Hearts"
@@ -1468,14 +1550,19 @@
       "url": "https://www.kugou.com/song/#hash=7CF9E31DEB6A3AEF0B196D9D6818D236",
       "sourceMovement": {
         "direction": "up",
-        "delta": 6,
-        "previousRank": 48,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 42,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 42,
           "last_sort": 48
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1496,7 +1583,7 @@
     },
     {
       "sourceId": "99F0F17B7C6F110346411E7AD552156D",
-      "rank": 43,
+      "rank": 42,
       "title": "茶花开了，该回家了",
       "artists": [
         "王睿卓",
@@ -1507,14 +1594,19 @@
       "url": "https://www.kugou.com/song/#hash=99F0F17B7C6F110346411E7AD552156D",
       "sourceMovement": {
         "direction": "up",
-        "delta": 8,
-        "previousRank": 51,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 43,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 43,
           "last_sort": 51
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1535,7 +1627,7 @@
     },
     {
       "sourceId": "6CB6A16FFFEB35428346D73908442DBB",
-      "rank": 44,
+      "rank": 43,
       "title": "我听见了，你的痛苦成立",
       "artists": [
         "供销社乐队"
@@ -1544,15 +1636,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260608/20260608160441288292.jpg",
       "url": "https://www.kugou.com/song/#hash=6CB6A16FFFEB35428346D73908442DBB",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -3,
-        "previousRank": 41,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 44,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 44,
           "last_sort": 41
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1568,7 +1665,7 @@
     },
     {
       "sourceId": "9DA48ECCE1F8C814C792E520B4ABEEF6",
-      "rank": 45,
+      "rank": 44,
       "title": "风吹过",
       "artists": [
         "张玮"
@@ -1578,14 +1675,19 @@
       "url": "https://www.kugou.com/song/#hash=9DA48ECCE1F8C814C792E520B4ABEEF6",
       "sourceMovement": {
         "direction": "up",
-        "delta": 111,
-        "previousRank": 156,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 45,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 45,
           "last_sort": 156
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1601,7 +1703,7 @@
     },
     {
       "sourceId": "93F260998A10F4AD6B46606AF5C8EC72",
-      "rank": 46,
+      "rank": 45,
       "title": "开始懂了",
       "artists": [
         "孙燕姿"
@@ -1612,13 +1714,18 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 47,
-        "period": "previous-edition",
+        "previousRank": 46,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 46,
           "last_sort": 47
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1639,7 +1746,7 @@
     },
     {
       "sourceId": "B4EE7D20EADA2A043636B4E560663F29",
-      "rank": 47,
+      "rank": 46,
       "title": "你不该权衡利弊",
       "artists": [
         "李婷雪"
@@ -1649,14 +1756,19 @@
       "url": "https://www.kugou.com/song/#hash=B4EE7D20EADA2A043636B4E560663F29",
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
-        "previousRank": 50,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 47,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 47,
           "last_sort": 50
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1672,7 +1784,7 @@
     },
     {
       "sourceId": "6865447D3102821690EBA7D5EBEF3B49",
-      "rank": 48,
+      "rank": 47,
       "title": "我爱你",
       "artists": [
         "王菲"
@@ -1681,15 +1793,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20200101/20200101094649855242.jpg",
       "url": "https://www.kugou.com/song/#hash=6865447D3102821690EBA7D5EBEF3B49",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
-        "previousRank": 44,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 48,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 48,
           "last_sort": 44
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1710,7 +1827,7 @@
     },
     {
       "sourceId": "96837F7FAD9EA5960B15072F9B214733",
-      "rank": 49,
+      "rank": 48,
       "title": "睡前别想太多",
       "artists": [
         "李雨霏"
@@ -1719,15 +1836,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260925/20260925194911655850.jpg",
       "url": "https://www.kugou.com/song/#hash=96837F7FAD9EA5960B15072F9B214733",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -9,
-        "previousRank": 40,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 49,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 49,
           "last_sort": 40
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1743,7 +1865,7 @@
     },
     {
       "sourceId": "7B695D973308DF44CD15853D2A189C29",
-      "rank": 50,
+      "rank": 49,
       "title": "不能成情人",
       "artists": [
         "丁家怡"
@@ -1752,15 +1874,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260812/20260812170624758397.jpg",
       "url": "https://www.kugou.com/song/#hash=7B695D973308DF44CD15853D2A189C29",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -17,
-        "previousRank": 33,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 50,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 50,
           "last_sort": 33
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1776,7 +1903,7 @@
     },
     {
       "sourceId": "CE256D96F1F025D60468D8F0BC9EE64B",
-      "rank": 51,
+      "rank": 50,
       "title": "山风山风等等我",
       "artists": [
         "万海东"
@@ -1786,14 +1913,19 @@
       "url": "https://www.kugou.com/song/#hash=CE256D96F1F025D60468D8F0BC9EE64B",
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 53,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 51,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 51,
           "last_sort": 53
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1809,7 +1941,7 @@
     },
     {
       "sourceId": "FCB9B20011F163AF8113EB6397B35E7B",
-      "rank": 52,
+      "rank": 51,
       "title": "上岸",
       "artists": [
         "巴扎黑"
@@ -1818,15 +1950,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261028/20261028151151299280.jpg",
       "url": "https://www.kugou.com/song/#hash=FCB9B20011F163AF8113EB6397B35E7B",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -15,
-        "previousRank": 37,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 52,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 52,
           "last_sort": 37
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "unknown",
@@ -1836,7 +1973,7 @@
     },
     {
       "sourceId": "240E8007A466F8B47076A1EEB6518CA1",
-      "rank": 53,
+      "rank": 52,
       "title": "山那头 (风刮着原上柳)",
       "artists": [
         "杨小东"
@@ -1846,14 +1983,19 @@
       "url": "https://www.kugou.com/song/#hash=240E8007A466F8B47076A1EEB6518CA1",
       "sourceMovement": {
         "direction": "up",
-        "delta": 23,
-        "previousRank": 76,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 53,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 53,
           "last_sort": 76
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1869,7 +2011,7 @@
     },
     {
       "sourceId": "36EC952244B9B73DBE3AFB2E49673784",
-      "rank": 54,
+      "rank": 53,
       "title": "炽念",
       "artists": [
         "柯淳"
@@ -1879,14 +2021,19 @@
       "url": "https://www.kugou.com/song/#hash=36EC952244B9B73DBE3AFB2E49673784",
       "sourceMovement": {
         "direction": "up",
-        "delta": 52,
-        "previousRank": 106,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 54,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 54,
           "last_sort": 106
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1902,7 +2049,7 @@
     },
     {
       "sourceId": "C358CE1015392FC2CB00968D58799AA2",
-      "rank": 55,
+      "rank": 54,
       "title": "人生一场渡",
       "artists": [
         "一念禅音"
@@ -1912,14 +2059,19 @@
       "url": "https://www.kugou.com/song/#hash=C358CE1015392FC2CB00968D58799AA2",
       "sourceMovement": {
         "direction": "up",
-        "delta": 10,
-        "previousRank": 65,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 55,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 55,
           "last_sort": 65
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1935,7 +2087,7 @@
     },
     {
       "sourceId": "6024903A2603AFB6FBD0453162BDED63",
-      "rank": 56,
+      "rank": 55,
       "title": "秋风一吹又老一岁 (女版烟嗓)",
       "artists": [
         "微醺森林"
@@ -1944,15 +2096,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260914/20260914131723980989.jpg",
       "url": "https://www.kugou.com/song/#hash=6024903A2603AFB6FBD0453162BDED63",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
-        "previousRank": 52,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 56,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 56,
           "last_sort": 52
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -1968,7 +2125,7 @@
     },
     {
       "sourceId": "23FEBEF5293CBEFB75D54FD6FFDF388B",
-      "rank": 57,
+      "rank": 56,
       "title": "遇上你是我的缘 (一切等待不再是等待)",
       "artists": [
         "石满仓"
@@ -1977,15 +2134,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261010/20261010181033924024.jpg",
       "url": "https://www.kugou.com/song/#hash=23FEBEF5293CBEFB75D54FD6FFDF388B",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -12,
-        "previousRank": 45,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 57,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 57,
           "last_sort": 45
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2001,7 +2163,7 @@
     },
     {
       "sourceId": "E3F046EDB5EB76BBA5A44FFA3D8F8C42",
-      "rank": 58,
+      "rank": 57,
       "title": "雨过后的风景",
       "artists": [
         "Dizzy Dizzo (蔡诗芸)"
@@ -2011,14 +2173,19 @@
       "url": "https://www.kugou.com/song/#hash=E3F046EDB5EB76BBA5A44FFA3D8F8C42",
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 60,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 58,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 58,
           "last_sort": 60
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2039,7 +2206,7 @@
     },
     {
       "sourceId": "E8816215631BEE479E3CDA20DD3BA707",
-      "rank": 59,
+      "rank": 58,
       "title": "旗帜上的中国",
       "artists": [
         "青士"
@@ -2049,14 +2216,19 @@
       "url": "https://www.kugou.com/song/#hash=E8816215631BEE479E3CDA20DD3BA707",
       "sourceMovement": {
         "direction": "up",
-        "delta": 19,
-        "previousRank": 78,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 59,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 59,
           "last_sort": 78
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2072,7 +2244,7 @@
     },
     {
       "sourceId": "D0F928C394C175BC0F4CAD8B9C3B5E9E",
-      "rank": 60,
+      "rank": 59,
       "title": "慌啥子嘛",
       "artists": [
         "村口吴老二"
@@ -2081,15 +2253,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260929/20260929162158996833.jpg",
       "url": "https://www.kugou.com/song/#hash=D0F928C394C175BC0F4CAD8B9C3B5E9E",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
-        "previousRank": 56,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 60,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 60,
           "last_sort": 56
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2105,7 +2282,7 @@
     },
     {
       "sourceId": "4B63841480B40824990E763D112C5D1F",
-      "rank": 61,
+      "rank": 60,
       "title": "如果累了就回故乡 (微醺版)",
       "artists": [
         "落日微醺"
@@ -2114,15 +2291,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260825/20260825174312758012.jpg",
       "url": "https://www.kugou.com/song/#hash=4B63841480B40824990E763D112C5D1F",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -6,
-        "previousRank": 55,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 61,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 61,
           "last_sort": 55
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2138,7 +2320,7 @@
     },
     {
       "sourceId": "9DA7851E2BF83B18C74CBBAB461CEFDD",
-      "rank": 62,
+      "rank": 61,
       "title": "恋人",
       "artists": [
         "李荣浩"
@@ -2147,15 +2329,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241016/20241016175101115675.jpg",
       "url": "https://www.kugou.com/song/#hash=9DA7851E2BF83B18C74CBBAB461CEFDD",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
-        "previousRank": 58,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 62,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 62,
           "last_sort": 58
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2176,7 +2363,7 @@
     },
     {
       "sourceId": "9365223F903B13D0DAF54B6091AC3E7B",
-      "rank": 63,
+      "rank": 62,
       "title": "坏女孩",
       "artists": [
         "徐良",
@@ -2186,15 +2373,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20200620/20200620074915201495.jpg",
       "url": "https://www.kugou.com/song/#hash=9365223F903B13D0DAF54B6091AC3E7B",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
-        "previousRank": 59,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 63,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 63,
           "last_sort": 59
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2215,7 +2407,7 @@
     },
     {
       "sourceId": "007A7A8EAFA3FF9EA51EF6A767AC3497",
-      "rank": 64,
+      "rank": 63,
       "title": "茶花开了",
       "artists": [
         "王睿卓"
@@ -2224,15 +2416,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20251125/20251125141603161899.jpg",
       "url": "https://www.kugou.com/song/#hash=007A7A8EAFA3FF9EA51EF6A767AC3497",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -7,
-        "previousRank": 57,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 64,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 64,
           "last_sort": 57
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2253,7 +2450,7 @@
     },
     {
       "sourceId": "D2E00CC158DB4DA18927AC3B01CC371B",
-      "rank": 65,
+      "rank": 64,
       "title": "认真的雪",
       "artists": [
         "薛之谦"
@@ -2262,15 +2459,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241205/20241205201419764427.jpg",
       "url": "https://www.kugou.com/song/#hash=D2E00CC158DB4DA18927AC3B01CC371B",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
-        "previousRank": 61,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 65,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 65,
           "last_sort": 61
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2291,7 +2493,7 @@
     },
     {
       "sourceId": "1A3EAA7023BC5205E34F4351F09A3D0A",
-      "rank": 66,
+      "rank": 65,
       "title": "过渡期",
       "artists": [
         "小宇-宋念宇"
@@ -2301,14 +2503,19 @@
       "url": "https://www.kugou.com/song/#hash=1A3EAA7023BC5205E34F4351F09A3D0A",
       "sourceMovement": {
         "direction": "up",
-        "delta": 13,
-        "previousRank": 79,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 66,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 66,
           "last_sort": 79
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2329,7 +2536,7 @@
     },
     {
       "sourceId": "A7D65FC45CAF8CC897E01EA072529EF0",
-      "rank": 67,
+      "rank": 66,
       "title": "等你的季节",
       "artists": [
         "刘诗诗"
@@ -2340,13 +2547,18 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 68,
-        "period": "previous-edition",
+        "previousRank": 67,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 67,
           "last_sort": 68
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2367,7 +2579,7 @@
     },
     {
       "sourceId": "D097F9EC5D9A175447E0A120DCEEF3B8",
-      "rank": 68,
+      "rank": 67,
       "title": "慢品人间烟火气 (微醺版)",
       "artists": [
         "涂一乐"
@@ -2376,15 +2588,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260820/20260820180351680189.jpg",
       "url": "https://www.kugou.com/song/#hash=D097F9EC5D9A175447E0A120DCEEF3B8",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 68,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 68,
@@ -2405,7 +2617,7 @@
     },
     {
       "sourceId": "27915AFE951AD80B584AC4EB4DA41CF7",
-      "rank": 69,
+      "rank": 68,
       "title": "慢慢离开你",
       "artists": [
         "金润吉"
@@ -2415,14 +2627,19 @@
       "url": "https://www.kugou.com/song/#hash=27915AFE951AD80B584AC4EB4DA41CF7",
       "sourceMovement": {
         "direction": "up",
-        "delta": 5,
-        "previousRank": 74,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 69,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 69,
           "last_sort": 74
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2443,7 +2660,7 @@
     },
     {
       "sourceId": "1C86CBC64AE9A6C3539A36CAADDF1A59",
-      "rank": 70,
+      "rank": 69,
       "title": "盛夏的果实",
       "artists": [
         "莫文蔚"
@@ -2452,15 +2669,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180820211739.jpg",
       "url": "https://www.kugou.com/song/#hash=1C86CBC64AE9A6C3539A36CAADDF1A59",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -6,
-        "previousRank": 64,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 70,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 70,
           "last_sort": 64
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2481,7 +2703,7 @@
     },
     {
       "sourceId": "B70750CA4AC58B1995D4B9C1E025B58D",
-      "rank": 71,
+      "rank": 70,
       "title": "珍惜对你例外的人",
       "artists": [
         "心煜"
@@ -2490,15 +2712,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261016/20261016113551500561.jpg",
       "url": "https://www.kugou.com/song/#hash=B70750CA4AC58B1995D4B9C1E025B58D",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -29,
-        "previousRank": 42,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 71,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 71,
           "last_sort": 42
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "unknown",
@@ -2508,7 +2735,7 @@
     },
     {
       "sourceId": "DEAB3B0160E9A410CE0AAA9ED8AC602E",
-      "rank": 72,
+      "rank": 71,
       "title": "出现又离开 (Live)",
       "artists": [
         "梁博"
@@ -2517,15 +2744,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250228/20250228160451682948.jpg",
       "url": "https://www.kugou.com/song/#hash=DEAB3B0160E9A410CE0AAA9ED8AC602E",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 71,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 72,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 72,
           "last_sort": 71
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2546,7 +2778,7 @@
     },
     {
       "sourceId": "1A3CAACB1E361DAF217A2383E9C8E292",
-      "rank": 73,
+      "rank": 72,
       "title": "我怀念的",
       "artists": [
         "孙燕姿"
@@ -2555,15 +2787,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20221230/20221230052215394603.jpg",
       "url": "https://www.kugou.com/song/#hash=1A3CAACB1E361DAF217A2383E9C8E292",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -6,
-        "previousRank": 67,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 73,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 73,
           "last_sort": 67
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2584,7 +2821,7 @@
     },
     {
       "sourceId": "097E777171F692855EAE98B6965F9477",
-      "rank": 74,
+      "rank": 73,
       "title": "演员",
       "artists": [
         "薛之谦"
@@ -2593,15 +2830,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250207/20250207161328731643.jpg",
       "url": "https://www.kugou.com/song/#hash=097E777171F692855EAE98B6965F9477",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -11,
-        "previousRank": 63,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 74,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 74,
           "last_sort": 63
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2622,7 +2864,7 @@
     },
     {
       "sourceId": "D47C45995D6D88F23AB76601702D9C9E",
-      "rank": 75,
+      "rank": 74,
       "title": "回到你身边 (让你知道)",
       "artists": [
         "h3R3刘清云"
@@ -2631,15 +2873,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260702/20260702192011292725.jpg",
       "url": "https://www.kugou.com/song/#hash=D47C45995D6D88F23AB76601702D9C9E",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 75,
-        "period": "previous-edition",
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 75,
           "last_sort": 75
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2655,7 +2902,7 @@
     },
     {
       "sourceId": "E51ABAF534E7D2BA42DB5604421D4838",
-      "rank": 76,
+      "rank": 75,
       "title": "左转灯 (1000 Times +1)",
       "artists": [
         "派伟俊",
@@ -2666,14 +2913,19 @@
       "url": "https://www.kugou.com/song/#hash=E51ABAF534E7D2BA42DB5604421D4838",
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
-        "previousRank": 80,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 76,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 76,
           "last_sort": 80
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2694,7 +2946,7 @@
     },
     {
       "sourceId": "CBFA7DDE592B23322E21E4BDAA9BE9F9",
-      "rank": 77,
+      "rank": 76,
       "title": "最佳损友",
       "artists": [
         "陈奕迅"
@@ -2703,15 +2955,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241206/20241206175512148035.jpg",
       "url": "https://www.kugou.com/song/#hash=CBFA7DDE592B23322E21E4BDAA9BE9F9",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -11,
-        "previousRank": 66,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 77,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 77,
           "last_sort": 66
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2727,7 +2984,7 @@
     },
     {
       "sourceId": "D10DBCC3B9B0B88ED0632453C8611A75",
-      "rank": 78,
+      "rank": 77,
       "title": "趁早",
       "artists": [
         "张惠妹"
@@ -2737,14 +2994,19 @@
       "url": "https://www.kugou.com/song/#hash=D10DBCC3B9B0B88ED0632453C8611A75",
       "sourceMovement": {
         "direction": "up",
-        "delta": 9,
-        "previousRank": 87,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 78,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 78,
           "last_sort": 87
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2765,7 +3027,7 @@
     },
     {
       "sourceId": "54C1A6E877BB37D052A86D4C41604FE7",
-      "rank": 79,
+      "rank": 78,
       "title": "遗失的心跳",
       "artists": [
         "萧亚轩"
@@ -2775,14 +3037,19 @@
       "url": "https://www.kugou.com/song/#hash=54C1A6E877BB37D052A86D4C41604FE7",
       "sourceMovement": {
         "direction": "up",
-        "delta": 24,
-        "previousRank": 103,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 79,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 79,
           "last_sort": 103
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2803,7 +3070,7 @@
     },
     {
       "sourceId": "56D081DA5503C0C7E61BF15BB80E83D3",
-      "rank": 80,
+      "rank": 79,
       "title": "罗生门 (氛围版)",
       "artists": [
         "摩卡"
@@ -2813,14 +3080,19 @@
       "url": "https://www.kugou.com/song/#hash=56D081DA5503C0C7E61BF15BB80E83D3",
       "sourceMovement": {
         "direction": "up",
-        "delta": 101,
-        "previousRank": 181,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 80,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 80,
           "last_sort": 181
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "unknown",
@@ -2830,7 +3102,7 @@
     },
     {
       "sourceId": "284173346DD3E03FA86D027025F50CC7",
-      "rank": 81,
+      "rank": 80,
       "title": "Lonely",
       "artists": [
         "Nana"
@@ -2839,15 +3111,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241118/20241118160611406033.jpg",
       "url": "https://www.kugou.com/song/#hash=284173346DD3E03FA86D027025F50CC7",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -11,
-        "previousRank": 70,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 81,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 81,
           "last_sort": 70
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2863,7 +3140,7 @@
     },
     {
       "sourceId": "888FE08D95D95A235A86CD51EC68F80E",
-      "rank": 82,
+      "rank": 81,
       "title": "我听人说思念像风一样 (前世不欠，今生不见)",
       "artists": [
         "顿珠拉姆",
@@ -2873,15 +3150,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260924/20260924095926698390.jpg",
       "url": "https://www.kugou.com/song/#hash=888FE08D95D95A235A86CD51EC68F80E",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 77,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 82,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 82,
           "last_sort": 77
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "unknown",
@@ -2891,7 +3173,7 @@
     },
     {
       "sourceId": "38DAABE4EEA0ADDC04897AC14E15B54E",
-      "rank": 83,
+      "rank": 82,
       "title": "谁 (男女扎心合唱)",
       "artists": [
         "梨子芥菜",
@@ -2901,15 +3183,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260513/20260513175744785959.jpg",
       "url": "https://www.kugou.com/song/#hash=38DAABE4EEA0ADDC04897AC14E15B54E",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -10,
-        "previousRank": 73,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 83,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 83,
           "last_sort": 73
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2925,7 +3212,7 @@
     },
     {
       "sourceId": "E9CF47F6EB2D0D2C7349247792062557",
-      "rank": 84,
+      "rank": 83,
       "title": "三生三世",
       "artists": [
         "张杰"
@@ -2934,15 +3221,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250228/20250228160405854968.jpg",
       "url": "https://www.kugou.com/song/#hash=E9CF47F6EB2D0D2C7349247792062557",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -15,
-        "previousRank": 69,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 84,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 84,
           "last_sort": 69
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -2963,7 +3255,7 @@
     },
     {
       "sourceId": "9F865C787E90E013B2BC847BAAA306AA",
-      "rank": 85,
+      "rank": 84,
       "title": "遇见",
       "artists": [
         "孙燕姿"
@@ -2972,15 +3264,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180800375452.jpg",
       "url": "https://www.kugou.com/song/#hash=9F865C787E90E013B2BC847BAAA306AA",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 84,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 85,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 85,
           "last_sort": 84
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -3001,7 +3298,7 @@
     },
     {
       "sourceId": "6743317982EC51D4328DF7229209A0B6",
-      "rank": 86,
+      "rank": 85,
       "title": "小城",
       "artists": [
         "任素汐"
@@ -3011,14 +3308,19 @@
       "url": "https://www.kugou.com/song/#hash=6743317982EC51D4328DF7229209A0B6",
       "sourceMovement": {
         "direction": "up",
-        "delta": 31,
-        "previousRank": 117,
-        "period": "previous-edition",
+        "delta": 1,
+        "previousRank": 86,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 86,
           "last_sort": 117
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "unknown",
@@ -3028,7 +3330,7 @@
     },
     {
       "sourceId": "B3A52A7A958BF0AED0EBFBA2E9A818B7",
-      "rank": 87,
+      "rank": 86,
       "title": "晴天",
       "artists": [
         "周杰伦"
@@ -3037,15 +3339,20 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20230920/20230920142503632013.jpg",
       "url": "https://www.kugou.com/song/#hash=B3A52A7A958BF0AED0EBFBA2E9A818B7",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 82,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 87,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
         "raw": {
           "sort": 87,
           "last_sort": 82
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "linked",
@@ -3066,7 +3373,7 @@
     },
     {
       "sourceId": "44816EF0288A3B1ED2C4A5C5FE6B93B3",
-      "rank": 88,
+      "rank": 87,
       "title": "一直很安静",
       "artists": [
         "阿桑"
@@ -3076,14 +3383,14 @@
       "url": "https://www.kugou.com/song/#hash=44816EF0288A3B1ED2C4A5C5FE6B93B3",
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 90,
+        "delta": 1,
+        "previousRank": 88,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 89,
@@ -3109,7 +3416,7 @@
     },
     {
       "sourceId": "F56A18324245793FBFFB0934E964350A",
-      "rank": 89,
+      "rank": 88,
       "title": "慢红尘 (微醺版)",
       "artists": [
         "江楠楠"
@@ -3118,15 +3425,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260921/20260921173932910661.jpg",
       "url": "https://www.kugou.com/song/#hash=F56A18324245793FBFFB0934E964350A",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 89,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 90,
@@ -3141,7 +3448,7 @@
     },
     {
       "sourceId": "3CD8132AECBEEAFC16777C9593080E29",
-      "rank": 90,
+      "rank": 89,
       "title": "请不要一时兴起",
       "artists": [
         "陆景钧"
@@ -3151,14 +3458,14 @@
       "url": "https://www.kugou.com/song/#hash=3CD8132AECBEEAFC16777C9593080E29",
       "sourceMovement": {
         "direction": "up",
-        "delta": 94,
-        "previousRank": 184,
+        "delta": 1,
+        "previousRank": 90,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 91,
@@ -3173,7 +3480,7 @@
     },
     {
       "sourceId": "2EEFFF98A4F19D945BBA7C78FB2079C0",
-      "rank": 91,
+      "rank": 90,
       "title": "下完这场雨",
       "artists": [
         "后弦"
@@ -3183,14 +3490,14 @@
       "url": "https://www.kugou.com/song/#hash=2EEFFF98A4F19D945BBA7C78FB2079C0",
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
-        "previousRank": 95,
+        "delta": 1,
+        "previousRank": 91,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 92,
@@ -3216,7 +3523,7 @@
     },
     {
       "sourceId": "C652442502E43430D98B1BCCBFE80D0B",
-      "rank": 92,
+      "rank": 91,
       "title": "如果人生还能重来一场",
       "artists": [
         "卓吉拉姆"
@@ -3225,15 +3532,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261013/20261013102731602760.jpg",
       "url": "https://www.kugou.com/song/#hash=C652442502E43430D98B1BCCBFE80D0B",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -20,
-        "previousRank": 72,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 92,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 93,
@@ -3254,7 +3561,7 @@
     },
     {
       "sourceId": "4A544525C1F78DBDF25361DB0E255495",
-      "rank": 93,
+      "rank": 92,
       "title": "偏爱",
       "artists": [
         "张芸京"
@@ -3265,13 +3572,13 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 94,
+        "previousRank": 93,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 94,
@@ -3297,7 +3604,7 @@
     },
     {
       "sourceId": "38A6C13F5A1A4AC97EBAE2185507715C",
-      "rank": 94,
+      "rank": 93,
       "title": "Cry For Me (feat. Ami)",
       "artists": [
         "Michita (ミチタ)"
@@ -3307,14 +3614,14 @@
       "url": "https://www.kugou.com/song/#hash=38A6C13F5A1A4AC97EBAE2185507715C",
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
-        "previousRank": 98,
+        "delta": 1,
+        "previousRank": 94,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 95,
@@ -3340,7 +3647,7 @@
     },
     {
       "sourceId": "DD4D224BC3DBFD1A0F6E338928620E69",
-      "rank": 95,
+      "rank": 94,
       "title": "我们俩",
       "artists": [
         "郭顶"
@@ -3349,15 +3656,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241029/20241029161103543086.jpg",
       "url": "https://www.kugou.com/song/#hash=DD4D224BC3DBFD1A0F6E338928620E69",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -3,
-        "previousRank": 92,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 95,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 96,
@@ -3378,7 +3685,7 @@
     },
     {
       "sourceId": "FFB654A7E6FD5E2877797D2B8E064518",
-      "rank": 96,
+      "rank": 95,
       "title": "我是真的爱上你",
       "artists": [
         "王杰"
@@ -3387,15 +3694,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121929422914.jpg",
       "url": "https://www.kugou.com/song/#hash=FFB654A7E6FD5E2877797D2B8E064518",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -13,
-        "previousRank": 83,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 96,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 97,
@@ -3421,7 +3728,7 @@
     },
     {
       "sourceId": "A4D0C350CF4475BFBB0AB28DC6E25A8D",
-      "rank": 97,
+      "rank": 96,
       "title": "勇气",
       "artists": [
         "梁静茹"
@@ -3430,15 +3737,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241205/20241205192457266564.jpg",
       "url": "https://www.kugou.com/song/#hash=A4D0C350CF4475BFBB0AB28DC6E25A8D",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 97,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 98,
@@ -3459,7 +3766,7 @@
     },
     {
       "sourceId": "30C94AE2868E63B1058DA7685E0CDF3B",
-      "rank": 98,
+      "rank": 97,
       "title": "素颜",
       "artists": [
         "许嵩",
@@ -3469,15 +3776,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250612/20250612110741114025.jpg",
       "url": "https://www.kugou.com/song/#hash=30C94AE2868E63B1058DA7685E0CDF3B",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -13,
-        "previousRank": 85,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 98,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 99,
@@ -3503,7 +3810,7 @@
     },
     {
       "sourceId": "B8CA573A69DB5050C7EE0C1AB79144E5",
-      "rank": 99,
+      "rank": 98,
       "title": "人生路漫漫",
       "artists": [
         "白小白"
@@ -3512,15 +3819,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260326/20260326182610525334.jpg",
       "url": "https://www.kugou.com/song/#hash=B8CA573A69DB5050C7EE0C1AB79144E5",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 99,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 100,
@@ -3546,7 +3853,7 @@
     },
     {
       "sourceId": "5F54FA0B531FE6CE3D761E1AF1729952",
-      "rank": 100,
+      "rank": 99,
       "title": "自己的灯自己点 (烟嗓版)",
       "artists": [
         "韩梓谦"
@@ -3556,14 +3863,14 @@
       "url": "https://www.kugou.com/song/#hash=5F54FA0B531FE6CE3D761E1AF1729952",
       "sourceMovement": {
         "direction": "up",
-        "delta": 22,
-        "previousRank": 122,
+        "delta": 1,
+        "previousRank": 100,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 101,
@@ -3584,7 +3891,7 @@
     },
     {
       "sourceId": "AFEA9FFE5D7F0EF0874119A363820D33",
-      "rank": 101,
+      "rank": 100,
       "title": "小半",
       "artists": [
         "陈粒"
@@ -3594,14 +3901,14 @@
       "url": "https://www.kugou.com/song/#hash=AFEA9FFE5D7F0EF0874119A363820D33",
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
-        "previousRank": 104,
+        "delta": 1,
+        "previousRank": 101,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 102,
@@ -3627,7 +3934,7 @@
     },
     {
       "sourceId": "E7A341184B8F800BD4B2B29D32621BDC",
-      "rank": 102,
+      "rank": 101,
       "title": "各凭本事闯天地",
       "artists": [
         "风里微醺"
@@ -3637,14 +3944,14 @@
       "url": "https://www.kugou.com/song/#hash=E7A341184B8F800BD4B2B29D32621BDC",
       "sourceMovement": {
         "direction": "up",
-        "delta": 64,
-        "previousRank": 166,
+        "delta": 1,
+        "previousRank": 102,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 103,
@@ -3665,7 +3972,7 @@
     },
     {
       "sourceId": "DA671569248188DF4EFFC2420E2F842C",
-      "rank": 103,
+      "rank": 102,
       "title": "NEON",
       "artists": [
         "A2O LITE",
@@ -3675,15 +3982,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261012/20261012214302714245.jpg",
       "url": "https://www.kugou.com/song/#hash=DA671569248188DF4EFFC2420E2F842C",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -17,
-        "previousRank": 86,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 103,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 104,
@@ -3709,7 +4016,7 @@
     },
     {
       "sourceId": "9678D4878727F744FD3D19663CAA8AD9",
-      "rank": 104,
+      "rank": 103,
       "title": "多余的解释",
       "artists": [
         "许嵩"
@@ -3718,15 +4025,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260318/20260318044711616290.jpg",
       "url": "https://www.kugou.com/song/#hash=9678D4878727F744FD3D19663CAA8AD9",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 102,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 104,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 105,
@@ -3747,7 +4054,7 @@
     },
     {
       "sourceId": "5CDCAAF9E7B91E94FD012589D00FDBEA",
-      "rank": 105,
+      "rank": 104,
       "title": "刻在我心底的名字",
       "artists": [
         "卢广仲"
@@ -3756,15 +4063,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20210707/20210707150302674633.jpg",
       "url": "https://www.kugou.com/song/#hash=5CDCAAF9E7B91E94FD012589D00FDBEA",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -12,
-        "previousRank": 93,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 105,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 106,
@@ -3790,7 +4097,7 @@
     },
     {
       "sourceId": "B78BA4062528E712B68C42DC6A4D9AAE",
-      "rank": 106,
+      "rank": 105,
       "title": "好想再爱你",
       "artists": [
         "潘广益"
@@ -3800,14 +4107,14 @@
       "url": "https://www.kugou.com/song/#hash=B78BA4062528E712B68C42DC6A4D9AAE",
       "sourceMovement": {
         "direction": "up",
-        "delta": 14,
-        "previousRank": 120,
+        "delta": 1,
+        "previousRank": 106,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 107,
@@ -3833,7 +4140,7 @@
     },
     {
       "sourceId": "C4904D4E3BBA872D41D3BDBF597E2B18",
-      "rank": 107,
+      "rank": 106,
       "title": "后来",
       "artists": [
         "刘若英"
@@ -3842,15 +4149,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250101/20250101073202450754.jpg",
       "url": "https://www.kugou.com/song/#hash=C4904D4E3BBA872D41D3BDBF597E2B18",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 105,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 107,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 108,
@@ -3876,7 +4183,7 @@
     },
     {
       "sourceId": "97870F3D4B01A7822DC497C6127EA66D",
-      "rank": 108,
+      "rank": 107,
       "title": "心墙",
       "artists": [
         "郭静"
@@ -3885,15 +4192,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250227/20250227150402830819.jpg",
       "url": "https://www.kugou.com/song/#hash=97870F3D4B01A7822DC497C6127EA66D",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -8,
-        "previousRank": 100,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 108,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 109,
@@ -3919,7 +4226,7 @@
     },
     {
       "sourceId": "314A859902CA32E8888F0431D9F744B9",
-      "rank": 109,
+      "rank": 108,
       "title": "安和桥",
       "artists": [
         "宋冬野"
@@ -3928,15 +4235,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20200620/20200620060348645603.jpg",
       "url": "https://www.kugou.com/song/#hash=314A859902CA32E8888F0431D9F744B9",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 107,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 109,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 110,
@@ -3962,7 +4269,7 @@
     },
     {
       "sourceId": "0433F1A94FA162B20FB8AE576A951D6B",
-      "rank": 110,
+      "rank": 109,
       "title": "富士山下",
       "artists": [
         "陈奕迅"
@@ -3973,13 +4280,13 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 111,
+        "previousRank": 110,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 111,
@@ -4005,7 +4312,7 @@
     },
     {
       "sourceId": "ED0ED6B17B6C29695E97F5CC945C7901",
-      "rank": 111,
+      "rank": 110,
       "title": "玻璃",
       "artists": [
         "Gareth.T"
@@ -4015,14 +4322,14 @@
       "url": "https://www.kugou.com/song/#hash=ED0ED6B17B6C29695E97F5CC945C7901",
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
-        "previousRank": 115,
+        "delta": 1,
+        "previousRank": 111,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 112,
@@ -4048,7 +4355,7 @@
     },
     {
       "sourceId": "EC1A18BBD6B61CB203E656B91F5CF2D1",
-      "rank": 112,
+      "rank": 111,
       "title": "如愿",
       "artists": [
         "王菲"
@@ -4057,15 +4364,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20210924/20210924225802830393.jpg",
       "url": "https://www.kugou.com/song/#hash=EC1A18BBD6B61CB203E656B91F5CF2D1",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 110,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 112,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 113,
@@ -4091,7 +4398,7 @@
     },
     {
       "sourceId": "B017A5C57FFF594987236DB3F1499436",
-      "rank": 113,
+      "rank": 112,
       "title": "无情画",
       "artists": [
         "王唯旖"
@@ -4100,15 +4407,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20180926/20180926143430837718.jpg",
       "url": "https://www.kugou.com/song/#hash=B017A5C57FFF594987236DB3F1499436",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -22,
-        "previousRank": 91,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 113,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 114,
@@ -4134,7 +4441,7 @@
     },
     {
       "sourceId": "1EB00DC46AE8E1446B6A9860A56487AC",
-      "rank": 114,
+      "rank": 113,
       "title": "会呼吸的痛",
       "artists": [
         "梁静茹"
@@ -4143,15 +4450,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121653941441.jpg",
       "url": "https://www.kugou.com/song/#hash=1EB00DC46AE8E1446B6A9860A56487AC",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 109,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 114,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 115,
@@ -4177,7 +4484,7 @@
     },
     {
       "sourceId": "3A8DF7637EC7921713C405D5E4565F05",
-      "rank": 115,
+      "rank": 114,
       "title": "暗恋过 结局呢",
       "artists": [
         "新街口组合",
@@ -4187,15 +4494,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250818/20250818143842986307.jpg",
       "url": "https://www.kugou.com/song/#hash=3A8DF7637EC7921713C405D5E4565F05",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -7,
-        "previousRank": 108,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 115,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 116,
@@ -4221,7 +4528,7 @@
     },
     {
       "sourceId": "DA74B715BCA022BF72A60E32C4E6DCC4",
-      "rank": 116,
+      "rank": 115,
       "title": "一生土 (孟婆孟婆你赊个账)",
       "artists": [
         "南歌"
@@ -4230,15 +4537,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261030/20261030140651857254.jpg",
       "url": "https://www.kugou.com/song/#hash=DA74B715BCA022BF72A60E32C4E6DCC4",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 116,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 117,
@@ -4253,7 +4560,7 @@
     },
     {
       "sourceId": "065D54DA2112CA994D9EBAC7AEFFEB20",
-      "rank": 117,
+      "rank": 116,
       "title": "偏偏在错的时光爱你 (深情版)",
       "artists": [
         "暮雨浔踪"
@@ -4262,15 +4569,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261008/20261008115738148237.jpg",
       "url": "https://www.kugou.com/song/#hash=065D54DA2112CA994D9EBAC7AEFFEB20",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -21,
-        "previousRank": 96,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 117,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 118,
@@ -4291,7 +4598,7 @@
     },
     {
       "sourceId": "B225BB1E7C1BA76010DC137D631A0A0D",
-      "rank": 118,
+      "rank": 117,
       "title": "我听人说思念像风一样 (难舍难分难解说唱版)",
       "artists": [
         "雪山阿木",
@@ -4302,14 +4609,14 @@
       "url": "https://www.kugou.com/song/#hash=B225BB1E7C1BA76010DC137D631A0A0D",
       "sourceMovement": {
         "direction": "up",
-        "delta": 13,
-        "previousRank": 131,
+        "delta": 1,
+        "previousRank": 118,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 119,
@@ -4324,7 +4631,7 @@
     },
     {
       "sourceId": "2A3B71689273D58DB823E8F7FD502D54",
-      "rank": 119,
+      "rank": 118,
       "title": "我的歌声里 (remix：T.back)",
       "artists": [
         "邱霖BigL"
@@ -4334,14 +4641,14 @@
       "url": "https://www.kugou.com/song/#hash=2A3B71689273D58DB823E8F7FD502D54",
       "sourceMovement": {
         "direction": "up",
-        "delta": 34,
-        "previousRank": 153,
+        "delta": 1,
+        "previousRank": 119,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 120,
@@ -4362,7 +4669,7 @@
     },
     {
       "sourceId": "B83DBB8E3DD3FCF86BF32690B91547F5",
-      "rank": 120,
+      "rank": 119,
       "title": "江南",
       "artists": [
         "林俊杰"
@@ -4371,15 +4678,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180752107045.jpg",
       "url": "https://www.kugou.com/song/#hash=B83DBB8E3DD3FCF86BF32690B91547F5",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -7,
-        "previousRank": 113,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 120,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 121,
@@ -4405,7 +4712,7 @@
     },
     {
       "sourceId": "0C6B8B8DBEF3C5A7F9C3716C7BFC4070",
-      "rank": 121,
+      "rank": 120,
       "title": "秋风慢慢吹 (对唱版)",
       "artists": [
         "乌兰Ulan",
@@ -4415,15 +4722,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261021/20261021105500451155.jpg",
       "url": "https://www.kugou.com/song/#hash=0C6B8B8DBEF3C5A7F9C3716C7BFC4070",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -40,
-        "previousRank": 81,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 121,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 122,
@@ -4438,7 +4745,7 @@
     },
     {
       "sourceId": "697712B7504DA5541C3ED4D117AE1018",
-      "rank": 122,
+      "rank": 121,
       "title": "如果当时",
       "artists": [
         "许嵩"
@@ -4447,15 +4754,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260318/20260318044711616290.jpg",
       "url": "https://www.kugou.com/song/#hash=697712B7504DA5541C3ED4D117AE1018",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -8,
-        "previousRank": 114,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 122,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 123,
@@ -4481,7 +4788,7 @@
     },
     {
       "sourceId": "2A8911EAD4838BF967CF5A300D787E53",
-      "rank": 123,
+      "rank": 122,
       "title": "其实",
       "artists": [
         "薛之谦"
@@ -4490,15 +4797,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20200407/20200407151818862082.jpg",
       "url": "https://www.kugou.com/song/#hash=2A8911EAD4838BF967CF5A300D787E53",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -7,
-        "previousRank": 116,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 123,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 124,
@@ -4524,7 +4831,7 @@
     },
     {
       "sourceId": "5146461A5717B942F4B13125978618E3",
-      "rank": 124,
+      "rank": 123,
       "title": "十年",
       "artists": [
         "陈奕迅"
@@ -4534,14 +4841,14 @@
       "url": "https://www.kugou.com/song/#hash=5146461A5717B942F4B13125978618E3",
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
-        "previousRank": 128,
+        "delta": 1,
+        "previousRank": 124,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 125,
@@ -4567,7 +4874,7 @@
     },
     {
       "sourceId": "0DB1280B4BB54822D4103CE4D839C955",
-      "rank": 125,
+      "rank": 124,
       "title": "如果乌鸦说情话",
       "artists": [
         "何小北"
@@ -4576,15 +4883,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261026/20261026162751330968.jpg",
       "url": "https://www.kugou.com/song/#hash=0DB1280B4BB54822D4103CE4D839C955",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -87,
-        "previousRank": 38,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 125,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 126,
@@ -4599,7 +4906,7 @@
     },
     {
       "sourceId": "562A99ADA8DB413F97734BB209F45F21",
-      "rank": 126,
+      "rank": 125,
       "title": "我听人说思念像风一样",
       "artists": [
         "天灰灰"
@@ -4609,14 +4916,14 @@
       "url": "https://www.kugou.com/song/#hash=562A99ADA8DB413F97734BB209F45F21",
       "sourceMovement": {
         "direction": "up",
-        "delta": 23,
-        "previousRank": 149,
+        "delta": 1,
+        "previousRank": 126,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 127,
@@ -4631,7 +4938,7 @@
     },
     {
       "sourceId": "777C7211715D4FC9FB3ADB928F4F7F94",
-      "rank": 127,
+      "rank": 126,
       "title": "短发女孩 (她留短发淡的妆)",
       "artists": [
         "Zzh",
@@ -4642,14 +4949,14 @@
       "url": "https://www.kugou.com/song/#hash=777C7211715D4FC9FB3ADB928F4F7F94",
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
-        "previousRank": 130,
+        "delta": 1,
+        "previousRank": 127,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 128,
@@ -4664,7 +4971,7 @@
     },
     {
       "sourceId": "F6B3AA5971A01E755A344C2256606418",
-      "rank": 128,
+      "rank": 127,
       "title": "雪下的时候",
       "artists": [
         "乔佳旭"
@@ -4674,14 +4981,14 @@
       "url": "https://www.kugou.com/song/#hash=F6B3AA5971A01E755A344C2256606418",
       "sourceMovement": {
         "direction": "up",
-        "delta": 11,
-        "previousRank": 139,
+        "delta": 1,
+        "previousRank": 128,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 129,
@@ -4707,7 +5014,7 @@
     },
     {
       "sourceId": "AFAA7ACF75FCF8DAC78C0AF7C40D3E9D",
-      "rank": 129,
+      "rank": 128,
       "title": "再见太难",
       "artists": [
         "利得汇"
@@ -4716,15 +5023,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260828/20260828162102346265.jpg",
       "url": "https://www.kugou.com/song/#hash=AFAA7ACF75FCF8DAC78C0AF7C40D3E9D",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -10,
-        "previousRank": 119,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 129,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 130,
@@ -4750,7 +5057,7 @@
     },
     {
       "sourceId": "74390D89B6BD2E18CFD7F25968EFD98A",
-      "rank": 130,
+      "rank": 129,
       "title": "落了白",
       "artists": [
         "蒋雪儿Snow.J"
@@ -4759,15 +5066,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20201125/20201125144604372545.jpg",
       "url": "https://www.kugou.com/song/#hash=74390D89B6BD2E18CFD7F25968EFD98A",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -18,
-        "previousRank": 112,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 130,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 131,
@@ -4793,7 +5100,7 @@
     },
     {
       "sourceId": "B1B4CC4F4E90134603CE66CBCF8FA73B",
-      "rank": 131,
+      "rank": 130,
       "title": "猜不透",
       "artists": [
         "丁当"
@@ -4803,14 +5110,14 @@
       "url": "https://www.kugou.com/song/#hash=B1B4CC4F4E90134603CE66CBCF8FA73B",
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 133,
+        "delta": 1,
+        "previousRank": 131,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 132,
@@ -4836,7 +5143,7 @@
     },
     {
       "sourceId": "27106B0CD3268A42968AEBD337BC2271",
-      "rank": 132,
+      "rank": 131,
       "title": "何时才能熬到头",
       "artists": [
         "余音绕梁"
@@ -4845,15 +5152,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261026/20261026162743144652.jpg",
       "url": "https://www.kugou.com/song/#hash=27106B0CD3268A42968AEBD337BC2271",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -83,
-        "previousRank": 49,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 132,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 133,
@@ -4874,7 +5181,7 @@
     },
     {
       "sourceId": "3194D1AA995469BEF8620E96989D6BA8",
-      "rank": 133,
+      "rank": 132,
       "title": "梦哑",
       "artists": [
         "任然"
@@ -4883,15 +5190,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260529/20260529173045488302.jpg",
       "url": "https://www.kugou.com/song/#hash=3194D1AA995469BEF8620E96989D6BA8",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 132,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 133,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 134,
@@ -4912,7 +5219,7 @@
     },
     {
       "sourceId": "C9A5658204BD4E941F3DB2FB132D4968",
-      "rank": 134,
+      "rank": 133,
       "title": "人间共鸣",
       "artists": [
         "李健"
@@ -4922,14 +5229,14 @@
       "url": "https://www.kugou.com/song/#hash=C9A5658204BD4E941F3DB2FB132D4968",
       "sourceMovement": {
         "direction": "up",
-        "delta": 14,
-        "previousRank": 148,
+        "delta": 1,
+        "previousRank": 134,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 135,
@@ -4955,7 +5262,7 @@
     },
     {
       "sourceId": "37A8F50A9EC3B267C3CC6BEC633D9C4A",
-      "rank": 135,
+      "rank": 134,
       "title": "青花瓷",
       "artists": [
         "周杰伦"
@@ -4964,15 +5271,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20220705/20220705143006989099.jpg",
       "url": "https://www.kugou.com/song/#hash=37A8F50A9EC3B267C3CC6BEC633D9C4A",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -10,
-        "previousRank": 125,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 135,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 136,
@@ -4998,7 +5305,7 @@
     },
     {
       "sourceId": "D79E556C176AE1A3ADE8B532810C4CE8",
-      "rank": 136,
+      "rank": 135,
       "title": "有些",
       "artists": [
         "颜人中"
@@ -5007,15 +5314,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20251217/20251217184452437401.jpg",
       "url": "https://www.kugou.com/song/#hash=D79E556C176AE1A3ADE8B532810C4CE8",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -13,
-        "previousRank": 123,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 136,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 137,
@@ -5041,7 +5348,7 @@
     },
     {
       "sourceId": "055A804B8A3CCC05240D08F8FF1F7DE8",
-      "rank": 137,
+      "rank": 136,
       "title": "红色高跟鞋",
       "artists": [
         "蔡健雅"
@@ -5051,14 +5358,14 @@
       "url": "https://www.kugou.com/song/#hash=055A804B8A3CCC05240D08F8FF1F7DE8",
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
-        "previousRank": 141,
+        "delta": 1,
+        "previousRank": 137,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 138,
@@ -5084,7 +5391,7 @@
     },
     {
       "sourceId": "EB494F1F9199AA29F66E056F116D2F1C",
-      "rank": 138,
+      "rank": 137,
       "title": "老男孩",
       "artists": [
         "筷子兄弟"
@@ -5093,15 +5400,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20170727/20170727104528236550.jpg",
       "url": "https://www.kugou.com/song/#hash=EB494F1F9199AA29F66E056F116D2F1C",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 136,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 138,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 139,
@@ -5127,7 +5434,7 @@
     },
     {
       "sourceId": "DDE279AF8DB58030F87ED111E108D8A8",
-      "rank": 139,
+      "rank": 138,
       "title": "风月吻眉梢",
       "artists": [
         "礼越"
@@ -5136,15 +5443,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260921/20260921114332175517.jpg",
       "url": "https://www.kugou.com/song/#hash=DDE279AF8DB58030F87ED111E108D8A8",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -12,
-        "previousRank": 127,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 139,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 140,
@@ -5170,7 +5477,7 @@
     },
     {
       "sourceId": "AB05B8F658851282DCB2CBAD548AEB9B",
-      "rank": 140,
+      "rank": 139,
       "title": "唯一",
       "artists": [
         "G.E.M.邓紫棋"
@@ -5180,14 +5487,14 @@
       "url": "https://www.kugou.com/song/#hash=AB05B8F658851282DCB2CBAD548AEB9B",
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
-        "previousRank": 144,
+        "delta": 1,
+        "previousRank": 140,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 141,
@@ -5213,7 +5520,7 @@
     },
     {
       "sourceId": "D1DFACDE17091D188055EF9B76B6CC2A",
-      "rank": 141,
+      "rank": 140,
       "title": "我在等一个懂我的人 (深情版)",
       "artists": [
         "糖小小",
@@ -5223,15 +5530,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261013/20261013155424421884.jpg",
       "url": "https://www.kugou.com/song/#hash=D1DFACDE17091D188055EF9B76B6CC2A",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
-        "previousRank": 137,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 141,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 142,
@@ -5252,7 +5559,7 @@
     },
     {
       "sourceId": "CDAE8C7E2FAF7F08DC18E78A1D65117B",
-      "rank": 142,
+      "rank": 141,
       "title": "美人鱼",
       "artists": [
         "林俊杰"
@@ -5261,15 +5568,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180752107045.jpg",
       "url": "https://www.kugou.com/song/#hash=CDAE8C7E2FAF7F08DC18E78A1D65117B",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -21,
-        "previousRank": 121,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 142,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 143,
@@ -5295,7 +5602,7 @@
     },
     {
       "sourceId": "44EEFA9AEE76F7116CC48121A178DA69",
-      "rank": 143,
+      "rank": 142,
       "title": "该死的温柔",
       "artists": [
         "马天宇"
@@ -5304,15 +5611,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261029/20261029172021165522.jpg",
       "url": "https://www.kugou.com/song/#hash=44EEFA9AEE76F7116CC48121A178DA69",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 143,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 144,
@@ -5338,7 +5645,7 @@
     },
     {
       "sourceId": "E8EE57D671769402710C4FF9259D841F",
-      "rank": 144,
+      "rank": 143,
       "title": "你瞒我瞒",
       "artists": [
         "陈柏宇"
@@ -5348,14 +5655,14 @@
       "url": "https://www.kugou.com/song/#hash=E8EE57D671769402710C4FF9259D841F",
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 146,
+        "delta": 1,
+        "previousRank": 144,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 145,
@@ -5381,7 +5688,7 @@
     },
     {
       "sourceId": "AD4213BA3BE8C5F55901E2BBB1B6049F",
-      "rank": 145,
+      "rank": 144,
       "title": "故乡的炊烟",
       "artists": [
         "天津李四",
@@ -5391,15 +5698,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261020/20261020180953359691.jpg",
       "url": "https://www.kugou.com/song/#hash=AD4213BA3BE8C5F55901E2BBB1B6049F",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -7,
-        "previousRank": 138,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 145,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 146,
@@ -5414,7 +5721,7 @@
     },
     {
       "sourceId": "64C2E5D33BE5F53758F3E96DC8EEC3C3",
-      "rank": 146,
+      "rank": 145,
       "title": "沦陷",
       "artists": [
         "贾格JuggShots"
@@ -5425,13 +5732,13 @@
       "sourceMovement": {
         "direction": "up",
         "delta": 1,
-        "previousRank": 147,
+        "previousRank": 146,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 147,
@@ -5457,7 +5764,7 @@
     },
     {
       "sourceId": "E4271CB5938F401AA283FBEA49223BF8",
-      "rank": 147,
+      "rank": 146,
       "title": "阴天",
       "artists": [
         "莫文蔚"
@@ -5466,15 +5773,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20230822/20230822173602614845.jpg",
       "url": "https://www.kugou.com/song/#hash=E4271CB5938F401AA283FBEA49223BF8",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -12,
-        "previousRank": 135,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 147,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 148,
@@ -5500,7 +5807,7 @@
     },
     {
       "sourceId": "40CE38D5DB930F404EB26F58978BEC3D",
-      "rank": 148,
+      "rank": 147,
       "title": "不遗憾",
       "artists": [
         "李荣浩"
@@ -5509,15 +5816,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20221207/20221207213831458349.jpg",
       "url": "https://www.kugou.com/song/#hash=40CE38D5DB930F404EB26F58978BEC3D",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 143,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 148,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 149,
@@ -5543,7 +5850,7 @@
     },
     {
       "sourceId": "48729371F20FB048EF4E51D4CD41DBF5",
-      "rank": 149,
+      "rank": 148,
       "title": "红尘客栈",
       "artists": [
         "周杰伦"
@@ -5552,15 +5859,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20231016/20231016111750787075.jpg",
       "url": "https://www.kugou.com/song/#hash=48729371F20FB048EF4E51D4CD41DBF5",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -20,
-        "previousRank": 129,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 149,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 150,
@@ -5586,7 +5893,7 @@
     },
     {
       "sourceId": "8E021794DFD02C48D2C6281A55BCBDC6",
-      "rank": 150,
+      "rank": 149,
       "title": "爱错",
       "artists": [
         "王力宏"
@@ -5595,15 +5902,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121607724523.jpg",
       "url": "https://www.kugou.com/song/#hash=8E021794DFD02C48D2C6281A55BCBDC6",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 145,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 150,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 151,
@@ -5629,7 +5936,7 @@
     },
     {
       "sourceId": "9D8C7468BE4391B85794617090585646",
-      "rank": 151,
+      "rank": 150,
       "title": "疑心病",
       "artists": [
         "任然"
@@ -5639,14 +5946,14 @@
       "url": "https://www.kugou.com/song/#hash=9D8C7468BE4391B85794617090585646",
       "sourceMovement": {
         "direction": "up",
-        "delta": 9,
-        "previousRank": 160,
+        "delta": 1,
+        "previousRank": 151,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 152,
@@ -5672,7 +5979,7 @@
     },
     {
       "sourceId": "AF36A623D725B98893DAEFDF8010F22E",
-      "rank": 152,
+      "rank": 151,
       "title": "戒烟",
       "artists": [
         "李荣浩"
@@ -5681,15 +5988,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20211008/20211008210305121050.jpg",
       "url": "https://www.kugou.com/song/#hash=AF36A623D725B98893DAEFDF8010F22E",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -18,
-        "previousRank": 134,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 152,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 153,
@@ -5710,7 +6017,7 @@
     },
     {
       "sourceId": "8F323B0610BE8D862B7CBB41C3398766",
-      "rank": 153,
+      "rank": 152,
       "title": "We Don't Talk Anymore (Mr. Collipark Remix)",
       "artists": [
         "Charlie Puth",
@@ -5720,15 +6027,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250813/20250813073642531553.jpg",
       "url": "https://www.kugou.com/song/#hash=8F323B0610BE8D862B7CBB41C3398766",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -13,
-        "previousRank": 140,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 153,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 154,
@@ -5749,7 +6056,7 @@
     },
     {
       "sourceId": "244A022D6CB3FDE50B24E76402053EB3",
-      "rank": 154,
+      "rank": 153,
       "title": "琵琶曲",
       "artists": [
         "郑浩",
@@ -5759,15 +6066,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260326/20260326181841360691.jpg",
       "url": "https://www.kugou.com/song/#hash=244A022D6CB3FDE50B24E76402053EB3",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -28,
-        "previousRank": 126,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 154,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 155,
@@ -5793,7 +6100,7 @@
     },
     {
       "sourceId": "0C57DE35C3CB2A32A8CF634E4F8309C4",
-      "rank": 155,
+      "rank": 154,
       "title": "带我走",
       "artists": [
         "杨丞琳"
@@ -5802,15 +6109,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121758285156.jpg",
       "url": "https://www.kugou.com/song/#hash=0C57DE35C3CB2A32A8CF634E4F8309C4",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 150,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 155,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 156,
@@ -5836,7 +6143,7 @@
     },
     {
       "sourceId": "705B2F19F68DAB45592AC917E3E11350",
-      "rank": 156,
+      "rank": 155,
       "title": "99",
       "artists": [
         "TizzyT"
@@ -5845,15 +6152,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250829/20250829104511747636.jpg",
       "url": "https://www.kugou.com/song/#hash=705B2F19F68DAB45592AC917E3E11350",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 151,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 156,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 157,
@@ -5874,7 +6181,7 @@
     },
     {
       "sourceId": "87BB61A0D6CFDA8A1C47E83EBFDD653A",
-      "rank": 157,
+      "rank": 156,
       "title": "TAKE ME",
       "artists": [
         "G-DRAGON"
@@ -5883,15 +6190,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250225/20250225100818733551.jpg",
       "url": "https://www.kugou.com/song/#hash=87BB61A0D6CFDA8A1C47E83EBFDD653A",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -33,
-        "previousRank": 124,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 157,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 158,
@@ -5917,7 +6224,7 @@
     },
     {
       "sourceId": "150EE5E18C6209C0FF14122C041FC4FA",
-      "rank": 158,
+      "rank": 157,
       "title": "Not too bad",
       "artists": [
         "一口人"
@@ -5927,14 +6234,14 @@
       "url": "https://www.kugou.com/song/#hash=150EE5E18C6209C0FF14122C041FC4FA",
       "sourceMovement": {
         "direction": "up",
-        "delta": 37,
-        "previousRank": 195,
+        "delta": 1,
+        "previousRank": 158,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 159,
@@ -5949,7 +6256,7 @@
     },
     {
       "sourceId": "F17C489C53382E608F9CBB3ED9F6D2AA",
-      "rank": 159,
+      "rank": 158,
       "title": "第57次取消发送",
       "artists": [
         "菲菲公主（陆绮菲）"
@@ -5958,15 +6265,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250506/20250506154942932783.jpg",
       "url": "https://www.kugou.com/song/#hash=F17C489C53382E608F9CBB3ED9F6D2AA",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -5,
-        "previousRank": 154,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 159,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 160,
@@ -5992,7 +6299,7 @@
     },
     {
       "sourceId": "B0927C5353E9DD8BD72242BB730DAFF4",
-      "rank": 160,
+      "rank": 159,
       "title": "体面",
       "artists": [
         "于文文"
@@ -6001,15 +6308,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20171221/20171221090821129644.jpg",
       "url": "https://www.kugou.com/song/#hash=B0927C5353E9DD8BD72242BB730DAFF4",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 158,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 160,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 161,
@@ -6035,7 +6342,7 @@
     },
     {
       "sourceId": "F7F1EA6148076AD69EB4310BF41F2CB1",
-      "rank": 161,
+      "rank": 160,
       "title": "一亩晚田",
       "artists": [
         "金多"
@@ -6044,15 +6351,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261013/20261013172521150813.jpg",
       "url": "https://www.kugou.com/song/#hash=F7F1EA6148076AD69EB4310BF41F2CB1",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -60,
-        "previousRank": 101,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 161,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 162,
@@ -6067,7 +6374,7 @@
     },
     {
       "sourceId": "472FF9D57BCE90288EC88CBE100BCB2A",
-      "rank": 162,
+      "rank": 161,
       "title": "童话",
       "artists": [
         "光良"
@@ -6077,14 +6384,14 @@
       "url": "https://www.kugou.com/song/#hash=472FF9D57BCE90288EC88CBE100BCB2A",
       "sourceMovement": {
         "direction": "up",
-        "delta": 12,
-        "previousRank": 174,
+        "delta": 1,
+        "previousRank": 162,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 163,
@@ -6110,7 +6417,7 @@
     },
     {
       "sourceId": "52ED380B09C692BDF4CE65FD56D918F3",
-      "rank": 163,
+      "rank": 162,
       "title": "等一分钟",
       "artists": [
         "徐誉滕"
@@ -6120,14 +6427,14 @@
       "url": "https://www.kugou.com/song/#hash=52ED380B09C692BDF4CE65FD56D918F3",
       "sourceMovement": {
         "direction": "up",
-        "delta": 17,
-        "previousRank": 180,
+        "delta": 1,
+        "previousRank": 163,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 164,
@@ -6153,7 +6460,7 @@
     },
     {
       "sourceId": "F73630B79647324AB3415C21BFA5BD3D",
-      "rank": 164,
+      "rank": 163,
       "title": "此生不换",
       "artists": [
         "青鸟飞鱼"
@@ -6163,14 +6470,14 @@
       "url": "https://www.kugou.com/song/#hash=F73630B79647324AB3415C21BFA5BD3D",
       "sourceMovement": {
         "direction": "up",
-        "delta": 14,
-        "previousRank": 178,
+        "delta": 1,
+        "previousRank": 164,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 165,
@@ -6196,7 +6503,7 @@
     },
     {
       "sourceId": "E400C3F475001BA5B0F197F2E1923F47",
-      "rank": 165,
+      "rank": 164,
       "title": "只对你有感觉",
       "artists": [
         "飞轮海",
@@ -6207,14 +6514,14 @@
       "url": "https://www.kugou.com/song/#hash=E400C3F475001BA5B0F197F2E1923F47",
       "sourceMovement": {
         "direction": "up",
-        "delta": 10,
-        "previousRank": 175,
+        "delta": 1,
+        "previousRank": 165,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 166,
@@ -6240,7 +6547,7 @@
     },
     {
       "sourceId": "DC939521FA5F5736A33765D56B90E03C",
-      "rank": 166,
+      "rank": 165,
       "title": "冷夜",
       "artists": [
         "陈默之"
@@ -6250,14 +6557,14 @@
       "url": "https://www.kugou.com/song/#hash=DC939521FA5F5736A33765D56B90E03C",
       "sourceMovement": {
         "direction": "up",
-        "delta": 11,
-        "previousRank": 177,
+        "delta": 1,
+        "previousRank": 166,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 167,
@@ -6283,7 +6590,7 @@
     },
     {
       "sourceId": "75EA10E7339DA290A5D3AA707C4E2713",
-      "rank": 167,
+      "rank": 166,
       "title": "金玉良缘",
       "artists": [
         "李琦"
@@ -6292,15 +6599,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20200909/20200909115111466517.jpg",
       "url": "https://www.kugou.com/song/#hash=75EA10E7339DA290A5D3AA707C4E2713",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -4,
-        "previousRank": 163,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 167,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 168,
@@ -6326,7 +6633,7 @@
     },
     {
       "sourceId": "0F7A79ADAAEEB6EA1DA3E19DD637FD73",
-      "rank": 168,
+      "rank": 167,
       "title": "特别的人",
       "artists": [
         "方大同"
@@ -6335,15 +6642,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20210901/20210901172502839152.jpg",
       "url": "https://www.kugou.com/song/#hash=0F7A79ADAAEEB6EA1DA3E19DD637FD73",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -16,
-        "previousRank": 152,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 168,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 169,
@@ -6369,7 +6676,7 @@
     },
     {
       "sourceId": "BBFE9596615ADE83FF6B117831C45E4D",
-      "rank": 169,
+      "rank": 168,
       "title": "光辉岁月",
       "artists": [
         "BEYOND"
@@ -6379,14 +6686,14 @@
       "url": "https://www.kugou.com/song/#hash=BBFE9596615ADE83FF6B117831C45E4D",
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
-        "previousRank": 172,
+        "delta": 1,
+        "previousRank": 169,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 170,
@@ -6412,7 +6719,7 @@
     },
     {
       "sourceId": "33E67CD9B775093E93CBABBD649DF087",
-      "rank": 170,
+      "rank": 169,
       "title": "你就不要想起我",
       "artists": [
         "田馥甄"
@@ -6421,15 +6728,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20210604/20210604165204154611.jpg",
       "url": "https://www.kugou.com/song/#hash=33E67CD9B775093E93CBABBD649DF087",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -2,
-        "previousRank": 168,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 170,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 171,
@@ -6455,7 +6762,7 @@
     },
     {
       "sourceId": "16A4E4895905B703AC0F31007A495D4C",
-      "rank": 171,
+      "rank": 170,
       "title": "Always Online",
       "artists": [
         "林俊杰"
@@ -6464,15 +6771,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241118/20241118160625225560.jpg",
       "url": "https://www.kugou.com/song/#hash=16A4E4895905B703AC0F31007A495D4C",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -12,
-        "previousRank": 159,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 171,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 172,
@@ -6498,7 +6805,7 @@
     },
     {
       "sourceId": "E5F0905C662872A9B05A423FD1ED48B5",
-      "rank": 172,
+      "rank": 171,
       "title": "不将就",
       "artists": [
         "李荣浩"
@@ -6507,15 +6814,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250808/20250808181823962480.jpg",
       "url": "https://www.kugou.com/song/#hash=E5F0905C662872A9B05A423FD1ED48B5",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 171,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 172,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 173,
@@ -6541,7 +6848,7 @@
     },
     {
       "sourceId": "C41E80A18D1448FA47086372999C7F43",
-      "rank": 173,
+      "rank": 172,
       "title": "海阔天空",
       "artists": [
         "BEYOND"
@@ -6550,15 +6857,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20240428/20240428110704635631.jpg",
       "url": "https://www.kugou.com/song/#hash=C41E80A18D1448FA47086372999C7F43",
       "sourceMovement": {
-        "direction": "same",
-        "delta": 0,
+        "direction": "up",
+        "delta": 1,
         "previousRank": 173,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 174,
@@ -6584,7 +6891,7 @@
     },
     {
       "sourceId": "E3ED52965CEE83A40D73C5FB1DA7FF62",
-      "rank": 174,
+      "rank": 173,
       "title": "来不及爱你",
       "artists": [
         "h3R3刘清云"
@@ -6594,14 +6901,14 @@
       "url": "https://www.kugou.com/song/#hash=E3ED52965CEE83A40D73C5FB1DA7FF62",
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
-        "previousRank": 176,
+        "delta": 1,
+        "previousRank": 174,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 175,
@@ -6622,7 +6929,7 @@
     },
     {
       "sourceId": "761C1EAFBD1E22504B487F84D2152DF5",
-      "rank": 175,
+      "rank": 174,
       "title": "天外来物",
       "artists": [
         "薛之谦"
@@ -6631,15 +6938,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20201231/20201231105006379600.jpg",
       "url": "https://www.kugou.com/song/#hash=761C1EAFBD1E22504B487F84D2152DF5",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -14,
-        "previousRank": 161,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 175,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 176,
@@ -6665,7 +6972,7 @@
     },
     {
       "sourceId": "BA9D67DAB59FA6DCE243F4B6B70ACA95",
-      "rank": 176,
+      "rank": 175,
       "title": "至少还有你",
       "artists": [
         "林忆莲"
@@ -6675,14 +6982,14 @@
       "url": "https://www.kugou.com/song/#hash=BA9D67DAB59FA6DCE243F4B6B70ACA95",
       "sourceMovement": {
         "direction": "up",
-        "delta": 6,
-        "previousRank": 182,
+        "delta": 1,
+        "previousRank": 176,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 177,
@@ -6708,7 +7015,7 @@
     },
     {
       "sourceId": "243AABC48B40593DF6EF4E34739CE2E9",
-      "rank": 177,
+      "rank": 176,
       "title": "月亮替我望故乡",
       "artists": [
         "烟嗓船长"
@@ -6718,14 +7025,14 @@
       "url": "https://www.kugou.com/song/#hash=243AABC48B40593DF6EF4E34739CE2E9",
       "sourceMovement": {
         "direction": "up",
-        "delta": 11,
-        "previousRank": 188,
+        "delta": 1,
+        "previousRank": 177,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 178,
@@ -6740,7 +7047,7 @@
     },
     {
       "sourceId": "4476FAA4B6567CCC2292BFBBCA93CB9C",
-      "rank": 178,
+      "rank": 177,
       "title": "灰色轨迹",
       "artists": [
         "BEYOND"
@@ -6749,15 +7056,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250213/20250213091902691104.jpg",
       "url": "https://www.kugou.com/song/#hash=4476FAA4B6567CCC2292BFBBCA93CB9C",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -9,
-        "previousRank": 169,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 178,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 179,
@@ -6778,7 +7085,7 @@
     },
     {
       "sourceId": "352EC624F902C82B0306D5451571E647",
-      "rank": 179,
+      "rank": 178,
       "title": "不懂事",
       "artists": [
         "吴炳文"
@@ -6787,15 +7094,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260611/20260611064635671132.jpg",
       "url": "https://www.kugou.com/song/#hash=352EC624F902C82B0306D5451571E647",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -37,
-        "previousRank": 142,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 179,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 180,
@@ -6821,7 +7128,7 @@
     },
     {
       "sourceId": "8B692206A1B4B1736D32B412C5BB0D97",
-      "rank": 180,
+      "rank": 179,
       "title": "也会有人代替你",
       "artists": [
         "供销社乐队"
@@ -6830,15 +7137,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261013/20261013183207527630.jpg",
       "url": "https://www.kugou.com/song/#hash=8B692206A1B4B1736D32B412C5BB0D97",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 180,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 181,
@@ -6853,7 +7160,7 @@
     },
     {
       "sourceId": "242E0311ECD1C04A3DCF240165475CD9",
-      "rank": 181,
+      "rank": 180,
       "title": "落花雨 (尘飞舞缓落旧纸扇)",
       "artists": [
         "姜姜"
@@ -6862,15 +7169,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20240929/20240929111551863210.jpg",
       "url": "https://www.kugou.com/song/#hash=242E0311ECD1C04A3DCF240165475CD9",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -11,
-        "previousRank": 170,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 181,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 182,
@@ -6896,7 +7203,7 @@
     },
     {
       "sourceId": "48EF3BB46843986426229698EA2D4DCB",
-      "rank": 182,
+      "rank": 181,
       "title": "We Never (芷若初見)",
       "artists": [
         "C019c"
@@ -6906,14 +7213,14 @@
       "url": "https://www.kugou.com/song/#hash=48EF3BB46843986426229698EA2D4DCB",
       "sourceMovement": {
         "direction": "up",
-        "delta": 12,
-        "previousRank": 194,
+        "delta": 1,
+        "previousRank": 182,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 183,
@@ -6928,7 +7235,7 @@
     },
     {
       "sourceId": "3378039942BA822731531F34BACF9CA1",
-      "rank": 183,
+      "rank": 182,
       "title": "Call You Tonight",
       "artists": [
         "Whitney Houston"
@@ -6937,15 +7244,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180717147019.jpg",
       "url": "https://www.kugou.com/song/#hash=3378039942BA822731531F34BACF9CA1",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 183,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 184,
@@ -6971,7 +7278,7 @@
     },
     {
       "sourceId": "81E5A1C3B9E016D61FE91B809B4A7DC1",
-      "rank": 184,
+      "rank": 183,
       "title": "千千阕歌",
       "artists": [
         "陈慧娴"
@@ -6981,14 +7288,14 @@
       "url": "https://www.kugou.com/song/#hash=81E5A1C3B9E016D61FE91B809B4A7DC1",
       "sourceMovement": {
         "direction": "up",
-        "delta": 5,
-        "previousRank": 189,
+        "delta": 1,
+        "previousRank": 184,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 185,
@@ -7014,7 +7321,7 @@
     },
     {
       "sourceId": "9437F148C3AA0DFFBB4C9F33EA3BD98B",
-      "rank": 185,
+      "rank": 184,
       "title": "若遗憾真能被时间冲淡",
       "artists": [
         "肖雨蒙"
@@ -7023,15 +7330,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261024/20261024113332178260.jpg",
       "url": "https://www.kugou.com/song/#hash=9437F148C3AA0DFFBB4C9F33EA3BD98B",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 185,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 186,
@@ -7046,7 +7353,7 @@
     },
     {
       "sourceId": "594B915AEEDA7DA8F5BD70B63EA76EAD",
-      "rank": 186,
+      "rank": 185,
       "title": "Fever Pitch",
       "artists": [
         "Richz"
@@ -7055,15 +7362,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260812/20260812174442213058.jpg",
       "url": "https://www.kugou.com/song/#hash=594B915AEEDA7DA8F5BD70B63EA76EAD",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 186,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 187,
@@ -7084,7 +7391,7 @@
     },
     {
       "sourceId": "5971DE0B235D5B2708D6A6FEB3D31B6F",
-      "rank": 187,
+      "rank": 186,
       "title": "退后",
       "artists": [
         "周杰伦"
@@ -7094,14 +7401,14 @@
       "url": "https://www.kugou.com/song/#hash=5971DE0B235D5B2708D6A6FEB3D31B6F",
       "sourceMovement": {
         "direction": "up",
-        "delta": 11,
-        "previousRank": 198,
+        "delta": 1,
+        "previousRank": 187,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 188,
@@ -7127,7 +7434,7 @@
     },
     {
       "sourceId": "0D7E8C11C961A17EB8779FEB0CA772E3",
-      "rank": 188,
+      "rank": 187,
       "title": "枫",
       "artists": [
         "周杰伦"
@@ -7137,14 +7444,14 @@
       "url": "https://www.kugou.com/song/#hash=0D7E8C11C961A17EB8779FEB0CA772E3",
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
-        "previousRank": 192,
+        "delta": 1,
+        "previousRank": 188,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 189,
@@ -7170,7 +7477,7 @@
     },
     {
       "sourceId": "5D4C2F9D994E5BECDC9BA0FBC6BD3DD8",
-      "rank": 189,
+      "rank": 188,
       "title": "岁月如笔写春秋",
       "artists": [
         "河南三妹5233"
@@ -7179,15 +7486,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260528/20260528212904938023.jpg",
       "url": "https://www.kugou.com/song/#hash=5D4C2F9D994E5BECDC9BA0FBC6BD3DD8",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -3,
-        "previousRank": 186,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 189,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 190,
@@ -7208,7 +7515,7 @@
     },
     {
       "sourceId": "A823AE8D84854FD2EB5B8E599D1263FA",
-      "rank": 190,
+      "rank": 189,
       "title": "碎碎念",
       "artists": [
         "队长"
@@ -7217,15 +7524,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20231107/20231107223800767836.jpg",
       "url": "https://www.kugou.com/song/#hash=A823AE8D84854FD2EB5B8E599D1263FA",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -11,
-        "previousRank": 179,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 190,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 191,
@@ -7251,7 +7558,7 @@
     },
     {
       "sourceId": "8141FAA45AAD5BCFF5FF9873B89709E3",
-      "rank": 191,
+      "rank": 190,
       "title": "搁浅",
       "artists": [
         "周杰伦"
@@ -7260,15 +7567,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121745628430.jpg",
       "url": "https://www.kugou.com/song/#hash=8141FAA45AAD5BCFF5FF9873B89709E3",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -8,
-        "previousRank": 183,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 191,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 192,
@@ -7294,7 +7601,7 @@
     },
     {
       "sourceId": "8C6AAC48FB5C3759042E4C8699544C6F",
-      "rank": 192,
+      "rank": 191,
       "title": "你还要我怎样",
       "artists": [
         "薛之谦"
@@ -7303,15 +7610,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20200407/20200407151818862082.jpg",
       "url": "https://www.kugou.com/song/#hash=8C6AAC48FB5C3759042E4C8699544C6F",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 191,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 192,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 193,
@@ -7337,7 +7644,7 @@
     },
     {
       "sourceId": "00751DE0946619BCDE4A4E15397F2A15",
-      "rank": 193,
+      "rank": 192,
       "title": "我走后",
       "artists": [
         "小咪"
@@ -7346,15 +7653,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20230509/20230509113801471896.jpg",
       "url": "https://www.kugou.com/song/#hash=00751DE0946619BCDE4A4E15397F2A15",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 193,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 194,
@@ -7380,7 +7687,7 @@
     },
     {
       "sourceId": "6348CF4041BEE19FAD536C563C32695A",
-      "rank": 194,
+      "rank": 193,
       "title": "Creepin' up on You",
       "artists": [
         "Darren Hayes"
@@ -7389,15 +7696,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250221/20250221180749240505.jpg",
       "url": "https://www.kugou.com/song/#hash=6348CF4041BEE19FAD536C563C32695A",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -7,
-        "previousRank": 187,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 194,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 195,
@@ -7423,7 +7730,7 @@
     },
     {
       "sourceId": "474307D6EDA9AC20E62AE290F8718216",
-      "rank": 195,
+      "rank": 194,
       "title": "现在的我",
       "artists": [
         "承桓"
@@ -7432,15 +7739,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261008/20261008145218722150.jpg",
       "url": "https://www.kugou.com/song/#hash=474307D6EDA9AC20E62AE290F8718216",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 195,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 196,
@@ -7455,7 +7762,7 @@
     },
     {
       "sourceId": "70425DF5F0C9FCED5E0468189A7F4A70",
-      "rank": 196,
+      "rank": 195,
       "title": "如果可以",
       "artists": [
         "韦礼安"
@@ -7464,15 +7771,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20241221/20241221081617285149.jpg",
       "url": "https://www.kugou.com/song/#hash=70425DF5F0C9FCED5E0468189A7F4A70",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -6,
-        "previousRank": 190,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 196,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 197,
@@ -7498,7 +7805,7 @@
     },
     {
       "sourceId": "DFA780605FE78F1572761712931024A7",
-      "rank": 197,
+      "rank": 196,
       "title": "我不该动情",
       "artists": [
         "老板"
@@ -7507,15 +7814,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260630/20260630153113698341.jpg",
       "url": "https://www.kugou.com/song/#hash=DFA780605FE78F1572761712931024A7",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 197,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 198,
@@ -7536,7 +7843,7 @@
     },
     {
       "sourceId": "966C718DA96EE29B3B466F773BFA9E2F",
-      "rank": 198,
+      "rank": 197,
       "title": "说了再见",
       "artists": [
         "周杰伦"
@@ -7545,15 +7852,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20250125/20250125121628799968.jpg",
       "url": "https://www.kugou.com/song/#hash=966C718DA96EE29B3B466F773BFA9E2F",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -13,
-        "previousRank": 185,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 198,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 199,
@@ -7579,7 +7886,7 @@
     },
     {
       "sourceId": "2AEE05C92035800815DE6AFEE285FD0B",
-      "rank": 199,
+      "rank": 198,
       "title": "像我这样爱你的人",
       "artists": [
         "落日微醺本薰",
@@ -7589,15 +7896,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260729/20260729185424240711.jpg",
       "url": "https://www.kugou.com/song/#hash=2AEE05C92035800815DE6AFEE285FD0B",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -35,
-        "previousRank": 164,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 199,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 200,
@@ -7618,7 +7925,7 @@
     },
     {
       "sourceId": "ED0A26B571E6024F9B752787BE32D681",
-      "rank": 200,
+      "rank": 199,
       "title": "月声尽，心灯明",
       "artists": [
         "鸣潮先约电台",
@@ -7629,15 +7936,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20260924/20260924231711500123.jpg",
       "url": "https://www.kugou.com/song/#hash=ED0A26B571E6024F9B752787BE32D681",
       "sourceMovement": {
-        "direction": "down",
-        "delta": -33,
-        "previousRank": 167,
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 200,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-02",
+        "comparisonDate": "2026-11-03",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-03T07:54:35.657Z",
-        "previousObservedAt": "2026-11-02T08:27:02.910Z",
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 201,
@@ -7655,11 +7962,54 @@
         ]
       },
       "songId": "598203ef3bc64aaa978c"
+    },
+    {
+      "sourceId": "90D82FB9EB6C1F5385F6F086318EE1FA",
+      "rank": 200,
+      "title": "没那么简单",
+      "artists": [
+        "黄小琥"
+      ],
+      "album": null,
+      "artwork": "https://imge.kugou.com/stdmusic/400/20250813/20250813071044410469.jpg",
+      "url": "https://www.kugou.com/song/#hash=90D82FB9EB6C1F5385F6F086318EE1FA",
+      "sourceMovement": {
+        "direction": "new",
+        "delta": null,
+        "previousRank": null,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-03",
+        "comparisonDepth": 200,
+        "currentObservedAt": "2026-11-03T20:06:29.618Z",
+        "previousObservedAt": "2026-11-03T07:54:35.657Z",
+        "comparisonUsesCache": false,
+        "raw": {
+          "sort": 202,
+          "last_sort": 244
+        }
+      },
+      "mv": {
+        "status": "linked",
+        "items": [
+          {
+            "id": "5677377",
+            "hash": "79B1EFCCD21D94054F84CC0DB1071ABE",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "6092115AD877959A45030C9D536A7805",
+            "url": null
+          }
+        ]
+      },
+      "songId": "16b1bc0130f635f4ebc3"
     }
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-03T07:54:35.657Z",
+  "attemptedAt": "2026-11-03T20:06:29.618Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7668,6 +8018,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T07:54:35.657Z"
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-03T20:06:29.618Z"
 }
