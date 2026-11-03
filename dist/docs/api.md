@@ -114,6 +114,8 @@ v1.3 及以前仍按各自保存的数字 `rankDepth` 和原公式解释。比�
 
 平台响应包含 `id/name/chartName/sourceUrl/status/count/ingestion/entries`。`collectionDepth/count` 为实际保存的窗口深度与条目数，`declaredCount` 为官方声明的整张榜单数量；例如酷狗可以是 `count: 200, declaredCount: 500`。未知的旧记录可能没有 `declaredCount`。`fetchedAt` 是实际采集时间，`sourceUpdatedAt` 是平台返回的更新时间（Apple RSS 响应时间不等于排名刷新时间），`sourcePeriod` 是榜期原文。
 
+酷我的 `sourceEditionExpires: false` 表示官方原榜期不按年龄自动过期：本次正常读取完整榜单即可继续计分，原 `sourcePeriod` 不变。读取失败时，缓存仍受 `maxAgeHours` 的真实成功观察年龄限制。`coverage.fresh` 统计本次成功观察的平台数，不表示这些平台的榜期或排名都刚刚更新。
+
 | 来源状态 | 是否参与已发布日分 | 含义 |
 | --- | --- | --- |
 | `ok` | 是 | 本次成功采集或显式导入完整榜单 |

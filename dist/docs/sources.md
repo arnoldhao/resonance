@@ -5,7 +5,7 @@
 | QQ 音乐 | [热歌榜](https://y.qq.com/n/ryqq/toplist/26) | `26` | 200 | 每日 |
 | 网易云音乐 | [热歌榜](https://music.163.com/discover/toplist?id=3778678) | `3778678` | 200 | 每日，统计窗口为一周 |
 | 酷狗音乐 | [TOP500](https://www.kugou.com/yy/rank/home/1-8888.html) | `8888` | 200 | 每日 |
-| 酷我音乐 | [热歌榜](https://m.kuwo.cn/newh5app/ranklist) | `16` | 200 | 保存平台返回的日期期次 |
+| 酷我音乐 | [热歌榜](https://m.kuwo.cn/newh5app/ranklist) | `16` | 200 | 官网说明每日更新，保存实际返回的日期期次 |
 | Apple Music | [中国区 most-played RSS](https://rss.marketingtools.apple.com/api/v2/cn/music/most-played/100/songs.json) | `cn/music/most-played` | 100 | 以 RSS 时间为准 |
 | 汽水音乐 | [官方热歌周榜](https://api.qishui.com/luna/pc/charts/7036274230471712007?aid=386088&app_name=luna_pc&region=cn&device_platform=web) | `7036274230471712007` | 50 | 每周 |
 
@@ -74,7 +74,7 @@ Actions 使用 Node 的 `--network-family-autoselection-attempt-timeout=2000`，
 
 这些官方域名上的接口不承诺持续开放。网络、解析或完整性检查失败时，从已保存的真实成功观察中寻找该平台最近一份仍在有效窗口内的完整榜单，包括当天较早的 `data/runs/`，以及 `data/daily/`。只使用 `mode: live`、`status: ok`、`ingestion: public/import` 的观察，不使用示例、事后回填、未来记录或另一份缓存来延长有效期。
 
-可沿用时标记 `status: stale`、`ingestion: cache`，保存本次 `collectionError` 和 `cacheOrigin`，原 `fetchedAt/sourceUpdatedAt/sourcePeriod` 不变。成功观察距本次尝试、源榜期距本次尝试都必须在配置窗口内：汽水 216 小时，其他平台 48 小时。没有时区的日期期次按日历日期差判断，不虚构发榜时刻；未知源时间仍明确为未知，至少限制真实观察年龄。超期或从未采集成功时标记 `error`，不伪造空榜投票，也不以另一榜单代替。
+可沿用时标记 `status: stale`、`ingestion: cache`，保存本次 `collectionError` 和 `cacheOrigin`，原 `fetchedAt/sourceUpdatedAt/sourcePeriod` 不变。成功观察距本次尝试必须在配置窗口内：汽水 216 小时，其他平台 48 小时。除酷我外，源榜期距本次尝试也须在同一窗口内；酷我设置 `sourceEditionExpires: false`，正常读取到官方未更新的榜单时保留原榜期继续计分，不因榜期较旧排除。没有时区的日期期次按日历日期差判断，不虚构发榜时刻；未知源时间仍明确为未知。读取失败时的历史观察年龄限制仍然适用。超期或从未采集成功时标记 `error`，不伪造空榜投票，也不以另一榜单代替。
 
 沿用数据参与评分，但采集步骤仍返回失败状态；工作流保留诊断和可发布的榜单后报告失败。`coverage.fresh/cached` 区分本次成功与历史沿用。即使全部六源都有可沿用的记录，`fresh: 0` 也必须披露为全部历史沿用，不能声称实时或本次六源采集成功。字段定义见 [API 文档](api.md)。
 
@@ -91,3 +91,9 @@ Actions 使用 Node 的 `--network-family-autoselection-attempt-timeout=2000`，
 [16:31 的 Actions 运行](https://github.com/arnoldhao/resonance/actions/runs/39925215015)中，汽水采集成功，Apple RSS 请求触发原有的 20 秒超时，沿用 15:39 的成功观察。采集步骤耗时约 21 秒，与该超时边界吻合。单次公开请求时限现放宽到 60 秒，为偶发慢响应保留余量；历史沿用、数据完整性和失败判定规则保持原要求。
 
 [16:38 的 Actions 运行](https://github.com/arnoldhao/resonance/actions/runs/39926041873)中，酷我返回两个 IPv4 地址的 `connect ETIMEDOUT`，以及两个 IPv6 地址的 `ENETUNREACH`。整个采集步骤仅耗时约 2 秒，未触及 60 秒请求总时限。这与 Node 默认 250 毫秒的候选地址连接窗口过短、IPv6 无可用路由的情况吻合；据此将 Actions 中的地址连接窗口放宽到 2 秒，效果待后续采集确认。该日志不能单独证明酷我主动限制 GitHub IP。
+
+### 2026-11-03 失败记录
+
+[本轮 Actions 运行](https://github.com/arnoldhao/resonance/actions/runs/41579111099)中，酷狗返回同一榜期 `2026-11-03 08:30:00` 的 200 首，但原始 `sort` 缺少 88、末条为 201。对照[官网第 4 页](https://www.kugou.com/yy/rank/home/4-8888.html)，同一首《一直很安静》在官网显示为第 88 名，接口原始 `sort` 则为 89；官网当前榜单按可见列表连续编号。实时采集据此按单次响应的列表顺序记录前 200 名，仍检查榜期一致、原始名次递增、曲目不重复及实收数量。`sourceMovement.raw.sort/last_sort` 保留接口原字段；显示名次与原始 `sort` 不同时，不把原字段的差值当作显示名次的官方涨跌，由已有的昨日快照比较规则处理。历史回填继续保留源榜原名次与缺号，不受此调整影响。
+
+酷我的[官方热歌榜页面](https://m.kuwo.cn/newh5app/ranklist_detail/16)与公开接口均仍显示 `2026-10-31`，不是请求时间或本地缓存被误当作榜期。[官网榜单目录](https://www.kuwo.cn/rankList)虽说明热歌榜每日更新，实际更新仍由平台决定。采集代码现将酷我榜期设为不自动过期：正常读取后保留 `2026-10-31` 原值、继续参与计分，不将“官方没有更新”判作采集失败。该规则直接由代码执行，无需 AI 判断；读取失败时仍按真实成功观察的年龄判断是否可沿用缓存。其他来源的新鲜度错误同时记录榜期、源更新时间、读取时间和有效窗口。
