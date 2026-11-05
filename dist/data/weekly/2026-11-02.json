@@ -2,7 +2,7 @@
   "weekStart": "2026-11-02",
   "weekEnd": "2026-11-08",
   "mode": "live",
-  "generatedAt": "2026-11-05T04:11:16.668Z",
+  "generatedAt": "2026-11-05T04:14:29.052Z",
   "asOfDate": "2026-11-05",
   "status": "provisional",
   "entryHistoryStart": "2026-10-19",
@@ -71,22 +71,22 @@
       {
         "date": "2026-11-02",
         "version": "1.4",
-        "comparisonSignature": "1.4|088029a4d14d|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|890981a94459|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-03",
         "version": "1.4",
-        "comparisonSignature": "1.4|088029a4d14d|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|890981a94459|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-04",
         "version": "1.4",
-        "comparisonSignature": "1.4|088029a4d14d|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|890981a94459|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-05",
         "version": "1.4",
-        "comparisonSignature": "1.4|088029a4d14d|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|890981a94459|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       }
     ],
     "formula": "周得分 = 各有效日按当日保存公式计算的得分之和 ÷ 有效天数；公式升级不排除历史日期，缺失日与无效日不进入分母",
@@ -120,7 +120,7 @@
       "qishui": 0.1
     }
   },
-  "comparisonSignature": "1.4|088029a4d14d|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
+  "comparisonSignature": "1.4|890981a94459|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
   "coverage": {
     "observedDays": 4,
     "expectedDays": 7,
@@ -5416,7 +5416,7 @@
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000034h3c72cswaP.jpg",
       "rank": 19,
-      "score": 31.0794,
+      "score": 31.1442,
       "daysOnChart": 4,
       "rankTrend": [
         {
@@ -5579,6 +5579,49 @@
           "collectionError": null,
           "cacheOrigin": null,
           "includedDate": "2026-11-05"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 142,
+          "sourceId": "10647865",
+          "url": "https://www.kuwo.cn/play_detail/10647865",
+          "eligible": true,
+          "weight": 0.05,
+          "score": 3.6015437281241103,
+          "contribution": 0.1800771864062055,
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 41,
+            "previousRank": 183,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-04",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-05T04:10:28.337Z",
+            "previousObservedAt": "2026-11-04T07:29:24.233Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "41",
+              "trend": "u0",
+              "isnew": "0",
+              "highest_rank": "142"
+            }
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-05T04:10:28.337Z",
+          "observedDate": "2026-11-05",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-05",
+          "attemptedAt": "2026-11-05T04:10:28.337Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-05"
         }
       ],
       "dailyScores": [
@@ -5592,11 +5635,11 @@
         },
         {
           "date": "2026-11-04",
-          "score": 36.9301
+          "score": 37.0094
         },
         {
           "date": "2026-11-05",
-          "score": 40.1018
+          "score": 40.2819
         }
       ],
       "previousRank": null,
