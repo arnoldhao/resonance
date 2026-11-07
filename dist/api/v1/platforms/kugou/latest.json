@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-07T04:20:52.172Z",
+  "fetchedAt": "2026-11-07T07:08:21.006Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-07 08:30:01",
   "entries": [
@@ -2006,7 +2006,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-06",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-07T04:20:52.172Z",
+        "currentObservedAt": "2026-11-07T07:08:21.006Z",
         "previousObservedAt": "2026-11-06T07:55:05.471Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -3570,7 +3570,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-06",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-07T04:20:52.172Z",
+        "currentObservedAt": "2026-11-07T07:08:21.006Z",
         "previousObservedAt": "2026-11-06T07:55:05.471Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -4399,7 +4399,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-06",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-07T04:20:52.172Z",
+        "currentObservedAt": "2026-11-07T07:08:21.006Z",
         "previousObservedAt": "2026-11-06T07:55:05.471Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -4408,8 +4408,14 @@
         }
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "18534997",
+            "hash": "9795C532326D9952F7089777F8F6B6F4",
+            "url": null
+          }
+        ]
       },
       "songId": "d78a66ec7e3b5fb02f4a"
     },
@@ -4752,7 +4758,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-06",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-07T04:20:52.172Z",
+        "currentObservedAt": "2026-11-07T07:08:21.006Z",
         "previousObservedAt": "2026-11-06T07:55:05.471Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5897,7 +5903,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-06",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-07T04:20:52.172Z",
+        "currentObservedAt": "2026-11-07T07:08:21.006Z",
         "previousObservedAt": "2026-11-06T07:55:05.471Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -6208,7 +6214,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-06",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-07T04:20:52.172Z",
+        "currentObservedAt": "2026-11-07T07:08:21.006Z",
         "previousObservedAt": "2026-11-06T07:55:05.471Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7067,7 +7073,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-07T04:20:52.172Z",
+  "attemptedAt": "2026-11-07T07:08:21.006Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7077,5 +7083,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T04:20:52.172Z"
+  "generatedAt": "2026-11-07T07:08:21.006Z"
 }
