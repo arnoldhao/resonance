@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-08T05:13:10.758Z",
+  "fetchedAt": "2026-11-08T07:17:30.189Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-08 08:30:01",
   "entries": [
@@ -1094,7 +1094,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-07",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-08T05:13:10.758Z",
+        "currentObservedAt": "2026-11-08T07:17:30.189Z",
         "previousObservedAt": "2026-11-07T14:00:18.664Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1170,7 +1170,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-07",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-08T05:13:10.758Z",
+        "currentObservedAt": "2026-11-08T07:17:30.189Z",
         "previousObservedAt": "2026-11-07T14:00:18.664Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2568,7 +2568,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-07",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-08T05:13:10.758Z",
+        "currentObservedAt": "2026-11-08T07:17:30.189Z",
         "previousObservedAt": "2026-11-07T14:00:18.664Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5674,11 +5674,6 @@
             "id": "163274",
             "hash": "8468FCCB69D1E7F2DAEEBFA8453BCE7F",
             "url": null
-          },
-          {
-            "id": null,
-            "hash": "6F43CCD055BEA641122E5FCB75CA060A",
-            "url": null
           }
         ]
       },
@@ -5914,7 +5909,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-07",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-08T05:13:10.758Z",
+        "currentObservedAt": "2026-11-08T07:17:30.189Z",
         "previousObservedAt": "2026-11-07T14:00:18.664Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -6760,7 +6755,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-07",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-08T05:13:10.758Z",
+        "currentObservedAt": "2026-11-08T07:17:30.189Z",
         "previousObservedAt": "2026-11-07T14:00:18.664Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7120,7 +7115,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-08T05:13:10.758Z",
+  "attemptedAt": "2026-11-08T07:17:30.189Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7130,5 +7125,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T05:13:10.758Z"
+  "generatedAt": "2026-11-08T07:17:30.189Z"
 }
