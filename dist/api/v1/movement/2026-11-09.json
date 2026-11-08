@@ -1,0 +1,5061 @@
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-08T18:00:18.725Z",
+  "methodology": {
+    "version": "movement-1.1",
+    "basis": "combined-rank",
+    "scope": "current-top-100",
+    "formula": "昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；首次入榜与重返榜单分别单列"
+  },
+  "entryHistoryStart": "2026-10-23",
+  "comparisonDate": "2026-11-08",
+  "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
+  "coverage": {
+    "available": 6,
+    "fresh": 6,
+    "cached": 0,
+    "expected": 6,
+    "groups": 4,
+    "groupTotal": 4,
+    "status": "complete",
+    "comparisonAvailable": true,
+    "comparisonUsesCache": false
+  },
+  "rising": [
+    {
+      "id": "c358903ade375e995c99",
+      "title": "幻听",
+      "artists": [
+        "许嵩"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004RbL3b0BDIe2.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 19,
+          "eligible": true,
+          "score": 53.8077,
+          "contribution": 13.4519,
+          "url": "https://y.qq.com/n/ryqq/songDetail/003MUDkf30pS5B",
+          "sourceId": "003MUDkf30pS5B",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 20,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "19",
+              "old_count": "20"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 29,
+          "eligible": true,
+          "score": 39.3652,
+          "contribution": 11.8096,
+          "url": "https://music.163.com/#/song?id=167655",
+          "sourceId": "167655",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 2,
+            "previousRank": 31,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 30
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "304279",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 29,
+          "eligible": true,
+          "score": 39.3652,
+          "contribution": 7.873,
+          "url": "https://www.kugou.com/song/#hash=24F5E7555646965CD7D1A924452B3300",
+          "sourceId": "24F5E7555646965CD7D1A924452B3300",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 6,
+            "previousRank": 35,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 29,
+              "last_sort": 35
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "194017",
+                "hash": "AE8FA55806696D1F5D2A695D820D9B42",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "555C487A27E2FDB7F154B13DCD3ED2BA",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 123,
+          "eligible": true,
+          "score": 5.2665,
+          "contribution": 0.2633,
+          "url": "https://www.kuwo.cn/play_detail/1245780",
+          "sourceId": "1245780",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 123,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "88"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "8103854",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 97,
+          "eligible": true,
+          "score": 8.8584,
+          "contribution": 0.8858,
+          "url": "https://music.apple.com/cn/album/%E5%B9%BB%E5%90%AC/1071500267?i=1071500270",
+          "sourceId": "1071500270",
+          "sourceMovement": {
+            "direction": "new",
+            "delta": null,
+            "previousRank": null,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "qishui",
+          "name": "汽水音乐",
+          "rank": 25,
+          "eligible": true,
+          "score": 44.4604,
+          "contribution": 4.446,
+          "url": "https://www.qishui.com/track/6849428442203555842",
+          "sourceId": "6849428442203555842",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 16,
+            "previousRank": 41,
+            "period": "previous-edition",
+            "raw": {
+              "rank_delta": "16",
+              "rank_type": "up",
+              "track_id": "6849428442203555842"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-05T08:00:00.000Z",
+          "sourcePeriod": "weekly",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 38.7297,
+      "rank": 10,
+      "appearances": 6,
+      "scoringAppearances": 6,
+      "previousRank": 13,
+      "delta": 3,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 3,
+        "previousRank": 13,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 15,
+          "score": 34.3202,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 19,
+          "score": 31.0646,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 15,
+          "score": 32.138,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 13,
+          "score": 35.7325,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 12,
+          "score": 37.5271,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 11,
+          "score": 41.8041,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 12,
+          "score": 39.8848,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 16,
+          "score": 34.5501,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 19,
+          "score": 33.1566,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 18,
+          "score": 30.7547,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 17,
+          "score": 32.4379,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 16,
+          "score": 35.484,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 13,
+          "score": 37.8439,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 10,
+          "score": 38.7297,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 1
+    },
+    {
+      "id": "5dd6817b1effe50d2027",
+      "title": "发如雪",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000024bjiL2aocxT.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 11,
+          "eligible": true,
+          "score": 70.3288,
+          "contribution": 17.5822,
+          "url": "https://y.qq.com/n/ryqq/songDetail/0027oMO61wWi55",
+          "sourceId": "0027oMO61wWi55",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 3,
+            "previousRank": 14,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "11",
+              "old_count": "14"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 15,
+          "eligible": true,
+          "score": 61.4088,
+          "contribution": 12.2818,
+          "url": "https://www.kugou.com/song/#hash=1F7E7659B9FFF4FB6F71562A61BBC25F",
+          "sourceId": "1F7E7659B9FFF4FB6F71562A61BBC25F",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 2,
+            "previousRank": 17,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 15,
+              "last_sort": 17
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "2761",
+                "hash": "8EB3790B71337A1639D1219CDC0C6B1A",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "7AE3E2309AE6DE1871FC04261EBAC0A6",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 139,
+          "eligible": true,
+          "score": 3.8243,
+          "contribution": 0.1912,
+          "url": "https://www.kuwo.cn/play_detail/118990",
+          "sourceId": "118990",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 139,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "139"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "8108454",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 5,
+          "eligible": true,
+          "score": 86.6929,
+          "contribution": 8.6693,
+          "url": "https://music.apple.com/cn/album/%E5%8F%91%E5%A6%82%E9%9B%AA/536009641?i=536009644",
+          "sourceId": "536009644",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 2,
+            "previousRank": 7,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 38.7245,
+      "rank": 11,
+      "appearances": 4,
+      "scoringAppearances": 4,
+      "previousRank": 12,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 12,
+        "firstEntryDate": "2026-10-28",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-28",
+          "rank": 96,
+          "score": 10.7923,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 71,
+          "score": 13.7824,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 39,
+          "score": 20.3242,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 26,
+          "score": 25.9462,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 19,
+          "score": 30.8875,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 16,
+          "score": 34.8237,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 15,
+          "score": 34.9897,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 15,
+          "score": 35.725,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 16,
+          "score": 32.9645,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 16,
+          "score": 33.2988,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 15,
+          "score": 35.6388,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 12,
+          "score": 38.1348,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 11,
+          "score": 38.7245,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 2
+    },
+    {
+      "id": "30998d16b8aaf576d32c",
+      "title": "泪海",
+      "artists": [
+        "许茹芸"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001Ugmj01giuzO.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 14,
+          "eligible": true,
+          "score": 63.5068,
+          "contribution": 15.8767,
+          "url": "https://y.qq.com/n/ryqq/songDetail/003Haf8k2E6fYX",
+          "sourceId": "003Haf8k2E6fYX",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -5,
+            "previousRank": 9,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "14",
+              "old_count": "9"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 170,
+          "eligible": true,
+          "score": 2.0572,
+          "contribution": 0.6172,
+          "url": "https://music.163.com/#/song?id=307594",
+          "sourceId": "307594",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -44,
+            "previousRank": 126,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 125
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "5496438",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 18,
+          "eligible": true,
+          "score": 55.5955,
+          "contribution": 11.1191,
+          "url": "https://www.kugou.com/song/#hash=FBC174E7C22B9AF471B7B93A61751E1B",
+          "sourceId": "FBC174E7C22B9AF471B7B93A61751E1B",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -2,
+            "previousRank": 16,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 18,
+              "last_sort": 16
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "11874874",
+                "hash": "9C21064F8301257F8C9D7B9EC568FB3D",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "7DCEA6B67B30A201035476469440570C",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 36,
+          "eligible": true,
+          "score": 32.1937,
+          "contribution": 1.6097,
+          "url": "https://www.kuwo.cn/play_detail/320433",
+          "sourceId": "320433",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 36,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "9"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "283791",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 54,
+          "eligible": true,
+          "score": 20.9337,
+          "contribution": 2.0934,
+          "url": "https://music.apple.com/cn/album/%E6%B3%AA%E6%B5%B7/1442648518?i=1442648689",
+          "sourceId": "1442648689",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -3,
+            "previousRank": 51,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 31.316,
+      "rank": 18,
+      "appearances": 5,
+      "scoringAppearances": 5,
+      "previousRank": 19,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 19,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 42,
+          "score": 19.9102,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 44,
+          "score": 18.121,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 51,
+          "score": 17.3666,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 41,
+          "score": 19.7508,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 38,
+          "score": 21.1676,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 36,
+          "score": 21.311,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 29,
+          "score": 24.7097,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 20,
+          "score": 31.7132,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 16,
+          "score": 34.9821,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 15,
+          "score": 33.9968,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 14,
+          "score": 36.4319,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 14,
+          "score": 35.9934,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 19,
+          "score": 31.4455,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 18,
+          "score": 31.316,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 3
+    },
+    {
+      "id": "60c11cb8f1bda34ea02e",
+      "title": "风吹过",
+      "artists": [
+        "张玮"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261104/20261104102502334806.jpg",
+      "platforms": [
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 7,
+          "eligible": true,
+          "score": 80.7965,
+          "contribution": 16.1593,
+          "url": "https://www.kugou.com/song/#hash=9DA48ECCE1F8C814C792E520B4ABEEF6",
+          "sourceId": "9DA48ECCE1F8C814C792E520B4ABEEF6",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 8,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 7,
+              "last_sort": 8
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "18436435",
+                "hash": "7073C819F57D9C45E2596E79635475A6",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 16.1593,
+      "rank": 54,
+      "appearances": 1,
+      "scoringAppearances": 1,
+      "previousRank": 55,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 55,
+        "firstEntryDate": "2026-11-04",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-11-04",
+          "rank": 91,
+          "score": 10.0879,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 64,
+          "score": 14.5582,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 54,
+          "score": 15.6041,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 60,
+          "score": 15.6041,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 55,
+          "score": 16.1593,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 54,
+          "score": 16.1593,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 4
+    },
+    {
+      "id": "675c33ab3cb1d5737d02",
+      "title": "Moonride",
+      "artists": [
+        "Hearts2Hearts"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004BnVzt0HGFcy.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 25,
+          "eligible": true,
+          "score": 44.4604,
+          "contribution": 11.1151,
+          "url": "https://y.qq.com/n/ryqq/songDetail/001qW0XY1BqDiE",
+          "sourceId": "001qW0XY1BqDiE",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 24,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "25",
+              "old_count": "24"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 77,
+          "eligible": true,
+          "score": 13.2151,
+          "contribution": 2.643,
+          "url": "https://www.kugou.com/song/#hash=7CF9E31DEB6A3AEF0B196D9D6818D236",
+          "sourceId": "7CF9E31DEB6A3AEF0B196D9D6818D236",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 14,
+            "previousRank": 91,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 77,
+              "last_sort": 91
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "17700422",
+                "hash": "A4214E2F632B05218B43B1DF325CD24B",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "7E8C4789D06C05AF44605B832D9B003D",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 73,
+          "eligible": true,
+          "score": 14.3158,
+          "contribution": 1.4316,
+          "url": "https://music.apple.com/cn/album/moonride/6807315056?i=6807315057",
+          "sourceId": "6807315057",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 74,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 15.1897,
+      "rank": 60,
+      "appearances": 3,
+      "scoringAppearances": 3,
+      "previousRank": 61,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 61,
+        "firstEntryDate": "2026-10-25",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-29",
+          "rank": 81,
+          "score": 11.9299,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 73,
+          "score": 13.8488,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 52,
+          "score": 17.0395,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 34,
+          "score": 21.8584,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 37,
+          "score": 20.4663,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 38,
+          "score": 19.5031,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 51,
+          "score": 16.7601,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 66,
+          "score": 13.7728,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 64,
+          "score": 14.3517,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 62,
+          "score": 15.015,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 61,
+          "score": 15.1613,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 60,
+          "score": 15.1897,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 5
+    },
+    {
+      "id": "23a0fae22e7c30c2b262",
+      "title": "坏女孩",
+      "artists": [
+        "徐良",
+        "小凌"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002apRhZ4Bq99d.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 50,
+          "eligible": true,
+          "score": 22.6773,
+          "contribution": 5.6693,
+          "url": "https://y.qq.com/n/ryqq/songDetail/0001oIjs0YFIf7",
+          "sourceId": "0001oIjs0YFIf7",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 9,
+            "previousRank": 59,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "50",
+              "old_count": "59"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 98,
+          "eligible": true,
+          "score": 8.683,
+          "contribution": 2.6049,
+          "url": "https://music.163.com/#/song?id=174956",
+          "sourceId": "174956",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 22,
+            "previousRank": 120,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 119
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 67,
+          "eligible": true,
+          "score": 16.141,
+          "contribution": 3.2282,
+          "url": "https://www.kugou.com/song/#hash=9365223F903B13D0DAF54B6091AC3E7B",
+          "sourceId": "9365223F903B13D0DAF54B6091AC3E7B",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 68,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 67,
+              "last_sort": 68
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "11421607",
+                "hash": "F4C7CD9D6754A9378A15850D13610D53",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "171857161089125C360D14497569A7B0",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 131,
+          "eligible": true,
+          "score": 4.4878,
+          "contribution": 0.2244,
+          "url": "https://www.kuwo.cn/play_detail/22837479",
+          "sourceId": "22837479",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 131,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "49"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "5781063",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 11.7268,
+      "rank": 81,
+      "appearances": 4,
+      "scoringAppearances": 4,
+      "previousRank": 82,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 82,
+        "firstEntryDate": "2026-10-25",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-11-01",
+          "rank": 79,
+          "score": 12.9952,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 82,
+          "score": 12.2052,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 96,
+          "score": 9.8017,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 82,
+          "score": 11.7268,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 81,
+          "score": 11.7268,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 6
+    },
+    {
+      "id": "bbb1de5875b984c0c77b",
+      "title": "美人鱼",
+      "artists": [
+        "林俊杰"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000y5gq7449K9I.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 36,
+          "eligible": true,
+          "score": 32.1937,
+          "contribution": 8.0484,
+          "url": "https://y.qq.com/n/ryqq/songDetail/002ASCKm3ROw7t",
+          "sourceId": "002ASCKm3ROw7t",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 10,
+            "previousRank": 46,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "36",
+              "old_count": "46"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 144,
+          "eligible": true,
+          "score": 3.4603,
+          "contribution": 1.0381,
+          "url": "https://music.163.com/#/song?id=108931",
+          "sourceId": "108931",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 2,
+            "previousRank": 146,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 145
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "522365",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 164,
+          "eligible": true,
+          "score": 2.3195,
+          "contribution": 0.4639,
+          "url": "https://www.kugou.com/song/#hash=CDAE8C7E2FAF7F08DC18E78A1D65117B",
+          "sourceId": "CDAE8C7E2FAF7F08DC18E78A1D65117B",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 24,
+            "previousRank": 188,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 164,
+              "last_sort": 188
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "579265",
+                "hash": "1DB676BAC384186DBB3C60D0D3AC140A",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "05006C003FC8B289982B2DE153D3160C",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 26,
+          "eligible": true,
+          "score": 43.1091,
+          "contribution": 2.1555,
+          "url": "https://www.kuwo.cn/play_detail/93151",
+          "sourceId": "93151",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 26,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "12"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "8084200",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 11.7059,
+      "rank": 82,
+      "appearances": 4,
+      "scoringAppearances": 4,
+      "previousRank": 83,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 83,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 88,
+          "score": 12.2204,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 100,
+          "score": 10.5283,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 83,
+          "score": 12.1873,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 64,
+          "score": 14.4842,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 79,
+          "score": 12.7151,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 93,
+          "score": 10.1976,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 100,
+          "score": 9.6591,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 83,
+          "score": 11.7059,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 82,
+          "score": 11.7059,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 7
+    },
+    {
+      "id": "1637db17294d398b3b6b",
+      "title": "富士山下",
+      "artists": [
+        "陈奕迅"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004Z85XP1c25b7.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 44,
+          "eligible": true,
+          "score": 26.116,
+          "contribution": 6.529,
+          "url": "https://y.qq.com/n/ryqq/songDetail/003aAPj81VWrbL",
+          "sourceId": "003aAPj81VWrbL",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -7,
+            "previousRank": 37,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "44",
+              "old_count": "37"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 77,
+          "eligible": true,
+          "score": 13.2151,
+          "contribution": 3.9645,
+          "url": "https://music.163.com/#/song?id=65766",
+          "sourceId": "65766",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -4,
+            "previousRank": 73,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 72
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "303140",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 143,
+          "eligible": true,
+          "score": 3.5302,
+          "contribution": 0.706,
+          "url": "https://www.kugou.com/song/#hash=0433F1A94FA162B20FB8AE576A951D6B",
+          "sourceId": "0433F1A94FA162B20FB8AE576A951D6B",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 6,
+            "previousRank": 149,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 143,
+              "last_sort": 149
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "952046",
+                "hash": "DE803B65777056008831450625DDD814",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "F1330E70A597DA87CBAD9EDEE043222D",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 100,
+          "eligible": true,
+          "score": 8.3425,
+          "contribution": 0.4171,
+          "url": "https://www.kuwo.cn/play_detail/317730",
+          "sourceId": "317730",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 100,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "68"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "8934516",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 11.6167,
+      "rank": 83,
+      "appearances": 4,
+      "scoringAppearances": 4,
+      "previousRank": 84,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 84,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 55,
+          "score": 16.6683,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 66,
+          "score": 14.6093,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 61,
+          "score": 15.1932,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 64,
+          "score": 15.105,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 66,
+          "score": 14.3738,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 71,
+          "score": 13.9263,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 65,
+          "score": 14.148,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 62,
+          "score": 14.8361,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 69,
+          "score": 13.5131,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 71,
+          "score": 13.0238,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 82,
+          "score": 12.2527,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 73,
+          "score": 13.1689,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 84,
+          "score": 11.6167,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 83,
+          "score": 11.6167,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 8
+    },
+    {
+      "id": "ea0218f4f3f17dcf233a",
+      "title": "颜色",
+      "artists": [
+        "Gareth.T"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004JCDGM3t28q8.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 128,
+          "eligible": true,
+          "score": 4.7653,
+          "contribution": 1.1913,
+          "url": "https://y.qq.com/n/ryqq/songDetail/000WedNF0iBGy4",
+          "sourceId": "000WedNF0iBGy4",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 5,
+            "previousRank": 133,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "128",
+              "old_count": "133"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 34,
+          "eligible": true,
+          "score": 34.0422,
+          "contribution": 10.2127,
+          "url": "https://music.163.com/#/song?id=2701139855",
+          "sourceId": "2701139855",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -4,
+            "previousRank": 30,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 29
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "34749918",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 11.404,
+      "rank": 84,
+      "appearances": 2,
+      "scoringAppearances": 2,
+      "previousRank": 85,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 85,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 85,
+          "score": 12.4748,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 95,
+          "score": 10.8134,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 86,
+          "score": 11.7464,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 88,
+          "score": 11.536,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 89,
+          "score": 11.3175,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 98,
+          "score": 10.0029,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 95,
+          "score": 10.2481,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 79,
+          "score": 11.9485,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 88,
+          "score": 10.3426,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 80,
+          "score": 11.6784,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 75,
+          "score": 12.8046,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 77,
+          "score": 12.5421,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 85,
+          "score": 11.404,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 84,
+          "score": 11.404,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 9
+    },
+    {
+      "id": "1dc98a7aec2e931714a1",
+      "title": "我听见了，你的痛苦成立",
+      "artists": [
+        "供销社乐队"
+      ],
+      "artwork": "http://p2.music.126.net/djCHbIWOv0FCYiumpNEBZQ==/109951173349720959.jpg",
+      "platforms": [
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 110,
+          "eligible": true,
+          "score": 6.8303,
+          "contribution": 2.0491,
+          "url": "https://music.163.com/#/song?id=3391179506",
+          "sourceId": "3391179506",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -29,
+            "previousRank": 81,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 80
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 100,
+          "eligible": true,
+          "score": 8.3425,
+          "contribution": 1.6685,
+          "url": "https://www.kugou.com/song/#hash=6CB6A16FFFEB35428346D73908442DBB",
+          "sourceId": "6CB6A16FFFEB35428346D73908442DBB",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -26,
+            "previousRank": 74,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 100,
+              "last_sort": 74
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "17547531",
+                "hash": "81419AC52C7D3C592671D10C46B107A4",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "qishui",
+          "name": "汽水音乐",
+          "rank": 12,
+          "eligible": true,
+          "score": 67.9633,
+          "contribution": 6.7963,
+          "url": "https://www.qishui.com/track/7646998266635094067",
+          "sourceId": "7646998266635094067",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 4,
+            "previousRank": 16,
+            "period": "previous-edition",
+            "raw": {
+              "rank_delta": "4",
+              "rank_type": "up",
+              "track_id": "7646998266635094067"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-05T08:00:00.000Z",
+          "sourcePeriod": "weekly",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 10.5139,
+      "rank": 92,
+      "appearances": 3,
+      "scoringAppearances": 3,
+      "previousRank": 93,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 93,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 48,
+          "score": 18.2136,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 56,
+          "score": 16.7312,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 27,
+          "score": 25.9058,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 24,
+          "score": 26.1989,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 30,
+          "score": 23.7758,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 50,
+          "score": 16.9322,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 57,
+          "score": 15.1607,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 48,
+          "score": 17.7101,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 53,
+          "score": 16.6472,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 57,
+          "score": 15.4143,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 56,
+          "score": 15.2961,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 72,
+          "score": 13.2625,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 93,
+          "score": 10.5139,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 92,
+          "score": 10.5139,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 10
+    },
+    {
+      "id": "3ce3bb269c6b9ff71515",
+      "title": "把回忆拼好给你",
+      "artists": [
+        "王贰浪"
+      ],
+      "artwork": "http://p1.music.126.net/CBx2K_jEN3SNWwYztagPPw==/109951164485969446.jpg",
+      "platforms": [
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 33,
+          "eligible": true,
+          "score": 35.0234,
+          "contribution": 10.507,
+          "url": "https://music.163.com/#/song?id=1403318151",
+          "sourceId": "1403318151",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 4,
+            "previousRank": 37,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 36
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 10.507,
+      "rank": 93,
+      "appearances": 1,
+      "scoringAppearances": 1,
+      "previousRank": 94,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 94,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 47,
+          "score": 18.4226,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 43,
+          "score": 18.4226,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 100,
+          "score": 9.6581,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 94,
+          "score": 10.507,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 93,
+          "score": 10.507,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 11
+    },
+    {
+      "id": "05db1463ac4d3768c09b",
+      "title": "七里香",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003DFRzD192KKD.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 122,
+          "eligible": true,
+          "score": 5.3729,
+          "contribution": 1.3432,
+          "url": "https://y.qq.com/n/ryqq/songDetail/004Z8Ihr0JIu5s",
+          "sourceId": "004Z8Ihr0JIu5s",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 21,
+            "previousRank": 143,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "122",
+              "old_count": "143"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 180,
+          "eligible": true,
+          "score": 1.6843,
+          "contribution": 0.0842,
+          "url": "https://www.kuwo.cn/play_detail/94237",
+          "sourceId": "94237",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 180,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "98"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "7884575",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 4,
+          "eligible": true,
+          "score": 89.8228,
+          "contribution": 8.9823,
+          "url": "https://music.apple.com/cn/album/%E4%B8%83%E9%87%8C%E9%A6%99/536114662?i=536115195",
+          "sourceId": "536115195",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 4,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 10.4097,
+      "rank": 94,
+      "appearances": 3,
+      "scoringAppearances": 3,
+      "previousRank": 95,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 95,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-29",
+          "rank": 100,
+          "score": 9.7818,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 98,
+          "score": 9.8965,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 99,
+          "score": 10.0244,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 94,
+          "score": 10.255,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 94,
+          "score": 10.3272,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 99,
+          "score": 9.8244,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 99,
+          "score": 9.533,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 95,
+          "score": 9.9011,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 95,
+          "score": 9.9491,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 95,
+          "score": 10.4097,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 94,
+          "score": 10.4097,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 12
+    },
+    {
+      "id": "a4fe35e43ba7b8f1f9f8",
+      "title": "十年",
+      "artists": [
+        "陈奕迅"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000GDz8k03UOaI.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 55,
+          "eligible": true,
+          "score": 20.5192,
+          "contribution": 5.1298,
+          "url": "https://y.qq.com/n/ryqq/songDetail/001OyHbk2MSIi4",
+          "sourceId": "001OyHbk2MSIi4",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -4,
+            "previousRank": 51,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "55",
+              "old_count": "51"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 123,
+          "eligible": true,
+          "score": 5.2665,
+          "contribution": 1.0533,
+          "url": "https://www.kugou.com/song/#hash=5146461A5717B942F4B13125978618E3",
+          "sourceId": "5146461A5717B942F4B13125978618E3",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -15,
+            "previousRank": 108,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 123,
+              "last_sort": 108
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "339",
+                "hash": "AFAA7726CFF81EDEA6F461628FA0059B",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "A1FF23D15F76B4410B8EE4CB2020E299",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 40,
+          "eligible": true,
+          "score": 28.9122,
+          "contribution": 1.4456,
+          "url": "https://www.kuwo.cn/play_detail/80403",
+          "sourceId": "80403",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 40,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "27"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "17494603",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 44,
+          "eligible": true,
+          "score": 26.116,
+          "contribution": 2.6116,
+          "url": "https://music.apple.com/cn/album/%E5%8D%81%E5%B9%B4/542922079?i=542922095",
+          "sourceId": "542922095",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 44,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 10.2403,
+      "rank": 95,
+      "appearances": 4,
+      "scoringAppearances": 4,
+      "previousRank": 96,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 96,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 83,
+          "score": 12.5657,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 80,
+          "score": 12.507,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 83,
+          "score": 11.8617,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 87,
+          "score": 11.584,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 87,
+          "score": 11.4785,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 90,
+          "score": 10.9859,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 91,
+          "score": 10.6479,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 84,
+          "score": 11.0896,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 78,
+          "score": 11.507,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 87,
+          "score": 10.9534,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 86,
+          "score": 11.2238,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 84,
+          "score": 10.9122,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 96,
+          "score": 10.2403,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 95,
+          "score": 10.2403,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 13
+    },
+    {
+      "id": "aecba67efc0387aa56d3",
+      "title": "为你而来",
+      "artists": [
+        "萧泽x.z"
+      ],
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261106/20261106155013428352.jpg",
+      "platforms": [
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 21,
+          "eligible": true,
+          "score": 50.4396,
+          "contribution": 10.0879,
+          "url": "https://www.kugou.com/song/#hash=C8B6898AB9052512C547B092BF86E652",
+          "sourceId": "C8B6898AB9052512C547B092BF86E652",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 20,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 21,
+              "last_sort": 20
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 10.0879,
+      "rank": 96,
+      "appearances": 1,
+      "scoringAppearances": 1,
+      "previousRank": 97,
+      "delta": 1,
+      "combinedMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 97,
+        "firstEntryDate": "2026-11-06",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-11-06",
+          "rank": 95,
+          "score": 10.0879,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 91,
+          "score": 10.418,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 97,
+          "score": 10.0879,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 96,
+          "score": 10.0879,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 14
+    }
+  ],
+  "falling": [
+    {
+      "id": "f6f657a1b486aa9826b3",
+      "title": "搁浅",
+      "artists": [
+        "周杰伦"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000003DFRzD192KKD.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 104,
+          "eligible": true,
+          "score": 7.7011,
+          "contribution": 1.9253,
+          "url": "https://y.qq.com/n/ryqq/songDetail/001Bbywq2gicae",
+          "sourceId": "001Bbywq2gicae",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 19,
+            "previousRank": 123,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "104",
+              "old_count": "123"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 7,
+          "eligible": true,
+          "score": 80.7965,
+          "contribution": 8.0797,
+          "url": "https://music.apple.com/cn/album/%E6%90%81%E6%B5%85/536114662?i=536115199",
+          "sourceId": "536115199",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -2,
+            "previousRank": 5,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 10.0049,
+      "rank": 97,
+      "appearances": 2,
+      "scoringAppearances": 2,
+      "previousRank": 92,
+      "delta": -5,
+      "combinedMovement": {
+        "direction": "down",
+        "delta": -5,
+        "previousRank": 92,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-11-01",
+          "rank": 93,
+          "score": 10.2557,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 89,
+          "score": 10.8737,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 97,
+          "score": 9.9821,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 100,
+          "score": 9.3702,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 94,
+          "score": 9.9859,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 92,
+          "score": 10.5946,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 97,
+          "score": 10.0049,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 1
+    },
+    {
+      "id": "1dbbc7782773a0ee6873",
+      "title": "自由的你",
+      "artists": [
+        "邓紫棋"
+      ],
+      "artwork": "http://p2.music.126.net/qu42OhTbF0WNUU0vokhHhA==/109951174189215515.jpg",
+      "platforms": [
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 151,
+          "eligible": true,
+          "score": 3.0083,
+          "contribution": 0.9025,
+          "url": "https://music.163.com/#/song?id=3436855494",
+          "sourceId": "3436855494",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -42,
+            "previousRank": 109,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 108
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "34813617",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 45,
+          "eligible": true,
+          "score": 25.484,
+          "contribution": 5.0968,
+          "url": "https://www.kugou.com/song/#hash=98CA3FB8B73C0E4C35312A88D3F348E5",
+          "sourceId": "98CA3FB8B73C0E4C35312A88D3F348E5",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -13,
+            "previousRank": 32,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 45,
+              "last_sort": 32
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "18408914",
+                "hash": "DD51AC7E667D46350EE011C60C9A17A2",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "E9E1961061D2768AE1B1BF29D7ECDB00",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 19,
+          "eligible": true,
+          "score": 53.8077,
+          "contribution": 5.3808,
+          "url": "https://music.apple.com/cn/album/%E8%87%AA%E7%94%B1%E7%9A%84%E4%BD%A0/6815092481?i=6815092483",
+          "sourceId": "6815092483",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -2,
+            "previousRank": 17,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 11.3801,
+      "rank": 85,
+      "appearances": 3,
+      "scoringAppearances": 3,
+      "previousRank": 81,
+      "delta": -4,
+      "combinedMovement": {
+        "direction": "down",
+        "delta": -4,
+        "previousRank": 81,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-31",
+          "rank": 31,
+          "score": 22.6857,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 37,
+          "score": 20.8579,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 34,
+          "score": 21.0048,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 12,
+          "score": 41.0461,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 17,
+          "score": 33.4713,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 27,
+          "score": 27.8923,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 42,
+          "score": 18.9397,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 58,
+          "score": 15.6501,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 81,
+          "score": 11.7449,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 85,
+          "score": 11.3801,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 2
+    },
+    {
+      "id": "01ced140824e12244086",
+      "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
+      "artists": [
+        "BESTie (베스티)"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000034h3c72cswaP.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 3,
+          "eligible": true,
+          "score": 93.0805,
+          "contribution": 23.2701,
+          "url": "https://y.qq.com/n/ryqq/songDetail/0008rnAh3oSbcW",
+          "sourceId": "0008rnAh3oSbcW",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 4,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "3",
+              "old_count": "4"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 121,
+          "eligible": true,
+          "score": 5.4814,
+          "contribution": 1.6444,
+          "url": "https://music.163.com/#/song?id=27867073",
+          "sourceId": "27867073",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -36,
+            "previousRank": 85,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 84
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "10800526",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 13,
+          "eligible": true,
+          "score": 65.6905,
+          "contribution": 13.1381,
+          "url": "https://www.kugou.com/song/#hash=FBE0D895B585AFAD693FE42529311608",
+          "sourceId": "FBE0D895B585AFAD693FE42529311608",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 14,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 13,
+              "last_sort": 14
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "107330",
+                "hash": "6AD5BA66C504C8A93C9F4300CE860DCF",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "FC90ED6DA63445D1D5CAF592E22767C6",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 99,
+          "eligible": true,
+          "score": 8.511,
+          "contribution": 0.4256,
+          "url": "https://www.kuwo.cn/play_detail/10647865",
+          "sourceId": "10647865",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 99,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "99"
+            }
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 38.4782,
+      "rank": 12,
+      "appearances": 4,
+      "scoringAppearances": 4,
+      "previousRank": 10,
+      "delta": -2,
+      "combinedMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 10,
+        "firstEntryDate": "2026-11-02",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-11-02",
+          "rank": 49,
+          "score": 17.5867,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 22,
+          "score": 29.6987,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 13,
+          "score": 37.0094,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 10,
+          "score": 40.2819,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 13,
+          "score": 38.751,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 10,
+          "score": 38.961,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 10,
+          "score": 38.4782,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 12,
+          "score": 38.4782,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 3
+    },
+    {
+      "id": "0547bcb2d1b36134ce08",
+      "title": "情歌",
+      "artists": [
+        "梁静茹"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002E4IXe1ESUij.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 17,
+          "eligible": true,
+          "score": 57.4563,
+          "contribution": 14.3641,
+          "url": "https://y.qq.com/n/ryqq/songDetail/0010BrWk2SucQr",
+          "sourceId": "0010BrWk2SucQr",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -2,
+            "previousRank": 15,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "17",
+              "old_count": "15"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 65,
+          "eligible": true,
+          "score": 16.7997,
+          "contribution": 5.0399,
+          "url": "https://music.163.com/#/song?id=254059",
+          "sourceId": "254059",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -2,
+            "previousRank": 63,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 62
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "14591181",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 47,
+          "eligible": true,
+          "score": 24.2936,
+          "contribution": 4.8587,
+          "url": "https://www.kugou.com/song/#hash=72DB6DA75FFE23A3A6361BDB8F44D5F4",
+          "sourceId": "72DB6DA75FFE23A3A6361BDB8F44D5F4",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 3,
+            "previousRank": 50,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 47,
+              "last_sort": 50
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "708856",
+                "hash": "1DF941BAD723E6107FCF1DF0BB501E5A",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "1E9459D87296B7EBDB135670E31A9C31",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 28,
+          "eligible": true,
+          "score": 40.5636,
+          "contribution": 2.0282,
+          "url": "https://www.kuwo.cn/play_detail/465829",
+          "sourceId": "465829",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 28,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "13"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "7798736",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 17,
+          "eligible": true,
+          "score": 57.4563,
+          "contribution": 5.7456,
+          "url": "https://music.apple.com/cn/album/%E6%83%85%E6%AD%8C/1095630068?i=1095630246",
+          "sourceId": "1095630246",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 18,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "qishui",
+          "name": "汽水音乐",
+          "rank": 14,
+          "eligible": true,
+          "score": 63.5068,
+          "contribution": 6.3507,
+          "url": "https://www.qishui.com/track/6990754046848010276",
+          "sourceId": "6990754046848010276",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 6,
+            "previousRank": 20,
+            "period": "previous-edition",
+            "raw": {
+              "rank_delta": "6",
+              "rank_type": "up",
+              "track_id": "6990754046848010276"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-05T08:00:00.000Z",
+          "sourcePeriod": "weekly",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 38.3872,
+      "rank": 13,
+      "appearances": 6,
+      "scoringAppearances": 6,
+      "previousRank": 11,
+      "delta": -2,
+      "combinedMovement": {
+        "direction": "down",
+        "delta": -2,
+        "previousRank": 11,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 9,
+          "score": 44.0576,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 10,
+          "score": 42.3635,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 11,
+          "score": 41.4804,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 11,
+          "score": 40.005,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 9,
+          "score": 41.4003,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 10,
+          "score": 43.3494,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 11,
+          "score": 42.7336,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 11,
+          "score": 41.4124,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 11,
+          "score": 40.5748,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 11,
+          "score": 39.2961,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 11,
+          "score": 40.4982,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 12,
+          "score": 38.7211,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 11,
+          "score": 38.2011,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 13,
+          "score": 38.3872,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 4
+    },
+    {
+      "id": "7407243b4cef78bd77c6",
+      "title": "季候风",
+      "artists": [
+        "王菲"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Oen8n3cKClG.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 15,
+          "eligible": true,
+          "score": 61.4088,
+          "contribution": 15.3522,
+          "url": "https://y.qq.com/n/ryqq/songDetail/001SFw584CAgoJ",
+          "sourceId": "001SFw584CAgoJ",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -7,
+            "previousRank": 8,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "15",
+              "old_count": "8"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 25,
+          "eligible": true,
+          "score": 44.4604,
+          "contribution": 8.8921,
+          "url": "https://www.kugou.com/song/#hash=353B4FC5F4F055E8231B516329BC0258",
+          "sourceId": "353B4FC5F4F055E8231B516329BC0258",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -6,
+            "previousRank": 19,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 25,
+              "last_sort": 19
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "3325212",
+                "hash": "1B9A735AD77DF55CA3980F14EABB523B",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 11,
+          "eligible": true,
+          "score": 70.3288,
+          "contribution": 7.0329,
+          "url": "https://music.apple.com/cn/album/%E5%AD%A3%E5%80%99%E9%A3%8E/1444208582?i=1444208936",
+          "sourceId": "1444208936",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -2,
+            "previousRank": 9,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 31.2772,
+      "rank": 19,
+      "appearances": 3,
+      "scoringAppearances": 3,
+      "previousRank": 18,
+      "delta": -1,
+      "combinedMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 18,
+        "firstEntryDate": "2026-10-26",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 8,
+          "score": 46.7106,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 5,
+          "score": 60.6093,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 5,
+          "score": 66.8412,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 5,
+          "score": 62.3088,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 5,
+          "score": 58.4535,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 7,
+          "score": 52.5096,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 9,
+          "score": 48.0757,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 9,
+          "score": 45.792,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 10,
+          "score": 42.3765,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 13,
+          "score": 38.4139,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 10,
+          "score": 41.4896,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 13,
+          "score": 38.0411,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 18,
+          "score": 31.7796,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 19,
+          "score": 31.2772,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 5
+    },
+    {
+      "id": "a6d0352a195f1557130d",
+      "title": "最佳损友",
+      "artists": [
+        "陈奕迅"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002FT46H18G1jW.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 51,
+          "eligible": true,
+          "score": 22.2282,
+          "contribution": 5.5571,
+          "url": "https://y.qq.com/n/ryqq/songDetail/003hFxQh276Cv5",
+          "sourceId": "003hFxQh276Cv5",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 1,
+            "previousRank": 52,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "51",
+              "old_count": "52"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 76,
+          "eligible": true,
+          "score": 13.4821,
+          "contribution": 4.0446,
+          "url": "https://music.163.com/#/song?id=65800",
+          "sourceId": "65800",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -8,
+            "previousRank": 68,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 67
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "303142",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 82,
+          "eligible": true,
+          "score": 11.9575,
+          "contribution": 2.3915,
+          "url": "https://www.kugou.com/song/#hash=CBFA7DDE592B23322E21E4BDAA9BE9F9",
+          "sourceId": "CBFA7DDE592B23322E21E4BDAA9BE9F9",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 14,
+            "previousRank": 96,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 82,
+              "last_sort": 96
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "596458",
+                "hash": "C0A7BDDE266347305DA7FD82B022E4DC",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 61,
+          "eligible": true,
+          "score": 18.1989,
+          "contribution": 1.8199,
+          "url": "https://music.apple.com/cn/album/%E6%9C%80%E4%BD%B3%E6%8D%9F%E5%8F%8B/1442912707?i=1442913348",
+          "sourceId": "1442913348",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -4,
+            "previousRank": 57,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "qishui",
+          "name": "汽水音乐",
+          "rank": 49,
+          "eligible": true,
+          "score": 23.1946,
+          "contribution": 2.3195,
+          "url": "https://www.qishui.com/track/6733773613821855745",
+          "sourceId": "6733773613821855745",
+          "sourceMovement": {
+            "direction": "up",
+            "delta": 4,
+            "previousRank": 53,
+            "period": "previous-edition",
+            "raw": {
+              "rank_delta": "4",
+              "rank_type": "up",
+              "track_id": "6733773613821855745"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-05T08:00:00.000Z",
+          "sourcePeriod": "weekly",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 16.1325,
+      "rank": 55,
+      "appearances": 5,
+      "scoringAppearances": 5,
+      "previousRank": 54,
+      "delta": -1,
+      "combinedMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 54,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 61,
+          "score": 15.8697,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 61,
+          "score": 15.4894,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 55,
+          "score": 16.5198,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 62,
+          "score": 15.2368,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 54,
+          "score": 16.6608,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 52,
+          "score": 16.662,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 61,
+          "score": 15.0471,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 72,
+          "score": 13.2953,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 73,
+          "score": 12.6032,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 82,
+          "score": 11.6551,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 66,
+          "score": 13.9419,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 52,
+          "score": 16.2918,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 54,
+          "score": 16.2841,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 55,
+          "score": 16.1325,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 6
+    },
+    {
+      "id": "9bf2b492e5c0e3e66c28",
+      "title": "江南",
+      "artists": [
+        "林俊杰"
+      ],
+      "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000y5gq7449K9I.jpg",
+      "platforms": [
+        {
+          "id": "qq",
+          "name": "QQ 音乐",
+          "rank": 28,
+          "eligible": true,
+          "score": 40.5636,
+          "contribution": 10.1409,
+          "url": "https://y.qq.com/n/ryqq/songDetail/004TXEXY2G2c7C",
+          "sourceId": "004TXEXY2G2c7C",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -2,
+            "previousRank": 26,
+            "period": "previous-edition",
+            "raw": {
+              "cur_count": "28",
+              "old_count": "26"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 154,
+          "eligible": true,
+          "score": 2.8331,
+          "contribution": 0.8499,
+          "url": "https://music.163.com/#/song?id=108914",
+          "sourceId": "108914",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -3,
+            "previousRank": 151,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 150
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "522362",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T00:46:09.712Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 155,
+          "eligible": true,
+          "score": 2.777,
+          "contribution": 0.5554,
+          "url": "https://www.kugou.com/song/#hash=B83DBB8E3DD3FCF86BF32690B91547F5",
+          "sourceId": "B83DBB8E3DD3FCF86BF32690B91547F5",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -3,
+            "previousRank": 152,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 155,
+              "last_sort": 152
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "758538",
+                "hash": "47DA634190F85A76BA07A305FDE8C5AE",
+                "url": null
+              },
+              {
+                "id": null,
+                "hash": "E476F8682D57A7A845D86547696D5EE3",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08 08:30:01",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 31,
+          "eligible": true,
+          "score": 37.1075,
+          "contribution": 1.8554,
+          "url": "https://www.kuwo.cn/play_detail/93157",
+          "sourceId": "93157",
+          "sourceMovement": {
+            "direction": "same",
+            "delta": 0,
+            "previousRank": 31,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "0",
+              "trend": "e0",
+              "isnew": "0",
+              "highest_rank": "15"
+            }
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "17603493",
+                "hash": null,
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-08",
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        },
+        {
+          "id": "apple",
+          "name": "Apple Music",
+          "rank": 62,
+          "eligible": true,
+          "score": 17.8386,
+          "contribution": 1.7839,
+          "url": "https://music.apple.com/cn/album/%E6%B1%9F%E5%8D%97/1071753622?i=1071753628",
+          "sourceId": "1071753628",
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 61,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-08",
+            "comparisonDepth": 100,
+            "currentObservedAt": "2026-11-08T18:00:18.725Z",
+            "previousObservedAt": "2026-11-08T07:17:30.189Z",
+            "comparisonUsesCache": false,
+            "raw": {}
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-08T18:00:18.725Z",
+          "observedDate": "2026-11-09",
+          "sourceUpdatedAt": "2026-11-08T18:01:24.000Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-08T18:00:18.725Z",
+          "collectionError": null,
+          "cacheOrigin": null
+        }
+      ],
+      "score": 15.1854,
+      "rank": 61,
+      "appearances": 5,
+      "scoringAppearances": 5,
+      "previousRank": 60,
+      "delta": -1,
+      "combinedMovement": {
+        "direction": "down",
+        "delta": -1,
+        "previousRank": 60,
+        "firstEntryDate": "2026-10-23",
+        "period": "previous-day",
+        "comparisonDate": "2026-11-08"
+      },
+      "history": [
+        {
+          "date": "2026-10-27",
+          "rank": 54,
+          "score": 16.7281,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-28",
+          "rank": 62,
+          "score": 15.4378,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-29",
+          "rank": 56,
+          "score": 16.3828,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-30",
+          "rank": 51,
+          "score": 17.0745,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-10-31",
+          "rank": 55,
+          "score": 16.3118,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-01",
+          "rank": 51,
+          "score": 16.7606,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-02",
+          "rank": 54,
+          "score": 15.7871,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-03",
+          "rank": 61,
+          "score": 15.0122,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-04",
+          "rank": 59,
+          "score": 15.6308,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-05",
+          "rank": 56,
+          "score": 15.5584,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-06",
+          "rank": 58,
+          "score": 15.1974,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-07",
+          "rank": 55,
+          "score": 15.9815,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-08",
+          "rank": 60,
+          "score": 15.2215,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        },
+        {
+          "date": "2026-11-09",
+          "rank": 61,
+          "score": 15.1854,
+          "methodologyVersion": "1.4",
+          "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        }
+      ],
+      "movementRank": 7
+    }
+  ],
+  "newEntries": [],
+  "reentries": [],
+  "unchangedCount": 79
+}
