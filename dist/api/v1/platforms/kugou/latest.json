@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-09T04:10:25.110Z",
+  "fetchedAt": "2026-11-09T07:57:23.126Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-09 08:30:01",
   "entries": [
@@ -1425,7 +1425,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-08",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-09T04:10:25.110Z",
+        "currentObservedAt": "2026-11-09T07:57:23.126Z",
         "previousObservedAt": "2026-11-08T07:17:30.189Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2536,7 +2536,7 @@
         "杨小东"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261021/20261021171052574010.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261109/20261109140018321287.jpg",
       "url": "https://www.kugou.com/song/#hash=240E8007A466F8B47076A1EEB6518CA1",
       "sourceMovement": {
         "direction": "down",
@@ -5407,6 +5407,11 @@
             "id": "163274",
             "hash": "8468FCCB69D1E7F2DAEEBFA8453BCE7F",
             "url": null
+          },
+          {
+            "id": null,
+            "hash": "6F43CCD055BEA641122E5FCB75CA060A",
+            "url": null
           }
         ]
       },
@@ -7139,7 +7144,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-09T04:10:25.110Z",
+  "attemptedAt": "2026-11-09T07:57:23.126Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7149,5 +7154,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-09",
-  "generatedAt": "2026-11-09T04:10:25.110Z"
+  "generatedAt": "2026-11-09T07:57:23.126Z"
 }
