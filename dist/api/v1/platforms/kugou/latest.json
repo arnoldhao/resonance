@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-09T07:57:23.126Z",
+  "fetchedAt": "2026-11-09T22:58:51.697Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-09 08:30:01",
   "entries": [
@@ -1418,15 +1418,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261107/20261107150722351312.jpg",
       "url": "https://www.kugou.com/song/#hash=F06FAB0D790A295F516C02E9D6A4A8CF",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 41,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-08",
+        "comparisonDate": "2026-11-09",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-09T07:57:23.126Z",
-        "previousObservedAt": "2026-11-08T07:17:30.189Z",
+        "currentObservedAt": "2026-11-09T22:58:51.697Z",
+        "previousObservedAt": "2026-11-09T07:57:23.126Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 41,
@@ -7144,7 +7144,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-09T07:57:23.126Z",
+  "attemptedAt": "2026-11-09T22:58:51.697Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7153,6 +7153,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-09",
-  "generatedAt": "2026-11-09T07:57:23.126Z"
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-09T22:58:51.697Z"
 }
