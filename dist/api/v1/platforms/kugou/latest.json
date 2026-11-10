@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-10T08:25:16.694Z",
+  "fetchedAt": "2026-11-10T20:27:52.016Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-10 08:30:00",
   "entries": [
@@ -24,7 +24,7 @@
         "村口吴老二"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261105/20261105095953467322.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261110/20261110220115255473.png",
       "url": "https://www.kugou.com/song/#hash=D0F928C394C175BC0F4CAD8B9C3B5E9E",
       "sourceMovement": {
         "direction": "up",
@@ -437,7 +437,7 @@
       "songId": "5dd6817b1effe50d2027"
     },
     {
-      "sourceId": "0C92933A25B942C586E25D84922A490B",
+      "sourceId": "1F2E6A77DBE700BD7DD07354066251BA",
       "rank": 13,
       "title": "Hong Kong (feat. 王菲季候风)",
       "artists": [
@@ -445,7 +445,7 @@
       ],
       "album": null,
       "artwork": "https://imge.kugou.com/stdmusic/400/20261102/20261102010041791724.jpg",
-      "url": "https://www.kugou.com/song/#hash=0C92933A25B942C586E25D84922A490B",
+      "url": "https://www.kugou.com/song/#hash=1F2E6A77DBE700BD7DD07354066251BA",
       "sourceMovement": {
         "direction": "down",
         "delta": -3,
@@ -1900,15 +1900,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261108/20261108103723510050.jpg",
       "url": "https://www.kugou.com/song/#hash=57EAD17C4EB161FD109F8B6C0EABFFCF",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 55,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-09",
+        "comparisonDate": "2026-11-10",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-10T08:25:16.694Z",
-        "previousObservedAt": "2026-11-09T07:57:23.126Z",
+        "currentObservedAt": "2026-11-10T20:27:52.016Z",
+        "previousObservedAt": "2026-11-10T08:25:16.694Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 55,
@@ -7180,7 +7180,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-10T08:25:16.694Z",
+  "attemptedAt": "2026-11-10T20:27:52.016Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7189,6 +7189,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T08:25:16.694Z"
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-10T20:27:52.016Z"
 }
