@@ -13,7 +13,7 @@
   "access": "官方榜单接口 · Web 模式 · 无需 Cookie 或签名",
   "providerId": "qishui",
   "declaredCount": 50,
-  "fetchedAt": "2026-11-09T22:58:51.697Z",
+  "fetchedAt": "2026-11-10T07:57:50.988Z",
   "sourceUpdatedAt": "2026-11-05T08:00:00.000Z",
   "sourcePeriod": "weekly",
   "entries": [
@@ -63,7 +63,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-09",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-09T22:58:51.697Z",
+        "currentObservedAt": "2026-11-10T07:57:50.988Z",
         "previousObservedAt": "2026-11-09T07:57:23.126Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -96,7 +96,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-09",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-09T22:58:51.697Z",
+        "currentObservedAt": "2026-11-10T07:57:50.988Z",
         "previousObservedAt": "2026-11-09T07:57:23.126Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -437,7 +437,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-09",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-09T22:58:51.697Z",
+        "currentObservedAt": "2026-11-10T07:57:50.988Z",
         "previousObservedAt": "2026-11-09T07:57:23.126Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -554,7 +554,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-09",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-09T22:58:51.697Z",
+        "currentObservedAt": "2026-11-10T07:57:50.988Z",
         "previousObservedAt": "2026-11-09T07:57:23.126Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -766,34 +766,6 @@
       "songId": "6f164a403f38b8991823"
     },
     {
-      "sourceId": "7693912020861372450",
-      "title": "如果累了就回故乡（少年版）",
-      "artists": [
-        "懒惰"
-      ],
-      "album": "人间叙歌",
-      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/okqGaqfzEmWkCFZDqANEAgART5AxB6DvtErfZj~tplv-b829550vbb-resize:400:400.png",
-      "url": "https://www.qishui.com/track/7693912020861372450",
-      "rank": 27,
-      "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
-        "period": "previous-edition",
-        "raw": {
-          "rank_delta": "0",
-          "rank_type": "new",
-          "track_id": "7693912020861372450"
-        },
-        "origin": "official"
-      },
-      "mv": {
-        "status": "unknown",
-        "items": []
-      },
-      "songId": "18a2bf6f7cbc812e6baa"
-    },
-    {
       "sourceId": "6704952949321238529",
       "title": "开始懂了",
       "artists": [
@@ -802,14 +774,14 @@
       "album": "我要的幸福",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/743a9b2331d241dfac96fea5ff76dcc6~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6704952949321238529",
-      "rank": 28,
+      "rank": 27,
       "sourceMovement": {
         "direction": "up",
-        "delta": 3,
+        "delta": 4,
         "previousRank": 31,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "3",
+          "rank_delta": "4",
           "rank_type": "up",
           "track_id": "6704952949321238529"
         },
@@ -830,14 +802,14 @@
       "album": "Other",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEffODIoxADSAdFBIEAaCIarCgFEzKZEJAOdfA~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7428116489662482433",
-      "rank": 29,
+      "rank": 28,
       "sourceMovement": {
         "direction": "down",
-        "delta": -12,
+        "delta": -11,
         "previousRank": 17,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "12",
+          "rank_delta": "11",
           "rank_type": "down",
           "track_id": "7428116489662482433"
         },
@@ -858,14 +830,14 @@
       "album": "天外来物",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/06b20d69fd604319a9c49b6a51120913~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6850116360324810753",
-      "rank": 30,
+      "rank": 29,
       "sourceMovement": {
         "direction": "up",
-        "delta": 25,
+        "delta": 26,
         "previousRank": 55,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "25",
+          "rank_delta": "26",
           "rank_type": "up",
           "track_id": "6850116360324810753"
         },
@@ -886,14 +858,14 @@
       "album": "雨爱",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/5083047f32164ca0b11466d14b5b80f4~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6696408181523875842",
-      "rank": 31,
+      "rank": 30,
       "sourceMovement": {
         "direction": "down",
-        "delta": -2,
+        "delta": -1,
         "previousRank": 29,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "2",
+          "rank_delta": "1",
           "rank_type": "down",
           "track_id": "6696408181523875842"
         },
@@ -914,14 +886,14 @@
       "album": "雪下的时候",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o4EiU3E8WiO4wlQHAVAdhII5DSBPS4AaXNrvA~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7554592201637693467",
-      "rank": 32,
+      "rank": 31,
       "sourceMovement": {
         "direction": "up",
-        "delta": 8,
+        "delta": 9,
         "previousRank": 40,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "8",
+          "rank_delta": "9",
           "rank_type": "up",
           "track_id": "7554592201637693467"
         },
@@ -942,14 +914,14 @@
       "album": "晚风微醺",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ogFCKAJqgCU5AWsAEiuICZgBNxAfEseAtW3gED~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7674273204581697563",
-      "rank": 33,
+      "rank": 32,
       "sourceMovement": {
         "direction": "down",
-        "delta": -24,
+        "delta": -23,
         "previousRank": 9,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "24",
+          "rank_delta": "23",
           "rank_type": "down",
           "track_id": "7674273204581697563"
         },
@@ -970,14 +942,14 @@
       "album": "睡前别想太多",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oMAGtfrFAvmxIFr1LXKG2IIGwATAYAaFKRef8f~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7689447702921349121",
-      "rank": 34,
+      "rank": 33,
       "sourceMovement": {
         "direction": "new",
         "delta": null,
         "previousRank": null,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "0",
+          "rank_delta": "1",
           "rank_type": "new",
           "track_id": "7689447702921349121"
         },
@@ -998,14 +970,14 @@
       "album": "Super Girl 爱 无畏 新歌＋精选",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o8iAPAsWEABPoEB3A0AwqqPhoAiK6iuBe6Iga6~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6920323667041732609",
-      "rank": 35,
+      "rank": 34,
       "sourceMovement": {
         "direction": "up",
-        "delta": 13,
+        "delta": 14,
         "previousRank": 48,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "13",
+          "rank_delta": "14",
           "rank_type": "up",
           "track_id": "6920323667041732609"
         },
@@ -1026,14 +998,14 @@
       "album": "慢品人间烟火气（落日微醺版）",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/okCbECEDAKfATqxARqkStWiEvAFVfZCkt8BJUg~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7679277712545269769",
-      "rank": 36,
+      "rank": 35,
       "sourceMovement": {
         "direction": "down",
-        "delta": -18,
+        "delta": -17,
         "previousRank": 18,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "18",
+          "rank_delta": "17",
           "rank_type": "down",
           "track_id": "7679277712545269769"
         },
@@ -1054,14 +1026,14 @@
       "album": "你离开以后我才晓得歌该咋个写",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/osIAEE8eQQqEYTazPhuVfALoHAGGFDABF6edcC~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7700174549509556265",
-      "rank": 37,
+      "rank": 36,
       "sourceMovement": {
         "direction": "new",
         "delta": null,
         "previousRank": null,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "0",
+          "rank_delta": "1",
           "rank_type": "new",
           "track_id": "7700174549509556265"
         },
@@ -1082,14 +1054,14 @@
       "album": "瞬",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oUfEjA8yVBBhAgYAhMU9CsoAoLvtENHAWdywEz~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7255195662504740866",
-      "rank": 38,
+      "rank": 37,
       "sourceMovement": {
         "direction": "up",
-        "delta": 8,
+        "delta": 9,
         "previousRank": 46,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "8",
+          "rank_delta": "9",
           "rank_type": "up",
           "track_id": "7255195662504740866"
         },
@@ -1110,14 +1082,14 @@
       "album": "第57次取消发送",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ogXAAilvD19ziAByEX5Ks1KBwi5WobA01Ff6EA~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7491130229642283025",
-      "rank": 39,
+      "rank": 38,
       "sourceMovement": {
         "direction": "down",
-        "delta": -14,
+        "delta": -13,
         "previousRank": 25,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "14",
+          "rank_delta": "13",
           "rank_type": "down",
           "track_id": "7491130229642283025"
         },
@@ -1138,14 +1110,14 @@
       "album": "意外",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ocMAAV1E89gBdAoywhosmfiOiWBsAAH2OhIxAE~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6726058972337424385",
-      "rank": 40,
+      "rank": 39,
       "sourceMovement": {
         "direction": "up",
-        "delta": 13,
+        "delta": 14,
         "previousRank": 53,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "13",
+          "rank_delta": "14",
           "rank_type": "up",
           "track_id": "6726058972337424385"
         },
@@ -1166,14 +1138,14 @@
       "album": "危险世界",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/9bb38f2a52444ac3b1bf50a155ff8256~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6918195036836349953",
-      "rank": 41,
+      "rank": 40,
       "sourceMovement": {
         "direction": "up",
-        "delta": 6,
+        "delta": 7,
         "previousRank": 47,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "6",
+          "rank_delta": "7",
           "rank_type": "up",
           "track_id": "6918195036836349953"
         },
@@ -1194,14 +1166,14 @@
       "album": "留什么给你(烟嗓女版)",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ogfqxVZBtpDYQh8EAoFFwEAXAeAhEgB2aBANKC~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7665565974487353395",
-      "rank": 42,
+      "rank": 41,
       "sourceMovement": {
         "direction": "down",
-        "delta": -5,
+        "delta": -4,
         "previousRank": 37,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "5",
+          "rank_delta": "4",
           "rank_type": "down",
           "track_id": "7665565974487353395"
         },
@@ -1222,18 +1194,23 @@
       "album": "T.I.M.E.",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o4iBEAhpSrzAsuw0SjAqfyVANAoAAyEWKNEWvk~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7284443920741058562",
-      "rank": 43,
+      "rank": 42,
       "sourceMovement": {
-        "direction": "down",
-        "delta": -1,
-        "previousRank": 42,
-        "period": "previous-edition",
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 43,
+        "period": "previous-day",
+        "origin": "snapshot-comparison",
+        "comparisonDate": "2026-11-09",
+        "comparisonDepth": 50,
+        "currentObservedAt": "2026-11-10T07:57:50.988Z",
+        "previousObservedAt": "2026-11-09T07:57:23.126Z",
+        "comparisonUsesCache": false,
         "raw": {
-          "rank_delta": "1",
-          "rank_type": "down",
+          "rank_delta": "0",
+          "rank_type": "equal",
           "track_id": "7284443920741058562"
-        },
-        "origin": "official"
+        }
       },
       "mv": {
         "status": "unknown",
@@ -1250,14 +1227,14 @@
       "album": "归一",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/ooGkAIUAOQBkvLTa2afeMWC1e7AUCzA9kPQgFB~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7478140320557647899",
-      "rank": 44,
+      "rank": 43,
       "sourceMovement": {
         "direction": "new",
         "delta": null,
         "previousRank": null,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "0",
+          "rank_delta": "1",
           "rank_type": "new",
           "track_id": "7478140320557647899"
         },
@@ -1278,14 +1255,14 @@
       "album": "华纳我爱经典系列 Beyond",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/a9ef1dc07b634fffac4e7874540750ba~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6705003948140398594",
-      "rank": 45,
+      "rank": 44,
       "sourceMovement": {
         "direction": "down",
-        "delta": -7,
+        "delta": -6,
         "previousRank": 38,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "7",
+          "rank_delta": "6",
           "rank_type": "down",
           "track_id": "6705003948140398594"
         },
@@ -1306,14 +1283,14 @@
       "album": "可不可以",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oQCNzAG2GE9evArjbi0SgiRIAiwLIaLeDIAFe0~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7296021946923141122",
-      "rank": 46,
+      "rank": 45,
       "sourceMovement": {
         "direction": "up",
-        "delta": 7,
+        "delta": 8,
         "previousRank": 53,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "7",
+          "rank_delta": "8",
           "rank_type": "up",
           "track_id": "7296021946923141122"
         },
@@ -1334,14 +1311,14 @@
       "album": "指纹",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oQGIgI2WAFOFD0nDzFfMbLDC7AvwQEaIdAKeAe~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7025566199207430145",
-      "rank": 47,
+      "rank": 46,
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
+        "delta": 3,
         "previousRank": 49,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "2",
+          "rank_delta": "3",
           "rank_type": "up",
           "track_id": "7025566199207430145"
         },
@@ -1362,14 +1339,14 @@
       "album": "戒烟",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/47f2b2624c0a47098ac8670327c25703~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6704980467805849601",
-      "rank": 48,
+      "rank": 47,
       "sourceMovement": {
         "direction": "up",
-        "delta": 2,
+        "delta": 3,
         "previousRank": 50,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "2",
+          "rank_delta": "3",
           "rank_type": "up",
           "track_id": "6704980467805849601"
         },
@@ -1390,14 +1367,14 @@
       "album": "Life Continues",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oQYOABUm0jcgx04ZsAEU6AidRPAWEA4wRiAAr~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/6733773613821855745",
-      "rank": 49,
+      "rank": 48,
       "sourceMovement": {
         "direction": "up",
-        "delta": 4,
+        "delta": 5,
         "previousRank": 53,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "4",
+          "rank_delta": "5",
           "rank_type": "up",
           "track_id": "6733773613821855745"
         },
@@ -1419,14 +1396,14 @@
       "album": "PING-PONG CHECK",
       "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oIkYNJgmfCE3LaC8ADZqUoBFtEBQFtAzeLAEY4~tplv-b829550vbb-resize:400:400.png",
       "url": "https://www.qishui.com/track/7681088655763572752",
-      "rank": 50,
+      "rank": 49,
       "sourceMovement": {
         "direction": "new",
         "delta": null,
         "previousRank": null,
         "period": "previous-edition",
         "raw": {
-          "rank_delta": "0",
+          "rank_delta": "1",
           "rank_type": "new",
           "track_id": "7681088655763572752"
         },
@@ -1437,11 +1414,39 @@
         "items": []
       },
       "songId": "f4d653bc000b7a4ee853"
+    },
+    {
+      "sourceId": "7168833789206988838",
+      "title": "勇气",
+      "artists": [
+        "梁静茹"
+      ],
+      "album": "勇气",
+      "artwork": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/081b9ec4a641412ab8291c12f7764aa3~tplv-b829550vbb-resize:400:400.png",
+      "url": "https://www.qishui.com/track/7168833789206988838",
+      "rank": 50,
+      "sourceMovement": {
+        "direction": "up",
+        "delta": 1,
+        "previousRank": 51,
+        "period": "previous-edition",
+        "raw": {
+          "rank_delta": "1",
+          "rank_type": "up",
+          "track_id": "7168833789206988838"
+        },
+        "origin": "official"
+      },
+      "mv": {
+        "status": "unknown",
+        "items": []
+      },
+      "songId": "301be28bf32a05037ce8"
     }
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-09T22:58:51.697Z",
+  "attemptedAt": "2026-11-10T07:57:50.988Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -1451,5 +1456,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-10",
-  "generatedAt": "2026-11-09T22:58:51.697Z"
+  "generatedAt": "2026-11-10T07:57:50.988Z"
 }
