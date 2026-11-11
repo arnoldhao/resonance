@@ -3,7 +3,7 @@
   <id>https://resonance.dreamapp.cc/feed.xml</id>
   <title>共振 · 中国音乐综合热歌榜</title>
   <subtitle>每日综合榜、每周与每月汇总、Top 10 摘要、覆盖范围与公开计算方法。</subtitle>
-  <updated>2026-11-11T07:59:54.642Z</updated>
+  <updated>2026-11-11T08:03:10.583Z</updated>
   <author><name>共振 RESONANCE</name><uri>https://resonance.dreamapp.cc</uri></author>
   <link rel="self" type="application/atom+xml" href="https://resonance.dreamapp.cc/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://resonance.dreamapp.cc/"/>
@@ -12,7 +12,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-11.json#live</id>
     <title>共振 · 2026-11-11 综合热歌榜</title>
     <published>2026-11-10T20:27:52.016Z</published>
-    <updated>2026-11-11T07:59:54.642Z</updated>
+    <updated>2026-11-11T08:03:10.583Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-11.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -47,7 +47,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json#live</id>
     <title>共振 · 2026-11-01—2026-11-30 本月预览</title>
     <published>2026-11-01T04:10:16.591Z</published>
-    <updated>2026-11-11T07:59:54.642Z</updated>
+    <updated>2026-11-11T08:03:10.583Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json"/>
     <category term="live"/>
     <category term="monthly"/>
@@ -84,7 +84,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json#live</id>
     <title>共振 · 2026-11-09—2026-11-15 本周预览</title>
     <published>2026-11-08T18:00:18.725Z</published>
-    <updated>2026-11-11T07:59:54.642Z</updated>
+    <updated>2026-11-11T08:03:10.583Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json"/>
     <category term="live"/>
     <category term="weekly"/>
@@ -121,7 +121,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-10.json#live</id>
     <title>共振 · 2026-11-10 综合热歌榜</title>
     <published>2026-11-09T22:58:51.697Z</published>
-    <updated>2026-11-10T08:25:16.694Z</updated>
+    <updated>2026-11-11T08:03:10.398Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-10.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -156,7 +156,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-09.json#live</id>
     <title>共振 · 2026-11-09 综合热歌榜</title>
     <published>2026-11-08T18:00:18.725Z</published>
-    <updated>2026-11-09T07:57:23.126Z</updated>
+    <updated>2026-11-11T08:03:10.196Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-09.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -188,10 +188,45 @@
 完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-09.json</content>
   </entry>
   <entry>
+    <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json#live</id>
+    <title>共振 · 2026-11-08 综合热歌榜</title>
+    <published>2026-11-08T05:13:10.758Z</published>
+    <updated>2026-11-11T08:03:09.994Z</updated>
+    <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json"/>
+    <category term="live"/>
+    <category term="daily"/>
+    <summary type="text">已发布的每日综合热歌榜快照。
+覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。
+1. 我不难过 — 孙燕姿 · 89.74 分
+2. 天龙八部之宿敌 — 许嵩 · 87.61 分
+3. Hong Kong (feat. 王菲季候风) — The Weeknd · 78.41 分
+4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 66.19 分
+5. 我好像在哪见过你 — 薛之谦 · 59.75 分
+6. 我怀念的 — 孙燕姿 · 54.03 分
+7. 恋人 — 李荣浩 · 52.75 分
+8. 时过境迁 — 苏艺馨Chency · 50.28 分
+9. 雨爱 — 杨丞琳 · 47.17 分
+10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie (베스티) · 38.48 分
+完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json</summary>
+    <content type="text">已发布的每日综合热歌榜快照。
+覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。
+1. 我不难过 — 孙燕姿 · 89.74 分
+2. 天龙八部之宿敌 — 许嵩 · 87.61 分
+3. Hong Kong (feat. 王菲季候风) — The Weeknd · 78.41 分
+4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 66.19 分
+5. 我好像在哪见过你 — 薛之谦 · 59.75 分
+6. 我怀念的 — 孙燕姿 · 54.03 分
+7. 恋人 — 李荣浩 · 52.75 分
+8. 时过境迁 — 苏艺馨Chency · 50.28 分
+9. 雨爱 — 杨丞琳 · 47.17 分
+10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie (베스티) · 38.48 分
+完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json</content>
+  </entry>
+  <entry>
     <id>https://resonance.dreamapp.cc/api/v1/weekly/2026-11-02.json#live</id>
     <title>共振 · 2026-11-02—2026-11-08 完整周榜</title>
     <published>2026-11-01T16:04:15.791Z</published>
-    <updated>2026-11-08T16:00:00.000Z</updated>
+    <updated>2026-11-11T08:03:09.994Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/weekly/2026-11-02.json"/>
     <category term="live"/>
     <category term="weekly"/>
@@ -225,45 +260,10 @@
 完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-02.json</content>
   </entry>
   <entry>
-    <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json#live</id>
-    <title>共振 · 2026-11-08 综合热歌榜</title>
-    <published>2026-11-08T05:13:10.758Z</published>
-    <updated>2026-11-08T07:17:30.189Z</updated>
-    <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json"/>
-    <category term="live"/>
-    <category term="daily"/>
-    <summary type="text">已发布的每日综合热歌榜快照。
-覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。
-1. 我不难过 — 孙燕姿 · 89.74 分
-2. 天龙八部之宿敌 — 许嵩 · 87.61 分
-3. Hong Kong (feat. 王菲季候风) — The Weeknd · 78.41 分
-4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 66.19 分
-5. 我好像在哪见过你 — 薛之谦 · 59.75 分
-6. 我怀念的 — 孙燕姿 · 54.03 分
-7. 恋人 — 李荣浩 · 52.75 分
-8. 时过境迁 — 苏艺馨Chency · 50.28 分
-9. 雨爱 — 杨丞琳 · 47.17 分
-10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie (베스티) · 38.48 分
-完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json</summary>
-    <content type="text">已发布的每日综合热歌榜快照。
-覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。
-1. 我不难过 — 孙燕姿 · 89.74 分
-2. 天龙八部之宿敌 — 许嵩 · 87.61 分
-3. Hong Kong (feat. 王菲季候风) — The Weeknd · 78.41 分
-4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 66.19 分
-5. 我好像在哪见过你 — 薛之谦 · 59.75 分
-6. 我怀念的 — 孙燕姿 · 54.03 分
-7. 恋人 — 李荣浩 · 52.75 分
-8. 时过境迁 — 苏艺馨Chency · 50.28 分
-9. 雨爱 — 杨丞琳 · 47.17 分
-10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie (베스티) · 38.48 分
-完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json</content>
-  </entry>
-  <entry>
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-07.json#live</id>
     <title>共振 · 2026-11-07 综合热歌榜</title>
     <published>2026-11-06T19:57:09.795Z</published>
-    <updated>2026-11-08T05:16:33.323Z</updated>
+    <updated>2026-11-11T08:03:09.813Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-07.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -298,7 +298,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-06.json#live</id>
     <title>共振 · 2026-11-06 综合热歌榜</title>
     <published>2026-11-05T20:39:52.191Z</published>
-    <updated>2026-11-08T05:16:33.068Z</updated>
+    <updated>2026-11-11T08:03:09.593Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-06.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -333,7 +333,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-05.json#live</id>
     <title>共振 · 2026-11-05 综合热歌榜</title>
     <published>2026-11-04T20:26:12.952Z</published>
-    <updated>2026-11-08T05:16:32.898Z</updated>
+    <updated>2026-11-11T08:03:09.420Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-05.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -368,7 +368,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-04.json#live</id>
     <title>共振 · 2026-11-04 综合热歌榜</title>
     <published>2026-11-03T20:06:29.618Z</published>
-    <updated>2026-11-08T05:16:32.720Z</updated>
+    <updated>2026-11-11T08:03:09.243Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-04.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -403,7 +403,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-03.json#live</id>
     <title>共振 · 2026-11-03 综合热歌榜</title>
     <published>2026-11-02T22:19:19.878Z</published>
-    <updated>2026-11-08T05:16:32.545Z</updated>
+    <updated>2026-11-11T08:03:09.069Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-03.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -438,7 +438,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-02.json#live</id>
     <title>共振 · 2026-11-02 综合热歌榜</title>
     <published>2026-11-01T16:04:15.791Z</published>
-    <updated>2026-11-08T05:16:32.396Z</updated>
+    <updated>2026-11-11T08:03:08.891Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-02.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -473,7 +473,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-11-01.json#live</id>
     <title>共振 · 2026-11-01 综合热歌榜</title>
     <published>2026-11-01T04:10:16.591Z</published>
-    <updated>2026-11-08T05:16:32.250Z</updated>
+    <updated>2026-11-11T08:03:08.721Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-11-01.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -508,7 +508,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json#live</id>
     <title>共振 · 2026-10-26—2026-11-01 完整周榜</title>
     <published>2026-10-25T17:03:37.304Z</published>
-    <updated>2026-11-08T05:16:32.250Z</updated>
+    <updated>2026-11-11T08:03:08.721Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json"/>
     <category term="live"/>
     <category term="weekly"/>
@@ -547,7 +547,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-31.json#live</id>
     <title>共振 · 2026-10-31 综合热歌榜</title>
     <published>2026-10-31T04:30:45.810Z</published>
-    <updated>2026-11-08T05:16:32.108Z</updated>
+    <updated>2026-11-11T08:03:08.538Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-31.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -582,7 +582,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json#live</id>
     <title>共振 · 2026-10-01—2026-10-31 缺日月榜</title>
     <published>2026-10-23T03:18:23.844Z</published>
-    <updated>2026-11-08T05:16:32.108Z</updated>
+    <updated>2026-11-11T08:03:08.538Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json"/>
     <category term="live"/>
     <category term="monthly"/>
@@ -621,7 +621,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-30.json#live</id>
     <title>共振 · 2026-10-30 综合热歌榜</title>
     <published>2026-10-30T04:10:35.762Z</published>
-    <updated>2026-11-08T05:16:31.964Z</updated>
+    <updated>2026-11-11T08:03:08.374Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-30.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -656,7 +656,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json#live</id>
     <title>共振 · 2026-10-29 综合热歌榜</title>
     <published>2026-10-29T04:10:15.572Z</published>
-    <updated>2026-11-08T05:16:31.816Z</updated>
+    <updated>2026-11-11T08:03:08.211Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -691,7 +691,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-28.json#live</id>
     <title>共振 · 2026-10-28 综合热歌榜</title>
     <published>2026-10-27T18:41:46.781Z</published>
-    <updated>2026-11-08T05:16:31.600Z</updated>
+    <updated>2026-11-11T08:03:08.042Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-28.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -726,7 +726,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-27.json#live</id>
     <title>共振 · 2026-10-27 综合热歌榜</title>
     <published>2026-10-27T04:10:15.337Z</published>
-    <updated>2026-11-08T05:16:31.443Z</updated>
+    <updated>2026-11-11T08:03:07.874Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-27.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -761,7 +761,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-26.json#live</id>
     <title>共振 · 2026-10-26 综合热歌榜</title>
     <published>2026-10-25T17:03:37.304Z</published>
-    <updated>2026-11-08T05:16:31.280Z</updated>
+    <updated>2026-11-11T08:03:07.705Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-26.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -798,7 +798,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-25.json#live</id>
     <title>共振 · 2026-10-25 综合热歌榜</title>
     <published>2026-10-24T16:35:02.787Z</published>
-    <updated>2026-11-08T05:16:31.117Z</updated>
+    <updated>2026-11-11T08:03:07.529Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-25.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -833,7 +833,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live</id>
     <title>共振 · 2026-10-19—2026-10-25 缺日周榜</title>
     <published>2026-10-23T03:18:23.844Z</published>
-    <updated>2026-11-08T05:16:31.117Z</updated>
+    <updated>2026-11-11T08:03:07.529Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json"/>
     <category term="live"/>
     <category term="weekly"/>
@@ -870,7 +870,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-24.json#live</id>
     <title>共振 · 2026-10-24 综合热歌榜</title>
     <published>2026-10-23T17:52:46.060Z</published>
-    <updated>2026-11-08T05:16:30.958Z</updated>
+    <updated>2026-11-11T08:03:07.361Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-24.json"/>
     <category term="live"/>
     <category term="daily"/>
@@ -905,7 +905,7 @@
     <id>https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json#live</id>
     <title>共振 · 2026-10-23 综合热歌榜</title>
     <published>2026-10-23T03:18:23.844Z</published>
-    <updated>2026-11-08T05:16:30.793Z</updated>
+    <updated>2026-11-11T08:03:07.193Z</updated>
     <link rel="alternate" type="application/json" href="https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json"/>
     <category term="live"/>
     <category term="daily"/>

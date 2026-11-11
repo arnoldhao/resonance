@@ -2,7 +2,7 @@
   "weekStart": "2026-11-02",
   "weekEnd": "2026-11-08",
   "mode": "live",
-  "generatedAt": "2026-11-11T08:00:02.525Z",
+  "generatedAt": "2026-11-11T08:03:11.285Z",
   "asOfDate": "2026-11-11",
   "status": "complete",
   "entryHistoryStart": "2026-10-19",
@@ -71,37 +71,37 @@
       {
         "date": "2026-11-02",
         "version": "1.4",
-        "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-03",
         "version": "1.4",
-        "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-04",
         "version": "1.4",
-        "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-05",
         "version": "1.4",
-        "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-06",
         "version": "1.4",
-        "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-07",
         "version": "1.4",
-        "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-08",
         "version": "1.4",
-        "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       }
     ],
     "formula": "周得分 = 各有效日按当日保存公式计算的得分之和 ÷ 有效天数；公式升级不排除历史日期，缺失日与无效日不进入分母",
@@ -135,7 +135,7 @@
       "qishui": 0.1
     }
   },
-  "comparisonSignature": "1.4|ac82a012bfb8|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
+  "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
   "coverage": {
     "observedDays": 7,
     "expectedDays": 7,
