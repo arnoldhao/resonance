@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-11T07:59:54.642Z",
+  "fetchedAt": "2026-11-11T20:11:53.016Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-11 08:30:01",
   "entries": [
@@ -90,7 +90,7 @@
         "杨羊烊"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261106/20261106171012923668.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261111/20261111170624951721.jpg",
       "url": "https://www.kugou.com/song/#hash=99109626A961F7DA92D5987CF12CF0DC",
       "sourceMovement": {
         "direction": "up",
@@ -412,7 +412,7 @@
         "季知炀"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261106/20261106164041280431.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261111/20261111201832308257.jpg",
       "url": "https://www.kugou.com/song/#hash=41C3466865A25EECE84CD103399E00F9",
       "sourceMovement": {
         "direction": "down",
@@ -3990,7 +3990,7 @@
         "蔡琴"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20210114/20210114031020119572.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261026/20261026125023160176.jpg",
       "url": "https://www.kugou.com/song/#hash=B21F4348B9BF2D34E29A5128349875FD",
       "sourceMovement": {
         "direction": "down",
@@ -6040,15 +6040,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261103/20261103180621435800.jpg",
       "url": "https://www.kugou.com/song/#hash=128CF3C07FB9213B71AFAEC1BA40F78B",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 171,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-10",
+        "comparisonDate": "2026-11-11",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-11T07:59:54.642Z",
-        "previousObservedAt": "2026-11-10T08:25:16.694Z",
+        "currentObservedAt": "2026-11-11T20:11:53.016Z",
+        "previousObservedAt": "2026-11-11T07:59:54.642Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 171,
@@ -7126,7 +7126,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-11T07:59:54.642Z",
+  "attemptedAt": "2026-11-11T20:11:53.016Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7135,6 +7135,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-11",
-  "generatedAt": "2026-11-11T07:59:54.642Z"
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-11T20:11:53.016Z"
 }
