@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-11",
-  "revision": "5f5e7c9f897401bbd965941fbadd1a12d55f33ddea3b2e0f93a2e34ea54c3daa",
-  "updatedAt": "2026-11-11T06:13:33.132Z",
+  "revision": "9fff79828b994d67f3f3693787d06b4e5f574931c304a1a414dddccce5710a9e",
+  "updatedAt": "2026-11-11T07:44:25.622Z",
   "siteUrl": "https://resonance.dreamapp.cc",
   "feedUrl": "https://resonance.dreamapp.cc/feed.xml",
   "jsonFeedUrl": "https://resonance.dreamapp.cc/feed.json",
@@ -14,21 +14,21 @@
       "kind": "daily",
       "date": "2026-11-11",
       "mode": "live",
-      "revision": "ec5a7fbd8eb1eba3dc1beac4dddf359ab6be22c764d6f4ce9a6304ca48258ca5",
+      "revision": "3800d9d5669c8537daa6499493b0697dc6fadd6854305c1348b8375f1f157260",
       "publishedAt": "2026-11-10T20:27:52.016Z",
-      "updatedAt": "2026-11-11T06:13:33.132Z",
+      "updatedAt": "2026-11-11T07:44:25.622Z",
       "title": "共振 · 2026-11-11 综合热歌榜",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-11.json",
       "coverage": {
         "available": 6,
-        "fresh": 5,
-        "cached": 1,
+        "fresh": 6,
+        "cached": 0,
         "expected": 6,
         "groups": 4,
         "groupTotal": 4,
         "status": "complete",
         "comparisonAvailable": true,
-        "comparisonUsesCache": true
+        "comparisonUsesCache": false
       },
       "methodologyVersion": "1.4",
       "topTen": [
@@ -39,7 +39,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 89.7706
+          "score": 89.3047
         },
         {
           "rank": 2,
@@ -48,7 +48,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 80.6745
+          "score": 80.5656
         },
         {
           "rank": 3,
@@ -93,7 +93,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 53.3104
+          "score": 52.7505
         },
         {
           "rank": 8,
@@ -102,7 +102,7 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 50.9219
+          "score": 50.5556
         },
         {
           "rank": 9,
@@ -111,7 +111,7 @@
           "artists": [
             "周杰伦"
           ],
-          "score": 42.6423
+          "score": 42.6608
         },
         {
           "rank": 10,
@@ -120,10 +120,10 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 42.1842
+          "score": 41.5083
         }
       ],
-      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n其中 1 个平台沿用有效窗口内的历史观察；来源时间和失败原因保存在 JSON。\n1. 我不难过 — 孙燕姿 · 89.77 分\n2. 天龙八部之宿敌 — 许嵩 · 80.67 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 70.90 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 65.47 分\n5. 我好像在哪见过你 — 薛之谦 · 57.58 分\n6. 时过境迁 — 苏艺馨Chency · 55.51 分\n7. 我怀念的 — 孙燕姿 · 53.31 分\n8. 恋人 — 李荣浩 · 50.92 分\n9. 发如雪 — 周杰伦 · 42.64 分\n10. 雨爱 — 杨丞琳 · 42.18 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-11.json"
+      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 89.30 分\n2. 天龙八部之宿敌 — 许嵩 · 80.57 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 70.90 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 65.47 分\n5. 我好像在哪见过你 — 薛之谦 · 57.58 分\n6. 时过境迁 — 苏艺馨Chency · 55.51 分\n7. 我怀念的 — 孙燕姿 · 52.75 分\n8. 恋人 — 李荣浩 · 50.56 分\n9. 发如雪 — 周杰伦 · 42.66 分\n10. 雨爱 — 杨丞琳 · 41.51 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-11.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json#live",
@@ -133,9 +133,9 @@
       "monthEnd": "2026-11-30",
       "mode": "live",
       "status": "provisional",
-      "revision": "4da304d49d4f0c0ab0fe0db513b194922a154ea5b3cc1c528885bac5829c297a",
+      "revision": "52b6f39fcc078477f5dc87b56d6899506738787e31601620dcb6cb68433956f6",
       "publishedAt": "2026-11-01T04:10:16.591Z",
-      "updatedAt": "2026-11-11T06:13:33.132Z",
+      "updatedAt": "2026-11-11T07:44:25.622Z",
       "title": "共振 · 2026-11-01—2026-11-30 本月预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json",
       "coverage": {
@@ -154,9 +154,7 @@
           "2026-11-10",
           "2026-11-11"
         ],
-        "cachedDates": [
-          "2026-11-11"
-        ],
+        "cachedDates": [],
         "missingDates": [
           "2026-11-12",
           "2026-11-13",
@@ -193,8 +191,8 @@
         },
         "sourceCoverage": {
           "available": 6,
-          "fresh": 5,
-          "cached": 1,
+          "fresh": 6,
+          "cached": 0,
           "expected": 6,
           "groups": 4,
           "groupTotal": 4,
@@ -214,7 +212,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 90.0151
+          "score": 89.9728
         },
         {
           "rank": 2,
@@ -223,7 +221,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 85.0279
+          "score": 85.018
         },
         {
           "rank": 3,
@@ -268,7 +266,7 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 53.9075
+          "score": 53.8742
         },
         {
           "rank": 8,
@@ -277,7 +275,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 53.6707
+          "score": 53.6198
         },
         {
           "rank": 9,
@@ -286,7 +284,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 45.2062
+          "score": 45.1447
         },
         {
           "rank": 10,
@@ -295,10 +293,10 @@
           "artists": [
             "梁静茹"
           ],
-          "score": 40.4863
+          "score": 40.4285
         }
       ],
-      "summary": "本月预览：2026-11-01—2026-11-30。\n有效 11/30 天；19 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-11-11。\n1. 我不难过 — 孙燕姿 · 90.02 分\n2. 天龙八部之宿敌 — 许嵩 · 85.03 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 72.44 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 68.18 分\n5. 我好像在哪见过你 — 薛之谦 · 58.62 分\n6. 时过境迁 — 苏艺馨Chency · 54.12 分\n7. 恋人 — 李荣浩 · 53.91 分\n8. 我怀念的 — 孙燕姿 · 53.67 分\n9. 雨爱 — 杨丞琳 · 45.21 分\n10. 情歌 — 梁静茹 · 40.49 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json"
+      "summary": "本月预览：2026-11-01—2026-11-30。\n有效 11/30 天；19 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 89.97 分\n2. 天龙八部之宿敌 — 许嵩 · 85.02 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 72.44 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 68.18 分\n5. 我好像在哪见过你 — 薛之谦 · 58.62 分\n6. 时过境迁 — 苏艺馨Chency · 54.12 分\n7. 恋人 — 李荣浩 · 53.87 分\n8. 我怀念的 — 孙燕姿 · 53.62 分\n9. 雨爱 — 杨丞琳 · 45.14 分\n10. 情歌 — 梁静茹 · 40.43 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json#live",
@@ -307,9 +305,9 @@
       "weekEnd": "2026-11-15",
       "mode": "live",
       "status": "provisional",
-      "revision": "6a64ab325fbbdaa54d90bc19069f81935ace5be7a81a3995e6454b5644d8f010",
+      "revision": "7e9595c70018f23590c7c41f42e9ffbc242e0dc17ef43065db54d053321e04bd",
       "publishedAt": "2026-11-08T18:00:18.725Z",
-      "updatedAt": "2026-11-11T06:13:33.132Z",
+      "updatedAt": "2026-11-11T07:44:25.622Z",
       "title": "共振 · 2026-11-09—2026-11-15 本周预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json",
       "coverage": {
@@ -320,9 +318,7 @@
           "2026-11-10",
           "2026-11-11"
         ],
-        "cachedDates": [
-          "2026-11-11"
-        ],
+        "cachedDates": [],
         "missingDates": [
           "2026-11-12",
           "2026-11-13",
@@ -334,7 +330,7 @@
         "mixedMethods": false,
         "mixedSignatures": false,
         "comparisonAvailable": true,
-        "comparisonUsesCache": true,
+        "comparisonUsesCache": false,
         "comparisonUsesIncomplete": true,
         "comparisonBaseline": {
           "periodStart": "2026-11-02",
@@ -344,8 +340,8 @@
         },
         "sourceCoverage": {
           "available": 6,
-          "fresh": 5,
-          "cached": 1,
+          "fresh": 6,
+          "cached": 0,
           "expected": 6,
           "groups": 4,
           "groupTotal": 4,
@@ -365,7 +361,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 90.8003
+          "score": 90.645
         },
         {
           "rank": 2,
@@ -374,7 +370,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 83.038
+          "score": 83.0017
         },
         {
           "rank": 3,
@@ -410,7 +406,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 54.3832
+          "score": 54.1965
         },
         {
           "rank": 7,
@@ -428,7 +424,7 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 52.3795
+          "score": 52.2574
         },
         {
           "rank": 9,
@@ -437,7 +433,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 44.8478
+          "score": 44.6225
         },
         {
           "rank": 10,
@@ -446,10 +442,10 @@
           "artists": [
             "周杰伦"
           ],
-          "score": 41.4199
+          "score": 41.4261
         }
       ],
-      "summary": "本周预览：2026-11-09—2026-11-15。\n有效 3/7 天；4 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-11-11。\n1. 我不难过 — 孙燕姿 · 90.80 分\n2. 天龙八部之宿敌 — 许嵩 · 83.04 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 72.41 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 65.02 分\n5. 我好像在哪见过你 — 薛之谦 · 57.23 分\n6. 我怀念的 — 孙燕姿 · 54.38 分\n7. 时过境迁 — 苏艺馨Chency · 52.40 分\n8. 恋人 — 李荣浩 · 52.38 分\n9. 雨爱 — 杨丞琳 · 44.85 分\n10. 发如雪 — 周杰伦 · 41.42 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json"
+      "summary": "本周预览：2026-11-09—2026-11-15。\n有效 3/7 天；4 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 90.64 分\n2. 天龙八部之宿敌 — 许嵩 · 83.00 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 72.41 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 65.02 分\n5. 我好像在哪见过你 — 薛之谦 · 57.23 分\n6. 我怀念的 — 孙燕姿 · 54.20 分\n7. 时过境迁 — 苏艺馨Chency · 52.40 分\n8. 恋人 — 李荣浩 · 52.26 分\n9. 雨爱 — 杨丞琳 · 44.62 分\n10. 发如雪 — 周杰伦 · 41.43 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-10.json#live",

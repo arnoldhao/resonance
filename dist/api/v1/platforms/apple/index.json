@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T06:13:33.132Z",
+  "generatedAt": "2026-11-11T07:44:25.622Z",
   "providerId": "apple",
   "name": "Apple Music",
   "dates": [
@@ -36,19 +36,14 @@
     {
       "date": "2026-11-11",
       "mode": "live",
-      "ingestion": "cache",
+      "ingestion": "public",
       "sourcePeriod": null,
-      "sourceUpdatedAt": "2026-11-10T20:27:56.000Z",
-      "fetchedAt": "2026-11-10T20:27:52.016Z",
-      "attemptedAt": "2026-11-11T06:13:33.132Z",
-      "collectionError": "HTTP 504 from rss.marketingtools.apple.com",
-      "cacheOrigin": {
-        "date": "2026-11-11",
-        "generatedAt": "2026-11-10T20:27:52.016Z",
-        "path": "data/runs/2026-11-11/2026-11-10T20-27-52-016Z.json",
-        "ingestion": "public"
-      },
-      "status": "stale"
+      "sourceUpdatedAt": "2026-11-11T07:44:28.000Z",
+      "fetchedAt": "2026-11-11T07:44:25.622Z",
+      "attemptedAt": "2026-11-11T07:44:25.622Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
     },
     {
       "date": "2026-11-10",

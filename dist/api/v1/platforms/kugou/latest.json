@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-11T06:13:33.132Z",
+  "fetchedAt": "2026-11-11T07:44:25.622Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-11 08:30:01",
   "entries": [
@@ -24,7 +24,7 @@
         "村口吴老二"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261110/20261110220115255473.png",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261111/20261111145150309838.jpg",
       "url": "https://www.kugou.com/song/#hash=D0F928C394C175BC0F4CAD8B9C3B5E9E",
       "sourceMovement": {
         "direction": "same",
@@ -6047,7 +6047,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-10",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-11T06:13:33.132Z",
+        "currentObservedAt": "2026-11-11T07:44:25.622Z",
         "previousObservedAt": "2026-11-10T08:25:16.694Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7126,7 +7126,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-11T06:13:33.132Z",
+  "attemptedAt": "2026-11-11T07:44:25.622Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7136,5 +7136,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T06:13:33.132Z"
+  "generatedAt": "2026-11-11T07:44:25.622Z"
 }
