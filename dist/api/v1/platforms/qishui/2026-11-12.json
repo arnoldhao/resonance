@@ -13,7 +13,7 @@
   "access": "官方榜单接口 · Web 模式 · 无需 Cookie 或签名",
   "providerId": "qishui",
   "declaredCount": 50,
-  "fetchedAt": "2026-11-12T04:10:32.252Z",
+  "fetchedAt": "2026-11-12T08:18:46.000Z",
   "sourceUpdatedAt": "2026-11-05T08:00:00.000Z",
   "sourcePeriod": "weekly",
   "entries": [
@@ -63,7 +63,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-11",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-12T04:10:32.252Z",
+        "currentObservedAt": "2026-11-12T08:18:46.000Z",
         "previousObservedAt": "2026-11-11T07:59:54.642Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -96,7 +96,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-11",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-12T04:10:32.252Z",
+        "currentObservedAt": "2026-11-12T08:18:46.000Z",
         "previousObservedAt": "2026-11-11T07:59:54.642Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -437,7 +437,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-11",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-12T04:10:32.252Z",
+        "currentObservedAt": "2026-11-12T08:18:46.000Z",
         "previousObservedAt": "2026-11-11T07:59:54.642Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -554,7 +554,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-11",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-12T04:10:32.252Z",
+        "currentObservedAt": "2026-11-12T08:18:46.000Z",
         "previousObservedAt": "2026-11-11T07:59:54.642Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1203,7 +1203,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-11",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-12T04:10:32.252Z",
+        "currentObservedAt": "2026-11-12T08:18:46.000Z",
         "previousObservedAt": "2026-11-11T07:59:54.642Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1446,7 +1446,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-12T04:10:32.252Z",
+  "attemptedAt": "2026-11-12T08:18:46.000Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -1456,5 +1456,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T04:10:32.252Z"
+  "generatedAt": "2026-11-12T08:18:46.000Z"
 }
