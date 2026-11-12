@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-12T08:18:46.000Z",
+  "fetchedAt": "2026-11-12T20:49:07.684Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-12 08:30:00",
   "entries": [
@@ -57,7 +57,7 @@
         "杨羊烊"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261111/20261111170624951721.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261112/20261112182105122627.jpg",
       "url": "https://www.kugou.com/song/#hash=99109626A961F7DA92D5987CF12CF0DC",
       "sourceMovement": {
         "direction": "up",
@@ -538,8 +538,13 @@
         "status": "linked",
         "items": [
           {
-            "id": "18447159",
-            "hash": "3B107C2D5101E1E61311C5CE287129E6",
+            "id": "18615584",
+            "hash": "A34BEE04BD43DD5F24B1382F90D6F24B",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "13DAB42F3CE7F6276B154112794E0700",
             "url": null
           }
         ]
@@ -685,7 +690,7 @@
         "季知炀"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261111/20261111201832308257.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261112/20261112203814146522.png",
       "url": "https://www.kugou.com/song/#hash=41C3466865A25EECE84CD103399E00F9",
       "sourceMovement": {
         "direction": "down",
@@ -2170,8 +2175,19 @@
         "origin": "official"
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "18615806",
+            "hash": "2B45EE3D2AA88B68E6F9E45C48731FC4",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "D9981660C346F5C46A1BBB6B1D1539FC",
+            "url": null
+          }
+        ]
       },
       "songId": "d7d0c8fe33fef5dbe4fe"
     },
@@ -7076,7 +7092,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-12T08:18:46.000Z",
+  "attemptedAt": "2026-11-12T20:49:07.684Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7085,6 +7101,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T08:18:46.000Z"
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-12T20:49:07.684Z"
 }
