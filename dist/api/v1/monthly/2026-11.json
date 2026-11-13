@@ -3,7 +3,7 @@
   "monthStart": "2026-11-01",
   "monthEnd": "2026-11-30",
   "mode": "live",
-  "generatedAt": "2026-11-13T04:10:58.029Z",
+  "generatedAt": "2026-11-13T04:14:00.349Z",
   "asOfDate": "2026-11-13",
   "status": "provisional",
   "entryHistoryStart": "2026-10-01",
@@ -58,67 +58,67 @@
       {
         "date": "2026-11-01",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-02",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-03",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-04",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-05",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-06",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-07",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-08",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-09",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-10",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-11",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-12",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-13",
         "version": "1.4",
-        "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       }
     ],
     "formula": "月得分 = 各有效日按当日保存公式计算的得分之和 ÷ 有效天数；公式升级不排除历史日期，缺失日与无效日不进入分母",
@@ -152,7 +152,7 @@
       "qishui": 0.1
     }
   },
-  "comparisonSignature": "1.4|a33a7d9a9f2a|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
+  "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
   "coverage": {
     "observedDays": 13,
     "expectedDays": 30,
@@ -21710,13 +21710,231 @@
       }
     },
     {
+      "id": "4900cb785e1d222f3164",
+      "title": "回到你身边",
+      "artists": [
+        "h3R3"
+      ],
+      "artwork": "http://p1.music.126.net/yed2hVZZwFNeSkTynWPaJQ==/109951173491736376.jpg",
+      "rank": 86,
+      "score": 11.0802,
+      "daysOnChart": 13,
+      "rankTrend": [
+        {
+          "date": "2026-11-07",
+          "rank": 82,
+          "status": "ranked"
+        },
+        {
+          "date": "2026-11-14",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-21",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-28",
+          "rank": null,
+          "status": "pending"
+        },
+        {
+          "date": "2026-11-30",
+          "rank": null,
+          "status": "pending"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "netease",
+          "name": "网易云音乐",
+          "rank": 47,
+          "sourceId": "3397415408",
+          "url": "https://music.163.com/#/song?id=3397415408",
+          "eligible": true,
+          "weight": 0.3,
+          "score": 24.293568349622863,
+          "contribution": 7.288070504886859,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -6,
+            "previousRank": 41,
+            "period": "previous-edition",
+            "raw": {
+              "lastRank": 40
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-13T04:10:18.267Z",
+          "observedDate": "2026-11-13",
+          "sourceUpdatedAt": "2026-11-13T00:46:59.135Z",
+          "sourcePeriod": null,
+          "attemptedAt": "2026-11-13T04:10:18.267Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-13"
+        },
+        {
+          "id": "kugou",
+          "name": "酷狗音乐",
+          "rank": 81,
+          "sourceId": "D47C45995D6D88F23AB76601702D9C9E",
+          "url": "https://www.kugou.com/song/#hash=D47C45995D6D88F23AB76601702D9C9E",
+          "eligible": true,
+          "weight": 0.2,
+          "score": 12.199104738002838,
+          "contribution": 2.439820947600568,
+          "sourceMovement": {
+            "direction": "down",
+            "delta": -1,
+            "previousRank": 80,
+            "period": "previous-edition",
+            "raw": {
+              "sort": 81,
+              "last_sort": 80
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "linked",
+            "items": [
+              {
+                "id": "17038031",
+                "hash": "BC6CAC007B243D298B15C2C2AB6987B3",
+                "url": null
+              }
+            ]
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-13T04:10:18.267Z",
+          "observedDate": "2026-11-13",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-13 08:30:00",
+          "attemptedAt": "2026-11-13T04:10:18.267Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-13"
+        },
+        {
+          "id": "qishui",
+          "name": "汽水音乐",
+          "rank": 33,
+          "sourceId": "7654827514128730113",
+          "url": "https://www.qishui.com/track/7654827514128730113",
+          "eligible": true,
+          "weight": 0.1,
+          "score": 35.023357040787474,
+          "contribution": 3.5023357040787477,
+          "sourceMovement": {
+            "direction": "new",
+            "delta": null,
+            "previousRank": null,
+            "period": "previous-edition",
+            "raw": {
+              "rank_delta": "0",
+              "rank_type": "new",
+              "track_id": "7654827514128730113"
+            },
+            "origin": "official"
+          },
+          "mv": {
+            "status": "unknown",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-13T04:10:18.267Z",
+          "observedDate": "2026-11-13",
+          "sourceUpdatedAt": "2026-11-12T08:00:00.000Z",
+          "sourcePeriod": "weekly",
+          "attemptedAt": "2026-11-13T04:10:18.267Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-13"
+        }
+      ],
+      "dailyScores": [
+        {
+          "date": "2026-11-01",
+          "score": 10.4133
+        },
+        {
+          "date": "2026-11-02",
+          "score": 9.4194
+        },
+        {
+          "date": "2026-11-03",
+          "score": 12.6807
+        },
+        {
+          "date": "2026-11-04",
+          "score": 10.875
+        },
+        {
+          "date": "2026-11-05",
+          "score": 12.6963
+        },
+        {
+          "date": "2026-11-06",
+          "score": 13.0091
+        },
+        {
+          "date": "2026-11-07",
+          "score": 12.091
+        },
+        {
+          "date": "2026-11-08",
+          "score": 8.6035
+        },
+        {
+          "date": "2026-11-09",
+          "score": 8.8195
+        },
+        {
+          "date": "2026-11-10",
+          "score": 10.9403
+        },
+        {
+          "date": "2026-11-11",
+          "score": 10.3239
+        },
+        {
+          "date": "2026-11-12",
+          "score": 10.9403
+        },
+        {
+          "date": "2026-11-13",
+          "score": 13.2302
+        }
+      ],
+      "previousRank": 72,
+      "delta": -14,
+      "monthlyMovement": {
+        "direction": "down",
+        "delta": -14,
+        "previousRank": 72,
+        "firstEntryDate": "2026-10-01",
+        "period": "previous-month",
+        "comparisonDate": "2026-10-01"
+      }
+    },
+    {
       "id": "b5e63529de97d45b31c6",
       "title": "牡丹亭",
       "artists": [
         "浅影阿"
       ],
       "artwork": "https://imge.kugou.com/stdmusic/400/20260812/20260812143453266688.jpg",
-      "rank": 86,
+      "rank": 87,
       "score": 11.0083,
       "daysOnChart": 13,
       "rankTrend": [
@@ -21925,10 +22143,10 @@
         }
       ],
       "previousRank": 52,
-      "delta": -34,
+      "delta": -35,
       "monthlyMovement": {
         "direction": "down",
-        "delta": -34,
+        "delta": -35,
         "previousRank": 52,
         "firstEntryDate": "2026-10-01",
         "period": "previous-month",
@@ -21942,7 +22160,7 @@
         "王菲"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000004Kbn3m2HV9Y3.jpg",
-      "rank": 87,
+      "rank": 88,
       "score": 10.9365,
       "daysOnChart": 13,
       "rankTrend": [
@@ -22161,10 +22379,10 @@
         }
       ],
       "previousRank": 80,
-      "delta": -7,
+      "delta": -8,
       "monthlyMovement": {
         "direction": "down",
-        "delta": -7,
+        "delta": -8,
         "previousRank": 80,
         "firstEntryDate": "2026-10-01",
         "period": "previous-month",
@@ -22178,7 +22396,7 @@
         "BEYOND"
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002qcJuX3lO3EZ.jpg",
-      "rank": 88,
+      "rank": 89,
       "score": 10.9308,
       "daysOnChart": 13,
       "rankTrend": [
@@ -22434,192 +22652,11 @@
         }
       ],
       "previousRank": 87,
-      "delta": -1,
+      "delta": -2,
       "monthlyMovement": {
         "direction": "down",
-        "delta": -1,
+        "delta": -2,
         "previousRank": 87,
-        "firstEntryDate": "2026-10-01",
-        "period": "previous-month",
-        "comparisonDate": "2026-10-01"
-      }
-    },
-    {
-      "id": "4900cb785e1d222f3164",
-      "title": "回到你身边",
-      "artists": [
-        "h3R3"
-      ],
-      "artwork": "http://p1.music.126.net/yed2hVZZwFNeSkTynWPaJQ==/109951173491736376.jpg",
-      "rank": 89,
-      "score": 10.8108,
-      "daysOnChart": 13,
-      "rankTrend": [
-        {
-          "date": "2026-11-07",
-          "rank": 82,
-          "status": "ranked"
-        },
-        {
-          "date": "2026-11-14",
-          "rank": null,
-          "status": "pending"
-        },
-        {
-          "date": "2026-11-21",
-          "rank": null,
-          "status": "pending"
-        },
-        {
-          "date": "2026-11-28",
-          "rank": null,
-          "status": "pending"
-        },
-        {
-          "date": "2026-11-30",
-          "rank": null,
-          "status": "pending"
-        }
-      ],
-      "platforms": [
-        {
-          "id": "netease",
-          "name": "网易云音乐",
-          "rank": 47,
-          "sourceId": "3397415408",
-          "url": "https://music.163.com/#/song?id=3397415408",
-          "eligible": true,
-          "weight": 0.3,
-          "score": 24.293568349622863,
-          "contribution": 7.288070504886859,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -6,
-            "previousRank": 41,
-            "period": "previous-edition",
-            "raw": {
-              "lastRank": 40
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "none",
-            "items": []
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-13T04:10:18.267Z",
-          "observedDate": "2026-11-13",
-          "sourceUpdatedAt": "2026-11-13T00:46:59.135Z",
-          "sourcePeriod": null,
-          "attemptedAt": "2026-11-13T04:10:18.267Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-13"
-        },
-        {
-          "id": "kugou",
-          "name": "酷狗音乐",
-          "rank": 81,
-          "sourceId": "D47C45995D6D88F23AB76601702D9C9E",
-          "url": "https://www.kugou.com/song/#hash=D47C45995D6D88F23AB76601702D9C9E",
-          "eligible": true,
-          "weight": 0.2,
-          "score": 12.199104738002838,
-          "contribution": 2.439820947600568,
-          "sourceMovement": {
-            "direction": "down",
-            "delta": -1,
-            "previousRank": 80,
-            "period": "previous-edition",
-            "raw": {
-              "sort": 81,
-              "last_sort": 80
-            },
-            "origin": "official"
-          },
-          "mv": {
-            "status": "linked",
-            "items": [
-              {
-                "id": "17038031",
-                "hash": "BC6CAC007B243D298B15C2C2AB6987B3",
-                "url": null
-              }
-            ]
-          },
-          "status": "ok",
-          "ingestion": "public",
-          "fetchedAt": "2026-11-13T04:10:18.267Z",
-          "observedDate": "2026-11-13",
-          "sourceUpdatedAt": null,
-          "sourcePeriod": "2026-11-13 08:30:00",
-          "attemptedAt": "2026-11-13T04:10:18.267Z",
-          "collectionError": null,
-          "cacheOrigin": null,
-          "includedDate": "2026-11-13"
-        }
-      ],
-      "dailyScores": [
-        {
-          "date": "2026-11-01",
-          "score": 10.4133
-        },
-        {
-          "date": "2026-11-02",
-          "score": 9.4194
-        },
-        {
-          "date": "2026-11-03",
-          "score": 12.6807
-        },
-        {
-          "date": "2026-11-04",
-          "score": 10.875
-        },
-        {
-          "date": "2026-11-05",
-          "score": 12.6963
-        },
-        {
-          "date": "2026-11-06",
-          "score": 13.0091
-        },
-        {
-          "date": "2026-11-07",
-          "score": 12.091
-        },
-        {
-          "date": "2026-11-08",
-          "score": 8.6035
-        },
-        {
-          "date": "2026-11-09",
-          "score": 8.8195
-        },
-        {
-          "date": "2026-11-10",
-          "score": 10.9403
-        },
-        {
-          "date": "2026-11-11",
-          "score": 10.3239
-        },
-        {
-          "date": "2026-11-12",
-          "score": 10.9403
-        },
-        {
-          "date": "2026-11-13",
-          "score": 9.7279
-        }
-      ],
-      "previousRank": 72,
-      "delta": -17,
-      "monthlyMovement": {
-        "direction": "down",
-        "delta": -17,
-        "previousRank": 72,
         "firstEntryDate": "2026-10-01",
         "period": "previous-month",
         "comparisonDate": "2026-10-01"
