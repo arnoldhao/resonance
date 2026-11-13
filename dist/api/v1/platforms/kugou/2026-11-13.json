@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-13T04:10:18.267Z",
+  "fetchedAt": "2026-11-13T07:56:02.209Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-13 08:30:00",
   "entries": [
@@ -107,8 +107,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "18424095",
-            "hash": "DA56702BF0620D23C15244ED071036FD",
+            "id": "18547555",
+            "hash": "49BA1C55135ED51D436A95EF88605F38",
             "url": null
           }
         ]
@@ -134,7 +134,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-12",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-13T04:10:18.267Z",
+        "currentObservedAt": "2026-11-13T07:56:02.209Z",
         "previousObservedAt": "2026-11-12T08:18:46.000Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -2112,7 +2112,7 @@
         "浅浅微醺"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261109/20261109173045796018.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261113/20261113135905319729.jpg",
       "url": "https://www.kugou.com/song/#hash=3C3982758F52B5ED7F50EC024F97B836",
       "sourceMovement": {
         "direction": "new",
@@ -2122,7 +2122,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-12",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-13T04:10:18.267Z",
+        "currentObservedAt": "2026-11-13T07:56:02.209Z",
         "previousObservedAt": "2026-11-12T08:18:46.000Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7080,7 +7080,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-13T04:10:18.267Z",
+  "attemptedAt": "2026-11-13T07:56:02.209Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7090,5 +7090,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T04:10:18.267Z"
+  "generatedAt": "2026-11-13T07:56:02.209Z"
 }
