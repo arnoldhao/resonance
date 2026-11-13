@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-13T20:28:53.844Z",
+  "methodology": {
+    "version": "movement-1.1",
+    "basis": "combined-rank",
+    "scope": "current-top-100",
+    "formula": "昨日综合名次 − 今日综合名次；上升、下降分别按变化幅度降序，同幅度按今日综合名次升序；首次入榜与重返榜单分别单列"
+  },
+  "entryHistoryStart": "2026-10-23",
+  "comparisonDate": "2026-11-13",
+  "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
+  "coverage": {
+    "available": 6,
+    "fresh": 5,
+    "cached": 1,
+    "expected": 6,
+    "groups": 4,
+    "groupTotal": 4,
+    "status": "complete",
+    "comparisonAvailable": true,
+    "comparisonUsesCache": true
+  },
+  "rising": [],
+  "falling": [],
+  "newEntries": [],
+  "reentries": [],
+  "unchangedCount": 100
+}
