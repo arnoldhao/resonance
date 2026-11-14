@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-14T04:10:20.382Z",
+  "fetchedAt": "2026-11-14T07:36:19.791Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-14 08:30:00",
   "entries": [
@@ -101,7 +101,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-13",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T04:10:20.382Z",
+        "currentObservedAt": "2026-11-14T07:36:19.791Z",
         "previousObservedAt": "2026-11-13T07:56:02.209Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1254,7 +1254,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-13",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T04:10:20.382Z",
+        "currentObservedAt": "2026-11-14T07:36:19.791Z",
         "previousObservedAt": "2026-11-13T07:56:02.209Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7102,7 +7102,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-14T04:10:20.382Z",
+  "attemptedAt": "2026-11-14T07:36:19.791Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7112,5 +7112,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T04:10:20.382Z"
+  "generatedAt": "2026-11-14T07:36:19.791Z"
 }
