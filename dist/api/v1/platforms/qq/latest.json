@@ -12,7 +12,7 @@
   "access": "官方公开 Web 接口",
   "providerId": "qq",
   "declaredCount": 300,
-  "fetchedAt": "2026-11-14T07:36:19.791Z",
+  "fetchedAt": "2026-11-14T18:44:07.191Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-14",
   "entries": [
@@ -38,8 +38,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "W0090PSvwtp",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5d47cfe6c7e99d6278ff"
     },
@@ -65,8 +71,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q0024l00d3g",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "6995accbf8affee8f247"
     },
@@ -109,15 +121,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/002lzYCa14usQ5",
       "rank": 4,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 4,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "4",
@@ -125,8 +137,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000dxv2J4Vgk8e",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "6fbcc619ba99ed2ea546"
     },
@@ -152,8 +170,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "k0015vx0zk0",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "01ced140824e12244086"
     },
@@ -179,8 +203,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "b0020rlv2g6",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "7940601b57e83658b527"
     },
@@ -206,8 +236,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000xDRJq3rGtmh",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "7b2499dcbf49017954cd"
     },
@@ -233,8 +269,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "002LY1bM2uks1Y",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "487bb610752a82429d35"
     },
@@ -260,8 +302,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "p0011tzl846",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5dd6817b1effe50d2027"
     },
@@ -287,8 +335,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "x0011dyevba",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8c0daa3d1077edcbc6c8"
     },
@@ -314,8 +368,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "y0011potvep",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "61c8815b55293dd4a3cd"
     },
@@ -341,8 +401,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "001TUB7o2BVawA",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "1c4e1a4066e20511f7ab"
     },
@@ -368,8 +434,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "k0025qsqvp3",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "0547bcb2d1b36134ce08"
     },
@@ -395,8 +467,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "c0024gk06gr",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9c5f89dfb6e015855e29"
     },
@@ -422,8 +500,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "y0019017666",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8a8b8ec8dd5b568bc6a2"
     },
@@ -449,8 +533,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "s0012es3fu7",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "161752bf9ddec26f6c9c"
     },
@@ -476,8 +566,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "b0021d273i3",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "7407243b4cef78bd77c6"
     },
@@ -503,8 +599,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "w0011j2cefa",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "c358903ade375e995c99"
     },
@@ -530,8 +632,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "h0014hbnffi",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "800b0aab3d68808e892e"
     },
@@ -557,8 +665,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "o0016t2ucce",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5a116a5750ca7bd1b1d1"
     },
@@ -584,8 +698,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "m0039bdft51",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "30998d16b8aaf576d32c"
     },
@@ -612,8 +732,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "j0026l0ritl",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "ee644fa3efd621e21012"
     },
@@ -639,8 +765,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "i0024jt8coz",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "949602a93a41b21f6d90"
     },
@@ -666,8 +798,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "010A6HAz12xTjq",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "2ddf59304e4740608316"
     },
@@ -693,8 +831,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000CwG9W34fBDf",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b4361e58e0661faae1fe"
     },
@@ -720,8 +864,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "b0013k1imsl",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9bf2b492e5c0e3e66c28"
     },
@@ -747,8 +897,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "001qxcET0Dv5cb",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "44a84462f6a0527b7c01"
     },
@@ -775,8 +931,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "001sCmnF1aB3z1",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e1244c31f553568a40f7"
     },
@@ -802,8 +964,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "010TZutQ0KWcgG",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "11386e3972a87669c851"
     },
@@ -830,8 +998,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0101RjpK1YbHTg",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "2919123b63ea95dd8c0f"
     },
@@ -858,8 +1032,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "011sY6rl1fKaTy",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5ea994720e99b56cb8ef"
     },
@@ -885,8 +1065,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0145i8DE32fOSU",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "ba3a5bb70e469cee402e"
     },
@@ -912,8 +1098,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "i00148rzeh7",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "aa443c23eb5bd46fcb5a"
     },
@@ -939,8 +1131,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "001RNVLN4AbkoL",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "6fc75d05e1e3314a888e"
     },
@@ -967,8 +1165,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0110u2Uj1iPBw8",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "a5b67731bf5bb37f615c"
     },
@@ -994,8 +1198,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "013ogNMi0Xv4LR",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "675c33ab3cb1d5737d02"
     },
@@ -1021,8 +1231,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0019MNR20LUOeh",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "07d8a07f3549e36b5f56"
     },
@@ -1048,8 +1264,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a001250pccr",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "4a3eddf0605cf5c78d0b"
     },
@@ -1102,8 +1324,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "k0012md5982",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "1637db17294d398b3b6b"
     },
@@ -1129,8 +1357,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "d0024ro2pbh",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "51f0d6e620b1ae2f7d0b"
     },
@@ -1156,8 +1390,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "t00112pv099",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b1c2c5201af051615e85"
     },
@@ -1183,8 +1423,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "011RtF9l1sYAjO",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "209589ee0ea9ed0a869e"
     },
@@ -1210,8 +1456,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q002490bez3",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "bbb1de5875b984c0c77b"
     },
@@ -1237,8 +1489,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "v00166itsfm",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "42e486853e2871a39a53"
     },
@@ -1264,8 +1522,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "t0035otrp1j",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "7554fbb3c3dfef7a4c90"
     },
@@ -1291,8 +1555,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "c00909gbzLn",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "ac71d510893cae37bc9b"
     },
@@ -1318,8 +1588,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "003k0IlZ1sd9Cl",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "41abde5987f63e6b9d96"
     },
@@ -1345,8 +1621,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "w0026q7f01a",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "86c4b8b6e1c2bcf8d9bd"
     },
@@ -1372,8 +1654,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "r0030ogmf2k",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "d264fbccaefdd35dce1a"
     },
@@ -1399,8 +1687,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q0013l5k1zx",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5dd9c87995c8b998dddc"
     },
@@ -1426,8 +1720,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "u00138j4hcs",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "a4fe35e43ba7b8f1f9f8"
     },
@@ -1453,8 +1753,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q0012ac6bqn",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "a6d0352a195f1557130d"
     },
@@ -1480,8 +1786,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "u0010TNv4U6",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "bc4ffc87d037ca2b32ce"
     },
@@ -1507,8 +1819,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "o0011gdh97u",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "1c1823ade108062c8f4d"
     },
@@ -1534,8 +1852,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "c00403pcs8l",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "d18cb0bee836ed443cd8"
     },
@@ -1561,8 +1885,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "w0021d3xx9i",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9d9937adc8b8a70ec150"
     },
@@ -1588,8 +1918,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "97FciofYu7m",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5641582cb246b3774f24"
     },
@@ -1615,8 +1951,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "h002467csjt",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "0d02990c8e33adeadafe"
     },
@@ -1643,8 +1985,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "D0090o0ZJMV",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "23a0fae22e7c30c2b262"
     },
@@ -1670,8 +2018,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "l00350jsqi9",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9250c2acb4ce266eb755"
     },
@@ -1697,8 +2051,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a001738g7ov",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e74d4e40aad1574e223f"
     },
@@ -1751,8 +2111,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000fmv2i0M4sq2",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "c45f0eb625b5fd56513e"
     },
@@ -1778,8 +2144,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "p0022zph5f6",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "18c5f745e32ecbf7c6f3"
     },
@@ -1805,8 +2177,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "f00236924ut",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9651874a04929a16a62e"
     },
@@ -1832,8 +2210,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "g0011qp6w2g",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "f0666b46e4eb5027ba8e"
     },
@@ -1859,8 +2243,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "b0011lorm6w",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "385c9f0b785b42360019"
     },
@@ -1886,8 +2276,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "004P9dPD0Syzlv",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "ea0218f4f3f17dcf233a"
     },
@@ -1913,8 +2309,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "g0024ntxz9m",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "759347971b57151b546e"
     },
@@ -1929,15 +2331,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/001xg5E71NKW62",
       "rank": 71,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 71,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "71",
@@ -1945,8 +2347,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "001L1TLc1Ut7A5",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "dc0e7f601275a30ffe84"
     },
@@ -1972,8 +2380,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "o0013x460mp",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b52fc8906d7bc013c4bd"
     },
@@ -1999,8 +2413,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "w0017ozas88",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e94e4eeaa4a10fdf2781"
     },
@@ -2026,8 +2446,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "v0010jcKJsm",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "301be28bf32a05037ce8"
     },
@@ -2053,8 +2479,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "t0013t82hr3",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "c4530f588762f034ae7f"
     },
@@ -2080,8 +2512,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "o0041k2q3in",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "d5c030c53083cb10df5f"
     },
@@ -2107,8 +2545,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "011JUnwE4YtNo7",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9f27ad70e6c7860a893a"
     },
@@ -2134,8 +2578,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "013q129Z3TvrEb",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "3bc4df0d4e354e6b9feb"
     },
@@ -2163,8 +2613,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "o0028y55dlq",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "6d55ddbad9880172cc82"
     },
@@ -2190,8 +2646,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "013255pV16D42f",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e56086ce3738f0ffb8a2"
     },
@@ -2217,8 +2679,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "b00266lk29f",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b1593a1b9db5084fe7b3"
     },
@@ -2244,8 +2712,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "y0013z5lq8e",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5a8888e9ca0323a7d699"
     },
@@ -2271,8 +2745,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a0022juje6y",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5b2f5df3e22bd8d70696"
     },
@@ -2298,8 +2778,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "l0012mf2nkr",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "67b2e44c80bb5be0588b"
     },
@@ -2325,8 +2811,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "012FstE51WzBDZ",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9a3e9b6871fee3abe8ed"
     },
@@ -2352,8 +2844,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "d0035nuf497",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "25710d8dc86db1d0c482"
     },
@@ -2379,8 +2877,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "Z0090Hi7gLf",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "1e1b44b393f7de24dc18"
     },
@@ -2406,8 +2910,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "z0025jupzb0",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "585aca6334182b43d67c"
     },
@@ -2433,8 +2943,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "d0025jq894n",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "81772ee929ad511e95a5"
     },
@@ -2487,8 +3003,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "g0022q7z0um",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "bd4608212cdc5cc26b0d"
     },
@@ -2514,8 +3036,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q0013x75hkk",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "6b5e3ba54baa9e23e570"
     },
@@ -2541,8 +3069,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "z0027n118z6",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "27abff4f6450b1a0c540"
     },
@@ -2568,8 +3102,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "c0025c297rz",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b4d7ea07fb5b82840d38"
     },
@@ -2595,8 +3135,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "p00330vk69k",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "173ba502e4be135aa5fb"
     },
@@ -2622,8 +3168,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a0041834kji",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8e1a853717e7382224df"
     },
@@ -2649,8 +3201,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "x0010J6FjeY",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "7acf20182fd5b5f724ea"
     },
@@ -2676,8 +3234,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "001V7BSr3yQzUz",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "bf228cba22fa10699441"
     },
@@ -2703,8 +3267,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "e002595m2u7",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b50b5fd68acb5763eeb1"
     },
@@ -2730,8 +3300,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "9M9HbpvNTCw",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "177446b98cef386eccb1"
     },
@@ -2757,8 +3333,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "z00240zscan",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8d91a1ca37e5aa3f1351"
     },
@@ -2784,8 +3366,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000R9tP73dMqJc",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "4b95a1432f83e64d5291"
     },
@@ -2812,8 +3400,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000Jc6NZ3WZZrB",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "bbdb681e49e20f1ef606"
     },
@@ -2839,8 +3433,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "z00134ypgls",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "1cedca71f4d8f7b581fd"
     },
@@ -2866,8 +3466,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "k0017duyjn6",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b4c72149e5a4a1942ed5"
     },
@@ -2893,8 +3499,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "011muo9C2UKM2e",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "48dd1e8aca4224551f92"
     },
@@ -2920,8 +3532,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0116M9Dr1EIInz",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "58027a030e3b256feea8"
     },
@@ -2947,8 +3565,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "m00119xeo83",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b399d1f14dbd73d2a91d"
     },
@@ -2974,8 +3598,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "i0017n1eqc5",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "624064ca2d176aa7abf0"
     },
@@ -3001,8 +3631,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "d0015z6s2c7",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "35305a9c6b838e4c4af4"
     },
@@ -3029,8 +3665,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "p0016el6pym",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "a0be831ffae4e5caf1a2"
     },
@@ -3056,8 +3698,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "h00226mtjpm",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "060f939691718f03835b"
     },
@@ -3083,8 +3731,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a0024zpkc3p",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b0e8aa038a5e500eab04"
     },
@@ -3110,8 +3764,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "b0032xtzvw6",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "2bd005a9dd55b1758ec0"
     },
@@ -3126,15 +3786,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/002HbkY60QuLSg",
       "rank": 115,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 115,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "115",
@@ -3142,8 +3802,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "j0022chsr3g",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "c2e1dbd3f06e6848d8e1"
     },
@@ -3169,8 +3835,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "T0010Rcobut",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9f7fea265f04bf1dd969"
     },
@@ -3196,8 +3868,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "d0011cypiv5",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b9eb39a0db72dee1bb74"
     },
@@ -3223,8 +3901,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "e00131jb996",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "fca2238bc463359cc1c4"
     },
@@ -3250,8 +3934,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "c0090hDXhsC",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "4f9f361eaa5f3ff8e00b"
     },
@@ -3277,8 +3967,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000f3IXk1ih9WK",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "03ebe423861e8e71eed2"
     },
@@ -3293,15 +3989,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/004QjYco29saMM",
       "rank": 121,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 121,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "121",
@@ -3309,8 +4005,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000hCHXY2hKVFQ",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e3202b86bd13691eccb2"
     },
@@ -3336,8 +4038,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "u0041vbq2j1",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "7071aa5c81a14a34d98e"
     },
@@ -3363,8 +4071,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "x00135ao69x",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "f6f657a1b486aa9826b3"
     },
@@ -3390,8 +4104,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "l00148m66oj",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "fe692d2f0c29a541f554"
     },
@@ -3417,8 +4137,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "9zlA4bBvZAC",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5dfeddc87a2772843c43"
     },
@@ -3444,8 +4170,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "y0017jgfo8g",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "d51d818ebdd69c28a25f"
     },
@@ -3471,8 +4203,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "d0031mxs7ty",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "27a7870e4fc6745739a9"
     },
@@ -3498,8 +4236,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q0023pztkcy",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "bcf704834042aff11783"
     },
@@ -3525,8 +4269,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "l00131om505",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e243a6b6f1ecd8ef4783"
     },
@@ -3552,8 +4302,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q0025xs5f73",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "3a8d0fc409d677863c4d"
     },
@@ -3579,8 +4335,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "t001046cBMP",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b7d70fa2b5a824eeae69"
     },
@@ -3607,8 +4369,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "004GRMTj20SJgL",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8745dfaca34d2b7533d1"
     },
@@ -3634,8 +4402,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q0030jcexku",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "497492be54d23050e871"
     },
@@ -3661,8 +4435,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "k0013x8ao6z",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "05db1463ac4d3768c09b"
     },
@@ -3688,8 +4468,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "9YwOrWrLxX7",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "66763f0406bfd0290606"
     },
@@ -3715,8 +4501,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "v00149ipnk5",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8666c6402f8735c5c596"
     },
@@ -3742,8 +4534,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "z001124mnui",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "47340fa3f9ddef45c397"
     },
@@ -3769,8 +4567,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "i002499fi0u",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "4022278d329f1e91cb96"
     },
@@ -3797,8 +4601,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0012K07D4VRNPB",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "ffe139a059be1c56d4bf"
     },
@@ -3824,8 +4634,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "t0012rmi9as",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "fbc1f07c6eb663ee5083"
     },
@@ -3851,8 +4667,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "k00244hiota",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "eaaa883408630061dea9"
     },
@@ -3878,8 +4700,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "l0013kgn1be",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8579ba448da26dc38aac"
     },
@@ -3905,8 +4733,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a0012fdgwi0",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "6e468d40aa9e2af201df"
     },
@@ -3932,8 +4766,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "Y0010TG4A64",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "3cc191ffb3899152f802"
     },
@@ -3959,8 +4799,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a00254ppfbr",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b667a091acb7962238b6"
     },
@@ -3986,8 +4832,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "003GScii30Iu8e",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "89e74b43db0a7f29effd"
     },
@@ -4013,8 +4865,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "f00138jq44x",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "76b8965b285f00214607"
     },
@@ -4040,8 +4898,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "s0016l9i3g5",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "ff0fa78e256f6d64b637"
     },
@@ -4056,15 +4920,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/0032BEiR4QvTmT",
       "rank": 149,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 149,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "149",
@@ -4072,8 +4936,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "002ZCLqZ31C272",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "4852d2b9f25e34f633d8"
     },
@@ -4099,8 +4969,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0140TGWz0fhipL",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "d7597b6f68779bd9ccce"
     },
@@ -4126,8 +5002,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "y0026zvdfpg",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "a49d2b1e78f061086539"
     },
@@ -4153,8 +5035,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "c00200si22o",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e89978db67a996f61a13"
     },
@@ -4180,8 +5068,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "m0012jou54d",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "7ac1b79225d8bc657b80"
     },
@@ -4207,8 +5101,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "010t3d0l1MfiTM",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "a3264c997d4c42811ec1"
     },
@@ -4235,8 +5135,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "o00198lponx",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "c06d8f123ef429a1d538"
     },
@@ -4262,8 +5168,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "v0026xtijlc",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "d6bdcaf1e131b821c244"
     },
@@ -4289,8 +5201,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "q0020dt2e73",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "6f164a403f38b8991823"
     },
@@ -4316,8 +5234,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "y0027sobcrh",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "12a16ae2bf9d7e1fc869"
     },
@@ -4343,8 +5267,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "c0030dhtdgc",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "f3a196bb99baebf1dd90"
     },
@@ -4370,8 +5300,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "y0019ewl7dv",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e4726ab654bef61af66d"
     },
@@ -4397,8 +5333,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "r00127x0yzd",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "d311660b0f27ef3fed43"
     },
@@ -4424,8 +5366,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "f0025y8scm2",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "598de15e397efd86dad4"
     },
@@ -4451,8 +5399,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "e0025kgonpr",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "2f94e6cd49deb138f452"
     },
@@ -4478,8 +5432,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "l0019k8gh30",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "47bf4c2c7ae9e93d320d"
     },
@@ -4506,8 +5466,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "012sl7zC4KO3y5",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "f16f89486c11bb10f0a9"
     },
@@ -4533,8 +5499,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a004184q96o",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "3b4bd1d71bd23a1895dc"
     },
@@ -4549,15 +5521,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/0002b0CB4C7fTI",
       "rank": 167,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 167,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "167",
@@ -4565,8 +5537,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "t0011iozd1n",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5c83f8d62fa60bae5e0e"
     },
@@ -4592,8 +5570,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "w0024takynm",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "840928bc434d66e05634"
     },
@@ -4619,8 +5603,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "y00131c5aqf",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "50b21a6c6b02ae7b859f"
     },
@@ -4646,8 +5636,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "u00137gtfy9",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "2f1ade9facb5d40fe651"
     },
@@ -4674,8 +5670,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000HMAyq3ef4CR",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "3483a92fa25053c6a48a"
     },
@@ -4701,8 +5703,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "000x4OWR0wGxiR",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "d8b72587e9a80a4307de"
     },
@@ -4728,8 +5736,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "n0031d236tz",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e4fc94d1be8bbaa56200"
     },
@@ -4755,8 +5769,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "a0030fktk1n",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "f57644e86ae49fec76e4"
     },
@@ -4782,8 +5802,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "m001932sz04",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "c578a94d6a0a7f4ce1d0"
     },
@@ -4809,8 +5835,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "v0022i0ya8f",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "287e839eb548f03e695b"
     },
@@ -4836,8 +5868,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "001T5fV60cLlSx",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "48349bd063b346adedc2"
     },
@@ -4863,8 +5901,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "e003535ulbx",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "e013bdb76664a41b1947"
     },
@@ -4879,15 +5923,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/001mMGvP3IVP1R",
       "rank": 179,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 179,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "179",
@@ -4895,8 +5939,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0019UjID4Hg5lR",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8adec476579ca275d6ee"
     },
@@ -4922,8 +5972,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "b00161r5nqc",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "2ef7cfcce6b8cb6f8e03"
     },
@@ -4949,8 +6005,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "i0034nnbhjk",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "be3ffa0ce67425d335ce"
     },
@@ -4976,8 +6038,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "j0012ka8gs6",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "df980b820dedd19773b3"
     },
@@ -5003,8 +6071,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "k0031c1i17h",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5f94b20106e48c6bc41a"
     },
@@ -5030,8 +6104,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "s001367ebom",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "61b3a2073424cb33c89f"
     },
@@ -5046,15 +6126,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/0017nH6e2trgfI",
       "rank": 185,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 185,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "185",
@@ -5062,8 +6142,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "h0033f8uiq8",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "31c274c6ec44d7cb62bf"
     },
@@ -5089,8 +6175,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "004JPDHR1hlsOt",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "5336b324f1e8b333b723"
     },
@@ -5116,8 +6208,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "u00222le4ox",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "f3de5361714d7b05d57f"
     },
@@ -5143,8 +6241,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0022i2FJ1bu2bc",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "7ed27134348dc9221371"
     },
@@ -5170,8 +6274,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "0036zkRz1xjRxs",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "ddb55b82c9465970323a"
     },
@@ -5186,15 +6296,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/0022b7OX2STU86",
       "rank": 190,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 190,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "190",
@@ -5202,8 +6312,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "t0019sebzuo",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "9e7bc83df3faa0a5cf46"
     },
@@ -5229,8 +6345,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "m00192l2270",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "32df557d3285d29dec70"
     },
@@ -5256,8 +6378,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "b0023bnzoaj",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "b81159b5ff6a2157c0d2"
     },
@@ -5283,8 +6411,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "d0011axepxl",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "c44d55ea7157e8656dc2"
     },
@@ -5300,15 +6434,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/0033CWxH4CpRNr",
       "rank": 194,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 194,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "194",
@@ -5316,8 +6450,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "004Tq3lR1REXZu",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "05f286a60456f6eb7ebe"
     },
@@ -5332,15 +6472,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/001zX06o4BBaJf",
       "rank": 195,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 195,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "195",
@@ -5348,8 +6488,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "f0030c691yf",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "1eefe964b2e771570839"
     },
@@ -5364,15 +6510,15 @@
       "url": "https://y.qq.com/n/ryqq/songDetail/001nUzRq0GgCVb",
       "rank": 196,
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 196,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-13",
+        "comparisonDate": "2026-11-14",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-14T07:36:19.791Z",
-        "previousObservedAt": "2026-11-13T07:56:02.209Z",
+        "currentObservedAt": "2026-11-14T18:44:07.191Z",
+        "previousObservedAt": "2026-11-14T07:36:19.791Z",
         "comparisonUsesCache": false,
         "raw": {
           "cur_count": "196",
@@ -5380,8 +6526,14 @@
         }
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "t0016apmru5",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "35510d3b1eb402aa984e"
     },
@@ -5407,8 +6559,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "013MOr6X3T3E7N",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "8cfd91d96cfdbcdcdbee"
     },
@@ -5434,8 +6592,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "010lyKjb31FQJW",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "3bcecde49ab93b3052cc"
     },
@@ -5461,8 +6625,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "o0031fp31ei",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "6cdc662fb6e52ef604b3"
     },
@@ -5488,15 +6658,21 @@
         "origin": "official"
       },
       "mv": {
-        "status": "none",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "004CweU71quFmO",
+            "hash": null,
+            "url": null
+          }
+        ]
       },
       "songId": "ddd55a9367cf76ce554a"
     }
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-14T07:36:19.791Z",
+  "attemptedAt": "2026-11-14T18:44:07.191Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -5505,6 +6681,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T07:36:19.791Z"
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-14T18:44:07.191Z"
 }

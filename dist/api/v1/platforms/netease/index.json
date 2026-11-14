@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T07:36:19.791Z",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-14T18:44:07.191Z",
   "providerId": "netease",
   "name": "网易云音乐",
   "dates": [
+    "2026-11-15",
     "2026-11-14",
     "2026-11-13",
     "2026-11-12",
@@ -32,6 +33,18 @@
     "2026-10-10"
   ],
   "editions": [
+    {
+      "date": "2026-11-15",
+      "mode": "live",
+      "ingestion": "public",
+      "sourcePeriod": null,
+      "sourceUpdatedAt": "2026-11-14T00:47:40.661Z",
+      "fetchedAt": "2026-11-14T18:44:07.191Z",
+      "attemptedAt": "2026-11-14T18:44:07.191Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
+    },
     {
       "date": "2026-11-14",
       "mode": "live",
