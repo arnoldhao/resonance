@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-15T07:50:19.503Z",
+  "fetchedAt": "2026-11-15T18:00:34.354Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-15 08:30:00",
   "entries": [
@@ -653,8 +653,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "18354662",
-            "hash": "604DD85E45A442DD38098391641ABA02",
+            "id": "18698528",
+            "hash": "C1E4D29EF243F3A5096F2F1112EEA8F0",
             "url": null
           }
         ]
@@ -5299,15 +5299,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261113/20261113160231928057.jpg",
       "url": "https://www.kugou.com/song/#hash=EBEF72AB6EE610B52608E745C09B083D",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 149,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-14",
+        "comparisonDate": "2026-11-15",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-15T07:50:19.503Z",
-        "previousObservedAt": "2026-11-14T07:36:19.791Z",
+        "currentObservedAt": "2026-11-15T18:00:34.354Z",
+        "previousObservedAt": "2026-11-15T07:50:19.503Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 149,
@@ -7175,7 +7175,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-15T07:50:19.503Z",
+  "attemptedAt": "2026-11-15T18:00:34.354Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7184,6 +7184,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-15",
-  "generatedAt": "2026-11-15T07:50:19.503Z"
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-15T18:00:34.354Z"
 }
