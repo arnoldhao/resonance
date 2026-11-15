@@ -5,18 +5,34 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex">
   <title>404 · 共振</title>
-  <meta name="theme-color" content="#101214">
+  <meta name="theme-color" content="#f1ede4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f0e0d" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&amp;family=Noto+Sans+SC:wght@400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&amp;family=JetBrains+Mono:wght@500&amp;family=Noto+Sans+SC:wght@400;500&amp;family=Noto+Serif+SC:wght@900&amp;display=swap">
   <style>
-    :root{color-scheme:dark;background:radial-gradient(ellipse at 20% 0%,#b8cad51c,transparent 65%),#101214;color:#f6f7f1;font-family:"Noto Sans SC",system-ui,sans-serif}
-    body{max-width:38rem;margin:18vh auto;padding:2rem}p{line-height:1.8;color:#b7c2ca}h1{font:600 clamp(1.8rem,5vw,2.7rem)/1.5 "Noto Sans SC",sans-serif;margin:.5em 0}a{color:#dce7f2;text-underline-offset:.25em}nav{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:2rem}
+    :root{color-scheme:light dark;--bg:#f1ede4;--ink:#17140f;--muted:#72695c;--line:#17140f3d;--accent:#ff4d12;--vinyl:#141210;--groove:#26221e}
+    @media(prefers-color-scheme:dark){:root{--bg:#0f0e0d;--ink:#f0eadf;--muted:#988f81;--line:#f0eadf36;--accent:#ff5a22;--vinyl:#070706;--groove:#191714}}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.9 "Noto Sans SC",system-ui,sans-serif}
+    main{width:min(40rem,calc(100% - 3rem));padding:3rem 0}
+    .disc{width:120px;height:120px;border-radius:50%;margin-bottom:2.5rem;background:radial-gradient(circle,var(--bg) 0 5%,var(--accent) 5.5% 28%,var(--vinyl) 29%),repeating-radial-gradient(circle,var(--vinyl) 0 1.5px,var(--groove) 2px 2.6px);animation:spin 6s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @media(prefers-reduced-motion:reduce){.disc{animation:none}}
+    .kicker{font:500 11px "JetBrains Mono",monospace;letter-spacing:.16em;color:var(--accent);margin:0}
+    h1{font:900 clamp(2.2rem,7vw,3.6rem)/1.2 "Noto Serif SC","Songti SC",serif;margin:.6rem 0 1rem}
+    p{color:var(--muted);margin:0}
+    nav{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:2rem}
+    a{color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.45rem 1.1rem;font-size:14px}
+    a:hover{background:var(--ink);color:var(--bg)}
   </style>
 </head>
 <body>
-  <p>RESONANCE / 共振</p>
-  <h1>这里还没有记录。</h1>
-  <p>页面或数据文件不存在。历史榜单仅提供已经发布的日期，可从接口目录查看可用资源。</p>
-  <nav><a href="/">返回今日榜单</a><a href="/api/v1/index.json">查看 API 目录</a></nav>
+  <main>
+    <div class="disc" aria-hidden="true"></div>
+    <p class="kicker">404 · SIDE C / 共振</p>
+    <h1>这一面，还没有刻录。</h1>
+    <p>页面或数据文件不存在。历史榜单仅提供已经发布的日期，可从接口目录查看可用资源。</p>
+    <nav><a href="/">返回今日榜单</a><a href="/api/v1/index.json">查看 API 目录</a></nav>
+  </main>
 </body>
 </html>

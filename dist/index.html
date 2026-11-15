@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#101214">
+  <meta name="theme-color" content="#f1ede4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f0e0d" media="(prefers-color-scheme: dark)">
   <meta name="description" content="共振 RESONANCE：中国音乐平台的每日榜单观察站。追踪平台热歌、发现跨平台共识，用公开透明的方法计算综合热歌榜。">
   <title>共振 RESONANCE — 听见流行的交集</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&amp;family=Noto+Sans+SC:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500&amp;family=Noto+Sans+SC:wght@400;500;700&amp;family=Noto+Serif+SC:wght@600;900&amp;display=swap">
+  <script>(()=>{let theme;try{theme=localStorage.getItem('resonance-theme')}catch{}document.documentElement.dataset.theme=theme==='dark'||theme==='light'?theme:matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'})()</script>
   <link rel="stylesheet" href="./styles.css">
   <link rel="alternate" type="application/atom+xml" title="共振 · 榜单更新" href="/feed.xml">
   <link rel="alternate" type="application/feed+json" title="共振 · JSON Feed" href="/feed.json">
@@ -20,20 +22,29 @@
   <div class="masthead-wrap">
     <header class="masthead page-width">
       <a class="brand" href="#charts" aria-label="共振首页">
-        <svg class="brand-mark" viewBox="0 0 34 29" fill="none" aria-hidden="true"><path d="M2 18V11M9 24V5M17 28V1M25 24V5M32 18V11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <svg class="brand-mark" viewBox="0 0 34 29" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M2 18V11"/><path d="M9 24V5"/><path d="M17 28V1"/><path d="M25 24V5"/><path d="M32 18V11"/></svg>
         <span class="brand-cn">共振</span><span class="brand-en">RESONANCE<span>音乐的共同频率</span></span>
       </a>
       <nav class="top-nav" aria-label="主要导航"><a href="#charts" data-nav="charts" aria-current="page">日榜</a><a href="#weekly" data-nav="weekly">周榜</a><a href="#monthly" data-nav="monthly">月榜</a><a href="#method" data-nav="method">计算方法</a><a href="#sources" data-nav="sources">数据源<span class="status-dot" aria-hidden="true"></span></a><a href="#api" data-nav="api">开放 API</a></nav>
-      <div class="edition"><span>中国 · CHINA</span><a href="#subscribe" class="subscribe-nav">订阅更新 ↗</a></div>
+      <div class="edition"><a href="#subscribe" class="subscribe-nav">订阅更新 <span aria-hidden="true">↗</span></a><button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换到夜间 B 面" title="A 面日间 · B 面夜间"><span class="side-a" aria-hidden="true">A</span><span class="side-b" aria-hidden="true">B</span></button></div>
     </header>
   </div>
   <main id="main" class="page-width">
     <section id="charts-view" class="view">
-      <div class="issue-line"><span><span class="live-dot"></span> THE DAILY RESONANCE</span><span id="issue-label">独立计算 · 公开方法</span></div>
+      <div class="issue-line"><span><span class="live-dot"></span> ON AIR · THE DAILY RESONANCE</span><span id="issue-label">独立计算 · 公开方法</span></div>
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy"><h1 id="hero-title">听见共同的<span class="accent-word">回响。</span></h1><p class="hero-description">从六个平台，听见音乐的交集。</p></div>
-        <div class="hero-facts" aria-label="本期概览"><span><b id="platform-count">·</b> 可用来源</span><span><b id="song-count">·</b> 首歌曲</span><span class="text-link"><a href="#method">共振值怎样计算 <span aria-hidden="true">↗</span></a></span></div>
+        <div class="hero-copy">
+          <p class="hero-kicker">六个平台 · 一条共同频率</p>
+          <h1 id="hero-title">听见共同的<br><span class="accent-word">回响。</span></h1>
+          <p class="hero-description">QQ 音乐、网易云、酷狗、酷我、Apple Music 与汽水音乐的公开榜单，在这里交汇成一张可追溯的综合榜。</p>
+          <div class="hero-facts" aria-label="本期概览"><span><b id="platform-count">·</b> 可用来源</span><span><b id="song-count">·</b> 首歌曲</span><span class="text-link"><a href="#method">共振值怎样计算 <span aria-hidden="true">↗</span></a></span></div>
+        </div>
+        <div class="hero-stage">
+          <div class="hero-rings" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div id="hero-record" class="hero-record"><div class="record is-empty" aria-hidden="true"><span class="record-disc"><span class="record-spin"><span class="record-label"></span></span><span class="record-sheen"></span></span><span class="record-sleeve"><span class="sleeve-blank">共振</span></span></div><div class="record-caption"><p class="record-kicker">TUNING IN · 正在调频</p><p class="record-title">正在接收今日的频率…</p></div></div>
+        </div>
       </section>
+      <section id="spectrum" class="spectrum" aria-label="今日频谱" hidden></section>
       <div id="data-notice" class="data-notice" role="status" hidden></div>
       <section class="daily-section" aria-labelledby="daily-heading">
         <div class="section-title"><div><span class="section-number">DAILY /</span><h2 id="daily-heading">共振日榜</h2></div><p id="snapshot-time">正在读取榜单…</p></div>
@@ -73,7 +84,12 @@
       <div id="api-content"><div class="empty-state">正在读取可用快照…</div></div>
     </section>
   </main>
-  <footer class="page-width footer"><div class="footer-brand">共振<span>RESONANCE</span></div><p>听见流行的交集。<span>独立音乐数据观察项目 · 非平台官方榜单</span></p><div class="footer-links"><a href="#weekly">综合周榜</a><a href="#monthly">综合月榜</a><a href="#method">方法公开</a><a href="#sources">来源可溯</a><a href="#api">开放 API ↗</a><a href="#subscribe">订阅更新 ↗</a></div><div class="footer-bottom"><span>MADE FOR THE LOVE OF MUSIC.</span><span>只记录榜单与元数据 · 音乐请到原平台收听</span></div></footer>
+  <footer class="page-width footer">
+    <div class="footer-brand">共振<span>RESONANCE</span></div>
+    <p>听见流行的交集。<span>独立音乐数据观察项目 · 非平台官方榜单</span></p>
+    <div class="footer-links"><a href="#weekly">综合周榜</a><a href="#monthly">综合月榜</a><a href="#method">方法公开</a><a href="#sources">来源可溯</a><a href="#api">开放 API ↗</a><a href="#subscribe">订阅更新 ↗</a></div>
+    <div class="footer-bottom"><span>MADE FOR THE LOVE OF MUSIC.</span><span>只记录榜单与元数据 · 音乐请到原平台收听</span></div>
+  </footer>
   <dialog id="song-dialog" class="song-dialog" aria-labelledby="song-dialog-title"><button id="close-dialog" class="close-dialog" aria-label="关闭歌曲详情">×</button><div id="song-detail"></div></dialog>
 </body>
 </html>

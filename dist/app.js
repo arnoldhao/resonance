@@ -333,6 +333,27 @@ function renderNotice() {
   notice.innerHTML = messages.length ? `<div class="data-notice-copy">${messages.join('<br>')}</div><a href="#sources">查看数据状态 ↗</a>` : '';
 }
 
+function renderHero() {
+  const snapshot = state.snapshot;
+  const songs = snapshot.songs;
+  const leader = songs[0];
+  const spectrum = $('#spectrum');
+  const disc = label => `<span class="record-disc" aria-hidden="true"><span class="record-spin"><span class="record-label">${label}</span></span><span class="record-sheen"></span></span>`;
+  if (!leader) {
+    $('#hero-record').innerHTML = `<div class="record is-empty" aria-hidden="true">${disc('')}<span class="record-sleeve"><span class="sleeve-blank">共振</span></span></div><div class="record-caption"><p class="record-kicker">AWAITING SIGNAL · 等待信号</p><p class="record-title">等待足够的独立来源</p><p class="record-meta">平台原榜仍可查看</p></div>`;
+    spectrum.hidden = true;
+    spectrum.innerHTML = '';
+    return;
+  }
+  const artwork = safeURL(leader.artwork);
+  const edition = snapshot.date.slice(5).replace('-', '.');
+  $('#hero-record').innerHTML = `<button type="button" class="record" data-song-id="${escapeHTML(leader.id)}" aria-label="本期第一：${escapeHTML(leader.title)}，${escapeHTML(artistName(leader))}，查看详情">${disc(artwork ? `<img src="${escapeHTML(artwork)}" alt="" referrerpolicy="no-referrer">` : `<b>${escapeHTML([...leader.title][0])}</b>`)}<span class="record-sleeve" aria-hidden="true">${cover(leader)}</span></button><div class="record-caption"><p class="record-kicker"><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>NOW RESONATING · NO.01 · ${edition}</p><p class="record-title">${escapeHTML(leader.title)}</p><p class="record-meta">${escapeHTML(artistName(leader))}<i>/</i><b>${number(leader.score)}</b> 共振值<i>/</i>${leader.appearances} 个平台上榜</p></div>`;
+  const last = songs.at(-1);
+  spectrum.hidden = false;
+  const defaultHint = `${songs.length} 首歌曲的共振值 · 每一道竖条是一首歌`;
+  spectrum.innerHTML = `<div class="spectrum-head"><p><b>SPECTRUM</b> / 本期频谱</p><span class="spectrum-readout" data-default="${escapeHTML(defaultHint)}">${defaultHint}</span></div><div class="spectrum-bars" role="img" aria-label="本期 ${songs.length} 首歌曲的共振值分布：第 1 名 ${number(leader.score)}，第 ${last.rank} 名 ${number(last.score)}。完整列表见下方日榜。">${songs.map((song, index) => `<span class="spectrum-bar${song.rank <= 3 ? ' top' : ''}${song.combinedMovement?.direction === 'new' ? ' new' : ''}" style="--h:${Math.max(1.5, Math.min(100, song.score)).toFixed(1)}%;--i:${index}" data-song-id="${escapeHTML(song.id)}" data-label="${String(song.rank).padStart(2, '0')} · ${escapeHTML(song.title)} · ${number(song.score)}"></span>`).join('')}</div><div class="spectrum-axis"><span>NO.01</span><span class="spectrum-legend"><span><i class="legend-top"></i>前三名</span><span><i class="legend-new"></i>首次入榜</span></span><span>NO.${last.rank}</span></div>`;
+}
+
 function renderOverview() {
   const snapshot = state.snapshot;
   $('#issue-label').textContent = `${snapshot.date.replaceAll('-', '.')} / ${snapshot.mode === 'demo' ? 'DEMO EDITION' : 'DAILY EDITION'}`;
@@ -341,6 +362,7 @@ function renderOverview() {
   $('#daily-heading').textContent = isLatest() ? '共振日榜' : `${snapshot.date.slice(5).replace('-', ' / ')} · 共振日榜`;
   $('#snapshot-time').textContent = `${snapshot.date} · ${snapshot.mode === 'demo' ? '示例快照' : `${dateTime(snapshot.generatedAt).split(' ').at(-1)} CST 生成`}`;
   renderNotice();
+  renderHero();
   const songs = snapshot.songs;
   if (!songs.length) {
     $('#feature-strip').innerHTML = '<div class="feature"><div class="feature-copy"><p class="feature-eyebrow">AWAITING SIGNAL</p><p class="feature-title">等待足够的独立来源</p><p class="feature-artist">平台原榜仍可查看</p></div></div>';
@@ -356,7 +378,7 @@ function renderOverview() {
   const second = greatest || songs.find((song) => song.rank > 1) || leader;
   const secondTitle = greatest ? '上升最快 / BIGGEST CLIMBER' : '共同入耳 / IN THE MIX';
   const secondBadge = greatest ? `↑${greatest.delta}<small>综合榜较昨日</small>` : `${second.appearances}<small>个平台上榜</small>`;
-  $('#feature-strip').innerHTML = `<article class="feature"><button class="feature-button" data-song-id="${escapeHTML(leader.id)}">${cover(leader, 'feature-art')}<div class="feature-copy"><p class="feature-eyebrow">本期第一 / NO. 01</p><h3 class="feature-title">${escapeHTML(leader.title)}</h3><p class="feature-artist">${escapeHTML(artistName(leader))}</p></div><span class="feature-arrow" aria-hidden="true">↗</span></button></article><article class="feature"><button class="feature-button" data-song-id="${escapeHTML(second.id)}">${cover(second, 'feature-art')}<div class="feature-copy"><p class="feature-eyebrow">${secondTitle}</p><h3 class="feature-title">${escapeHTML(second.title)}</h3><p class="feature-artist">${escapeHTML(artistName(second))} · #${second.rank}</p></div><span class="feature-badge">${secondBadge}</span></button></article><article class="feature">${entrantFeature}</article>`;
+  $('#feature-strip').innerHTML = `<article class="feature"><button class="feature-button" data-song-id="${escapeHTML(second.id)}">${cover(second, 'feature-art')}<div class="feature-copy"><p class="feature-eyebrow">${secondTitle}</p><h3 class="feature-title">${escapeHTML(second.title)}</h3><p class="feature-artist">${escapeHTML(artistName(second))} · #${second.rank}</p></div><span class="feature-badge">${secondBadge}</span></button></article><article class="feature">${entrantFeature}</article>`;
 }
 
 function renderFilters() {
@@ -572,7 +594,7 @@ function findSong(id, entryId) {
 }
 
 function showSong(id, entryId) {
-  if (state.mode === 'platform' && chartSource().ingestion === 'backfill') { showHistoricalSong(entryId); return; }
+  if (entryId && state.mode === 'platform' && chartSource().ingestion === 'backfill') { showHistoricalSong(entryId); return; }
   const song = findSong(id, entryId);
   const history = [...song.history].sort((a, b) => a.date.localeCompare(b.date)).slice(-7);
   const platforms = song.platforms.map((platform) => {
@@ -662,6 +684,30 @@ function setMode(mode) {
 }
 
 window.addEventListener('hashchange', navigate);
+const themeToggle = $('#theme-toggle');
+const syncThemeToggle = () => themeToggle.setAttribute('aria-label', document.documentElement.dataset.theme === 'dark' ? '切换到日间 A 面' : '切换到夜间 B 面');
+function setTheme(theme, origin) {
+  const apply = () => { document.documentElement.dataset.theme = theme; syncThemeToggle(); };
+  if (!origin || !document.startViewTransition || matchMedia('(prefers-reduced-motion: reduce)').matches) { apply(); return; }
+  const bounds = origin.getBoundingClientRect();
+  const x = bounds.left + bounds.width / 2;
+  const y = bounds.top + bounds.height / 2;
+  const radius = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+  document.startViewTransition(apply).ready.then(() => document.documentElement.animate(
+    { clipPath: [`circle(0px at ${x}px ${y}px)`, `circle(${radius}px at ${x}px ${y}px)`] },
+    { duration: 700, easing: 'cubic-bezier(.2,.8,.2,1)', pseudoElement: '::view-transition-new(root)' },
+  )).catch(() => {});
+}
+themeToggle.addEventListener('click', () => {
+  const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('resonance-theme', theme); } catch {}
+  setTheme(theme, themeToggle);
+});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+  try { if (localStorage.getItem('resonance-theme')) return; } catch {}
+  setTheme(event.matches ? 'dark' : 'light');
+});
+syncThemeToggle();
 for (const kind of ['weekly', 'monthly']) {
   $(`#${kind}-content`).addEventListener('change', event => {
     if (event.target.id === `${kind}-select`) void loadPeriod(kind, event.target.value);
@@ -769,6 +815,56 @@ $('#date-select').addEventListener('change', async (event) => {
     $('#chart-rows').innerHTML = `<div class="empty-state"><b>这一期没有成功载入。</b>请选择其他日期，或稍后刷新。</div>`;
   }
 });
+{
+  const spectrum = $('#spectrum');
+  let activeBar = null;
+  let scrubbing = false;
+  const setSpectrumBar = (bar) => {
+    const barsWrap = spectrum?.querySelector('.spectrum-bars');
+    const readout = spectrum?.querySelector('.spectrum-readout');
+    if (!barsWrap || !readout) return;
+    if (activeBar && activeBar !== bar) activeBar.classList.remove('is-active');
+    activeBar = bar;
+    if (!bar) {
+      barsWrap.classList.remove('has-active');
+      const fallback = readout.dataset.default || '';
+      readout.outerHTML = `<span class="spectrum-readout" data-default="${escapeHTML(fallback)}">${escapeHTML(fallback)}</span>`;
+      return;
+    }
+    bar.classList.add('is-active');
+    barsWrap.classList.add('has-active');
+    const fallback = readout.dataset.default || '';
+    const songId = bar.dataset.songId || '';
+    const label = bar.dataset.label || '';
+    readout.outerHTML = `<button type="button" class="spectrum-readout is-live" data-song-id="${escapeHTML(songId)}" data-default="${escapeHTML(fallback)}"><span>${escapeHTML(label)}</span><span class="spectrum-readout-action" aria-hidden="true">查看 ↗</span></button>`;
+  };
+  const barAtX = (clientX) => {
+    const barsWrap = spectrum?.querySelector('.spectrum-bars');
+    if (!barsWrap) return null;
+    const bars = barsWrap.children;
+    if (!bars.length) return null;
+    const rect = barsWrap.getBoundingClientRect();
+    const ratio = Math.max(0, Math.min(0.9999, (clientX - rect.left) / (rect.width || 1)));
+    return bars[Math.floor(ratio * bars.length)] || null;
+  };
+  spectrum?.addEventListener('pointerdown', (event) => {
+    if (!event.target.closest('.spectrum-bars')) return;
+    scrubbing = true;
+    setSpectrumBar(barAtX(event.clientX));
+  });
+  spectrum?.addEventListener('pointermove', (event) => {
+    if (!scrubbing && !event.target.closest('.spectrum-bars')) {
+      if (event.pointerType !== 'touch' && !event.target.closest('.spectrum-readout')) setSpectrumBar(null);
+      return;
+    }
+    if (event.pointerType === 'touch' && !scrubbing) return;
+    setSpectrumBar(event.target.closest('.spectrum-bar') || barAtX(event.clientX));
+  });
+  window.addEventListener('pointerup', () => { scrubbing = false; });
+  spectrum?.addEventListener('pointerleave', (event) => {
+    if (event.pointerType !== 'touch' && !scrubbing) setSpectrumBar(null);
+  });
+}
 document.addEventListener('click', (event) => {
   const button = event.target.closest('[data-song-id]');
   if (button) showSong(button.dataset.songId, button.dataset.entryId);
