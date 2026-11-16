@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-16",
-  "generatedAt": "2026-11-16T07:58:08.717Z",
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-16T22:53:08.424Z",
   "providerId": "kugou",
   "name": "酷狗音乐",
   "dates": [
+    "2026-11-17",
     "2026-11-16",
     "2026-11-15",
     "2026-11-14",
@@ -63,6 +64,18 @@
     "2026-09-23"
   ],
   "editions": [
+    {
+      "date": "2026-11-17",
+      "mode": "live",
+      "ingestion": "public",
+      "sourcePeriod": "2026-11-16 08:30:01",
+      "sourceUpdatedAt": null,
+      "fetchedAt": "2026-11-16T22:53:08.424Z",
+      "attemptedAt": "2026-11-16T22:53:08.424Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
+    },
     {
       "date": "2026-11-16",
       "mode": "live",
