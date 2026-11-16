@@ -68,7 +68,7 @@
   --sans: "Noto Sans SC", -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
   --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --ease: cubic-bezier(.2, .8, .2, 1);
-  font-synthesis: none;
+  font-synthesis: weight;
 }
 
 /* ---------- Base ---------- */
@@ -76,7 +76,7 @@
 html { scroll-behavior: smooth; scroll-padding-top: 96px; overflow-x: clip; background: var(--bg) }
 @media (min-width: 861px) { html { scrollbar-gutter: stable } }
 html:has(.song-dialog[open]) { overflow: hidden; overscroll-behavior: none }
-body { margin: 0; min-height: 100vh; overflow-x: clip; color: var(--ink); background: var(--bg); font: 400 14px/1.6 var(--sans); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; transition: background-color .3s, color .3s }
+body { margin: 0; min-height: 100vh; color: var(--ink); background: var(--bg); font: 400 14px/1.6 var(--sans); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility }
 main, .view { min-width: 0 }
 body::before { content: ""; position: fixed; inset: 0; z-index: 100; pointer-events: none; opacity: var(--grain); mix-blend-mode: overlay; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E") }
 ::selection { background: var(--accent); color: #fff }
@@ -198,11 +198,11 @@ code { font-family: var(--mono); font-size: .92em }
 .spectrum-bar:hover::before, .spectrum-bar.is-active::before { background: var(--accent); opacity: 1 }
 .spectrum-bars:hover .spectrum-bar:not(:hover):not(.is-active)::before, .spectrum-bars.has-active .spectrum-bar:not(.is-active):not(:hover)::before { opacity: .32 }
 .spectrum-bars:hover .spectrum-bar.top:not(:hover):not(.is-active)::before, .spectrum-bars.has-active .spectrum-bar.top:not(.is-active):not(:hover)::before { opacity: .6 }
-.spectrum-bar::after { content: attr(data-label); position: absolute; left: 50%; bottom: calc(var(--h) + 16px); z-index: 2; translate: -50% 4px; padding: 6px 10px; border-radius: 6px; background: var(--ink); color: var(--bg); font: 500 12px/1.4 var(--sans); white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity .15s, translate .2s var(--ease) }
-.spectrum-bar:nth-child(-n+12)::after { left: 0; translate: 0 4px }
-.spectrum-bar:nth-last-child(-n+12)::after { left: auto; right: 0; translate: 0 4px }
+.spectrum-bar::after { content: attr(data-label); position: absolute; left: 50%; bottom: calc(var(--h) + 16px); z-index: 2; max-width: min(320px, 78vw); overflow: hidden; text-overflow: ellipsis; translate: -50% 4px; padding: 6px 10px; border-radius: 6px; background: var(--ink); color: var(--bg); font: 500 12px/1.4 var(--sans); white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity .15s, translate .2s var(--ease) }
+.spectrum-bar.is-left::after { left: 0; translate: 0 4px }
+.spectrum-bar.is-right::after { left: auto; right: 0; translate: 0 4px }
 .spectrum-bar:hover::after { opacity: 1; translate: -50% 0 }
-.spectrum-bar:nth-child(-n+12):hover::after, .spectrum-bar:nth-last-child(-n+12):hover::after { translate: 0 0 }
+.spectrum-bar.is-left:hover::after, .spectrum-bar.is-right:hover::after { translate: 0 0 }
 .spectrum-axis { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 12px; font: 500 11px/1.6 var(--mono); color: var(--muted) }
 .spectrum-legend { display: flex; gap: 18px; font-family: var(--sans) }
 .spectrum-legend span { display: inline-flex; align-items: center; gap: 6px }
@@ -233,13 +233,11 @@ code { font-family: var(--mono); font-size: .92em }
 .feature-strip { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 30px 0 36px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line) }
 .feature { position: relative; display: flex; align-items: center; gap: 16px; min-width: 0 }
 .feature + .feature { border-left: 1px solid var(--line) }
-.feature > .feature-copy { padding: 22px 0 22px 24px }
-.feature > .feature-badge { padding-right: 24px }
-.feature-button { display: flex; align-items: center; gap: 24px; width: 100%; min-width: 0; padding: 22px 24px; border: 0; background: none; text-align: left; transition: background-color .25s }
+.feature-button, .feature-static { display: flex; align-items: center; gap: 24px; width: 100%; min-width: 0; padding: 22px 24px; border: 0; background: none; text-align: left; transition: background-color .25s }
 .feature-button:hover { background: var(--bg-raise) }
 .feature-copy { flex: 1; min-width: 0 }
 .feature-eyebrow { margin-bottom: 6px; font: 500 11px/1.6 var(--mono); letter-spacing: .1em; color: var(--accent-ink) }
-.feature-title { overflow: hidden; font: 700 20px/1.45 var(--serif); white-space: nowrap; text-overflow: ellipsis }
+.feature-title { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font: 700 20px/1.4 var(--serif) }
 .feature-artist { margin-top: 3px; overflow: hidden; font-size: 13px; color: var(--muted); white-space: nowrap; text-overflow: ellipsis }
 .feature-badge { flex-shrink: 0; font: 400 42px/1 var(--display); text-align: right; color: var(--ink) }
 .feature-badge small { display: block; margin-top: 6px; font: 400 11px/1.4 var(--sans); color: var(--muted) }
@@ -315,8 +313,8 @@ code { font-family: var(--mono); font-size: .92em }
 .song-info { flex: 1; min-width: 0 }
 .song-title { display: flex; align-items: center; min-width: 0; font-size: 16px; font-weight: 500; line-height: 1.5 }
 .song-title-text { min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis }
-.song-artists { margin-top: 3px; overflow: hidden; font-size: 13px; color: var(--muted); white-space: nowrap; text-overflow: ellipsis }
-.original-row-context { display: none; margin-top: 4px; overflow: hidden; font-size: 11px; line-height: 1.6; color: var(--muted); white-space: nowrap; text-overflow: ellipsis }
+.song-artists { display: block; margin-top: 3px; overflow: hidden; font-size: 13px; color: var(--muted); white-space: nowrap; text-overflow: ellipsis }
+.original-row-context { display: none; margin-top: 4px; font-size: 11px; line-height: 1.6; color: var(--muted) }
 .song-mv-badge { display: inline-flex; align-items: center; gap: 3px; flex-shrink: 0; margin-left: 8px; padding: 2px 5px; border: 1px solid var(--line-strong); border-radius: 4px; font: 500 9px/1.2 var(--mono); letter-spacing: .06em; color: var(--muted); white-space: nowrap }
 .song-mv-badge svg { width: 7px; height: 7px; fill: currentColor }
 
@@ -624,11 +622,13 @@ code { font-family: var(--mono); font-size: .92em }
 @keyframes rise { from { transform: scaleY(0) } to { transform: scaleY(1) } }
 @keyframes peek { from { transform: translateX(0) rotate(0) } }
 @keyframes dialog-in { from { opacity: 0; transform: translateY(18px) scale(.98) } }
-.view:not([hidden]) > * { animation: view-in .6s var(--ease) both }
+.view:not([hidden]) > * { animation: view-in .6s var(--ease) backwards }
 .view:not([hidden]) > :nth-child(2) { animation-delay: .05s }
 .view:not([hidden]) > :nth-child(3) { animation-delay: .1s }
 .view:not([hidden]) > :nth-child(n+4) { animation-delay: .15s }
+#api-view:not([hidden]) > #api-content { animation-name: view-fade }
 @keyframes view-in { from { opacity: 0; transform: translateY(14px) } }
+@keyframes view-fade { from { opacity: 0 } }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto }
@@ -679,7 +679,7 @@ code { font-family: var(--mono); font-size: .92em }
   .filter-row { flex-direction: column; align-items: stretch }
   .platform-filters { width: 100%; min-width: 0 }
   .search-box { width: 100% }
-  .feature-button { padding: 18px 16px; gap: 18px }
+  .feature-button, .feature-static { padding: 18px 16px; gap: 18px }
   .feature-title { font-size: 17px }
   .feature-badge { font-size: 34px }
   .cover.feature-art { width: 48px; height: 48px }
@@ -722,7 +722,8 @@ code { font-family: var(--mono); font-size: .92em }
   .record-caption { width: 100%; max-width: 100%; margin-top: 24px }
   .spectrum { padding-bottom: 48px }
   .spectrum-head { flex-direction: column; align-items: stretch; gap: 4px }
-  .spectrum-readout { justify-content: flex-start; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+  .spectrum-readout { flex-wrap: wrap; justify-content: flex-start; gap: 4px 10px; text-align: left; white-space: normal }
+  .spectrum-readout > span:first-child { white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.5 }
   .spectrum-bars { gap: 1.5px; height: 96px }
   .spectrum-bar::after { display: none }
   .spectrum-legend { gap: 12px }
@@ -732,17 +733,15 @@ code { font-family: var(--mono); font-size: .92em }
   .section-title > p { text-align: left }
   .feature-strip { grid-template-columns: minmax(0, 1fr); margin: 22px 0 28px }
   .feature + .feature { border-left: 0; border-top: 1px solid var(--line) }
-  .feature-button { padding: 16px 4px }
-  .feature > .feature-copy { padding: 16px 0 16px 4px }
-  .feature > .feature-badge { padding-right: 4px }
+  .feature-button, .feature-static { padding: 16px 4px }
   .chart-tabs { gap: 18px }
   .chart-tab { padding-bottom: 14px; font-size: 15px }
   .chart-tools { width: 100%; min-width: 0; justify-content: space-between; gap: 8px }
   .date-picker { flex: 1 1 0; min-width: 0 }
   .date-picker select { max-width: none; width: 100%; min-width: 0; text-overflow: ellipsis }
   .export-button { flex-shrink: 0; white-space: nowrap }
-  .platform-filters { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 4px; width: 100%; min-width: 0 }
-  .platform-filter { flex-direction: column; justify-content: center; gap: 5px; min-width: 0; min-height: 50px; padding: 7px 1px; border-radius: 12px; font-size: 11px; overflow: hidden }
+  .platform-filters { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; min-width: 0 }
+  .platform-filter { justify-content: center; gap: 6px; min-height: 36px; padding: 7px 12px; font-size: 12px }
   .filter-label-full { display: none }
   .filter-label-compact { display: inline }
   .search-box kbd { display: none }
@@ -837,7 +836,7 @@ code { font-family: var(--mono); font-size: .92em }
 @media (max-width: 400px) {
   .top-nav a { padding: 5px 6px; font-size: 11.5px }
   .hero h1 { font-size: 42px }
-  .platform-filter { font-size: 10px }
+  .platform-filter { padding: 6px 10px; font-size: 11.5px }
   .theme-toggle span { width: 22px }
   .detail-platform-grid { grid-template-columns: minmax(0, 1fr) }
 }
