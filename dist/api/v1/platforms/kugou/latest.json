@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-16T04:10:31.658Z",
+  "fetchedAt": "2026-11-16T07:58:08.717Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-16 08:30:01",
   "entries": [
@@ -412,7 +412,7 @@
         "z阿康"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20260924/20260924180701949725.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261116/20261116140941726244.jpg",
       "url": "https://www.kugou.com/song/#hash=84F2B52A45C39FC1C1AB1D883FCAA7BF",
       "sourceMovement": {
         "direction": "up",
@@ -1505,7 +1505,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-15",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-16T04:10:31.658Z",
+        "currentObservedAt": "2026-11-16T07:58:08.717Z",
         "previousObservedAt": "2026-11-15T07:50:19.503Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -6371,7 +6371,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-15",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-16T04:10:31.658Z",
+        "currentObservedAt": "2026-11-16T07:58:08.717Z",
         "previousObservedAt": "2026-11-15T07:50:19.503Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7203,7 +7203,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-16T04:10:31.658Z",
+  "attemptedAt": "2026-11-16T07:58:08.717Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7213,5 +7213,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T04:10:31.658Z"
+  "generatedAt": "2026-11-16T07:58:08.717Z"
 }
