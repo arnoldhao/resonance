@@ -10,7 +10,7 @@
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500&amp;family=Noto+Sans+SC:wght@400;500;700&amp;family=Noto+Serif+SC:wght@600;900&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500;700&amp;family=Noto+Sans+SC:wght@400;500;700&amp;family=Noto+Serif+SC:wght@600;700;900&amp;display=swap">
   <script>(()=>{let theme;try{theme=localStorage.getItem('resonance-theme')}catch{}document.documentElement.dataset.theme=theme==='dark'||theme==='light'?theme:matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'})()</script>
   <link rel="stylesheet" href="./styles.css">
   <link rel="alternate" type="application/atom+xml" title="共振 · 榜单更新" href="/feed.xml">
@@ -26,15 +26,15 @@
         <span class="brand-cn">共振</span><span class="brand-en">RESONANCE<span>音乐的共同频率</span></span>
       </a>
       <nav class="top-nav" aria-label="主要导航"><a href="#charts" data-nav="charts" aria-current="page">日榜</a><a href="#weekly" data-nav="weekly">周榜</a><a href="#monthly" data-nav="monthly">月榜</a><a href="#method" data-nav="method">计算方法</a><a href="#sources" data-nav="sources">数据源<span class="status-dot" aria-hidden="true"></span></a><a href="#api" data-nav="api">开放 API</a></nav>
-      <div class="edition"><a href="#subscribe" class="subscribe-nav">订阅更新 <span aria-hidden="true">↗</span></a><button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换到夜间 B 面" title="A 面日间 · B 面夜间"><span class="side-a" aria-hidden="true">A</span><span class="side-b" aria-hidden="true">B</span></button></div>
+      <div class="edition"><a href="#subscribe" class="subscribe-nav">订阅更新 <span aria-hidden="true">↗</span></a><button id="theme-toggle" class="theme-toggle" type="button" aria-label="切换昼夜 A / B 面" title="A 面日间 · B 面夜间"><span class="side-a" aria-hidden="true">A</span><span class="side-b" aria-hidden="true">B</span></button></div>
     </header>
   </div>
   <main id="main" class="page-width">
     <section id="charts-view" class="view">
-      <div class="issue-line"><span><span class="live-dot"></span> ON AIR · THE DAILY RESONANCE</span><span id="issue-label">独立计算 · 公开方法</span></div>
+      <div class="issue-line"><span id="issue-status"><span class="live-dot"></span> ON AIR · THE DAILY RESONANCE</span><span id="issue-label">独立计算 · 公开方法</span></div>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="hero-kicker">六个平台 · 一条共同频率</p>
+          <p class="hero-kicker">跨平台观察 · 一条共同频率</p>
           <h1 id="hero-title">听见共同的<br><span class="accent-word">回响。</span></h1>
           <p class="hero-description">QQ 音乐、网易云、酷狗、酷我、Apple Music 与汽水音乐的公开榜单，在这里交汇成一张可追溯的综合榜。</p>
           <div class="hero-facts" aria-label="本期概览"><span><b id="platform-count">·</b> 可用来源</span><span><b id="song-count">·</b> 首歌曲</span><span class="text-link"><a href="#method">共振值怎样计算 <span aria-hidden="true">↗</span></a></span></div>
@@ -53,7 +53,7 @@
         <div class="filter-row"><div id="platform-filters" class="platform-filters" aria-label="平台筛选"></div><label class="search-box"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search-input" type="search" placeholder="搜索歌曲 / 歌手" autocomplete="off" aria-label="搜索歌曲或歌手"><kbd>/</kbd></label></div>
         <div id="movement-controls" class="movement-controls" aria-label="涨跌方向" hidden><button type="button" data-movement="up" aria-pressed="true">上升</button><button type="button" data-movement="down" aria-pressed="false">下降</button><button type="button" data-movement="new" aria-pressed="false">首次入榜</button><button type="button" data-movement="reentry" aria-pressed="false">重返榜单</button></div>
         <p id="chart-context" class="chart-context"></p>
-        <div id="chart-panel" role="tabpanel" aria-labelledby="combined-tab"><div class="table-head" aria-hidden="true"><span>排名</span><span>歌曲 / 艺人</span><span>平台名次</span><span>近 7 日</span><span>共振值</span></div><div id="chart-rows" class="chart-rows" aria-live="polite"><div class="empty-state">正在接收今日的频率…</div></div></div>
+        <div id="chart-panel" role="tabpanel" aria-labelledby="combined-tab"><div class="table-head" aria-hidden="true"><span>排名</span><span>歌曲 / 艺人</span><span>平台名次</span><span>综合榜近 7 期</span><span>共振值</span></div><div id="chart-rows" class="chart-rows" aria-live="polite"><div class="empty-state">正在接收今日的频率…</div></div></div>
         <div class="chart-bottom"><p id="result-count"></p><button id="show-more" class="outline-button" hidden>展开更多歌曲 <span aria-hidden="true">↓</span></button><a id="download-json" class="text-link" href="./data/latest.json" download>原始 JSON <span aria-hidden="true">↗</span></a></div>
       </section>
       <section class="editorial-note"><span class="note-mark">＊</span><div><h2>流行从来不只有一种答案。</h2><p>平台有不同的听众，榜单有不同的规则。我们保留这些差异，也寻找它们相遇的地方。共振值是一种可解释的观察视角，每一个名次，都能找到它的来处。</p></div><a href="#method" class="round-link" aria-label="了解计算方法">↗</a></section>
