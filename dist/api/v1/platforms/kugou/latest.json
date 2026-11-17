@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-17T09:12:25.688Z",
+  "fetchedAt": "2026-11-17T21:45:29.021Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-17 08:30:01",
   "entries": [
@@ -2267,8 +2267,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "18741891",
-            "hash": "3F4B74455C92860724A284E08EC27632",
+            "id": "18772426",
+            "hash": "051D937FAF0E64D0D507E78D166BE88E",
             "url": null
           }
         ]
@@ -4578,7 +4578,7 @@
         "萧泽x.z"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261106/20261106155013428352.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261106/20261106153102113445.jpg",
       "url": "https://www.kugou.com/song/#hash=C8B6898AB9052512C547B092BF86E652",
       "sourceMovement": {
         "direction": "down",
@@ -6402,15 +6402,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261115/20261115141451855598.jpg",
       "url": "https://www.kugou.com/song/#hash=C0CDFA581538AA65B8DD810128285B90",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 177,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-16",
+        "comparisonDate": "2026-11-17",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-17T09:12:25.688Z",
-        "previousObservedAt": "2026-11-16T07:58:08.717Z",
+        "currentObservedAt": "2026-11-17T21:45:29.021Z",
+        "previousObservedAt": "2026-11-17T09:12:25.688Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 177,
@@ -6422,7 +6422,7 @@
         "items": [
           {
             "id": "18772382",
-            "hash": "DA6A8485F2A1ACF42D53ECC5A423E777",
+            "hash": "30C31B0EC0E04B8F1BD8D80298BCC378",
             "url": null
           }
         ]
@@ -7288,7 +7288,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-17T09:12:25.688Z",
+  "attemptedAt": "2026-11-17T21:45:29.021Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7297,6 +7297,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T09:12:25.688Z"
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-17T21:45:29.021Z"
 }
