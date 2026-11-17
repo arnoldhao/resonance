@@ -18,7 +18,7 @@
       "title": "共振 · 2026-11-17 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 86.10 分\n2. 天龙八部之宿敌 — 许嵩 · 79.35 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 60.16 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 55.98 分\n5. 我怀念的 — 孙燕姿 · 53.94 分\n6. 慌啥子嘛 — 村口吴老二 · 53.27 分\n7. 我好像在哪见过你 — 薛之谦 · 52.35 分\n8. 恋人 — 李荣浩 · 52.34 分\n9. 雨爱 — 杨丞琳 · 41.20 分\n10. 发如雪 — 周杰伦 · 40.46 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-17.json",
       "date_published": "2026-11-16T22:53:08.424Z",
-      "date_modified": "2026-11-17T04:10:29.446Z",
+      "date_modified": "2026-11-17T04:14:48.712Z",
       "tags": [
         "live",
         "daily",
@@ -27,7 +27,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-17",
-        "revision": "54a5bceb11ecd2c0d44c1beb2ecc759ac0f54d04cb7ebbed6138dd7f7ebc5254",
+        "revision": "fcb9cd00bad77a52494a6998857e5c2e9cbb2b66d4918975bfa842e8356077fa",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -49,7 +49,7 @@
       "title": "共振 · 2026-11-01—2026-11-30 本月预览",
       "content_text": "本月预览：2026-11-01—2026-11-30。\n有效 17/30 天；13 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 89.65 分\n2. 天龙八部之宿敌 — 许嵩 · 83.96 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 69.93 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 66.39 分\n5. 我好像在哪见过你 — 薛之谦 · 57.43 分\n6. 我怀念的 — 孙燕姿 · 54.16 分\n7. 恋人 — 李荣浩 · 53.67 分\n8. 时过境迁 — 苏艺馨Chency · 51.16 分\n9. 雨爱 — 杨丞琳 · 44.52 分\n10. 情歌 — 梁静茹 · 40.35 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json",
       "date_published": "2026-11-01T04:10:16.591Z",
-      "date_modified": "2026-11-17T04:10:29.446Z",
+      "date_modified": "2026-11-17T04:14:48.712Z",
       "tags": [
         "live",
         "monthly",
@@ -61,7 +61,7 @@
         "monthStart": "2026-11-01",
         "monthEnd": "2026-11-30",
         "status": "provisional",
-        "revision": "b5987fcf6547355374d9f10bb30b721b4d86cdac648a37ea51f5fb9a5e9d0123",
+        "revision": "0b0cfbbc6d73aa217e7f503e9133ff7fcec988b4265f1115e028acb223c5e58a",
         "methodologyVersion": "monthly-1.3",
         "baseMethodologyVersion": "1.4",
         "baseMethodologyVersions": [
@@ -137,7 +137,7 @@
       "title": "共振 · 2026-11-16—2026-11-22 本周预览",
       "content_text": "本周预览：2026-11-16—2026-11-22。\n有效 2/7 天；5 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 87.15 分\n2. 天龙八部之宿敌 — 许嵩 · 81.58 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 60.50 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 57.53 分\n5. 我怀念的 — 孙燕姿 · 55.22 分\n6. 恋人 — 李荣浩 · 53.70 分\n7. 我好像在哪见过你 — 薛之谦 · 53.17 分\n8. 慌啥子嘛 — 村口吴老二 · 47.91 分\n9. 烂奇迹 (不小心惹了上帝) — 杨羊烊 · 44.47 分\n10. 雨爱 — 杨丞琳 · 43.76 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-16.json",
       "date_published": "2026-11-15T18:00:34.354Z",
-      "date_modified": "2026-11-17T04:10:29.446Z",
+      "date_modified": "2026-11-17T04:14:48.712Z",
       "tags": [
         "live",
         "weekly",
@@ -148,7 +148,7 @@
         "weekStart": "2026-11-16",
         "weekEnd": "2026-11-22",
         "status": "provisional",
-        "revision": "0a6c5da2522b106f8a2d9a24f812b7edccc6c2cd8f8bfbc9c0eb5e65be4aaec6",
+        "revision": "48a216a707475cfc57ec467fb236b91c8e57f926c2f774a5749f17eb55a0916c",
         "methodologyVersion": "weekly-1.4",
         "baseMethodologyVersion": "1.4",
         "baseMethodologyVersions": [
@@ -201,7 +201,7 @@
       "title": "共振 · 2026-11-16 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 88.20 分\n2. 天龙八部之宿敌 — 许嵩 · 83.81 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 60.84 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 59.08 分\n5. 我怀念的 — 孙燕姿 · 56.50 分\n6. 恋人 — 李荣浩 · 55.06 分\n7. 我好像在哪见过你 — 薛之谦 · 53.99 分\n8. 烂奇迹 (不小心惹了上帝) — 杨羊烊 · 49.24 分\n9. 雨爱 — 杨丞琳 · 46.32 分\n10. 慌啥子嘛 — 村口吴老二 · 42.55 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-16.json",
       "date_published": "2026-11-15T18:00:34.354Z",
-      "date_modified": "2026-11-16T07:58:08.717Z",
+      "date_modified": "2026-11-17T04:14:48.524Z",
       "tags": [
         "live",
         "daily",
@@ -210,7 +210,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-16",
-        "revision": "eb3c55ab57853aecfbd4292ce1a8d9011fe5ac328a9fe966386712f7e565baec",
+        "revision": "bcc9695506d8df0d5c6771bfe54285112085fd3d29072ffeb61cb824ce13580c",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -227,12 +227,43 @@
       }
     },
     {
+      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-15.json#live",
+      "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-15.json",
+      "title": "共振 · 2026-11-15 综合热歌榜",
+      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 89.55 分\n2. 天龙八部之宿敌 — 许嵩 · 84.93 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 63.67 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 61.87 分\n5. 我好像在哪见过你 — 薛之谦 · 56.88 分\n6. 我怀念的 — 孙燕姿 · 56.27 分\n7. 恋人 — 李荣浩 · 54.34 分\n8. 烂奇迹 (不小心惹了上帝) — 杨羊烊 · 45.86 分\n9. 雨爱 — 杨丞琳 · 45.84 分\n10. 发如雪 — 周杰伦 · 41.53 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-15.json",
+      "date_published": "2026-11-14T18:44:07.191Z",
+      "date_modified": "2026-11-17T04:14:48.351Z",
+      "tags": [
+        "live",
+        "daily",
+        "complete"
+      ],
+      "_resonance": {
+        "kind": "daily",
+        "date": "2026-11-15",
+        "revision": "f85ca8021b7e2a8ae5f7a8c5ed4bca0681e3d026d2de9727fa01c7d21fef4581",
+        "methodologyVersion": "1.4",
+        "coverage": {
+          "available": 6,
+          "fresh": 6,
+          "cached": 0,
+          "expected": 6,
+          "groups": 4,
+          "groupTotal": 4,
+          "status": "complete",
+          "comparisonAvailable": true,
+          "comparisonUsesCache": false
+        },
+        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-15.json"
+      }
+    },
+    {
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json",
       "title": "共振 · 2026-11-09—2026-11-15 完整周榜",
       "content_text": "完整周榜：2026-11-09—2026-11-15。\n有效 7/7 天；0 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 90.27 分\n2. 天龙八部之宿敌 — 许嵩 · 82.56 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 70.60 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 64.67 分\n5. 我好像在哪见过你 — 薛之谦 · 56.69 分\n6. 我怀念的 — 孙燕姿 · 54.72 分\n7. 恋人 — 李荣浩 · 52.73 分\n8. 时过境迁 — 苏艺馨Chency · 52.12 分\n9. 雨爱 — 杨丞琳 · 43.80 分\n10. 发如雪 — 周杰伦 · 41.68 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-09.json",
       "date_published": "2026-11-08T18:00:18.725Z",
-      "date_modified": "2026-11-15T16:00:00.000Z",
+      "date_modified": "2026-11-17T04:14:48.351Z",
       "tags": [
         "live",
         "weekly",
@@ -243,7 +274,7 @@
         "weekStart": "2026-11-09",
         "weekEnd": "2026-11-15",
         "status": "complete",
-        "revision": "cda55735cd3f7fae4e5a59bb893796372b7dddb288d23b98ccab7d33cb71ee1e",
+        "revision": "ab4b22d73bd35a932ed52f447a10833336f1e8e5ae0525313dfede58a7c1f6b7",
         "methodologyVersion": "weekly-1.4",
         "baseMethodologyVersion": "1.4",
         "baseMethodologyVersions": [
@@ -290,43 +321,12 @@
       }
     },
     {
-      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-15.json#live",
-      "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-15.json",
-      "title": "共振 · 2026-11-15 综合热歌榜",
-      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 89.55 分\n2. 天龙八部之宿敌 — 许嵩 · 84.93 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 63.67 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 61.87 分\n5. 我好像在哪见过你 — 薛之谦 · 56.88 分\n6. 我怀念的 — 孙燕姿 · 56.27 分\n7. 恋人 — 李荣浩 · 54.34 分\n8. 烂奇迹 (不小心惹了上帝) — 杨羊烊 · 45.86 分\n9. 雨爱 — 杨丞琳 · 45.84 分\n10. 发如雪 — 周杰伦 · 41.53 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-15.json",
-      "date_published": "2026-11-14T18:44:07.191Z",
-      "date_modified": "2026-11-15T07:50:19.503Z",
-      "tags": [
-        "live",
-        "daily",
-        "complete"
-      ],
-      "_resonance": {
-        "kind": "daily",
-        "date": "2026-11-15",
-        "revision": "e478b1e51b7d156fa268e296774e97aad1ca26b63e28e801389cdfad9de2ec41",
-        "methodologyVersion": "1.4",
-        "coverage": {
-          "available": 6,
-          "fresh": 6,
-          "cached": 0,
-          "expected": 6,
-          "groups": 4,
-          "groupTotal": 4,
-          "status": "complete",
-          "comparisonAvailable": true,
-          "comparisonUsesCache": false
-        },
-        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-15.json"
-      }
-    },
-    {
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-14.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-14.json",
       "title": "共振 · 2026-11-14 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.28 分\n2. 天龙八部之宿敌 — 许嵩 · 83.90 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 74.76 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 63.72 分\n5. 我好像在哪见过你 — 薛之谦 · 55.56 分\n6. 我怀念的 — 孙燕姿 · 54.61 分\n7. 时过境迁 — 苏艺馨Chency · 53.97 分\n8. 恋人 — 李荣浩 · 53.20 分\n9. 无中生有 Ex Nihilo — HOYO-MiX / 當山みれい · 42.56 分\n10. 雨爱 — 杨丞琳 · 42.09 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-14.json",
       "date_published": "2026-11-13T20:28:53.844Z",
-      "date_modified": "2026-11-14T07:36:19.791Z",
+      "date_modified": "2026-11-17T04:14:48.181Z",
       "tags": [
         "live",
         "daily",
@@ -335,7 +335,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-14",
-        "revision": "7db225e2e45aef1d86bca96b78faf5f4d7700e89fe8353197bd47d687228006c",
+        "revision": "e50a2365203b32347998e13befe1ba7899b9caf7410e462437547ad5f15fdda4",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -357,7 +357,7 @@
       "title": "共振 · 2026-11-13 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 88.98 分\n2. 天龙八部之宿敌 — 许嵩 · 79.74 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 65.66 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 65.32 分\n5. 时过境迁 — 苏艺馨Chency · 60.53 分\n6. 我好像在哪见过你 — 薛之谦 · 55.95 分\n7. 我怀念的 — 孙燕姿 · 55.30 分\n8. 恋人 — 李荣浩 · 53.21 分\n9. 无中生有 Ex Nihilo — HOYO-MiX / 當山みれい · 42.96 分\n10. 雨爱 — 杨丞琳 · 42.84 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-13.json",
       "date_published": "2026-11-12T20:49:07.684Z",
-      "date_modified": "2026-11-13T07:56:02.209Z",
+      "date_modified": "2026-11-17T04:14:48.013Z",
       "tags": [
         "live",
         "daily",
@@ -366,7 +366,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-13",
-        "revision": "739687fcae60a09bbfcaf0e69eb82c1da32f31068fd59cd48abe2c9a314da45e",
+        "revision": "c356bd1b8bc0082eb4402f2dc11b14c8baf6582fb2bb35bb242a7288d769ba9e",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -388,7 +388,7 @@
       "title": "共振 · 2026-11-12 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 90.16 分\n2. 天龙八部之宿敌 — 许嵩 · 80.35 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 73.20 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 66.41 分\n5. 时过境迁 — 苏艺馨Chency · 58.14 分\n6. 我好像在哪见过你 — 薛之谦 · 56.75 分\n7. 我怀念的 — 孙燕姿 · 54.25 分\n8. 恋人 — 李荣浩 · 51.61 分\n9. 发如雪 — 周杰伦 · 42.91 分\n10. 雨爱 — 杨丞琳 · 42.00 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-12.json",
       "date_published": "2026-11-11T20:11:53.016Z",
-      "date_modified": "2026-11-13T04:13:57.659Z",
+      "date_modified": "2026-11-17T04:14:47.837Z",
       "tags": [
         "live",
         "daily",
@@ -397,7 +397,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-12",
-        "revision": "1cc720f52367a5a62ef9390c1c9af1568415a8b311a6e0c75c082886519e4d6a",
+        "revision": "b25630fa9914f1726b480782325bd510732f04bd25bb7e0b0439e5845fa4fb96",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -419,7 +419,7 @@
       "title": "共振 · 2026-11-11 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 89.30 分\n2. 天龙八部之宿敌 — 许嵩 · 80.57 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 70.90 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 65.47 分\n5. 我好像在哪见过你 — 薛之谦 · 57.58 分\n6. 时过境迁 — 苏艺馨Chency · 55.51 分\n7. 我怀念的 — 孙燕姿 · 52.75 分\n8. 恋人 — 李荣浩 · 50.56 分\n9. 发如雪 — 周杰伦 · 42.66 分\n10. 雨爱 — 杨丞琳 · 41.51 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-11.json",
       "date_published": "2026-11-10T20:27:52.016Z",
-      "date_modified": "2026-11-13T04:13:57.491Z",
+      "date_modified": "2026-11-17T04:14:47.667Z",
       "tags": [
         "live",
         "daily",
@@ -428,7 +428,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-11",
-        "revision": "decd9eddf70d00f0708d1ef5a71ccc1bc9c1b7f0ad9c58033ec7a1db5fe6d50c",
+        "revision": "a5eed963455210e98662a7981ca4e2561d12ad98c0690c72b6170039c5bb8f16",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -450,7 +450,7 @@
       "title": "共振 · 2026-11-10 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 90.43 分\n2. 天龙八部之宿敌 — 许嵩 · 82.43 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 72.28 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 66.58 分\n5. 我好像在哪见过你 — 薛之谦 · 56.21 分\n6. 我怀念的 — 孙燕姿 · 54.98 分\n7. 时过境迁 — 苏艺馨Chency · 52.47 分\n8. 恋人 — 李荣浩 · 52.43 分\n9. 雨爱 — 杨丞琳 · 43.90 分\n10. 发如雪 — 周杰伦 · 40.66 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-10.json",
       "date_published": "2026-11-09T22:58:51.697Z",
-      "date_modified": "2026-11-13T04:13:57.320Z",
+      "date_modified": "2026-11-17T04:14:47.478Z",
       "tags": [
         "live",
         "daily",
@@ -459,7 +459,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-10",
-        "revision": "067a6d9263b836148999d4b8a6bf292aa633def57ba589f3dc94532ee692a264",
+        "revision": "d85004398f78da2539e04cd396df65c530fa3962d66d831a7a0483038750c79a",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -481,7 +481,7 @@
       "title": "共振 · 2026-11-09 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 92.20 分\n2. 天龙八部之宿敌 — 许嵩 · 86.01 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 74.06 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 63.01 分\n5. 我好像在哪见过你 — 薛之谦 · 57.88 分\n6. 我怀念的 — 孙燕姿 · 54.86 分\n7. 恋人 — 李荣浩 · 53.79 分\n8. 时过境迁 — 苏艺馨Chency · 49.23 分\n9. 雨爱 — 杨丞琳 · 48.46 分\n10. 情歌 — 梁静茹 · 41.23 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-09.json",
       "date_published": "2026-11-08T18:00:18.725Z",
-      "date_modified": "2026-11-13T04:13:57.126Z",
+      "date_modified": "2026-11-17T04:14:47.310Z",
       "tags": [
         "live",
         "daily",
@@ -490,7 +490,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-09",
-        "revision": "a27ae2c69f68b2ecbb18c892aebc31556790e199e46cba57fadff727d604df0c",
+        "revision": "01a73d40c9b7e8284a2af2dcc0b6383c2a2ebeb12e83ae107732728a3ce3c18e",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -512,7 +512,7 @@
       "title": "共振 · 2026-11-08 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 89.74 分\n2. 天龙八部之宿敌 — 许嵩 · 87.61 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 78.41 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 66.19 分\n5. 我好像在哪见过你 — 薛之谦 · 59.75 分\n6. 我怀念的 — 孙燕姿 · 54.03 分\n7. 恋人 — 李荣浩 · 52.75 分\n8. 时过境迁 — 苏艺馨Chency · 50.28 分\n9. 雨爱 — 杨丞琳 · 47.17 分\n10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie (베스티) · 38.48 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-08.json",
       "date_published": "2026-11-08T05:13:10.758Z",
-      "date_modified": "2026-11-13T04:13:56.951Z",
+      "date_modified": "2026-11-17T04:14:47.134Z",
       "tags": [
         "live",
         "daily",
@@ -521,7 +521,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-08",
-        "revision": "b4eb4d5a3445f3292a02ccaef289d506a8793859b35aae0a92243807daf0b514",
+        "revision": "929ca58b91f239bd18eaf91eff071b092b864fb11d37fd20c05456a55f739a5d",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -543,7 +543,7 @@
       "title": "共振 · 2026-11-02—2026-11-08 完整周榜",
       "content_text": "完整周榜：2026-11-02—2026-11-08。\n有效 7/7 天；0 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 89.48 分\n2. 天龙八部之宿敌 — 许嵩 · 85.56 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 82.80 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 69.00 分\n5. 我好像在哪见过你 — 薛之谦 · 58.63 分\n6. 时过境迁 — 苏艺馨Chency · 55.87 分\n7. 恋人 — 李荣浩 · 54.44 分\n8. 我怀念的 — 孙燕姿 · 53.30 分\n9. 雨爱 — 杨丞琳 · 44.80 分\n10. 季候风 — 王菲 · 40.85 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-02.json",
       "date_published": "2026-11-01T16:04:15.791Z",
-      "date_modified": "2026-11-13T04:13:56.951Z",
+      "date_modified": "2026-11-17T04:14:47.134Z",
       "tags": [
         "live",
         "weekly",
@@ -554,7 +554,7 @@
         "weekStart": "2026-11-02",
         "weekEnd": "2026-11-08",
         "status": "complete",
-        "revision": "4f035395d7f82a11a4efb0df246c57d29133fe01129d18a9fe20ec915cd47119",
+        "revision": "3b55f8cfd6bef2d5d34f82a4ae886cf8aa349745fb28c6e521a808011e43177b",
         "methodologyVersion": "weekly-1.4",
         "baseMethodologyVersion": "1.4",
         "baseMethodologyVersions": [
@@ -606,7 +606,7 @@
       "title": "共振 · 2026-11-07 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 90.86 分\n2. 天龙八部之宿敌 — 许嵩 · 86.46 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 80.29 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 67.38 分\n5. 时过境迁 — 苏艺馨Chency · 59.32 分\n6. 我好像在哪见过你 — 薛之谦 · 57.87 分\n7. 我怀念的 — 孙燕姿 · 53.74 分\n8. 恋人 — 李荣浩 · 52.72 分\n9. 雨爱 — 杨丞琳 · 43.91 分\n10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie (베스티) · 38.96 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-07.json",
       "date_published": "2026-11-06T19:57:09.795Z",
-      "date_modified": "2026-11-13T04:13:56.784Z",
+      "date_modified": "2026-11-17T04:14:46.965Z",
       "tags": [
         "live",
         "daily",
@@ -615,7 +615,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-07",
-        "revision": "2748d1897f7fbb805da405a1ad789adfba839d2fa3ec3893648a8098a1eb563b",
+        "revision": "e75263909780b4faea88ece778bce147a1e893143655a7344226b1e280e0bd6c",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -637,7 +637,7 @@
       "title": "共振 · 2026-11-06 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 90.80 分\n2. Hong Kong (feat. 王菲季候风) — The Weeknd · 84.29 分\n3. 天龙八部之宿敌 — 许嵩 · 84.25 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 68.86 分\n5. 时过境迁 — 苏艺馨Chency · 60.33 分\n6. 我好像在哪见过你 — 薛之谦 · 60.10 分\n7. 恋人 — 李荣浩 · 54.93 分\n8. 我怀念的 — 孙燕姿 · 53.19 分\n9. 雨爱 — 杨丞琳 · 42.06 分\n10. 季候风 — 王菲 · 41.49 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-06.json",
       "date_published": "2026-11-05T20:39:52.191Z",
-      "date_modified": "2026-11-13T04:13:56.616Z",
+      "date_modified": "2026-11-17T04:14:46.794Z",
       "tags": [
         "live",
         "daily",
@@ -646,7 +646,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-06",
-        "revision": "178b19a388af312e8c6c17965a8a50fa84bd63ffd8731d8906e5b50becb33264",
+        "revision": "1ad0303e234ca99eb506d133240a69860ad140d932c4a42e19bcfa0b4592f9b6",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -668,7 +668,7 @@
       "title": "共振 · 2026-11-05 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 86.81 分\n2. Hong Kong (feat. 王菲季候风) — The Weeknd · 85.00 分\n3. 天龙八部之宿敌 — 许嵩 · 84.05 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 68.98 分\n5. 时过境迁 — 苏艺馨Chency · 58.89 分\n6. 我好像在哪见过你 — 薛之谦 · 55.30 分\n7. 恋人 — 李荣浩 · 53.69 分\n8. 我怀念的 — 孙燕姿 · 51.93 分\n9. 雨爱 — 杨丞琳 · 43.66 分\n10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie (베스티) · 40.28 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-05.json",
       "date_published": "2026-11-04T20:26:12.952Z",
-      "date_modified": "2026-11-13T04:13:56.450Z",
+      "date_modified": "2026-11-17T04:14:46.613Z",
       "tags": [
         "live",
         "daily",
@@ -677,7 +677,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-05",
-        "revision": "dc9e422290052a5395c6bf61a6c08b5b984fe2d7f4c09dae841a1b4a3c626a6f",
+        "revision": "1857eff71483c3faf3caaaf2dc2545393216dda6d59d6787117ec96450126ef3",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -699,7 +699,7 @@
       "title": "共振 · 2026-11-04 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 88.95 分\n2. Hong Kong (feat. 王菲季候风) — The Weeknd · 85.00 分\n3. 天龙八部之宿敌 — 许嵩 · 84.70 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 69.99 分\n5. 时过境迁 — 苏艺馨Chency · 58.89 分\n6. 我好像在哪见过你 — 薛之谦 · 56.49 分\n7. 恋人 — 李荣浩 · 55.86 分\n8. 我怀念的 — 孙燕姿 · 52.66 分\n9. 雨爱 — 杨丞琳 · 43.71 分\n10. 季候风 — 王菲 · 42.38 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-04.json",
       "date_published": "2026-11-03T20:06:29.618Z",
-      "date_modified": "2026-11-13T04:13:56.284Z",
+      "date_modified": "2026-11-17T04:14:46.428Z",
       "tags": [
         "live",
         "daily",
@@ -708,7 +708,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-04",
-        "revision": "ae1f2ece9b0466765d881e9ab05b09a29c1a6b14722da7bde9dfc052b9f07ac4",
+        "revision": "2d0651a4c4216f1bf8a2472f1f4f793675f2b21a60e44fc2d512a9e7b24bda09",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -730,7 +730,7 @@
       "title": "共振 · 2026-11-03 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 89.61 分\n2. 天龙八部之宿敌 — 许嵩 · 85.04 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 84.29 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 69.55 分\n5. 我好像在哪见过你 — 薛之谦 · 60.06 分\n6. 时过境迁 — 苏艺馨Chency · 57.68 分\n7. 恋人 — 李荣浩 · 54.67 分\n8. 我怀念的 — 孙燕姿 · 53.12 分\n9. 季候风 — 王菲 · 45.79 分\n10. 雨爱 — 杨丞琳 · 44.31 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-03.json",
       "date_published": "2026-11-02T22:19:19.878Z",
-      "date_modified": "2026-11-13T04:13:56.115Z",
+      "date_modified": "2026-11-17T04:14:46.253Z",
       "tags": [
         "live",
         "daily",
@@ -739,7 +739,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-03",
-        "revision": "e2ed91ab46163a98c745ec3cda06bb8adb87c6d88903544c096b0669e475fdfa",
+        "revision": "8aa2b0fea198bb38eee4207100ded05aef526778a53833ef90666f264e2207db",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -761,7 +761,7 @@
       "title": "共振 · 2026-11-02 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 89.61 分\n2. 天龙八部之宿敌 — 许嵩 · 86.80 分\n3. Hong Kong (feat. 王菲季候风) — The Weeknd · 82.34 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 72.05 分\n5. 我好像在哪见过你 — 薛之谦 · 60.82 分\n6. 恋人 — 李荣浩 · 56.48 分\n7. 我怀念的 — 孙燕姿 · 54.41 分\n8. 雨爱 — 杨丞琳 · 48.78 分\n9. 季候风 — 王菲 · 48.08 分\n10. 时过境迁 — 苏艺馨Chency · 45.70 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-02.json",
       "date_published": "2026-11-01T16:04:15.791Z",
-      "date_modified": "2026-11-13T04:13:55.943Z",
+      "date_modified": "2026-11-17T04:14:46.080Z",
       "tags": [
         "live",
         "daily",
@@ -770,7 +770,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-02",
-        "revision": "a13bf3f416a262e94019fa13a8f3ec2864b51d2bd0d1f711736b7109e5104eb7",
+        "revision": "2e88c6141e680c65d767f27335286f42ececdd2de547432cfa27e158c33f1d8b",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -792,7 +792,7 @@
       "title": "共振 · 2026-11-01 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.38 分\n2. 天龙八部之宿敌 — 许嵩 · 87.28 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 71.92 分\n4. 我好像在哪见过你 — 薛之谦 · 62.74 分\n5. 恋人 — 李荣浩 · 54.75 分\n6. 我怀念的 — 孙燕姿 · 54.15 分\n7. 季候风 — 王菲 · 52.51 分\n8. 雨爱 — 杨丞琳 · 49.12 分\n9. 时过境迁 — 苏艺馨Chency · 46.99 分\n10. 情歌 — 梁静茹 · 43.35 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-01.json",
       "date_published": "2026-11-01T04:10:16.591Z",
-      "date_modified": "2026-11-13T04:13:55.772Z",
+      "date_modified": "2026-11-17T04:14:45.905Z",
       "tags": [
         "live",
         "daily",
@@ -801,7 +801,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-11-01",
-        "revision": "d9a3f60fe0916756fc8af60b270d83d31000abfa832022b6044f92520a26eabd",
+        "revision": "bd5567baaf5fe54429e8fbfbc9a19c223912ff455c8442907a89cd0407d20c6f",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -823,7 +823,7 @@
       "title": "共振 · 2026-10-26—2026-11-01 完整周榜",
       "content_text": "完整周榜：2026-10-26—2026-11-01。\n有效 7/7 天；0 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-10-26。\n1. 我不难过 — 孙燕姿 · 92.15 分\n2. 天龙八部之宿敌 — 许嵩 · 85.32 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.85 分\n4. 我好像在哪见过你 — 薛之谦 · 56.55 分\n5. 恋人 — 李荣浩 · 55.03 分\n6. 我怀念的 — 孙燕姿 · 54.85 分\n7. 季候风 — 王菲 · 53.73 分\n8. 雨爱 — 杨丞琳 · 47.24 分\n9. 时过境迁 — 苏艺馨Chency · 43.07 分\n10. 情歌 — 梁静茹 · 42.83 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-26.json",
       "date_published": "2026-10-25T17:03:37.304Z",
-      "date_modified": "2026-11-13T04:13:55.772Z",
+      "date_modified": "2026-11-17T04:14:45.905Z",
       "tags": [
         "live",
         "weekly",
@@ -834,7 +834,7 @@
         "weekStart": "2026-10-26",
         "weekEnd": "2026-11-01",
         "status": "complete",
-        "revision": "8437b9aa54b56ee959e14b20da229750e680c6cb46a57adbfc92a960b4a01403",
+        "revision": "e2cc7d39ec2866ea516f40f379c89a5e616b247f5ee0d67468ed2140766ab94d",
         "methodologyVersion": "weekly-1.4",
         "baseMethodologyVersion": "1.4",
         "baseMethodologyVersions": [
@@ -888,7 +888,7 @@
       "title": "共振 · 2026-10-31 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.62 分\n2. 天龙八部之宿敌 — 许嵩 · 86.63 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 72.94 分\n4. 我好像在哪见过你 — 薛之谦 · 68.12 分\n5. 季候风 — 王菲 · 58.45 分\n6. 我怀念的 — 孙燕姿 · 55.68 分\n7. 恋人 — 李荣浩 · 54.64 分\n8. 雨爱 — 杨丞琳 · 46.38 分\n9. 情歌 — 梁静茹 · 41.40 分\n10. 开始懂了 — 孙燕姿 · 40.18 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-31.json",
       "date_published": "2026-10-31T04:30:45.810Z",
-      "date_modified": "2026-11-13T04:13:55.604Z",
+      "date_modified": "2026-11-17T04:14:45.732Z",
       "tags": [
         "live",
         "daily",
@@ -897,7 +897,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-31",
-        "revision": "3e0444bd7f5a968cbaf8dc1e6654350b1fad6527157874cf0ae6d5408c9a6501",
+        "revision": "125a4bd1226c6643b3557fa86bf03efa16ee8669d33056188d67e6928c35883d",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -919,7 +919,7 @@
       "title": "共振 · 2026-10-01—2026-10-31 缺日月榜",
       "content_text": "缺日月榜：2026-10-01—2026-10-31。\n有效 9/31 天；22 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-10-26。\n1. 我不难过 — 孙燕姿 · 92.70 分\n2. 天龙八部之宿敌 — 许嵩 · 84.43 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 75.22 分\n4. 恋人 — 李荣浩 · 55.43 分\n5. 我怀念的 — 孙燕姿 · 55.30 分\n6. 雨爱 — 杨丞琳 · 49.31 分\n7. 开始懂了 — 孙燕姿 · 44.19 分\n8. 情歌 — 梁静茹 · 43.22 分\n9. 我好像在哪见过你 — 薛之谦 · 38.23 分\n10. NEON — A2O LITE / A2O · 36.40 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-10.json",
       "date_published": "2026-10-23T03:18:23.844Z",
-      "date_modified": "2026-11-13T04:13:55.604Z",
+      "date_modified": "2026-11-17T04:14:45.732Z",
       "tags": [
         "live",
         "monthly",
@@ -931,7 +931,7 @@
         "monthStart": "2026-10-01",
         "monthEnd": "2026-10-31",
         "status": "incomplete",
-        "revision": "71d03e584848964f1ed19c40e511e2cda401fe34ab4005267b187b319c19cb8d",
+        "revision": "4fb4c16a1b7a17e24ea1094ab65a36c4cd7b884a03c4bce6575b47090d289f72",
         "methodologyVersion": "monthly-1.3",
         "baseMethodologyVersion": null,
         "baseMethodologyVersions": [
@@ -1006,7 +1006,7 @@
       "title": "共振 · 2026-10-30 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.88 分\n2. 天龙八部之宿敌 — 许嵩 · 85.52 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.39 分\n4. 我好像在哪见过你 — 薛之谦 · 68.49 分\n5. 季候风 — 王菲 · 62.31 分\n6. 时过境迁 — 苏艺馨Chency · 61.15 分\n7. 恋人 — 李荣浩 · 55.38 分\n8. 我怀念的 — 孙燕姿 · 55.06 分\n9. 雨爱 — 杨丞琳 · 43.72 分\n10. 开始懂了 — 孙燕姿 · 42.59 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-30.json",
       "date_published": "2026-10-30T04:10:35.762Z",
-      "date_modified": "2026-11-13T04:13:55.441Z",
+      "date_modified": "2026-11-17T04:14:45.557Z",
       "tags": [
         "live",
         "daily",
@@ -1015,7 +1015,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-30",
-        "revision": "675d8f78d3d865f5e5828dcf66c8cbcad330f5b56ed6d0df4ca36b478bc6c76a",
+        "revision": "2f3c3dc1f14cf9908f046d90ffaf1c79b494110d5bb0320b6709a5332c15eab9",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -1037,7 +1037,7 @@
       "title": "共振 · 2026-10-29 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.33 分\n2. 天龙八部之宿敌 — 许嵩 · 84.49 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 72.73 分\n4. 我好像在哪见过你 — 薛之谦 · 69.76 分\n5. 季候风 — 王菲 · 66.84 分\n6. 恋人 — 李荣浩 · 55.03 分\n7. 我怀念的 — 孙燕姿 · 54.12 分\n8. 时过境迁 — 苏艺馨Chency · 45.62 分\n9. 开始懂了 — 孙燕姿 · 43.69 分\n10. 雨爱 — 杨丞琳 · 43.44 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json",
       "date_published": "2026-10-29T04:10:15.572Z",
-      "date_modified": "2026-11-13T04:13:55.272Z",
+      "date_modified": "2026-11-17T04:14:45.371Z",
       "tags": [
         "live",
         "daily",
@@ -1046,7 +1046,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-29",
-        "revision": "758341417512be1a3805e0780955c6459a4bf57f07024ed9b63f40777fee40f4",
+        "revision": "96c600750a43d9650113bed307a4e4669602698de96a77806a0b18bc09c43f92",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -1068,7 +1068,7 @@
       "title": "共振 · 2026-10-28 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.63 分\n2. 天龙八部之宿敌 — 许嵩 · 82.97 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.76 分\n4. 我好像在哪见过你 — 薛之谦 · 66.95 分\n5. 季候风 — 王菲 · 60.61 分\n6. 恋人 — 李荣浩 · 53.40 分\n7. 我怀念的 — 孙燕姿 · 51.68 分\n8. 雨爱 — 杨丞琳 · 43.60 分\n9. 开始懂了 — 孙燕姿 · 43.05 分\n10. 情歌 — 梁静茹 · 42.36 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-28.json",
       "date_published": "2026-10-27T18:41:46.781Z",
-      "date_modified": "2026-11-13T04:13:55.101Z",
+      "date_modified": "2026-11-17T04:14:45.203Z",
       "tags": [
         "live",
         "daily",
@@ -1077,7 +1077,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-28",
-        "revision": "ebded6a2d228c9956ba40e1f1d4fdbb2c002d843cf9db001507d36275b1ca8ce",
+        "revision": "82bc74272aea3ce7ed2451d2e4823cd9b7ffc1385f91ce78c534589b075a69a6",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -1099,7 +1099,7 @@
       "title": "共振 · 2026-10-27 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 92.74 分\n2. 天龙八部之宿敌 — 许嵩 · 84.98 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 75.98 分\n4. 恋人 — 李荣浩 · 55.18 分\n5. 我好像在哪见过你 — 薛之谦 · 54.24 分\n6. 我怀念的 — 孙燕姿 · 53.65 分\n7. 雨爱 — 杨丞琳 · 50.09 分\n8. 季候风 — 王菲 · 46.71 分\n9. 情歌 — 梁静茹 · 44.06 分\n10. 开始懂了 — 孙燕姿 · 44.03 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-27.json",
       "date_published": "2026-10-27T04:10:15.337Z",
-      "date_modified": "2026-11-13T04:13:54.932Z",
+      "date_modified": "2026-11-17T04:14:45.035Z",
       "tags": [
         "live",
         "daily",
@@ -1108,7 +1108,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-27",
-        "revision": "10a7dcebae54973b50afc86364381091a48fa0f1bc3c69d86f1c39a588bc289a",
+        "revision": "87bfe07c14a29b27ea7a4a7151535c7aeb67bbab6b0cc9fbb256ebeb416a30cc",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -1130,7 +1130,7 @@
       "title": "共振 · 2026-10-26 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n其中 1 个平台沿用有效窗口内的历史观察；来源时间和失败原因保存在 JSON。\n1. 我不难过 — 孙燕姿 · 94.50 分\n2. 天龙八部之宿敌 — 许嵩 · 85.37 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.21 分\n4. 我怀念的 — 孙燕姿 · 59.59 分\n5. 恋人 — 李荣浩 · 56.81 分\n6. 雨爱 — 杨丞琳 · 54.33 分\n7. 情歌 — 梁静茹 · 47.12 分\n8. 开始懂了 — 孙燕姿 · 43.70 分\n9. 失眠 — Suki刘舒妤 · 40.54 分\n10. 特别的人 — 方大同 · 38.35 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-26.json",
       "date_published": "2026-10-25T17:03:37.304Z",
-      "date_modified": "2026-11-13T04:13:54.761Z",
+      "date_modified": "2026-11-17T04:14:44.858Z",
       "tags": [
         "live",
         "daily",
@@ -1139,7 +1139,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-26",
-        "revision": "f6ce2c6cce8122a2071af6ac95b1edd14c0aebd6d0a01f7356f79752ef854945",
+        "revision": "109eda7eb53cee9dff048a8f6784444512b6c989eafaf19ad66c83b2feec5c46",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -1161,7 +1161,7 @@
       "title": "共振 · 2026-10-25 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 94.50 分\n2. 天龙八部之宿敌 — 许嵩 · 84.79 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 78.76 分\n4. 我怀念的 — 孙燕姿 · 57.45 分\n5. 雨爱 — 杨丞琳 · 55.58 分\n6. 恋人 — 李荣浩 · 54.90 分\n7. 情歌 — 梁静茹 · 47.11 分\n8. 开始懂了 — 孙燕姿 · 43.29 分\n9. 特别的人 — 方大同 · 40.17 分\n10. 失眠 — Suki刘舒妤 · 39.61 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-25.json",
       "date_published": "2026-10-24T16:35:02.787Z",
-      "date_modified": "2026-11-13T04:13:54.600Z",
+      "date_modified": "2026-11-17T04:14:44.689Z",
       "tags": [
         "live",
         "daily",
@@ -1170,7 +1170,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-25",
-        "revision": "e456fad696b288626707488a189bcde380af3bd41b00944399f16678dee45eba",
+        "revision": "0daa2cc4a498ea07af5b2242c04669f96e45d610ac24f7c78f9ff6d5d19c6e64",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -1192,7 +1192,7 @@
       "title": "共振 · 2026-10-19—2026-10-25 缺日周榜",
       "content_text": "缺日周榜：2026-10-19—2026-10-25。\n有效 3/7 天；4 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.3、1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 93.54 分\n2. 天龙八部之宿敌 — 许嵩 · 83.30 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 77.32 分\n4. 恋人 — 李荣浩 · 56.15 分\n5. 我怀念的 — 孙燕姿 · 55.98 分\n6. 雨爱 — 杨丞琳 · 54.08 分\n7. 开始懂了 — 孙燕姿 · 46.81 分\n8. 情歌 — 梁静茹 · 44.19 分\n9. NEON — A2O LITE / A2O · 39.61 分\n10. 失眠 — Suki刘舒妤 · 36.73 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json",
       "date_published": "2026-10-23T03:18:23.844Z",
-      "date_modified": "2026-11-13T04:13:54.600Z",
+      "date_modified": "2026-11-17T04:14:44.689Z",
       "tags": [
         "live",
         "weekly",
@@ -1203,7 +1203,7 @@
         "weekStart": "2026-10-19",
         "weekEnd": "2026-10-25",
         "status": "incomplete",
-        "revision": "b522c21de55d0c17d0e41a71fc54c85328348ed5dbddaf768fcce23d2b88a147",
+        "revision": "dc6a9e87528ec1da991043dc86337449565507d68755d0b53679d8c4795b4178",
         "methodologyVersion": "weekly-1.4",
         "baseMethodologyVersion": null,
         "baseMethodologyVersions": [
@@ -1252,7 +1252,7 @@
       "title": "共振 · 2026-10-24 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 92.83 分\n2. 天龙八部之宿敌 — 许嵩 · 82.91 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.21 分\n4. 我怀念的 — 孙燕姿 · 57.51 分\n5. 恋人 — 李荣浩 · 53.14 分\n6. 雨爱 — 杨丞琳 · 52.36 分\n7. 开始懂了 — 孙燕姿 · 47.70 分\n8. 情歌 — 梁静茹 · 45.64 分\n9. NEON — A2O LITE / A2O · 38.87 分\n10. 失眠 — Suki刘舒妤 · 35.76 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-24.json",
       "date_published": "2026-10-23T17:52:46.060Z",
-      "date_modified": "2026-11-13T04:13:54.437Z",
+      "date_modified": "2026-11-17T04:14:44.528Z",
       "tags": [
         "live",
         "daily",
@@ -1261,7 +1261,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-24",
-        "revision": "896acd29435718087974f80f606400fd023bb30d228a894eca1f433885c521f7",
+        "revision": "29a19c27a735db748d4a3ba1caae31e18d21c0345c00b675c3f0c8d23a79a7c6",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -1283,7 +1283,7 @@
       "title": "共振 · 2026-10-23 综合热歌榜",
       "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.3。\n1. 我不难过 — 孙燕姿 · 93.30 分\n2. 天龙八部之宿敌 — 许嵩 · 82.21 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.99 分\n4. 恋人 — 李荣浩 · 60.40 分\n5. 雨爱 — 杨丞琳 · 54.30 分\n6. 我怀念的 — 孙燕姿 · 52.97 分\n7. 开始懂了 — 孙燕姿 · 49.45 分\n8. NEON — A2O LITE / A2O · 41.62 分\n9. 情歌 — 梁静茹 · 39.83 分\n10. 茶汤 — 郁可唯 · 34.93 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-23.json",
       "date_published": "2026-10-23T03:18:23.844Z",
-      "date_modified": "2026-11-13T04:13:54.275Z",
+      "date_modified": "2026-11-17T04:14:44.362Z",
       "tags": [
         "live",
         "daily",
@@ -1292,7 +1292,7 @@
       "_resonance": {
         "kind": "daily",
         "date": "2026-10-23",
-        "revision": "267e95fb07cb0e54db1426267c65ac883981aeb77f696ecfbef88b80a15fb09e",
+        "revision": "1780749c4153c11df5378cd3fd6dd8201b27899fcc58c3128a2413e28f3b9ee0",
         "methodologyVersion": "1.3",
         "coverage": {
           "available": 6,

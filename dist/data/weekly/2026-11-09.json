@@ -2,7 +2,7 @@
   "weekStart": "2026-11-09",
   "weekEnd": "2026-11-15",
   "mode": "live",
-  "generatedAt": "2026-11-17T04:11:20.169Z",
+  "generatedAt": "2026-11-17T04:14:49.550Z",
   "asOfDate": "2026-11-17",
   "status": "complete",
   "entryHistoryStart": "2026-10-19",
@@ -71,37 +71,37 @@
       {
         "date": "2026-11-09",
         "version": "1.4",
-        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|0cb0642f68d4|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-10",
         "version": "1.4",
-        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|0cb0642f68d4|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-11",
         "version": "1.4",
-        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|0cb0642f68d4|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-12",
         "version": "1.4",
-        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|0cb0642f68d4|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-13",
         "version": "1.4",
-        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|0cb0642f68d4|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-14",
         "version": "1.4",
-        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|0cb0642f68d4|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       },
       {
         "date": "2026-11-15",
         "version": "1.4",
-        "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|0cb0642f68d4|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       }
     ],
     "formula": "周得分 = 各有效日按当日保存公式计算的得分之和 ÷ 有效天数；公式升级不排除历史日期，缺失日与无效日不进入分母",
@@ -135,7 +135,7 @@
       "qishui": 0.1
     }
   },
-  "comparisonSignature": "1.4|33dd15ade22c|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
+  "comparisonSignature": "1.4|0cb0642f68d4|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
   "coverage": {
     "observedDays": 7,
     "expectedDays": 7,
@@ -14490,10 +14490,10 @@
       }
     },
     {
-      "id": "5109fed3721a09519c3c",
+      "id": "198f931017f1afd28580",
       "title": "红",
       "artists": [
-        "罗言"
+        "罗言RollFlash"
       ],
       "artwork": "http://p2.music.126.net/G-inyKjA-jO5MuOuV3g7Pg==/109951167027986653.jpg",
       "rank": 59,
