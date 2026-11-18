@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-18T04:10:31.773Z",
+  "fetchedAt": "2026-11-18T08:32:14.857Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-18 08:30:01",
   "entries": [
@@ -627,7 +627,7 @@
         "蓝鲸"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261109/20261109102306400327.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261118/20261118145159784371.jpg",
       "url": "https://www.kugou.com/song/#hash=E0B60A261875C74CB89643CEBE938D3B",
       "sourceMovement": {
         "direction": "down",
@@ -1260,8 +1260,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "18772426",
-            "hash": "051D937FAF0E64D0D507E78D166BE88E",
+            "id": "18741891",
+            "hash": "3F4B74455C92860724A284E08EC27632",
             "url": null
           }
         ]
@@ -2965,7 +2965,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-17",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-18T04:10:31.773Z",
+        "currentObservedAt": "2026-11-18T08:32:14.857Z",
         "previousObservedAt": "2026-11-17T09:12:25.688Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5290,7 +5290,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-17",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-18T04:10:31.773Z",
+        "currentObservedAt": "2026-11-18T08:32:14.857Z",
         "previousObservedAt": "2026-11-17T09:12:25.688Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7275,7 +7275,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-18T04:10:31.773Z",
+  "attemptedAt": "2026-11-18T08:32:14.857Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7285,5 +7285,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T04:10:31.773Z"
+  "generatedAt": "2026-11-18T08:32:14.857Z"
 }
