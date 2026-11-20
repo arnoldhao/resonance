@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T08:31:57.933Z",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-20T21:04:05.295Z",
   "providerId": "apple",
   "name": "Apple Music",
   "dates": [
+    "2026-11-21",
     "2026-11-20",
     "2026-11-19",
     "2026-11-18",
@@ -42,6 +43,18 @@
     "2026-09-28"
   ],
   "editions": [
+    {
+      "date": "2026-11-21",
+      "mode": "live",
+      "ingestion": "public",
+      "sourcePeriod": null,
+      "sourceUpdatedAt": "2026-11-20T21:04:07.000Z",
+      "fetchedAt": "2026-11-20T21:04:05.295Z",
+      "attemptedAt": "2026-11-20T21:04:05.295Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
+    },
     {
       "date": "2026-11-20",
       "mode": "live",

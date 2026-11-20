@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-20T08:31:57.933Z",
+  "fetchedAt": "2026-11-20T21:04:05.295Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-20 08:30:01",
   "entries": [
@@ -776,7 +776,7 @@
         "蓝鲸"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261118/20261118145159784371.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261120/20261120191151592181.jpg",
       "url": "https://www.kugou.com/song/#hash=E0B60A261875C74CB89643CEBE938D3B",
       "sourceMovement": {
         "direction": "down",
@@ -852,7 +852,7 @@
         "半吨姐妹"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261117/20261117172533286129.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261120/20261120163550827594.jpg",
       "url": "https://www.kugou.com/song/#hash=B9D6503B35203BB72DA771906FD70AB0",
       "sourceMovement": {
         "direction": "up",
@@ -3211,8 +3211,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "18947803",
+            "hash": "0F8067DAA9486D5CD295557DDE5FC2A9",
+            "url": null
+          }
+        ]
       },
       "songId": "af596e85acc3f8b9ef86"
     },
@@ -5046,15 +5052,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261119/20261119185642819457.jpg",
       "url": "https://www.kugou.com/song/#hash=9D8C7468BE4391B85794617090585646",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 141,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
+        "comparisonDate": "2026-11-20",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
+        "currentObservedAt": "2026-11-20T21:04:05.295Z",
+        "previousObservedAt": "2026-11-20T08:31:57.933Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 141,
@@ -7229,7 +7235,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-20T08:31:57.933Z",
+  "attemptedAt": "2026-11-20T21:04:05.295Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7238,6 +7244,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T08:31:57.933Z"
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-20T21:04:05.295Z"
 }

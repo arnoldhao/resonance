@@ -11,6 +11,8 @@
   "updatePolicy": "一周内热度统计，当前官方说明为每日更新；未确认固定公布时刻。",
   "access": "官方公开歌单接口",
   "providerId": "netease",
+  "status": "stale",
+  "ingestion": "cache",
   "declaredCount": 200,
   "fetchedAt": "2026-11-20T08:31:57.933Z",
   "sourceUpdatedAt": "2026-11-20T00:36:45.775Z",
@@ -2590,16 +2592,10 @@
       "url": "https://music.163.com/#/song?id=3455518907",
       "rank": 90,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -3739,16 +3735,10 @@
       "url": "https://music.163.com/#/song?id=3459859021",
       "rank": 129,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -3989,16 +3979,10 @@
       "url": "https://music.163.com/#/song?id=2109684982",
       "rank": 138,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -4299,16 +4283,10 @@
       "url": "https://music.163.com/#/song?id=3459358959",
       "rank": 149,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -4775,16 +4753,10 @@
       "url": "https://music.163.com/#/song?id=2749525442",
       "rank": 165,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -4863,16 +4835,10 @@
       "url": "https://music.163.com/#/song?id=3349955034",
       "rank": 168,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -4925,16 +4891,10 @@
       "url": "https://music.163.com/#/song?id=2122615322",
       "rank": 170,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5134,16 +5094,10 @@
       "url": "https://music.163.com/#/song?id=502043537",
       "rank": 177,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5163,16 +5117,10 @@
       "url": "https://music.163.com/#/song?id=2032201541",
       "rank": 178,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5310,16 +5258,10 @@
       "url": "https://music.163.com/#/song?id=29814898",
       "rank": 183,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5345,16 +5287,10 @@
       "url": "https://music.163.com/#/song?id=441491828",
       "rank": 184,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5444,16 +5380,10 @@
       "url": "https://music.163.com/#/song?id=1436117704",
       "rank": 187,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5589,16 +5519,10 @@
       "url": "https://music.163.com/#/song?id=1417849873",
       "rank": 192,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5682,16 +5606,10 @@
       "url": "https://music.163.com/#/song?id=1330348068",
       "rank": 195,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5795,16 +5713,10 @@
       "url": "https://music.163.com/#/song?id=211520",
       "rank": 199,
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-19",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-20T08:31:57.933Z",
-        "previousObservedAt": "2026-11-19T08:47:16.054Z",
-        "comparisonUsesCache": false,
+        "period": "previous-edition",
         "raw": {}
       },
       "mv": {
@@ -5847,17 +5759,20 @@
       "songId": "475917556ac2d2ef0650"
     }
   ],
-  "status": "ok",
-  "ingestion": "public",
-  "attemptedAt": "2026-11-20T08:31:57.933Z",
-  "collectionError": null,
-  "cacheOrigin": null,
-  "message": null,
+  "attemptedAt": "2026-11-20T21:04:05.295Z",
+  "collectionError": "榜单不足 200 首，拒绝把截断榜单计入综合榜",
+  "cacheOrigin": {
+    "date": "2026-11-20",
+    "generatedAt": "2026-11-20T08:31:57.933Z",
+    "path": "data/runs/2026-11-20/2026-11-20T08-31-57-933Z.json",
+    "ingestion": "public"
+  },
+  "message": "采集失败，沿用 2026-11-20T08:31:57.933Z 的成功观察（仍在有效窗口内）；榜单不足 200 首，拒绝把截断榜单计入综合榜",
   "weight": 0.3,
   "count": 200,
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T08:31:57.933Z"
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-20T21:04:05.295Z"
 }

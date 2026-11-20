@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T08:31:57.933Z",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-20T21:04:05.295Z",
   "providerId": "netease",
   "name": "网易云音乐",
   "dates": [
+    "2026-11-21",
     "2026-11-20",
     "2026-11-19",
     "2026-11-18",
@@ -38,6 +39,23 @@
     "2026-10-10"
   ],
   "editions": [
+    {
+      "date": "2026-11-21",
+      "mode": "live",
+      "ingestion": "cache",
+      "sourcePeriod": null,
+      "sourceUpdatedAt": "2026-11-20T00:36:45.775Z",
+      "fetchedAt": "2026-11-20T08:31:57.933Z",
+      "attemptedAt": "2026-11-20T21:04:05.295Z",
+      "collectionError": "榜单不足 200 首，拒绝把截断榜单计入综合榜",
+      "cacheOrigin": {
+        "date": "2026-11-20",
+        "generatedAt": "2026-11-20T08:31:57.933Z",
+        "path": "data/runs/2026-11-20/2026-11-20T08-31-57-933Z.json",
+        "ingestion": "public"
+      },
+      "status": "stale"
+    },
     {
       "date": "2026-11-20",
       "mode": "live",
