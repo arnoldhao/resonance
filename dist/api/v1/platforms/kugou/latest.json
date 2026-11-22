@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-22T07:58:52.544Z",
+  "fetchedAt": "2026-11-22T18:00:27.931Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-22 08:30:01",
   "entries": [
@@ -3813,15 +3813,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261120/20261120143101924472.jpg",
       "url": "https://www.kugou.com/song/#hash=E5B0727660DD269A42C816D29C9DFCEB",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 107,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-21",
+        "comparisonDate": "2026-11-22",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-22T07:58:52.544Z",
-        "previousObservedAt": "2026-11-21T08:16:17.354Z",
+        "currentObservedAt": "2026-11-22T18:00:27.931Z",
+        "previousObservedAt": "2026-11-22T07:58:52.544Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 107,
@@ -4672,15 +4672,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261119/20261119210457360257.jpg",
       "url": "https://www.kugou.com/song/#hash=355DEFA17F36CD3F11C8F3D2BD7BDB43",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 130,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-21",
+        "comparisonDate": "2026-11-22",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-22T07:58:52.544Z",
-        "previousObservedAt": "2026-11-21T08:16:17.354Z",
+        "currentObservedAt": "2026-11-22T18:00:27.931Z",
+        "previousObservedAt": "2026-11-22T07:58:52.544Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 130,
@@ -5477,15 +5477,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261119/20261119185642819457.jpg",
       "url": "https://www.kugou.com/song/#hash=9D8C7468BE4391B85794617090585646",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 152,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-21",
+        "comparisonDate": "2026-11-22",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-22T07:58:52.544Z",
-        "previousObservedAt": "2026-11-21T08:16:17.354Z",
+        "currentObservedAt": "2026-11-22T18:00:27.931Z",
+        "previousObservedAt": "2026-11-22T07:58:52.544Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 152,
@@ -7033,15 +7033,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261113/20261113144253618685.jpg",
       "url": "https://www.kugou.com/song/#hash=9D13252CD7C8D286F9E498558D3F7FFB",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 195,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-21",
+        "comparisonDate": "2026-11-22",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-22T07:58:52.544Z",
-        "previousObservedAt": "2026-11-21T08:16:17.354Z",
+        "currentObservedAt": "2026-11-22T18:00:27.931Z",
+        "previousObservedAt": "2026-11-22T07:58:52.544Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 195,
@@ -7049,8 +7049,14 @@
         }
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "19018543",
+            "hash": "E2D7F9DB46BCCBEABDE28ABEB3B866DD",
+            "url": null
+          }
+        ]
       },
       "songId": "38c3cca25cac66e44807"
     },
@@ -7237,7 +7243,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-22T07:58:52.544Z",
+  "attemptedAt": "2026-11-22T18:00:27.931Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7246,6 +7252,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-22",
-  "generatedAt": "2026-11-22T07:58:52.544Z"
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-22T18:00:27.931Z"
 }
