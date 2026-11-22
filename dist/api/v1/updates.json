@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-22",
-  "revision": "085ffb0652e1ddbd5c1f5fb913a6917d7f3f6b41a378f683bb93f4544031a391",
-  "updatedAt": "2026-11-21T20:05:32.007Z",
+  "revision": "8a0525e21bf3df17d7a1217a06bae4d8f7ac582f212a707ede410d285ace4ff7",
+  "updatedAt": "2026-11-22T04:10:33.163Z",
   "siteUrl": "https://resonance.dreamapp.cc",
   "feedUrl": "https://resonance.dreamapp.cc/feed.xml",
   "jsonFeedUrl": "https://resonance.dreamapp.cc/feed.json",
@@ -14,9 +14,9 @@
       "kind": "daily",
       "date": "2026-11-22",
       "mode": "live",
-      "revision": "e586776ee138cbc9e81bf86a6f4061248a15e941edbc639463d98e4c862cc948",
+      "revision": "e5dd1b9d751c2474a8140e066502c7fb513ced6be5c91565c0367f485153c5db",
       "publishedAt": "2026-11-21T20:05:32.007Z",
-      "updatedAt": "2026-11-21T20:05:32.007Z",
+      "updatedAt": "2026-11-22T04:10:33.163Z",
       "title": "共振 · 2026-11-22 综合热歌榜",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-22.json",
       "coverage": {
@@ -34,6 +34,15 @@
       "topTen": [
         {
           "rank": 1,
+          "id": "6995accbf8affee8f247",
+          "title": "天龙八部之宿敌",
+          "artists": [
+            "许嵩"
+          ],
+          "score": 84.0083
+        },
+        {
+          "rank": 2,
           "id": "5d47cfe6c7e99d6278ff",
           "title": "我不难过",
           "artists": [
@@ -42,40 +51,31 @@
           "score": 83.9575
         },
         {
-          "rank": 2,
-          "id": "6995accbf8affee8f247",
-          "title": "天龙八部之宿敌",
-          "artists": [
-            "许嵩"
-          ],
-          "score": 74.9959
-        },
-        {
           "rank": 3,
-          "id": "487bb610752a82429d35",
-          "title": "甲乙丙丁 (你我怎么两清)",
-          "artists": [
-            "李佳薇"
-          ],
-          "score": 59.6716
-        },
-        {
-          "rank": 4,
           "id": "6fbcc619ba99ed2ea546",
           "title": "慌啥子嘛 (赵本山版)",
           "artists": [
             "赵本山"
           ],
-          "score": 58.7759
+          "score": 59.397
+        },
+        {
+          "rank": 4,
+          "id": "487bb610752a82429d35",
+          "title": "甲乙丙丁 (你我怎么两清)",
+          "artists": [
+            "李佳薇"
+          ],
+          "score": 55.4543
         },
         {
           "rank": 5,
-          "id": "121cb1ac2086675f2650",
-          "title": "任天堂",
+          "id": "8c0daa3d1077edcbc6c8",
+          "title": "我怀念的",
           "artists": [
-            "邓紫棋"
+            "孙燕姿"
           ],
-          "score": 52.7778
+          "score": 51.5191
         },
         {
           "rank": 6,
@@ -84,16 +84,17 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 51.9537
+          "score": 51.2142
         },
         {
           "rank": 7,
-          "id": "8c0daa3d1077edcbc6c8",
-          "title": "我怀念的",
+          "id": "f080d96cf9c5e2c52419",
+          "title": "time machine (feat. aren park)",
           "artists": [
-            "孙燕姿"
+            "mj apanay",
+            "aren park"
           ],
-          "score": 49.8706
+          "score": 49.739
         },
         {
           "rank": 8,
@@ -102,7 +103,7 @@
           "artists": [
             "薛之谦"
           ],
-          "score": 47.309
+          "score": 45.2711
         },
         {
           "rank": 9,
@@ -111,20 +112,19 @@
           "artists": [
             "BESTie"
           ],
-          "score": 46.8408
+          "score": 44.511
         },
         {
           "rank": 10,
-          "id": "f080d96cf9c5e2c52419",
-          "title": "time machine (feat. aren park)",
+          "id": "91977beda4c37b32feae",
+          "title": "污点证人 (Live)",
           "artists": [
-            "mj apanay",
-            "aren park"
+            "薛之谦"
           ],
-          "score": 45.5227
+          "score": 43.5499
         }
       ],
-      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 83.96 分\n2. 天龙八部之宿敌 — 许嵩 · 75.00 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 59.67 分\n4. 慌啥子嘛 (赵本山版) — 赵本山 · 58.78 分\n5. 任天堂 — 邓紫棋 · 52.78 分\n6. 恋人 — 李荣浩 · 51.95 分\n7. 我怀念的 — 孙燕姿 · 49.87 分\n8. 我好像在哪见过你 — 薛之谦 · 47.31 分\n9. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 46.84 分\n10. time machine (feat. aren park) — mj apanay / aren park · 45.52 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-22.json"
+      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 天龙八部之宿敌 — 许嵩 · 84.01 分\n2. 我不难过 — 孙燕姿 · 83.96 分\n3. 慌啥子嘛 (赵本山版) — 赵本山 · 59.40 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 55.45 分\n5. 我怀念的 — 孙燕姿 · 51.52 分\n6. 恋人 — 李荣浩 · 51.21 分\n7. time machine (feat. aren park) — mj apanay / aren park · 49.74 分\n8. 我好像在哪见过你 — 薛之谦 · 45.27 分\n9. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 44.51 分\n10. 污点证人 (Live) — 薛之谦 · 43.55 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-22.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json#live",
@@ -134,9 +134,9 @@
       "monthEnd": "2026-11-30",
       "mode": "live",
       "status": "provisional",
-      "revision": "5aa3d2c59bb7dad42c05f1aea12349414a0bc84e4f845d989fb8d894611e180d",
+      "revision": "d22e96d8219b51200644ebbd058f2c12f298bc0949818d3fd07a40af64bcf367",
       "publishedAt": "2026-11-01T04:10:16.591Z",
-      "updatedAt": "2026-11-21T20:05:32.007Z",
+      "updatedAt": "2026-11-22T04:10:33.163Z",
       "title": "共振 · 2026-11-01—2026-11-30 本月预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json",
       "coverage": {
@@ -222,7 +222,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 82.1082
+          "score": 82.5179
         },
         {
           "rank": 3,
@@ -231,7 +231,7 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 64.7252
+          "score": 64.5335
         },
         {
           "rank": 4,
@@ -240,7 +240,7 @@
           "artists": [
             "The Weeknd"
           ],
-          "score": 63.4604
+          "score": 63.1272
         },
         {
           "rank": 5,
@@ -249,7 +249,7 @@
           "artists": [
             "薛之谦"
           ],
-          "score": 55.6005
+          "score": 55.5079
         },
         {
           "rank": 6,
@@ -258,7 +258,7 @@
           "artists": [
             "孙燕姿"
           ],
-          "score": 53.3172
+          "score": 53.3921
         },
         {
           "rank": 7,
@@ -267,7 +267,7 @@
           "artists": [
             "李荣浩"
           ],
-          "score": 53.1112
+          "score": 53.0776
         },
         {
           "rank": 8,
@@ -276,7 +276,7 @@
           "artists": [
             "苏艺馨Chency"
           ],
-          "score": 49.0929
+          "score": 48.7895
         },
         {
           "rank": 9,
@@ -285,7 +285,7 @@
           "artists": [
             "杨丞琳"
           ],
-          "score": 43.0247
+          "score": 43.1527
         },
         {
           "rank": 10,
@@ -294,10 +294,10 @@
           "artists": [
             "梁静茹"
           ],
-          "score": 39.3691
+          "score": 39.4357
         }
       ],
-      "summary": "本月预览：2026-11-01—2026-11-30。\n有效 22/30 天；8 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 88.70 分\n2. 天龙八部之宿敌 — 许嵩 · 82.11 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 64.73 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 63.46 分\n5. 我好像在哪见过你 — 薛之谦 · 55.60 分\n6. 我怀念的 — 孙燕姿 · 53.32 分\n7. 恋人 — 李荣浩 · 53.11 分\n8. 时过境迁 — 苏艺馨Chency · 49.09 分\n9. 雨爱 — 杨丞琳 · 43.02 分\n10. 情歌 — 梁静茹 · 39.37 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json"
+      "summary": "本月预览：2026-11-01—2026-11-30。\n有效 22/30 天；8 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 88.70 分\n2. 天龙八部之宿敌 — 许嵩 · 82.52 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 64.53 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 63.13 分\n5. 我好像在哪见过你 — 薛之谦 · 55.51 分\n6. 我怀念的 — 孙燕姿 · 53.39 分\n7. 恋人 — 李荣浩 · 53.08 分\n8. 时过境迁 — 苏艺馨Chency · 48.79 分\n9. 雨爱 — 杨丞琳 · 43.15 分\n10. 情歌 — 梁静茹 · 39.44 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-16.json#live",
@@ -306,9 +306,9 @@
       "weekEnd": "2026-11-22",
       "mode": "live",
       "status": "provisional",
-      "revision": "603be19494da8360b89a57ac8c2f3d76e4c31553394b5da27b706c364319cf0b",
+      "revision": "7f927a747d1eb9632203880b3c7b0d1ff787ab2881889d1f45ccfec3bdb3d759",
       "publishedAt": "2026-11-15T18:00:34.354Z",
-      "updatedAt": "2026-11-21T20:05:32.007Z",
+      "updatedAt": "2026-11-22T04:10:33.163Z",
       "title": "共振 · 2026-11-16—2026-11-22 本周预览",
       "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-16.json",
       "coverage": {
@@ -370,7 +370,7 @@
           "artists": [
             "许嵩"
           ],
-          "score": 77.4657
+          "score": 78.7532
         },
         {
           "rank": 3,
@@ -379,7 +379,7 @@
           "artists": [
             "李佳薇"
           ],
-          "score": 59.4736
+          "score": 58.8712
         },
         {
           "rank": 4,
@@ -388,25 +388,25 @@
           "artists": [
             "赵本山"
           ],
-          "score": 57.2254
+          "score": 57.3142
         },
         {
           "rank": 5,
-          "id": "1c4e1a4066e20511f7ab",
-          "title": "恋人",
-          "artists": [
-            "李荣浩"
-          ],
-          "score": 51.9255
-        },
-        {
-          "rank": 6,
           "id": "8c0daa3d1077edcbc6c8",
           "title": "我怀念的",
           "artists": [
             "孙燕姿"
           ],
-          "score": 51.8186
+          "score": 52.0541
+        },
+        {
+          "rank": 6,
+          "id": "1c4e1a4066e20511f7ab",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "score": 51.8198
         },
         {
           "rank": 7,
@@ -415,7 +415,7 @@
           "artists": [
             "薛之谦"
           ],
-          "score": 50.467
+          "score": 50.1759
         },
         {
           "rank": 8,
@@ -424,7 +424,7 @@
           "artists": [
             "The Weeknd"
           ],
-          "score": 46.043
+          "score": 44.9961
         },
         {
           "rank": 9,
@@ -433,7 +433,7 @@
           "artists": [
             "BESTie"
           ],
-          "score": 44.0878
+          "score": 43.755
         },
         {
           "rank": 10,
@@ -442,10 +442,10 @@
           "artists": [
             "村口吴老二"
           ],
-          "score": 42.0498
+          "score": 41.9536
         }
       ],
-      "summary": "本周预览：2026-11-16—2026-11-22。\n有效 7/7 天；0 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 85.97 分\n2. 天龙八部之宿敌 — 许嵩 · 77.47 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 59.47 分\n4. 慌啥子嘛 (赵本山版) — 赵本山 · 57.23 分\n5. 恋人 — 李荣浩 · 51.93 分\n6. 我怀念的 — 孙燕姿 · 51.82 分\n7. 我好像在哪见过你 — 薛之谦 · 50.47 分\n8. Hong Kong (feat. 王菲季候风) — The Weeknd · 46.04 分\n9. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 44.09 分\n10. 慌啥子嘛 — 村口吴老二 · 42.05 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-16.json"
+      "summary": "本周预览：2026-11-16—2026-11-22。\n有效 7/7 天；0 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 85.97 分\n2. 天龙八部之宿敌 — 许嵩 · 78.75 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 58.87 分\n4. 慌啥子嘛 (赵本山版) — 赵本山 · 57.31 分\n5. 我怀念的 — 孙燕姿 · 52.05 分\n6. 恋人 — 李荣浩 · 51.82 分\n7. 我好像在哪见过你 — 薛之谦 · 50.18 分\n8. Hong Kong (feat. 王菲季候风) — The Weeknd · 45.00 分\n9. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 43.76 分\n10. 慌啥子嘛 — 村口吴老二 · 41.95 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-16.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-21.json#live",
