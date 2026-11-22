@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-22T18:00:27.931Z",
+  "fetchedAt": "2026-11-22T20:20:42.242Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-22 08:30:01",
   "entries": [
@@ -3820,7 +3820,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-22",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-22T18:00:27.931Z",
+        "currentObservedAt": "2026-11-22T20:20:42.242Z",
         "previousObservedAt": "2026-11-22T07:58:52.544Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -4679,7 +4679,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-22",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-22T18:00:27.931Z",
+        "currentObservedAt": "2026-11-22T20:20:42.242Z",
         "previousObservedAt": "2026-11-22T07:58:52.544Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5484,7 +5484,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-22",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-22T18:00:27.931Z",
+        "currentObservedAt": "2026-11-22T20:20:42.242Z",
         "previousObservedAt": "2026-11-22T07:58:52.544Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7040,7 +7040,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-22",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-22T18:00:27.931Z",
+        "currentObservedAt": "2026-11-22T20:20:42.242Z",
         "previousObservedAt": "2026-11-22T07:58:52.544Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -7243,7 +7243,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-22T18:00:27.931Z",
+  "attemptedAt": "2026-11-22T20:20:42.242Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7253,5 +7253,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-23",
-  "generatedAt": "2026-11-22T18:00:27.931Z"
+  "generatedAt": "2026-11-22T20:20:42.242Z"
 }
