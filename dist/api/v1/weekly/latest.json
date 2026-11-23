@@ -2,7 +2,7 @@
   "weekStart": "2026-11-23",
   "weekEnd": "2026-11-29",
   "mode": "live",
-  "generatedAt": "2026-11-23T04:11:13.485Z",
+  "generatedAt": "2026-11-23T04:14:20.196Z",
   "asOfDate": "2026-11-23",
   "status": "provisional",
   "entryHistoryStart": "2026-10-19",
@@ -71,7 +71,7 @@
       {
         "date": "2026-11-23",
         "version": "1.4",
-        "comparisonSignature": "1.4|3049661a8b75|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
+        "comparisonSignature": "1.4|628b43bccf81|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200"
       }
     ],
     "formula": "周得分 = 各有效日按当日保存公式计算的得分之和 ÷ 有效天数；公式升级不排除历史日期，缺失日与无效日不进入分母",
@@ -105,7 +105,7 @@
       "qishui": 0.1
     }
   },
-  "comparisonSignature": "1.4|3049661a8b75|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
+  "comparisonSignature": "1.4|628b43bccf81|apple:100,kugou:200,kuwo:200,netease:200,qishui:50,qq:200",
   "coverage": {
     "observedDays": 1,
     "expectedDays": 7,
@@ -5833,7 +5833,7 @@
       ],
       "artwork": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000GHr773SppMX.jpg",
       "rank": 23,
-      "score": 32.4182,
+      "score": 32.5365,
       "daysOnChart": 1,
       "rankTrend": [
         {
@@ -5996,12 +5996,55 @@
           "collectionError": null,
           "cacheOrigin": null,
           "includedDate": "2026-11-23"
+        },
+        {
+          "id": "kuwo",
+          "name": "酷我音乐",
+          "rank": 163,
+          "sourceId": "75547423",
+          "url": "https://www.kuwo.cn/play_detail/75547423",
+          "eligible": true,
+          "weight": 0.05,
+          "score": 2.366382852988811,
+          "contribution": 0.11831914264944055,
+          "sourceMovement": {
+            "direction": "new",
+            "delta": null,
+            "previousRank": null,
+            "period": "previous-day",
+            "origin": "snapshot-comparison",
+            "comparisonDate": "2026-11-22",
+            "comparisonDepth": 200,
+            "currentObservedAt": "2026-11-23T04:10:34.589Z",
+            "previousObservedAt": "2026-11-22T07:58:52.544Z",
+            "comparisonUsesCache": false,
+            "raw": {
+              "rank_change": "132",
+              "trend": "u0",
+              "isnew": "0",
+              "highest_rank": "163"
+            }
+          },
+          "mv": {
+            "status": "none",
+            "items": []
+          },
+          "status": "ok",
+          "ingestion": "public",
+          "fetchedAt": "2026-11-23T04:10:34.589Z",
+          "observedDate": "2026-11-23",
+          "sourceUpdatedAt": null,
+          "sourcePeriod": "2026-11-23",
+          "attemptedAt": "2026-11-23T04:10:34.589Z",
+          "collectionError": null,
+          "cacheOrigin": null,
+          "includedDate": "2026-11-23"
         }
       ],
       "dailyScores": [
         {
           "date": "2026-11-23",
-          "score": 32.4182
+          "score": 32.5365
         }
       ],
       "previousRank": 19,
