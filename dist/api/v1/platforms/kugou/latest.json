@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-24T04:10:30.322Z",
+  "fetchedAt": "2026-11-24T10:54:23.996Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-24 08:30:01",
   "entries": [
@@ -375,7 +375,7 @@
         "沈才华"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261116/20261116182144530803.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261124/20261124140934713547.jpg",
       "url": "https://www.kugou.com/song/#hash=37714F761A6C1848FE1D1AA2B25E7F00",
       "sourceMovement": {
         "direction": "up",
@@ -456,7 +456,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-23",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-24T04:10:30.322Z",
+        "currentObservedAt": "2026-11-24T10:54:23.996Z",
         "previousObservedAt": "2026-11-23T09:01:53.624Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -465,8 +465,14 @@
         }
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "19110834",
+            "hash": "489A0C83811F6F7525532B1F9C433B63",
+            "url": null
+          }
+        ]
       },
       "songId": "56fdd9579c7fa3542e61"
     },
@@ -1865,7 +1871,7 @@
         "沈春阳"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261105/20261105170543564518.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261124/20261124151209905286.jpg",
       "url": "https://www.kugou.com/song/#hash=CD06AED8645D075483BFE575DE72CA22",
       "sourceMovement": {
         "direction": "down",
@@ -4047,7 +4053,7 @@
     {
       "sourceId": "0FD7C7675847A3B5EB6CCEBF0100AE02",
       "rank": 113,
-      "title": "大漠里的沙 (大漠长明)",
+      "title": "大漠里的沙",
       "artists": [
         "指南针"
       ],
@@ -4075,7 +4081,7 @@
           }
         ]
       },
-      "songId": "a8b84a5155e30524b137"
+      "songId": "05765d13615906bddffe"
     },
     {
       "sourceId": "B3A52A7A958BF0AED0EBFBA2E9A818B7",
@@ -4829,8 +4835,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "19110853",
+            "hash": "CE6BC00837256A95A87B94CE0808264E",
+            "url": null
+          }
+        ]
       },
       "songId": "b6d4fd2f4617c2666523"
     },
@@ -5203,7 +5215,7 @@
         "荣涉"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261103/20261103160341257506.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261124/20261124152756516990.jpg",
       "url": "https://www.kugou.com/song/#hash=1CCA9079D611FC4EA581B287A23197A5",
       "sourceMovement": {
         "direction": "down",
@@ -5825,8 +5837,14 @@
         "origin": "official"
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "19110788",
+            "hash": "92D4FA0E1EEC2B9B6C483A9FC1E554D1",
+            "url": null
+          }
+        ]
       },
       "songId": "c9d0f64cf6f7f51de4be"
     },
@@ -7212,7 +7230,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-24T04:10:30.322Z",
+  "attemptedAt": "2026-11-24T10:54:23.996Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7222,5 +7240,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T04:10:30.322Z"
+  "generatedAt": "2026-11-24T10:54:23.996Z"
 }
