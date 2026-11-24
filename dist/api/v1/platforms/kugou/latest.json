@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-24T10:54:23.996Z",
+  "fetchedAt": "2026-11-24T23:00:36.977Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-24 08:30:01",
   "entries": [
@@ -449,15 +449,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261122/20261122113111916299.jpg",
       "url": "https://www.kugou.com/song/#hash=77CE99C233CA206FEDA673AC83EB19A2",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 13,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-23",
+        "comparisonDate": "2026-11-24",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-24T10:54:23.996Z",
-        "previousObservedAt": "2026-11-23T09:01:53.624Z",
+        "currentObservedAt": "2026-11-24T23:00:36.977Z",
+        "previousObservedAt": "2026-11-24T10:54:23.996Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 13,
@@ -1855,8 +1855,13 @@
         "status": "linked",
         "items": [
           {
-            "id": "18742174",
-            "hash": "711DDB7B2DAA6F6C7C29B2C146367AB9",
+            "id": "19113297",
+            "hash": "3F2A1C7D9A963676DFDAF0378CB0568F",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "C1C82D4AF7B8EB2DC3D11AB8BD552FBB",
             "url": null
           }
         ]
@@ -3844,7 +3849,7 @@
         "陈奕迅"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20241206/20241206175512148035.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261125/20261125043021947579.jpg",
       "url": "https://www.kugou.com/song/#hash=CBFA7DDE592B23322E21E4BDAA9BE9F9",
       "sourceMovement": {
         "direction": "down",
@@ -4729,8 +4734,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "457626",
-            "hash": "AA107481493E8296F31CA717CE63372E",
+            "id": "15925447",
+            "hash": "D73C936701DF3D32B7DD089C5E623CCC",
             "url": null
           }
         ]
@@ -7230,7 +7235,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-24T10:54:23.996Z",
+  "attemptedAt": "2026-11-24T23:00:36.977Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7239,6 +7244,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-24",
-  "generatedAt": "2026-11-24T10:54:23.996Z"
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-24T23:00:36.977Z"
 }

@@ -13,12 +13,12 @@
   ],
   "items": [
     {
-      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-24.json#live",
-      "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-24.json",
-      "title": "共振 · 2026-11-24 综合热歌榜",
-      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 86.21 分\n2. 天龙八部之宿敌 — 许嵩 · 77.83 分\n3. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 60.68 分\n4. 慌啥子嘛 (赵本山版) — 赵本山 · 60.25 分\n5. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 54.01 分\n6. 我怀念的 — 孙燕姿 · 51.98 分\n7. 恋人 — 李荣浩 · 51.08 分\n8. 污点证人 (Live) — 薛之谦 · 50.09 分\n9. time machine (feat. aren park) — mj apanay / aren park · 46.68 分\n10. 我好像在哪见过你 — 薛之谦 · 45.31 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-24.json",
-      "date_published": "2026-11-24T00:49:54.241Z",
-      "date_modified": "2026-11-24T10:54:23.996Z",
+      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-25.json#live",
+      "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-25.json",
+      "title": "共振 · 2026-11-25 综合热歌榜",
+      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 86.21 分\n2. 天龙八部之宿敌 — 许嵩 · 77.95 分\n3. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 60.68 分\n4. 慌啥子嘛 (赵本山版) — 赵本山 · 60.25 分\n5. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 54.01 分\n6. 我怀念的 — 孙燕姿 · 52.26 分\n7. 恋人 — 李荣浩 · 51.22 分\n8. 污点证人 (Live) — 薛之谦 · 50.09 分\n9. time machine (feat. aren park) — mj apanay / aren park · 46.68 分\n10. 我好像在哪见过你 — 薛之谦 · 45.31 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-25.json",
+      "date_published": "2026-11-24T23:00:36.977Z",
+      "date_modified": "2026-11-24T23:00:36.977Z",
       "tags": [
         "live",
         "daily",
@@ -26,8 +26,8 @@
       ],
       "_resonance": {
         "kind": "daily",
-        "date": "2026-11-24",
-        "revision": "658517dd9260ed4b96ea9e6ea8074904e26003dd77bd90734e8a6aa6ab1e77a7",
+        "date": "2026-11-25",
+        "revision": "0c17ed251b6195e0d1e8f57f4c16a6d1031bf89e25acbf34bd57efb5bbcbd4aa",
         "methodologyVersion": "1.4",
         "coverage": {
           "available": 6,
@@ -40,16 +40,16 @@
           "comparisonAvailable": true,
           "comparisonUsesCache": false
         },
-        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-24.json"
+        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-25.json"
       }
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json",
       "title": "共振 · 2026-11-01—2026-11-30 本月预览",
-      "content_text": "本月预览：2026-11-01—2026-11-30。\n有效 24/30 天；6 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 88.40 分\n2. 天龙八部之宿敌 — 许嵩 · 82.30 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 63.60 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 60.38 分\n5. 我好像在哪见过你 — 薛之谦 · 54.63 分\n6. 我怀念的 — 孙燕姿 · 53.34 分\n7. 恋人 — 李荣浩 · 52.99 分\n8. 时过境迁 — 苏艺馨Chency · 47.78 分\n9. 雨爱 — 杨丞琳 · 42.84 分\n10. 情歌 — 梁静茹 · 39.05 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json",
+      "content_text": "本月预览：2026-11-01—2026-11-30。\n有效 25/30 天；5 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 88.31 分\n2. 天龙八部之宿敌 — 许嵩 · 82.12 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 63.22 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 59.24 分\n5. 我好像在哪见过你 — 薛之谦 · 54.26 分\n6. 我怀念的 — 孙燕姿 · 53.30 分\n7. 恋人 — 李荣浩 · 52.92 分\n8. 时过境迁 — 苏艺馨Chency · 47.48 分\n9. 雨爱 — 杨丞琳 · 42.61 分\n10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 39.38 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json",
       "date_published": "2026-11-01T04:10:16.591Z",
-      "date_modified": "2026-11-24T10:54:23.996Z",
+      "date_modified": "2026-11-24T23:00:36.977Z",
       "tags": [
         "live",
         "monthly",
@@ -61,14 +61,14 @@
         "monthStart": "2026-11-01",
         "monthEnd": "2026-11-30",
         "status": "provisional",
-        "revision": "a0ac613f84f69ef1b51065dbf2730baf7d74bd5212446f943b053683964016ca",
+        "revision": "2dda144de6b585b211bc82e55abfe550b8625c5bfe9e5cc8b64b6ea1d67c0e71",
         "methodologyVersion": "monthly-1.3",
         "baseMethodologyVersion": "1.4",
         "baseMethodologyVersions": [
           "1.4"
         ],
         "coverage": {
-          "observedDays": 24,
+          "observedDays": 25,
           "expectedDays": 30,
           "includedDates": [
             "2026-11-01",
@@ -94,11 +94,11 @@
             "2026-11-21",
             "2026-11-22",
             "2026-11-23",
-            "2026-11-24"
+            "2026-11-24",
+            "2026-11-25"
           ],
           "cachedDates": [],
           "missingDates": [
-            "2026-11-25",
             "2026-11-26",
             "2026-11-27",
             "2026-11-28",
@@ -106,7 +106,7 @@
             "2026-11-30"
           ],
           "excludedDates": [],
-          "latestIncludedDate": "2026-11-24",
+          "latestIncludedDate": "2026-11-25",
           "mixedMethods": false,
           "mixedSignatures": false,
           "comparisonAvailable": true,
@@ -135,9 +135,9 @@
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json#live",
       "url": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json",
       "title": "共振 · 2026-11-23—2026-11-29 本周预览",
-      "content_text": "本周预览：2026-11-23—2026-11-29。\n有效 2/7 天；5 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 85.07 分\n2. 天龙八部之宿敌 — 许嵩 · 79.91 分\n3. 慌啥子嘛 (赵本山版) — 赵本山 · 59.82 分\n4. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 53.39 分\n5. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 52.83 分\n6. 我怀念的 — 孙燕姿 · 52.78 分\n7. 恋人 — 李荣浩 · 52.07 分\n8. time machine (feat. aren park) — mj apanay / aren park · 50.54 分\n9. 我好像在哪见过你 — 薛之谦 · 45.00 分\n10. 愿与愁 — 林俊杰 · 43.42 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json",
+      "content_text": "本周预览：2026-11-23—2026-11-29。\n有效 3/7 天；4 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n1. 我不难过 — 孙燕姿 · 85.45 分\n2. 天龙八部之宿敌 — 许嵩 · 79.26 分\n3. 慌啥子嘛 (赵本山版) — 赵本山 · 59.97 分\n4. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 55.44 分\n5. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 53.60 分\n6. 我怀念的 — 孙燕姿 · 52.61 分\n7. 恋人 — 李荣浩 · 51.79 分\n8. time machine (feat. aren park) — mj apanay / aren park · 49.25 分\n9. 我好像在哪见过你 — 薛之谦 · 45.10 分\n10. 污点证人 (Live) — 薛之谦 · 44.53 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json",
       "date_published": "2026-11-22T18:00:27.931Z",
-      "date_modified": "2026-11-24T10:54:23.996Z",
+      "date_modified": "2026-11-24T23:00:36.977Z",
       "tags": [
         "live",
         "weekly",
@@ -148,29 +148,29 @@
         "weekStart": "2026-11-23",
         "weekEnd": "2026-11-29",
         "status": "provisional",
-        "revision": "220d5479fa22aa2562006e2de0f5025301212a5974d792b02349d87023096018",
+        "revision": "2605f5abdc26a62b6d5a8a8ead2e5587a3f6f6094b2c4766ee6499a515a2d113",
         "methodologyVersion": "weekly-1.4",
         "baseMethodologyVersion": "1.4",
         "baseMethodologyVersions": [
           "1.4"
         ],
         "coverage": {
-          "observedDays": 2,
+          "observedDays": 3,
           "expectedDays": 7,
           "includedDates": [
             "2026-11-23",
-            "2026-11-24"
+            "2026-11-24",
+            "2026-11-25"
           ],
           "cachedDates": [],
           "missingDates": [
-            "2026-11-25",
             "2026-11-26",
             "2026-11-27",
             "2026-11-28",
             "2026-11-29"
           ],
           "excludedDates": [],
-          "latestIncludedDate": "2026-11-24",
+          "latestIncludedDate": "2026-11-25",
           "mixedMethods": false,
           "mixedSignatures": false,
           "comparisonAvailable": true,
@@ -193,6 +193,37 @@
           }
         },
         "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json"
+      }
+    },
+    {
+      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-24.json#live",
+      "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-24.json",
+      "title": "共振 · 2026-11-24 综合热歌榜",
+      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 86.21 分\n2. 天龙八部之宿敌 — 许嵩 · 77.83 分\n3. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 60.68 分\n4. 慌啥子嘛 (赵本山版) — 赵本山 · 60.25 分\n5. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 54.01 分\n6. 我怀念的 — 孙燕姿 · 51.98 分\n7. 恋人 — 李荣浩 · 51.08 分\n8. 污点证人 (Live) — 薛之谦 · 50.09 分\n9. time machine (feat. aren park) — mj apanay / aren park · 46.68 分\n10. 我好像在哪见过你 — 薛之谦 · 45.31 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-24.json",
+      "date_published": "2026-11-24T00:49:54.241Z",
+      "date_modified": "2026-11-24T10:54:23.996Z",
+      "tags": [
+        "live",
+        "daily",
+        "complete"
+      ],
+      "_resonance": {
+        "kind": "daily",
+        "date": "2026-11-24",
+        "revision": "658517dd9260ed4b96ea9e6ea8074904e26003dd77bd90734e8a6aa6ab1e77a7",
+        "methodologyVersion": "1.4",
+        "coverage": {
+          "available": 6,
+          "fresh": 6,
+          "cached": 0,
+          "expected": 6,
+          "groups": 4,
+          "groupTotal": 4,
+          "status": "complete",
+          "comparisonAvailable": true,
+          "comparisonUsesCache": false
+        },
+        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-24.json"
       }
     },
     {
@@ -1402,37 +1433,6 @@
           "comparisonUsesCache": true
         },
         "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-27.json"
-      }
-    },
-    {
-      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-26.json#live",
-      "url": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-26.json",
-      "title": "共振 · 2026-10-26 综合热歌榜",
-      "content_text": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n其中 1 个平台沿用有效窗口内的历史观察；来源时间和失败原因保存在 JSON。\n1. 我不难过 — 孙燕姿 · 94.50 分\n2. 天龙八部之宿敌 — 许嵩 · 85.37 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 76.21 分\n4. 我怀念的 — 孙燕姿 · 59.59 分\n5. 恋人 — 李荣浩 · 56.81 分\n6. 雨爱 — 杨丞琳 · 54.33 分\n7. 情歌 — 梁静茹 · 47.12 分\n8. 开始懂了 — 孙燕姿 · 43.70 分\n9. 失眠 — Suki刘舒妤 · 40.54 分\n10. 特别的人 — 方大同 · 38.35 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-26.json",
-      "date_published": "2026-10-25T17:03:37.304Z",
-      "date_modified": "2026-11-23T04:14:14.243Z",
-      "tags": [
-        "live",
-        "daily",
-        "complete"
-      ],
-      "_resonance": {
-        "kind": "daily",
-        "date": "2026-10-26",
-        "revision": "0622ef770f65b4aaead57b6266af846a2cc92c5ce7b6a868627921b6744234a1",
-        "methodologyVersion": "1.4",
-        "coverage": {
-          "available": 6,
-          "fresh": 5,
-          "cached": 1,
-          "expected": 6,
-          "groups": 4,
-          "groupTotal": 4,
-          "status": "complete",
-          "comparisonAvailable": true,
-          "comparisonUsesCache": true
-        },
-        "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-26.json"
       }
     },
     {
