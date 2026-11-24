@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-23T09:01:53.624Z",
+  "fetchedAt": "2026-11-24T00:49:54.241Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-23 08:35:01",
   "entries": [
@@ -3264,7 +3264,7 @@
       "songId": "5a116a5750ca7bd1b1d1"
     },
     {
-      "sourceId": "153A5202E6300B26049C319DAC7EE452",
+      "sourceId": "B9D6503B35203BB72DA771906FD70AB0",
       "rank": 91,
       "title": "你走",
       "artists": [
@@ -3272,7 +3272,7 @@
       ],
       "album": null,
       "artwork": "https://imge.kugou.com/stdmusic/400/20261120/20261120163550827594.jpg",
-      "url": "https://www.kugou.com/song/#hash=153A5202E6300B26049C319DAC7EE452",
+      "url": "https://www.kugou.com/song/#hash=B9D6503B35203BB72DA771906FD70AB0",
       "sourceMovement": {
         "direction": "down",
         "delta": -41,
@@ -3501,8 +3501,13 @@
         "status": "linked",
         "items": [
           {
-            "id": "596458",
-            "hash": "C0A7BDDE266347305DA7FD82B022E4DC",
+            "id": "4068206",
+            "hash": "41D9EC35A8E52FD2A41929E2DA8A38CA",
+            "url": null
+          },
+          {
+            "id": null,
+            "hash": "DBC583FFE37B9AF889B257FAD4A04BE7",
             "url": null
           }
         ]
@@ -3553,15 +3558,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261119/20261119185111638802.jpg",
       "url": "https://www.kugou.com/song/#hash=FCDACB78601F0F9CA1174CE890F81113",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 99,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-22",
+        "comparisonDate": "2026-11-23",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-23T09:01:53.624Z",
-        "previousObservedAt": "2026-11-22T07:58:52.544Z",
+        "currentObservedAt": "2026-11-24T00:49:54.241Z",
+        "previousObservedAt": "2026-11-23T09:01:53.624Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 99,
@@ -3569,8 +3574,14 @@
         }
       },
       "mv": {
-        "status": "unknown",
-        "items": []
+        "status": "linked",
+        "items": [
+          {
+            "id": "19040117",
+            "hash": "46A9D3758B732019991B0B44906DCD12",
+            "url": null
+          }
+        ]
       },
       "songId": "c20c5e961da9be2e2276"
     },
@@ -4055,15 +4066,15 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261119/20261119111847395372.jpg",
       "url": "https://www.kugou.com/song/#hash=84BED504F7A0D2EA7B6D24AA35E8FC9C",
       "sourceMovement": {
-        "direction": "new",
-        "delta": null,
-        "previousRank": null,
+        "direction": "same",
+        "delta": 0,
+        "previousRank": 113,
         "period": "previous-day",
         "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-22",
+        "comparisonDate": "2026-11-23",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-23T09:01:53.624Z",
-        "previousObservedAt": "2026-11-22T07:58:52.544Z",
+        "currentObservedAt": "2026-11-24T00:49:54.241Z",
+        "previousObservedAt": "2026-11-23T09:01:53.624Z",
         "comparisonUsesCache": false,
         "raw": {
           "sort": 113,
@@ -7250,7 +7261,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-23T09:01:53.624Z",
+  "attemptedAt": "2026-11-24T00:49:54.241Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7259,6 +7270,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-23",
-  "generatedAt": "2026-11-23T09:01:53.624Z"
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T00:49:54.241Z"
 }
