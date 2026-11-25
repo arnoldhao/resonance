@@ -3036,16 +3036,10 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261123/20261123171956933959.jpg",
       "url": "https://www.kugou.com/song/#hash=FB6C0A7EC637ECFA8438A4B4475F0170",
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-24",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-25T04:10:40.954Z",
-        "previousObservedAt": "2026-11-24T10:54:23.996Z",
-        "comparisonUsesCache": true,
+        "period": "previous-edition",
         "raw": {
           "sort": 85,
           "last_sort": 0
@@ -5258,16 +5252,10 @@
       "artwork": "https://imge.kugou.com/stdmusic/400/20261108/20261108165521516790.jpg",
       "url": "https://www.kugou.com/song/#hash=23F26FC4F0E880430994020286E00AB4",
       "sourceMovement": {
-        "direction": "new",
+        "direction": "unknown",
         "delta": null,
         "previousRank": null,
-        "period": "previous-day",
-        "origin": "snapshot-comparison",
-        "comparisonDate": "2026-11-24",
-        "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-25T04:10:40.954Z",
-        "previousObservedAt": "2026-11-24T10:54:23.996Z",
-        "comparisonUsesCache": true,
+        "period": "previous-edition",
         "raw": {
           "sort": 147,
           "last_sort": 0
@@ -7229,7 +7217,7 @@
       "songId": "f3fac232e1ded5dc2654"
     }
   ],
-  "attemptedAt": "2026-11-25T09:51:04.893Z",
+  "attemptedAt": "2026-11-25T22:30:24.158Z",
   "collectionError": "第 34 行缺少曲目身份或名次无效",
   "cacheOrigin": {
     "date": "2026-11-25",
@@ -7243,6 +7231,6 @@
   "scoringCount": 200,
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T09:51:04.893Z"
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-25T22:30:24.158Z"
 }
