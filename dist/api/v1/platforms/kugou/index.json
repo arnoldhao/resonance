@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-26",
-  "generatedAt": "2026-11-25T22:30:24.158Z",
+  "generatedAt": "2026-11-26T04:10:36.520Z",
   "providerId": "kugou",
   "name": "酷狗音乐",
   "dates": [
@@ -76,19 +76,14 @@
     {
       "date": "2026-11-26",
       "mode": "live",
-      "ingestion": "cache",
-      "sourcePeriod": "2026-11-25 08:30:00",
+      "ingestion": "public",
+      "sourcePeriod": "2026-11-26 08:30:01",
       "sourceUpdatedAt": null,
-      "fetchedAt": "2026-11-25T04:10:40.954Z",
-      "attemptedAt": "2026-11-25T22:30:24.158Z",
-      "collectionError": "第 34 行缺少曲目身份或名次无效",
-      "cacheOrigin": {
-        "date": "2026-11-25",
-        "generatedAt": "2026-11-25T04:10:40.954Z",
-        "path": "data/runs/2026-11-25/2026-11-25T04-10-40-954Z.json",
-        "ingestion": "public"
-      },
-      "status": "stale"
+      "fetchedAt": "2026-11-26T04:10:36.520Z",
+      "attemptedAt": "2026-11-26T04:10:36.520Z",
+      "collectionError": null,
+      "cacheOrigin": null,
+      "status": "ok"
     },
     {
       "date": "2026-11-25",
