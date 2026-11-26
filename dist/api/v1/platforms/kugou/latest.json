@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-26T04:10:36.520Z",
+  "fetchedAt": "2026-11-26T09:30:33.428Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-26 08:30:01",
   "entries": [
@@ -758,7 +758,7 @@
     {
       "sourceId": "84BED504F7A0D2EA7B6D24AA35E8FC9C",
       "rank": 22,
-      "title": "想你一遍雪落一片 (都说冬天适合想念)",
+      "title": "想你一遍雪落一片 (早知那是最后一面)",
       "artists": [
         "沈念禾"
       ],
@@ -786,7 +786,7 @@
           }
         ]
       },
-      "songId": "b954a447e50ff6c95b3f"
+      "songId": "45b889d1294e3d029740"
     },
     {
       "sourceId": "57EA72A1563336E7F07307898E680FDC",
@@ -916,7 +916,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-25",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-26T04:10:36.520Z",
+        "currentObservedAt": "2026-11-26T09:30:33.428Z",
         "previousObservedAt": "2026-11-25T04:10:40.954Z",
         "comparisonUsesCache": true,
         "raw": {
@@ -934,7 +934,7 @@
           },
           {
             "id": null,
-            "hash": "ED14A55A3C0A294A3363EF2074353AC6",
+            "hash": "33B042719A324A1728153D54EC8A2D55",
             "url": null
           }
         ]
@@ -1320,7 +1320,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-25",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-26T04:10:36.520Z",
+        "currentObservedAt": "2026-11-26T09:30:33.428Z",
         "previousObservedAt": "2026-11-25T04:10:40.954Z",
         "comparisonUsesCache": true,
         "raw": {
@@ -4628,7 +4628,7 @@
     {
       "sourceId": "B4E99D0F11F27726BE36C04AEDFB3E4A",
       "rank": 130,
-      "title": "想你一遍雪落一片 (男版)",
+      "title": "想你一遍雪落一片 (都说冬天适合想念)",
       "artists": [
         "陆九鸿"
       ],
@@ -4656,7 +4656,7 @@
           }
         ]
       },
-      "songId": "c9d0f64cf6f7f51de4be"
+      "songId": "517bef5f531d420e1a37"
     },
     {
       "sourceId": "00751DE0946619BCDE4A4E15397F2A15",
@@ -6058,7 +6058,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-25",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-26T04:10:36.520Z",
+        "currentObservedAt": "2026-11-26T09:30:33.428Z",
         "previousObservedAt": "2026-11-25T04:10:40.954Z",
         "comparisonUsesCache": true,
         "raw": {
@@ -7225,7 +7225,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-26T04:10:36.520Z",
+  "attemptedAt": "2026-11-26T09:30:33.428Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7235,5 +7235,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-26",
-  "generatedAt": "2026-11-26T04:10:36.520Z"
+  "generatedAt": "2026-11-26T09:30:33.428Z"
 }
