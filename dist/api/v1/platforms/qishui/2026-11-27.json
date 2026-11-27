@@ -13,7 +13,7 @@
   "access": "官方榜单接口 · Web 模式 · 无需 Cookie 或签名",
   "providerId": "qishui",
   "declaredCount": 50,
-  "fetchedAt": "2026-11-27T04:10:19.267Z",
+  "fetchedAt": "2026-11-27T09:40:04.180Z",
   "sourceUpdatedAt": "2026-11-26T08:00:00.000Z",
   "sourcePeriod": "weekly",
   "entries": [
@@ -735,7 +735,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-26",
         "comparisonDepth": 50,
-        "currentObservedAt": "2026-11-27T04:10:19.267Z",
+        "currentObservedAt": "2026-11-27T09:40:04.180Z",
         "previousObservedAt": "2026-11-26T09:30:33.428Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -1427,7 +1427,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-27T04:10:19.267Z",
+  "attemptedAt": "2026-11-27T09:40:04.180Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -1437,5 +1437,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T04:10:19.267Z"
+  "generatedAt": "2026-11-27T09:40:04.180Z"
 }

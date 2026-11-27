@@ -12,7 +12,7 @@
   "access": "官方榜单 JSON · 单次完整前 200 首（原榜 500 首）",
   "providerId": "kugou",
   "declaredCount": 500,
-  "fetchedAt": "2026-11-27T04:10:19.267Z",
+  "fetchedAt": "2026-11-27T09:40:04.180Z",
   "sourceUpdatedAt": null,
   "sourcePeriod": "2026-11-27 08:30:00",
   "entries": [
@@ -95,7 +95,7 @@
         "周太初"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261123/20261123171956933959.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261127/20261127150355779040.jpg",
       "url": "https://www.kugou.com/song/#hash=FB6C0A7EC637ECFA8438A4B4475F0170",
       "sourceMovement": {
         "direction": "up",
@@ -599,8 +599,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "18742103",
-            "hash": "B656CE46DEFD136C9CECF2198F3675C2",
+            "id": "19136064",
+            "hash": "4DFB2C3553B4DFA37415DD14C72D58CE",
             "url": null
           }
         ]
@@ -703,13 +703,13 @@
         "status": "linked",
         "items": [
           {
-            "id": "19231195",
-            "hash": "21C6CECA53B36A6966BDD35DF9709423",
+            "id": "19158654",
+            "hash": "EE794523EC9B255BEC7803E680D3880B",
             "url": null
           },
           {
             "id": null,
-            "hash": "31615B84064FACF784D410E87934EDA4",
+            "hash": "33B042719A324A1728153D54EC8A2D55",
             "url": null
           }
         ]
@@ -2590,7 +2590,7 @@
         "爱歌的熊猫"
       ],
       "album": null,
-      "artwork": "https://imge.kugou.com/stdmusic/400/20261119/20261119115042326957.jpg",
+      "artwork": "https://imge.kugou.com/stdmusic/400/20261127/20261127160640153652.jpg",
       "url": "https://www.kugou.com/song/#hash=C6302028796C91269A4A617E62DDF8E1",
       "sourceMovement": {
         "direction": "up",
@@ -4971,7 +4971,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-26",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-27T04:10:19.267Z",
+        "currentObservedAt": "2026-11-27T09:40:04.180Z",
         "previousObservedAt": "2026-11-26T09:30:33.428Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5623,7 +5623,7 @@
         "origin": "snapshot-comparison",
         "comparisonDate": "2026-11-26",
         "comparisonDepth": 200,
-        "currentObservedAt": "2026-11-27T04:10:19.267Z",
+        "currentObservedAt": "2026-11-27T09:40:04.180Z",
         "previousObservedAt": "2026-11-26T09:30:33.428Z",
         "comparisonUsesCache": false,
         "raw": {
@@ -5772,8 +5772,8 @@
         "status": "linked",
         "items": [
           {
-            "id": "15925447",
-            "hash": "D73C936701DF3D32B7DD089C5E623CCC",
+            "id": "457626",
+            "hash": "AA107481493E8296F31CA717CE63372E",
             "url": null
           }
         ]
@@ -7198,7 +7198,7 @@
   ],
   "status": "ok",
   "ingestion": "public",
-  "attemptedAt": "2026-11-27T04:10:19.267Z",
+  "attemptedAt": "2026-11-27T09:40:04.180Z",
   "collectionError": null,
   "cacheOrigin": null,
   "message": null,
@@ -7208,5 +7208,5 @@
   "schemaVersion": 1,
   "mode": "live",
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T04:10:19.267Z"
+  "generatedAt": "2026-11-27T09:40:04.180Z"
 }
