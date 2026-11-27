@@ -1,14 +1,458 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "date": "2026-11-27",
-  "revision": "ea2d6ff3613996f9ce0e4676c32f801ce7c9260ee06782250da061c6f0064c2c",
-  "updatedAt": "2026-11-27T09:40:04.180Z",
+  "date": "2026-11-28",
+  "revision": "a5352256b536e987487fe1e80d11ab465bc252f6ea1956f45b7e72028a271006",
+  "updatedAt": "2026-11-27T21:57:33.669Z",
   "siteUrl": "https://resonance.dreamapp.cc",
   "feedUrl": "https://resonance.dreamapp.cc/feed.xml",
   "jsonFeedUrl": "https://resonance.dreamapp.cc/feed.json",
   "hubUrl": null,
   "entries": [
+    {
+      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-28.json#live",
+      "kind": "daily",
+      "date": "2026-11-28",
+      "mode": "live",
+      "revision": "5ed0c59258554742f61bf28b36e09323eabb28d1b56005d7c805863ae356c28f",
+      "publishedAt": "2026-11-27T21:57:33.669Z",
+      "updatedAt": "2026-11-27T21:57:33.669Z",
+      "title": "共振 · 2026-11-28 综合热歌榜",
+      "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-28.json",
+      "coverage": {
+        "available": 6,
+        "fresh": 6,
+        "cached": 0,
+        "expected": 6,
+        "groups": 4,
+        "groupTotal": 4,
+        "status": "complete",
+        "comparisonAvailable": true,
+        "comparisonUsesCache": false
+      },
+      "methodologyVersion": "1.4",
+      "topTen": [
+        {
+          "rank": 1,
+          "id": "5d47cfe6c7e99d6278ff",
+          "title": "我不难过",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 85.2496
+        },
+        {
+          "rank": 2,
+          "id": "6995accbf8affee8f247",
+          "title": "天龙八部之宿敌",
+          "artists": [
+            "许嵩"
+          ],
+          "score": 76.0136
+        },
+        {
+          "rank": 3,
+          "id": "6fbcc619ba99ed2ea546",
+          "title": "慌啥子嘛 (赵本山版)",
+          "artists": [
+            "赵本山"
+          ],
+          "score": 70.5819
+        },
+        {
+          "rank": 4,
+          "id": "01ced140824e12244086",
+          "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
+          "artists": [
+            "BESTie"
+          ],
+          "score": 60.9946
+        },
+        {
+          "rank": 5,
+          "id": "1c4e1a4066e20511f7ab",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "score": 52.7582
+        },
+        {
+          "rank": 6,
+          "id": "8c0daa3d1077edcbc6c8",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 50.2078
+        },
+        {
+          "rank": 7,
+          "id": "b4361e58e0661faae1fe",
+          "title": "愿与愁",
+          "artists": [
+            "林俊杰"
+          ],
+          "score": 49.2282
+        },
+        {
+          "rank": 8,
+          "id": "487bb610752a82429d35",
+          "title": "甲乙丙丁 (你我怎么两清)",
+          "artists": [
+            "李佳薇"
+          ],
+          "score": 48.7411
+        },
+        {
+          "rank": 9,
+          "id": "f080d96cf9c5e2c52419",
+          "title": "time machine (feat. aren park)",
+          "artists": [
+            "mj apanay",
+            "aren park"
+          ],
+          "score": 45.9122
+        },
+        {
+          "rank": 10,
+          "id": "7940601b57e83658b527",
+          "title": "我好像在哪见过你",
+          "artists": [
+            "薛之谦"
+          ],
+          "score": 39.4583
+        }
+      ],
+      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 85.25 分\n2. 天龙八部之宿敌 — 许嵩 · 76.01 分\n3. 慌啥子嘛 (赵本山版) — 赵本山 · 70.58 分\n4. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 60.99 分\n5. 恋人 — 李荣浩 · 52.76 分\n6. 我怀念的 — 孙燕姿 · 50.21 分\n7. 愿与愁 — 林俊杰 · 49.23 分\n8. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 48.74 分\n9. time machine (feat. aren park) — mj apanay / aren park · 45.91 分\n10. 我好像在哪见过你 — 薛之谦 · 39.46 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-28.json"
+    },
+    {
+      "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json#live",
+      "kind": "monthly",
+      "month": "2026-11",
+      "monthStart": "2026-11-01",
+      "monthEnd": "2026-11-30",
+      "mode": "live",
+      "status": "provisional",
+      "revision": "9a0334b95a877c47dd19e500ef877e40c53ef940839706176c64cdf879a9fbd2",
+      "publishedAt": "2026-11-01T04:10:16.591Z",
+      "updatedAt": "2026-11-27T21:57:33.669Z",
+      "title": "共振 · 2026-11-01—2026-11-30 本月预览",
+      "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json",
+      "coverage": {
+        "observedDays": 28,
+        "expectedDays": 30,
+        "includedDates": [
+          "2026-11-01",
+          "2026-11-02",
+          "2026-11-03",
+          "2026-11-04",
+          "2026-11-05",
+          "2026-11-06",
+          "2026-11-07",
+          "2026-11-08",
+          "2026-11-09",
+          "2026-11-10",
+          "2026-11-11",
+          "2026-11-12",
+          "2026-11-13",
+          "2026-11-14",
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17",
+          "2026-11-18",
+          "2026-11-19",
+          "2026-11-20",
+          "2026-11-21",
+          "2026-11-22",
+          "2026-11-23",
+          "2026-11-24",
+          "2026-11-25",
+          "2026-11-26",
+          "2026-11-27",
+          "2026-11-28"
+        ],
+        "cachedDates": [
+          "2026-11-25"
+        ],
+        "missingDates": [
+          "2026-11-29",
+          "2026-11-30"
+        ],
+        "excludedDates": [],
+        "latestIncludedDate": "2026-11-28",
+        "mixedMethods": false,
+        "mixedSignatures": false,
+        "comparisonAvailable": true,
+        "comparisonUsesCache": true,
+        "comparisonUsesIncomplete": true,
+        "comparisonBaseline": {
+          "periodStart": "2026-10-01",
+          "status": "incomplete",
+          "observedDays": 9,
+          "expectedDays": 31
+        },
+        "sourceCoverage": {
+          "available": 6,
+          "fresh": 6,
+          "cached": 0,
+          "expected": 6,
+          "groups": 4,
+          "groupTotal": 4,
+          "status": "complete"
+        }
+      },
+      "methodologyVersion": "monthly-1.3",
+      "baseMethodologyVersion": "1.4",
+      "baseMethodologyVersions": [
+        "1.4"
+      ],
+      "topTen": [
+        {
+          "rank": 1,
+          "id": "5d47cfe6c7e99d6278ff",
+          "title": "我不难过",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 87.8552
+        },
+        {
+          "rank": 2,
+          "id": "6995accbf8affee8f247",
+          "title": "天龙八部之宿敌",
+          "artists": [
+            "许嵩"
+          ],
+          "score": 81.3091
+        },
+        {
+          "rank": 3,
+          "id": "487bb610752a82429d35",
+          "title": "甲乙丙丁 (你我怎么两清)",
+          "artists": [
+            "李佳薇"
+          ],
+          "score": 61.6199
+        },
+        {
+          "rank": 4,
+          "id": "7b2499dcbf49017954cd",
+          "title": "Hong Kong (feat. 王菲季候风)",
+          "artists": [
+            "The Weeknd"
+          ],
+          "score": 55.9188
+        },
+        {
+          "rank": 5,
+          "id": "1c4e1a4066e20511f7ab",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "score": 52.8046
+        },
+        {
+          "rank": 6,
+          "id": "8c0daa3d1077edcbc6c8",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 52.7888
+        },
+        {
+          "rank": 7,
+          "id": "7940601b57e83658b527",
+          "title": "我好像在哪见过你",
+          "artists": [
+            "薛之谦"
+          ],
+          "score": 52.6733
+        },
+        {
+          "rank": 8,
+          "id": "cea514c84596f8d5cb19",
+          "title": "时过境迁",
+          "artists": [
+            "苏艺馨Chency"
+          ],
+          "score": 46.2119
+        },
+        {
+          "rank": 9,
+          "id": "61c8815b55293dd4a3cd",
+          "title": "雨爱",
+          "artists": [
+            "杨丞琳"
+          ],
+          "score": 41.7944
+        },
+        {
+          "rank": 10,
+          "id": "01ced140824e12244086",
+          "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
+          "artists": [
+            "BESTie"
+          ],
+          "score": 41.7885
+        }
+      ],
+      "summary": "本月预览：2026-11-01—2026-11-30。\n有效 28/30 天；2 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-11-25。\n1. 我不难过 — 孙燕姿 · 87.86 分\n2. 天龙八部之宿敌 — 许嵩 · 81.31 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 61.62 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 55.92 分\n5. 恋人 — 李荣浩 · 52.80 分\n6. 我怀念的 — 孙燕姿 · 52.79 分\n7. 我好像在哪见过你 — 薛之谦 · 52.67 分\n8. 时过境迁 — 苏艺馨Chency · 46.21 分\n9. 雨爱 — 杨丞琳 · 41.79 分\n10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 41.79 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json"
+    },
+    {
+      "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json#live",
+      "kind": "weekly",
+      "weekStart": "2026-11-23",
+      "weekEnd": "2026-11-29",
+      "mode": "live",
+      "status": "provisional",
+      "revision": "a300c453180aabc34b5416d98f83215cb4047ad59224e297ed2e520841425276",
+      "publishedAt": "2026-11-22T18:00:27.931Z",
+      "updatedAt": "2026-11-27T21:57:33.669Z",
+      "title": "共振 · 2026-11-23—2026-11-29 本周预览",
+      "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json",
+      "coverage": {
+        "observedDays": 6,
+        "expectedDays": 7,
+        "includedDates": [
+          "2026-11-23",
+          "2026-11-24",
+          "2026-11-25",
+          "2026-11-26",
+          "2026-11-27",
+          "2026-11-28"
+        ],
+        "cachedDates": [
+          "2026-11-25"
+        ],
+        "missingDates": [
+          "2026-11-29"
+        ],
+        "excludedDates": [],
+        "latestIncludedDate": "2026-11-28",
+        "mixedMethods": false,
+        "mixedSignatures": false,
+        "comparisonAvailable": true,
+        "comparisonUsesCache": true,
+        "comparisonUsesIncomplete": true,
+        "comparisonBaseline": {
+          "periodStart": "2026-11-16",
+          "status": "complete",
+          "observedDays": 7,
+          "expectedDays": 7
+        },
+        "sourceCoverage": {
+          "available": 6,
+          "fresh": 6,
+          "cached": 0,
+          "expected": 6,
+          "groups": 4,
+          "groupTotal": 4,
+          "status": "complete"
+        }
+      },
+      "methodologyVersion": "weekly-1.4",
+      "baseMethodologyVersion": "1.4",
+      "baseMethodologyVersions": [
+        "1.4"
+      ],
+      "topTen": [
+        {
+          "rank": 1,
+          "id": "5d47cfe6c7e99d6278ff",
+          "title": "我不难过",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 84.7519
+        },
+        {
+          "rank": 2,
+          "id": "6995accbf8affee8f247",
+          "title": "天龙八部之宿敌",
+          "artists": [
+            "许嵩"
+          ],
+          "score": 76.8847
+        },
+        {
+          "rank": 3,
+          "id": "6fbcc619ba99ed2ea546",
+          "title": "慌啥子嘛 (赵本山版)",
+          "artists": [
+            "赵本山"
+          ],
+          "score": 65.1263
+        },
+        {
+          "rank": 4,
+          "id": "01ced140824e12244086",
+          "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
+          "artists": [
+            "BESTie"
+          ],
+          "score": 58.6379
+        },
+        {
+          "rank": 5,
+          "id": "1c4e1a4066e20511f7ab",
+          "title": "恋人",
+          "artists": [
+            "李荣浩"
+          ],
+          "score": 51.8227
+        },
+        {
+          "rank": 6,
+          "id": "487bb610752a82429d35",
+          "title": "甲乙丙丁 (你我怎么两清)",
+          "artists": [
+            "李佳薇"
+          ],
+          "score": 50.9368
+        },
+        {
+          "rank": 7,
+          "id": "8c0daa3d1077edcbc6c8",
+          "title": "我怀念的",
+          "artists": [
+            "孙燕姿"
+          ],
+          "score": 50.5766
+        },
+        {
+          "rank": 8,
+          "id": "f080d96cf9c5e2c52419",
+          "title": "time machine (feat. aren park)",
+          "artists": [
+            "mj apanay",
+            "aren park"
+          ],
+          "score": 47.4204
+        },
+        {
+          "rank": 9,
+          "id": "b4361e58e0661faae1fe",
+          "title": "愿与愁",
+          "artists": [
+            "林俊杰"
+          ],
+          "score": 46.1698
+        },
+        {
+          "rank": 10,
+          "id": "7940601b57e83658b527",
+          "title": "我好像在哪见过你",
+          "artists": [
+            "薛之谦"
+          ],
+          "score": 42.28
+        }
+      ],
+      "summary": "本周预览：2026-11-23—2026-11-29。\n有效 6/7 天；1 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-11-25。\n1. 我不难过 — 孙燕姿 · 84.75 分\n2. 天龙八部之宿敌 — 许嵩 · 76.88 分\n3. 慌啥子嘛 (赵本山版) — 赵本山 · 65.13 分\n4. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 58.64 分\n5. 恋人 — 李荣浩 · 51.82 分\n6. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 50.94 分\n7. 我怀念的 — 孙燕姿 · 50.58 分\n8. time machine (feat. aren park) — mj apanay / aren park · 47.42 分\n9. 愿与愁 — 林俊杰 · 46.17 分\n10. 我好像在哪见过你 — 薛之谦 · 42.28 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json"
+    },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-27.json#live",
       "kind": "daily",
@@ -125,333 +569,6 @@
         }
       ],
       "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 85.25 分\n2. 天龙八部之宿敌 — 许嵩 · 75.85 分\n3. 慌啥子嘛 (赵本山版) — 赵本山 · 70.58 分\n4. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 60.99 分\n5. 恋人 — 李荣浩 · 52.82 分\n6. 我怀念的 — 孙燕姿 · 50.21 分\n7. 愿与愁 — 林俊杰 · 49.23 分\n8. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 48.74 分\n9. time machine (feat. aren park) — mj apanay / aren park · 45.91 分\n10. 我好像在哪见过你 — 薛之谦 · 39.46 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-11-27.json"
-    },
-    {
-      "id": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json#live",
-      "kind": "monthly",
-      "month": "2026-11",
-      "monthStart": "2026-11-01",
-      "monthEnd": "2026-11-30",
-      "mode": "live",
-      "status": "provisional",
-      "revision": "a992d304f4e71674bfc11cf66d3946f3547d62d888702bd4fdd729c8c68b28e4",
-      "publishedAt": "2026-11-01T04:10:16.591Z",
-      "updatedAt": "2026-11-27T09:40:04.180Z",
-      "title": "共振 · 2026-11-01—2026-11-30 本月预览",
-      "jsonUrl": "https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json",
-      "coverage": {
-        "observedDays": 27,
-        "expectedDays": 30,
-        "includedDates": [
-          "2026-11-01",
-          "2026-11-02",
-          "2026-11-03",
-          "2026-11-04",
-          "2026-11-05",
-          "2026-11-06",
-          "2026-11-07",
-          "2026-11-08",
-          "2026-11-09",
-          "2026-11-10",
-          "2026-11-11",
-          "2026-11-12",
-          "2026-11-13",
-          "2026-11-14",
-          "2026-11-15",
-          "2026-11-16",
-          "2026-11-17",
-          "2026-11-18",
-          "2026-11-19",
-          "2026-11-20",
-          "2026-11-21",
-          "2026-11-22",
-          "2026-11-23",
-          "2026-11-24",
-          "2026-11-25",
-          "2026-11-26",
-          "2026-11-27"
-        ],
-        "cachedDates": [
-          "2026-11-25"
-        ],
-        "missingDates": [
-          "2026-11-28",
-          "2026-11-29",
-          "2026-11-30"
-        ],
-        "excludedDates": [],
-        "latestIncludedDate": "2026-11-27",
-        "mixedMethods": false,
-        "mixedSignatures": false,
-        "comparisonAvailable": true,
-        "comparisonUsesCache": true,
-        "comparisonUsesIncomplete": true,
-        "comparisonBaseline": {
-          "periodStart": "2026-10-01",
-          "status": "incomplete",
-          "observedDays": 9,
-          "expectedDays": 31
-        },
-        "sourceCoverage": {
-          "available": 6,
-          "fresh": 6,
-          "cached": 0,
-          "expected": 6,
-          "groups": 4,
-          "groupTotal": 4,
-          "status": "complete"
-        }
-      },
-      "methodologyVersion": "monthly-1.3",
-      "baseMethodologyVersion": "1.4",
-      "baseMethodologyVersions": [
-        "1.4"
-      ],
-      "topTen": [
-        {
-          "rank": 1,
-          "id": "5d47cfe6c7e99d6278ff",
-          "title": "我不难过",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 87.9517
-        },
-        {
-          "rank": 2,
-          "id": "6995accbf8affee8f247",
-          "title": "天龙八部之宿敌",
-          "artists": [
-            "许嵩"
-          ],
-          "score": 81.5053
-        },
-        {
-          "rank": 3,
-          "id": "487bb610752a82429d35",
-          "title": "甲乙丙丁 (你我怎么两清)",
-          "artists": [
-            "李佳薇"
-          ],
-          "score": 62.0969
-        },
-        {
-          "rank": 4,
-          "id": "7b2499dcbf49017954cd",
-          "title": "Hong Kong (feat. 王菲季候风)",
-          "artists": [
-            "The Weeknd"
-          ],
-          "score": 56.9565
-        },
-        {
-          "rank": 5,
-          "id": "7940601b57e83658b527",
-          "title": "我好像在哪见过你",
-          "artists": [
-            "薛之谦"
-          ],
-          "score": 53.1628
-        },
-        {
-          "rank": 6,
-          "id": "8c0daa3d1077edcbc6c8",
-          "title": "我怀念的",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 52.8844
-        },
-        {
-          "rank": 7,
-          "id": "1c4e1a4066e20511f7ab",
-          "title": "恋人",
-          "artists": [
-            "李荣浩"
-          ],
-          "score": 52.8063
-        },
-        {
-          "rank": 8,
-          "id": "cea514c84596f8d5cb19",
-          "title": "时过境迁",
-          "artists": [
-            "苏艺馨Chency"
-          ],
-          "score": 46.6063
-        },
-        {
-          "rank": 9,
-          "id": "61c8815b55293dd4a3cd",
-          "title": "雨爱",
-          "artists": [
-            "杨丞琳"
-          ],
-          "score": 42.0285
-        },
-        {
-          "rank": 10,
-          "id": "01ced140824e12244086",
-          "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
-          "artists": [
-            "BESTie"
-          ],
-          "score": 41.0771
-        }
-      ],
-      "summary": "本月预览：2026-11-01—2026-11-30。\n有效 27/30 天；3 天无日快照（含尚未来到的日期），排除 0 天；方法 monthly-1.3（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-11-25。\n1. 我不难过 — 孙燕姿 · 87.95 分\n2. 天龙八部之宿敌 — 许嵩 · 81.51 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 62.10 分\n4. Hong Kong (feat. 王菲季候风) — The Weeknd · 56.96 分\n5. 我好像在哪见过你 — 薛之谦 · 53.16 分\n6. 我怀念的 — 孙燕姿 · 52.88 分\n7. 恋人 — 李荣浩 · 52.81 分\n8. 时过境迁 — 苏艺馨Chency · 46.61 分\n9. 雨爱 — 杨丞琳 · 42.03 分\n10. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 41.08 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/monthly/2026-11.json"
-    },
-    {
-      "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json#live",
-      "kind": "weekly",
-      "weekStart": "2026-11-23",
-      "weekEnd": "2026-11-29",
-      "mode": "live",
-      "status": "provisional",
-      "revision": "aecd3f3cd5040bb8f46d4d3c59b6e42036d74de701843f78ee4a9c58b8d4cfb6",
-      "publishedAt": "2026-11-22T18:00:27.931Z",
-      "updatedAt": "2026-11-27T09:40:04.180Z",
-      "title": "共振 · 2026-11-23—2026-11-29 本周预览",
-      "jsonUrl": "https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json",
-      "coverage": {
-        "observedDays": 5,
-        "expectedDays": 7,
-        "includedDates": [
-          "2026-11-23",
-          "2026-11-24",
-          "2026-11-25",
-          "2026-11-26",
-          "2026-11-27"
-        ],
-        "cachedDates": [
-          "2026-11-25"
-        ],
-        "missingDates": [
-          "2026-11-28",
-          "2026-11-29"
-        ],
-        "excludedDates": [],
-        "latestIncludedDate": "2026-11-27",
-        "mixedMethods": false,
-        "mixedSignatures": false,
-        "comparisonAvailable": true,
-        "comparisonUsesCache": true,
-        "comparisonUsesIncomplete": true,
-        "comparisonBaseline": {
-          "periodStart": "2026-11-16",
-          "status": "complete",
-          "observedDays": 7,
-          "expectedDays": 7
-        },
-        "sourceCoverage": {
-          "available": 6,
-          "fresh": 6,
-          "cached": 0,
-          "expected": 6,
-          "groups": 4,
-          "groupTotal": 4,
-          "status": "complete"
-        }
-      },
-      "methodologyVersion": "weekly-1.4",
-      "baseMethodologyVersion": "1.4",
-      "baseMethodologyVersions": [
-        "1.4"
-      ],
-      "topTen": [
-        {
-          "rank": 1,
-          "id": "5d47cfe6c7e99d6278ff",
-          "title": "我不难过",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 84.6523
-        },
-        {
-          "rank": 2,
-          "id": "6995accbf8affee8f247",
-          "title": "天龙八部之宿敌",
-          "artists": [
-            "许嵩"
-          ],
-          "score": 77.0589
-        },
-        {
-          "rank": 3,
-          "id": "6fbcc619ba99ed2ea546",
-          "title": "慌啥子嘛 (赵本山版)",
-          "artists": [
-            "赵本山"
-          ],
-          "score": 64.0352
-        },
-        {
-          "rank": 4,
-          "id": "01ced140824e12244086",
-          "title": "연애의 조건 (LOVE OPTIONS) (恋爱的条件)",
-          "artists": [
-            "BESTie"
-          ],
-          "score": 58.1666
-        },
-        {
-          "rank": 5,
-          "id": "1c4e1a4066e20511f7ab",
-          "title": "恋人",
-          "artists": [
-            "李荣浩"
-          ],
-          "score": 51.6356
-        },
-        {
-          "rank": 6,
-          "id": "487bb610752a82429d35",
-          "title": "甲乙丙丁 (你我怎么两清)",
-          "artists": [
-            "李佳薇"
-          ],
-          "score": 51.3759
-        },
-        {
-          "rank": 7,
-          "id": "8c0daa3d1077edcbc6c8",
-          "title": "我怀念的",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 50.6504
-        },
-        {
-          "rank": 8,
-          "id": "f080d96cf9c5e2c52419",
-          "title": "time machine (feat. aren park)",
-          "artists": [
-            "mj apanay",
-            "aren park"
-          ],
-          "score": 47.722
-        },
-        {
-          "rank": 9,
-          "id": "b4361e58e0661faae1fe",
-          "title": "愿与愁",
-          "artists": [
-            "林俊杰"
-          ],
-          "score": 45.5581
-        },
-        {
-          "rank": 10,
-          "id": "7940601b57e83658b527",
-          "title": "我好像在哪见过你",
-          "artists": [
-            "薛之谦"
-          ],
-          "score": 42.8443
-        }
-      ],
-      "summary": "本周预览：2026-11-23—2026-11-29。\n有效 5/7 天；2 天无日快照（含尚未来到的日期），排除 0 天；方法 weekly-1.4（日榜 1.4）。\n各有效日按当时保存的公式计分，公式升级前的历史日期继续参与汇总。\n其中 1 个有效日使用了平台历史观察：2026-11-25。\n1. 我不难过 — 孙燕姿 · 84.65 分\n2. 天龙八部之宿敌 — 许嵩 · 77.06 分\n3. 慌啥子嘛 (赵本山版) — 赵本山 · 64.04 分\n4. 연애의 조건 (LOVE OPTIONS) (恋爱的条件) — BESTie · 58.17 分\n5. 恋人 — 李荣浩 · 51.64 分\n6. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 51.38 分\n7. 我怀念的 — 孙燕姿 · 50.65 分\n8. time machine (feat. aren park) — mj apanay / aren park · 47.72 分\n9. 愿与愁 — 林俊杰 · 45.56 分\n10. 我好像在哪见过你 — 薛之谦 · 42.84 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/weekly/2026-11-23.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-11-26.json#live",
@@ -4478,122 +4595,6 @@
         }
       ],
       "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.88 分\n2. 天龙八部之宿敌 — 许嵩 · 85.52 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 73.39 分\n4. 我好像在哪见过你 — 薛之谦 · 68.49 分\n5. 季候风 — 王菲 · 62.31 分\n6. 时过境迁 — 苏艺馨Chency · 61.15 分\n7. 恋人 — 李荣浩 · 55.38 分\n8. 我怀念的 — 孙燕姿 · 55.06 分\n9. 雨爱 — 杨丞琳 · 43.72 分\n10. 开始懂了 — 孙燕姿 · 42.59 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-30.json"
-    },
-    {
-      "id": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json#live",
-      "kind": "daily",
-      "date": "2026-10-29",
-      "mode": "live",
-      "revision": "b526c5fe4154f566725bcd4b0928ccec90d1cb26720cfa67436853fbe6bedf57",
-      "publishedAt": "2026-10-29T04:10:15.572Z",
-      "updatedAt": "2026-11-27T04:12:52.516Z",
-      "title": "共振 · 2026-10-29 综合热歌榜",
-      "jsonUrl": "https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json",
-      "coverage": {
-        "available": 6,
-        "fresh": 6,
-        "cached": 0,
-        "expected": 6,
-        "groups": 4,
-        "groupTotal": 4,
-        "status": "complete",
-        "comparisonAvailable": true,
-        "comparisonUsesCache": false
-      },
-      "methodologyVersion": "1.4",
-      "topTen": [
-        {
-          "rank": 1,
-          "id": "5d47cfe6c7e99d6278ff",
-          "title": "我不难过",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 91.3254
-        },
-        {
-          "rank": 2,
-          "id": "6995accbf8affee8f247",
-          "title": "天龙八部之宿敌",
-          "artists": [
-            "许嵩"
-          ],
-          "score": 84.4907
-        },
-        {
-          "rank": 3,
-          "id": "487bb610752a82429d35",
-          "title": "甲乙丙丁 (你我怎么两清)",
-          "artists": [
-            "李佳薇"
-          ],
-          "score": 72.7343
-        },
-        {
-          "rank": 4,
-          "id": "7940601b57e83658b527",
-          "title": "我好像在哪见过你",
-          "artists": [
-            "薛之谦"
-          ],
-          "score": 69.7557
-        },
-        {
-          "rank": 5,
-          "id": "7407243b4cef78bd77c6",
-          "title": "季候风",
-          "artists": [
-            "王菲"
-          ],
-          "score": 66.8412
-        },
-        {
-          "rank": 6,
-          "id": "1c4e1a4066e20511f7ab",
-          "title": "恋人",
-          "artists": [
-            "李荣浩"
-          ],
-          "score": 55.0291
-        },
-        {
-          "rank": 7,
-          "id": "8c0daa3d1077edcbc6c8",
-          "title": "我怀念的",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 54.119
-        },
-        {
-          "rank": 8,
-          "id": "cea514c84596f8d5cb19",
-          "title": "时过境迁",
-          "artists": [
-            "苏艺馨Chency"
-          ],
-          "score": 45.6192
-        },
-        {
-          "rank": 9,
-          "id": "161752bf9ddec26f6c9c",
-          "title": "开始懂了",
-          "artists": [
-            "孙燕姿"
-          ],
-          "score": 43.6909
-        },
-        {
-          "rank": 10,
-          "id": "61c8815b55293dd4a3cd",
-          "title": "雨爱",
-          "artists": [
-            "杨丞琳"
-          ],
-          "score": 43.4438
-        }
-      ],
-      "summary": "已发布的每日综合热歌榜快照。\n覆盖 6/6 平台、4/4 来源组（complete）；方法 1.4。\n1. 我不难过 — 孙燕姿 · 91.33 分\n2. 天龙八部之宿敌 — 许嵩 · 84.49 分\n3. 甲乙丙丁 (你我怎么两清) — 李佳薇 · 72.73 分\n4. 我好像在哪见过你 — 薛之谦 · 69.76 分\n5. 季候风 — 王菲 · 66.84 分\n6. 恋人 — 李荣浩 · 55.03 分\n7. 我怀念的 — 孙燕姿 · 54.12 分\n8. 时过境迁 — 苏艺馨Chency · 45.62 分\n9. 开始懂了 — 孙燕姿 · 43.69 分\n10. 雨爱 — 杨丞琳 · 43.44 分\n完整 JSON：https://resonance.dreamapp.cc/api/v1/charts/2026-10-29.json"
     },
     {
       "id": "https://resonance.dreamapp.cc/api/v1/weekly/2026-10-19.json#live",
